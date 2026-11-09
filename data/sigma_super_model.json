@@ -3,8 +3,8 @@
   "best_shrink": 0.2,
   "best_elo_w": 0.0,
   "brier": 0.6095506143738908,
-  "hit": 0.5136,
-  "exact": 0.103,
+  "hit": 0.5128,
+  "exact": 0.1022,
   "n": 5000,
   "total_history": 31306
 }

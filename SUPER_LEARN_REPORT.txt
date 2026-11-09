@@ -1,40 +1,40 @@
 Sigma MEGA 31k - Mahmoud Emad
 Total History 31306
 Best home_adv=0.22 shrink=0.2 elo_w=0.0
-Hit 2568/5000=51.4% Exact 10.3% MAE 1.36 Brier 0.610 BTTS 54.9% Over 57.0%
+Hit 2564/5000=51.3% Exact 10.2% MAE 1.36 Brier 0.610 BTTS 55.0% Over 57.2%
 
 Top Elo:
-sp lisbon: 1854
-porto: 1843
-benfica: 1841
-psv eindhoven: 1837
-bayern munich: 1833
-barcelona: 1831
-arsenal: 1803
+lisbon: 1854
+porto: 1847
+benfica: 1842
+bayern: 1839
+barcelona: 1830
+arsenal: 1807
 inter: 1800
-paris sg: 1782
-st. gilloise: 1776
+psv: 1795
+st gilloise: 1776
+brugge: 1774
 
 Top Attack:
-bayern munich: 3.43
-psv: 3.37
+psv: 3.50
 barcelona: 3.34
-psv eindhoven: 3.19
-bayern münchen: 3.19
-club brugge: 3.06
-sp lisbon: 2.72
+bayern: 3.22
+brugge: 3.06
+lisbon: 2.72
 as roma: 2.70
-twente '65: 2.64
+twente 65: 2.64
 feyenoord rotterdam: 2.58
+madrid: 2.58
+rb leipzig: 2.57
 
 Top Defense:
 arsenal: 0.53
+lille: 0.67
 porto: 0.69
-lille osc: 0.70
 como: 0.73
-brighton & hove albion: 0.75
-paris saint-germain: 0.75
-lille: 0.78
+sporting lisbon: 0.74
+paris saint germain: 0.78
 madrid: 0.79
-famalicao: 0.82
+brighton hove albion: 0.80
 genk: 0.85
+roma: 0.87
