@@ -226,6 +226,50 @@
       ]
     },
     {
+      "match": "SS Lazio vs US Lecce",
+      "date": "2026-11-21",
+      "league": "Italy",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "US Lecce X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "SS Lazio X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "Como 1907 vs Cagliari Calcio",
       "date": "2026-11-21",
       "league": "Italy",
@@ -270,15 +314,15 @@
       ]
     },
     {
-      "match": "SS Lazio vs US Lecce",
+      "match": "SV 07 Elversberg vs SC Freiburg",
       "date": "2026-11-21",
-      "league": "Italy",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
+      "league": "Germany",
+      "pred_home": 1.6,
+      "pred_away": 1.3,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
+          "pick": "Over 1 (2.9 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -299,14 +343,14 @@
         },
         {
           "market": "X2",
-          "pick": "US Lecce X2",
+          "pick": "SC Freiburg X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "SS Lazio X2",
+          "pick": "SV 07 Elversberg X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -402,7 +446,7 @@
       ]
     },
     {
-      "match": "SV 07 Elversberg vs SC Freiburg",
+      "match": "Eintracht Frankfurt vs TSG 1899 Hoffenheim",
       "date": "2026-11-21",
       "league": "Germany",
       "pred_home": 1.6,
@@ -431,14 +475,14 @@
         },
         {
           "market": "X2",
-          "pick": "SC Freiburg X2",
+          "pick": "TSG 1899 Hoffenheim X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "SV 07 Elversberg X2",
+          "pick": "Eintracht Frankfurt X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -490,15 +534,15 @@
       ]
     },
     {
-      "match": "Eintracht Frankfurt vs TSG 1899 Hoffenheim",
+      "match": "AFC Bournemouth vs Nottingham Forest FC",
       "date": "2026-11-21",
-      "league": "Germany",
-      "pred_home": 1.6,
-      "pred_away": 1.3,
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
+          "pick": "Over 1 (3.1 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -519,14 +563,14 @@
         },
         {
           "market": "X2",
-          "pick": "TSG 1899 Hoffenheim X2",
+          "pick": "Nottingham Forest FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Eintracht Frankfurt X2",
+          "pick": "AFC Bournemouth X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -703,50 +747,6 @@
         {
           "market": "Home X2",
           "pick": "Aston Villa FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "AFC Bournemouth vs Nottingham Forest FC",
-      "date": "2026-11-21",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Nottingham Forest FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "AFC Bournemouth X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1062,50 +1062,6 @@
       ]
     },
     {
-      "match": "Feyenoord Rotterdam vs SBV Excelsior",
-      "date": "2026-11-21",
-      "league": "Netherlands",
-      "pred_home": 1.6,
-      "pred_away": 1.3,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "SBV Excelsior X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Feyenoord Rotterdam X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "FC Utrecht vs SC Cambuur-Leeuwarden",
       "date": "2026-11-21",
       "league": "Netherlands",
@@ -1150,59 +1106,15 @@
       ]
     },
     {
-      "match": "SSC Napoli vs Torino FC",
+      "match": "Feyenoord Rotterdam vs SBV Excelsior",
       "date": "2026-11-21",
-      "league": "Italy",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Torino FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "SSC Napoli X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "AS Monaco FC vs AJ Auxerre",
-      "date": "2026-11-21",
-      "league": "France",
+      "league": "Netherlands",
       "pred_home": 1.6,
-      "pred_away": 1.2,
+      "pred_away": 1.3,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
+          "pick": "Over 1 (2.9 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -1223,14 +1135,14 @@
         },
         {
           "market": "X2",
-          "pick": "AJ Auxerre X2",
+          "pick": "SBV Excelsior X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "AS Monaco FC X2",
+          "pick": "Feyenoord Rotterdam X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1326,6 +1238,94 @@
       ]
     },
     {
+      "match": "AS Monaco FC vs AJ Auxerre",
+      "date": "2026-11-21",
+      "league": "France",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "AJ Auxerre X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "AS Monaco FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "SSC Napoli vs Torino FC",
+      "date": "2026-11-21",
+      "league": "Italy",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Torino FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "SSC Napoli X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "Lille OSC vs Olympique Lyonnais",
       "date": "2026-11-21",
       "league": "France",
@@ -1363,6 +1363,50 @@
         {
           "market": "Home X2",
           "pick": "Lille OSC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "FC Groningen vs SC Heerenveen",
+      "date": "2026-11-21",
+      "league": "Netherlands",
+      "pred_home": 1.6,
+      "pred_away": 1.3,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.9 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "SC Heerenveen X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "FC Groningen X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1451,50 +1495,6 @@
         {
           "market": "Home X2",
           "pick": "Telstar 1963 X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "FC Groningen vs SC Heerenveen",
-      "date": "2026-11-21",
-      "league": "Netherlands",
-      "pred_home": 1.6,
-      "pred_away": 1.3,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "SC Heerenveen X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "FC Groningen X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1634,50 +1634,6 @@
       ]
     },
     {
-      "match": "AFC Ajax vs ADO Den Haag",
-      "date": "2026-11-22",
-      "league": "Netherlands",
-      "pred_home": 1.6,
-      "pred_away": 1.3,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "ADO Den Haag X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "AFC Ajax X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Sparta Rotterdam vs AZ",
       "date": "2026-11-22",
       "league": "Netherlands",
@@ -1722,15 +1678,15 @@
       ]
     },
     {
-      "match": "Hull City AFC vs Brighton & Hove Albion FC",
+      "match": "AFC Ajax vs ADO Den Haag",
       "date": "2026-11-22",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
+      "league": "Netherlands",
+      "pred_home": 1.6,
+      "pred_away": 1.3,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
+          "pick": "Over 1 (2.9 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -1751,14 +1707,14 @@
         },
         {
           "market": "X2",
-          "pick": "Brighton & Hove Albion FC X2",
+          "pick": "ADO Den Haag X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Hull City AFC X2",
+          "pick": "AFC Ajax X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1766,15 +1722,15 @@
       ]
     },
     {
-      "match": "Paris FC vs Angers SCO",
+      "match": "Bologna FC 1909 vs Udinese Calcio",
       "date": "2026-11-22",
-      "league": "France",
-      "pred_home": 1.6,
+      "league": "Italy",
+      "pred_home": 1.5,
       "pred_away": 1.2,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
+          "pick": "Over 1 (2.7 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -1795,14 +1751,14 @@
         },
         {
           "market": "X2",
-          "pick": "Angers SCO X2",
+          "pick": "Udinese Calcio X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Paris FC X2",
+          "pick": "Bologna FC 1909 X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -1854,15 +1810,15 @@
       ]
     },
     {
-      "match": "Bologna FC 1909 vs Udinese Calcio",
+      "match": "Paris FC vs Angers SCO",
       "date": "2026-11-22",
-      "league": "Italy",
-      "pred_home": 1.5,
+      "league": "France",
+      "pred_home": 1.6,
       "pred_away": 1.2,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
+          "pick": "Over 1 (2.8 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -1883,14 +1839,58 @@
         },
         {
           "market": "X2",
-          "pick": "Udinese Calcio X2",
+          "pick": "Angers SCO X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Bologna FC 1909 X2",
+          "pick": "Paris FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Hull City AFC vs Brighton & Hove Albion FC",
+      "date": "2026-11-22",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Brighton & Hove Albion FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Hull City AFC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -2690,50 +2690,6 @@
       ]
     },
     {
-      "match": "Nottingham Forest FC vs Chelsea FC",
-      "date": "2026-11-27",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Chelsea FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Nottingham Forest FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Levante UD vs Real Racing Club de Santander",
       "date": "2026-11-27",
       "league": "Default",
@@ -2771,6 +2727,50 @@
         {
           "market": "Home X2",
           "pick": "Levante UD X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Nottingham Forest FC vs Chelsea FC",
+      "date": "2026-11-27",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Chelsea FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Nottingham Forest FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -2998,50 +2998,6 @@
       ]
     },
     {
-      "match": "Fortuna Sittard vs SC Heerenveen",
-      "date": "2026-11-29",
-      "league": "Netherlands",
-      "pred_home": 1.6,
-      "pred_away": 1.3,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "SC Heerenveen X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Fortuna Sittard X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Feyenoord Rotterdam vs AFC Ajax",
       "date": "2026-11-29",
       "league": "Netherlands",
@@ -3086,15 +3042,15 @@
       ]
     },
     {
-      "match": "AJ Auxerre vs Olympique de Marseille",
+      "match": "Fortuna Sittard vs SC Heerenveen",
       "date": "2026-11-29",
-      "league": "France",
+      "league": "Netherlands",
       "pred_home": 1.6,
-      "pred_away": 1.2,
+      "pred_away": 1.3,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
+          "pick": "Over 1 (2.9 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -3115,14 +3071,14 @@
         },
         {
           "market": "X2",
-          "pick": "Olympique de Marseille X2",
+          "pick": "SC Heerenveen X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "AJ Auxerre X2",
+          "pick": "Fortuna Sittard X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -3174,15 +3130,15 @@
       ]
     },
     {
-      "match": "Sunderland AFC vs Tottenham Hotspur FC",
+      "match": "AJ Auxerre vs Olympique de Marseille",
       "date": "2026-11-29",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
+      "league": "France",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
+          "pick": "Over 1 (2.8 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -3203,14 +3159,14 @@
         },
         {
           "market": "X2",
-          "pick": "Tottenham Hotspur FC X2",
+          "pick": "Olympique de Marseille X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Sunderland AFC X2",
+          "pick": "AJ Auxerre X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -3262,7 +3218,7 @@
       ]
     },
     {
-      "match": "Crystal Palace FC vs Hull City AFC",
+      "match": "Sunderland AFC vs Tottenham Hotspur FC",
       "date": "2026-11-29",
       "league": "England",
       "pred_home": 1.7,
@@ -3291,14 +3247,14 @@
         },
         {
           "market": "X2",
-          "pick": "Hull City AFC X2",
+          "pick": "Tottenham Hotspur FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Crystal Palace FC X2",
+          "pick": "Sunderland AFC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -3343,6 +3299,50 @@
         {
           "market": "Home X2",
           "pick": "Brighton & Hove Albion FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Crystal Palace FC vs Hull City AFC",
+      "date": "2026-11-29",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Hull City AFC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Crystal Palace FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -3526,50 +3526,6 @@
       ]
     },
     {
-      "match": "Arsenal FC vs Manchester City FC",
-      "date": "2026-11-29",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Manchester City FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Arsenal FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "TSG 1899 Hoffenheim vs FC Augsburg",
       "date": "2026-11-29",
       "league": "Germany",
@@ -3607,6 +3563,50 @@
         {
           "market": "Home X2",
           "pick": "TSG 1899 Hoffenheim X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Arsenal FC vs Manchester City FC",
+      "date": "2026-11-29",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Manchester City FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Arsenal FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -3834,50 +3834,6 @@
       ]
     },
     {
-      "match": "Olympique Lyonnais vs AS Monaco FC",
-      "date": "2026-11-29",
-      "league": "France",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "AS Monaco FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Olympique Lyonnais X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Como 1907 vs Juventus FC",
       "date": "2026-11-29",
       "league": "Italy",
@@ -3915,6 +3871,50 @@
         {
           "market": "Home X2",
           "pick": "Como 1907 X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Olympique Lyonnais vs AS Monaco FC",
+      "date": "2026-11-29",
+      "league": "France",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "AS Monaco FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Olympique Lyonnais X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -4142,50 +4142,6 @@
       ]
     },
     {
-      "match": "Sport Lisboa e Benfica vs FC Famalicão",
-      "date": "2026-11-30",
-      "league": "Portugal",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "FC Famalicão X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Sport Lisboa e Benfica X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Casa Pia AC vs Sporting Clube de Braga",
       "date": "2026-11-30",
       "league": "Portugal",
@@ -4223,6 +4179,50 @@
         {
           "market": "Home X2",
           "pick": "Casa Pia AC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Sport Lisboa e Benfica vs FC Famalicão",
+      "date": "2026-11-30",
+      "league": "Portugal",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "FC Famalicão X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Sport Lisboa e Benfica X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -4362,50 +4362,6 @@
       ]
     },
     {
-      "match": "Chelsea FC vs Crystal Palace FC",
-      "date": "2026-12-02",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Crystal Palace FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Chelsea FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Liverpool FC vs Sunderland AFC",
       "date": "2026-12-02",
       "league": "England",
@@ -4487,6 +4443,50 @@
         {
           "market": "Home X2",
           "pick": "Manchester City FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Chelsea FC vs Crystal Palace FC",
+      "date": "2026-12-02",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Crystal Palace FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Chelsea FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -4582,50 +4582,6 @@
       ]
     },
     {
-      "match": "AFC Bournemouth vs Brighton & Hove Albion FC",
-      "date": "2026-12-02",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Brighton & Hove Albion FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "AFC Bournemouth X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Brentford FC vs Arsenal FC",
       "date": "2026-12-02",
       "league": "England",
@@ -4663,6 +4619,50 @@
         {
           "market": "Home X2",
           "pick": "Brentford FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "AFC Bournemouth vs Brighton & Hove Albion FC",
+      "date": "2026-12-02",
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (3.1 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Brighton & Hove Albion FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "AFC Bournemouth X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -4846,50 +4846,6 @@
       ]
     },
     {
-      "match": "Bologna FC 1909 vs AS Roma",
-      "date": "2026-12-04",
-      "league": "Italy",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "AS Roma X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Bologna FC 1909 X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Toulouse FC vs Paris Saint-Germain FC",
       "date": "2026-12-04",
       "league": "France",
@@ -4927,6 +4883,50 @@
         {
           "market": "Home X2",
           "pick": "Toulouse FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Bologna FC 1909 vs AS Roma",
+      "date": "2026-12-04",
+      "league": "Italy",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "AS Roma X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Bologna FC 1909 X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -5462,50 +5462,6 @@
       ]
     },
     {
-      "match": "CD Nacional vs Sport Lisboa e Benfica",
-      "date": "2026-12-05",
-      "league": "Portugal",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Sport Lisboa e Benfica X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "CD Nacional X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Willem II Tilburg vs Feyenoord Rotterdam",
       "date": "2026-12-05",
       "league": "Netherlands",
@@ -5543,6 +5499,50 @@
         {
           "market": "Home X2",
           "pick": "Willem II Tilburg X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "CD Nacional vs Sport Lisboa e Benfica",
+      "date": "2026-12-05",
+      "league": "Portugal",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Sport Lisboa e Benfica X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "CD Nacional X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -5858,6 +5858,94 @@
       ]
     },
     {
+      "match": "Racing Club de Lens vs Le Havre AC",
+      "date": "2026-12-05",
+      "league": "France",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Le Havre AC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Racing Club de Lens X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Paris FC vs Le Mans FC",
+      "date": "2026-12-05",
+      "league": "France",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Le Mans FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Paris FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "SSC Napoli vs US Lecce",
       "date": "2026-12-05",
       "league": "Italy",
@@ -5990,15 +6078,15 @@
       ]
     },
     {
-      "match": "Racing Club de Lens vs Le Havre AC",
+      "match": "Brentford FC vs Manchester City FC",
       "date": "2026-12-05",
-      "league": "France",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
+      "league": "England",
+      "pred_home": 1.7,
+      "pred_away": 1.4,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
+          "pick": "Over 1 (3.1 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -6019,58 +6107,14 @@
         },
         {
           "market": "X2",
-          "pick": "Le Havre AC X2",
+          "pick": "Manchester City FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Racing Club de Lens X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Paris FC vs Le Mans FC",
-      "date": "2026-12-05",
-      "league": "France",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Le Mans FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Paris FC X2",
+          "pick": "Brentford FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -6122,50 +6166,6 @@
       ]
     },
     {
-      "match": "Brentford FC vs Manchester City FC",
-      "date": "2026-12-05",
-      "league": "England",
-      "pred_home": 1.7,
-      "pred_away": 1.4,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (3.1 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Manchester City FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Brentford FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Sporting Clube de Braga vs FC Arouca",
       "date": "2026-12-05",
       "league": "Portugal",
@@ -6203,226 +6203,6 @@
         {
           "market": "Home X2",
           "pick": "Sporting Clube de Braga X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Rayo Vallecano de Madrid vs Levante UD",
-      "date": "2026-12-06",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Levante UD X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Rayo Vallecano de Madrid X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "FC Barcelona vs RC Celta de Vigo",
-      "date": "2026-12-06",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "RC Celta de Vigo X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "FC Barcelona X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Sevilla FC vs Málaga CF",
-      "date": "2026-12-06",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Málaga CF X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Sevilla FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Athletic Club vs Real Madrid CF",
-      "date": "2026-12-06",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Real Madrid CF X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Athletic Club X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Club Atlético de Madrid vs Real Betis Balompié",
-      "date": "2026-12-06",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Real Betis Balompié X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Club Atlético de Madrid X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -6650,6 +6430,226 @@
       ]
     },
     {
+      "match": "Rayo Vallecano de Madrid vs Levante UD",
+      "date": "2026-12-06",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Levante UD X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Rayo Vallecano de Madrid X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "FC Barcelona vs RC Celta de Vigo",
+      "date": "2026-12-06",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "RC Celta de Vigo X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "FC Barcelona X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Sevilla FC vs Málaga CF",
+      "date": "2026-12-06",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Málaga CF X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Sevilla FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Athletic Club vs Real Madrid CF",
+      "date": "2026-12-06",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Real Madrid CF X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Athletic Club X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Club Atlético de Madrid vs Real Betis Balompié",
+      "date": "2026-12-06",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Real Betis Balompié X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Club Atlético de Madrid X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "SC Heerenveen vs SC Cambuur-Leeuwarden",
       "date": "2026-12-06",
       "league": "Netherlands",
@@ -6738,6 +6738,50 @@
       ]
     },
     {
+      "match": "Go Ahead Eagles vs FC Twente '65",
+      "date": "2026-12-06",
+      "league": "Netherlands",
+      "pred_home": 1.6,
+      "pred_away": 1.3,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.9 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "FC Twente '65 X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Go Ahead Eagles X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "AFC Ajax vs FC Utrecht",
       "date": "2026-12-06",
       "league": "Netherlands",
@@ -6782,15 +6826,15 @@
       ]
     },
     {
-      "match": "Go Ahead Eagles vs FC Twente '65",
+      "match": "ES Troyes AC vs Olympique Lyonnais",
       "date": "2026-12-06",
-      "league": "Netherlands",
+      "league": "France",
       "pred_home": 1.6,
-      "pred_away": 1.3,
+      "pred_away": 1.2,
       "markets": [
         {
           "market": "Over 1",
-          "pick": "Over 1 (2.9 exp)",
+          "pick": "Over 1 (2.8 exp)",
           "safety": 9.0,
           "tier": "Gold",
           "conf": 82
@@ -6811,14 +6855,14 @@
         },
         {
           "market": "X2",
-          "pick": "FC Twente '65 X2",
+          "pick": "Olympique Lyonnais X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "Go Ahead Eagles X2",
+          "pick": "ES Troyes AC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -6958,50 +7002,6 @@
       ]
     },
     {
-      "match": "ES Troyes AC vs Olympique Lyonnais",
-      "date": "2026-12-06",
-      "league": "France",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Olympique Lyonnais X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "ES Troyes AC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "FC Schalke 04 vs Borussia Dortmund",
       "date": "2026-12-06",
       "league": "Germany",
@@ -7046,50 +7046,6 @@
       ]
     },
     {
-      "match": "Rio Ave FC vs Casa Pia AC",
-      "date": "2026-12-06",
-      "league": "Portugal",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Casa Pia AC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Rio Ave FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "CF Estrela da Amadora vs Gil Vicente FC",
       "date": "2026-12-06",
       "league": "Portugal",
@@ -7127,6 +7083,50 @@
         {
           "market": "Home X2",
           "pick": "CF Estrela da Amadora X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Rio Ave FC vs Casa Pia AC",
+      "date": "2026-12-06",
+      "league": "Portugal",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Casa Pia AC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Rio Ave FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -8718,50 +8718,6 @@
       ]
     },
     {
-      "match": "Como 1907 vs Bologna FC 1909",
-      "date": "2026-12-12",
-      "league": "Italy",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Bologna FC 1909 X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Como 1907 X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Stade Brestois 29 vs ES Troyes AC",
       "date": "2026-12-12",
       "league": "France",
@@ -8799,6 +8755,50 @@
         {
           "market": "Home X2",
           "pick": "Stade Brestois 29 X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "Como 1907 vs Bologna FC 1909",
+      "date": "2026-12-12",
+      "league": "Italy",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Bologna FC 1909 X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "Como 1907 X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -8887,50 +8887,6 @@
         {
           "market": "Home X2",
           "pick": "Gil Vicente FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
-      "match": "Elche CF vs Sevilla FC",
-      "date": "2026-12-13",
-      "league": "Default",
-      "pred_home": 1.6,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.8 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Sevilla FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "Elche CF X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -9114,7 +9070,7 @@
       ]
     },
     {
-      "match": "RCD Espanyol de Barcelona vs RC Celta de Vigo",
+      "match": "Elche CF vs Sevilla FC",
       "date": "2026-12-13",
       "league": "Default",
       "pred_home": 1.6,
@@ -9143,14 +9099,14 @@
         },
         {
           "market": "X2",
-          "pick": "RC Celta de Vigo X2",
+          "pick": "Sevilla FC X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
         },
         {
           "market": "Home X2",
-          "pick": "RCD Espanyol de Barcelona X2",
+          "pick": "Elche CF X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76
@@ -9334,6 +9290,50 @@
       ]
     },
     {
+      "match": "RCD Espanyol de Barcelona vs RC Celta de Vigo",
+      "date": "2026-12-13",
+      "league": "Default",
+      "pred_home": 1.6,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.8 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "RC Celta de Vigo X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "RCD Espanyol de Barcelona X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
       "match": "PSV vs Telstar 1963",
       "date": "2026-12-13",
       "league": "Netherlands",
@@ -9510,50 +9510,6 @@
       ]
     },
     {
-      "match": "FC Internazionale Milano vs Torino FC",
-      "date": "2026-12-13",
-      "league": "Italy",
-      "pred_home": 1.5,
-      "pred_away": 1.2,
-      "markets": [
-        {
-          "market": "Over 1",
-          "pick": "Over 1 (2.7 exp)",
-          "safety": 9.0,
-          "tier": "Gold",
-          "conf": 82
-        },
-        {
-          "market": "2H Over 0.5",
-          "pick": "2H Over 0.5 - Late 76-90 30%",
-          "safety": 9.5,
-          "tier": "Gold",
-          "conf": 85
-        },
-        {
-          "market": "BTTS",
-          "pick": "BTTS - weight 70",
-          "safety": 7.0,
-          "tier": "Value",
-          "conf": 67
-        },
-        {
-          "market": "X2",
-          "pick": "Torino FC X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        },
-        {
-          "market": "Home X2",
-          "pick": "FC Internazionale Milano X2",
-          "safety": 8.0,
-          "tier": "Balanced",
-          "conf": 76
-        }
-      ]
-    },
-    {
       "match": "Sunderland AFC vs Nottingham Forest FC",
       "date": "2026-12-13",
       "league": "England",
@@ -9679,6 +9635,50 @@
         {
           "market": "Home X2",
           "pick": "Brighton & Hove Albion FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        }
+      ]
+    },
+    {
+      "match": "FC Internazionale Milano vs Torino FC",
+      "date": "2026-12-13",
+      "league": "Italy",
+      "pred_home": 1.5,
+      "pred_away": 1.2,
+      "markets": [
+        {
+          "market": "Over 1",
+          "pick": "Over 1 (2.7 exp)",
+          "safety": 9.0,
+          "tier": "Gold",
+          "conf": 82
+        },
+        {
+          "market": "2H Over 0.5",
+          "pick": "2H Over 0.5 - Late 76-90 30%",
+          "safety": 9.5,
+          "tier": "Gold",
+          "conf": 85
+        },
+        {
+          "market": "BTTS",
+          "pick": "BTTS - weight 70",
+          "safety": 7.0,
+          "tier": "Value",
+          "conf": 67
+        },
+        {
+          "market": "X2",
+          "pick": "Torino FC X2",
+          "safety": 8.0,
+          "tier": "Balanced",
+          "conf": 76
+        },
+        {
+          "market": "Home X2",
+          "pick": "FC Internazionale Milano X2",
           "safety": 8.0,
           "tier": "Balanced",
           "conf": 76

@@ -83,8 +83,16 @@ def evaluation():
     print(f"Hit: {hit}/{n} = {hit/n*100:.1f}%")
     print(f"Exact: {exact}/{n} = {exact/n*100:.1f}%")
     print(f"MAE goals: {mae/n:.2f}")
+def do_fetch():
+    import subprocess, sys, os
+    if os.path.exists("sigma_auto_fetch.py"):
+        print("Running sigma_auto_fetch.py ...")
+        r = subprocess.run([sys.executable, "sigma_auto_fetch.py"])
+        print(f"Fetch exit: {r.returncode}")
+        return
+    print("No file: sigma_auto_fetch.py")
 while True:
-    print("\n1. Predict  2. Match list  3. Evaluation  0. Exit")
+    print("\n1. Predict  2. Match list  3. Evaluation  4. Fetch  0. Exit")
     c=input("Choose: ").strip()
     if c=="0":
         break
@@ -97,3 +105,5 @@ while True:
         match_list()
     elif c=="3":
         evaluation()
+    elif c=="4":
+        do_fetch()
