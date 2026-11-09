@@ -1,0 +1,1851 @@
+date,match,league,xG_home,xG_away,pred_home,pred_away,real_home,real_away,pick,real,brier
+2025-12-20,Heracles Almelo vs SC Heerenveen,Netherlands,1.76,1.85,2,2,0,3,2,2,0.556
+2025-12-20,SS Lazio vs US Cremonese,Italy,1.41,1.16,1,1,0,0,1,X,0.808
+2025-12-20,RB Leipzig vs Bayer 04 Leverkusen,Germany,2.29,1.57,2,2,1,3,1,2,0.822
+2025-12-20,Tottenham Hotspur FC vs Liverpool FC,England,1.47,1.7,1,2,1,2,2,2,0.518
+2025-12-20,CA Osasuna vs Deportivo Alavés,Default,1.14,0.96,1,1,3,0,1,1,0.553
+2025-12-20,SBV Excelsior vs PEC Zwolle,Netherlands,1.88,1.26,2,1,2,1,1,1,0.397
+2025-12-20,Gil Vicente FC vs Rio Ave FC,Portugal,1.18,0.98,1,1,2,2,1,X,0.763
+2025-12-20,NEC vs AFC Ajax,Netherlands,1.8,1.56,2,2,2,2,1,X,0.865
+2025-12-20,Juventus FC vs AS Roma,Italy,1.43,1.29,1,1,2,1,1,1,0.555
+2025-12-20,NAC Breda vs Telstar 1963,Netherlands,1.38,1.31,1,1,0,1,1,2,0.632
+2025-12-20,Real Madrid CF vs Sevilla FC,Default,1.28,1.01,1,1,2,0,1,1,0.516
+2025-12-20,Leeds United FC vs Crystal Palace FC,England,1.38,1.05,1,1,4,1,1,1,0.491
+2025-12-20,Everton FC vs Arsenal FC,England,1.29,1.41,1,1,0,1,2,2,0.562
+2025-12-20,CF Estrela da Amadora vs Moreirense FC,Portugal,1.68,1.28,2,1,0,0,1,X,0.852
+2025-12-21,FC Utrecht vs PSV,Netherlands,1.19,1.75,1,2,1,2,2,2,0.414
+2025-12-21,Cagliari Calcio vs AC Pisa 1909,Italy,1.89,1.33,2,1,2,2,1,X,0.884
+2025-12-21,Girona FC vs Club Atlético de Madrid,Default,1.14,1.12,1,1,0,3,1,2,0.63
+2025-12-21,Feyenoord Rotterdam vs FC Twente '65,Netherlands,1.68,1.72,2,2,1,1,2,X,0.862
+2025-12-21,Go Ahead Eagles vs FC Groningen,Netherlands,1.6,2.0,2,2,1,1,2,X,0.889
+2025-12-21,US Sassuolo Calcio vs Torino FC,Italy,2.56,1.26,3,1,0,1,1,2,1.026
+2025-12-21,1. FSV Mainz 05 vs FC St. Pauli 1910,Germany,1.44,1.42,1,1,0,0,1,X,0.824
+2025-12-21,Villarreal CF vs FC Barcelona,Default,1.53,2.01,2,2,0,2,2,2,0.436
+2025-12-21,AVS vs CD Nacional,Portugal,1.05,1.62,1,2,2,2,2,X,0.852
+2025-12-21,FC Volendam vs Sparta Rotterdam,Netherlands,1.49,1.51,1,2,0,1,2,2,0.591
+2025-12-21,Fortuna Sittard vs AZ,Netherlands,1.7,1.14,2,1,4,3,1,1,0.413
+2025-12-21,1. FC Heidenheim 1846 vs FC Bayern München,Germany,1.52,2.56,2,3,0,4,2,2,0.305
+2025-12-21,Aston Villa FC vs Manchester United FC,England,2.33,1.21,2,1,2,1,1,1,0.279
+2025-12-21,ACF Fiorentina vs Udinese Calcio,Italy,1.33,1.49,1,1,5,1,2,1,0.663
+2025-12-21,Elche CF vs Rayo Vallecano de Madrid,Default,0.91,0.46,1,0,4,0,1,1,0.483
+2025-12-21,CD Tondela vs Casa Pia AC,Portugal,1.07,0.77,1,1,1,2,1,2,0.783
+2025-12-21,Genoa CFC vs Atalanta BC,Italy,2.07,1.46,2,1,0,1,1,2,0.797
+2025-12-21,Real Betis Balompié vs Getafe CF,Default,1.11,0.33,1,0,4,0,1,1,0.35
+2025-12-21,CD Santa Clara vs FC Arouca,Portugal,1.38,0.72,1,1,0,0,1,X,0.82
+2025-12-22,FC Alverca vs FC Porto,Portugal,0.89,1.06,1,1,0,3,2,2,0.568
+2025-12-22,Fulham FC vs Nottingham Forest FC,England,1.33,1.38,1,1,1,0,2,1,0.624
+2025-12-22,Athletic Club vs RCD Espanyol de Barcelona,Default,0.75,1.31,1,1,1,2,2,2,0.418
+2025-12-22,Sport Lisboa e Benfica vs FC Famalicão,Portugal,1.47,0.88,1,1,1,0,1,1,0.405
+2025-12-23,Vitória SC vs Sporting Clube de Portugal,Portugal,1.14,1.83,1,2,1,4,2,2,0.374
+2025-12-26,Manchester United FC vs Newcastle United FC,England,1.74,1.76,2,2,1,0,2,1,0.592
+2025-12-27,Parma Calcio 1913 vs ACF Fiorentina,Italy,1.67,1.75,2,2,1,0,2,1,0.614
+2025-12-27,Nottingham Forest FC vs Manchester City FC,England,1.12,1.57,1,2,1,2,2,2,0.446
+2025-12-27,US Lecce vs Como 1907,Italy,1.8,1.51,2,2,0,3,1,2,0.69
+2025-12-27,Torino FC vs Cagliari Calcio,Italy,1.73,1.56,2,2,1,2,1,2,0.649
+2025-12-27,Liverpool FC vs Wolverhampton Wanderers FC,England,1.87,0.72,2,1,2,1,1,1,0.251
+2025-12-27,Arsenal FC vs Brighton & Hove Albion FC,England,1.58,0.76,2,1,2,1,1,1,0.335
+2025-12-27,Burnley FC vs Everton FC,England,1.24,1.31,1,1,0,0,2,X,0.799
+2025-12-27,Brentford FC vs AFC Bournemouth,England,1.71,0.98,2,1,4,1,1,1,0.362
+2025-12-27,West Ham United FC vs Fulham FC,England,1.32,1.97,1,2,0,1,2,2,0.39
+2025-12-27,Udinese Calcio vs SS Lazio,Italy,1.03,1.29,1,1,1,1,2,X,0.784
+2025-12-27,Chelsea FC vs Aston Villa FC,England,1.36,1.63,1,2,1,2,2,2,0.505
+2025-12-27,FC Famalicão vs CF Estrela da Amadora,Portugal,1.46,0.7,1,1,2,3,1,2,0.956
+2025-12-27,AC Pisa 1909 vs Juventus FC,Italy,1.54,1.86,2,2,0,2,2,2,0.484
+2025-12-27,GD Estoril Praia vs FC Alverca,Portugal,1.28,1.11,1,1,4,1,1,1,0.55
+2025-12-29,AS Roma vs Genoa CFC,Italy,1.66,1.15,2,1,3,1,1,1,0.427
+2025-12-29,FC Porto vs AVS,Portugal,2.5,0.43,2,0,2,0,1,1,0.109
+2025-12-30,West Ham United FC vs Brighton & Hove Albion FC,England,1.07,1.2,1,1,2,2,2,X,0.77
+2025-12-30,Chelsea FC vs AFC Bournemouth,England,2.0,0.98,2,1,2,2,1,X,0.953
+2025-12-30,Nottingham Forest FC vs Everton FC,England,1.04,0.67,1,1,0,2,1,2,0.835
+2025-12-30,Burnley FC vs Newcastle United FC,England,1.2,1.41,1,1,1,3,2,2,0.531
+2025-12-30,Manchester United FC vs Wolverhampton Wanderers FC,England,1.84,0.76,2,1,1,1,1,X,0.956
+2025-12-30,Arsenal FC vs Aston Villa FC,England,1.5,1.37,2,1,4,1,1,1,0.555
+2026-01-01,Crystal Palace FC vs Fulham FC,England,1.19,1.71,1,2,1,1,2,X,0.861
+2026-01-01,Liverpool FC vs Leeds United FC,England,1.83,1.6,2,2,0,0,1,X,0.868
+2026-01-01,Brentford FC vs Tottenham Hotspur FC,England,2.29,0.94,2,1,0,0,1,X,1.034
+2026-01-01,Sunderland AFC vs Manchester City FC,England,1.08,2.04,1,2,0,0,2,X,0.945
+2026-01-02,Gil Vicente FC vs Sporting Clube de Portugal,Portugal,1.06,2.25,1,2,1,1,2,X,1.001
+2026-01-02,Cagliari Calcio vs AC Milan,Italy,1.72,1.63,2,2,0,1,1,2,0.619
+2026-01-02,Toulouse FC vs Racing Club de Lens,France,1.53,1.31,2,1,0,3,1,2,0.682
+2026-01-02,Rayo Vallecano de Madrid vs Getafe CF,Default,0.66,0.2,1,0,1,1,X,X,0.523
+2026-01-02,Vitória SC vs CD Nacional,Portugal,1.27,1.29,1,1,2,1,2,1,0.618
+2026-01-03,Como 1907 vs Udinese Calcio,Italy,2.4,1.21,2,1,1,0,1,1,0.265
+2026-01-03,Aston Villa FC vs Nottingham Forest FC,England,1.7,0.88,2,1,3,1,1,1,0.335
+2026-01-03,RC Celta de Vigo vs Valencia CF,Default,1.0,0.46,1,0,4,1,1,1,0.437
+2026-01-03,Genoa CFC vs AC Pisa 1909,Italy,1.89,1.43,2,1,1,1,1,X,0.88
+2026-01-03,US Sassuolo Calcio vs Parma Calcio 1913,Italy,1.86,1.18,2,1,1,1,1,X,0.892
+2026-01-03,Wolverhampton Wanderers FC vs West Ham United FC,England,1.23,1.06,1,1,3,0,1,1,0.555
+2026-01-03,Brighton & Hove Albion FC vs Burnley FC,England,1.7,0.93,2,1,2,0,1,1,0.35
+2026-01-03,CA Osasuna vs Athletic Club,Default,1.73,0.86,2,1,1,1,1,X,0.903
+2026-01-03,CD Tondela vs FC Arouca,Portugal,1.24,0.94,1,1,3,1,1,1,0.508
+2026-01-03,AS Monaco FC vs Olympique Lyonnais,France,0.91,1.17,1,1,1,3,2,2,0.526
+2026-01-03,Juventus FC vs US Lecce,Italy,2.26,0.88,2,1,1,1,1,X,1.043
+2026-01-03,Elche CF vs Villarreal CF,Default,1.84,1.1,2,1,1,3,1,2,0.88
+2026-01-03,AFC Bournemouth vs Arsenal FC,England,1.14,2.55,1,3,2,3,2,2,0.225
+2026-01-03,CF Estrela da Amadora vs Sporting Clube de Braga,Portugal,1.0,1.35,1,1,3,3,2,X,0.797
+2026-01-03,Sport Lisboa e Benfica vs GD Estoril Praia,Portugal,1.73,0.76,2,1,3,1,1,1,0.295
+2026-01-03,OGC Nice vs RC Strasbourg Alsace,France,0.72,1.03,1,1,1,1,2,X,0.713
+2026-01-03,Atalanta BC vs AS Roma,Italy,1.41,1.62,1,2,1,0,2,1,0.67
+2026-01-03,RCD Espanyol de Barcelona vs FC Barcelona,Default,1.12,1.36,1,1,0,2,2,2,0.524
+2026-01-03,Lille OSC vs Stade Rennais FC 1901,France,2.4,1.63,2,2,0,2,1,2,0.83
+2026-01-03,AVS vs Moreirense FC,Portugal,1.35,1.41,1,1,0,2,2,2,0.582
+2026-01-04,SS Lazio vs SSC Napoli,Italy,1.21,0.96,1,1,0,2,1,2,0.73
+2026-01-04,Leeds United FC vs Manchester United FC,England,1.74,1.2,2,1,1,1,1,X,0.866
+2026-01-04,Sevilla FC vs Levante UD,Default,1.25,0.69,1,1,0,3,1,2,0.895
+2026-01-04,Olympique de Marseille vs FC Nantes,France,2.44,0.9,2,1,0,2,1,2,1.145
+2026-01-04,ACF Fiorentina vs US Cremonese,Italy,1.59,1.52,2,2,1,0,1,1,0.572
+2026-01-04,Newcastle United FC vs Crystal Palace FC,England,1.95,0.95,2,1,2,0,1,1,0.295
+2026-01-04,Everton FC vs Brentford FC,England,1.11,1.0,1,1,2,4,1,2,0.675
+2026-01-04,Tottenham Hotspur FC vs Sunderland AFC,England,1.0,0.92,1,1,1,1,1,X,0.725
+2026-01-04,Real Madrid CF vs Real Betis Balompié,Default,1.22,0.93,1,1,5,1,1,1,0.513
+2026-01-04,Fulham FC vs Liverpool FC,England,1.57,1.25,2,1,2,2,1,X,0.834
+2026-01-04,Rio Ave FC vs Casa Pia AC,Portugal,1.15,0.75,1,1,3,1,1,1,0.478
+2026-01-04,Le Havre AC vs Angers SCO,France,0.84,1.6,1,2,2,1,2,1,0.927
+2026-01-04,FC Lorient vs FC Metz,France,1.75,0.81,2,1,1,1,1,X,0.919
+2026-01-04,Stade Brestois 29 vs AJ Auxerre,France,1.81,1.43,2,1,2,0,1,1,0.468
+2026-01-04,Hellas Verona FC vs Torino FC,Italy,2.32,1.44,2,1,0,3,1,2,0.882
+2026-01-04,Deportivo Alavés vs Real Oviedo,Default,0.93,0.56,1,1,1,1,1,X,0.674
+2026-01-04,RCD Mallorca vs Girona FC,Default,1.51,0.53,2,1,1,2,1,2,1.072
+2026-01-04,Manchester City FC vs Chelsea FC,England,2.35,0.98,2,1,1,1,1,X,1.04
+2026-01-04,CD Santa Clara vs FC Porto,Portugal,0.57,1.06,1,1,0,1,2,2,0.453
+2026-01-04,FC Internazionale Milano vs Bologna FC 1909,Italy,2.1,0.96,2,1,3,1,1,1,0.266
+2026-01-04,Paris Saint-Germain FC vs Paris FC,France,2.66,0.76,3,1,2,1,1,1,0.144
+2026-01-04,Real Sociedad de Fútbol vs Club Atlético de Madrid,Default,1.03,1.32,1,1,1,1,2,X,0.791
+2026-01-04,FC Alverca vs FC Famalicão,Portugal,1.12,1.4,1,1,1,0,2,1,0.724
+2026-01-06,AC Pisa 1909 vs Como 1907,Italy,1.37,1.98,1,2,0,3,2,2,0.4
+2026-01-06,US Lecce vs AS Roma,Italy,1.19,1.53,1,2,0,2,2,2,0.482
+2026-01-06,US Sassuolo Calcio vs Juventus FC,Italy,1.58,1.48,2,1,0,3,1,2,0.631
+2026-01-06,West Ham United FC vs Nottingham Forest FC,England,1.09,1.1,1,1,1,2,2,2,0.621
+2026-01-08,US Cremonese vs Cagliari Calcio,Italy,1.53,1.19,2,1,2,2,1,X,0.828
+2026-01-08,AC Milan vs Genoa CFC,Italy,2.04,1.04,2,1,1,1,1,X,0.951
+2026-01-08,Arsenal FC vs Liverpool FC,England,2.15,1.17,2,1,0,0,1,X,0.957
+2026-01-09,Eintracht Frankfurt vs Borussia Dortmund,Germany,1.25,1.88,1,2,3,3,2,X,0.889
+2026-01-09,Getafe CF vs Real Sociedad de Fútbol,Default,0.63,1.08,1,1,1,2,2,2,0.468
+2026-01-10,Real Oviedo vs Real Betis Balompié,Default,0.95,1.26,1,1,1,1,2,X,0.778
+2026-01-10,Como 1907 vs Bologna FC 1909,Italy,2.36,1.08,2,1,1,1,1,X,1.023
+2026-01-10,Udinese Calcio vs AC Pisa 1909,Italy,1.64,1.17,2,1,2,2,1,X,0.848
+2026-01-10,SC Freiburg vs Hamburger SV,Germany,2.17,1.47,2,1,2,1,1,1,0.38
+2026-01-10,1. FC Union Berlin vs 1. FSV Mainz 05,Germany,2.05,1.1,2,1,2,2,1,X,0.946
+2026-01-10,1. FC Heidenheim 1846 vs 1. FC Köln,Germany,1.53,1.49,2,1,2,2,1,X,0.837
+2026-01-10,Villarreal CF vs Deportivo Alavés,Default,1.85,0.61,2,1,3,1,1,1,0.23
+2026-01-10,AZ vs FC Volendam,Netherlands,1.83,1.28,2,1,1,0,1,1,0.415
+2026-01-10,AS Roma vs US Sassuolo Calcio,Italy,1.86,0.95,2,1,2,0,1,1,0.315
+2026-01-10,Bayer 04 Leverkusen vs VfB Stuttgart,Germany,1.99,1.28,2,1,1,4,1,2,0.85
+2026-01-10,Girona FC vs CA Osasuna,Default,1.19,1.26,1,1,1,0,2,1,0.64
+2026-01-10,FC Twente '65 vs PEC Zwolle,Netherlands,2.04,0.96,2,1,1,1,1,X,0.967
+2026-01-10,PSV vs SBV Excelsior,Netherlands,2.11,0.95,2,1,5,1,1,1,0.262
+2026-01-10,Atalanta BC vs Torino FC,Italy,1.58,1.41,2,1,2,0,1,1,0.536
+2026-01-10,FC Groningen vs NAC Breda,Netherlands,1.59,0.75,2,1,0,0,1,X,0.883
+2026-01-10,Valencia CF vs Elche CF,Default,1.12,1.55,1,2,1,1,2,X,0.834
+2026-01-11,SC Heerenveen vs Feyenoord Rotterdam,Netherlands,2.5,1.48,2,1,2,2,1,X,0.981
+2026-01-11,US Lecce vs Parma Calcio 1913,Italy,1.14,1.44,1,1,1,2,2,2,0.499
+2026-01-11,Rayo Vallecano de Madrid vs RCD Mallorca,Default,0.6,0.82,1,1,2,1,2,1,0.798
+2026-01-11,Telstar 1963 vs AFC Ajax,Netherlands,1.4,1.5,1,2,2,3,2,2,0.562
+2026-01-11,Go Ahead Eagles vs Fortuna Sittard,Netherlands,2.03,1.89,2,2,2,2,1,X,0.891
+2026-01-11,ACF Fiorentina vs AC Milan,Italy,1.43,1.38,1,1,1,1,1,X,0.821
+2026-01-11,Borussia Mönchengladbach vs FC Augsburg,Germany,1.22,0.9,1,1,4,0,1,1,0.501
+2026-01-11,Levante UD vs RCD Espanyol de Barcelona,Default,1.01,0.77,1,1,1,1,1,X,0.711
+2026-01-11,CD Nacional vs CD Santa Clara,Portugal,1.02,0.66,1,1,3,3,1,X,0.709
+2026-01-11,Sparta Rotterdam vs Heracles Almelo,Netherlands,1.69,1.38,2,1,2,0,1,1,0.492
+2026-01-11,FC Bayern München vs VfL Wolfsburg,Germany,3.24,1.43,3,1,8,1,1,1,0.183
+2026-01-11,Hellas Verona FC vs SS Lazio,Italy,1.44,1.07,1,1,0,1,1,2,0.761
+2026-01-11,Moreirense FC vs CD Tondela,Portugal,1.47,1.24,1,1,1,0,1,1,0.523
+2026-01-11,FC Internazionale Milano vs SSC Napoli,Italy,1.94,1.03,2,1,2,2,1,X,0.93
+2026-01-12,Genoa CFC vs Cagliari Calcio,Italy,1.65,1.62,2,2,3,0,1,1,0.578
+2026-01-12,Juventus FC vs US Cremonese,Italy,2.01,0.91,2,1,5,0,1,1,0.273
+2026-01-12,Sevilla FC vs RC Celta de Vigo,Default,0.77,1.5,1,2,0,1,2,2,0.36
+2026-01-13,VfB Stuttgart vs Eintracht Frankfurt,Germany,2.57,1.58,3,2,3,2,1,1,0.317
+2026-01-13,Borussia Dortmund vs SV Werder Bremen,Germany,2.27,0.87,2,1,3,0,1,1,0.215
+2026-01-13,1. FSV Mainz 05 vs 1. FC Heidenheim 1846,Germany,1.66,1.26,2,1,2,1,1,1,0.462
+2026-01-14,VfL Wolfsburg vs FC St. Pauli 1910,Germany,1.48,1.54,1,2,2,1,2,1,0.618
+2026-01-14,SSC Napoli vs Parma Calcio 1913,Italy,1.69,1.16,2,1,0,0,1,X,0.859
+2026-01-14,TSG 1899 Hoffenheim vs Borussia Mönchengladbach,Germany,1.42,1.12,1,1,5,1,1,1,0.499
+2026-01-14,RB Leipzig vs SC Freiburg,Germany,2.34,2.07,2,2,2,0,1,1,0.495
+2026-01-14,1. FC Köln vs FC Bayern München,Germany,1.24,3.61,1,4,1,3,2,2,0.123
+2026-01-14,FC Internazionale Milano vs US Lecce,Italy,2.74,0.7,3,1,1,0,1,1,0.127
+2026-01-15,Hellas Verona FC vs Bologna FC 1909,Italy,1.67,1.57,2,2,2,3,1,2,0.626
+2026-01-15,FC Augsburg vs 1. FC Union Berlin,Germany,1.05,1.55,1,2,1,1,2,X,0.836
+2026-01-15,Como 1907 vs AC Milan,Italy,1.71,1.1,2,1,1,3,1,2,0.835
+2026-01-16,AS Monaco FC vs FC Lorient,France,0.93,1.44,1,1,1,3,2,2,0.431
+2026-01-16,SV Werder Bremen vs Eintracht Frankfurt,Germany,1.62,2.14,2,2,3,3,2,X,0.906
+2026-01-16,AC Pisa 1909 vs Atalanta BC,Italy,1.15,1.87,1,2,1,1,2,X,0.896
+2026-01-16,RCD Espanyol de Barcelona vs Girona FC,Default,1.27,0.7,1,1,0,2,1,2,0.898
+2026-01-16,Paris Saint-Germain FC vs Lille OSC,France,2.31,1.07,2,1,3,0,1,1,0.252
+2026-01-16,Sporting Clube de Portugal vs Casa Pia AC,Portugal,2.25,0.53,2,1,3,0,1,1,0.15
+2026-01-18,SC Heerenveen vs FC Groningen,Netherlands,1.63,1.06,2,1,0,2,1,2,0.831
+2026-01-18,Parma Calcio 1913 vs Genoa CFC,Italy,1.41,1.2,1,1,0,0,1,X,0.81
+2026-01-18,Getafe CF vs Valencia CF,Default,0.72,0.93,1,1,0,1,2,2,0.566
+2026-01-18,FC Volendam vs FC Utrecht,Netherlands,0.99,1.42,1,1,2,1,2,1,0.789
+2026-01-18,Heracles Almelo vs FC Twente '65,Netherlands,1.11,1.6,1,2,0,2,2,2,0.436
+2026-01-18,Bologna FC 1909 vs ACF Fiorentina,Italy,1.73,1.51,2,2,1,2,1,2,0.671
+2026-01-18,RC Strasbourg Alsace vs FC Metz,France,1.25,0.86,1,1,2,1,1,1,0.475
+2026-01-18,Wolverhampton Wanderers FC vs Newcastle United FC,England,1.19,1.52,1,2,0,0,2,X,0.827
+2026-01-18,VfB Stuttgart vs 1. FC Union Berlin,Germany,2.09,1.52,2,2,1,1,1,X,0.906
+2026-01-18,Club Atlético de Madrid vs Deportivo Alavés,Default,1.86,0.49,2,0,1,0,1,1,0.198
+2026-01-18,CD Santa Clara vs FC Famalicão,Portugal,1.16,0.88,1,1,0,1,1,2,0.758
+2026-01-18,Feyenoord Rotterdam vs Sparta Rotterdam,Netherlands,1.9,1.53,2,2,3,4,1,2,0.716
+2026-01-18,FC Nantes vs Paris FC,France,1.76,1.24,2,1,1,2,1,2,0.792
+2026-01-18,Stade Rennais FC 1901 vs Le Havre AC,France,2.05,1.17,2,1,1,1,1,X,0.934
+2026-01-18,Aston Villa FC vs Everton FC,England,2.13,1.18,2,1,0,1,1,2,0.937
+2026-01-18,FC Augsburg vs SC Freiburg,Germany,1.14,1.41,1,1,2,2,2,X,0.809
+2026-01-18,Torino FC vs AS Roma,Italy,1.11,1.64,1,2,0,2,2,2,0.424
+2026-01-18,RC Celta de Vigo vs Rayo Vallecano de Madrid,Default,1.35,0.29,1,0,3,0,1,1,0.255
+2026-01-18,CD Tondela vs Sporting Clube de Braga,Portugal,1.15,1.53,1,2,0,1,2,2,0.472
+2026-01-18,AC Milan vs US Lecce,Italy,2.17,0.62,2,1,1,0,1,1,0.178
+2026-01-18,Olympique Lyonnais vs Stade Brestois 29,France,1.55,1.02,2,1,2,1,1,1,0.423
+2026-01-18,Real Sociedad de Fútbol vs FC Barcelona,Default,0.99,2.15,1,2,2,1,2,1,1.029
+2026-01-18,Vitória SC vs FC Porto,Portugal,0.68,1.6,1,2,0,1,2,2,0.306
+2026-01-19,US Cremonese vs Hellas Verona FC,Italy,1.72,1.81,2,2,0,0,2,X,0.87
+2026-01-19,SS Lazio vs Como 1907,Italy,1.16,1.14,1,1,0,3,1,2,0.628
+2026-01-19,Brighton & Hove Albion FC vs AFC Bournemouth,England,2.18,1.12,2,1,1,1,1,X,0.971
+2026-01-19,Elche CF vs Sevilla FC,Default,1.88,0.81,2,1,2,2,1,X,0.956
+2026-01-19,CF Estrela da Amadora vs GD Estoril Praia,Portugal,1.98,1.62,2,2,0,5,1,2,0.704
+2026-01-21,AZ vs SBV Excelsior,Netherlands,1.73,1.46,2,1,1,1,1,X,0.857
+2026-01-23,AJ Auxerre vs Paris Saint-Germain FC,France,1.02,2.32,1,2,0,1,2,2,0.239
+2026-01-23,FC St. Pauli 1910 vs Hamburger SV,Germany,1.24,0.98,1,1,0,0,1,X,0.774
+2026-01-23,FC Internazionale Milano vs AC Pisa 1909,Italy,2.72,0.75,3,1,6,2,1,1,0.136
+2026-01-23,Levante UD vs Elche CF,Default,1.39,1.16,1,1,3,2,1,1,0.521
+2026-01-23,Casa Pia AC vs AVS,Portugal,1.33,0.88,1,1,3,3,1,X,0.793
+2026-01-24,West Ham United FC vs Sunderland AFC,England,0.9,1.17,1,1,3,1,2,1,0.752
+2026-01-24,Rayo Vallecano de Madrid vs CA Osasuna,Default,0.74,0.98,1,1,1,3,2,2,0.55
+2026-01-24,Como 1907 vs Torino FC,Italy,2.33,0.94,2,1,6,0,1,1,0.219
+2026-01-24,FC Bayern München vs FC Augsburg,Germany,3.42,0.68,3,1,1,2,1,2,1.422
+2026-01-24,1. FC Heidenheim 1846 vs RB Leipzig,Germany,1.45,2.39,1,2,0,3,2,2,0.324
+2026-01-24,1. FSV Mainz 05 vs VfL Wolfsburg,Germany,2.16,1.67,2,2,3,1,1,1,0.435
+2026-01-24,Eintracht Frankfurt vs TSG 1899 Hoffenheim,Germany,1.51,2.64,2,3,1,3,2,2,0.288
+2026-01-24,Bayer 04 Leverkusen vs SV Werder Bremen,Germany,2.29,1.24,2,1,1,0,1,1,0.294
+2026-01-24,Burnley FC vs Tottenham Hotspur FC,England,1.13,1.27,1,1,2,2,2,X,0.786
+2026-01-24,Fulham FC vs Brighton & Hove Albion FC,England,1.62,1.22,2,1,2,1,1,1,0.463
+2026-01-24,Manchester City FC vs Wolverhampton Wanderers FC,England,1.89,0.69,2,1,2,0,1,1,0.24
+2026-01-24,Valencia CF vs RCD Espanyol de Barcelona,Default,0.98,0.74,1,1,3,2,1,1,0.546
+2026-01-24,Moreirense FC vs CD Santa Clara,Portugal,1.21,0.74,1,1,1,0,1,1,0.447
+2026-01-24,AFC Ajax vs FC Volendam,Netherlands,2.22,0.82,2,1,2,0,1,1,0.212
+2026-01-24,Stade Rennais FC 1901 vs FC Lorient,France,1.45,1.56,1,2,0,2,2,2,0.561
+2026-01-24,ACF Fiorentina vs Cagliari Calcio,Italy,2.04,1.08,2,1,1,2,1,2,0.953
+2026-01-24,AFC Bournemouth vs Liverpool FC,England,1.3,1.74,1,2,3,2,2,1,0.759
+2026-01-24,1. FC Union Berlin vs Borussia Dortmund,Germany,1.28,1.66,1,2,0,3,2,2,0.469
+2026-01-24,Sevilla FC vs Athletic Club,Default,1.34,0.99,1,1,2,1,1,1,0.488
+2026-01-24,NEC vs PEC Zwolle,Netherlands,2.79,1.37,3,1,2,1,1,1,0.233
+2026-01-24,Le Havre AC vs AS Monaco FC,France,1.67,0.92,2,1,0,0,1,X,0.878
+2026-01-24,FC Arouca vs Sporting Clube de Portugal,Portugal,0.73,2.47,1,2,1,2,2,2,0.158
+2026-01-24,PSV vs NAC Breda,Netherlands,2.29,0.55,2,1,2,2,1,X,1.147
+2026-01-24,US Lecce vs SS Lazio,Italy,0.86,0.79,1,1,0,0,1,X,0.678
+2026-01-24,FC Twente '65 vs SBV Excelsior,Netherlands,1.8,0.7,2,1,0,0,1,X,0.956
+2026-01-24,Villarreal CF vs Real Madrid CF,Default,1.38,1.5,1,2,0,2,2,2,0.557
+2026-01-24,Olympique de Marseille vs Racing Club de Lens,France,1.3,1.87,1,2,3,1,2,1,0.801
+2026-01-24,GD Estoril Praia vs Vitória SC,Portugal,2.13,1.13,2,1,4,2,1,1,0.302
+2026-01-25,Telstar 1963 vs AZ,Netherlands,1.91,1.29,2,1,0,1,1,2,0.819
+2026-01-25,US Sassuolo Calcio vs US Cremonese,Italy,1.57,1.06,2,1,1,0,1,1,0.429
+2026-01-25,Club Atlético de Madrid vs RCD Mallorca,Default,1.4,0.61,1,1,3,0,1,1,0.343
+2026-01-25,FC Groningen vs Fortuna Sittard,Netherlands,1.92,0.99,2,1,1,2,1,2,0.955
+2026-01-25,Genoa CFC vs Bologna FC 1909,Italy,1.81,1.24,2,1,3,2,1,1,0.411
+2026-01-25,Newcastle United FC vs Aston Villa FC,England,1.65,1.2,2,1,0,2,1,2,0.772
+2026-01-25,Atalanta BC vs Parma Calcio 1913,Italy,1.22,0.79,1,1,4,0,1,1,0.46
+2026-01-25,Crystal Palace FC vs Chelsea FC,England,1.12,1.49,1,1,1,3,2,2,0.474
+2026-01-25,Brentford FC vs Nottingham Forest FC,England,1.95,0.81,2,1,0,2,1,2,1.053
+2026-01-25,FC Nantes vs OGC Nice,France,1.7,0.92,2,1,1,4,1,2,0.922
+2026-01-25,Borussia Mönchengladbach vs VfB Stuttgart,Germany,1.68,1.95,2,2,0,3,2,2,0.498
+2026-01-25,FC Barcelona vs Real Oviedo,Default,2.18,0.41,2,0,3,0,1,1,0.137
+2026-01-25,CD Nacional vs Rio Ave FC,Portugal,1.44,1.5,1,2,4,0,2,1,0.619
+2026-01-25,Feyenoord Rotterdam vs Heracles Almelo,Netherlands,2.81,1.51,3,2,4,2,1,1,0.258
+2026-01-25,FC Utrecht vs Sparta Rotterdam,Netherlands,1.47,1.53,1,2,0,1,2,2,0.578
+2026-01-25,FC Metz vs Olympique Lyonnais,France,1.04,1.7,1,2,2,5,2,2,0.383
+2026-01-25,Paris FC vs Angers SCO,France,1.11,1.64,1,2,0,0,2,X,0.852
+2026-01-25,Stade Brestois 29 vs Toulouse FC,France,1.63,1.2,2,1,0,2,1,2,0.767
+2026-01-25,Arsenal FC vs Manchester United FC,England,2.0,0.95,2,1,2,3,1,2,1.003
+2026-01-25,SC Freiburg vs 1. FC Köln,Germany,2.22,1.35,2,1,2,1,1,1,0.334
+2026-01-25,Juventus FC vs SSC Napoli,Italy,2.05,0.83,2,1,3,0,1,1,0.244
+2026-01-25,Real Sociedad de Fútbol vs RC Celta de Vigo,Default,0.83,1.4,1,1,3,1,2,1,0.867
+2026-01-25,Sport Lisboa e Benfica vs CF Estrela da Amadora,Portugal,2.52,0.56,3,1,4,0,1,1,0.126
+2026-01-25,FC Famalicão vs CD Tondela,Portugal,1.29,0.7,1,1,3,0,1,1,0.406
+2026-01-25,AS Roma vs AC Milan,Italy,1.42,0.86,1,1,1,1,1,X,0.819
+2026-01-25,Lille OSC vs RC Strasbourg Alsace,France,1.15,1.17,1,1,1,4,2,2,0.611
+2026-01-25,Deportivo Alavés vs Real Betis Balompié,Default,0.94,1.42,1,1,2,1,2,1,0.818
+2026-01-25,Sporting Clube de Braga vs FC Alverca,Portugal,1.7,0.62,2,1,5,0,1,1,0.264
+2026-01-26,Hellas Verona FC vs Udinese Calcio,Italy,1.75,1.3,2,1,1,3,1,2,0.759
+2026-01-26,Everton FC vs Leeds United FC,England,1.28,1.17,1,1,1,1,1,X,0.79
+2026-01-26,Girona FC vs Getafe CF,Default,1.44,0.28,1,0,1,1,1,X,0.943
+2026-01-26,FC Porto vs Gil Vicente FC,Portugal,1.59,0.29,2,0,3,0,1,1,0.2
+2026-01-30,NAC Breda vs FC Twente '65,Netherlands,0.78,1.06,1,1,2,2,2,X,0.725
+2026-01-30,1. FC Köln vs VfL Wolfsburg,Germany,2.12,1.89,2,2,1,0,1,1,0.508
+2026-01-30,Racing Club de Lens vs Le Havre AC,France,1.76,0.82,2,1,1,0,1,1,0.305
+2026-01-30,SS Lazio vs Genoa CFC,Italy,0.86,1.16,1,1,3,2,2,1,0.769
+2026-01-30,RCD Espanyol de Barcelona vs Deportivo Alavés,Default,1.35,0.77,1,1,1,2,1,2,0.88
+2026-01-30,Vitória SC vs Moreirense FC,Portugal,1.12,1.31,1,1,1,0,2,1,0.69
+2026-01-31,Real Oviedo vs Girona FC,Default,0.67,1.21,1,1,1,0,2,1,0.888
+2026-01-31,AC Pisa 1909 vs US Sassuolo Calcio,Italy,1.41,1.86,1,2,1,3,2,2,0.446
+2026-01-31,Eintracht Frankfurt vs Bayer 04 Leverkusen,Germany,1.79,2.1,2,2,1,3,2,2,0.488
+2026-01-31,FC Augsburg vs FC St. Pauli 1910,Germany,1.08,0.77,1,1,2,1,1,1,0.516
+2026-01-31,RB Leipzig vs 1. FSV Mainz 05,Germany,2.42,1.36,2,1,1,2,1,2,0.943
+2026-01-31,TSG 1899 Hoffenheim vs 1. FC Union Berlin,Germany,2.4,0.83,2,1,3,1,1,1,0.187
+2026-01-31,SV Werder Bremen vs Borussia Mönchengladbach,Germany,1.56,1.62,2,2,1,1,2,X,0.848
+2026-01-31,Brighton & Hove Albion FC vs Everton FC,England,1.26,1.04,1,1,1,1,1,X,0.78
+2026-01-31,Leeds United FC vs Arsenal FC,England,1.47,1.48,1,1,0,4,2,2,0.594
+2026-01-31,Wolverhampton Wanderers FC vs AFC Bournemouth,England,1.39,1.3,1,1,0,2,1,2,0.642
+2026-01-31,CA Osasuna vs Villarreal CF,Default,1.48,1.29,1,1,2,2,1,X,0.823
+2026-01-31,CD Santa Clara vs GD Estoril Praia,Portugal,1.06,1.69,1,2,2,4,2,2,0.393
+2026-01-31,AZ vs NEC,Netherlands,1.48,2.05,1,2,1,3,2,2,0.414
+2026-01-31,Paris FC vs Olympique de Marseille,France,1.19,1.57,1,2,2,2,2,X,0.835
+2026-01-31,SSC Napoli vs ACF Fiorentina,Italy,1.36,1.25,1,1,2,1,1,1,0.569
+2026-01-31,Levante UD vs Club Atlético de Madrid,Default,0.97,1.26,1,1,0,0,2,X,0.777
+2026-01-31,Hamburger SV vs FC Bayern München,Germany,1.14,2.69,1,3,2,2,2,X,1.085
+2026-01-31,Chelsea FC vs West Ham United FC,England,2.22,1.06,2,1,3,2,1,1,0.265
+2026-01-31,PEC Zwolle vs Telstar 1963,Netherlands,1.56,1.54,2,2,4,1,1,1,0.587
+2026-01-31,Rio Ave FC vs FC Arouca,Portugal,1.56,0.89,2,1,0,3,1,2,0.894
+2026-01-31,FC Lorient vs FC Nantes,France,2.47,0.62,2,1,2,1,1,1,0.141
+2026-01-31,Cagliari Calcio vs Hellas Verona FC,Italy,1.95,1.31,2,1,4,0,1,1,0.392
+2026-01-31,Sparta Rotterdam vs FC Groningen,Netherlands,1.38,1.11,1,1,2,0,1,1,0.515
+2026-01-31,Liverpool FC vs Newcastle United FC,England,1.35,1.17,1,1,4,1,1,1,0.542
+2026-01-31,Elche CF vs FC Barcelona,Default,1.21,2.61,1,3,1,3,2,2,0.23
+2026-01-31,AS Monaco FC vs Stade Rennais FC 1901,France,1.22,1.63,1,2,4,0,2,1,0.757
+2026-01-31,FC Alverca vs CF Estrela da Amadora,Portugal,1.53,1.22,2,1,1,1,1,X,0.829
+2026-02-01,SBV Excelsior vs AFC Ajax,Netherlands,1.08,1.77,1,2,2,2,2,X,0.884
+2026-02-01,Torino FC vs US Lecce,Italy,1.09,0.92,1,1,1,0,1,1,0.561
+2026-02-01,Real Madrid CF vs Rayo Vallecano de Madrid,Default,2.26,0.24,2,0,2,1,1,1,0.101
+2026-02-01,PSV vs Feyenoord Rotterdam,Netherlands,3.49,1.73,3,2,3,0,1,1,0.2
+2026-02-01,Heracles Almelo vs Fortuna Sittard,Netherlands,1.57,2.31,2,2,2,1,2,1,0.828
+2026-02-01,Olympique Lyonnais vs Lille OSC,France,2.84,0.82,3,1,1,0,1,1,0.134
+2026-02-01,Manchester United FC vs Fulham FC,England,1.71,1.63,2,2,3,2,1,1,0.56
+2026-02-01,Como 1907 vs Atalanta BC,Italy,1.98,1.29,2,1,0,0,1,X,0.906
+2026-02-01,Aston Villa FC vs Brentford FC,England,1.81,1.23,2,1,0,1,1,2,0.809
+2026-02-01,Nottingham Forest FC vs Crystal Palace FC,England,1.68,0.67,2,1,1,1,1,X,0.923
+2026-02-01,VfB Stuttgart vs SC Freiburg,Germany,2.35,1.41,2,1,1,0,1,1,0.323
+2026-02-01,Real Betis Balompié vs Valencia CF,Default,1.42,1.29,1,1,2,1,1,1,0.558
+2026-02-01,Gil Vicente FC vs FC Famalicão,Portugal,0.89,1.37,1,1,5,0,2,1,0.826
+2026-02-01,SC Heerenveen vs FC Utrecht,Netherlands,1.73,0.92,2,1,1,1,1,X,0.894
+2026-02-01,Toulouse FC vs AJ Auxerre,France,1.67,0.78,2,1,0,0,1,X,0.899
+2026-02-01,OGC Nice vs Stade Brestois 29,France,1.5,1.41,2,1,2,2,1,X,0.829
+2026-02-01,Angers SCO vs FC Metz,France,2.15,0.76,2,1,1,0,1,1,0.212
+2026-02-01,Tottenham Hotspur FC vs Manchester City FC,England,0.97,2.12,1,2,2,2,2,X,0.985
+2026-02-01,Borussia Dortmund vs 1. FC Heidenheim 1846,Germany,2.82,0.55,3,1,3,2,1,1,0.1
+2026-02-01,US Cremonese vs FC Internazionale Milano,Italy,0.87,2.61,1,3,0,2,2,2,0.167
+2026-02-01,Getafe CF vs RC Celta de Vigo,Default,0.55,1.41,1,1,0,0,2,X,0.858
+2026-02-01,Sporting Clube de Portugal vs CD Nacional,Portugal,2.27,0.99,2,1,2,1,1,1,0.239
+2026-02-01,FC Volendam vs Go Ahead Eagles,Netherlands,1.33,1.74,1,2,1,1,2,X,0.86
+2026-02-01,Parma Calcio 1913 vs Juventus FC,Italy,0.68,2.29,1,2,1,4,2,2,0.172
+2026-02-01,RC Strasbourg Alsace vs Paris Saint-Germain FC,France,1.12,1.49,1,1,1,2,2,2,0.475
+2026-02-01,Athletic Club vs Real Sociedad de Fútbol,Default,1.06,1.77,1,2,1,1,2,X,0.884
+2026-02-01,CD Tondela vs Sport Lisboa e Benfica,Portugal,0.58,2.02,1,2,0,0,2,X,1.059
+2026-02-02,AVS vs Sporting Clube de Braga,Portugal,0.88,2.77,1,3,0,4,2,2,0.151
+2026-02-02,Udinese Calcio vs AS Roma,Italy,1.07,1.73,1,2,1,0,2,1,0.858
+2026-02-02,Sunderland AFC vs Burnley FC,England,1.35,0.83,1,1,3,0,1,1,0.43
+2026-02-02,RCD Mallorca vs Sevilla FC,Default,1.2,1.15,1,1,4,1,1,1,0.598
+2026-02-02,Casa Pia AC vs FC Porto,Portugal,0.46,1.93,0,2,2,1,2,1,1.232
+2026-02-03,Bologna FC 1909 vs AC Milan,Italy,1.31,1.85,1,2,0,3,2,2,0.42
+2026-02-07,Manchester United FC vs Tottenham Hotspur FC,England,2.2,1.29,2,1,2,0,1,1,0.324
+2026-02-07,FC St. Pauli 1910 vs VfB Stuttgart,Germany,0.89,1.5,1,2,2,1,2,1,0.869
+2026-02-07,1. FSV Mainz 05 vs FC Augsburg,Germany,1.69,1.12,2,1,2,0,1,1,0.412
+2026-02-07,VfL Wolfsburg vs Borussia Dortmund,Germany,1.19,2.94,1,3,1,2,2,2,0.18
+2026-02-07,1. FC Heidenheim 1846 vs Hamburger SV,Germany,1.31,1.61,1,2,0,2,2,2,0.495
+2026-02-07,SC Freiburg vs SV Werder Bremen,Germany,2.06,1.06,2,1,1,0,1,1,0.298
+2026-02-07,Arsenal FC vs Sunderland AFC,England,1.94,0.88,2,1,3,0,1,1,0.278
+2026-02-07,Wolverhampton Wanderers FC vs Chelsea FC,England,0.94,1.63,1,2,1,3,2,2,0.372
+2026-02-07,Fulham FC vs Everton FC,England,1.58,1.19,2,1,1,2,1,2,0.754
+2026-02-07,AFC Bournemouth vs Aston Villa FC,England,1.54,1.75,2,2,1,1,2,X,0.859
+2026-02-07,Burnley FC vs West Ham United FC,England,1.37,1.67,1,2,0,2,2,2,0.495
+2026-02-07,FC Barcelona vs RCD Mallorca,Default,2.61,0.79,3,1,3,0,1,1,0.152
+2026-02-07,NEC vs Heracles Almelo,Netherlands,3.18,1.2,3,1,4,1,1,1,0.155
+2026-02-07,CF Estrela da Amadora vs CD Santa Clara,Portugal,1.26,1.27,1,1,1,0,2,1,0.616
+2026-02-07,Moreirense FC vs Gil Vicente FC,Portugal,1.16,1.12,1,1,1,2,1,2,0.634
+2026-02-07,Racing Club de Lens vs Stade Rennais FC 1901,France,2.54,0.96,3,1,3,1,1,1,0.192
+2026-02-07,Genoa CFC vs SSC Napoli,Italy,1.71,1.35,2,1,2,3,1,2,0.728
+2026-02-07,Borussia Mönchengladbach vs Bayer 04 Leverkusen,Germany,1.34,1.83,1,2,1,1,2,X,0.874
+2026-02-07,Newcastle United FC vs Brentford FC,England,1.15,1.51,1,2,2,3,2,2,0.478
+2026-02-07,PEC Zwolle vs FC Volendam,Netherlands,2.02,0.98,2,1,1,2,1,2,0.992
+2026-02-07,Stade Brestois 29 vs FC Lorient,France,1.1,1.73,1,2,2,0,2,1,0.847
+2026-02-07,GD Estoril Praia vs CD Tondela,Portugal,2.53,0.76,3,1,2,2,1,X,1.146
+2026-02-07,FC Twente '65 vs SC Heerenveen,Netherlands,1.41,0.94,1,1,5,0,1,1,0.443
+2026-02-07,ACF Fiorentina vs Torino FC,Italy,1.98,0.93,2,1,2,2,1,X,0.956
+2026-02-07,Fortuna Sittard vs Sparta Rotterdam,Netherlands,1.44,1.81,1,2,2,2,2,X,0.868
+2026-02-07,Real Sociedad de Fútbol vs Elche CF,Default,2.2,1.25,2,1,3,1,1,1,0.315
+2026-02-07,FC Nantes vs Olympique Lyonnais,France,0.98,2.61,1,3,0,1,2,2,0.186
+2026-02-07,FC Arouca vs Vitória SC,Portugal,1.44,1.1,1,1,3,2,1,1,0.484
+2026-02-08,FC Utrecht vs Feyenoord Rotterdam,Netherlands,1.76,1.65,2,2,0,1,1,2,0.622
+2026-02-08,Bologna FC 1909 vs Parma Calcio 1913,Italy,1.81,1.13,2,1,0,1,1,2,0.857
+2026-02-08,Deportivo Alavés vs Getafe CF,Default,1.11,0.41,1,0,0,2,1,2,1.026
+2026-02-08,Go Ahead Eagles vs Telstar 1963,Netherlands,2.06,1.37,2,1,1,1,1,X,0.912
+2026-02-08,AZ vs AFC Ajax,Netherlands,1.22,2.03,1,2,1,1,2,X,0.924
+2026-02-08,US Lecce vs Udinese Calcio,Italy,0.79,1.25,1,1,2,1,2,1,0.835
+2026-02-08,Brighton & Hove Albion FC vs Crystal Palace FC,England,1.63,0.76,2,1,0,1,1,2,0.982
+2026-02-08,OGC Nice vs AS Monaco FC,France,1.56,1.51,2,2,0,0,1,X,0.84
+2026-02-08,1. FC Köln vs RB Leipzig,Germany,1.43,2.19,1,2,1,2,2,2,0.363
+2026-02-08,Athletic Club vs Levante UD,Default,0.92,1.22,1,1,4,2,2,1,0.755
+2026-02-08,Sevilla FC vs Girona FC,Default,1.08,1.23,1,1,1,1,2,X,0.777
+2026-02-08,CD Nacional vs Casa Pia AC,Portugal,2.04,1.06,2,1,0,0,1,X,0.948
+2026-02-08,FC Groningen vs PSV,Netherlands,1.01,1.97,1,2,1,2,2,2,0.304
+2026-02-08,Le Havre AC vs RC Strasbourg Alsace,France,0.92,1.13,1,1,2,1,2,1,0.72
+2026-02-08,Angers SCO vs Toulouse FC,France,1.19,0.68,1,1,1,0,1,1,0.438
+2026-02-08,AJ Auxerre vs Paris FC,France,1.25,1.06,1,1,0,0,1,X,0.779
+2026-02-08,FC Bayern München vs TSG 1899 Hoffenheim,Germany,2.27,1.91,2,2,5,1,1,1,0.471
+2026-02-08,Liverpool FC vs Manchester City FC,England,1.51,1.81,2,2,1,2,2,2,0.49
+2026-02-08,US Sassuolo Calcio vs FC Internazionale Milano,Italy,1.21,2.28,1,2,0,5,2,2,0.289
+2026-02-08,Club Atlético de Madrid vs Real Betis Balompié,Default,1.67,0.6,2,1,0,1,1,2,1.082
+2026-02-08,Sporting Clube de Braga vs Rio Ave FC,Portugal,2.92,0.46,3,0,3,0,1,1,0.084
+2026-02-08,Juventus FC vs SS Lazio,Italy,2.47,0.5,2,0,2,2,1,X,1.214
+2026-02-08,Paris Saint-Germain FC vs Olympique de Marseille,France,2.33,1.0,2,1,5,0,1,1,0.231
+2026-02-08,Valencia CF vs Real Madrid CF,Default,0.9,1.78,1,2,0,2,2,2,0.32
+2026-02-08,Sport Lisboa e Benfica vs FC Alverca,Portugal,2.26,0.25,2,0,2,1,1,1,0.103
+2026-02-09,Atalanta BC vs US Cremonese,Italy,1.92,0.34,2,0,2,1,1,1,0.157
+2026-02-09,FC Famalicão vs AVS,Portugal,2.08,0.89,2,1,3,1,1,1,0.253
+2026-02-09,AS Roma vs Cagliari Calcio,Italy,1.58,1.01,2,1,2,0,1,1,0.408
+2026-02-09,Villarreal CF vs RCD Espanyol de Barcelona,Default,1.86,0.98,2,1,4,1,1,1,0.323
+2026-02-09,FC Porto vs Sporting Clube de Portugal,Portugal,1.2,0.86,1,1,1,1,1,X,0.764
+2026-02-10,Everton FC vs AFC Bournemouth,England,1.66,1.16,2,1,1,2,1,2,0.795
+2026-02-10,Tottenham Hotspur FC vs Newcastle United FC,England,1.52,1.42,2,1,1,2,1,2,0.633
+2026-02-10,Chelsea FC vs Leeds United FC,England,2.31,1.04,2,1,2,2,1,X,1.019
+2026-02-10,West Ham United FC vs Manchester United FC,England,1.52,2.06,2,2,1,1,2,X,0.901
+2026-02-11,Go Ahead Eagles vs SC Heerenveen,Netherlands,1.97,1.41,2,1,1,3,1,2,0.785
+2026-02-11,Nottingham Forest FC vs Wolverhampton Wanderers FC,England,1.49,0.52,1,1,0,0,1,X,0.893
+2026-02-11,Aston Villa FC vs Brighton & Hove Albion FC,England,1.51,0.79,2,1,1,0,1,1,0.364
+2026-02-11,Manchester City FC vs Fulham FC,England,2.48,1.1,2,1,3,0,1,1,0.228
+2026-02-11,Crystal Palace FC vs Burnley FC,England,1.55,0.69,2,1,2,3,1,2,0.997
+2026-02-11,NEC vs FC Utrecht,Netherlands,2.36,0.79,2,1,1,3,1,2,1.179
+2026-02-11,Sunderland AFC vs Liverpool FC,England,1.23,1.5,1,2,0,1,2,2,0.508
+2026-02-12,Brentford FC vs Arsenal FC,England,1.4,1.93,1,2,1,1,2,X,0.888
+2026-02-13,Stade Rennais FC 1901 vs Paris Saint-Germain FC,France,0.86,3.55,1,4,3,1,2,1,1.386
+2026-02-13,CD Santa Clara vs Sport Lisboa e Benfica,Portugal,0.55,1.66,1,2,1,2,2,2,0.255
+2026-02-13,FC Volendam vs PSV,Netherlands,0.93,2.41,1,2,2,1,2,1,1.127
+2026-02-13,Borussia Dortmund vs 1. FSV Mainz 05,Germany,2.02,1.13,2,1,4,0,1,1,0.325
+2026-02-13,AC Pisa 1909 vs AC Milan,Italy,0.9,2.79,1,3,1,2,2,2,0.152
+2026-02-13,Elche CF vs CA Osasuna,Default,1.58,1.92,2,2,0,0,2,X,0.88
+2026-02-13,AS Monaco FC vs FC Nantes,France,1.86,0.85,2,1,3,1,1,1,0.286
+2026-02-13,CD Tondela vs FC Alverca,Portugal,1.33,0.8,1,1,1,1,1,X,0.798
+2026-02-14,RCD Espanyol de Barcelona vs RC Celta de Vigo,Default,0.76,1.59,1,2,2,2,2,X,0.88
+2026-02-14,Como 1907 vs ACF Fiorentina,Italy,2.51,0.86,3,1,1,2,1,2,1.183
+2026-02-14,Bayer 04 Leverkusen vs FC St. Pauli 1910,Germany,1.49,0.83,1,1,4,0,1,1,0.381
+2026-02-14,SV Werder Bremen vs FC Bayern München,Germany,1.04,3.56,1,4,0,3,2,2,0.106
+2026-02-14,TSG 1899 Hoffenheim vs SC Freiburg,Germany,1.98,1.38,2,1,3,0,1,1,0.404
+2026-02-14,Eintracht Frankfurt vs Borussia Mönchengladbach,Germany,1.95,1.85,2,2,3,0,1,1,0.551
+2026-02-14,Hamburger SV vs 1. FC Union Berlin,Germany,1.77,0.98,2,1,3,2,1,1,0.344
+2026-02-14,Getafe CF vs Villarreal CF,Default,0.89,1.41,1,1,2,1,2,1,0.84
+2026-02-14,Heracles Almelo vs NAC Breda,Netherlands,1.37,1.62,1,2,0,1,2,2,0.509
+2026-02-14,Casa Pia AC vs FC Arouca,Portugal,1.27,1.32,1,1,3,2,2,1,0.627
+2026-02-14,Olympique de Marseille vs RC Strasbourg Alsace,France,1.48,1.69,1,2,2,2,2,X,0.853
+2026-02-14,SS Lazio vs Atalanta BC,Italy,0.92,1.41,1,1,0,2,2,2,0.436
+2026-02-14,VfB Stuttgart vs 1. FC Köln,Germany,2.18,0.91,2,1,3,1,1,1,0.239
+2026-02-14,Sevilla FC vs Deportivo Alavés,Default,1.4,1.0,1,1,1,1,1,X,0.808
+2026-02-14,SBV Excelsior vs AZ,Netherlands,1.53,1.13,2,1,1,2,1,2,0.76
+2026-02-14,Lille OSC vs Stade Brestois 29,France,1.25,1.9,1,2,1,1,2,X,0.894
+2026-02-14,Vitória SC vs CF Estrela da Amadora,Portugal,1.87,1.14,2,1,2,1,1,1,0.364
+2026-02-14,AFC Ajax vs Fortuna Sittard,Netherlands,2.29,1.27,2,1,4,1,1,1,0.3
+2026-02-14,FC Internazionale Milano vs Juventus FC,Italy,2.18,1.49,2,1,3,2,1,1,0.381
+2026-02-14,Real Madrid CF vs Real Sociedad de Fútbol,Default,1.84,0.84,2,1,4,1,1,1,0.29
+2026-02-14,FC Groningen vs FC Utrecht,Netherlands,1.15,0.98,1,1,1,2,1,2,0.699
+2026-02-14,Paris FC vs Racing Club de Lens,France,1.08,1.77,1,2,0,5,2,2,0.373
+2026-02-14,Gil Vicente FC vs Sporting Clube de Braga,Portugal,1.0,2.05,1,2,2,1,2,1,0.99
+2026-02-15,Feyenoord Rotterdam vs Go Ahead Eagles,Netherlands,2.51,1.7,3,2,1,0,1,1,0.358
+2026-02-15,Udinese Calcio vs US Sassuolo Calcio,Italy,1.91,1.18,2,1,1,2,1,2,0.864
+2026-02-15,Real Oviedo vs Athletic Club,Default,0.96,1.22,1,1,1,2,2,2,0.521
+2026-02-15,Telstar 1963 vs FC Twente '65,Netherlands,0.88,2.03,1,2,1,1,2,X,0.981
+2026-02-15,SC Heerenveen vs PEC Zwolle,Netherlands,2.07,1.73,2,2,4,2,1,1,0.476
+2026-02-15,Le Havre AC vs Toulouse FC,France,0.95,0.81,1,1,2,1,1,1,0.593
+2026-02-15,US Cremonese vs Genoa CFC,Italy,1.13,1.81,1,2,0,0,2,X,0.887
+2026-02-15,Parma Calcio 1913 vs Hellas Verona FC,Italy,1.54,0.97,2,1,2,1,1,1,0.411
+2026-02-15,FC Augsburg vs 1. FC Heidenheim 1846,Germany,1.68,0.86,2,1,1,0,1,1,0.337
+2026-02-15,Rayo Vallecano de Madrid vs Club Atlético de Madrid,Default,0.52,1.28,1,1,3,0,2,1,1.01
+2026-02-15,CD Nacional vs FC Porto,Portugal,0.86,1.24,1,1,0,1,2,2,0.479
+2026-02-15,FC Lorient vs Angers SCO,France,0.96,0.88,1,1,2,0,1,1,0.61
+2026-02-15,FC Metz vs AJ Auxerre,France,1.12,1.09,1,1,1,3,1,2,0.639
+2026-02-15,RB Leipzig vs VfL Wolfsburg,Germany,3.09,1.18,3,1,2,2,1,X,1.161
+2026-02-15,Torino FC vs Bologna FC 1909,Italy,1.67,1.47,2,1,1,2,1,2,0.664
+2026-02-15,Levante UD vs Valencia CF,Default,1.52,0.93,2,1,0,2,1,2,0.856
+2026-02-15,AVS vs GD Estoril Praia,Portugal,1.3,3.81,1,4,3,0,2,1,1.295
+2026-02-15,SSC Napoli vs AS Roma,Italy,1.03,1.36,1,1,2,2,2,X,0.798
+2026-02-15,Olympique Lyonnais vs OGC Nice,France,2.02,0.62,2,1,2,0,1,1,0.201
+2026-02-15,RCD Mallorca vs Real Betis Balompié,Default,1.28,1.5,1,2,1,2,2,2,0.525
+2026-02-15,Sporting Clube de Portugal vs FC Famalicão,Portugal,2.24,0.79,2,1,1,0,1,1,0.203
+2026-02-17,Sparta Rotterdam vs NEC,Netherlands,1.98,1.83,2,2,1,1,1,X,0.886
+2026-02-18,Levante UD vs Villarreal CF,Default,1.32,1.82,1,2,0,1,2,2,0.429
+2026-02-18,AC Milan vs Como 1907,Italy,1.56,1.19,2,1,1,1,1,X,0.834
+2026-02-18,Wolverhampton Wanderers FC vs Arsenal FC,England,0.67,1.97,1,2,2,2,2,X,1.018
+2026-02-20,Fortuna Sittard vs SBV Excelsior,Netherlands,1.81,1.54,2,2,2,1,1,1,0.501
+2026-02-20,1. FSV Mainz 05 vs Hamburger SV,Germany,1.49,1.54,1,2,1,1,2,X,0.838
+2026-02-20,Stade Brestois 29 vs Olympique de Marseille,France,2.14,1.32,2,1,2,0,1,1,0.347
+2026-02-20,US Sassuolo Calcio vs Hellas Verona FC,Italy,2.14,1.14,2,1,3,0,1,1,0.301
+2026-02-20,Athletic Club vs Elche CF,Default,2.04,1.32,2,1,2,1,1,1,0.373
+2026-02-20,CF Estrela da Amadora vs CD Tondela,Portugal,1.22,1.14,1,1,0,2,1,2,0.65
+2026-02-21,Real Sociedad de Fútbol vs Real Oviedo,Default,1.82,0.69,2,1,3,3,1,X,0.963
+2026-02-21,Juventus FC vs Como 1907,Italy,2.06,1.53,2,2,0,2,1,2,0.767
+2026-02-21,1. FC Union Berlin vs Bayer 04 Leverkusen,Germany,1.2,2.3,1,2,1,0,2,1,0.978
+2026-02-21,VfL Wolfsburg vs FC Augsburg,Germany,1.43,1.46,1,1,2,3,2,2,0.589
+2026-02-21,FC Bayern München vs Eintracht Frankfurt,Germany,4.44,1.3,4,1,3,2,1,1,0.083
+2026-02-21,1. FC Köln vs TSG 1899 Hoffenheim,Germany,1.22,2.5,1,2,2,2,2,X,1.025
+2026-02-21,Brentford FC vs Brighton & Hove Albion FC,England,1.6,0.71,2,1,0,2,1,2,0.995
+2026-02-21,Aston Villa FC vs Leeds United FC,England,1.83,0.84,2,1,1,1,1,X,0.934
+2026-02-21,Chelsea FC vs Burnley FC,England,2.89,0.98,3,1,1,1,1,X,1.168
+2026-02-21,Real Betis Balompié vs Rayo Vallecano de Madrid,Default,1.68,0.83,2,1,1,1,1,X,0.894
+2026-02-21,FC Arouca vs CD Nacional,Portugal,1.46,1.4,1,1,3,0,1,1,0.577
+2026-02-21,FC Alverca vs CD Santa Clara,Portugal,1.16,0.89,1,1,1,1,1,X,0.753
+2026-02-21,Racing Club de Lens vs AS Monaco FC,France,2.31,0.97,2,1,2,3,1,2,1.079
+2026-02-21,US Lecce vs FC Internazionale Milano,Italy,0.75,2.51,1,3,0,2,2,2,0.158
+2026-02-21,West Ham United FC vs AFC Bournemouth,England,1.69,1.74,2,2,0,0,2,X,0.864
+2026-02-21,RB Leipzig vs Borussia Dortmund,Germany,1.47,2.23,1,2,2,2,2,X,0.933
+2026-02-21,CA Osasuna vs Real Madrid CF,Default,0.89,1.76,1,2,2,1,2,1,0.958
+2026-02-21,PSV vs SC Heerenveen,Netherlands,2.79,1.37,3,1,3,1,1,1,0.233
+2026-02-21,Toulouse FC vs Paris FC,France,1.54,0.6,2,1,1,1,1,X,0.893
+2026-02-21,Moreirense FC vs Sporting Clube de Portugal,Portugal,0.76,1.57,1,2,0,3,2,2,0.337
+2026-02-21,Sport Lisboa e Benfica vs AVS,Portugal,2.82,0.53,3,1,3,0,1,1,0.098
+2026-02-21,NAC Breda vs FC Volendam,Netherlands,1.32,0.9,1,1,1,0,1,1,0.461
+2026-02-21,Cagliari Calcio vs SS Lazio,Italy,1.7,0.95,2,1,0,0,1,X,0.881
+2026-02-21,AFC Ajax vs NEC,Netherlands,2.31,1.62,2,2,1,1,1,X,0.931
+2026-02-21,Club Atlético de Madrid vs RCD Espanyol de Barcelona,Default,1.49,0.73,1,1,4,2,1,1,0.349
+2026-02-21,Manchester City FC vs Newcastle United FC,England,2.69,0.84,3,1,2,1,1,1,0.153
+2026-02-21,Paris Saint-Germain FC vs FC Metz,France,3.51,0.71,4,1,3,0,1,1,0.079
+2026-02-21,Sporting Clube de Braga vs Vitória SC,Portugal,2.63,0.75,3,1,3,2,1,1,0.145
+2026-02-22,FC Twente '65 vs FC Groningen,Netherlands,1.82,0.55,2,1,2,1,1,1,0.22
+2026-02-22,Genoa CFC vs Torino FC,Italy,2.17,1.1,2,1,3,0,1,1,0.285
+2026-02-22,Getafe CF vs Sevilla FC,Default,1.19,0.73,1,1,0,1,1,2,0.848
+2026-02-22,FC Utrecht vs PEC Zwolle,Netherlands,2.03,1.26,2,1,1,1,1,X,0.918
+2026-02-22,Go Ahead Eagles vs Heracles Almelo,Netherlands,1.94,1.23,2,1,4,0,1,1,0.37
+2026-02-22,Atalanta BC vs SSC Napoli,Italy,1.97,0.82,2,1,2,1,1,1,0.256
+2026-02-22,Nottingham Forest FC vs Liverpool FC,England,1.14,1.09,1,1,0,1,1,2,0.645
+2026-02-22,AJ Auxerre vs Stade Rennais FC 1901,France,1.74,1.11,2,1,0,3,1,2,0.84
+2026-02-22,Sunderland AFC vs Fulham FC,England,1.34,1.22,1,1,1,3,1,2,0.659
+2026-02-22,Crystal Palace FC vs Wolverhampton Wanderers FC,England,1.34,0.92,1,1,1,0,1,1,0.462
+2026-02-22,SC Freiburg vs Borussia Mönchengladbach,Germany,1.65,0.98,2,1,2,1,1,1,0.38
+2026-02-22,FC Barcelona vs Levante UD,Default,2.71,0.42,3,0,3,0,1,1,0.092
+2026-02-22,AZ vs Sparta Rotterdam,Netherlands,1.29,1.57,1,2,3,1,2,1,0.703
+2026-02-22,FC Nantes vs Le Havre AC,France,1.01,1.59,1,2,2,0,2,1,0.841
+2026-02-22,Angers SCO vs Lille OSC,France,1.55,0.59,2,1,0,1,1,2,1.054
+2026-02-22,OGC Nice vs FC Lorient,France,0.85,1.56,1,2,3,3,2,X,0.859
+2026-02-22,Tottenham Hotspur FC vs Arsenal FC,England,1.07,2.45,1,2,1,4,2,2,0.226
+2026-02-22,FC St. Pauli 1910 vs SV Werder Bremen,Germany,1.3,0.76,1,1,2,1,1,1,0.423
+2026-02-22,AC Milan vs Parma Calcio 1913,Italy,1.92,0.61,2,1,0,1,1,2,1.148
+2026-02-22,RC Celta de Vigo vs RCD Mallorca,Default,1.84,0.67,2,1,2,0,1,1,0.245
+2026-02-22,GD Estoril Praia vs Gil Vicente FC,Portugal,1.97,2.02,2,2,3,1,2,1,0.596
+2026-02-22,1. FC Heidenheim 1846 vs VfB Stuttgart,Germany,0.9,2.37,1,2,3,3,2,X,1.066
+2026-02-22,Feyenoord Rotterdam vs Telstar 1963,Netherlands,2.15,1.25,2,1,2,1,1,1,0.328
+2026-02-22,RC Strasbourg Alsace vs Olympique Lyonnais,France,0.96,1.68,1,2,3,1,2,1,0.897
+2026-02-22,AS Roma vs US Cremonese,Italy,1.78,0.35,2,0,3,0,1,1,0.181
+2026-02-22,Villarreal CF vs Valencia CF,Default,1.78,0.98,2,1,2,1,1,1,0.342
+2026-02-22,FC Porto vs Rio Ave FC,Portugal,2.13,0.21,2,0,1,0,1,1,0.108
+2026-02-23,ACF Fiorentina vs AC Pisa 1909,Italy,2.74,1.13,3,1,1,0,1,1,0.195
+2026-02-23,Bologna FC 1909 vs Udinese Calcio,Italy,1.66,1.53,2,2,1,0,1,1,0.548
+2026-02-23,Deportivo Alavés vs Girona FC,Default,0.91,0.97,1,1,2,2,2,X,0.718
+2026-02-23,Everton FC vs Manchester United FC,England,1.36,1.46,1,1,0,1,2,2,0.564
+2026-02-23,FC Famalicão vs Casa Pia AC,Portugal,1.48,1.15,1,1,2,0,1,1,0.49
+2026-02-27,FC Porto vs FC Arouca,Portugal,1.67,0.54,2,1,3,1,1,1,0.248
+2026-02-27,Telstar 1963 vs NAC Breda,Netherlands,1.04,1.19,1,1,3,0,2,1,0.686
+2026-02-27,FC Augsburg vs 1. FC Köln,Germany,1.8,1.03,2,1,2,0,1,1,0.353
+2026-02-27,Parma Calcio 1913 vs Cagliari Calcio,Italy,1.24,1.13,1,1,1,1,1,X,0.783
+2026-02-27,RC Strasbourg Alsace vs Racing Club de Lens,France,1.67,2.07,2,2,1,1,2,X,0.895
+2026-02-27,Wolverhampton Wanderers FC vs Aston Villa FC,England,0.74,1.31,1,1,2,0,2,1,0.887
+2026-02-27,Levante UD vs Deportivo Alavés,Default,1.07,1.12,1,1,2,0,2,1,0.648
+2026-02-27,Sporting Clube de Portugal vs GD Estoril Praia,Portugal,2.7,0.98,3,1,3,0,1,1,0.174
+2026-02-28,AFC Bournemouth vs Sunderland AFC,England,1.75,0.78,2,1,1,1,1,X,0.925
+2026-02-28,Rayo Vallecano de Madrid vs Athletic Club,Default,1.25,1.42,1,1,1,1,2,X,0.813
+2026-02-28,Como 1907 vs US Lecce,Italy,2.11,0.35,2,0,3,1,1,1,0.135
+2026-02-28,TSG 1899 Hoffenheim vs FC St. Pauli 1910,Germany,2.23,0.86,2,1,0,1,1,2,1.112
+2026-02-28,Bayer 04 Leverkusen vs 1. FSV Mainz 05,Germany,1.86,0.94,2,1,1,1,1,X,0.925
+2026-02-28,Borussia Mönchengladbach vs 1. FC Union Berlin,Germany,1.36,1.47,1,1,1,0,2,1,0.643
+2026-02-28,SV Werder Bremen vs 1. FC Heidenheim 1846,Germany,1.38,1.36,1,1,2,0,1,1,0.598
+2026-02-28,Burnley FC vs Brentford FC,England,1.19,1.76,1,2,3,4,2,2,0.411
+2026-02-28,Liverpool FC vs West Ham United FC,England,1.74,0.87,2,1,5,2,1,1,0.323
+2026-02-28,Newcastle United FC vs Everton FC,England,1.36,1.18,1,1,2,3,1,2,0.679
+2026-02-28,FC Barcelona vs Villarreal CF,Default,2.49,0.79,2,1,4,1,1,1,0.167
+2026-02-28,AVS vs CF Estrela da Amadora,Portugal,1.63,1.33,2,1,0,0,1,X,0.843
+2026-02-28,SC Heerenveen vs Sparta Rotterdam,Netherlands,1.9,1.8,2,2,2,1,1,1,0.552
+2026-02-28,Stade Rennais FC 1901 vs Toulouse FC,France,1.59,1.17,2,1,1,0,1,1,0.456
+2026-02-28,Hellas Verona FC vs SSC Napoli,Italy,1.16,2.3,1,2,1,2,2,2,0.273
+2026-02-28,Borussia Dortmund vs FC Bayern München,Germany,2.12,2.13,2,2,2,3,2,2,0.572
+2026-02-28,RCD Mallorca vs Real Sociedad de Fútbol,Default,1.4,2.05,1,2,0,1,2,2,0.391
+2026-02-28,Leeds United FC vs Manchester City FC,England,1.02,2.22,1,2,0,1,2,2,0.256
+2026-02-28,Heracles Almelo vs PSV,Netherlands,0.88,3.56,1,4,1,3,2,2,0.091
+2026-02-28,CD Nacional vs Sporting Clube de Braga,Portugal,0.94,2.21,1,2,1,2,2,2,0.24
+2026-02-28,AS Monaco FC vs Angers SCO,France,1.29,0.82,1,1,2,0,1,1,0.447
+2026-02-28,FC Internazionale Milano vs Genoa CFC,Italy,2.84,1.01,3,1,2,0,1,1,0.163
+2026-02-28,NEC vs Fortuna Sittard,Netherlands,2.7,1.46,3,1,2,3,1,2,0.984
+2026-02-28,Real Oviedo vs Club Atlético de Madrid,Default,1.0,1.52,1,2,0,1,2,2,0.424
+2026-02-28,Le Havre AC vs Paris Saint-Germain FC,France,0.84,2.07,1,2,0,1,2,2,0.243
+2026-02-28,Vitória SC vs FC Alverca,Portugal,1.85,1.07,2,1,1,1,1,X,0.902
+2026-03-01,PEC Zwolle vs AFC Ajax,Netherlands,1.42,2.39,1,2,0,0,2,X,0.968
+2026-03-01,US Cremonese vs AC Milan,Italy,0.56,1.63,1,2,0,2,2,2,0.264
+2026-03-01,Elche CF vs RCD Espanyol de Barcelona,Default,2.06,1.49,2,1,2,2,1,X,0.903
+2026-03-01,FC Twente '65 vs Feyenoord Rotterdam,Netherlands,2.1,1.01,2,1,2,0,1,1,0.279
+2026-03-01,FC Volendam vs FC Groningen,Netherlands,1.21,0.94,1,1,3,2,1,1,0.519
+2026-03-01,Paris FC vs OGC Nice,France,1.3,1.43,1,1,1,0,2,1,0.654
+2026-03-01,Brighton & Hove Albion FC vs Nottingham Forest FC,England,1.0,0.6,1,1,2,1,1,1,0.488
+2026-03-01,US Sassuolo Calcio vs Atalanta BC,Italy,1.15,1.8,1,2,2,1,2,1,0.845
+2026-03-01,Manchester United FC vs Crystal Palace FC,England,1.89,0.81,2,1,2,1,1,1,0.27
+2026-03-01,Fulham FC vs Tottenham Hotspur FC,England,2.44,1.16,2,1,2,1,1,1,0.248
+2026-03-01,VfB Stuttgart vs VfL Wolfsburg,Germany,3.19,1.33,3,1,4,0,1,1,0.174
+2026-03-01,Valencia CF vs CA Osasuna,Default,1.13,1.25,1,1,1,0,2,1,0.663
+2026-03-01,CD Tondela vs CD Santa Clara,Portugal,1.31,0.66,1,1,2,2,1,X,0.806
+2026-03-01,FC Utrecht vs AZ,Netherlands,1.47,1.16,1,1,2,0,1,1,0.497
+2026-03-01,Lille OSC vs FC Nantes,France,1.63,1.2,2,1,1,0,1,1,0.452
+2026-03-01,FC Lorient vs AJ Auxerre,France,1.89,0.72,2,1,2,2,1,X,0.977
+2026-03-01,FC Metz vs Stade Brestois 29,France,0.98,2.36,1,2,0,1,2,2,0.223
+2026-03-01,Eintracht Frankfurt vs SC Freiburg,Germany,1.98,1.84,2,2,2,0,1,1,0.537
+2026-03-01,Arsenal FC vs Chelsea FC,England,2.51,1.35,3,1,2,1,1,1,0.276
+2026-03-01,Torino FC vs SS Lazio,Italy,1.02,1.18,1,1,2,0,2,1,0.691
+2026-03-01,Real Betis Balompié vs Sevilla FC,Default,1.63,0.91,2,1,2,2,1,X,0.871
+2026-03-01,Casa Pia AC vs Moreirense FC,Portugal,1.31,0.85,1,1,1,1,1,X,0.79
+2026-03-01,Hamburger SV vs RB Leipzig,Germany,1.71,1.7,2,2,1,2,1,2,0.59
+2026-03-01,SBV Excelsior vs Go Ahead Eagles,Netherlands,1.4,1.69,1,2,0,1,2,2,0.498
+2026-03-01,Olympique de Marseille vs Olympique Lyonnais,France,1.14,2.21,1,2,3,2,2,1,0.975
+2026-03-01,AS Roma vs Juventus FC,Italy,1.89,1.15,2,1,3,3,1,X,0.901
+2026-03-01,Girona FC vs RC Celta de Vigo,Default,0.89,1.23,1,1,1,2,2,2,0.495
+2026-03-01,Rio Ave FC vs FC Famalicão,Portugal,0.87,1.61,1,2,0,0,2,X,0.869
+2026-03-02,AC Pisa 1909 vs Bologna FC 1909,Italy,1.32,1.92,1,2,0,1,2,2,0.404
+2026-03-02,Udinese Calcio vs ACF Fiorentina,Italy,1.25,1.52,1,2,3,0,2,1,0.704
+2026-03-02,Real Madrid CF vs Getafe CF,Default,1.73,0.41,2,0,0,1,1,2,1.208
+2026-03-02,Gil Vicente FC vs Sport Lisboa e Benfica,Portugal,0.9,1.96,1,2,1,2,2,2,0.28
+2026-03-03,Everton FC vs Burnley FC,England,2.16,1.09,2,1,2,0,1,1,0.284
+2026-03-03,Leeds United FC vs Sunderland AFC,England,1.34,0.86,1,1,0,1,1,2,0.831
+2026-03-03,AFC Bournemouth vs Brentford FC,England,1.66,1.52,2,2,0,0,1,X,0.85
+2026-03-03,Wolverhampton Wanderers FC vs Liverpool FC,England,1.0,1.66,1,2,2,1,2,1,0.867
+2026-03-04,Rayo Vallecano de Madrid vs Real Oviedo,Default,1.31,0.73,1,1,3,0,1,1,0.408
+2026-03-04,Aston Villa FC vs Chelsea FC,England,1.45,1.32,1,1,1,4,1,2,0.651
+2026-03-04,Hamburger SV vs Bayer 04 Leverkusen,Germany,1.24,1.38,1,1,0,1,2,2,0.555
+2026-03-04,Fulham FC vs West Ham United FC,England,2.38,1.34,2,1,0,1,1,2,0.943
+2026-03-04,Manchester City FC vs Nottingham Forest FC,England,1.86,0.44,2,0,2,2,1,X,1.053
+2026-03-04,Brighton & Hove Albion FC vs Arsenal FC,England,1.15,1.69,1,2,0,1,2,2,0.421
+2026-03-04,Newcastle United FC vs Manchester United FC,England,1.34,2.11,1,2,2,1,2,1,0.861
+2026-03-05,Tottenham Hotspur FC vs Crystal Palace FC,England,1.33,1.44,1,1,1,3,2,2,0.563
+2026-03-06,Heracles Almelo vs FC Utrecht,Netherlands,0.84,2.15,1,2,0,0,2,X,1.025
+2026-03-06,FC Bayern München vs Borussia Mönchengladbach,Germany,3.46,0.85,3,1,4,1,1,1,0.094
+2026-03-06,Paris Saint-Germain FC vs AS Monaco FC,France,2.09,0.94,2,1,1,3,1,2,1.033
+2026-03-06,SSC Napoli vs Torino FC,Italy,2.26,1.1,2,1,2,1,1,1,0.268
+2026-03-06,RC Celta de Vigo vs Real Madrid CF,Default,1.26,1.01,1,1,1,2,1,2,0.726
+2026-03-06,FC Famalicão vs FC Arouca,Portugal,1.59,1.11,2,1,1,0,1,1,0.438
+2026-03-07,CA Osasuna vs RCD Mallorca,Default,1.57,0.6,2,1,2,2,1,X,0.904
+2026-03-07,Cagliari Calcio vs Como 1907,Italy,1.09,1.85,1,2,1,2,2,2,0.356
+2026-03-07,1. FC Heidenheim 1846 vs TSG 1899 Hoffenheim,Germany,1.08,2.4,1,2,2,4,2,2,0.237
+2026-03-07,VfL Wolfsburg vs Hamburger SV,Germany,1.32,1.86,1,2,1,2,2,2,0.419
+2026-03-07,1. FSV Mainz 05 vs VfB Stuttgart,Germany,1.31,2.15,1,2,2,2,2,X,0.936
+2026-03-07,RB Leipzig vs FC Augsburg,Germany,1.81,1.3,2,1,2,1,1,1,0.428
+2026-03-07,SC Freiburg vs Bayer 04 Leverkusen,Germany,0.94,1.44,1,1,3,3,2,X,0.818
+2026-03-07,Levante UD vs Girona FC,Default,1.13,1.06,1,1,1,1,1,X,0.76
+2026-03-07,FC Groningen vs AFC Ajax,Netherlands,1.03,1.81,1,2,3,1,2,1,0.904
+2026-03-07,FC Alverca vs AVS,Portugal,1.53,0.96,2,1,0,0,1,X,0.837
+2026-03-07,Moreirense FC vs CD Nacional,Portugal,1.16,0.97,1,1,1,1,1,X,0.757
+2026-03-07,FC Nantes vs Angers SCO,France,0.96,0.93,1,1,0,1,1,2,0.657
+2026-03-07,Atalanta BC vs Udinese Calcio,Italy,1.75,0.9,2,1,2,2,1,X,0.902
+2026-03-07,Club Atlético de Madrid vs Real Sociedad de Fútbol,Default,1.68,1.13,2,1,3,2,1,1,0.414
+2026-03-07,1. FC Köln vs Borussia Dortmund,Germany,1.1,2.63,1,3,1,2,2,2,0.206
+2026-03-07,Sporting Clube de Braga vs Sporting Clube de Portugal,Portugal,1.23,1.55,1,2,2,2,2,X,0.832
+2026-03-07,AJ Auxerre vs RC Strasbourg Alsace,France,1.22,1.55,1,2,0,0,2,X,0.832
+2026-03-07,PSV vs AZ,Netherlands,2.75,0.92,3,1,2,1,1,1,0.158
+2026-03-07,Juventus FC vs AC Pisa 1909,Italy,3.46,0.9,3,1,4,0,1,1,0.098
+2026-03-07,SBV Excelsior vs SC Heerenveen,Netherlands,1.43,1.81,1,2,1,2,2,2,0.468
+2026-03-07,Athletic Club vs FC Barcelona,Default,0.97,2.68,1,3,0,1,2,2,0.175
+2026-03-07,Toulouse FC vs Olympique de Marseille,France,1.48,1.15,1,1,0,1,1,2,0.734
+2026-03-07,GD Estoril Praia vs Casa Pia AC,Portugal,2.19,1.4,2,1,0,0,1,X,0.933
+2026-03-09,SS Lazio vs US Sassuolo Calcio,Italy,0.96,1.49,1,1,2,1,2,1,0.83
+2026-03-09,RCD Espanyol de Barcelona vs Real Oviedo,Default,1.86,1.01,2,1,1,1,1,X,0.914
+2026-03-09,CD Tondela vs Rio Ave FC,Portugal,1.57,0.61,2,1,0,1,1,2,1.047
+2026-03-13,PEC Zwolle vs FC Groningen,Netherlands,1.66,1.57,2,2,1,1,1,X,0.852
+2026-03-13,Borussia Mönchengladbach vs FC St. Pauli 1910,Germany,1.05,1.18,1,1,2,0,2,1,0.674
+2026-03-13,Olympique de Marseille vs AJ Auxerre,France,1.59,1.1,2,1,1,0,1,1,0.438
+2026-03-13,Torino FC vs Parma Calcio 1913,Italy,1.17,1.31,1,1,4,1,2,1,0.67
+2026-03-13,Deportivo Alavés vs Villarreal CF,Default,1.22,1.76,1,2,1,1,2,X,0.869
+2026-03-14,Girona FC vs Athletic Club,Default,1.28,1.1,1,1,3,0,1,1,0.546
+2026-03-14,FC Internazionale Milano vs Atalanta BC,Italy,2.31,0.85,2,1,1,1,1,X,1.064
+2026-03-14,Borussia Dortmund vs FC Augsburg,Germany,2.08,1.03,2,1,2,0,1,1,0.285
+2026-03-14,Bayer 04 Leverkusen vs FC Bayern München,Germany,1.62,2.5,2,2,1,1,2,X,0.963
+2026-03-14,Eintracht Frankfurt vs 1. FC Heidenheim 1846,Germany,2.98,1.29,3,1,1,0,1,1,0.192
+2026-03-14,TSG 1899 Hoffenheim vs VfL Wolfsburg,Germany,3.49,1.08,3,1,1,1,1,X,1.262
+2026-03-14,Burnley FC vs AFC Bournemouth,England,1.1,1.68,1,2,0,0,2,X,0.862
+2026-03-14,Sunderland AFC vs Brighton & Hove Albion FC,England,0.92,0.89,1,1,0,1,1,2,0.659
+2026-03-14,Club Atlético de Madrid vs Getafe CF,Default,1.26,0.56,1,1,1,0,1,1,0.371
+2026-03-14,FC Volendam vs Fortuna Sittard,Netherlands,1.87,1.71,2,2,1,2,1,2,0.636
+2026-03-14,Vitória SC vs FC Famalicão,Portugal,1.16,1.35,1,1,1,2,2,2,0.54
+2026-03-14,FC Lorient vs Racing Club de Lens,France,1.77,1.92,2,2,2,1,2,1,0.63
+2026-03-14,SSC Napoli vs US Lecce,Italy,2.07,0.6,2,1,2,1,1,1,0.189
+2026-03-14,Real Oviedo vs Valencia CF,Default,0.87,1.26,1,1,1,0,2,1,0.799
+2026-03-14,Hamburger SV vs 1. FC Köln,Germany,1.85,0.84,2,1,1,1,1,X,0.941
+2026-03-14,Chelsea FC vs Newcastle United FC,England,2.71,1.44,3,1,0,1,1,2,0.994
+2026-03-14,Arsenal FC vs Everton FC,England,2.02,0.93,2,1,2,0,1,1,0.274
+2026-03-14,PSV vs NEC,Netherlands,2.86,1.38,3,1,2,3,1,2,1.058
+2026-03-14,Angers SCO vs OGC Nice,France,1.23,0.65,1,1,0,2,1,2,0.912
+2026-03-14,Gil Vicente FC vs FC Alverca,Portugal,1.66,0.85,2,1,2,2,1,X,0.886
+2026-03-14,SC Heerenveen vs Telstar 1963,Netherlands,2.02,1.53,2,2,3,0,1,1,0.435
+2026-03-14,Udinese Calcio vs Juventus FC,Italy,1.63,2.44,2,2,0,1,2,2,0.355
+2026-03-14,Real Madrid CF vs Elche CF,Default,2.52,0.82,3,1,4,1,1,1,0.169
+2026-03-14,West Ham United FC vs Manchester City FC,England,1.07,2.26,1,2,1,1,2,X,1.0
+2026-03-14,AFC Ajax vs Sparta Rotterdam,Netherlands,1.83,1.15,2,1,4,0,1,1,0.379
+2026-03-14,AS Monaco FC vs Stade Brestois 29,France,1.65,1.2,2,1,2,0,1,1,0.446
+2026-03-14,FC Arouca vs Sport Lisboa e Benfica,Portugal,0.87,2.15,1,2,1,2,2,2,0.234
+2026-03-15,FC Twente '65 vs FC Utrecht,Netherlands,1.38,0.58,1,1,0,2,1,2,1.001
+2026-03-15,Hellas Verona FC vs Genoa CFC,Italy,1.09,2.16,1,2,0,2,2,2,0.283
+2026-03-15,RCD Mallorca vs RCD Espanyol de Barcelona,Default,1.62,1.5,2,2,2,1,1,1,0.552
+2026-03-15,AZ vs Heracles Almelo,Netherlands,2.02,0.82,2,1,4,0,1,1,0.247
+2026-03-15,Feyenoord Rotterdam vs SBV Excelsior,Netherlands,1.91,1.04,2,1,2,1,1,1,0.327
+2026-03-15,Crystal Palace FC vs Leeds United FC,England,1.57,0.93,2,1,0,0,1,X,0.851
+2026-03-15,Manchester United FC vs Aston Villa FC,England,1.93,0.92,2,1,3,1,1,1,0.293
+2026-03-15,AC Pisa 1909 vs Cagliari Calcio,Italy,0.93,1.96,1,2,3,1,2,1,1.0
+2026-03-15,US Sassuolo Calcio vs Bologna FC 1909,Italy,1.7,1.29,2,1,0,1,1,2,0.75
+2026-03-15,Nottingham Forest FC vs Fulham FC,England,1.35,1.23,1,1,0,0,1,X,0.803
+2026-03-15,RC Strasbourg Alsace vs Paris FC,France,1.72,0.7,2,1,0,0,1,X,0.931
+2026-03-15,SV Werder Bremen vs 1. FSV Mainz 05,Germany,1.24,1.49,1,1,0,2,2,2,0.512
+2026-03-15,FC Barcelona vs Sevilla FC,Default,2.93,0.47,3,0,5,2,1,1,0.085
+2026-03-15,CD Nacional vs GD Estoril Praia,Portugal,1.48,1.64,1,2,0,1,2,2,0.54
+2026-03-15,AVS vs CD Santa Clara,Portugal,1.14,1.18,1,1,0,1,2,2,0.604
+2026-03-15,Go Ahead Eagles vs NAC Breda,Netherlands,1.59,0.79,2,1,6,0,1,1,0.34
+2026-03-15,Le Havre AC vs Olympique Lyonnais,France,1.01,1.48,1,1,0,0,2,X,0.824
+2026-03-15,FC Metz vs Toulouse FC,France,0.88,1.16,1,1,3,4,2,2,0.52
+2026-03-15,Liverpool FC vs Tottenham Hotspur FC,England,3.0,0.88,3,1,1,1,1,X,1.218
+2026-03-15,SC Freiburg vs 1. FC Union Berlin,Germany,1.66,1.21,2,1,0,1,1,2,0.77
+2026-03-15,Como 1907 vs AS Roma,Italy,1.81,1.24,2,1,2,1,1,1,0.41
+2026-03-15,Real Betis Balompié vs RC Celta de Vigo,Default,1.27,1.33,1,1,1,1,2,X,0.803
+2026-03-15,Rio Ave FC vs CF Estrela da Amadora,Portugal,1.16,0.73,1,1,2,1,1,1,0.468
+2026-03-15,VfB Stuttgart vs RB Leipzig,Germany,2.35,1.75,2,2,1,0,1,1,0.408
+2026-03-15,SS Lazio vs AC Milan,Italy,0.73,1.35,1,1,1,0,2,1,0.904
+2026-03-15,Stade Rennais FC 1901 vs Lille OSC,France,1.84,1.12,2,1,1,2,1,2,0.871
+2026-03-15,Real Sociedad de Fútbol vs CA Osasuna,Default,1.72,1.46,2,1,3,1,1,1,0.507
+2026-03-15,FC Porto vs Moreirense FC,Portugal,1.8,0.28,2,0,3,0,1,1,0.16
+2026-03-16,US Cremonese vs ACF Fiorentina,Italy,0.73,1.43,1,1,1,4,2,2,0.368
+2026-03-16,Brentford FC vs Wolverhampton Wanderers FC,England,1.54,0.96,2,1,2,2,1,X,0.84
+2026-03-16,Rayo Vallecano de Madrid vs Levante UD,Default,1.47,0.74,1,1,1,1,1,X,0.847
+2026-03-20,Cagliari Calcio vs SSC Napoli,Italy,1.38,1.87,1,2,0,1,2,2,0.435
+2026-03-20,Heracles Almelo vs SBV Excelsior,Netherlands,0.98,1.5,1,2,1,1,2,X,0.83
+2026-03-20,RB Leipzig vs TSG 1899 Hoffenheim,Germany,1.85,1.73,2,2,5,0,1,1,0.546
+2026-03-20,Genoa CFC vs Udinese Calcio,Italy,1.73,1.07,2,1,0,2,1,2,0.86
+2026-03-20,Racing Club de Lens vs Angers SCO,France,1.75,0.64,2,1,5,1,1,1,0.256
+2026-03-20,Villarreal CF vs Real Sociedad de Fútbol,Default,2.0,1.97,2,2,3,1,1,1,0.569
+2026-03-20,AFC Bournemouth vs Manchester United FC,England,1.13,1.26,1,1,2,2,2,X,0.785
+2026-03-20,CF Estrela da Amadora vs Casa Pia AC,Portugal,0.99,1.14,1,1,4,0,2,1,0.693
+2026-03-21,Brighton & Hove Albion FC vs Liverpool FC,England,1.19,1.1,1,1,2,1,1,1,0.584
+2026-03-21,Elche CF vs RCD Mallorca,Default,1.64,1.61,2,2,2,1,1,1,0.58
+2026-03-21,Parma Calcio 1913 vs US Cremonese,Italy,1.67,0.52,2,1,0,2,1,2,1.128
+2026-03-21,FC Bayern München vs 1. FC Union Berlin,Germany,2.96,0.88,3,1,4,0,1,1,0.132
+2026-03-21,1. FC Heidenheim 1846 vs Bayer 04 Leverkusen,Germany,0.95,2.15,1,2,3,3,2,X,1.0
+2026-03-21,VfL Wolfsburg vs SV Werder Bremen,Germany,1.6,1.21,2,1,0,1,1,2,0.749
+2026-03-21,1. FC Köln vs Borussia Mönchengladbach,Germany,1.38,1.3,1,1,3,3,1,X,0.811
+2026-03-21,Fulham FC vs Burnley FC,England,1.91,0.87,2,1,3,1,1,1,0.281
+2026-03-21,RCD Espanyol de Barcelona vs Getafe CF,Default,1.03,0.87,1,1,1,2,1,2,0.716
+2026-03-21,Moreirense FC vs FC Arouca,Portugal,1.11,1.39,1,1,0,1,2,2,0.507
+2026-03-21,Fortuna Sittard vs FC Twente '65,Netherlands,1.35,1.8,1,2,1,2,2,2,0.446
+2026-03-21,FC Famalicão vs CD Nacional,Portugal,1.51,0.55,2,1,1,0,1,1,0.29
+2026-03-21,Toulouse FC vs FC Lorient,France,1.3,1.67,1,2,1,0,2,1,0.732
+2026-03-21,AC Milan vs Torino FC,Italy,1.87,0.84,2,1,3,2,1,1,0.284
+2026-03-21,Borussia Dortmund vs Hamburger SV,Germany,2.07,0.86,2,1,3,2,1,1,0.246
+2026-03-21,Everton FC vs Chelsea FC,England,1.42,1.54,1,2,3,0,2,1,0.639
+2026-03-21,CA Osasuna vs Girona FC,Default,1.17,1.36,1,1,1,0,2,1,0.682
+2026-03-21,Levante UD vs Real Oviedo,Default,1.23,0.7,1,1,4,2,1,1,0.427
+2026-03-21,Sparta Rotterdam vs FC Volendam,Netherlands,1.45,1.41,1,1,2,0,1,1,0.588
+2026-03-21,Sport Lisboa e Benfica vs Vitória SC,Portugal,2.68,0.62,3,1,3,0,1,1,0.12
+2026-03-21,CD Santa Clara vs Gil Vicente FC,Portugal,1.39,1.43,1,1,1,0,2,1,0.616
+2026-03-21,AJ Auxerre vs Stade Brestois 29,France,0.91,1.09,1,1,3,0,2,1,0.714
+2026-03-21,Juventus FC vs US Sassuolo Calcio,Italy,2.65,1.07,3,1,1,1,1,X,1.091
+2026-03-21,Leeds United FC vs Brentford FC,England,1.08,1.33,1,1,0,0,2,X,0.794
+2026-03-21,Sevilla FC vs Valencia CF,Default,1.27,1.27,1,1,0,2,2,2,0.61
+2026-03-21,PEC Zwolle vs NAC Breda,Netherlands,1.88,0.75,2,1,2,1,1,1,0.258
+2026-03-21,OGC Nice vs Paris Saint-Germain FC,France,1.19,2.05,1,2,0,4,2,2,0.332
+2026-03-21,CD Tondela vs AVS,Portugal,1.46,0.62,1,1,0,0,1,X,0.863
+2026-03-22,NEC vs SC Heerenveen,Netherlands,2.28,2.17,2,2,2,2,1,X,0.913
+2026-03-22,Como 1907 vs AC Pisa 1909,Italy,3.34,0.65,3,1,5,0,1,1,0.081
+2026-03-22,Newcastle United FC vs Sunderland AFC,England,1.54,0.82,2,1,1,2,1,2,0.92
+2026-03-22,FC Barcelona vs Rayo Vallecano de Madrid,Default,2.56,0.65,3,1,1,0,1,1,0.136
+2026-03-22,FC Utrecht vs Go Ahead Eagles,Netherlands,1.29,1.17,1,1,2,0,1,1,0.567
+2026-03-22,Feyenoord Rotterdam vs AFC Ajax,Netherlands,1.45,1.95,1,2,1,1,2,X,0.888
+2026-03-22,Bologna FC 1909 vs SS Lazio,Italy,1.22,0.72,1,1,0,2,1,2,0.867
+2026-03-22,Atalanta BC vs Hellas Verona FC,Italy,2.64,0.49,3,0,1,0,1,1,0.106
+2026-03-22,Olympique Lyonnais vs AS Monaco FC,France,1.32,1.51,1,2,1,2,2,2,0.535
+2026-03-22,Aston Villa FC vs West Ham United FC,England,1.45,1.4,1,1,2,0,1,1,0.583
+2026-03-22,Tottenham Hotspur FC vs Nottingham Forest FC,England,1.02,1.24,1,1,0,3,2,2,0.536
+2026-03-22,1. FSV Mainz 05 vs Eintracht Frankfurt,Germany,1.87,1.49,2,1,2,1,1,1,0.468
+2026-03-22,RC Celta de Vigo vs Deportivo Alavés,Default,1.73,0.57,2,1,3,4,1,2,1.119
+2026-03-22,GD Estoril Praia vs Rio Ave FC,Portugal,1.79,0.93,2,1,1,2,1,2,0.942
+2026-03-22,Telstar 1963 vs PSV,Netherlands,1.29,2.51,1,3,3,1,2,1,1.002
+2026-03-22,FC Groningen vs AZ,Netherlands,1.5,1.58,2,2,3,0,2,1,0.622
+2026-03-22,Stade Rennais FC 1901 vs FC Metz,France,2.8,1.16,3,1,0,0,1,X,1.104
+2026-03-22,Olympique de Marseille vs Lille OSC,France,1.59,1.25,2,1,1,2,1,2,0.728
+2026-03-22,Paris FC vs Le Havre AC,France,0.86,0.65,1,1,3,2,1,1,0.577
+2026-03-22,FC St. Pauli 1910 vs SC Freiburg,Germany,1.15,1.01,1,1,1,2,1,2,0.685
+2026-03-22,AS Roma vs US Lecce,Italy,2.28,0.52,2,1,1,0,1,1,0.145
+2026-03-22,Athletic Club vs Real Betis Balompié,Default,1.19,1.48,1,1,2,1,2,1,0.717
+2026-03-22,FC Alverca vs Sporting Clube de Portugal,Portugal,0.77,2.25,1,2,1,4,2,2,0.196
+2026-03-22,FC Augsburg vs VfB Stuttgart,Germany,1.11,1.85,1,2,2,5,2,2,0.365
+2026-03-22,FC Nantes vs RC Strasbourg Alsace,France,0.85,1.36,1,1,2,3,2,2,0.429
+2026-03-22,ACF Fiorentina vs FC Internazionale Milano,Italy,1.17,2.47,1,2,1,1,2,X,1.03
+2026-03-22,Real Madrid CF vs Club Atlético de Madrid,Default,1.68,0.95,2,1,3,2,1,1,0.36
+2026-03-22,Sporting Clube de Braga vs FC Porto,Portugal,1.03,1.45,1,1,1,2,2,2,0.462
+2026-04-03,Gil Vicente FC vs AVS,Portugal,1.65,0.66,2,1,3,0,1,1,0.287
+2026-04-03,Vitória SC vs CD Tondela,Portugal,1.16,1.18,1,1,5,0,2,1,0.629
+2026-04-03,Paris Saint-Germain FC vs Toulouse FC,France,2.22,0.75,2,1,3,1,1,1,0.197
+2026-04-03,Rayo Vallecano de Madrid vs Elche CF,Default,1.68,1.01,2,1,1,0,1,1,0.38
+2026-04-03,Sporting Clube de Portugal vs CD Santa Clara,Portugal,2.32,0.54,2,1,4,2,1,1,0.143
+2026-04-04,Real Sociedad de Fútbol vs Levante UD,Default,1.97,1.67,2,2,2,0,1,1,0.492
+2026-04-04,US Sassuolo Calcio vs Cagliari Calcio,Italy,1.65,0.98,2,1,2,1,1,1,0.38
+2026-04-04,Borussia Mönchengladbach vs 1. FC Heidenheim 1846,Germany,2.21,1.34,2,1,2,2,1,X,0.944
+2026-04-04,SV Werder Bremen vs RB Leipzig,Germany,0.92,2.11,1,2,1,2,2,2,0.253
+2026-04-04,Hamburger SV vs FC Augsburg,Germany,1.79,1.09,2,1,1,1,1,X,0.886
+2026-04-04,TSG 1899 Hoffenheim vs 1. FSV Mainz 05,Germany,1.61,1.76,2,2,1,2,2,2,0.537
+2026-04-04,Bayer 04 Leverkusen vs VfL Wolfsburg,Germany,2.55,0.89,3,1,6,3,1,1,0.178
+2026-04-04,SC Freiburg vs FC Bayern München,Germany,1.14,3.0,1,3,2,3,2,2,0.166
+2026-04-04,RCD Mallorca vs Real Madrid CF,Default,1.05,2.48,1,2,2,1,2,1,1.092
+2026-04-04,PSV vs FC Utrecht,Netherlands,1.24,1.4,1,1,4,3,2,1,0.667
+2026-04-04,CD Nacional vs CF Estrela da Amadora,Portugal,1.1,1.16,1,1,2,0,2,1,0.646
+2026-04-04,RC Strasbourg Alsace vs OGC Nice,France,2.02,0.75,2,1,3,1,1,1,0.23
+2026-04-04,Hellas Verona FC vs ACF Fiorentina,Italy,0.88,2.18,1,2,0,1,2,2,0.23
+2026-04-04,VfB Stuttgart vs Borussia Dortmund,Germany,2.15,1.83,2,2,0,2,1,2,0.682
+2026-04-04,Real Betis Balompié vs RCD Espanyol de Barcelona,Default,2.09,1.12,2,1,0,0,1,X,0.95
+2026-04-04,Telstar 1963 vs FC Groningen,Netherlands,1.48,1.61,1,2,0,2,2,2,0.549
+2026-04-04,Rio Ave FC vs FC Alverca,Portugal,1.57,0.8,2,1,1,2,1,2,0.939
+2026-04-04,AZ vs Fortuna Sittard,Netherlands,1.92,1.73,2,2,2,0,1,1,0.523
+2026-04-04,Moreirense FC vs Sporting Clube de Braga,Portugal,0.79,2.09,1,2,0,1,2,2,0.226
+2026-04-04,Stade Brestois 29 vs Stade Rennais FC 1901,France,1.27,1.28,1,1,3,4,2,2,0.607
+2026-04-04,SS Lazio vs Parma Calcio 1913,Italy,1.51,0.54,2,1,1,1,1,X,0.895
+2026-04-04,Club Atlético de Madrid vs FC Barcelona,Default,0.99,2.25,1,2,1,2,2,2,0.243
+2026-04-04,AFC Ajax vs FC Twente '65,Netherlands,1.36,1.13,1,1,1,2,1,2,0.701
+2026-04-04,SBV Excelsior vs NEC,Netherlands,1.36,2.11,1,2,0,2,2,2,0.365
+2026-04-04,Lille OSC vs Racing Club de Lens,France,1.44,2.09,1,2,3,0,2,1,0.816
+2026-04-04,FC Porto vs FC Famalicão,Portugal,1.36,0.46,1,0,2,2,1,X,0.86
+2026-04-05,Go Ahead Eagles vs PEC Zwolle,Netherlands,2.12,1.16,2,1,5,0,1,1,0.308
+2026-04-05,Getafe CF vs Athletic Club,Default,1.12,0.73,1,1,2,0,1,1,0.485
+2026-04-05,FC Volendam vs Feyenoord Rotterdam,Netherlands,1.26,1.58,1,2,0,0,2,X,0.837
+2026-04-05,SC Heerenveen vs Heracles Almelo,Netherlands,3.11,0.69,3,1,4,1,1,1,0.098
+2026-04-05,Angers SCO vs Olympique Lyonnais,France,0.82,1.49,1,1,0,0,2,X,0.841
+2026-04-05,US Cremonese vs Bologna FC 1909,Italy,0.9,1.26,1,1,1,2,2,2,0.487
+2026-04-05,1. FC Union Berlin vs FC St. Pauli 1910,Germany,1.09,0.9,1,1,1,1,1,X,0.74
+2026-04-05,Valencia CF vs RC Celta de Vigo,Default,1.33,1.1,1,1,2,3,1,2,0.703
+2026-04-05,NAC Breda vs Sparta Rotterdam,Netherlands,1.06,1.62,1,2,0,0,2,X,0.851
+2026-04-05,FC Metz vs FC Nantes,France,1.48,1.4,1,1,0,0,1,X,0.828
+2026-04-05,Le Havre AC vs AJ Auxerre,France,0.91,1.02,1,1,1,1,2,X,0.726
+2026-04-05,FC Lorient vs Paris FC,France,1.77,0.9,2,1,1,1,1,X,0.909
+2026-04-05,Eintracht Frankfurt vs 1. FC Köln,Germany,2.27,1.37,2,1,2,2,1,X,0.951
+2026-04-05,AC Pisa 1909 vs Torino FC,Italy,1.43,2.71,1,3,0,1,2,2,0.257
+2026-04-05,Real Oviedo vs Sevilla FC,Default,1.5,1.3,2,1,1,0,1,1,0.529
+2026-04-05,AS Monaco FC vs Olympique de Marseille,France,2.36,0.93,2,1,2,1,1,1,0.212
+2026-04-05,FC Internazionale Milano vs AS Roma,Italy,1.95,0.95,2,1,5,2,1,1,0.295
+2026-04-05,Deportivo Alavés vs CA Osasuna,Default,1.4,1.38,1,1,2,2,1,X,0.818
+2026-04-06,Udinese Calcio vs Como 1907,Italy,1.08,2.1,1,2,0,0,2,X,0.959
+2026-04-06,US Lecce vs Atalanta BC,Italy,0.62,1.65,1,2,0,3,2,2,0.276
+2026-04-06,Juventus FC vs Genoa CFC,Italy,2.3,1.04,2,1,2,0,1,1,0.246
+2026-04-06,FC Arouca vs GD Estoril Praia,Portugal,1.64,1.49,2,1,3,2,1,1,0.539
+2026-04-06,SSC Napoli vs AC Milan,Italy,1.39,1.29,1,1,1,0,1,1,0.568
+2026-04-06,Girona FC vs Villarreal CF,Default,1.44,1.32,1,1,1,0,1,1,0.56
+2026-04-06,Casa Pia AC vs Sport Lisboa e Benfica,Portugal,0.54,2.42,1,2,1,1,2,X,1.188
+2026-04-10,Paris FC vs AS Monaco FC,France,1.02,1.84,1,2,4,1,2,1,0.918
+2026-04-10,FC Twente '65 vs FC Volendam,Netherlands,1.8,0.51,2,1,2,1,1,1,0.215
+2026-04-10,FC Augsburg vs TSG 1899 Hoffenheim,Germany,1.62,1.65,2,2,2,2,2,X,0.854
+2026-04-10,AS Roma vs AC Pisa 1909,Italy,3.07,0.79,3,1,3,0,1,1,0.112
+2026-04-10,West Ham United FC vs Wolverhampton Wanderers FC,England,1.19,1.29,1,1,4,0,2,1,0.65
+2026-04-10,Real Madrid CF vs Girona FC,Default,1.64,0.94,2,1,1,1,1,X,0.868
+2026-04-10,Olympique de Marseille vs FC Metz,France,1.9,0.93,2,1,3,1,1,1,0.3
+2026-04-10,FC Famalicão vs Moreirense FC,Portugal,1.58,0.32,2,0,1,1,1,X,0.991
+2026-04-11,Arsenal FC vs AFC Bournemouth,England,2.0,0.64,2,1,1,2,1,2,1.156
+2026-04-11,Real Sociedad de Fútbol vs Deportivo Alavés,Default,2.46,1.49,2,1,3,3,1,X,0.973
+2026-04-11,Cagliari Calcio vs US Cremonese,Italy,1.55,0.82,2,1,1,0,1,1,0.36
+2026-04-11,Torino FC vs Hellas Verona FC,Italy,2.28,0.64,2,1,2,1,1,1,0.168
+2026-04-11,1. FC Heidenheim 1846 vs 1. FC Union Berlin,Germany,1.56,1.3,2,1,3,1,1,1,0.507
+2026-04-11,VfL Wolfsburg vs Eintracht Frankfurt,Germany,1.63,2.67,2,3,1,2,2,2,0.309
+2026-04-11,RB Leipzig vs Borussia Mönchengladbach,Germany,2.75,1.02,3,1,1,0,1,1,0.175
+2026-04-11,Borussia Dortmund vs Bayer 04 Leverkusen,Germany,2.54,1.5,3,2,0,1,1,2,0.922
+2026-04-11,Brentford FC vs Everton FC,England,1.32,1.27,1,1,2,2,1,X,0.802
+2026-04-11,Burnley FC vs Brighton & Hove Albion FC,England,0.84,1.61,1,2,0,2,2,2,0.351
+2026-04-11,Elche CF vs Valencia CF,Default,1.3,1.51,1,2,1,0,2,1,0.681
+2026-04-11,FC Utrecht vs Telstar 1963,Netherlands,1.95,0.86,2,1,4,1,1,1,0.269
+2026-04-11,AVS vs Vitória SC,Portugal,0.86,1.92,1,2,1,1,2,X,0.956
+2026-04-11,AC Milan vs Udinese Calcio,Italy,1.25,0.82,1,1,0,3,1,2,0.821
+2026-04-11,FC St. Pauli 1910 vs FC Bayern München,Germany,0.91,2.71,1,3,0,5,2,2,0.162
+2026-04-11,FC Barcelona vs RCD Espanyol de Barcelona,Default,3.34,0.48,3,0,4,1,1,1,0.068
+2026-04-11,Liverpool FC vs Fulham FC,England,1.74,1.42,2,1,2,0,1,1,0.486
+2026-04-11,Sparta Rotterdam vs PSV,Netherlands,1.56,2.16,2,2,0,2,2,2,0.407
+2026-04-11,AJ Auxerre vs FC Nantes,France,1.49,0.62,1,1,0,0,1,X,0.874
+2026-04-11,CD Santa Clara vs Rio Ave FC,Portugal,1.33,1.09,1,1,0,2,1,2,0.714
+2026-04-11,FC Groningen vs Go Ahead Eagles,Netherlands,1.51,1.74,2,2,0,0,2,X,0.858
+2026-04-11,Atalanta BC vs Juventus FC,Italy,1.54,1.28,2,1,0,1,1,2,0.7
+2026-04-11,Sevilla FC vs Club Atlético de Madrid,Default,1.11,1.83,1,2,2,1,2,1,0.872
+2026-04-11,Heracles Almelo vs AFC Ajax,Netherlands,0.8,2.65,1,3,0,3,2,2,0.151
+2026-04-11,Stade Rennais FC 1901 vs Angers SCO,France,1.88,0.66,2,1,2,1,1,1,0.235
+2026-04-11,CF Estrela da Amadora vs Sporting Clube de Portugal,Portugal,0.95,2.92,1,3,0,1,2,2,0.146
+2026-04-12,Fortuna Sittard vs NAC Breda,Netherlands,1.87,0.83,2,1,1,1,1,X,0.948
+2026-04-12,Genoa CFC vs US Sassuolo Calcio,Italy,1.35,1.4,1,1,2,1,2,1,0.622
+2026-04-12,CA Osasuna vs Real Betis Balompié,Default,1.34,1.08,1,1,1,1,1,X,0.794
+2026-04-12,NEC vs Feyenoord Rotterdam,Netherlands,2.09,1.33,2,1,1,1,1,X,0.922
+2026-04-12,PEC Zwolle vs SBV Excelsior,Netherlands,1.52,1.08,2,1,2,2,1,X,0.829
+2026-04-12,Crystal Palace FC vs Newcastle United FC,England,1.55,1.22,2,1,2,1,1,1,0.486
+2026-04-12,Parma Calcio 1913 vs SSC Napoli,Italy,0.9,1.71,1,2,1,1,2,X,0.892
+2026-04-12,Sunderland AFC vs Tottenham Hotspur FC,England,1.69,0.69,2,1,1,0,1,1,0.283
+2026-04-12,Nottingham Forest FC vs Aston Villa FC,England,1.5,0.79,2,1,1,1,1,X,0.848
+2026-04-12,1. FC Köln vs SV Werder Bremen,Germany,1.61,1.05,2,1,3,1,1,1,0.413
+2026-04-12,RCD Mallorca vs Rayo Vallecano de Madrid,Default,1.08,1.13,1,1,3,0,2,1,0.642
+2026-04-12,FC Alverca vs Casa Pia AC,Portugal,1.45,0.94,1,1,3,1,1,1,0.431
+2026-04-12,AZ vs SC Heerenveen,Netherlands,1.71,2.08,2,2,3,0,2,1,0.702
+2026-04-12,Toulouse FC vs Lille OSC,France,1.13,1.52,1,2,0,4,2,2,0.466
+2026-04-12,OGC Nice vs Le Havre AC,France,1.13,1.18,1,1,1,1,2,X,0.773
+2026-04-12,VfB Stuttgart vs Hamburger SV,Germany,2.17,1.07,2,1,4,0,1,1,0.279
+2026-04-12,Chelsea FC vs Manchester City FC,England,1.27,2.05,1,2,0,3,2,2,0.354
+2026-04-12,Bologna FC 1909 vs US Lecce,Italy,1.73,0.39,2,0,2,0,1,1,0.197
+2026-04-12,RC Celta de Vigo vs Real Oviedo,Default,2.16,0.92,2,1,0,3,1,2,1.063
+2026-04-12,Sport Lisboa e Benfica vs CD Nacional,Portugal,1.92,0.41,2,0,2,0,1,1,0.17
+2026-04-12,Sporting Clube de Braga vs FC Arouca,Portugal,2.32,1.12,2,1,1,0,1,1,0.26
+2026-04-12,1. FSV Mainz 05 vs SC Freiburg,Germany,1.99,1.04,2,1,0,1,1,2,0.958
+2026-04-12,Como 1907 vs FC Internazionale Milano,Italy,1.79,1.41,2,1,3,4,1,2,0.728
+2026-04-12,Olympique Lyonnais vs FC Lorient,France,1.29,1.08,1,1,2,0,1,1,0.535
+2026-04-12,Athletic Club vs Villarreal CF,Default,1.24,1.61,1,2,1,2,2,2,0.473
+2026-04-12,GD Estoril Praia vs FC Porto,Portugal,1.02,2.22,1,2,1,3,2,2,0.256
+2026-04-13,ACF Fiorentina vs SS Lazio,Italy,1.31,0.9,1,1,1,0,1,1,0.464
+2026-04-13,Manchester United FC vs Leeds United FC,England,1.65,0.64,2,1,1,2,1,2,1.056
+2026-04-13,Levante UD vs Getafe CF,Default,0.9,1.0,1,1,1,0,2,1,0.684
+2026-04-13,CD Tondela vs Gil Vicente FC,Portugal,0.92,1.79,1,2,2,2,2,X,0.908
+2026-04-18,Brentford FC vs Fulham FC,England,1.68,1.19,2,1,0,0,1,X,0.856
+2026-04-18,Udinese Calcio vs Parma Calcio 1913,Italy,1.83,0.54,2,1,0,1,1,2,1.16
+2026-04-18,Bayer 04 Leverkusen vs FC Augsburg,Germany,2.59,1.09,3,1,1,2,1,2,1.105
+2026-04-18,1. FC Union Berlin vs VfL Wolfsburg,Germany,1.74,1.34,2,1,1,2,1,2,0.741
+2026-04-18,TSG 1899 Hoffenheim vs Borussia Dortmund,Germany,1.31,2.27,1,2,2,1,2,1,0.923
+2026-04-18,SV Werder Bremen vs Hamburger SV,Germany,1.2,1.16,1,1,3,1,1,1,0.601
+2026-04-18,Newcastle United FC vs AFC Bournemouth,England,1.3,1.44,1,1,1,2,2,2,0.553
+2026-04-18,Leeds United FC vs Wolverhampton Wanderers FC,England,1.3,0.68,1,1,3,0,1,1,0.396
+2026-04-18,CD Nacional vs FC Alverca,Portugal,1.18,1.19,1,1,1,0,2,1,0.62
+2026-04-18,FC Lorient vs Olympique de Marseille,France,1.62,1.38,2,1,2,0,1,1,0.513
+2026-04-18,SSC Napoli vs SS Lazio,Italy,1.32,0.65,1,1,0,2,1,2,0.94
+2026-04-18,Eintracht Frankfurt vs RB Leipzig,Germany,1.39,2.11,1,2,1,3,2,2,0.371
+2026-04-18,Tottenham Hotspur FC vs Brighton & Hove Albion FC,England,0.65,1.78,1,2,2,2,2,X,0.964
+2026-04-18,Angers SCO vs Le Havre AC,France,0.82,0.89,1,1,1,1,2,X,0.69
+2026-04-18,Casa Pia AC vs CD Santa Clara,Portugal,1.18,1.15,1,1,0,0,1,X,0.775
+2026-04-18,AS Roma vs Atalanta BC,Italy,1.42,1.43,1,1,1,1,2,X,0.824
+2026-04-18,Chelsea FC vs Manchester United FC,England,1.52,2.06,2,2,0,1,2,2,0.42
+2026-04-18,Lille OSC vs OGC Nice,France,2.68,0.63,3,1,0,0,1,X,1.222
+2026-04-18,Gil Vicente FC vs Vitória SC,Portugal,2.1,1.6,2,2,0,1,1,2,0.753
+2026-04-19,US Cremonese vs Torino FC,Italy,1.0,1.86,1,2,0,0,2,X,0.915
+2026-04-19,Nottingham Forest FC vs Burnley FC,England,1.91,0.49,2,0,4,1,1,1,0.19
+2026-04-19,Everton FC vs Liverpool FC,England,1.56,1.43,2,1,1,2,1,2,0.643
+2026-04-19,Aston Villa FC vs Sunderland AFC,England,1.17,0.95,1,1,4,3,1,1,0.541
+2026-04-19,AS Monaco FC vs AJ Auxerre,France,1.45,0.92,1,1,2,2,1,X,0.822
+2026-04-19,Hellas Verona FC vs AC Milan,Italy,0.78,1.55,1,2,0,1,2,2,0.348
+2026-04-19,SC Freiburg vs 1. FC Heidenheim 1846,Germany,1.99,1.41,2,1,2,1,1,1,0.41
+2026-04-19,FC Arouca vs CF Estrela da Amadora,Portugal,1.68,0.92,2,1,1,0,1,1,0.356
+2026-04-19,FC Nantes vs Stade Brestois 29,France,1.2,1.26,1,1,1,1,2,X,0.789
+2026-04-19,RC Strasbourg Alsace vs Stade Rennais FC 1901,France,2.02,1.35,2,1,0,3,1,2,0.827
+2026-04-19,FC Metz vs Paris FC,France,1.03,2.01,1,2,1,3,2,2,0.303
+2026-04-19,FC Bayern München vs VfB Stuttgart,Germany,2.84,1.6,3,2,4,2,1,1,0.272
+2026-04-19,Manchester City FC vs Arsenal FC,England,1.69,1.17,2,1,2,1,1,1,0.425
+2026-04-19,AC Pisa 1909 vs Genoa CFC,Italy,0.87,2.19,1,2,1,2,2,2,0.226
+2026-04-19,Sporting Clube de Portugal vs Sport Lisboa e Benfica,Portugal,1.33,1.19,1,1,1,2,1,2,0.664
+2026-04-19,Borussia Mönchengladbach vs 1. FSV Mainz 05,Germany,1.2,1.48,1,1,1,1,2,X,0.821
+2026-04-19,Paris Saint-Germain FC vs Olympique Lyonnais,France,1.91,0.89,2,1,1,2,1,2,1.004
+2026-04-19,Juventus FC vs Bologna FC 1909,Italy,1.88,0.82,2,1,2,0,1,1,0.276
+2026-04-19,FC Porto vs CD Tondela,Portugal,2.66,0.41,3,0,2,0,1,1,0.094
+2026-04-19,Sporting Clube de Braga vs FC Famalicão,Portugal,1.55,0.84,2,1,2,2,1,X,0.855
+2026-04-20,US Lecce vs ACF Fiorentina,Italy,0.54,1.83,1,2,1,1,2,X,1.01
+2026-04-20,Crystal Palace FC vs West Ham United FC,England,1.52,1.25,2,1,0,0,1,X,0.827
+2026-04-20,Moreirense FC vs GD Estoril Praia,Portugal,1.1,1.4,1,1,1,0,2,1,0.729
+2026-04-21,Athletic Club vs CA Osasuna,Default,1.19,1.39,1,1,1,0,2,1,0.687
+2026-04-21,RCD Mallorca vs Valencia CF,Default,1.56,0.97,2,1,1,1,1,X,0.844
+2026-04-21,Brighton & Hove Albion FC vs Chelsea FC,England,1.86,0.71,2,1,3,0,1,1,0.252
+2026-04-21,Real Madrid CF vs Deportivo Alavés,Default,2.79,1.25,3,1,2,1,1,1,0.211
+2026-04-21,Girona FC vs Real Betis Balompié,Default,1.2,0.75,1,1,2,3,1,2,0.844
+2026-04-22,Paris Saint-Germain FC vs FC Nantes,France,2.4,0.57,2,1,3,0,1,1,0.14
+2026-04-22,Elche CF vs Club Atlético de Madrid,Default,1.42,1.53,1,2,3,2,2,1,0.639
+2026-04-22,Real Sociedad de Fútbol vs Getafe CF,Default,1.4,1.01,1,1,0,1,1,2,0.774
+2026-04-22,Telstar 1963 vs Sparta Rotterdam,Netherlands,1.39,1.25,1,1,4,1,1,1,0.555
+2026-04-22,Burnley FC vs Manchester City FC,England,0.69,3.19,1,3,0,1,2,2,0.093
+2026-04-22,AFC Bournemouth vs Leeds United FC,England,1.17,0.91,1,1,2,2,1,X,0.758
+2026-04-22,FC Barcelona vs RC Celta de Vigo,Default,3.44,0.75,3,1,1,0,1,1,0.085
+2026-04-23,Go Ahead Eagles vs AZ,Netherlands,1.88,1.11,2,1,0,0,1,X,0.905
+2026-04-23,Levante UD vs Sevilla FC,Default,1.67,0.96,2,1,2,0,1,1,0.368
+2026-04-23,Rayo Vallecano de Madrid vs RCD Espanyol de Barcelona,Default,1.52,0.83,2,1,1,0,1,1,0.373
+2026-04-23,Casa Pia AC vs Sporting Clube de Braga,Portugal,0.8,2.01,1,2,0,1,2,2,0.244
+2026-04-23,PSV vs PEC Zwolle,Netherlands,3.32,1.24,3,1,6,1,1,1,0.147
+2026-04-23,Real Oviedo vs Villarreal CF,Default,1.43,1.48,1,1,1,1,2,X,0.829
+2026-04-24,RB Leipzig vs 1. FC Union Berlin,Germany,2.71,0.53,3,1,3,1,1,1,0.107
+2026-04-24,Stade Brestois 29 vs Racing Club de Lens,France,1.61,2.33,2,2,3,3,2,X,0.937
+2026-04-24,SSC Napoli vs US Cremonese,Italy,1.62,0.45,2,0,4,0,1,1,0.234
+2026-04-24,Real Betis Balompié vs Real Madrid CF,Default,1.38,1.73,1,2,1,1,2,X,0.857
+2026-04-24,Sunderland AFC vs Nottingham Forest FC,England,1.07,1.54,1,2,0,5,2,2,0.443
+2026-04-24,FC Alverca vs FC Arouca,Portugal,1.32,1.38,1,1,2,1,2,1,0.629
+2026-04-25,Fulham FC vs Aston Villa FC,England,1.54,1.31,2,1,1,0,1,1,0.519
+2026-04-25,Deportivo Alavés vs RCD Mallorca,Default,1.65,1.88,2,2,2,1,2,1,0.663
+2026-04-25,Parma Calcio 1913 vs AC Pisa 1909,Italy,1.88,0.6,2,1,1,0,1,1,0.22
+2026-04-25,Olympique Lyonnais vs AJ Auxerre,France,1.37,0.7,1,1,3,2,1,1,0.379
+2026-04-25,VfL Wolfsburg vs Borussia Mönchengladbach,Germany,1.62,1.74,2,2,0,0,2,X,0.86
+2026-04-25,1. FC Köln vs Bayer 04 Leverkusen,Germany,1.73,2.22,2,2,1,2,2,2,0.434
+2026-04-25,1. FC Heidenheim 1846 vs FC St. Pauli 1910,Germany,1.91,0.91,2,1,2,0,1,1,0.293
+2026-04-25,1. FSV Mainz 05 vs FC Bayern München,Germany,1.24,2.6,1,3,3,4,2,2,0.237
+2026-04-25,FC Augsburg vs Eintracht Frankfurt,Germany,1.84,1.64,2,2,1,1,1,X,0.87
+2026-04-25,Liverpool FC vs Crystal Palace FC,England,1.61,0.89,2,1,3,1,1,1,0.364
+2026-04-25,Wolverhampton Wanderers FC vs Tottenham Hotspur FC,England,1.41,1.14,1,1,0,1,1,2,0.717
+2026-04-25,West Ham United FC vs Everton FC,England,1.43,1.24,1,1,2,1,1,1,0.536
+2026-04-25,Getafe CF vs FC Barcelona,Default,0.67,1.34,1,1,0,2,2,2,0.379
+2026-04-25,CD Tondela vs CD Nacional,Portugal,0.85,1.04,1,1,0,2,2,2,0.562
+2026-04-25,Feyenoord Rotterdam vs FC Groningen,Netherlands,1.13,1.2,1,1,3,1,2,1,0.649
+2026-04-25,Bologna FC 1909 vs AS Roma,Italy,1.31,1.54,1,2,0,2,2,2,0.519
+2026-04-25,Valencia CF vs Girona FC,Default,1.15,1.02,1,1,2,1,1,1,0.573
+2026-04-25,Hamburger SV vs TSG 1899 Hoffenheim,Germany,1.41,1.96,1,2,1,2,2,2,0.419
+2026-04-25,Arsenal FC vs Newcastle United FC,England,2.45,0.95,2,1,1,0,1,1,0.202
+2026-04-25,SC Heerenveen vs Fortuna Sittard,Netherlands,2.49,1.51,2,2,2,1,1,1,0.316
+2026-04-25,Sport Lisboa e Benfica vs Moreirense FC,Portugal,2.01,0.26,2,0,4,1,1,1,0.129
+2026-04-25,Angers SCO vs Paris Saint-Germain FC,France,0.7,2.27,1,2,0,3,2,2,0.179
+2026-04-25,NAC Breda vs AFC Ajax,Netherlands,0.74,1.93,1,2,0,2,2,2,0.247
+2026-04-25,Hellas Verona FC vs US Lecce,Italy,0.92,0.64,1,1,0,0,1,X,0.677
+2026-04-25,FC Twente '65 vs NEC,Netherlands,1.89,1.19,2,1,1,1,1,X,0.897
+2026-04-25,Club Atlético de Madrid vs Athletic Club,Default,1.71,1.15,2,1,3,2,1,1,0.413
+2026-04-25,Toulouse FC vs AS Monaco FC,France,1.21,2.15,1,2,2,2,2,X,0.951
+2026-04-25,Vitória SC vs Rio Ave FC,Portugal,1.61,1.16,2,1,2,0,1,1,0.446
+2026-04-26,SBV Excelsior vs FC Utrecht,Netherlands,0.95,2.08,1,2,5,0,2,1,1.027
+2026-04-26,ACF Fiorentina vs US Sassuolo Calcio,Italy,1.72,1.01,2,1,0,0,1,X,0.879
+2026-04-26,Rayo Vallecano de Madrid vs Real Sociedad de Fútbol,Default,1.33,1.26,1,1,3,3,1,X,0.802
+2026-04-26,Heracles Almelo vs FC Volendam,Netherlands,0.83,1.49,1,1,0,2,2,2,0.383
+2026-04-26,FC Lorient vs RC Strasbourg Alsace,France,1.55,1.06,2,1,2,3,1,2,0.801
+2026-04-26,Genoa CFC vs Como 1907,Italy,1.4,2.17,1,2,0,2,2,2,0.36
+2026-04-26,VfB Stuttgart vs SV Werder Bremen,Germany,2.66,1.08,3,1,1,1,1,X,1.092
+2026-04-26,Real Oviedo vs Elche CF,Default,1.65,1.27,2,1,1,2,1,2,0.74
+2026-04-26,GD Estoril Praia vs FC Famalicão,Portugal,1.25,1.72,1,2,0,1,2,2,0.441
+2026-04-26,Le Havre AC vs FC Metz,France,1.59,0.66,2,1,4,4,1,X,0.899
+2026-04-26,Paris FC vs Lille OSC,France,1.27,1.43,1,1,0,1,2,2,0.545
+2026-04-26,Stade Rennais FC 1901 vs FC Nantes,France,2.34,0.56,2,1,2,1,1,1,0.145
+2026-04-26,Borussia Dortmund vs SC Freiburg,Germany,1.93,1.01,2,1,4,0,1,1,0.314
+2026-04-26,Torino FC vs FC Internazionale Milano,Italy,1.48,2.86,1,3,2,2,2,X,1.05
+2026-04-26,CA Osasuna vs Sevilla FC,Default,1.6,0.8,2,1,2,1,1,1,0.339
+2026-04-26,CF Estrela da Amadora vs FC Porto,Portugal,0.61,2.11,1,2,1,2,2,2,0.184
+2026-04-26,CD Santa Clara vs Sporting Clube de Braga,Portugal,0.8,1.74,1,2,2,1,2,1,0.993
+2026-04-26,Olympique de Marseille vs OGC Nice,France,1.7,0.94,2,1,1,1,1,X,0.882
+2026-04-26,AC Milan vs Juventus FC,Italy,0.89,1.62,1,2,0,0,2,X,0.868
+2026-04-26,Villarreal CF vs RC Celta de Vigo,Default,1.92,1.16,2,1,2,1,1,1,0.359
+2026-04-26,AVS vs Sporting Clube de Portugal,Portugal,0.64,2.52,1,3,1,1,2,X,1.181
+2026-04-29,Sporting Clube de Portugal vs CD Tondela,Portugal,2.9,0.39,3,0,2,2,1,X,1.35
+2026-05-01,AC Pisa 1909 vs US Lecce,Italy,0.9,0.73,1,1,1,2,1,2,0.746
+2026-05-01,Leeds United FC vs Burnley FC,England,2.16,0.47,2,0,3,1,1,1,0.15
+2026-05-01,Girona FC vs RCD Mallorca,Default,1.43,1.21,1,1,0,1,1,2,0.688
+2026-05-02,Villarreal CF vs Levante UD,Default,1.53,1.13,2,1,5,1,1,1,0.463
+2026-05-02,Udinese Calcio vs Torino FC,Italy,1.63,0.96,2,1,2,0,1,1,0.379
+2026-05-02,FC Nantes vs Olympique de Marseille,France,0.99,1.41,1,1,3,0,2,1,0.788
+2026-05-02,Eintracht Frankfurt vs Hamburger SV,Germany,2.08,1.1,2,1,1,2,1,2,0.959
+2026-05-02,FC Bayern München vs 1. FC Heidenheim 1846,Germany,4.21,1.3,4,1,3,3,1,X,1.329
+2026-05-02,1. FC Union Berlin vs 1. FC Köln,Germany,1.32,1.8,1,2,2,2,2,X,0.871
+2026-05-02,TSG 1899 Hoffenheim vs VfB Stuttgart,Germany,1.85,2.2,2,2,3,3,2,X,0.906
+2026-05-02,SV Werder Bremen vs FC Augsburg,Germany,1.36,1.27,1,1,1,3,1,2,0.64
+2026-05-02,Newcastle United FC vs Brighton & Hove Albion FC,England,0.89,1.78,1,2,3,1,2,1,0.962
+2026-05-02,Brentford FC vs West Ham United FC,England,1.34,1.11,1,1,3,0,1,1,0.525
+2026-05-02,Wolverhampton Wanderers FC vs Sunderland AFC,England,1.21,1.17,1,1,1,1,1,X,0.781
+2026-05-02,Valencia CF vs Club Atlético de Madrid,Default,1.62,1.35,2,1,0,2,1,2,0.696
+2026-05-02,FC Utrecht vs NAC Breda,Netherlands,1.98,0.61,2,1,2,0,1,1,0.206
+2026-05-02,Moreirense FC vs CF Estrela da Amadora,Portugal,1.0,0.88,1,1,3,2,1,1,0.59
+2026-05-02,FC Arouca vs CD Santa Clara,Portugal,1.45,0.94,1,1,2,2,1,X,0.821
+2026-05-02,CD Nacional vs AVS,Portugal,1.36,0.4,1,0,1,2,1,2,1.109
+2026-05-02,Paris Saint-Germain FC vs FC Lorient,France,2.6,0.79,3,1,2,2,1,X,1.156
+2026-05-02,Como 1907 vs SSC Napoli,Italy,1.98,1.22,2,1,0,0,1,X,0.912
+2026-05-02,Bayer 04 Leverkusen vs RB Leipzig,Germany,1.52,1.98,2,2,4,1,2,1,0.745
+2026-05-02,Arsenal FC vs Fulham FC,England,1.59,0.74,2,1,3,0,1,1,0.324
+2026-05-02,Deportivo Alavés vs Athletic Club,Default,2.03,1.41,2,1,2,4,1,2,0.804
+2026-05-02,FC Groningen vs SBV Excelsior,Netherlands,1.58,1.26,2,1,2,3,1,2,0.722
+2026-05-02,FC Famalicão vs Sport Lisboa e Benfica,Portugal,0.91,1.58,1,2,2,2,2,X,0.855
+2026-05-02,FC Metz vs AS Monaco FC,France,1.56,2.9,2,3,1,2,2,2,0.254
+2026-05-02,AFC Ajax vs PSV,Netherlands,2.07,1.77,2,2,2,2,1,X,0.894
+2026-05-02,Atalanta BC vs Genoa CFC,Italy,1.77,0.71,2,1,0,0,1,X,0.944
+2026-05-02,NEC vs Telstar 1963,Netherlands,2.42,1.39,2,1,1,1,1,X,0.979
+2026-05-02,CA Osasuna vs FC Barcelona,Default,0.74,2.16,1,2,1,2,2,2,0.203
+2026-05-02,OGC Nice vs Racing Club de Lens,France,1.31,2.23,1,2,1,1,2,X,0.952
+2026-05-02,FC Porto vs FC Alverca,Portugal,2.37,0.6,2,1,1,0,1,1,0.149
+2026-05-03,FC Volendam vs SC Heerenveen,Netherlands,1.37,1.64,1,2,0,2,2,2,0.504
+2026-05-03,Bologna FC 1909 vs Cagliari Calcio,Italy,1.24,0.98,1,1,0,0,1,X,0.773
+2026-05-03,RC Celta de Vigo vs Elche CF,Default,1.65,1.67,2,2,3,1,2,1,0.595
+2026-05-03,Fortuna Sittard vs Feyenoord Rotterdam,Netherlands,1.35,1.78,1,2,1,2,2,2,0.453
+2026-05-03,PEC Zwolle vs Heracles Almelo,Netherlands,2.2,0.88,2,1,1,0,1,1,0.228
+2026-05-03,Lille OSC vs Le Havre AC,France,1.96,0.63,2,1,1,1,1,X,1.026
+2026-05-03,AFC Bournemouth vs Crystal Palace FC,England,1.61,0.88,2,1,3,0,1,1,0.361
+2026-05-03,US Sassuolo Calcio vs AC Milan,Italy,1.08,0.91,1,1,2,0,1,1,0.564
+2026-05-03,FC St. Pauli 1910 vs 1. FSV Mainz 05,Germany,0.82,1.71,1,2,1,2,2,2,0.316
+2026-05-03,Getafe CF vs Rayo Vallecano de Madrid,Default,0.93,0.68,1,1,0,2,1,2,0.782
+2026-05-03,Manchester United FC vs Liverpool FC,England,1.57,1.63,2,2,3,2,2,1,0.611
+2026-05-03,Casa Pia AC vs CD Tondela,Portugal,1.07,0.83,1,1,0,1,1,2,0.748
+2026-05-03,AZ vs FC Twente '65,Netherlands,1.2,1.12,1,1,2,2,1,X,0.776
+2026-05-03,Sparta Rotterdam vs Go Ahead Eagles,Netherlands,0.76,2.01,1,2,2,2,2,X,1.004
+2026-05-03,RC Strasbourg Alsace vs Toulouse FC,France,2.22,1.03,2,1,1,2,1,2,1.031
+2026-05-03,AJ Auxerre vs Angers SCO,France,1.56,0.49,2,0,3,1,1,1,0.26
+2026-05-03,Paris FC vs Stade Brestois 29,France,2.05,1.23,2,1,4,0,1,1,0.345
+2026-05-03,Borussia Mönchengladbach vs Borussia Dortmund,Germany,0.92,1.9,1,2,1,0,2,1,0.985
+2026-05-03,Juventus FC vs Hellas Verona FC,Italy,2.38,0.18,2,0,1,1,1,X,1.317
+2026-05-03,Real Betis Balompié vs Real Oviedo,Default,1.56,0.98,2,1,3,0,1,1,0.406
+2026-05-03,Sporting Clube de Braga vs GD Estoril Praia,Portugal,2.24,0.81,2,1,1,1,1,X,1.056
+2026-05-03,SC Freiburg vs VfL Wolfsburg,Germany,1.76,1.25,2,1,1,1,1,X,0.868
+2026-05-03,Aston Villa FC vs Tottenham Hotspur FC,England,1.92,0.99,2,1,1,2,1,2,0.96
+2026-05-03,FC Internazionale Milano vs Parma Calcio 1913,Italy,2.62,0.92,3,1,2,0,1,1,0.174
+2026-05-03,Olympique Lyonnais vs Stade Rennais FC 1901,France,1.71,1.43,2,1,4,2,1,1,0.499
+2026-05-03,RCD Espanyol de Barcelona vs Real Madrid CF,Default,0.93,2.33,1,2,0,2,2,2,0.215
+2026-05-03,Rio Ave FC vs Gil Vicente FC,Portugal,1.25,1.32,1,1,0,0,2,X,0.8
+2026-05-04,Chelsea FC vs Nottingham Forest FC,England,0.78,2.54,1,3,1,3,2,2,0.159
+2026-05-04,US Cremonese vs SS Lazio,Italy,0.51,1.42,1,1,1,2,2,2,0.302
+2026-05-04,AS Roma vs ACF Fiorentina,Italy,1.56,1.01,2,1,4,0,1,1,0.418
+2026-05-04,Sevilla FC vs Real Sociedad de Fútbol,Default,1.46,2.29,1,2,1,0,2,1,0.869
+2026-05-04,Everton FC vs Manchester City FC,England,0.97,1.86,1,2,3,3,2,X,0.919
+2026-05-04,Sporting Clube de Portugal vs Vitória SC,Portugal,2.1,1.27,2,1,5,1,1,1,0.344
+2026-05-08,Borussia Dortmund vs Eintracht Frankfurt,Germany,2.29,0.87,2,1,3,2,1,1,0.212
+2026-05-08,Torino FC vs US Sassuolo Calcio,Italy,1.28,1.48,1,1,2,1,2,1,0.679
+2026-05-08,Racing Club de Lens vs FC Nantes,France,2.22,1.1,2,1,1,0,1,1,0.274
+2026-05-08,Levante UD vs CA Osasuna,Default,1.37,1.3,1,1,3,2,1,1,0.578
+2026-05-09,Liverpool FC vs Chelsea FC,England,2.86,0.87,3,1,1,1,1,X,1.194
+2026-05-09,Elche CF vs Deportivo Alavés,Default,2.31,1.93,2,2,1,1,1,X,0.916
+2026-05-09,Cagliari Calcio vs Udinese Calcio,Italy,0.79,1.24,1,1,0,2,2,2,0.458
+2026-05-09,FC Augsburg vs Borussia Mönchengladbach,Germany,1.49,0.97,1,1,3,1,1,1,0.427
+2026-05-09,VfB Stuttgart vs Bayer 04 Leverkusen,Germany,2.15,2.27,2,2,3,1,2,1,0.611
+2026-05-09,RB Leipzig vs FC St. Pauli 1910,Germany,2.63,0.5,3,0,2,1,1,1,0.109
+2026-05-09,TSG 1899 Hoffenheim vs SV Werder Bremen,Germany,2.29,1.19,2,1,1,0,1,1,0.283
+2026-05-09,Fulham FC vs AFC Bournemouth,England,0.94,1.5,1,2,0,1,2,2,0.415
+2026-05-09,Sunderland AFC vs Manchester United FC,England,1.17,2.19,1,2,0,0,2,X,0.966
+2026-05-09,Brighton & Hove Albion FC vs Wolverhampton Wanderers FC,England,1.96,0.53,2,1,3,0,1,1,0.192
+2026-05-09,Sevilla FC vs RCD Espanyol de Barcelona,Default,1.54,0.8,2,1,2,1,1,1,0.358
+2026-05-09,SS Lazio vs FC Internazionale Milano,Italy,1.3,1.77,1,2,0,3,2,2,0.443
+2026-05-09,Manchester City FC vs Brentford FC,England,1.75,1.08,2,1,3,0,1,1,0.381
+2026-05-09,Club Atlético de Madrid vs RC Celta de Vigo,Default,2.13,1.51,2,2,0,1,1,2,0.795
+2026-05-09,VfL Wolfsburg vs FC Bayern München,Germany,1.38,3.98,1,4,0,1,2,2,0.113
+2026-05-09,US Lecce vs Juventus FC,Italy,0.59,1.77,1,2,0,1,2,2,0.24
+2026-05-09,Real Sociedad de Fútbol vs Real Betis Balompié,Default,1.49,1.88,1,2,2,2,2,X,0.876
+2026-05-10,Hellas Verona FC vs Como 1907,Italy,0.59,2.21,1,2,0,1,2,2,0.167
+2026-05-10,RCD Mallorca vs Villarreal CF,Default,1.39,1.76,1,2,1,1,2,X,0.862
+2026-05-10,Crystal Palace FC vs Everton FC,England,1.26,1.68,1,2,2,2,2,X,0.852
+2026-05-10,Burnley FC vs Aston Villa FC,England,1.06,2.0,1,2,2,2,2,X,0.939
+2026-05-10,US Cremonese vs AC Pisa 1909,Italy,1.16,0.88,1,1,3,0,1,1,0.517
+2026-05-10,Nottingham Forest FC vs Newcastle United FC,England,2.56,0.8,3,1,1,1,1,X,1.143
+2026-05-10,ACF Fiorentina vs Genoa CFC,Italy,1.18,0.99,1,1,0,0,1,X,0.763
+2026-05-10,Hamburger SV vs SC Freiburg,Germany,1.47,1.27,1,1,3,2,1,1,0.532
+2026-05-10,Athletic Club vs Valencia CF,Default,1.63,1.13,2,1,0,1,1,2,0.794
+2026-05-10,Go Ahead Eagles vs PSV,Netherlands,2.0,1.81,2,2,1,4,1,2,0.643
+2026-05-10,SBV Excelsior vs FC Volendam,Netherlands,1.83,0.89,2,1,1,1,1,X,0.925
+2026-05-10,Telstar 1963 vs Heracles Almelo,Netherlands,2.47,0.49,2,0,3,0,1,1,0.121
+2026-05-10,Feyenoord Rotterdam vs AZ,Netherlands,1.51,1.21,2,1,1,1,1,X,0.826
+2026-05-10,AFC Ajax vs FC Utrecht,Netherlands,2.0,1.14,2,1,1,2,1,2,0.911
+2026-05-10,FC Groningen vs NEC,Netherlands,1.51,1.63,2,2,2,1,2,1,0.637
+2026-05-10,FC Twente '65 vs Sparta Rotterdam,Netherlands,2.23,0.72,2,1,4,0,1,1,0.189
+2026-05-10,Fortuna Sittard vs PEC Zwolle,Netherlands,2.11,1.39,2,1,3,2,1,1,0.372
+2026-05-10,West Ham United FC vs Arsenal FC,England,0.92,1.93,1,2,0,1,2,2,0.291
+2026-05-10,1. FC Köln vs 1. FC Heidenheim 1846,Germany,2.14,1.93,2,2,1,3,1,2,0.643
+2026-05-10,Parma Calcio 1913 vs AS Roma,Italy,0.86,2.04,1,2,2,3,2,2,0.253
+2026-05-10,Real Oviedo vs Getafe CF,Default,0.93,0.67,1,1,0,0,1,X,0.683
+2026-05-10,AVS vs FC Porto,Portugal,0.6,1.95,1,2,3,1,2,1,1.162
+2026-05-10,1. FSV Mainz 05 vs 1. FC Union Berlin,Germany,2.19,0.92,2,1,1,3,1,2,1.073
+2026-05-10,AC Milan vs Atalanta BC,Italy,0.71,0.99,1,1,2,3,2,2,0.534
+2026-05-10,AS Monaco FC vs Lille OSC,France,1.25,1.48,1,1,0,1,2,2,0.523
+2026-05-10,Stade Rennais FC 1901 vs Paris FC,France,1.7,1.99,2,2,2,1,2,1,0.682
+2026-05-10,Toulouse FC vs Olympique Lyonnais,France,1.24,2.23,1,2,2,1,2,1,0.938
+2026-05-10,FC Barcelona vs Real Madrid CF,Default,1.98,0.82,2,1,2,0,1,1,0.254
+2026-05-10,Le Havre AC vs Olympique de Marseille,France,1.74,1.09,2,1,0,1,1,2,0.856
+2026-05-10,Angers SCO vs RC Strasbourg Alsace,France,0.89,1.82,1,2,1,1,2,X,0.923
+2026-05-10,FC Metz vs FC Lorient,France,1.46,2.37,1,2,0,4,2,2,0.329
+2026-05-10,Paris Saint-Germain FC vs Stade Brestois 29,France,3.67,0.78,4,1,1,0,1,1,0.077
+2026-05-10,AJ Auxerre vs OGC Nice,France,1.7,0.77,2,1,2,1,1,1,0.305
+2026-05-10,FC Alverca vs GD Estoril Praia,Portugal,1.52,1.07,2,1,1,1,1,X,0.829
+2026-05-11,NAC Breda vs SC Heerenveen,Netherlands,0.72,2.15,1,2,2,0,2,1,1.157
+2026-05-11,SSC Napoli vs Bologna FC 1909,Italy,1.52,0.52,2,1,2,3,1,2,1.085
+2026-05-11,Tottenham Hotspur FC vs Leeds United FC,England,1.07,1.73,1,2,1,1,2,X,0.876
+2026-05-11,Rayo Vallecano de Madrid vs Girona FC,Default,1.43,0.79,1,1,1,1,1,X,0.828
+2026-05-11,Gil Vicente FC vs FC Arouca,Portugal,1.55,1.12,2,1,1,3,1,2,0.773
+2026-05-11,CD Santa Clara vs CD Nacional,Portugal,1.14,1.0,1,1,2,0,1,1,0.569
+2026-05-11,CF Estrela da Amadora vs FC Famalicão,Portugal,0.98,1.7,1,2,0,0,2,X,0.877
+2026-05-11,Vitória SC vs Casa Pia AC,Portugal,1.76,0.64,2,1,0,1,1,2,1.086
+2026-05-11,Rio Ave FC vs Sporting Clube de Portugal,Portugal,0.95,2.08,1,2,1,4,2,2,0.267
+2026-05-11,CD Tondela vs Moreirense FC,Portugal,1.26,1.08,1,1,2,0,1,1,0.549
+2026-05-11,Sport Lisboa e Benfica vs Sporting Clube de Braga,Portugal,1.99,0.91,2,1,2,2,1,X,0.963
+2026-05-12,RC Celta de Vigo vs Levante UD,Default,1.99,1.35,2,1,2,3,1,2,0.819
+2026-05-12,Real Betis Balompié vs Elche CF,Default,2.16,1.13,2,1,2,1,1,1,0.292
+2026-05-12,CA Osasuna vs Club Atlético de Madrid,Default,1.5,1.61,2,2,1,2,2,2,0.554
+2026-05-13,Villarreal CF vs Sevilla FC,Default,2.29,0.9,2,1,2,3,1,2,1.106
+2026-05-13,RCD Espanyol de Barcelona vs Athletic Club,Default,1.13,1.75,1,2,2,0,2,1,0.836
+2026-05-13,Stade Brestois 29 vs RC Strasbourg Alsace,France,1.34,1.94,1,2,1,2,2,2,0.405
+2026-05-13,Racing Club de Lens vs Paris Saint-Germain FC,France,1.39,2.16,1,2,0,2,2,2,0.362
+2026-05-13,Manchester City FC vs Crystal Palace FC,England,2.72,0.61,3,1,3,0,1,1,0.115
+2026-05-13,Deportivo Alavés vs FC Barcelona,Default,0.83,3.23,1,3,1,0,2,1,1.345
+2026-05-13,Getafe CF vs RCD Mallorca,Default,0.71,0.77,1,1,3,1,X,1,0.71
+2026-05-14,Valencia CF vs Rayo Vallecano de Madrid,Default,1.06,0.97,1,1,1,1,1,X,0.74
+2026-05-14,Girona FC vs Real Sociedad de Fútbol,Default,1.53,1.43,2,1,1,1,1,X,0.834
+2026-05-14,Real Madrid CF vs Real Oviedo,Default,1.83,0.63,2,1,2,0,1,1,0.238
+2026-05-15,Aston Villa FC vs Liverpool FC,England,1.56,2.04,2,2,4,2,2,1,0.751
+2026-05-16,FC St. Pauli 1910 vs VfL Wolfsburg,Germany,1.02,1.14,1,1,1,3,2,2,0.581
+2026-05-16,SV Werder Bremen vs Borussia Dortmund,Germany,0.9,2.02,1,2,0,2,2,2,0.266
+2026-05-16,Borussia Mönchengladbach vs TSG 1899 Hoffenheim,Germany,1.28,1.61,1,2,4,0,2,1,0.723
+2026-05-16,SC Freiburg vs RB Leipzig,Germany,1.28,2.29,1,2,4,1,2,1,0.942
+2026-05-16,Bayer 04 Leverkusen vs Hamburger SV,Germany,2.55,1.32,3,1,1,1,1,X,1.017
+2026-05-16,1. FC Union Berlin vs FC Augsburg,Germany,1.43,1.96,1,2,4,0,2,1,0.778
+2026-05-16,1. FC Heidenheim 1846 vs 1. FSV Mainz 05,Germany,2.17,1.65,2,2,0,2,1,2,0.752
+2026-05-16,FC Bayern München vs 1. FC Köln,Germany,4.1,1.21,4,1,5,1,1,1,0.092
+2026-05-16,Eintracht Frankfurt vs VfB Stuttgart,Germany,1.71,2.74,2,3,2,2,2,X,0.991
+2026-05-16,Moreirense FC vs AVS,Portugal,1.09,1.3,1,1,0,0,2,X,0.788
+2026-05-16,FC Porto vs CD Santa Clara,Portugal,1.85,0.79,2,1,1,0,1,1,0.275
+2026-05-16,Casa Pia AC vs Rio Ave FC,Portugal,0.94,0.73,1,1,1,1,1,X,0.689
+2026-05-16,Sporting Clube de Braga vs CF Estrela da Amadora,Portugal,2.01,0.68,2,1,2,2,1,X,1.028
+2026-05-16,CD Nacional vs Vitória SC,Portugal,1.25,1.1,1,1,2,0,1,1,0.56
+2026-05-16,FC Arouca vs CD Tondela,Portugal,1.82,1.01,2,1,3,1,1,1,0.343
+2026-05-16,Sporting Clube de Portugal vs Gil Vicente FC,Portugal,3.06,0.89,3,1,3,0,1,1,0.124
+2026-05-16,GD Estoril Praia vs Sport Lisboa e Benfica,Portugal,1.02,2.39,1,2,1,3,2,2,0.226
+2026-05-16,FC Famalicão vs FC Alverca,Portugal,1.46,0.72,1,1,1,0,1,1,0.354
+2026-05-18,Arsenal FC vs Burnley FC,England,3.05,0.39,3,0,1,0,1,1,0.072
+2026-05-19,AFC Bournemouth vs Manchester City FC,England,1.16,1.54,1,2,1,1,2,X,0.83
+2026-05-19,Chelsea FC vs Tottenham Hotspur FC,England,1.33,1.37,1,1,2,1,2,1,0.622
+2026-05-22,ACF Fiorentina vs Atalanta BC,Italy,0.84,1.26,1,1,1,1,2,X,0.777
+2026-05-23,Bologna FC 1909 vs FC Internazionale Milano,Italy,1.1,2.56,1,3,3,3,2,X,1.063
+2026-05-23,SS Lazio vs AC Pisa 1909,Italy,1.99,0.4,2,0,2,1,1,1,0.157
+2026-05-23,Real Madrid CF vs Athletic Club,Default,2.19,0.73,2,1,4,2,1,1,0.197
+2026-05-23,RC Celta de Vigo vs Sevilla FC,Default,1.93,1.45,2,1,1,0,1,1,0.439
+2026-05-23,Valencia CF vs FC Barcelona,Default,0.67,1.62,1,2,3,1,2,1,1.024
+2026-05-23,Getafe CF vs CA Osasuna,Default,1.25,0.73,1,1,1,0,1,1,0.431
+2026-05-23,Deportivo Alavés vs Rayo Vallecano de Madrid,Default,1.42,1.44,1,1,1,2,2,2,0.592
+2026-05-23,Real Betis Balompié vs Levante UD,Default,2.28,1.34,2,1,2,1,1,1,0.32
+2026-05-23,RCD Espanyol de Barcelona vs Real Sociedad de Fútbol,Default,1.4,1.85,1,2,1,1,2,X,0.875
+2026-05-23,Girona FC vs Elche CF,Default,1.49,1.08,1,1,1,1,1,X,0.824
+2026-05-23,RCD Mallorca vs Real Oviedo,Default,1.51,0.7,2,1,3,0,1,1,0.335
+2026-05-24,Parma Calcio 1913 vs US Sassuolo Calcio,Italy,1.11,1.34,1,1,1,0,2,1,0.708
+2026-05-24,Crystal Palace FC vs Arsenal FC,England,0.6,2.13,1,2,1,2,2,2,0.18
+2026-05-24,Tottenham Hotspur FC vs Everton FC,England,1.47,1.84,1,2,1,0,2,1,0.719
+2026-05-24,Fulham FC vs Newcastle United FC,England,1.1,1.15,1,1,2,0,2,1,0.643
+2026-05-24,Sunderland AFC vs Chelsea FC,England,1.36,1.19,1,1,2,1,1,1,0.548
+2026-05-24,Manchester City FC vs Aston Villa FC,England,2.82,0.98,3,1,1,2,1,2,1.207
+2026-05-24,Nottingham Forest FC vs AFC Bournemouth,England,1.61,0.92,2,1,1,1,1,X,0.863
+2026-05-24,Burnley FC vs Wolverhampton Wanderers FC,England,1.25,0.9,1,1,1,1,1,X,0.774
+2026-05-24,West Ham United FC vs Leeds United FC,England,0.99,1.38,1,1,3,0,2,1,0.779
+2026-05-24,Liverpool FC vs Brentford FC,England,1.86,1.48,2,1,1,1,1,X,0.873
+2026-05-24,Brighton & Hove Albion FC vs Manchester United FC,England,1.67,1.06,2,1,0,3,1,2,0.845
+2026-05-24,SSC Napoli vs Udinese Calcio,Italy,1.06,1.26,1,1,1,0,2,1,0.703
+2026-05-24,AC Milan vs Cagliari Calcio,Italy,1.22,0.72,1,1,1,2,1,2,0.864
+2026-05-24,US Lecce vs Genoa CFC,Italy,0.7,0.9,1,1,1,0,2,1,0.761
+2026-05-24,US Cremonese vs Como 1907,Italy,0.75,2.19,1,2,1,4,2,2,0.202
+2026-05-24,Hellas Verona FC vs AS Roma,Italy,0.63,2.43,1,2,0,2,2,2,0.147
+2026-05-24,Villarreal CF vs Club Atlético de Madrid,Default,2.08,1.56,2,2,5,1,1,1,0.428
+2026-05-24,Torino FC vs Juventus FC,Italy,0.89,1.74,1,2,2,2,2,X,0.902
+2026-08-07,SC Cambuur-Leeuwarden vs SBV Excelsior,Netherlands,1.69,1.58,2,2,0,4,1,2,0.629
+2026-08-07,GD Estoril Praia vs FC Famalicão,Portugal,0.87,1.48,1,1,1,1,2,X,0.833
+2026-08-08,CS Marítimo vs Casa Pia AC,Portugal,1.42,0.62,1,1,1,0,1,1,0.336
+2026-08-08,NEC vs Telstar 1963,Netherlands,1.85,1.57,2,2,1,2,1,2,0.682
+2026-08-08,Go Ahead Eagles vs Willem II Tilburg,Netherlands,1.85,1.31,2,1,4,1,1,1,0.419
+2026-08-08,Vitória SC vs FC Arouca,Portugal,1.33,2.09,1,2,0,1,2,2,0.362
+2026-08-08,PSV vs Fortuna Sittard,Netherlands,3.74,1.4,4,1,2,2,1,X,1.232
+2026-08-08,AZ vs ADO Den Haag,Netherlands,1.71,1.1,2,1,2,0,1,1,0.4
+2026-08-08,CF Estrela da Amadora vs Sporting Clube de Portugal,Portugal,0.92,3.12,1,3,2,2,2,X,1.233
+2026-08-09,Sparta Rotterdam vs Feyenoord Rotterdam,Netherlands,0.93,2.03,1,2,0,1,2,2,0.271
+2026-08-09,FC Groningen vs FC Utrecht,Netherlands,1.57,1.57,2,2,2,1,1,1,0.592
+2026-08-09,PEC Zwolle vs AFC Ajax,Netherlands,1.22,2.6,1,3,0,2,2,2,0.233
+2026-08-09,SC Heerenveen vs FC Twente '65,Netherlands,1.31,1.89,1,2,1,0,2,1,0.802
+2026-08-09,FC Porto vs FC Alverca,Portugal,1.86,0.5,2,0,2,0,1,1,0.2
+2026-08-09,Sport Lisboa e Benfica vs Académico de Viseu FC,Portugal,2.52,0.91,3,1,2,2,1,X,1.102
+2026-08-09,Moreirense FC vs Sporting Clube de Braga,Portugal,0.94,1.73,1,2,2,2,2,X,0.89
+2026-08-09,Gil Vicente FC vs Rio Ave FC,Portugal,1.31,1.01,1,1,1,0,1,1,0.506
+2026-08-10,CD Santa Clara vs CD Nacional,Portugal,1.1,0.88,1,1,2,2,1,X,0.739
+2026-08-14,Telstar 1963 vs Sparta Rotterdam,Netherlands,2.49,0.72,2,1,1,3,1,2,1.242
+2026-08-14,Sporting Clube de Portugal vs Vitória SC,Portugal,3.3,0.7,3,1,3,2,1,1,0.089
+2026-08-16,ADO Den Haag vs FC Groningen,Netherlands,1.4,1.61,1,2,1,4,2,2,0.525
+2026-08-16,FC Twente '65 vs PEC Zwolle,Netherlands,2.76,0.62,3,1,3,1,1,1,0.113
+2026-08-16,Feyenoord Rotterdam vs Go Ahead Eagles,Netherlands,1.53,1.31,2,1,2,2,1,X,0.829
+2026-08-16,CD Nacional vs GD Estoril Praia,Portugal,1.59,0.87,2,1,2,0,1,1,0.362
+2026-08-16,AFC Ajax vs SC Heerenveen,Netherlands,1.79,1.07,2,1,2,2,1,X,0.889
+2026-08-16,Real Racing Club de Santander vs Villarreal CF,Default,1.58,2.26,2,2,2,2,2,X,0.927
+2026-08-16,RCD Espanyol de Barcelona vs Levante UD,Default,1.46,1.71,1,2,3,0,2,1,0.683
+2026-08-16,FC Arouca vs Moreirense FC,Portugal,2.1,0.73,2,1,4,0,1,1,0.211
+2026-08-16,FC Famalicão vs CS Marítimo,Portugal,1.27,0.78,1,1,1,2,1,2,0.85
+2026-08-17,RC Deportivo La Coruña vs Elche CF,Default,1.82,1.21,2,1,1,1,1,X,0.88
+2026-08-17,Casa Pia AC vs Sport Lisboa e Benfica,Portugal,0.7,1.92,1,2,0,7,2,2,0.237
+2026-08-19,Club Atlético de Madrid vs Málaga CF,Default,1.66,1.71,2,2,2,0,2,1,0.603
+2026-08-20,Rayo Vallecano de Madrid vs Deportivo Alavés,Default,1.89,1.05,2,1,1,1,1,X,0.913
+2026-08-21,Olympique de Marseille vs RC Strasbourg Alsace,France,1.31,1.57,1,2,4,0,2,1,0.698
+2026-08-21,Arsenal FC vs Coventry City FC,England,2.0,0.63,2,1,3,0,1,1,0.207
+2026-08-21,Real Betis Balompié vs Real Sociedad de Fútbol,Default,2.19,1.21,2,1,1,0,1,1,0.307
+2026-08-22,Hull City AFC vs Manchester United FC,England,1.23,1.72,1,2,2,0,2,1,0.781
+2026-08-22,Nottingham Forest FC vs Leeds United FC,England,1.97,0.73,2,1,0,1,1,2,1.101
+2026-08-22,Everton FC vs Crystal Palace FC,England,2.07,0.96,2,1,2,0,1,1,0.27
+2026-08-22,Ipswich Town FC vs Sunderland AFC,England,1.7,0.99,2,1,2,1,1,1,0.368
+2026-08-22,CS Marítimo vs Académico de Viseu FC,Portugal,1.68,1.14,2,1,2,2,1,X,0.859
+2026-08-22,Fortuna Sittard vs AZ,Netherlands,1.3,1.85,1,2,0,2,2,2,0.417
+2026-08-22,Athletic Club vs Sevilla FC,Default,1.54,1.57,2,2,1,3,2,2,0.584
+2026-08-22,Racing Club de Lens vs AJ Auxerre,France,1.67,1.53,2,2,5,2,1,1,0.544
+2026-08-22,Brentford FC vs Tottenham Hotspur FC,England,1.53,0.9,2,1,3,0,1,1,0.392
+2026-08-22,FC Internazionale Milano vs AC Monza,Italy,2.91,1.17,3,1,4,1,1,1,0.181
+2026-08-22,Udinese Calcio vs Como 1907,Italy,1.02,1.21,1,1,1,1,2,X,0.769
+2026-08-22,Sparta Rotterdam vs FC Utrecht,Netherlands,1.27,1.91,1,2,3,3,2,X,0.893
+2026-08-22,GD Estoril Praia vs Rio Ave FC,Portugal,1.15,0.89,1,1,0,2,1,2,0.747
+2026-08-22,Valencia CF vs RC Celta de Vigo,Default,1.49,1.11,1,1,0,0,1,X,0.823
+2026-08-22,Le Mans FC vs Stade Brestois 29,France,2.13,1.01,2,1,2,2,1,X,0.981
+2026-08-22,Parma Calcio 1913 vs Cagliari Calcio,Italy,1.18,0.87,1,1,0,1,1,2,0.766
+2026-08-22,OGC Nice vs FC Lorient,France,1.04,1.93,1,2,0,0,2,X,0.925
+2026-08-22,Toulouse FC vs Olympique Lyonnais,France,1.44,1.97,1,2,0,2,2,2,0.422
+2026-08-22,Genoa CFC vs SSC Napoli,Italy,0.83,1.14,1,1,0,2,2,2,0.509
+2026-08-22,ES Troyes AC vs Paris FC,France,1.4,1.62,1,2,0,0,2,X,0.842
+2026-08-22,SC Heerenveen vs PEC Zwolle,Netherlands,2.79,0.91,3,1,0,2,1,2,1.228
+2026-08-22,Sporting Clube de Portugal vs FC Alverca,Portugal,2.96,0.64,3,1,3,1,1,1,0.102
+2026-08-22,RCD Espanyol de Barcelona vs Real Madrid CF,Default,1.25,1.94,1,2,1,2,2,2,0.377
+2026-08-23,Go Ahead Eagles vs ADO Den Haag,Netherlands,2.62,1.07,3,1,3,1,1,1,0.2
+2026-08-23,PSV vs FC Groningen,Netherlands,2.66,1.85,3,2,5,1,1,1,0.362
+2026-08-23,Angers SCO vs Lille OSC,France,0.53,1.64,1,2,0,2,2,2,0.252
+2026-08-23,Brighton & Hove Albion FC vs Aston Villa FC,England,1.92,1.52,2,2,4,0,1,1,0.462
+2026-08-23,Manchester City FC vs AFC Bournemouth,England,1.6,0.96,2,1,2,1,1,1,0.386
+2026-08-23,Vitória SC vs CD Nacional,Portugal,1.04,1.56,1,2,1,0,2,1,0.814
+2026-08-23,SC Cambuur-Leeuwarden vs Feyenoord Rotterdam,Netherlands,1.17,1.75,1,2,2,5,2,2,0.407
+2026-08-23,Club Atlético de Madrid vs Villarreal CF,Default,1.85,2.53,2,3,2,2,2,X,0.946
+2026-08-23,Le Havre AC vs AS Monaco FC,France,1.32,1.58,1,2,0,1,2,2,0.509
+2026-08-23,Newcastle United FC vs Liverpool FC,England,1.53,1.8,2,2,2,2,2,X,0.866
+2026-08-23,Frosinone Calcio vs Juventus FC,Italy,1.02,1.56,1,2,0,1,2,2,0.418
+2026-08-23,Venezia FC vs US Lecce,Italy,1.41,0.57,1,1,0,2,1,2,1.015
+2026-08-23,CD Santa Clara vs FC Famalicão,Portugal,1.1,1.05,1,1,1,0,1,1,0.605
+2026-08-23,Getafe CF vs Real Racing Club de Santander,Default,1.19,0.78,1,1,1,0,1,1,0.47
+2026-08-23,Torino FC vs AC Milan,Italy,1.76,1.1,2,1,1,2,1,2,0.854
+2026-08-23,Stade Rennais FC 1901 vs Paris Saint-Germain FC,France,1.28,2.36,1,2,2,2,2,X,0.985
+2026-08-23,Atalanta BC vs US Sassuolo Calcio,Italy,1.53,0.71,2,1,2,1,1,1,0.332
+2026-08-23,FC Porto vs FC Arouca,Portugal,1.56,1.02,2,1,2,0,1,1,0.419
+2026-08-23,Elche CF vs FC Barcelona,Default,1.04,2.07,1,2,0,5,2,2,0.29
+2026-08-24,Bologna FC 1909 vs SS Lazio,Italy,1.4,1.23,1,1,0,1,1,2,0.671
+2026-08-24,CA Osasuna vs Levante UD,Default,1.69,1.4,2,1,0,0,1,X,0.852
+2026-08-24,AS Roma vs ACF Fiorentina,Italy,2.19,0.63,2,1,4,0,1,1,0.176
+2026-08-24,Fulham FC vs Chelsea FC,England,1.52,0.82,2,1,2,3,1,2,0.915
+2026-08-24,Gil Vicente FC vs Casa Pia AC,Portugal,1.68,0.38,2,0,2,0,1,1,0.206
+2026-08-24,Málaga CF vs RC Deportivo La Coruña,Default,1.37,1.34,1,1,1,1,1,X,0.812
+2026-08-26,Real Madrid CF vs Real Sociedad de Fútbol,Default,2.4,0.98,2,1,4,1,1,1,0.216
+2026-08-27,RC Celta de Vigo vs CA Osasuna,Default,1.48,0.75,1,1,1,2,1,2,0.936
+2026-08-27,FC Barcelona vs Athletic Club,Default,3.68,0.58,4,1,2,0,1,1,0.063
+2026-08-28,Real Racing Club de Santander vs Elche CF,Default,2.02,0.98,2,1,3,2,1,1,0.287
+2026-08-28,FC Groningen vs Fortuna Sittard,Netherlands,2.34,1.51,2,2,2,3,1,2,0.862
+2026-08-28,FC Bayern München vs VfB Stuttgart,Germany,3.64,1.87,4,2,5,1,1,1,0.204
+2026-08-28,AC Milan vs Venezia FC,Italy,1.41,1.08,1,1,2,0,1,1,0.488
+2026-08-28,Lille OSC vs Paris Saint-Germain FC,France,1.24,0.91,1,1,2,2,1,X,0.772
+2026-08-28,Crystal Palace FC vs Manchester City FC,England,0.74,2.53,1,3,1,4,2,2,0.153
+2026-08-28,Rio Ave FC vs Sporting Clube de Portugal,Portugal,1.05,2.42,1,2,0,4,2,2,0.227
+2026-08-28,Deportivo Alavés vs Villarreal CF,Default,1.72,2.59,2,3,1,0,2,1,0.854
+2026-08-29,Liverpool FC vs Nottingham Forest FC,England,1.36,1.82,1,2,2,2,2,X,0.872
+2026-08-29,RB Leipzig vs Borussia Mönchengladbach,Germany,1.75,1.43,2,1,3,0,1,1,0.488
+2026-08-29,1. FC Köln vs TSG 1899 Hoffenheim,Germany,1.82,2.17,2,2,3,2,2,1,0.691
+2026-08-29,1. FC Union Berlin vs Eintracht Frankfurt,Germany,2.23,1.52,2,2,3,3,1,X,0.928
+2026-08-29,SV 07 Elversberg vs Bayer 04 Leverkusen,Germany,1.73,1.9,2,2,3,2,2,1,0.642
+2026-08-29,1. FSV Mainz 05 vs SC Paderborn 07,Germany,1.83,1.4,2,1,0,0,1,X,0.872
+2026-08-29,AFC Bournemouth vs Everton FC,England,1.57,1.12,2,1,1,1,1,X,0.838
+2026-08-29,Coventry City FC vs Hull City AFC,England,1.23,1.61,1,2,0,1,2,2,0.471
+2026-08-29,FC Alverca vs CD Santa Clara,Portugal,0.9,1.32,1,1,1,1,2,X,0.791
+2026-08-29,SBV Excelsior vs Sparta Rotterdam,Netherlands,2.73,1.07,3,1,2,1,1,1,0.187
+2026-08-29,FC Arouca vs CS Marítimo,Portugal,1.83,1.19,2,1,2,1,1,1,0.392
+2026-08-29,Levante UD vs Real Betis Balompié,Default,1.08,1.91,1,2,5,2,2,1,0.915
+2026-08-29,RC Strasbourg Alsace vs Racing Club de Lens,France,1.65,2.48,2,2,2,1,2,1,0.847
+2026-08-29,AC Monza vs Udinese Calcio,Italy,0.93,1.48,1,1,2,3,2,2,0.419
+2026-08-29,US Sassuolo Calcio vs Torino FC,Italy,1.53,1.29,2,1,2,1,1,1,0.517
+2026-08-29,Borussia Dortmund vs Hamburger SV,Germany,2.36,0.78,2,1,2,0,1,1,0.183
+2026-08-29,ACF Fiorentina vs Frosinone Calcio,Italy,0.93,1.21,1,1,0,3,2,2,0.519
+2026-08-29,Tottenham Hotspur FC vs Newcastle United FC,England,1.25,1.39,1,1,0,2,2,2,0.554
+2026-08-29,AZ vs Go Ahead Eagles,Netherlands,1.68,1.19,2,1,5,2,1,1,0.435
+2026-08-29,Real Sociedad de Fútbol vs RCD Espanyol de Barcelona,Default,1.54,1.53,2,2,2,1,1,1,0.59
+2026-08-29,Académico de Viseu FC vs FC Porto,Portugal,0.9,1.9,1,2,0,3,2,2,0.291
+2026-08-29,FC Lorient vs ES Troyes AC,France,1.66,0.91,2,1,1,2,1,2,0.917
+2026-08-29,Juventus FC vs Parma Calcio 1913,Italy,1.75,0.39,2,0,2,0,1,1,0.194
+2026-08-29,Stade Brestois 29 vs Toulouse FC,France,1.63,1.53,2,2,2,2,1,X,0.848
+2026-08-29,Olympique Lyonnais vs Le Havre AC,France,2.05,0.7,2,1,1,1,1,X,1.033
+2026-08-29,AJ Auxerre vs Angers SCO,France,2.08,0.66,2,1,1,3,1,2,1.167
+2026-08-29,PEC Zwolle vs NEC,Netherlands,1.41,1.97,1,2,1,3,2,2,0.417
+2026-08-29,Sevilla FC vs Club Atlético de Madrid,Default,1.89,1.59,2,2,1,3,1,2,0.687
+2026-08-30,FC Utrecht vs PSV,Netherlands,1.9,3.15,2,3,1,6,2,2,0.279
+2026-08-30,Feyenoord Rotterdam vs ADO Den Haag,Netherlands,2.76,0.88,3,1,2,2,1,X,1.168
+2026-08-30,Willem II Tilburg vs SC Heerenveen,Netherlands,1.51,1.62,2,2,2,2,2,X,0.846
+2026-08-30,Paris FC vs OGC Nice,France,1.62,0.54,2,1,3,0,1,1,0.26
+2026-08-30,Sunderland AFC vs Fulham FC,England,1.22,1.18,1,1,1,0,1,1,0.599
+2026-08-30,Leeds United FC vs Brentford FC,England,1.18,1.19,1,1,1,1,2,X,0.78
+2026-08-30,Chelsea FC vs Brighton & Hove Albion FC,England,1.27,2.29,1,2,4,3,2,1,0.947
+2026-08-30,SC Freiburg vs SV Werder Bremen,Germany,1.95,0.82,2,1,4,1,1,1,0.26
+2026-08-30,CD Nacional vs CF Estrela da Amadora,Portugal,1.53,0.79,2,1,2,3,1,2,0.933
+2026-08-30,Telstar 1963 vs AFC Ajax,Netherlands,1.43,1.86,1,2,0,4,2,2,0.452
+2026-08-30,Real Madrid CF vs Málaga CF,Default,2.51,0.83,3,1,4,0,1,1,0.173
+2026-08-30,Stade Rennais FC 1901 vs Le Mans FC,France,2.26,1.6,2,2,3,2,1,1,0.391
+2026-08-30,Manchester United FC vs Ipswich Town FC,England,1.69,1.13,2,1,5,2,1,1,0.414
+2026-08-30,FC Augsburg vs FC Schalke 04,Germany,1.73,1.7,2,2,3,0,1,1,0.577
+2026-08-30,SSC Napoli vs Como 1907,Italy,1.22,1.32,1,1,1,2,2,2,0.572
+2026-08-30,Casa Pia AC vs Moreirense FC,Portugal,0.74,1.01,1,1,0,1,2,2,0.537
+2026-08-30,RC Deportivo La Coruña vs Valencia CF,Default,1.12,0.99,1,1,3,1,1,1,0.577
+2026-08-30,SC Cambuur-Leeuwarden vs FC Twente '65,Netherlands,0.99,2.58,1,3,1,4,2,2,0.193
+2026-08-30,AS Monaco FC vs Olympique de Marseille,France,1.67,1.27,2,1,2,0,1,1,0.463
+2026-08-30,SS Lazio vs Genoa CFC,Italy,1.27,0.43,1,0,1,0,1,1,0.325
+2026-08-30,Cagliari Calcio vs FC Internazionale Milano,Italy,1.14,2.47,1,2,0,1,2,2,0.238
+2026-08-30,FC Famalicão vs Gil Vicente FC,Portugal,1.14,0.81,1,1,0,0,1,X,0.747
+2026-08-30,RC Celta de Vigo vs Athletic Club,Default,2.04,0.87,2,1,0,2,1,2,1.053
+2026-08-31,US Lecce vs AS Roma,Italy,0.8,2.0,1,2,0,4,2,2,0.246
+2026-08-31,CA Osasuna vs Getafe CF,Default,0.77,0.82,1,1,1,0,2,1,0.688
+2026-08-31,Atalanta BC vs Bologna FC 1909,Italy,1.86,0.78,2,1,1,0,1,1,0.271
+2026-08-31,Aston Villa FC vs Arsenal FC,England,0.86,2.56,1,3,0,1,2,2,0.172
+2026-08-31,Sporting Clube de Braga vs Vitória SC,Portugal,2.15,1.05,2,1,1,0,1,1,0.276
+2026-08-31,Sport Lisboa e Benfica vs GD Estoril Praia,Portugal,3.88,0.48,4,0,2,1,1,1,0.052
+2026-08-31,FC Barcelona vs Rayo Vallecano de Madrid,Default,2.07,0.59,2,1,5,2,1,1,0.187
+2026-09-03,Toulouse FC vs Lille OSC,France,0.9,1.81,1,2,0,1,2,2,0.313
+2026-09-03,Real Sociedad de Fútbol vs RC Celta de Vigo,Default,1.57,1.25,2,1,0,0,1,X,0.834
+2026-09-05,Newcastle United FC vs AFC Bournemouth,England,1.28,1.26,1,1,2,2,1,X,0.797
+2026-09-05,ACF Fiorentina vs Torino FC,Italy,1.04,1.63,1,2,1,2,2,2,0.404
+2026-09-05,Bayer 04 Leverkusen vs 1. FC Union Berlin,Germany,2.34,1.84,2,2,4,0,1,1,0.433
+2026-09-05,SC Paderborn 07 vs SC Freiburg,Germany,1.68,1.7,2,2,0,1,2,2,0.581
+2026-09-05,SV Werder Bremen vs RB Leipzig,Germany,0.94,2.45,1,2,3,1,2,1,1.134
+2026-09-05,Borussia Mönchengladbach vs SV 07 Elversberg,Germany,1.51,1.62,2,2,3,4,2,2,0.556
+2026-09-05,TSG 1899 Hoffenheim vs Borussia Dortmund,Germany,1.05,2.45,1,2,2,3,2,2,0.222
+2026-09-05,Nottingham Forest FC vs Tottenham Hotspur FC,England,2.19,0.49,2,0,0,0,1,X,1.14
+2026-09-05,Brighton & Hove Albion FC vs Leeds United FC,England,1.79,1.16,2,1,1,1,1,X,0.88
+2026-09-05,Fulham FC vs Crystal Palace FC,England,1.68,0.65,2,1,2,3,1,2,1.06
+2026-09-05,Manchester City FC vs Coventry City FC,England,2.67,0.63,3,1,1,0,1,1,0.123
+2026-09-05,Brentford FC vs Sunderland AFC,England,1.63,0.75,2,1,1,1,1,X,0.895
+2026-09-05,Athletic Club vs Club Atlético de Madrid,Default,1.53,2.26,2,2,3,0,2,1,0.826
+2026-09-05,CF Estrela da Amadora vs FC Famalicão,Portugal,1.11,1.02,1,1,2,2,1,X,0.754
+2026-09-05,NEC vs Feyenoord Rotterdam,Netherlands,1.73,1.75,2,2,1,3,2,2,0.579
+2026-09-05,Racing Club de Lens vs FC Lorient,France,1.91,1.68,2,2,0,1,1,2,0.66
+2026-09-05,FC Internazionale Milano vs SSC Napoli,Italy,2.38,1.16,2,1,3,2,1,1,0.257
+2026-09-05,Hull City AFC vs Aston Villa FC,England,2.05,0.94,2,1,0,0,1,X,0.975
+2026-09-05,Rayo Vallecano de Madrid vs Real Racing Club de Santander,Default,1.63,1.61,2,2,3,2,1,1,0.582
+2026-09-05,FC Schalke 04 vs FC Bayern München,Germany,1.33,3.92,1,4,0,0,2,X,1.279
+2026-09-05,CS Marítimo vs Sport Lisboa e Benfica,Portugal,1.23,2.74,1,3,0,3,2,2,0.214
+2026-09-05,FC Alverca vs Sporting Clube de Braga,Portugal,0.97,1.76,1,2,1,2,2,2,0.345
+2026-09-05,AFC Ajax vs PSV,Netherlands,2.15,2.25,2,2,1,3,2,2,0.544
+2026-09-05,AS Roma vs Atalanta BC,Italy,2.0,0.81,2,1,2,1,1,1,0.248
+2026-09-05,OGC Nice vs Le Mans FC,France,1.04,1.6,1,2,1,1,2,X,0.849
+2026-09-05,Le Havre AC vs Stade Brestois 29,France,1.58,1.18,2,1,1,2,1,2,0.755
+2026-09-05,Villarreal CF vs RC Deportivo La Coruña,Default,1.98,1.52,2,2,2,3,1,2,0.744
+2026-09-05,Willem II Tilburg vs SBV Excelsior,Netherlands,1.4,2.22,1,2,0,3,2,2,0.347
+2026-09-05,Sporting Clube de Portugal vs CD Nacional,Portugal,3.0,0.84,3,1,2,0,1,1,0.123
+2026-09-06,FC Groningen vs FC Twente '65,Netherlands,1.29,2.58,1,3,2,2,2,X,1.028
+2026-09-06,Telstar 1963 vs SC Cambuur-Leeuwarden,Netherlands,2.35,1.47,2,1,2,2,1,X,0.955
+2026-09-06,SC Heerenveen vs AZ,Netherlands,1.21,1.93,1,2,2,3,2,2,0.369
+2026-09-06,Everton FC vs Manchester United FC,England,1.53,1.85,2,2,2,2,2,X,0.871
+2026-09-06,Frosinone Calcio vs Venezia FC,Italy,1.76,0.72,2,1,3,2,1,1,0.275
+2026-09-06,Parma Calcio 1913 vs AC Monza,Italy,1.22,1.27,1,1,1,1,2,X,0.793
+2026-09-06,ES Troyes AC vs RC Strasbourg Alsace,France,1.76,1.14,2,1,2,6,1,2,0.836
+2026-09-06,Hamburger SV vs 1. FSV Mainz 05,Germany,1.14,1.43,1,1,0,5,2,2,0.503
+2026-09-06,Valencia CF vs FC Barcelona,Default,0.88,2.27,1,2,0,5,2,2,0.215
+2026-09-06,CD Santa Clara vs Rio Ave FC,Portugal,1.56,0.59,2,1,4,0,1,1,0.288
+2026-09-06,ADO Den Haag vs Fortuna Sittard,Netherlands,1.77,1.94,2,2,2,3,2,2,0.528
+2026-09-06,Angers SCO vs Stade Rennais FC 1901,France,1.29,2.31,1,2,1,2,2,2,0.301
+2026-09-06,Eintracht Frankfurt vs FC Augsburg,Germany,1.88,2.08,2,2,1,4,2,2,0.518
+2026-09-06,Arsenal FC vs Chelsea FC,England,2.78,0.6,3,1,2,1,1,1,0.11
+2026-09-06,Bologna FC 1909 vs US Sassuolo Calcio,Italy,1.21,1.19,1,1,2,2,1,X,0.782
+2026-09-06,Málaga CF vs Levante UD,Default,1.41,1.99,1,2,0,0,2,X,0.897
+2026-09-06,Deportivo Alavés vs CA Osasuna,Default,1.31,1.07,1,1,5,2,1,1,0.522
+2026-09-06,Vitória SC vs Casa Pia AC,Portugal,1.5,0.29,2,0,0,0,1,X,0.965
+2026-09-06,Juventus FC vs AC Milan,Italy,1.73,0.55,2,1,1,1,1,X,0.974
+2026-09-06,Olympique de Marseille vs Paris FC,France,1.07,1.62,1,2,2,3,2,2,0.417
+2026-09-06,RCD Espanyol de Barcelona vs Sevilla FC,Default,1.58,1.4,2,1,1,1,1,X,0.838
+2026-09-06,Gil Vicente FC vs Académico de Viseu FC,Portugal,1.51,0.95,2,1,0,1,1,2,0.843
+2026-09-07,Cagliari Calcio vs US Lecce,Italy,1.13,0.5,1,0,1,0,1,1,0.399
+2026-09-07,Getafe CF vs RC Celta de Vigo,Default,0.92,0.42,1,0,1,1,1,X,0.671
+2026-09-07,Udinese Calcio vs SS Lazio,Italy,1.21,0.76,1,1,1,2,1,2,0.84
+2026-09-07,GD Estoril Praia vs FC Arouca,Portugal,0.89,2.2,1,2,0,0,2,X,1.025
+2026-09-07,Elche CF vs Real Sociedad de Fútbol,Default,1.45,1.73,1,2,2,3,2,2,0.501
+2026-09-08,FC Utrecht vs Go Ahead Eagles,Netherlands,2.07,2.68,2,3,3,3,2,X,0.951
+2026-09-08,NEC vs SBV Excelsior,Netherlands,1.35,2.11,1,2,2,2,2,X,0.923
+2026-09-09,FC Twente '65 vs Telstar 1963,Netherlands,2.81,0.92,3,1,1,0,1,1,0.153
+2026-09-09,Moreirense FC vs Sport Lisboa e Benfica,Portugal,0.72,3.31,1,3,0,4,2,2,0.09
+2026-09-10,CF Estrela da Amadora vs Sporting Clube de Braga,Portugal,1.48,2.06,1,2,2,1,2,1,0.786
+2026-09-11,AZ vs Willem II Tilburg,Netherlands,2.92,0.83,3,1,1,1,1,X,1.216
+2026-09-11,1. FC Union Berlin vs FC Schalke 04,Germany,1.74,1.49,2,1,1,3,1,2,0.677
+2026-09-11,Venezia FC vs ACF Fiorentina,Italy,1.63,0.8,2,1,2,4,1,2,0.96
+2026-09-11,Stade Rennais FC 1901 vs Olympique de Marseille,France,2.55,1.45,3,1,1,0,1,1,0.29
+2026-09-11,Sevilla FC vs Valencia CF,Default,1.77,0.91,2,1,1,0,1,1,0.327
+2026-09-12,Real Racing Club de Santander vs Deportivo Alavés,Default,1.87,2.08,2,2,2,1,2,1,0.644
+2026-09-12,Genoa CFC vs Frosinone Calcio,Italy,0.75,1.36,1,1,1,1,2,X,0.812
+2026-09-12,Borussia Dortmund vs SC Paderborn 07,Germany,2.08,0.71,2,1,3,0,1,1,0.211
+2026-09-12,1. FSV Mainz 05 vs Eintracht Frankfurt,Germany,2.83,1.03,3,1,1,3,1,2,1.187
+2026-09-12,TSG 1899 Hoffenheim vs VfB Stuttgart,Germany,2.23,2.67,2,3,2,1,2,1,0.698
+2026-09-12,FC Augsburg vs Bayer 04 Leverkusen,Germany,2.05,1.95,2,2,2,2,1,X,0.894
+2026-09-12,SC Freiburg vs Borussia Mönchengladbach,Germany,2.25,1.19,2,1,5,0,1,1,0.289
+2026-09-12,Liverpool FC vs Fulham FC,England,2.14,1.25,2,1,0,0,1,X,0.942
+2026-09-12,AFC Bournemouth vs Brentford FC,England,1.31,1.13,1,1,2,2,1,X,0.792
+2026-09-12,Crystal Palace FC vs Ipswich Town FC,England,1.6,2.16,2,2,2,3,2,2,0.417
+2026-09-12,Aston Villa FC vs Nottingham Forest FC,England,0.98,1.58,1,2,1,2,2,2,0.402
+2026-09-12,Chelsea FC vs Hull City AFC,England,1.29,1.69,1,2,2,2,2,X,0.853
+2026-09-12,CA Osasuna vs RCD Espanyol de Barcelona,Default,1.44,1.26,1,1,0,2,1,2,0.67
+2026-09-12,CD Nacional vs FC Alverca,Portugal,1.43,0.81,1,1,1,3,1,2,0.889
+2026-09-12,FC Twente '65 vs ADO Den Haag,Netherlands,2.9,0.74,3,1,2,0,1,1,0.119
+2026-09-12,RC Strasbourg Alsace vs AS Monaco FC,France,1.78,1.86,2,2,1,1,2,X,0.876
+2026-09-12,SS Lazio vs AC Milan,Italy,1.35,0.78,1,1,2,2,1,X,0.805
+2026-09-12,Tottenham Hotspur FC vs Everton FC,England,0.92,1.54,1,2,0,0,2,X,0.844
+2026-09-12,Athletic Club vs Elche CF,Default,2.47,1.34,2,1,1,1,1,X,0.995
+2026-09-12,1. FC Köln vs SV Werder Bremen,Germany,2.01,1.51,2,2,1,1,1,X,0.894
+2026-09-12,Go Ahead Eagles vs FC Groningen,Netherlands,2.84,2.13,3,2,1,1,1,X,0.965
+2026-09-12,Casa Pia AC vs FC Porto,Portugal,0.3,2.24,0,2,1,4,2,2,0.113
+2026-09-12,Fortuna Sittard vs AFC Ajax,Netherlands,1.62,2.3,2,2,1,5,2,2,0.388
+2026-09-12,Atalanta BC vs Cagliari Calcio,Italy,1.25,0.58,1,1,1,2,1,2,0.958
+2026-09-12,AJ Auxerre vs OGC Nice,France,1.72,0.9,2,1,1,0,1,1,0.337
+2026-09-12,FC Lorient vs Toulouse FC,France,1.91,0.76,2,1,2,2,1,X,0.976
+2026-09-12,Le Havre AC vs Angers SCO,France,1.36,0.86,1,1,0,0,1,X,0.804
+2026-09-12,Paris FC vs Olympique Lyonnais,France,1.72,1.27,2,1,0,0,1,X,0.859
+2026-09-12,Sunderland AFC vs Arsenal FC,England,0.67,1.71,1,2,0,2,2,2,0.274
+2026-09-12,Real Madrid CF vs Rayo Vallecano de Madrid,Default,3.11,0.98,3,1,4,1,1,1,0.132
+2026-09-12,SC Cambuur-Leeuwarden vs NEC,Netherlands,1.65,2.42,2,2,3,0,2,1,0.831
+2026-09-12,Académico de Viseu FC vs Vitória SC,Portugal,1.42,0.86,1,1,2,1,1,1,0.416
+2026-09-13,SBV Excelsior vs FC Utrecht,Netherlands,3.15,1.3,3,1,1,2,1,2,1.16
+2026-09-13,RC Celta de Vigo vs Málaga CF,Default,1.25,0.66,1,1,1,1,1,X,0.785
+2026-09-13,SC Heerenveen vs Telstar 1963,Netherlands,2.01,1.3,2,1,0,0,1,X,0.91
+2026-09-13,Lille OSC vs ES Troyes AC,France,2.15,0.57,2,1,2,0,1,1,0.17
+2026-09-13,US Lecce vs AC Monza,Italy,0.99,1.26,1,1,3,2,2,1,0.733
+2026-09-13,Coventry City FC vs Brighton & Hove Albion FC,England,1.1,1.84,1,2,0,5,2,2,0.364
+2026-09-13,RB Leipzig vs Hamburger SV,Germany,2.71,0.9,3,1,5,0,1,1,0.161
+2026-09-13,Levante UD vs FC Barcelona,Default,1.02,3.15,1,3,2,4,2,2,0.135
+2026-09-13,PEC Zwolle vs Feyenoord Rotterdam,Netherlands,1.19,2.81,1,3,0,7,2,2,0.197
+2026-09-13,Le Mans FC vs Racing Club de Lens,France,1.82,1.86,2,2,2,2,2,X,0.878
+2026-09-13,Manchester United FC vs Manchester City FC,England,1.46,1.97,1,2,0,1,2,2,0.428
+2026-09-13,SV 07 Elversberg vs FC Bayern München,Germany,1.69,3.48,2,3,1,2,2,2,0.195
+2026-09-13,SSC Napoli vs Bologna FC 1909,Italy,1.87,1.04,2,1,1,0,1,1,0.337
+2026-09-13,Getafe CF vs RC Deportivo La Coruña,Default,1.02,0.89,1,1,1,1,1,X,0.724
+2026-09-13,Sport Lisboa e Benfica vs Gil Vicente FC,Portugal,2.69,0.43,3,0,3,1,1,1,0.096
+2026-09-13,FC Arouca vs CD Santa Clara,Portugal,1.37,1.1,1,1,1,2,1,2,0.718
+2026-09-13,PSV vs Sparta Rotterdam,Netherlands,4.47,1.03,4,1,4,1,1,1,0.066
+2026-09-13,US Sassuolo Calcio vs Juventus FC,Italy,0.88,1.55,1,2,3,2,2,1,0.889
+2026-09-13,Stade Brestois 29 vs Paris Saint-Germain FC,France,1.27,2.75,1,3,0,1,2,2,0.22
+2026-09-13,Real Sociedad de Fútbol vs Club Atlético de Madrid,Default,1.98,1.65,2,2,0,3,1,2,0.694
+2026-09-13,FC Famalicão vs Sporting Clube de Portugal,Portugal,0.9,2.09,1,2,1,1,2,X,0.994
+2026-09-15,Rayo Vallecano de Madrid vs RCD Espanyol de Barcelona,Default,1.54,1.67,2,2,2,1,2,1,0.637
+2026-09-15,AFC Ajax vs Willem II Tilburg,Netherlands,2.99,0.88,3,1,5,1,1,1,0.129
+2026-09-15,Deportivo Alavés vs Valencia CF,Default,2.14,0.81,2,1,0,1,1,2,1.109
+2026-09-15,Elche CF vs Real Madrid CF,Default,1.04,3.85,1,4,2,3,2,2,0.09
+2026-09-16,Club Atlético de Madrid vs CA Osasuna,Default,2.29,1.01,2,1,4,0,1,1,0.241
+2026-09-16,RC Deportivo La Coruña vs Sevilla FC,Default,1.79,1.13,2,1,0,1,1,2,0.85
+2026-09-16,FC Barcelona vs Real Racing Club de Santander,Default,3.73,0.97,4,1,7,2,1,1,0.09
+2026-09-17,Real Betis Balompié vs Getafe CF,Default,1.14,0.83,1,1,1,0,1,1,0.511
+2026-09-17,Málaga CF vs Villarreal CF,Default,1.26,1.92,1,2,1,3,2,2,0.386
+2026-09-18,FC Groningen vs PEC Zwolle,Netherlands,3.14,1.02,3,1,3,0,1,1,0.135
+2026-09-18,FC Bayern München vs 1. FC Union Berlin,Germany,4.16,0.93,4,1,7,0,1,1,0.069
+2026-09-18,AS Monaco FC vs Racing Club de Lens,France,1.99,1.27,2,1,2,1,1,1,0.372
+2026-09-18,AC Monza vs US Sassuolo Calcio,Italy,1.69,2.07,2,2,2,1,2,1,0.707
+2026-09-18,Brentford FC vs Chelsea FC,England,2.28,1.33,2,1,3,0,1,1,0.318
+2026-09-18,RCD Espanyol de Barcelona vs Elche CF,Default,2.11,1.21,2,1,1,3,1,2,0.916
+2026-09-19,Tottenham Hotspur FC vs Aston Villa FC,England,0.94,0.99,1,1,2,3,2,2,0.62
+2026-09-19,CA Osasuna vs Rayo Vallecano de Madrid,Default,1.29,2.04,1,2,1,1,2,X,0.916
+2026-09-19,Bologna FC 1909 vs Torino FC,Italy,1.41,1.42,1,1,1,1,2,X,0.823
+2026-09-19,Udinese Calcio vs Cagliari Calcio,Italy,1.25,0.77,1,1,0,1,1,2,0.85
+2026-09-19,SV Werder Bremen vs FC Augsburg,Germany,1.25,2.06,1,2,3,2,2,1,0.885
+2026-09-19,Hamburger SV vs 1. FC Köln,Germany,1.3,2.22,1,2,2,1,2,1,0.91
+2026-09-19,Borussia Mönchengladbach vs 1. FSV Mainz 05,Germany,1.18,2.23,1,2,3,4,2,2,0.291
+2026-09-19,Eintracht Frankfurt vs SC Freiburg,Germany,1.61,2.83,2,3,2,2,2,X,1.022
+2026-09-19,Newcastle United FC vs Hull City AFC,England,1.33,1.35,1,1,2,1,2,1,0.61
+2026-09-19,Everton FC vs Ipswich Town FC,England,1.95,1.44,2,1,1,0,1,1,0.427
+2026-09-19,Brighton & Hove Albion FC vs Arsenal FC,England,1.14,1.6,1,2,3,0,2,1,0.783
+2026-09-19,Athletic Club vs Deportivo Alavés,Default,1.69,1.51,2,2,0,0,1,X,0.853
+2026-09-19,ADO Den Haag vs SC Cambuur-Leeuwarden,Netherlands,1.78,2.06,2,2,1,1,2,X,0.893
+2026-09-19,CD Nacional vs FC Famalicão,Portugal,0.96,1.11,1,1,0,4,2,2,0.566
+2026-09-19,Gil Vicente FC vs CS Marítimo,Portugal,1.24,1.09,1,1,1,1,1,X,0.779
+2026-09-19,Paris FC vs RC Strasbourg Alsace,France,2.07,1.21,2,1,2,1,1,1,0.334
+2026-09-19,AS Roma vs FC Internazionale Milano,Italy,2.61,1.62,3,2,2,2,1,X,0.983
+2026-09-19,Nottingham Forest FC vs Coventry City FC,England,2.28,0.38,2,0,0,1,1,2,1.349
+2026-09-19,VfB Stuttgart vs Borussia Dortmund,Germany,1.25,2.7,1,3,0,1,2,2,0.224
+2026-09-19,RC Celta de Vigo vs Real Racing Club de Santander,Default,1.75,1.23,2,1,5,0,1,1,0.424
+2026-09-19,Sparta Rotterdam vs SC Heerenveen,Netherlands,1.36,1.86,1,2,0,4,2,2,0.43
+2026-09-19,FC Alverca vs Rio Ave FC,Portugal,1.8,0.66,2,1,1,0,1,1,0.252
+2026-09-19,AFC Ajax vs SBV Excelsior,Netherlands,2.5,1.39,2,1,2,2,1,X,0.993
+2026-09-19,Venezia FC vs SS Lazio,Italy,1.11,1.89,1,2,0,2,2,2,0.351
+2026-09-19,Toulouse FC vs Le Havre AC,France,1.29,0.94,1,1,3,2,1,1,0.487
+2026-09-19,Le Mans FC vs FC Lorient,France,1.52,1.74,2,2,2,1,2,1,0.67
+2026-09-19,Olympique Lyonnais vs Stade Rennais FC 1901,France,1.73,1.32,2,1,4,0,1,1,0.459
+2026-09-19,Angers SCO vs ES Troyes AC,France,1.28,1.16,1,1,2,0,1,1,0.568
+2026-09-19,Sevilla FC vs FC Barcelona,Default,1.15,3.05,1,3,1,3,2,2,0.162
+2026-09-19,Willem II Tilburg vs Fortuna Sittard,Netherlands,1.91,2.21,2,2,0,1,2,2,0.487
+2026-09-19,Sporting Clube de Portugal vs FC Arouca,Portugal,2.39,0.93,2,1,2,2,1,X,1.064
+2026-09-20,Feyenoord Rotterdam vs FC Utrecht,Netherlands,3.85,1.27,4,1,5,0,1,1,0.111
+2026-09-20,ACF Fiorentina vs SSC Napoli,Italy,1.17,1.88,1,2,1,1,2,X,0.897
+2026-09-20,Getafe CF vs Málaga CF,Default,1.07,0.42,1,0,1,0,1,1,0.397
+2026-09-20,AZ vs Telstar 1963,Netherlands,2.25,0.73,2,1,1,0,1,1,0.188
+2026-09-20,FC Twente '65 vs PSV,Netherlands,1.91,1.87,2,2,3,2,1,1,0.571
+2026-09-20,Parma Calcio 1913 vs Genoa CFC,Italy,0.88,0.57,1,1,2,1,1,1,0.537
+2026-09-20,Leeds United FC vs Crystal Palace FC,England,2.06,0.86,2,1,0,0,1,X,0.994
+2026-09-20,Frosinone Calcio vs Como 1907,Italy,1.21,1.74,1,2,2,0,2,1,0.798
+2026-09-20,AJ Auxerre vs Stade Brestois 29,France,1.98,1.37,2,1,2,1,1,1,0.403
+2026-09-20,AFC Bournemouth vs Liverpool FC,England,1.8,1.38,2,1,0,1,1,2,0.743
+2026-09-20,Manchester City FC vs Sunderland AFC,England,2.24,0.41,2,0,5,3,1,1,0.129
+2026-09-20,Bayer 04 Leverkusen vs RB Leipzig,Germany,2.13,2.11,2,2,2,0,1,1,0.57
+2026-09-20,Club Atlético de Madrid vs Real Madrid CF,Default,1.84,2.54,2,3,2,1,2,1,0.795
+2026-09-20,Vitória SC vs Moreirense FC,Portugal,1.43,0.6,1,1,1,1,1,X,0.853
+2026-09-20,CF Estrela da Amadora vs Académico de Viseu FC,Portugal,1.81,1.55,2,2,0,2,1,2,0.677
+2026-09-20,NEC vs Go Ahead Eagles,Netherlands,1.86,2.25,2,2,1,1,2,X,0.911
+2026-09-20,OGC Nice vs Lille OSC,France,0.47,1.55,0,2,2,1,2,1,1.125
+2026-09-20,Fulham FC vs Manchester United FC,England,1.11,1.59,1,2,1,1,2,X,0.841
+2026-09-20,FC Schalke 04 vs SV 07 Elversberg,Germany,1.89,1.71,2,2,0,0,1,X,0.876
+2026-09-20,Juventus FC vs Atalanta BC,Italy,1.56,0.89,2,1,2,0,1,1,0.38
+2026-09-20,RC Deportivo La Coruña vs Real Betis Balompié,Default,1.53,1.36,2,1,1,1,1,X,0.831
+2026-09-20,Villarreal CF vs Levante UD,Default,2.88,1.6,3,2,3,1,1,1,0.264
+2026-09-20,GD Estoril Praia vs Casa Pia AC,Portugal,1.24,0.35,1,0,1,2,1,2,1.112
+2026-09-20,CD Santa Clara vs Sporting Clube de Braga,Portugal,1.75,1.11,2,1,0,0,1,X,0.876
+2026-09-20,SC Paderborn 07 vs TSG 1899 Hoffenheim,Germany,1.53,1.56,2,2,3,1,2,1,0.605
+2026-09-20,Olympique de Marseille vs Paris Saint-Germain FC,France,0.99,2.12,1,2,1,2,2,2,0.267
+2026-09-20,AC Milan vs US Lecce,Italy,1.68,0.81,2,1,3,0,1,1,0.321
+2026-09-20,Valencia CF vs Real Sociedad de Fútbol,Default,1.25,1.14,1,1,2,3,1,2,0.661
+2026-09-20,FC Porto vs Sport Lisboa e Benfica,Portugal,1.58,1.36,2,1,3,1,1,1,0.521
+2026-10-09,Moreirense FC vs Gil Vicente FC,Portugal,0.89,1.14,1,1,0,1,2,2,0.532
+2026-10-09,PSV vs SC Heerenveen,Netherlands,2.95,1.6,3,2,2,0,1,1,0.252
+2026-10-09,Borussia Dortmund vs SV Werder Bremen,Germany,2.52,0.58,3,1,2,2,1,X,1.2
+2026-10-09,Racing Club de Lens vs Olympique Lyonnais,France,1.22,2.13,1,2,2,1,2,1,0.918
+2026-10-09,Málaga CF vs RCD Espanyol de Barcelona,Default,1.08,1.23,1,1,1,1,2,X,0.777
+2026-10-09,Sporting Clube de Braga vs Sporting Clube de Portugal,Portugal,1.31,2.04,1,2,1,3,2,2,0.367
+2026-10-10,Arsenal FC vs Leeds United FC,England,1.36,0.55,1,1,2,1,1,1,0.333
+2026-10-10,Genoa CFC vs ACF Fiorentina,Italy,1.08,1.0,1,1,2,1,1,1,0.595
+2026-10-10,FC Augsburg vs FC Bayern München,Germany,1.42,3.63,1,4,2,2,2,X,1.209
+2026-10-10,1. FC Union Berlin vs SV 07 Elversberg,Germany,1.41,2.75,1,3,1,0,2,1,1.019
+2026-10-10,SC Paderborn 07 vs VfB Stuttgart,Germany,1.76,1.51,2,2,0,2,1,2,0.679
+2026-10-10,TSG 1899 Hoffenheim vs Hamburger SV,Germany,2.43,1.22,2,1,2,3,1,2,1.007
+2026-10-10,1. FSV Mainz 05 vs Bayer 04 Leverkusen,Germany,1.88,1.99,2,2,3,4,2,2,0.546
+2026-10-10,Sunderland AFC vs Brighton & Hove Albion FC,England,1.07,3.07,1,3,0,2,2,2,0.148
+2026-10-10,Aston Villa FC vs Brentford FC,England,1.26,1.96,1,2,2,2,2,X,0.904
+2026-10-10,Ipswich Town FC vs Fulham FC,England,1.58,1.13,2,1,2,1,1,1,0.447
+2026-10-10,Chelsea FC vs AFC Bournemouth,England,1.47,1.87,1,2,5,1,2,1,0.73
+2026-10-10,Deportivo Alavés vs Club Atlético de Madrid,Default,1.41,1.88,1,2,1,2,2,2,0.44
+2026-10-10,Go Ahead Eagles vs Sparta Rotterdam,Netherlands,3.12,1.06,3,1,3,3,1,X,1.197
+2026-10-10,Lille OSC vs Le Havre AC,France,1.78,0.46,2,0,1,0,1,1,0.205
+2026-10-10,FC Internazionale Milano vs Parma Calcio 1913,Italy,2.77,0.85,3,1,3,0,1,1,0.146
+2026-10-10,RB Leipzig vs Eintracht Frankfurt,Germany,2.8,1.61,3,2,6,0,1,1,0.28
+2026-10-10,Manchester United FC vs Tottenham Hotspur FC,England,1.98,0.62,2,1,1,1,1,X,1.032
+2026-10-10,FC Barcelona vs Getafe CF,Default,2.13,0.51,2,1,3,0,1,1,0.161
+2026-10-10,Feyenoord Rotterdam vs AZ,Netherlands,2.23,1.17,2,1,2,0,1,1,0.288
+2026-10-10,CS Marítimo vs FC Porto,Portugal,0.77,2.51,1,3,1,2,2,2,0.161
+2026-10-10,Fortuna Sittard vs FC Twente '65,Netherlands,1.18,2.61,1,3,1,1,2,X,1.059
+2026-10-10,Stade Brestois 29 vs Angers SCO,France,1.32,1.19,1,1,5,1,1,1,0.561
+2026-10-10,Paris Saint-Germain FC vs Le Mans FC,France,2.47,0.99,2,1,3,1,1,1,0.209
+2026-10-10,FC Lorient vs Paris FC,France,1.2,1.48,1,1,1,0,2,1,0.714
+2026-10-10,SSC Napoli vs Frosinone Calcio,Italy,1.34,1.29,1,1,3,0,1,1,0.589
+2026-10-10,AS Monaco FC vs Toulouse FC,France,2.17,1.03,2,1,2,2,1,X,0.985
+2026-10-10,Real Madrid CF vs Villarreal CF,Default,2.86,1.82,3,2,1,0,1,1,0.312
+2026-10-10,AFC Ajax vs NEC,Netherlands,3.08,1.05,3,1,1,1,1,X,1.19
+2026-10-10,Casa Pia AC vs CD Santa Clara,Portugal,0.58,1.77,1,2,0,1,2,2,0.238
+2026-10-10,Académico de Viseu FC vs GD Estoril Praia,Portugal,1.94,0.62,2,1,2,1,1,1,0.215
+2026-10-11,FC Utrecht vs Willem II Tilburg,Netherlands,2.29,1.55,2,2,3,1,1,1,0.37
+2026-10-11,Como 1907 vs AS Roma,Italy,1.46,1.86,1,2,0,0,2,X,0.874
+2026-10-11,Elche CF vs RC Celta de Vigo,Default,1.35,2.09,1,2,0,0,2,X,0.92
+2026-10-11,Telstar 1963 vs ADO Den Haag,Netherlands,1.45,1.06,1,1,2,2,1,X,0.817
+2026-10-11,PEC Zwolle vs SC Cambuur-Leeuwarden,Netherlands,1.24,2.61,1,3,0,1,2,2,0.236
+2026-10-11,SS Lazio vs AC Monza,Italy,2.14,0.93,2,1,3,1,1,1,0.25
+2026-10-11,OGC Nice vs RC Strasbourg Alsace,France,1.18,1.65,1,2,2,1,2,1,0.781
+2026-10-11,Hull City AFC vs Everton FC,England,1.23,1.05,1,1,2,2,1,X,0.774
+2026-10-11,US Lecce vs Bologna FC 1909,Italy,0.99,1.19,1,1,1,2,2,2,0.546
+2026-10-11,Crystal Palace FC vs Nottingham Forest FC,England,0.91,1.77,1,2,3,1,2,1,0.948
+2026-10-11,1. FC Köln vs Borussia Mönchengladbach,Germany,2.32,1.76,2,2,2,1,1,1,0.417
+2026-10-11,Real Sociedad de Fútbol vs RC Deportivo La Coruña,Default,1.5,1.64,2,2,3,2,2,1,0.644
+2026-10-11,Rio Ave FC vs CD Nacional,Portugal,1.04,1.04,1,1,3,2,2,1,0.633
+2026-10-11,SBV Excelsior vs FC Groningen,Netherlands,2.16,1.61,2,2,1,5,1,2,0.769
+2026-10-11,Stade Rennais FC 1901 vs AJ Auxerre,France,2.06,1.74,2,2,4,1,1,1,0.484
+2026-10-11,Liverpool FC vs Manchester City FC,England,1.33,2.14,1,2,0,3,2,2,0.348
+2026-10-11,SC Freiburg vs FC Schalke 04,Germany,2.03,1.0,2,1,2,1,1,1,0.288
+2026-10-11,US Sassuolo Calcio vs AC Milan,Italy,1.44,1.72,1,2,1,1,2,X,0.856
+2026-10-11,Real Betis Balompié vs CA Osasuna,Default,2.17,0.71,2,1,5,2,1,1,0.196
+2026-10-11,Sport Lisboa e Benfica vs Vitória SC,Portugal,2.92,0.62,3,1,2,0,1,1,0.102
+2026-10-11,Cagliari Calcio vs Juventus FC,Italy,0.89,1.05,1,1,1,1,2,X,0.73
+2026-10-11,ES Troyes AC vs Olympique de Marseille,France,1.36,1.45,1,1,0,2,2,2,0.568
+2026-10-11,Real Racing Club de Santander vs Valencia CF,Default,1.72,1.71,2,2,2,2,1,X,0.864
+2026-10-11,FC Arouca vs CF Estrela da Amadora,Portugal,2.09,1.12,2,1,1,0,1,1,0.305
+2026-10-12,Atalanta BC vs Venezia FC,Italy,1.91,0.85,2,1,3,1,1,1,0.276
+2026-10-12,Torino FC vs Udinese Calcio,Italy,1.32,1.31,1,1,2,1,1,1,0.605
+2026-10-12,Levante UD vs Sevilla FC,Default,1.63,1.58,2,2,3,3,1,X,0.85
+2026-10-12,Coventry City FC vs Newcastle United FC,England,1.01,1.73,1,2,4,1,2,1,0.886
+2026-10-12,FC Famalicão vs FC Alverca,Portugal,1.64,0.7,2,1,1,4,1,2,1.016
+2026-10-16,SC Heerenveen vs SBV Excelsior,Netherlands,1.95,1.47,2,1,4,0,1,1,0.438
+2026-10-16,Eintracht Frankfurt vs 1. FC Köln,Germany,2.08,2.31,2,2,1,0,2,1,0.642
+2026-10-16,Frosinone Calcio vs US Sassuolo Calcio,Italy,1.71,1.29,2,1,4,2,1,1,0.456
+2026-10-16,Le Mans FC vs Toulouse FC,France,2.07,1.79,2,2,0,3,1,2,0.669
+2026-10-16,RC Deportivo La Coruña vs Levante UD,Default,2.29,1.58,2,2,1,1,1,X,0.932
+2026-10-17,Everton FC vs Chelsea FC,England,2.16,1.57,2,2,0,2,1,2,0.782
+2026-10-17,RCD Espanyol de Barcelona vs Club Atlético de Madrid,Default,1.24,2.12,1,2,0,1,2,2,0.332
+2026-10-17,Venezia FC vs SSC Napoli,Italy,0.92,2.48,1,2,1,0,2,1,1.149
+2026-10-17,Hamburger SV vs VfB Stuttgart,Germany,1.48,2.36,1,2,1,0,2,1,0.879
+2026-10-17,SV 07 Elversberg vs FC Augsburg,Germany,1.79,1.81,2,2,4,3,2,1,0.591
+2026-10-17,1. FC Union Berlin vs Borussia Dortmund,Germany,0.87,2.96,1,3,0,0,2,X,1.216
+2026-10-17,SV Werder Bremen vs SC Paderborn 07,Germany,1.58,1.19,2,1,2,2,1,X,0.837
+2026-10-17,FC Schalke 04 vs 1. FSV Mainz 05,Germany,1.61,1.74,2,2,0,1,2,2,0.544
+2026-10-17,Brentford FC vs Liverpool FC,England,2.06,0.98,2,1,1,2,1,2,1.003
+2026-10-17,Manchester City FC vs Ipswich Town FC,England,3.08,0.93,3,1,3,2,1,1,0.129
+2026-10-17,Fulham FC vs Hull City AFC,England,1.1,1.28,1,1,1,0,2,1,0.69
+2026-10-17,Villarreal CF vs Elche CF,Default,2.65,1.32,3,1,0,0,1,X,1.037
+2026-10-17,ADO Den Haag vs PSV,Netherlands,1.28,3.83,1,4,2,1,2,1,1.304
+2026-10-17,RC Strasbourg Alsace vs Paris Saint-Germain FC,France,1.32,2.51,1,3,1,3,2,2,0.269
+2026-10-17,Bologna FC 1909 vs FC Internazionale Milano,Italy,1.21,2.62,1,3,1,3,2,2,0.227
+2026-10-17,Newcastle United FC vs Aston Villa FC,England,1.95,1.73,2,2,0,1,1,2,0.656
+2026-10-17,FC Bayern München vs RB Leipzig,Germany,2.94,1.71,3,2,6,1,1,1,0.276
+2026-10-17,Real Betis Balompié vs FC Barcelona,Default,1.5,3.34,2,3,2,5,2,2,0.183
+2026-10-17,Telstar 1963 vs Feyenoord Rotterdam,Netherlands,0.83,2.88,1,3,3,4,2,2,0.132
+2026-10-17,ES Troyes AC vs Racing Club de Lens,France,1.19,2.17,1,2,1,3,2,2,0.308
+2026-10-17,Lille OSC vs Stade Brestois 29,France,1.94,0.78,2,1,1,1,1,X,0.98
+2026-10-17,AS Roma vs Genoa CFC,Italy,2.28,0.47,2,0,2,0,1,1,0.136
+2026-10-17,Sparta Rotterdam vs Willem II Tilburg,Netherlands,2.0,1.55,2,2,3,2,1,1,0.446
+2026-10-17,Valencia CF vs Athletic Club,Default,1.24,1.33,1,1,0,0,2,X,0.801
+2026-10-18,PEC Zwolle vs Go Ahead Eagles,Netherlands,1.09,3.16,1,3,4,1,2,1,1.241
+2026-10-18,Udinese Calcio vs US Lecce,Italy,1.72,0.62,2,1,0,3,1,2,1.085
+2026-10-18,CA Osasuna vs Real Racing Club de Santander,Default,2.0,2.21,2,2,2,0,2,1,0.641
+2026-10-18,SC Cambuur-Leeuwarden vs AZ,Netherlands,1.26,1.68,1,2,2,2,2,X,0.853
+2026-10-18,Leeds United FC vs Manchester United FC,England,1.11,1.16,1,1,1,1,2,X,0.769
+2026-10-18,Brighton & Hove Albion FC vs Crystal Palace FC,England,3.25,0.82,3,1,5,0,1,1,0.103
+2026-10-18,ACF Fiorentina vs Como 1907,Italy,0.93,1.88,1,2,1,3,2,2,0.304
+2026-10-18,Angers SCO vs Olympique de Marseille,France,1.13,1.53,1,2,2,5,2,2,0.466
+2026-10-18,AFC Bournemouth vs Sunderland AFC,England,1.83,1.12,2,1,2,0,1,1,0.371
+2026-10-18,Bayer 04 Leverkusen vs SC Freiburg,Germany,2.14,2.0,2,2,2,1,1,1,0.534
+2026-10-18,RC Celta de Vigo vs Deportivo Alavés,Default,1.54,0.72,2,1,2,1,1,1,0.334
+2026-10-18,FC Groningen vs AFC Ajax,Netherlands,2.05,2.23,2,2,2,5,2,2,0.524
+2026-10-18,FC Lorient vs AS Monaco FC,France,1.4,1.26,1,1,1,0,1,1,0.553
+2026-10-18,Le Havre AC vs AJ Auxerre,France,1.34,1.32,1,1,1,3,1,2,0.617
+2026-10-18,Paris FC vs Stade Rennais FC 1901,France,1.87,1.27,2,1,4,3,1,1,0.402
+2026-10-18,Borussia Mönchengladbach vs TSG 1899 Hoffenheim,Germany,2.06,2.24,2,2,1,2,2,2,0.521
+2026-10-18,Nottingham Forest FC vs Arsenal FC,England,0.97,1.36,1,1,0,1,2,2,0.472
+2026-10-18,AC Milan vs Atalanta BC,Italy,1.56,1.1,2,1,3,2,1,1,0.445
+2026-10-18,Málaga CF vs Real Sociedad de Fútbol,Default,1.25,1.68,1,2,2,5,2,2,0.455
+2026-10-18,NEC vs Fortuna Sittard,Netherlands,1.79,1.46,2,1,2,2,1,X,0.864
+2026-10-18,FC Twente '65 vs FC Utrecht,Netherlands,3.0,1.0,3,1,1,2,1,2,1.239
+2026-10-18,Olympique Lyonnais vs OGC Nice,France,1.85,0.62,2,1,2,1,1,1,0.233
+2026-10-18,Juventus FC vs SS Lazio,Italy,1.33,1.03,1,1,0,3,1,2,0.737
+2026-10-18,Real Madrid CF vs Sevilla FC,Default,2.84,0.97,3,1,4,1,1,1,0.158
+2026-10-19,AC Monza vs Cagliari Calcio,Italy,1.11,1.4,1,1,4,0,2,1,0.724
+2026-10-19,Parma Calcio 1913 vs Torino FC,Italy,1.06,1.56,1,2,0,3,2,2,0.434
+2026-10-19,Tottenham Hotspur FC vs Coventry City FC,England,1.13,1.2,1,1,3,1,2,1,0.647
+2026-10-19,Getafe CF vs Rayo Vallecano de Madrid,Default,0.99,0.96,1,1,1,1,1,X,0.728
+2026-10-19,Sporting Clube de Braga vs Gil Vicente FC,Portugal,1.32,0.87,1,1,1,2,1,2,0.815
+2026-10-21,Levante UD vs Athletic Club,Default,1.48,1.38,1,1,3,1,1,1,0.564
+2026-10-23,Go Ahead Eagles vs Telstar 1963,Netherlands,2.38,1.7,2,2,3,2,1,1,0.387
+2026-10-23,VfB Stuttgart vs Borussia Mönchengladbach,Germany,2.39,1.19,2,1,2,3,1,2,1.009
+2026-10-23,Torino FC vs AC Monza,Italy,2.33,1.61,2,2,3,2,1,1,0.375
+2026-10-23,Stade Brestois 29 vs OGC Nice,France,1.82,1.02,2,1,1,2,1,2,0.912
+2026-10-23,Deportivo Alavés vs Málaga CF,Default,1.85,0.88,2,1,1,1,1,X,0.932
+2026-10-23,Ipswich Town FC vs Nottingham Forest FC,England,1.54,1.35,2,1,1,1,1,X,0.832
+2026-10-23,Vitória SC vs CS Marítimo,Portugal,1.08,1.13,1,1,5,0,2,1,0.643
+2026-10-25,Fortuna Sittard vs SBV Excelsior,Netherlands,2.23,1.7,2,2,1,0,1,1,0.423
+2026-10-25,FC Internazionale Milano vs ACF Fiorentina,Italy,4.05,0.81,4,1,2,1,1,1,0.066
+2026-10-25,Athletic Club vs Getafe CF,Default,0.93,0.61,1,1,4,0,1,1,0.524
+2026-10-25,PSV vs Feyenoord Rotterdam,Netherlands,2.27,2.64,2,3,1,1,2,X,0.939
+2026-10-25,NEC vs FC Groningen,Netherlands,1.94,2.25,2,2,2,2,2,X,0.91
+2026-10-25,Liverpool FC vs Brighton & Hove Albion FC,England,1.04,2.75,1,3,2,0,2,1,1.169
+2026-10-25,Manchester United FC vs AFC Bournemouth,England,1.82,1.08,2,1,0,3,1,2,0.884
+2026-10-25,Atalanta BC vs Frosinone Calcio,Italy,1.72,1.73,2,2,4,4,2,X,0.864
+2026-10-25,AS Monaco FC vs Lille OSC,France,0.94,1.07,1,1,1,1,2,X,0.739
+2026-10-25,Genoa CFC vs Venezia FC,Italy,1.22,0.93,1,1,1,0,1,1,0.513
+2026-10-25,Crystal Palace FC vs Newcastle United FC,England,1.5,1.9,2,2,0,2,2,2,0.463
+2026-10-25,Hull City AFC vs Brentford FC,England,1.29,1.38,1,1,1,1,2,X,0.81
+2026-10-25,TSG 1899 Hoffenheim vs Bayer 04 Leverkusen,Germany,1.72,2.87,2,3,3,0,2,1,0.934
+2026-10-25,RC Celta de Vigo vs Real Betis Balompié,Default,2.0,1.16,2,1,0,0,1,X,0.924
+2026-10-25,GD Estoril Praia vs Moreirense FC,Portugal,1.19,0.7,1,1,1,3,1,2,0.868
+2026-10-25,Sparta Rotterdam vs AFC Ajax,Netherlands,1.47,4.06,1,4,1,2,2,2,0.117
+2026-10-25,Stade Rennais FC 1901 vs RC Strasbourg Alsace,France,2.92,2.01,3,2,3,0,1,1,0.343
+2026-10-25,Toulouse FC vs ES Troyes AC,France,2.63,0.87,3,1,0,0,1,X,1.138
+2026-10-25,Olympique de Marseille vs Le Havre AC,France,2.22,0.81,2,1,4,3,1,1,0.208
+2026-10-25,Angers SCO vs FC Lorient,France,0.91,1.99,1,2,0,0,2,X,0.965
+2026-10-25,AJ Auxerre vs Le Mans FC,France,2.38,1.52,2,2,1,1,1,X,0.953
+2026-10-25,SC Freiburg vs FC Bayern München,Germany,1.58,3.09,2,3,1,3,2,2,0.228
+2026-10-25,Sunderland AFC vs Leeds United FC,England,0.85,1.3,1,1,0,0,2,X,0.788
+2026-10-25,US Lecce vs Juventus FC,Italy,1.14,1.43,1,1,0,2,2,2,0.505
+2026-10-25,Real Sociedad de Fútbol vs Levante UD,Default,2.91,2.18,3,2,2,1,1,1,0.384
+2026-10-25,Rio Ave FC vs FC Famalicão,Portugal,1.05,1.68,1,2,0,4,2,2,0.391
+2026-10-25,CD Nacional vs Sporting Clube de Braga,Portugal,1.25,1.81,1,2,1,0,2,1,0.806
+2026-10-25,AZ vs FC Twente '65,Netherlands,1.37,1.34,1,1,0,2,1,2,0.615
+2026-10-25,Udinese Calcio vs AC Milan,Italy,1.11,1.69,1,2,0,2,2,2,0.407
+2026-10-25,FC Barcelona vs Real Madrid CF,Default,2.99,1.83,3,2,1,2,1,2,0.924
+2026-10-25,Sporting Clube de Portugal vs Académico de Viseu FC,Portugal,2.55,1.12,3,1,1,2,1,2,1.08
+2026-10-26,CD Santa Clara vs Sport Lisboa e Benfica,Portugal,1.17,1.49,1,1,1,2,2,2,0.492
+2026-10-26,Paris Saint-Germain FC vs Olympique Lyonnais,France,1.85,1.14,2,1,2,0,1,1,0.369
+2026-10-26,Sevilla FC vs CA Osasuna,Default,2.05,1.46,2,1,2,0,1,1,0.409
+2026-10-27,US Sassuolo Calcio vs SS Lazio,Italy,1.07,2.34,1,2,2,6,2,2,0.245
+2026-10-27,Torino FC vs Como 1907,Italy,1.46,1.67,1,2,1,3,2,2,0.523
+2026-10-27,AS Roma vs Cagliari Calcio,Italy,2.28,0.37,2,0,4,2,1,1,0.119
+2026-10-28,Venezia FC vs FC Internazionale Milano,Italy,0.94,3.32,1,3,0,2,2,2,0.111
+2026-10-28,Parma Calcio 1913 vs Udinese Calcio,Italy,0.93,1.0,1,1,0,0,2,X,0.725
+2026-10-28,AC Milan vs Bologna FC 1909,Italy,2.17,0.8,2,1,2,4,1,2,1.125
+2026-10-28,Genoa CFC vs Juventus FC,Italy,0.79,1.19,1,1,2,0,2,1,0.817
+2026-10-28,AC Monza vs SSC Napoli,Italy,1.5,1.86,2,2,1,4,2,2,0.473
+2026-10-29,Frosinone Calcio vs US Lecce,Italy,2.48,1.11,2,1,5,1,1,1,0.231
+2026-10-29,ACF Fiorentina vs Atalanta BC,Italy,1.55,2.38,2,2,2,2,2,X,0.95
+2026-10-30,OGC Nice vs Stade Rennais FC 1901,France,1.52,2.08,2,2,5,2,2,1,0.776
+2026-10-30,Le Havre AC vs Paris Saint-Germain FC,France,0.84,2.91,1,3,1,5,2,2,0.131
+2026-10-30,SV 07 Elversberg vs 1. FSV Mainz 05,Germany,1.97,2.01,2,2,4,1,2,1,0.591
+2026-10-30,Villarreal CF vs RCD Espanyol de Barcelona,Default,1.95,0.83,2,1,0,1,1,2,1.046
+2026-10-30,Lille OSC vs Racing Club de Lens,France,1.61,0.93,2,1,1,0,1,1,0.377
+2026-10-30,Casa Pia AC vs Sporting Clube de Portugal,Portugal,0.64,2.86,1,3,0,2,2,2,0.11
+2026-10-31,Chelsea FC vs Manchester United FC,England,2.2,1.52,2,2,2,0,1,1,0.384
+2026-10-31,Levante UD vs Club Atlético de Madrid,Default,1.51,2.45,2,2,0,2,2,2,0.323
+2026-10-31,Bologna FC 1909 vs AC Monza,Italy,2.51,1.82,3,2,2,1,1,1,0.388
+2026-10-31,FC Schalke 04 vs RB Leipzig,Germany,1.46,1.82,1,2,0,2,2,2,0.471
+2026-10-31,FC Augsburg vs SC Freiburg,Germany,2.2,2.2,2,2,1,2,1,2,0.574
+2026-10-31,Bayer 04 Leverkusen vs VfB Stuttgart,Germany,2.36,1.53,2,2,2,4,1,2,0.861
+2026-10-31,SV Werder Bremen vs TSG 1899 Hoffenheim,Germany,1.85,2.0,2,2,2,0,2,1,0.627
+2026-10-31,Borussia Mönchengladbach vs SC Paderborn 07,Germany,1.72,1.65,2,2,0,0,1,X,0.861
+2026-10-31,Coventry City FC vs Sunderland AFC,England,1.62,0.88,2,1,3,1,1,1,0.36
+2026-10-31,Manchester City FC vs Brighton & Hove Albion FC,England,2.02,1.7,2,2,0,1,1,2,0.686
+2026-10-31,Hull City AFC vs Ipswich Town FC,England,1.65,1.27,2,1,2,2,1,X,0.848
+2026-10-31,Brentford FC vs Nottingham Forest FC,England,1.49,0.9,1,1,2,0,1,1,0.405
+2026-10-31,AFC Bournemouth vs Leeds United FC,England,1.32,0.78,1,1,2,0,1,1,0.422
+2026-10-31,Rayo Vallecano de Madrid vs RC Celta de Vigo,Default,1.02,1.34,1,1,3,0,2,1,0.748
+2026-10-31,Feyenoord Rotterdam vs Fortuna Sittard,Netherlands,3.12,0.99,3,1,1,1,1,X,1.213
+2026-10-31,Moreirense FC vs CF Estrela da Amadora,Portugal,1.33,1.28,1,1,2,1,1,1,0.591
+2026-10-31,Udinese Calcio vs AS Roma,Italy,0.7,2.26,1,2,2,5,2,2,0.18
+2026-10-31,Real Betis Balompié vs Málaga CF,Default,2.38,0.99,2,1,2,1,1,1,0.221
+2026-10-31,Tottenham Hotspur FC vs Crystal Palace FC,England,1.94,0.87,2,1,2,0,1,1,0.275
+2026-10-31,FC Bayern München vs Borussia Dortmund,Germany,2.09,1.16,2,1,2,2,1,X,0.945
+2026-10-31,SC Heerenveen vs NEC,Netherlands,2.21,1.07,2,1,1,0,1,1,0.27
+2026-10-31,PSV vs Willem II Tilburg,Netherlands,3.97,0.87,4,1,7,0,1,1,0.073
+2026-10-31,AC Milan vs FC Internazionale Milano,Italy,1.46,2.65,1,3,3,1,2,1,0.97
+2026-10-31,ES Troyes AC vs Le Mans FC,France,1.21,1.49,1,1,2,0,2,1,0.71
+2026-10-31,SC Cambuur-Leeuwarden vs Go Ahead Eagles,Netherlands,2.25,2.12,2,2,4,0,1,1,0.536
+2026-10-31,FC Barcelona vs Deportivo Alavés,Default,3.57,0.9,4,1,6,1,1,1,0.092
+2026-10-31,AFC Ajax vs AZ,Netherlands,2.41,1.1,2,1,1,0,1,1,0.239
+2026-10-31,Aston Villa FC vs Fulham FC,England,1.46,1.01,1,1,1,1,1,X,0.82
+2026-10-31,FC Porto vs GD Estoril Praia,Portugal,3.25,0.3,3,0,4,0,1,1,0.057
+2026-11-01,PEC Zwolle vs ADO Den Haag,Netherlands,1.59,1.97,2,2,1,0,2,1,0.717
+2026-11-01,Como 1907 vs Venezia FC,Italy,2.64,0.41,3,0,1,0,1,1,0.096
+2026-11-01,Getafe CF vs Sevilla FC,Default,0.88,1.31,1,1,3,1,2,1,0.809
+2026-11-01,Telstar 1963 vs FC Utrecht,Netherlands,2.07,2.21,2,2,4,2,2,1,0.616
+2026-11-01,SBV Excelsior vs FC Twente '65,Netherlands,0.99,2.23,1,2,0,9,2,2,0.246
+2026-11-01,SS Lazio vs Cagliari Calcio,Italy,3.0,0.58,3,1,2,1,1,1,0.093
+2026-11-01,RC Strasbourg Alsace vs AJ Auxerre,France,1.77,2.09,2,2,5,1,2,1,0.682
+2026-11-01,Frosinone Calcio vs Torino FC,Italy,2.95,1.94,3,2,2,0,1,1,0.323
+2026-11-01,1. FC Union Berlin vs 1. FC Köln,Germany,1.46,1.65,1,2,1,1,2,X,0.847
+2026-11-01,Real Racing Club de Santander vs Real Madrid CF,Default,1.1,4.15,1,4,0,3,2,2,0.081
+2026-11-01,FC Arouca vs CD Nacional,Portugal,2.12,0.72,2,1,1,0,1,1,0.207
+2026-11-01,FC Groningen vs Sparta Rotterdam,Netherlands,3.44,1.67,3,2,2,3,1,2,1.095
+2026-11-01,Paris FC vs AS Monaco FC,France,1.64,1.09,2,1,3,1,1,1,0.418
+2026-11-01,Olympique Lyonnais vs Angers SCO,France,2.23,0.64,2,1,2,0,1,1,0.172
+2026-11-01,Liverpool FC vs Arsenal FC,England,1.03,1.41,1,1,0,1,2,2,0.475
+2026-11-01,Eintracht Frankfurt vs Hamburger SV,Germany,2.03,1.64,2,2,3,1,1,1,0.462
+2026-11-01,US Lecce vs Genoa CFC,Italy,0.87,1.31,1,1,1,2,2,2,0.456
+2026-11-01,Elche CF vs Valencia CF,Default,1.44,1.0,1,1,0,1,1,2,0.793
+2026-11-01,CS Marítimo vs CD Santa Clara,Portugal,0.83,1.81,1,2,0,2,2,2,0.292
+2026-11-01,Académico de Viseu FC vs Rio Ave FC,Portugal,2.62,0.57,3,1,2,1,1,1,0.118
+2026-11-01,Olympique de Marseille vs Toulouse FC,France,2.14,1.67,2,2,2,0,1,1,0.441
+2026-11-01,Juventus FC vs SSC Napoli,Italy,1.11,1.39,1,1,2,0,2,1,0.72
+2026-11-01,Athletic Club vs Real Sociedad de Fútbol,Default,1.97,1.74,2,2,2,1,1,1,0.512
+2026-11-01,Sporting Clube de Braga vs FC Famalicão,Portugal,1.13,1.68,1,2,3,0,2,1,0.814
+2026-11-02,US Sassuolo Calcio vs ACF Fiorentina,Italy,2.26,1.9,2,2,2,4,1,2,0.692
+2026-11-02,FC Lorient vs Stade Brestois 29,France,1.61,0.87,2,1,0,2,1,2,0.919
+2026-11-02,Atalanta BC vs Parma Calcio 1913,Italy,2.14,0.7,2,1,0,3,1,2,1.165
+2026-11-02,RC Deportivo La Coruña vs CA Osasuna,Default,2.1,0.89,2,1,2,1,1,1,0.248
+2026-11-02,Newcastle United FC vs Everton FC,England,1.5,1.18,2,1,0,1,1,2,0.73
+2026-11-02,Gil Vicente FC vs Vitória SC,Portugal,1.21,1.04,1,1,0,0,1,X,0.772
+2026-11-02,Sport Lisboa e Benfica vs FC Alverca,Portugal,2.69,1.02,3,1,1,0,1,1,0.182
+2026-11-06,Willem II Tilburg vs PEC Zwolle,Netherlands,1.41,2.01,1,2,1,1,2,X,0.9
+2026-11-06,Hamburger SV vs Borussia Mönchengladbach,Germany,1.66,1.67,2,2,3,1,2,1,0.593
+2026-11-06,Toulouse FC vs RC Strasbourg Alsace,France,1.91,1.76,2,2,3,1,1,1,0.534
+2026-11-06,Venezia FC vs Udinese Calcio,Italy,1.08,1.01,1,1,2,1,1,1,0.604
+2026-11-06,Sevilla FC vs Deportivo Alavés,Default,2.12,1.36,2,1,0,0,1,X,0.924
+2026-11-06,Everton FC vs Coventry City FC,England,1.65,1.12,2,1,3,1,1,1,0.422
+2026-11-06,FC Famalicão vs FC Arouca,Portugal,1.24,1.36,1,1,1,0,2,1,0.653
+2026-11-07,Leeds United FC vs Tottenham Hotspur FC,England,0.88,0.91,1,1,1,0,2,1,0.662
+2026-11-07,Málaga CF vs Real Racing Club de Santander,Default,1.91,1.34,2,1,1,2,1,2,0.799
+2026-11-07,Torino FC vs US Lecce,Italy,2.35,1.01,2,1,1,1,1,X,1.035
+2026-11-07,Cagliari Calcio vs Frosinone Calcio,Italy,1.21,2.76,1,3,1,0,2,1,1.1
+2026-11-07,SC Paderborn 07 vs Eintracht Frankfurt,Germany,1.64,1.42,2,1,2,2,1,X,0.845
+2026-11-07,1. FSV Mainz 05 vs FC Bayern München,Germany,1.53,3.83,2,4,1,2,2,2,0.14
+2026-11-07,RB Leipzig vs FC Augsburg,Germany,2.99,1.87,3,2,5,2,1,1,0.299
+2026-11-07,Borussia Dortmund vs SV 07 Elversberg,Germany,2.05,1.17,2,1,2,1,1,1,0.328
+2026-11-07,Fulham FC vs Newcastle United FC,England,1.22,0.95,1,1,1,1,1,X,0.768
+2026-11-07,Arsenal FC vs Hull City AFC,England,1.69,0.54,2,1,1,0,1,1,0.242
+2026-11-07,RCD Espanyol de Barcelona vs RC Deportivo La Coruña,Default,1.2,1.24,1,1,0,0,2,X,0.788
+2026-11-07,Fortuna Sittard vs Telstar 1963,Netherlands,2.01,1.64,2,2,2,2,1,X,0.889
+2026-11-07,Parma Calcio 1913 vs Bologna FC 1909,Italy,1.24,1.41,1,1,1,2,2,2,0.546
+2026-11-07,Nottingham Forest FC vs Manchester City FC,England,0.91,1.95,1,2,3,1,2,1,1.003
+2026-11-07,VfB Stuttgart vs SV Werder Bremen,Germany,2.07,1.63,2,2,1,0,1,1,0.448
+2026-11-07,CA Osasuna vs Athletic Club,Default,1.04,2.02,1,2,1,1,2,X,0.949
+2026-11-07,ADO Den Haag vs Sparta Rotterdam,Netherlands,1.97,1.72,2,2,3,1,1,1,0.506
+2026-11-07,FC Alverca vs Casa Pia AC,Portugal,1.91,0.32,2,0,1,1,1,X,1.111
+2026-11-07,AJ Auxerre vs Paris FC,France,1.37,2.72,1,3,0,1,2,2,0.245
+2026-11-07,AS Roma vs US Sassuolo Calcio,Italy,5.18,1.03,5,1,3,0,1,1,0.05
+2026-11-07,SBV Excelsior vs Go Ahead Eagles,Netherlands,1.8,2.95,2,3,0,1,2,2,0.293
+2026-11-07,Valencia CF vs Real Madrid CF,Default,0.86,2.27,1,2,0,3,2,2,0.212
+2026-11-07,Paris Saint-Germain FC vs ES Troyes AC,France,3.07,0.51,3,1,1,0,1,1,0.082
+2026-11-07,Sporting Clube de Portugal vs Moreirense FC,Portugal,2.9,0.76,3,1,1,0,1,1,0.122
+2026-11-08,SC Heerenveen vs Feyenoord Rotterdam,Netherlands,1.45,1.67,1,2,5,3,2,1,0.672
+2026-11-08,SSC Napoli vs SS Lazio,Italy,1.29,1.85,1,2,1,1,2,X,0.881
+2026-11-08,Elche CF vs Real Betis Balompié,Default,1.34,1.78,1,2,0,2,2,2,0.449
+2026-11-08,FC Twente '65 vs AFC Ajax,Netherlands,2.29,1.27,2,1,2,2,1,X,0.972
+2026-11-08,Crystal Palace FC vs Liverpool FC,England,0.94,1.96,1,2,1,3,2,2,0.289
+2026-11-08,Genoa CFC vs AC Milan,Italy,1.32,1.38,1,1,1,2,2,2,0.586
+2026-11-08,Stade Rennais FC 1901 vs Lille OSC,France,1.22,1.83,1,2,1,2,2,2,0.398
+2026-11-08,Ipswich Town FC vs AFC Bournemouth,England,1.55,2.0,2,2,1,2,2,2,0.445
+2026-11-08,AC Monza vs Atalanta BC,Italy,2.39,2.31,2,2,0,1,1,2,0.594
+2026-11-08,Sunderland AFC vs Chelsea FC,England,1.06,2.5,1,2,1,0,2,1,1.097
+2026-11-08,Brighton & Hove Albion FC vs Brentford FC,England,1.95,0.95,2,1,2,0,1,1,0.293
+2026-11-08,1. FC Köln vs Bayer 04 Leverkusen,Germany,1.74,2.06,2,2,1,2,2,2,0.483
+2026-11-08,Real Sociedad de Fútbol vs Rayo Vallecano de Madrid,Default,2.17,1.98,2,2,1,0,1,1,0.52
+2026-11-08,CD Santa Clara vs Gil Vicente FC,Portugal,1.26,0.51,1,1,1,2,1,2,1.007
+2026-11-08,CD Nacional vs Académico de Viseu FC,Portugal,0.98,1.98,1,2,1,0,2,1,0.983
+2026-11-08,AZ vs FC Groningen,Netherlands,1.84,1.62,2,2,4,3,1,1,0.517
+2026-11-08,SC Cambuur-Leeuwarden vs PSV,Netherlands,1.62,3.0,2,3,2,5,2,2,0.25
+2026-11-08,Stade Brestois 29 vs Olympique Lyonnais,France,1.35,1.59,1,2,2,0,2,1,0.685
+2026-11-08,Angers SCO vs OGC Nice,France,1.01,2.07,1,2,0,2,2,2,0.283
+2026-11-08,Le Mans FC vs AS Monaco FC,France,1.26,1.61,1,2,1,1,2,X,0.841
+2026-11-08,Le Havre AC vs FC Lorient,France,0.93,1.59,1,2,0,2,2,2,0.381
+2026-11-08,Manchester United FC vs Aston Villa FC,England,1.37,1.42,1,1,4,4,2,X,0.819
+2026-11-08,SC Freiburg vs 1. FC Union Berlin,Germany,2.49,0.92,2,1,2,0,1,1,0.191
+2026-11-08,FC Internazionale Milano vs Como 1907,Italy,1.61,1.55,2,2,2,0,1,1,0.572
+2026-11-08,RC Celta de Vigo vs Levante UD,Default,1.6,1.0,2,1,0,0,1,X,0.852
+2026-11-08,Villarreal CF vs Getafe CF,Default,1.61,0.71,2,1,2,0,1,1,0.312
+2026-11-08,Vitória SC vs FC Porto,Portugal,0.77,2.04,1,2,1,2,2,2,0.23
+2026-11-08,TSG 1899 Hoffenheim vs FC Schalke 04,Germany,1.63,0.98,2,1,2,1,1,1,0.384
+2026-11-08,FC Utrecht vs NEC,Netherlands,2.02,1.8,2,2,2,3,1,2,0.652
+2026-11-08,Racing Club de Lens vs Olympique de Marseille,France,1.89,2.03,2,2,1,2,2,2,0.538
+2026-11-08,ACF Fiorentina vs Juventus FC,Italy,1.33,1.86,1,2,2,2,2,X,0.88
+2026-11-08,Club Atlético de Madrid vs FC Barcelona,Default,1.83,2.56,2,3,1,2,2,2,0.377
+2026-11-08,CF Estrela da Amadora vs Sport Lisboa e Benfica,Portugal,0.89,2.85,1,3,2,3,2,2,0.144
+2026-11-08,Rio Ave FC vs Sporting Clube de Braga,Portugal,0.9,2.04,1,2,0,1,2,2,0.264
