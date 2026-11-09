@@ -46,8 +46,8 @@ def run(ha,sh,ew,start,end):
         eh=elo.get(ht,1500); ea=elo.get(at,1500)
         ah=att.get(ht,base); dh=defe.get(ht,base); aa=att.get(at,base); da=defe.get(at,base)
         fh=form.get(ht,0); fa=form.get(at,0)
-        xh=max(0.15, ah/base*da/base*base+ha+ew*(eh-ea)/100+0.05*fh)
-        xa=max(0.10, aa/base*dh/base*base-ha*0.3+ew*(ea-eh)/100+0.05*fa)
+        rh=ah/base*da/base*base+ha+ew*(eh-ea)/100+0.05*fh; ra=aa/base*dh/base*base-ha*0.3+ew*(ea-eh)/100+0.05*fa
+        xh=max(0.15, min(3.5, base+(rh-base)*0.6)); xa=max(0.10, min(3.5, base+(ra-base)*0.6))
         if start<=i<end:
             hw,dr,aw,btts,over=probs(xh,xa)
             hw2=0.333+(1-sh)*(hw-0.333); dr2=0.333+(1-sh)*(dr-0.333); aw2=0.333+(1-sh)*(aw-0.333); s=hw2+dr2+aw2; hw2,dr2,aw2=hw2/s,dr2/s,aw2/s

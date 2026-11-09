@@ -1,7 +1,7 @@
 Sigma MEGA 31k - Mahmoud Emad
 Total History 31306
-Best home_adv=0.22 shrink=0.2 elo_w=0.0
-Hit 2564/5000=51.3% Exact 10.2% MAE 1.36 Brier 0.610 BTTS 55.0% Over 57.2%
+Best home_adv=0.22 shrink=0.1 elo_w=0.1
+Hit 2587/5000=51.7% Exact 10.8% MAE 1.30 Brier 0.609 BTTS 56.4% Over 57.5%
 
 Top Elo:
 lisbon: 1854
