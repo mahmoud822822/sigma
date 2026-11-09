@@ -20,6 +20,10 @@ def pred(h,a, show=True):
     m={k:v/t for k,v in m.items()}
     hw=sum(p for (x,y),p in m.items() if x>y); d=sum(p for (x,y),p in m.items() if x==y); aw=sum(p for (x,y),p in m.items() if x<y)
     btts=sum(p for (x,y),p in m.items() if x>0 and y>0); over25=sum(p for (x,y),p in m.items() if x+y>=3)
+    try:
+        import json as _j; _sh=_j.load(open('data/sigma_super_model.json', encoding='utf-8')).get('best_shrink',0.1)
+        hw=0.333+(1-_sh)*(hw-0.333); d=0.333+(1-_sh)*(d-0.333); aw=0.333+(1-_sh)*(aw-0.333); _s=hw+d+aw; hw,d,aw=hw/_s,d/_s,aw/_s
+    except: pass
     if show:
         print(f"1: {hw*100:.1f}%  X: {d*100:.1f}%  2: {aw*100:.1f}%")
         print(f"BTTS: {btts*100:.1f}%  Over 2.5: {over25*100:.1f}%")
@@ -98,7 +102,8 @@ def predict_by_team():
                 opp_conc = opp["away_conceded"] if is_home else opp["home_conceded"]
             if opp_conc is not None:
                 base = base * (opp_conc/1.35)
-            return round(max(0.2,min(3.8, base)),2)
+            base2=1.35+(base-1.35)*0.6+(0.22 if is_home else -0.066)
+            return round(max(0.15,min(3.5, base2)),2)
         if s and s["n"]>=2:
             avg_scored=s["scored"]/s["n"]
             return round((s["n"]*avg_scored + 2*(base_h if is_home else base_a))/(s["n"]+2),2)
