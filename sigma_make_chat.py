@@ -1,0 +1,9 @@
+import csv, json
+pred=list(csv.DictReader(open("data/sigma_mega_predictions.csv", encoding="utf-8")))
+js=json.dumps(pred)
+head="<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Sigma Chat</title><style>body{background:#111;color:#fff;font-family:system-ui;padding:12px}#chat{max-width:700px;margin:auto}.msg{padding:10px;margin:8px 0;border-radius:10px}.user{background:#1e3a5f;text-align:right}.bot{background:#222}input{width:70%;padding:10px}button{padding:10px}</style></head><body><div id='chat'><h2>Sigma Chat - Like ChatGPT</h2><p>Ask: Twente vs Willem II | 236 predictions | 31306 history</p><div id='msgs'></div><input id='q' placeholder='Twente vs Willem II'><button onclick='ask()'>Send</button></div><script>const PRED="
+tail=''';function clean(s){return s.toLowerCase().replace("fc ","").replace(" tilburg","").replace("'65","")}
+function ask(){let q=document.getElementById("q").value; let m=document.getElementById("msgs"); m.innerHTML+="<div class='msg user'>"+q+"</div>"; let p=q.split("vs"); if(p.length<2){m.innerHTML+="<div class='msg bot'>Type: Team vs Team</div>"; return} let h=clean(p[0]), a=clean(p[1]); let f=PRED.find(r=>{let mm=r.match.toLowerCase(); return mm.includes(h.split(" ")[0]) && mm.includes(a.split(" ")[0])}); if(f){m.innerHTML+="<div class='msg bot'><b>"+f.match+"</b><br>xG "+f.xG+" | 1:"+f["1"]+"% X:"+f["X"]+"% 2:"+f["2"]+"%<br>BTTS "+f.BTTS+"% Over "+f.Over25+"%<br>Top: "+f.top+"<br>Reason: Model 31306 matches HA 0.22 SH 0.1 Brier 0.609</div>"} else {m.innerHTML+="<div class='msg bot'>Not in 236 list, try another</div>"} document.getElementById("q").value=""}</script></body></html>'''
+html=head+js+tail
+open("sigma_chat.html","w",encoding="utf-8").write(html)
+print(f"Saved sigma_chat.html {len(pred)}")
