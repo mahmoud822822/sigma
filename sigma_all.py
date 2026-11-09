@@ -1,0 +1,25 @@
+import subprocess, sys
+def run(f):
+    print(f"--- Running {f} ---")
+    subprocess.call([sys.executable, f])
+while True:
+    print("")
+    print("Sigma ALL - Mahmoud Emad")
+    print("1. Main CLI (index.py)")
+    print("2. SUPER V2 (League Adjusted)")
+    print("3. Research (بحث)")
+    print("4. Forecast (تنبؤ)")
+    print("5. Scout (كشاف)")
+    print("6. Deep Learn")
+    print("7. Learn 1500")
+    print("0. Exit")
+    c=input("Choose: ").strip()
+    if c=="0": break
+    elif c=="1": run("index.py")
+    elif c=="2": run("sigma_super_v2.py")
+    elif c=="3": run("sigma_research.py")
+    elif c=="4": run("sigma_forecast.py")
+    elif c=="5": run("sigma_scout.py")
+    elif c=="6": run("sigma_deep.py")
+    elif c=="7": run("sigma_learn_1500.py")
+    else: print("Invalid")

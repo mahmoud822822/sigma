@@ -1,0 +1,49 @@
+Sigma DEEP Learn - 2150 Real - Mahmoud Emad
+n=2150 Home goals avg=1.60 Away goals avg=1.30 Gap=0.30
+Clean Sheet Home: 28.5%  Clean Sheet Away: 21.5%
+
+Top 10 Scorelines (Exact is lottery - even top 10 cover <50%):
+1-1: 239 = 11.1%
+1-0: 186 = 8.7%
+2-1: 180 = 8.4%
+1-2: 161 = 7.5%
+0-1: 151 = 7.0%
+2-2: 149 = 6.9%
+2-0: 138 = 6.4%
+0-0: 125 = 5.8%
+0-2: 106 = 4.9%
+3-1: 98 = 4.6%
+
+Double Chance (safer than 1X2 alone):
+1X (Home or Draw): 1473/2150 = 68.5%
+X2 (Draw or Away): 1222/2150 = 56.8%
+12 (No Draw): 1605/2150 = 74.7%
+
+Combo - BTTS + Over 2.5: 961/2150 = 44.7%
+Combo - BTTS No + Under 2.5: 706/2150 = 32.8%
+
+Top 5 Attack (n>=20):
+FC Bayern München: 3.47 goals/match n=32
+PSV: 3.03 goals/match n=32
+FC Barcelona: 3.00 goals/match n=37
+FC Internazionale Milano: 2.50 goals/match n=32
+Sporting Clube de Portugal: 2.48 goals/match n=33
+Top 5 Defense (lowest conceded, n>=20):
+FC Porto: 0.55 conceded/match n=31
+Arsenal FC: 0.77 conceded/match n=35
+Paris Saint-Germain FC: 0.84 conceded/match n=31
+Sport Lisboa e Benfica: 0.84 conceded/match n=32
+FC Twente '65: 0.88 conceded/match n=32
+Most Volatile (unpredictable - avoid exact bets):
+FC Bayern München: std=1.80 n=32
+Feyenoord Rotterdam: std=1.71 n=33
+FC Twente '65: std=1.68 n=32
+PSV: std=1.63 n=32
+Como 1907: std=1.62 n=32
+
+DEEP RULES:
+1. League first, team second, form third. Never bet same market on all leagues.
+2. Exact Score = lottery. BTTS/Over = predictable. Double Chance = safety.
+3. Volatile teams: avoid exact, use Over/BTTS only.
+4. Avg per team is still noisy: avg n=28 per team, need shrinkage to league avg.
+5. Future = Update All (9) + Predict All (6) using these deep stats.

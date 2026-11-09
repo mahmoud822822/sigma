@@ -1,0 +1,21 @@
+SUPER n=2150
+Adj Attack Top 5:
+FC Bayern München: 2.39x n=32
+PSV: 2.09x n=32
+FC Barcelona: 2.07x n=37
+FC Internazionale Milano: 1.72x n=32
+Sporting Clube de Portugal: 1.71x n=33
+Adj Defense Top 5:
+FC Porto: 0.38x n=31
+Arsenal FC: 0.53x n=35
+Paris Saint-Germain FC: 0.58x n=31
+Sport Lisboa e Benfica: 0.58x n=32
+FC Twente '65: 0.60x n=32
+Most Stable Top 5:
+Olympique Lyonnais: 1.60->1.60 change 0.00
+Bayer 04 Leverkusen: 2.00->2.00 change 0.00
+Tottenham Hotspur FC: 1.00->1.00 change 0.00
+Manchester City FC: 2.17->2.18 change 0.01
+Liverpool FC: 1.55->1.56 change 0.01
+P(Over|BTTS)=961/1200=80.1%
+P(BTTS)=55.8% Over=56.0%

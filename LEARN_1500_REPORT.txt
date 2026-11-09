@@ -1,0 +1,27 @@
+Sigma Learn - 1500+ Real History - Mahmoud Emad
+Total: 2150 matches
+Avg goals: 2.90  Home Win: 43.2%  Draw: 25.3%  Away Win: 31.5%
+BTTS: 55.8%  Over 2.5: 56.0%  Over 1.5: 78.5%  Under 2.5: 44.0%
+
+All Bets - Ranked by Hit Rate (n>=100):
+Over 1.5: 1688/2150 = 78.5%
+Over 2.5: 1205/2150 = 56.0%
+BTTS Yes: 1200/2150 = 55.8%
+BTTS No: 950/2150 = 44.2%
+Under 2.5: 945/2150 = 44.0%
+Home Win: 928/2150 = 43.2%
+Home + Over 1.5: 742/2150 = 34.5%
+Away Win: 677/2150 = 31.5%
+Draw: 545/2150 = 25.3%
+
+Strongest = highest hit rate above. Safest = high hit + large n. No bet is 100%.
+Per League:
+Default: n=352 Avg=2.80 BTTS=57.4%
+England: n=343 Avg=2.75 BTTS=54.8%
+France: n=270 Avg=2.81 BTTS=53.7%
+Germany: n=280 Avg=3.37 BTTS=63.9%
+Italy: n=340 Avg=2.69 BTTS=48.8%
+Netherlands: n=281 Avg=3.31 BTTS=64.4%
+Portugal: n=284 Avg=2.67 BTTS=48.9%
+
+Next: Run 9 Update All + 6 Predict All to make future predictions from this learning.
