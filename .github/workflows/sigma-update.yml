@@ -1,0 +1,28 @@
+name: Sigma Auto Update - Next Month
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch next month + Sigma predict
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          python sigma_auto_fetch.py
+          ls -lh data/sigma_next_month.*
+      - name: Commit if changed
+        run: |
+          git config user.name "Sigma Bot"
+          git config user.email "sigma@mahmoud822822.github.io"
+          git add data/sigma_next_month.json data/sigma_next_month.csv || true
+          git diff --cached --quiet || git commit -m "Auto: Sigma next month $(date +%F)"
+          git push || echo "Nothing to push"
