@@ -1,0 +1,13 @@
+Sigma V5 CLI - TEST REPORT - Mahmoud Emad
+1 Predict xG: PASS
+2 Predict team fuzzy: PASS - Grade A src=history50
+3 List: PASS - 236
+4 Eval: PASS - Hit 10/14 = 71.4% Exact 4/14 = 28.6% MAE 1.50
+5 Fetch: PASS - 236 matches 1180 predictions
+6 Predict All: PASS - Saved bulk
+7 History: PASS - 2150 matches 151 teams
+8 Learn: PASS - Avg 2.90 Home 43.2% BTTS 55.8%
+9 Update All: PASS - History Daily + Fetch + Saved
+Model: Poisson/Elo/Form 50/30/20 DEFAULT - NOT from test
+ML XGBoost/LightGBM: NOT_AVAILABLE n=14 < 50
+Signature Prediction and Forecast: Sigma - Mahmoud Emad
