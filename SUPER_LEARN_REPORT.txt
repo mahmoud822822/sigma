@@ -1,41 +1,40 @@
-Sigma MEGA Super Learn - Mahmoud Emad
-Collected 2150 real matches
+Sigma MEGA 31k - Mahmoud Emad
+Total History 31306
 Best home_adv=0.22 shrink=0.2 elo_w=0.0
-Hit 926/1850=50.1% Exact 199/1850=10.8% MAE 1.37 Brier 0.607
-BTTS 54.6% Over 56.0%
+Hit 2568/5000=51.4% Exact 10.3% MAE 1.36 Brier 0.610 BTTS 54.9% Over 57.0%
 
 Top Elo:
-FC Barcelona: 1684
-FC Porto: 1668
-FC Bayern München: 1659
-Sport Lisboa e Benfica: 1654
-FC Internazionale Milano: 1652
-Arsenal FC: 1643
-Paris Saint-Germain FC: 1641
-Real Madrid CF: 1638
-Sporting Clube de Portugal: 1623
-Manchester City FC: 1622
+sp lisbon: 1854
+porto: 1843
+benfica: 1841
+psv eindhoven: 1837
+bayern munich: 1833
+barcelona: 1831
+arsenal: 1803
+inter: 1800
+paris sg: 1782
+st. gilloise: 1776
 
 Top Attack:
-FC Barcelona: 3.40
-PSV: 3.37
-FC Bayern München: 3.19
-AS Roma: 2.70
-FC Twente '65: 2.64
-RB Leipzig: 2.62
-Feyenoord Rotterdam: 2.58
-Real Madrid CF: 2.55
-Sport Lisboa e Benfica: 2.42
-FC Porto: 2.38
+bayern munich: 3.43
+psv: 3.37
+barcelona: 3.34
+psv eindhoven: 3.19
+bayern münchen: 3.19
+club brugge: 3.06
+sp lisbon: 2.72
+as roma: 2.70
+twente '65: 2.64
+feyenoord rotterdam: 2.58
 
-Top Defense (lowest conceded):
-Arsenal FC: 0.57
-FC Porto: 0.65
-Lille OSC: 0.70
-Paris Saint-Germain FC: 0.74
-Brighton & Hove Albion FC: 0.75
-Real Madrid CF: 0.80
-FC Lorient: 0.88
-AS Roma: 0.89
-Sporting Clube de Portugal: 0.89
-Como 1907: 0.93
+Top Defense:
+arsenal: 0.53
+porto: 0.69
+lille osc: 0.70
+como: 0.73
+brighton & hove albion: 0.75
+paris saint-germain: 0.75
+lille: 0.78
+madrid: 0.79
+famalicao: 0.82
+genk: 0.85
