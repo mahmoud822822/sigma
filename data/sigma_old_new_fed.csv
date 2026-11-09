@@ -1,0 +1,40 @@
+match,date,league,predicted_home,predicted_away,real_home,real_away,bet,bet_result,market,safety_score,confidence,notes,era,source
+Liverpool vs Man Utd,2025-10-19,England,1,2,1,2,Man Utd X2,correct,X2,8.0,78,Old: Man Utd won 2-1 at Anfield - backtest,OLD_BACKTEST,Sportradar
+Chelsea vs Liverpool,2025-10-04,England,2,1,2,1,Chelsea X2,correct,X2,8.0,76,Old: Chelsea 2-1 Liverpool,OLD_BACKTEST,Sportradar
+Man Utd vs Chelsea,2025-09-20,England,2,1,2,1,Man Utd X2,correct,X2,8.0,75,Old: Man Utd 2-1 Chelsea,OLD_BACKTEST,Sportradar
+Liverpool vs Bournemouth,2025-08-15,England,3,1,4,2,Over 1,correct,Over 1,9.0,80,Old: Liverpool 4-2 Bournemouth,OLD_BACKTEST,worldfootball
+Inter vs Lazio,2025-11-09,Italy,2,0,2,0,Inter X2,correct,X2,8.5,78,Old: Inter 2-0 Lazio Martinez 3 Bonny 60,OLD_BACKTEST,MalayMail
+Inter vs Lazio,2025-05-18,Italy,2,1,2,2,BTTS,correct,BTTS,7.0,70,Old: Inter 2-2 Lazio Pedro 90 pen,OLD_BACKTEST,Sportradar
+Lazio vs Napoli,2025-02-15,Italy,2,2,2,2,BTTS,correct,BTTS,7.0,70,Old: Lazio 2-2 Napoli,OLD_BACKTEST,Sportradar
+Napoli vs Parma,2025-05-18,Italy,1,0,0,0,Napoli X2,wrong,X2,6.0,65,Old: Napoli 0-0 Parma upset,OLD_BACKTEST,FMT
+Twente vs Ajax,2025-10-26,Netherlands,2,2,2,3,BTTS,correct,BTTS,7.0,72,Old: Twente 2-3 Ajax,OLD_BACKTEST,FootballOranje
+NEC vs Ajax,2025-12-21,Netherlands,1,1,2,2,BTTS,correct,BTTS,7.0,70,Old: NEC 2-2 Ajax,OLD_BACKTEST,FootballAudit
+Utrecht vs PSV,2025-12-21,Netherlands,1,2,1,2,PSV X2,correct,X2,8.0,76,Old: Utrecht 1-2 PSV,OLD_BACKTEST,FootballAudit
+Feyenoord vs Twente,2025-12-21,Netherlands,1,1,1,1,BTTS,correct,BTTS,7.0,68,Old: Feyenoord 1-1 Twente,OLD_BACKTEST,Sportradar
+Ajax vs Feyenoord,2025-12-14,Netherlands,2,0,2,0,Ajax X2,correct,X2,8.0,77,Old: Ajax 2-0 Feyenoord,OLD_BACKTEST,Sportradar
+Ajax vs Twente,2025-05-18,Netherlands,2,0,2,0,Ajax X2,correct,X2,8.0,78,Old: Ajax 2-0 Twente final day,OLD_BACKTEST,SoccerStats
+Feyenoord vs PSV,2025-05-11,Netherlands,2,2,2,3,BTTS,correct,BTTS,7.0,70,Old: Feyenoord 2-3 PSV,OLD_BACKTEST,TNT
+Sporting vs Porto,2025-08-30,Portugal,1,2,1,2,Porto X2,correct,X2,8.0,76,Old: Sporting 1-2 Porto,OLD_BACKTEST,Sportradar
+Porto vs Benfica,2025-10-05,Portugal,0,0,0,0,X2,wrong,X2,6.0,60,Old: Porto 0-0 Benfica no goal,OLD_BACKTEST,FixtureDownload
+Benfica vs Sporting,2025-12-05,Portugal,1,1,1,1,BTTS,correct,BTTS,7.0,70,Old: Benfica 1-1 Sporting Sudakov,OLD_BACKTEST,beIN
+Porto vs Benfica,2025-04-06,Portugal,1,3,1,4,Benfica X2,correct,X2,8.0,75,Old: Porto 1-4 Benfica,OLD_BACKTEST,Eurosport
+Braga vs Benfica,2025-05-17,Portugal,1,1,1,1,BTTS,correct,BTTS,7.0,68,Old: Braga 1-1 Benfica,OLD_BACKTEST,CCCV
+Atletico vs Barca,2026-04-04,Spain,1,2,1,2,Barca X2,correct,X2,8.5,80,Old: Atletico 1-2 Barca,OLD_BACKTEST,Sportradar
+Real vs Atletico,2026-03-22,Spain,3,2,3,2,Over 1,correct,Over 1,9.0,78,Old: Real 3-2 Atletico,OLD_BACKTEST,Sportradar
+Barca vs Real,2026-05-10,Spain,2,0,2,0,Barca X2,correct,X2,8.5,82,Old: Barca 2-0 Real El Clasico,OLD_BACKTEST,Sportradar
+Bologna vs Napoli,2025-11-09,Italy,2,0,2,0,Bologna X2,correct,X2,7.5,70,Old: Bologna 2-0 Napoli Dallinga Lucumi,OLD_BACKTEST,MalayMail
+Man Utd vs Aston Villa,2026-11-08,England,1,1,4,4,2H Over 0.5,correct,2H Over 0.5,9.5,75,New: 4-4 Zirkzee 90+2 Dorgu 90+6,NEW_VERIFIED,Sportradar
+Bayern vs Mainz,2026-11-07,Germany,2,1,2,1,Bayern X2,correct,X2,8.5,85,New: Bayern 2-1 Mainz Kimmich Karl Kane 2 ast,NEW_2026,Sportradar
+Bayern vs Atletico,2026-11-03,Europe,2,0,2,0,Bayern X2,correct,X2,8.5,84,New: Bayern 2-0 Atletico UCL,NEW_2026,Dawn
+Atletico vs Barca,2026-11-08,Spain,1,1,1,2,12+BTTS,correct,12+BTTS,6.5,65,New: Atletico 1-2 Barca Fermin 45 66,NEW_VERIFIED,FMT
+Valencia vs Real,2026-11-08,Spain,0,3,0,3,Real win,correct,Win,8.0,72,New: Valencia 0-3 Real Exact,NEW_VERIFIED,FMT
+Alanya vs Trabzon,2026-11-08,Turkey,0,2,0,2,Trabzon X2,correct,X2,7.5,68,New: Alanya 0-2 Trabzon Pina 17 Salah 34,NEW_VERIFIED,Sportradar
+Brugge vs Anderlecht,2026-11-08,Belgium,2,1,1,1,Brugge win half,correct,Win Half,8.5,72,New: Brugge 1-1 Anderlecht Vanaken 41,NEW_VERIFIED,Sportradar
+Inter vs Como,2026-11-08,Italy,1,0,2,0,12+BTTS,wrong,12+BTTS,5.5,62,New: Inter 2-0 Como BTTS fail,NEW_VERIFIED,Sigma14
+Ipswich vs Bournemouth,2026-11-08,England,1,2,1,2,BTTS 1.59,correct,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Brighton vs Brentford,2026-11-08,England,2,1,2,0,BTTS 1.5,incorrect,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Sunderland vs Chelsea,2026-11-08,England,0,2,1,0,Team2 score 1.53,incorrect,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Twente vs Ajax,2026-11-08,Netherlands,2,2,2,2,BTTS 1.37,correct,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Estrela vs Benfica,2026-11-08,Portugal,0,2,2,3,Win 2 1.231,correct,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Cambuur vs PSV,2026-11-08,Netherlands,1,2,2,5,Win 2 1.396,correct,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
+Napoli vs Lazio,2026-11-08,Italy,1,2,1,1,BTTS,correct,Mixed,7.0,70,From Sigma14 verified,NEW_VERIFIED,Sigma14
