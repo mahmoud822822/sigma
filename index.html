@@ -1,68 +1,14 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sigma Complete V4 - Mahmoud Emad</title>
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b1116;color:#eef2f5}
-header{padding:22px 16px 14px;background:linear-gradient(135deg,#0f2a1d,#0b1116);border-bottom:3px solid #22c55e}
-h1{margin:0;font-size:30px}h1 span{color:#22c55e}.sub{color:#a8b8c2;margin-top:6px}.badge{display:inline-block;background:#22c55e;color:#04120a;font-weight:800;padding:5px 10px;border-radius:999px;font-size:12px;margin-top:10px}.badge2{background:#1e293b;color:#fff;border:1px solid #334155}
-.wrap{max-width:1020px;margin:0 auto;padding:14px}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}.card{background:#13202a;border:1px solid #223341;border-radius:14px;padding:14px}.card b{font-size:26px;display:block}.card span{color:#9fb2bd;font-size:13px}
-.note{background:#1a2b1a;border:1px solid #2e5a33;padding:12px;border-radius:12px;margin:12px 0;font-size:14px}
-.demo{background:#3a2400;border-color:#7a4d00}
-h2{margin:22px 0 8px;font-size:20px}.controls{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
-input,select{padding:10px 12px;border-radius:10px;border:1px solid #334155;background:#0f1a22;color:#fff;flex:1;min-width:140px}
-.btn{padding:9px 14px;border-radius:999px;border:1px solid #334155;background:#1e293b;color:#fff;cursor:pointer;font-weight:700}.btn.on{background:#22c55e;color:#04120a;border-color:#22c55e}
-.match{background:#13202a;border:1px solid #223341;border-radius:14px;padding:14px;margin:10px 0}
-.top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}.league{background:#0ea5e9;color:#fff;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700}.date{color:#9fb2bd;font-size:13px}
-.score{font-size:20px;font-weight:900;margin:8px 0}.score small{font-weight:400;color:#9fb2bd;font-size:13px}
-.chip{display:inline-block;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700;margin:3px;border:1px solid #334155}.gold{background:#facc15;color:#111}.bal{background:#38bdf8;color:#111}.val{background:#c084fc;color:#111}
-.rules{background:#13202a;border:1px solid #223341;border-radius:14px;padding:14px;line-height:1.8;font-size:14px}
-a{color:#4ade80}footer{padding:18px;color:#8aa0ac;text-align:center;font-size:12px}
-table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:8px;border-bottom:1px solid #223341;text-align:right}
-@media(min-width:700px){.cards{grid-template-columns:repeat(4,1fr)}}
-</style></head><body>
-<header><div class="wrap"><h1>SIGMA <span>Complete V4</span></h1><div class="sub">Signature Prediction and Forecast: Sigma - Mahmoud Emad</div><div class="badge">AUTO-UPDATE - Next Month</div> <div class="badge badge2">GitHub Actions 03:00 Cairo Daily</div></div></header>
-<div class="wrap">
-<div class="cards">
-<div class="card"><b id="sMatches">—</b><span>Matches - Next 35 days</span></div>
-<div class="card"><b id="sPred">—</b><span>Predictions - 5 per match</span></div>
-<div class="card"><b>78.6%</b><span>Live Verified 11/14 - 8 Nov</span></div>
-<div class="card"><b>66.7%</b><span>Fed 39 - BTTS - Avg 3.10</span></div>
-</div>
-<div class="note" id="status">جارِ جلب الـ 236 ماتش الحقيقي من GitHub ...</div>
-<div class="note" style="display:none" id="demoNote">⚠️ Demo data - لسه ملف data/sigma_next_month.json مترفعش. دي 6 ماتشات عينة بس عشان تشوف الشكل.</div>
-
-<h2>🔍 فلاتر</h2>
-<div class="controls"><input id="q" placeholder="ابحث باسم فريق... مثال: Real / Ajax"><select id="league"><option value="">كل الدوريات</option></select></div>
-<div class="controls"><button class="btn on" data-tier="">الكل</button><button class="btn" data-tier="Gold">Gold</button><button class="btn" data-tier="Balanced">Balanced</button><button class="btn" data-tier="Value">Value</button></div>
-<div id="list"></div>
-
-<h2>📏 Sigma Rules V2</h2>
-<div class="rules">• <b>Safety Standard V2:</b> 1 هدف آمن أكتر من 2، أي فريق آمن أكتر من فريق محدد، Over 1 (استرجاع) آمن أكتر من BTTS<br>• <b>Late 76-90:</b> وزن 30% - زاد بعد أهداف 90+2 و 90+6 و 90+4<br>• <b>BTTS:</b> وزن 70 - اتقلل من 100<br>• <b>Weak Home:</b> +15%<br>• <b>توزيعة:</b> 50% Gold / 30% Balanced / 20% Value<br>• <b>Max 4</b> أحداث في التيكيت، لا تطارد الخسارة</div>
-
-<h2>📊 Fed 39 - للتاريخ مش للدقة</h2>
-<div class="rules"><table><tr><th>Era</th><th>Matches</th><th>BTTS Real</th><th>Avg Goals</th></tr><tr><td>OLD - Pattern Only</td><td>24</td><td>70.8%</td><td>3.00</td></tr><tr><td>NEW</td><td>15</td><td>60.0%</td><td>3.27</td></tr><tr><td><b>ALL</b></td><td><b>39</b></td><td><b>66.7%</b></td><td><b>3.10</b></td></tr></table><p>⚠️ متقولش 91.9% - الـ OLD ده نمط بس مش دقة. الدقة الحقيقية هي Live 78.6% (11/14).</p></div>
-
-<h2>⚙️ ازاي بيتحدث لوحده؟</h2>
-<div class="rules">1. GitHub Actions بيشتغل كل يوم 03:00 القاهرة<br>2. football-data.org بيجيب ماتشات 35 يوم الجايين على 4 أجزاء 10 أيام (حد المجاني)<br>3. Sigma بيحسب التوقعات وبيعمل commit لـ <b>data/sigma_next_month.json</b><br>4. الموقع ده بيقرأ الملف ده أوتوماتيك - التوكن محفوظ كـ Secret <b>FOOTBALL_DATA_TOKEN</b> ومش موجود في كود الموقع</div>
-</div>
-<footer>Forecasts only - 18+ - Entertainment - No guaranteed bet<br><a href="https://github.com/mahmoud822822/sigma">github.com/mahmoud822822/sigma</a> • <a href="https://mahmoud822822.github.io/sigma/">mahmoud822822.github.io/sigma</a></footer>
-<script>
-let ALL=[], TIER='';
-const demo=[{match:'Real Madrid vs Valencia',date:'2026-11-19',league:'Spain',pred_home:1.6,pred_away:1.3,markets:[{market:'Over 1',pick:'Over 1 (2.9 exp)',safety:9.0,tier:'Gold',conf:82},{market:'2H Over 0.5',pick:'2H Over 0.5 - Late 76-90 30%',safety:9.5,tier:'Gold',conf:85},{market:'BTTS',pick:'BTTS - weight 70',safety:7.0,tier:'Value',conf:67},{market:'X2',pick:'Valencia X2',safety:8.0,tier:'Balanced',conf:76}]},
-{match:'Ajax vs PSV',date:'2026-11-22',league:'Netherlands',pred_home:1.7,pred_away:1.4,markets:[{market:'Over 1',pick:'Over 1 (3.1 exp)',safety:9.0,tier:'Gold',conf:82},{market:'2H Over 0.5',pick:'2H Over 0.5 - Late 76-90 30%',safety:9.5,tier:'Gold',conf:85},{market:'BTTS',pick:'BTTS - weight 70',safety:7.0,tier:'Value',conf:67}]},
-{match:'Inter vs Napoli',date:'2026-11-23',league:'Italy',pred_home:1.5,pred_away:1.2,markets:[{market:'Over 1',pick:'Over 1 (2.7 exp)',safety:9.0,tier:'Gold',conf:82},{market:'BTTS',pick:'BTTS - weight 70',safety:7.0,tier:'Value',conf:67}]},
-{match:'Porto vs Benfica',date:'2026-11-29',league:'Portugal',pred_home:1.5,pred_away:1.2,markets:[{market:'Over 1',pick:'Over 1 (2.7 exp)',safety:9.0,tier:'Gold',conf:82},{market:'X2',pick:'Benfica X2',safety:8.0,tier:'Balanced',conf:76}]},
-{match:'Bayern vs Dortmund',date:'2026-12-05',league:'Germany',pred_home:1.6,pred_away:1.3,markets:[{market:'Over 1',pick:'Over 1 (2.9 exp)',safety:9.0,tier:'Gold',conf:82},{market:'2H Over 0.5',pick:'2H Over 0.5 - Late 76-90 30%',safety:9.5,tier:'Gold',conf:85}]},
-{match:'Man City vs Liverpool',date:'2026-12-12',league:'England',pred_home:1.7,pred_away:1.4,markets:[{market:'Over 1',pick:'Over 1 (3.1 exp)',safety:9.0,tier:'Gold',conf:82},{market:'BTTS',pick:'BTTS - weight 70',safety:7.0,tier:'Value',conf:67}]}];
-async function load(){
-  const urls=['https://raw.githubusercontent.com/mahmoud822822/sigma/main/data/sigma_next_month.json?t='+Date.now(),'https://mahmoud822822.github.io/sigma/data/sigma_next_month.json?t='+Date.now()];
-  for(const u of urls){ try{ const r=await fetch(u); if(!r.ok) continue; const j=await r.json(); if(j.matches&&j.matches.length>10){ ALL=j.matches; document.getElementById('sMatches').textContent=j.total_matches||j.matches.length; document.getElementById('sPred').textContent=j.total_predictions||''; document.getElementById('status').textContent='✅ Live - آخر تحديث: '+(j.generated||'')+' | من '+(j.from||'')+' إلى '+(j.to||'')+' | '+j.matches.length+' ماتش حقيقي'; buildLeagues(); render(); return; } }catch(e){} }
-  ALL=demo; document.getElementById('sMatches').textContent='6 (Demo)'; document.getElementById('sPred').textContent='—'; document.getElementById('status').textContent='⚠️ Demo - ملف GitHub مش موجود لسه'; document.getElementById('demoNote').style.display='block'; buildLeagues(); render();
-}
-function buildLeagues(){ const s=document.getElementById('league'); const set=[...new Set(ALL.map(m=>m.league))].sort(); s.innerHTML='<option value="">كل الدوريات</option>'+set.map(l=>`<option>${l}</option>`).join(''); }
-function render(){ const q=(document.getElementById('q').value||'').toLowerCase(); const lg=document.getElementById('league').value; const list=document.getElementById('list'); const filtered=ALL.filter(m=>(!q||m.match.toLowerCase().includes(q))&&(!lg||m.league===lg)); list.innerHTML='<div style="color:#9fb2bd;margin:8px 0">'+filtered.length+' ماتش</div>'+filtered.map(m=>{ const mk=(m.markets||[]).filter(x=>!TIER||x.tier===TIER); if(TIER&&mk.length===0) return ''; return `<div class="match"><div class="top"><span class="league">${m.league}</span><span class="date">${m.date}</span></div><div style="font-weight:800;font-size:18px;margin-top:8px">${m.match}</div><div class="score">${m.pred_home} - ${m.pred_away} <small>Expected ${(m.pred_home+m.pred_away).toFixed(1)} goals</small></div><div>${mk.map(x=>`<span class="chip ${x.tier==='Gold'?'gold':x.tier==='Balanced'?'bal':'val'}">${x.market} • Safety ${x.safety} • ${x.tier} • ${x.conf}%<br><small>${x.pick}</small></span>`).join('')}</div></div>`}).join('')||'<p>مفيش نتائج بالفلتر ده</p>'; }
-document.getElementById('q').addEventListener('input',render); document.getElementById('league').addEventListener('change',render);
-document.querySelectorAll('[data-tier]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-tier]').forEach(x=>x.classList.remove('on')); b.classList.add('on'); TIER=b.dataset.tier; render();}));
-load();
-</script></body></html>
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sigma</title></head>
+<body style="font-family:sans-serif;padding:20px;max-width:600px;margin:auto">
+<h1>Sigma</h1>
+<p>Signature Prediction and Forecast: Sigma - Mahmoud Emad</p>
+<p>Eval: 10/14 = 71.4% - Exact: 4/14 = 28.6% - MAE: 1.50</p>
+<p>للتشغيل من Termux انسخ الامر ده:</p>
+<p><b>cd ~/sigma-repo && python index.py</b></p>
+<ol>
+<li>Predict xG</li><li>Predict team</li><li>List</li><li>Eval</li><li>Fetch</li>
+<li>Predict All</li><li>History</li><li>Learn</li><li>Update All</li><li>Exit</li>
+</ol>
+<p>البيانات الحقيقية فقط من الملفات الموثقة.</p>
+</body></html>
