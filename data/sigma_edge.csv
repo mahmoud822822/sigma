@@ -1,0 +1,486 @@
+match,pick,model_prob,odds,edge
+Man United vs Fulham,X,25.1,4.2,5.6
+Man United vs Fulham,2,30.8,5.25,61.6
+Ipswich vs Liverpool,1,44.1,8.5,274.8
+Ipswich vs Liverpool,X,25.1,5.5,38.2
+Arsenal vs Wolves,X,25.1,7.5,88.5
+Arsenal vs Wolves,2,30.8,13.0,300.1
+Everton vs Brighton,1,44.1,2.63,16.0
+Newcastle vs Southampton,X,25.1,5.25,32.0
+Newcastle vs Southampton,2,30.8,8.0,146.2
+Nott'm Forest vs Bournemouth,1,44.1,2.45,8.0
+West Ham vs Aston Villa,1,44.1,2.45,8.0
+Brentford vs Crystal Palace,1,44.1,2.4,5.8
+Chelsea vs Man City,1,44.1,4.1,80.8
+Leicester vs Tottenham,1,44.1,5.0,120.4
+Leicester vs Tottenham,X,25.1,4.33,8.8
+Brighton vs Man United,1,44.1,2.5,10.2
+Fulham vs Leicester,2,30.8,4.2,29.3
+Man City vs Ipswich,X,25.1,12.0,201.6
+Man City vs Ipswich,2,30.8,21.0,546.3
+Southampton vs Nott'm Forest,1,44.1,2.55,12.4
+Tottenham vs Everton,X,25.1,4.75,19.4
+Tottenham vs Everton,2,30.8,6.5,100.0
+Aston Villa vs Arsenal,1,44.1,4.33,90.9
+Bournemouth vs Newcastle,1,44.1,2.9,27.9
+Wolves vs Chelsea,1,44.1,4.33,90.9
+Liverpool vs Brentford,X,25.1,5.75,44.5
+Liverpool vs Brentford,2,30.8,11.0,238.5
+Arsenal vs Brighton,X,25.1,5.5,38.2
+Arsenal vs Brighton,2,30.8,8.5,161.6
+Brentford vs Southampton,2,30.8,4.33,33.3
+Everton vs Bournemouth,1,44.1,2.75,21.2
+Ipswich vs Fulham,1,44.1,3.0,32.3
+Leicester vs Aston Villa,1,44.1,4.5,98.4
+Nott'm Forest vs Wolves,2,30.8,3.7,13.9
+West Ham vs Man City,1,44.1,7.0,208.6
+West Ham vs Man City,X,25.1,5.5,38.2
+Chelsea vs Crystal Palace,X,25.1,4.33,8.8
+Chelsea vs Crystal Palace,2,30.8,5.0,53.9
+Newcastle vs Tottenham,1,44.1,2.5,10.2
+Man United vs Liverpool,1,44.1,3.7,63.1
+Man United vs Liverpool,X,25.1,4.2,5.6
+Southampton vs Man United,1,44.1,4.5,98.4
+Brighton vs Ipswich,X,25.1,5.0,25.7
+Brighton vs Ipswich,2,30.8,7.5,130.8
+Crystal Palace vs Leicester,2,30.8,5.5,69.3
+Liverpool vs Nott'm Forest,X,25.1,6.5,63.4
+Liverpool vs Nott'm Forest,2,30.8,12.0,269.3
+Man City vs Brentford,X,25.1,8.0,101.1
+Man City vs Brentford,2,30.8,12.0,269.3
+Aston Villa vs Everton,X,25.1,4.2,5.6
+Aston Villa vs Everton,2,30.8,6.5,100.0
+Bournemouth vs Chelsea,1,44.1,3.4,49.9
+Tottenham vs Arsenal,1,44.1,3.0,32.3
+Wolves vs Newcastle,1,44.1,3.4,49.9
+West Ham vs Chelsea,1,44.1,3.6,58.7
+Aston Villa vs Wolves,X,25.1,4.2,5.6
+Aston Villa vs Wolves,2,30.8,5.25,61.6
+Fulham vs Newcastle,1,44.1,3.0,32.3
+Leicester vs Everton,1,44.1,2.45,8.0
+Liverpool vs Bournemouth,X,25.1,6.25,57.1
+Liverpool vs Bournemouth,2,30.8,9.0,177.0
+Tottenham vs Brentford,X,25.1,4.5,13.1
+Tottenham vs Brentford,2,30.8,5.5,69.3
+Crystal Palace vs Man United,1,44.1,2.88,27.0
+Brighton vs Nott'm Forest,2,30.8,4.75,46.2
+Man City vs Arsenal,2,30.8,4.5,38.5
+Newcastle vs Man City,1,44.1,5.25,131.5
+Newcastle vs Man City,X,25.1,4.33,8.8
+Arsenal vs Leicester,X,25.1,8.0,101.1
+Arsenal vs Leicester,2,30.8,15.0,361.6
+Chelsea vs Brighton,X,25.1,4.2,5.6
+Chelsea vs Brighton,2,30.8,4.2,29.3
+Everton vs Crystal Palace,1,44.1,2.7,19.0
+Wolves vs Liverpool,1,44.1,8.0,252.7
+Wolves vs Liverpool,X,25.1,5.75,44.5
+Ipswich vs Aston Villa,1,44.1,4.0,76.4
+Bournemouth vs Southampton,2,30.8,5.0,53.9
+Crystal Palace vs Liverpool,1,44.1,6.0,164.5
+Crystal Palace vs Liverpool,X,25.1,4.5,13.1
+Arsenal vs Southampton,X,25.1,9.0,126.2
+Arsenal vs Southampton,2,30.8,17.0,423.2
+Leicester vs Bournemouth,1,44.1,3.1,36.7
+Man City vs Fulham,X,25.1,7.0,75.9
+Man City vs Fulham,2,30.8,9.5,192.4
+West Ham vs Ipswich,2,30.8,4.33,33.3
+Everton vs Newcastle,1,44.1,3.2,41.1
+Chelsea vs Nott'm Forest,X,25.1,4.5,13.1
+Chelsea vs Nott'm Forest,2,30.8,6.5,100.0
+Brighton vs Tottenham,1,44.1,2.9,27.9
+Tottenham vs West Ham,X,25.1,5.0,25.7
+Tottenham vs West Ham,2,30.8,5.25,61.6
+Fulham vs Aston Villa,1,44.1,2.45,8.0
+Man United vs Brentford,X,25.1,4.2,5.6
+Man United vs Brentford,2,30.8,4.5,38.5
+Newcastle vs Brighton,2,30.8,3.6,10.8
+Bournemouth vs Arsenal,1,44.1,5.0,120.4
+Wolves vs Man City,1,44.1,8.0,252.7
+Wolves vs Man City,X,25.1,6.0,50.8
+Liverpool vs Chelsea,2,30.8,5.0,53.9
+Leicester vs Nott'm Forest,1,44.1,3.0,32.3
+Aston Villa vs Bournemouth,2,30.8,3.8,16.9
+Brentford vs Ipswich,X,25.1,4.33,8.8
+Brentford vs Ipswich,2,30.8,4.75,46.2
+Brighton vs Wolves,X,25.1,4.5,13.1
+Brighton vs Wolves,2,30.8,4.5,38.5
+Man City vs Southampton,X,25.1,10.0,151.4
+Man City vs Southampton,2,30.8,17.0,423.2
+Everton vs Fulham,1,44.1,2.75,21.2
+Chelsea vs Newcastle,X,25.1,4.33,8.8
+Chelsea vs Newcastle,2,30.8,4.2,29.3
+Crystal Palace vs Tottenham,1,44.1,3.9,71.9
+West Ham vs Man United,1,44.1,2.88,27.0
+Arsenal vs Liverpool,1,44.1,2.5,10.2
+Newcastle vs Arsenal,1,44.1,3.75,65.3
+Bournemouth vs Man City,1,44.1,5.5,142.5
+Bournemouth vs Man City,X,25.1,4.2,5.6
+Liverpool vs Brighton,X,25.1,5.0,25.7
+Liverpool vs Brighton,2,30.8,7.5,130.8
+Southampton vs Everton,1,44.1,2.63,16.0
+Wolves vs Crystal Palace,1,44.1,2.5,10.2
+Tottenham vs Aston Villa,2,30.8,3.6,10.8
+Man United vs Chelsea,1,44.1,2.6,14.6
+Fulham vs Brentford,2,30.8,3.5,7.7
+Brentford vs Bournemouth,1,44.1,2.5,10.2
+Crystal Palace vs Fulham,1,44.1,2.7,19.0
+Wolves vs Southampton,2,30.8,3.75,15.4
+Brighton vs Man City,1,44.1,4.1,80.8
+Brighton vs Man City,X,25.1,4.2,5.6
+Liverpool vs Aston Villa,X,25.1,5.25,32.0
+Liverpool vs Aston Villa,2,30.8,6.5,100.0
+Man United vs Leicester,X,25.1,5.5,38.2
+Man United vs Leicester,2,30.8,6.5,100.0
+Nott'm Forest vs Newcastle,1,44.1,2.7,19.0
+Tottenham vs Ipswich,X,25.1,6.5,63.4
+Tottenham vs Ipswich,2,30.8,9.0,177.0
+Chelsea vs Arsenal,1,44.1,2.7,19.0
+Leicester vs Chelsea,1,44.1,6.5,186.6
+Leicester vs Chelsea,X,25.1,4.75,19.4
+Arsenal vs Nott'm Forest,X,25.1,4.75,19.4
+Arsenal vs Nott'm Forest,2,30.8,9.0,177.0
+Aston Villa vs Crystal Palace,2,30.8,5.5,69.3
+Bournemouth vs Brighton,1,44.1,2.4,5.8
+Everton vs Brentford,1,44.1,2.45,8.0
+Fulham vs Wolves,2,30.8,5.25,61.6
+Man City vs Tottenham,X,25.1,4.75,19.4
+Man City vs Tottenham,2,30.8,6.0,84.7
+Southampton vs Liverpool,1,44.1,11.0,385.0
+Southampton vs Liverpool,X,25.1,5.75,44.5
+Ipswich vs Man United,1,44.1,5.25,131.5
+Newcastle vs West Ham,X,25.1,4.5,13.1
+Newcastle vs West Ham,2,30.8,6.0,84.7
+Brighton vs Southampton,X,25.1,5.0,25.7
+Brighton vs Southampton,2,30.8,7.5,130.8
+Brentford vs Leicester,X,25.1,4.2,5.6
+Brentford vs Leicester,2,30.8,4.75,46.2
+Crystal Palace vs Newcastle,1,44.1,2.9,27.9
+Nott'm Forest vs Ipswich,2,30.8,4.75,46.2
+Wolves vs Bournemouth,1,44.1,2.8,23.4
+West Ham vs Arsenal,1,44.1,7.0,208.6
+West Ham vs Arsenal,X,25.1,4.5,13.1
+Chelsea vs Aston Villa,2,30.8,4.5,38.5
+Man United vs Everton,X,25.1,4.2,5.6
+Man United vs Everton,2,30.8,6.0,84.7
+Tottenham vs Fulham,X,25.1,4.5,13.1
+Tottenham vs Fulham,2,30.8,4.1,26.2
+Ipswich vs Crystal Palace,1,44.1,3.0,32.3
+Leicester vs West Ham,1,44.1,2.9,27.9
+Everton vs Wolves,2,30.8,3.5,7.7
+Man City vs Nott'm Forest,X,25.1,4.75,19.4
+Man City vs Nott'm Forest,2,30.8,9.0,177.0
+Newcastle vs Liverpool,1,44.1,4.2,85.2
+Southampton vs Chelsea,1,44.1,8.5,274.8
+Southampton vs Chelsea,X,25.1,5.25,32.0
+Arsenal vs Man United,X,25.1,4.5,13.1
+Arsenal vs Man United,2,30.8,7.0,115.4
+Aston Villa vs Brentford,2,30.8,4.33,33.3
+Bournemouth vs Tottenham,1,44.1,2.63,16.0
+Aston Villa vs Southampton,X,25.1,5.5,38.2
+Aston Villa vs Southampton,2,30.8,7.0,115.4
+Brentford vs Newcastle,1,44.1,2.88,27.0
+Crystal Palace vs Man City,1,44.1,5.5,142.5
+Crystal Palace vs Man City,X,25.1,4.2,5.6
+Man United vs Nott'm Forest,2,30.8,5.25,61.6
+Fulham vs Arsenal,1,44.1,5.0,120.4
+Fulham vs Arsenal,X,25.1,4.33,8.8
+Ipswich vs Bournemouth,1,44.1,3.5,54.3
+Leicester vs Brighton,1,44.1,4.5,98.4
+Tottenham vs Chelsea,1,44.1,3.4,49.9
+West Ham vs Wolves,2,30.8,3.75,15.4
+Arsenal vs Everton,X,25.1,6.5,63.4
+Arsenal vs Everton,2,30.8,12.0,269.3
+Liverpool vs Fulham,X,25.1,5.5,38.2
+Liverpool vs Fulham,2,30.8,8.0,146.2
+Newcastle vs Leicester,X,25.1,6.0,50.8
+Newcastle vs Leicester,2,30.8,8.5,161.6
+Wolves vs Ipswich,2,30.8,3.8,16.9
+Nott'm Forest vs Aston Villa,1,44.1,2.63,16.0
+Brighton vs Crystal Palace,2,30.8,3.9,20.0
+Man City vs Man United,X,25.1,4.5,13.1
+Man City vs Man United,2,30.8,5.0,53.9
+Chelsea vs Brentford,X,25.1,6.0,50.8
+Chelsea vs Brentford,2,30.8,7.5,130.8
+Southampton vs Tottenham,1,44.1,4.33,90.9
+Southampton vs Tottenham,X,25.1,4.5,13.1
+Bournemouth vs West Ham,2,30.8,4.75,46.2
+Aston Villa vs Man City,1,44.1,3.25,43.3
+Ipswich vs Newcastle,1,44.1,4.75,109.4
+West Ham vs Brighton,1,44.1,2.88,27.0
+Crystal Palace vs Arsenal,1,44.1,6.25,175.6
+Crystal Palace vs Arsenal,X,25.1,4.2,5.6
+Everton vs Chelsea,1,44.1,5.0,120.4
+Everton vs Chelsea,X,25.1,4.2,5.6
+Fulham vs Southampton,X,25.1,4.75,19.4
+Fulham vs Southampton,2,30.8,7.0,115.4
+Leicester vs Wolves,1,44.1,2.55,12.4
+Man United vs Bournemouth,2,30.8,4.2,29.3
+Tottenham vs Liverpool,1,44.1,4.5,98.4
+Man City vs Everton,X,25.1,5.5,38.2
+Man City vs Everton,2,30.8,7.5,130.8
+Bournemouth vs Crystal Palace,2,30.8,3.8,16.9
+Chelsea vs Fulham,X,25.1,4.75,19.4
+Chelsea vs Fulham,2,30.8,6.0,84.7
+Newcastle vs Aston Villa,2,30.8,3.75,15.4
+Southampton vs West Ham,1,44.1,3.25,43.3
+Wolves vs Man United,1,44.1,3.9,71.9
+Liverpool vs Leicester,X,25.1,12.0,201.6
+Liverpool vs Leicester,2,30.8,23.0,607.8
+Brighton vs Brentford,X,25.1,4.33,8.8
+Brighton vs Brentford,2,30.8,4.75,46.2
+Arsenal vs Ipswich,X,25.1,9.0,126.2
+Arsenal vs Ipswich,2,30.8,15.0,361.6
+Leicester vs Man City,1,44.1,7.5,230.7
+Leicester vs Man City,X,25.1,5.5,38.2
+Crystal Palace vs Southampton,2,30.8,5.5,69.3
+Everton vs Nott'm Forest,1,44.1,2.6,14.6
+Tottenham vs Wolves,X,25.1,5.0,25.7
+Tottenham vs Wolves,2,30.8,4.2,29.3
+West Ham vs Liverpool,1,44.1,7.0,208.6
+West Ham vs Liverpool,X,25.1,5.0,25.7
+Aston Villa vs Brighton,2,30.8,3.6,10.8
+Ipswich vs Chelsea,1,44.1,6.5,186.6
+Ipswich vs Chelsea,X,25.1,4.75,19.4
+Man United vs Newcastle,1,44.1,2.75,21.2
+Brentford vs Arsenal,1,44.1,6.5,186.6
+Brentford vs Arsenal,X,25.1,4.75,19.4
+Tottenham vs Newcastle,1,44.1,2.88,27.0
+Aston Villa vs Leicester,X,25.1,5.5,38.2
+Aston Villa vs Leicester,2,30.8,8.5,161.6
+Bournemouth vs Everton,2,30.8,4.75,46.2
+Crystal Palace vs Chelsea,1,44.1,3.8,67.5
+Man City vs West Ham,X,25.1,6.25,57.1
+Man City vs West Ham,2,30.8,7.5,130.8
+Southampton vs Brentford,1,44.1,3.0,32.3
+Brighton vs Arsenal,1,44.1,4.33,90.9
+Fulham vs Ipswich,X,25.1,4.2,5.6
+Fulham vs Ipswich,2,30.8,5.75,77.0
+Liverpool vs Man United,X,25.1,6.25,57.1
+Liverpool vs Man United,2,30.8,8.0,146.2
+Wolves vs Nott'm Forest,1,44.1,3.3,45.5
+Brentford vs Man City,1,44.1,4.75,109.4
+Brentford vs Man City,X,25.1,4.2,5.6
+Chelsea vs Bournemouth,X,25.1,4.75,19.4
+Chelsea vs Bournemouth,2,30.8,6.0,84.7
+West Ham vs Fulham,1,44.1,3.0,32.3
+Nott'm Forest vs Liverpool,1,44.1,5.25,131.5
+Everton vs Aston Villa,1,44.1,3.25,43.3
+Leicester vs Crystal Palace,1,44.1,3.9,71.9
+Newcastle vs Wolves,X,25.1,5.5,38.2
+Newcastle vs Wolves,2,30.8,8.0,146.2
+Arsenal vs Tottenham,X,25.1,5.25,32.0
+Arsenal vs Tottenham,2,30.8,7.0,115.4
+Ipswich vs Brighton,1,44.1,3.9,71.9
+Man United vs Southampton,X,25.1,6.0,50.8
+Man United vs Southampton,2,30.8,9.5,192.4
+Newcastle vs Bournemouth,X,25.1,4.2,5.6
+Newcastle vs Bournemouth,2,30.8,5.0,53.9
+Brentford vs Liverpool,1,44.1,6.5,186.6
+Brentford vs Liverpool,X,25.1,5.0,25.7
+Leicester vs Fulham,1,44.1,4.33,90.9
+West Ham vs Crystal Palace,1,44.1,2.6,14.6
+Arsenal vs Aston Villa,2,30.8,7.0,115.4
+Everton vs Tottenham,1,44.1,2.8,23.4
+Nott'm Forest vs Southampton,X,25.1,4.75,19.4
+Nott'm Forest vs Southampton,2,30.8,8.0,146.2
+Ipswich vs Man City,1,44.1,7.5,230.7
+Ipswich vs Man City,X,25.1,5.25,32.0
+Chelsea vs Wolves,X,25.1,5.75,44.5
+Chelsea vs Wolves,2,30.8,6.5,100.0
+Brighton vs Everton,2,30.8,5.5,69.3
+Liverpool vs Ipswich,X,25.1,12.0,201.6
+Liverpool vs Ipswich,2,30.8,15.0,361.6
+Southampton vs Newcastle,1,44.1,6.5,186.6
+Southampton vs Newcastle,X,25.1,5.25,32.0
+Wolves vs Arsenal,1,44.1,7.0,208.6
+Wolves vs Arsenal,X,25.1,4.5,13.1
+Tottenham vs Leicester,X,25.1,5.5,38.2
+Tottenham vs Leicester,2,30.8,5.5,69.3
+Aston Villa vs West Ham,X,25.1,4.33,8.8
+Aston Villa vs West Ham,2,30.8,5.75,77.0
+Bournemouth vs Liverpool,1,44.1,4.5,98.4
+Bournemouth vs Liverpool,X,25.1,4.33,8.8
+Everton vs Leicester,2,30.8,4.5,38.5
+Ipswich vs Southampton,2,30.8,3.8,16.9
+Newcastle vs Fulham,2,30.8,4.75,46.2
+Wolves vs Aston Villa,1,44.1,3.3,45.5
+Man United vs Crystal Palace,2,30.8,3.8,16.9
+Arsenal vs Man City,2,30.8,4.0,23.1
+Chelsea vs West Ham,X,25.1,4.75,19.4
+Chelsea vs West Ham,2,30.8,8.0,146.2
+Everton vs Liverpool,1,44.1,7.5,230.7
+Everton vs Liverpool,X,25.1,4.5,13.1
+Brighton vs Chelsea,1,44.1,2.7,19.0
+Leicester vs Arsenal,1,44.1,8.5,274.8
+Leicester vs Arsenal,X,25.1,5.0,25.7
+Aston Villa vs Ipswich,X,25.1,4.75,19.4
+Aston Villa vs Ipswich,2,30.8,7.0,115.4
+Man City vs Newcastle,X,25.1,4.2,5.6
+Southampton vs Bournemouth,1,44.1,6.0,164.5
+Southampton vs Bournemouth,X,25.1,4.5,13.1
+Crystal Palace vs Everton,2,30.8,5.0,53.9
+Liverpool vs Wolves,X,25.1,8.0,101.1
+Liverpool vs Wolves,2,30.8,12.0,269.3
+Tottenham vs Man United,1,44.1,2.45,8.0
+Aston Villa vs Liverpool,1,44.1,3.9,71.9
+Leicester vs Brentford,1,44.1,3.6,58.7
+Everton vs Man United,1,44.1,2.5,10.2
+Arsenal vs West Ham,X,25.1,6.0,50.8
+Arsenal vs West Ham,2,30.8,10.0,207.8
+Bournemouth vs Wolves,X,25.1,4.5,13.1
+Bournemouth vs Wolves,2,30.8,5.5,69.3
+Fulham vs Crystal Palace,2,30.8,3.7,13.9
+Ipswich vs Tottenham,1,44.1,4.1,80.8
+Southampton vs Brighton,1,44.1,6.0,164.5
+Aston Villa vs Chelsea,1,44.1,2.63,16.0
+Newcastle vs Nott'm Forest,2,30.8,4.2,29.3
+Man City vs Liverpool,1,44.1,2.88,27.0
+Crystal Palace vs Aston Villa,1,44.1,2.45,8.0
+Wolves vs Fulham,1,44.1,2.63,16.0
+Chelsea vs Southampton,X,25.1,8.0,101.1
+Chelsea vs Southampton,2,30.8,13.0,300.1
+Brentford vs Everton,2,30.8,3.5,7.7
+Man United vs Ipswich,X,25.1,4.33,8.8
+Man United vs Ipswich,2,30.8,6.0,84.7
+Nott'm Forest vs Arsenal,1,44.1,3.9,71.9
+Tottenham vs Man City,1,44.1,3.25,43.3
+Liverpool vs Newcastle,X,25.1,4.5,13.1
+Liverpool vs Newcastle,2,30.8,5.75,77.0
+West Ham vs Leicester,X,25.1,4.2,5.6
+West Ham vs Leicester,2,30.8,5.0,53.9
+Nott'm Forest vs Man City,1,44.1,4.0,76.4
+Brighton vs Fulham,2,30.8,3.75,15.4
+Crystal Palace vs Ipswich,X,25.1,4.75,19.4
+Crystal Palace vs Ipswich,2,30.8,6.25,92.3
+Liverpool vs Southampton,X,25.1,9.0,126.2
+Liverpool vs Southampton,2,30.8,19.0,484.7
+Wolves vs Everton,1,44.1,2.6,14.6
+Chelsea vs Leicester,X,25.1,8.0,101.1
+Chelsea vs Leicester,2,30.8,12.0,269.3
+Tottenham vs Bournemouth,1,44.1,2.7,19.0
+Man United vs Arsenal,1,44.1,5.75,153.5
+West Ham vs Newcastle,1,44.1,3.25,43.3
+Everton vs West Ham,2,30.8,3.9,20.0
+Ipswich vs Nott'm Forest,1,44.1,3.75,65.3
+Man City vs Brighton,X,25.1,4.33,8.8
+Man City vs Brighton,2,30.8,4.5,38.5
+Southampton vs Wolves,1,44.1,3.7,63.1
+Bournemouth vs Brentford,X,25.1,4.2,5.6
+Bournemouth vs Brentford,2,30.8,4.2,29.3
+Arsenal vs Chelsea,2,30.8,4.5,38.5
+Fulham vs Tottenham,2,30.8,3.6,10.8
+Leicester vs Man United,1,44.1,4.5,98.4
+Arsenal vs Fulham,X,25.1,4.33,8.8
+Arsenal vs Fulham,2,30.8,7.0,115.4
+Wolves vs West Ham,1,44.1,2.5,10.2
+Bournemouth vs Ipswich,X,25.1,5.25,32.0
+Bournemouth vs Ipswich,2,30.8,7.5,130.8
+Man City vs Leicester,X,25.1,8.0,101.1
+Man City vs Leicester,2,30.8,10.0,207.8
+Newcastle vs Brentford,X,25.1,4.5,13.1
+Newcastle vs Brentford,2,30.8,4.0,23.1
+Southampton vs Crystal Palace,1,44.1,5.75,153.5
+Liverpool vs Everton,X,25.1,5.0,25.7
+Liverpool vs Everton,2,30.8,8.0,146.2
+Chelsea vs Tottenham,X,25.1,4.5,13.1
+Chelsea vs Tottenham,2,30.8,4.5,38.5
+Everton vs Arsenal,1,44.1,5.25,131.5
+Ipswich vs Wolves,1,44.1,2.7,19.0
+West Ham vs Bournemouth,1,44.1,3.0,32.3
+Aston Villa vs Nott'm Forest,2,30.8,3.7,13.9
+Brentford vs Chelsea,1,44.1,3.2,41.1
+Fulham vs Liverpool,1,44.1,4.5,98.4
+Tottenham vs Southampton,X,25.1,5.5,38.2
+Tottenham vs Southampton,2,30.8,6.5,100.0
+Man United vs Man City,1,44.1,3.4,49.9
+Leicester vs Newcastle,1,44.1,6.5,186.6
+Leicester vs Newcastle,X,25.1,4.2,5.6
+Man City vs Crystal Palace,X,25.1,4.75,19.4
+Man City vs Crystal Palace,2,30.8,5.75,77.0
+Brighton vs Leicester,X,25.1,6.0,50.8
+Brighton vs Leicester,2,30.8,10.0,207.8
+Nott'm Forest vs Everton,2,30.8,3.7,13.9
+Southampton vs Aston Villa,1,44.1,6.0,164.5
+Southampton vs Aston Villa,X,25.1,4.2,5.6
+Arsenal vs Brentford,X,25.1,4.33,8.8
+Arsenal vs Brentford,2,30.8,5.0,53.9
+Chelsea vs Ipswich,X,25.1,7.0,75.9
+Chelsea vs Ipswich,2,30.8,8.5,161.6
+Liverpool vs West Ham,X,25.1,6.0,50.8
+Liverpool vs West Ham,2,30.8,8.0,146.2
+Newcastle vs Man United,X,25.1,4.2,5.6
+Newcastle vs Man United,2,30.8,4.75,46.2
+Newcastle vs Crystal Palace,2,30.8,5.0,53.9
+Brentford vs Brighton,1,44.1,2.4,5.8
+Crystal Palace vs Bournemouth,1,44.1,2.45,8.0
+Everton vs Man City,1,44.1,3.7,63.1
+West Ham vs Southampton,X,25.1,4.33,8.8
+West Ham vs Southampton,2,30.8,6.5,100.0
+Fulham vs Chelsea,1,44.1,2.7,19.0
+Ipswich vs Arsenal,1,44.1,8.0,252.7
+Ipswich vs Arsenal,X,25.1,4.5,13.1
+Man United vs Wolves,2,30.8,3.6,10.8
+Leicester vs Liverpool,1,44.1,11.0,385.0
+Leicester vs Liverpool,X,25.1,6.25,57.1
+Tottenham vs Nott'm Forest,1,44.1,2.45,8.0
+Man City vs Aston Villa,2,30.8,3.9,20.0
+Arsenal vs Crystal Palace,X,25.1,4.75,19.4
+Arsenal vs Crystal Palace,2,30.8,7.5,130.8
+Chelsea vs Everton,2,30.8,6.0,84.7
+Brighton vs West Ham,X,25.1,4.2,5.6
+Brighton vs West Ham,2,30.8,4.75,46.2
+Newcastle vs Ipswich,X,25.1,7.5,88.5
+Newcastle vs Ipswich,2,30.8,13.0,300.1
+Southampton vs Fulham,1,44.1,5.25,131.5
+Wolves vs Leicester,X,25.1,4.2,5.6
+Wolves vs Leicester,2,30.8,6.25,92.3
+Bournemouth vs Man United,2,30.8,4.5,38.5
+Liverpool vs Tottenham,X,25.1,6.0,50.8
+Liverpool vs Tottenham,2,30.8,11.0,238.5
+Man City vs Wolves,X,25.1,4.75,19.4
+Man City vs Wolves,2,30.8,7.5,130.8
+Aston Villa vs Fulham,2,30.8,4.5,38.5
+Everton vs Ipswich,X,25.1,4.33,8.8
+Everton vs Ipswich,2,30.8,6.5,100.0
+Brentford vs Man United,2,30.8,4.75,46.2
+Brighton vs Newcastle,1,44.1,2.88,27.0
+Fulham vs Everton,2,30.8,4.5,38.5
+Ipswich vs Brentford,1,44.1,5.0,120.4
+Southampton vs Man City,1,44.1,11.0,385.0
+Southampton vs Man City,X,25.1,7.5,88.5
+Wolves vs Brighton,1,44.1,2.7,19.0
+Bournemouth vs Aston Villa,1,44.1,2.4,5.8
+Man United vs West Ham,2,30.8,4.0,23.1
+Nott'm Forest vs Leicester,X,25.1,5.25,32.0
+Nott'm Forest vs Leicester,2,30.8,8.0,146.2
+Tottenham vs Crystal Palace,1,44.1,2.63,16.0
+Liverpool vs Arsenal,2,30.8,3.6,10.8
+Aston Villa vs Tottenham,X,25.1,6.0,50.8
+Aston Villa vs Tottenham,2,30.8,8.5,161.6
+Chelsea vs Man United,X,25.1,5.0,25.7
+Chelsea vs Man United,2,30.8,6.25,92.3
+Everton vs Southampton,X,25.1,4.75,19.4
+Everton vs Southampton,2,30.8,7.5,130.8
+West Ham vs Nott'm Forest,1,44.1,2.75,21.2
+Brentford vs Fulham,2,30.8,3.6,10.8
+Arsenal vs Newcastle,2,30.8,3.7,13.9
+Brighton vs Liverpool,1,44.1,2.6,14.6
+Man City vs Bournemouth,X,25.1,4.33,8.8
+Man City vs Bournemouth,2,30.8,5.75,77.0
+Bournemouth vs Leicester,X,25.1,5.25,32.0
+Bournemouth vs Leicester,2,30.8,8.5,161.6
+Fulham vs Man City,1,44.1,5.0,120.4
+Fulham vs Man City,X,25.1,4.2,5.6
+Ipswich vs West Ham,1,44.1,3.0,32.3
+Liverpool vs Crystal Palace,X,25.1,6.0,50.8
+Liverpool vs Crystal Palace,2,30.8,5.75,77.0
+Man United vs Aston Villa,1,44.1,4.33,90.9
+Man United vs Aston Villa,X,25.1,4.2,5.6
+Newcastle vs Everton,X,25.1,5.5,38.2
+Newcastle vs Everton,2,30.8,8.5,161.6
+Nott'm Forest vs Chelsea,1,44.1,3.0,32.3
+Southampton vs Arsenal,1,44.1,8.5,274.8
+Southampton vs Arsenal,X,25.1,6.0,50.8
+Tottenham vs Brighton,1,44.1,4.2,85.2
+Tottenham vs Brighton,X,25.1,4.33,8.8
+Wolves vs Brentford,1,44.1,2.7,19.0
