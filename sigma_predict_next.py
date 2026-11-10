@@ -22,7 +22,7 @@ H=[]
 for r in rows:
     try: hg=int(float(r["home_goals"])); ag=int(float(r["away_goals"]))
     except: continue
-    H.append([r["date"],hg,ag,clean(r["home_team"]),clean(r["away_team"])])
+    H.append([r["date"],hg,ag,clean((r.get("home") or r.get("home_team") or "")),clean((r.get("away") or r.get("away_team") or ""))])
 H.sort(key=lambda x: x[0])
 att={}; defe={}
 for dt,hg,ag,ht,at in H:
