@@ -30,7 +30,7 @@ def dedup():
 def one_cycle():
     clean(); dedup()
     import os
-    for f in ["sigma_auto_fetch.py","sigma_predict_next.py","sigma_track.py","sigma_report.py","sigma_make_index_full.py"]:
+    for f in ["sigma_auto_fetch.py","sigma_predict_next.py","sigma_track.py","sigma_report.py","sigma_conditions_bulk.py","sigma_make_index_full.py"]:
         if os.path.exists(f): sh([f])
     print("--- Git ---")
     import subprocess as sp
