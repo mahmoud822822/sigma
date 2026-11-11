@@ -1,0 +1,1681 @@
+{
+ "version": "V50-v2",
+ "date": "2026-11-11",
+ "program": {
+  "name": "Sigma",
+  "author": "Mahmoud Emad",
+  "signature": "Signature Prediction and Forecast: Sigma - Mahmoud Emad",
+  "photo": "header desert/palace - must stay",
+  "site": "https://mahmoud822822.github.io/sigma/?v=50"
+ },
+ "internal": [
+  {
+   "file": "sigma_fetch_all_history.py",
+   "size": 2720,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_names2.py",
+   "size": 1439,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_predict_all.py",
+   "size": 2029,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_alias_v26.py",
+   "size": 293,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_super_update.py",
+   "size": 2154,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_super_predict.py",
+   "size": 1685,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "DEEP_REPORT.txt",
+   "size": 1644,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v48_add_posters_basketball.py",
+   "size": 13007,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "predictions.html",
+   "size": 51294,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fed_processor.py",
+   "size": 1495,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v10.py",
+   "size": 10733,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_add_live.py",
+   "size": 1017,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_clean_fix.py",
+   "size": 1925,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "README_AR.txt",
+   "size": 251,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_super_v2.py",
+   "size": 2318,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_xg.py",
+   "size": 502,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_deep.py",
+   "size": 3680,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fast_link.py",
+   "size": 1052,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v40_nested.html",
+   "size": 263653,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_report.py",
+   "size": 802,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma-final.zip",
+   "size": 8016,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index_backup_before_v42.html",
+   "size": 273219,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v39_termux.py",
+   "size": 1218,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_rescue_fixed_v4.sh",
+   "size": 1337,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_mega_31k.py",
+   "size": 5979,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_learn_1500.py",
+   "size": 3143,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_chat.py",
+   "size": 240,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v37_ui.py",
+   "size": 926,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v44_engine.py",
+   "size": 26215,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_embed_real.py",
+   "size": 515,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v43_view.html",
+   "size": 288055,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_live.py",
+   "size": 2558,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_termux_rescue.sh",
+   "size": 4698,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_v7.py",
+   "size": 213,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v24_fix_dates_alias.py",
+   "size": 2940,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": ".gitignore",
+   "size": 16,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v41b.py",
+   "size": 744,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_v6.py",
+   "size": 228,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index.py",
+   "size": 2738,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v47_verify_fix.py",
+   "size": 14041,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v6.py",
+   "size": 2727,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "SUPER_LEARN_REPORT.txt",
+   "size": 647,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_auto_fetch_v41.py",
+   "size": 6054,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_backtest_walkforward.py",
+   "size": 2058,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_mini.py",
+   "size": 2296,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_forecast.py",
+   "size": 1598,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fetch_all_world.py",
+   "size": 4401,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v49_pre_upload_check.py",
+   "size": 3102,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v44_view.html",
+   "size": 303393,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v12.py",
+   "size": 13567,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_lite_v20_fix.py",
+   "size": 14019,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix6.py",
+   "size": 424,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_build_1500.py",
+   "size": 2839,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_names.py",
+   "size": 1754,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_collect_v19.py",
+   "size": 5933,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_history_fetch.py",
+   "size": 7221,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index_v35_backup.html",
+   "size": 100306,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_auth_custom.py",
+   "size": 2799,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_python_v24.py",
+   "size": 1248,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v39_view.html",
+   "size": 239647,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_analyze_fix.py",
+   "size": 7881,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v44_fetch.py",
+   "size": 13394,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_ai_brain.py",
+   "size": 817,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v13.py",
+   "size": 11176,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix2.py",
+   "size": 1065,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_alias.py",
+   "size": 645,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix1.py",
+   "size": 389,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_upload_v27_super.sh",
+   "size": 578,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index_backup_before_v41.html",
+   "size": 104401,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_engine_v5.py",
+   "size": 10523,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index_v24_backup.html",
+   "size": 282789,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "TEST_REPORT.txt",
+   "size": 567,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_card.py",
+   "size": 3022,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_mega.py",
+   "size": 6370,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_pre_upload_check_v2.py",
+   "size": 2569,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_results.py",
+   "size": 4655,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v7.py",
+   "size": 3384,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v43_review.py",
+   "size": 5489,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_src.py",
+   "size": 203,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v37_names.py",
+   "size": 558,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_acca.py",
+   "size": 1816,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_super2.py",
+   "size": 251,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v42_review.py",
+   "size": 4483,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_site.py",
+   "size": 401,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v43_engine.py",
+   "size": 23627,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v41_engine.py",
+   "size": 17115,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v41_view.html",
+   "size": 273219,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_full.py",
+   "size": 2313,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v39_clean.py",
+   "size": 1071,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_old_new_fed.csv",
+   "size": 4984,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_global.py",
+   "size": 7672,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_verify_history.py",
+   "size": 764,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v45.py",
+   "size": 4190,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v40.py",
+   "size": 3260,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v42_view.html",
+   "size": 285912,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_chat.html",
+   "size": 84325,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v24_exclude_default.py",
+   "size": 1028,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "make_final.py",
+   "size": 1056,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v16.py",
+   "size": 21371,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_site.py",
+   "size": 1977,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_auto_fetch.py",
+   "size": 3637,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_setup_token.sh",
+   "size": 675,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_list_all_tournaments.py",
+   "size": 914,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_chat_v6.py",
+   "size": 2142,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_analyze_fix_v2.py",
+   "size": 6275,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_track.py",
+   "size": 2602,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_mega.py",
+   "size": 592,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v8.py",
+   "size": 2581,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_super.py",
+   "size": 2263,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_daily.py",
+   "size": 282,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v42_engine.py",
+   "size": 21569,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "SUPER_REPORT.txt",
+   "size": 621,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_main.py",
+   "size": 13416,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_golden.py",
+   "size": 987,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v46_final.py",
+   "size": 18158,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v44_review.py",
+   "size": 6769,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v49_future_ai.py",
+   "size": 9616,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_fuzzy.py",
+   "size": 1732,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_lite_v19.py",
+   "size": 12224,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fetch_archive.py",
+   "size": 2065,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "clean_tags.py",
+   "size": 689,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_cond.py",
+   "size": 632,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_odds_edge.py",
+   "size": 1596,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_termux_rescue_fixed.sh",
+   "size": 2381,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index.py",
+   "size": 91,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_rename_v23.py",
+   "size": 321,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_scout.py",
+   "size": 1310,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_insight.py",
+   "size": 2058,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "test10.py",
+   "size": 1077,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_dedupe.py",
+   "size": 274,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v39.py",
+   "size": 42921,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "add_result.py",
+   "size": 933,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v11.py",
+   "size": 5519,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_embed_data.py",
+   "size": 582,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_conditions_bulk.py",
+   "size": 1097,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_build_team_stats.py",
+   "size": 1420,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_index_v15.py",
+   "size": 18792,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fetch_missing.py",
+   "size": 0,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v50_rescue_fixed_v3.sh",
+   "size": 1506,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_build_v26_final.py",
+   "size": 4313,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v23_more.py",
+   "size": 974,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_make_chat.py",
+   "size": 1828,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fetch_all_13.py",
+   "size": 1259,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_upgrade_to_v25.py",
+   "size": 4889,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_predict_next.py",
+   "size": 4075,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_v41a.py",
+   "size": 3708,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_admin.py",
+   "size": 2113,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_upgrade_v20_to_v22.py",
+   "size": 5757,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_research.py",
+   "size": 1782,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_conditions.py",
+   "size": 3488,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_patch_main.py",
+   "size": 1000,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index_backup_before_v44.html",
+   "size": 303390,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_v8auto.py",
+   "size": 539,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "README.md",
+   "size": 233,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_mega_cap.py",
+   "size": 614,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_all.py",
+   "size": 791,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_track_golden.py",
+   "size": 1401,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_live_auto.py",
+   "size": 256,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_expand_csv.py",
+   "size": 2653,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_auto_fetch_v39.py",
+   "size": 5899,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "index.html",
+   "size": 303388,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_history.py",
+   "size": 1762,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "LEARN_1500_REPORT.txt",
+   "size": 912,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_use_mega.py",
+   "size": 3042,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "fix_cond2.py",
+   "size": 505,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_brain2.py",
+   "size": 2207,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "make_zip.py",
+   "size": 512,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_fix_email.py",
+   "size": 320,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_add_profile.py",
+   "size": 1216,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "sigma_v23_admin.py",
+   "size": 6274,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v50_clean_report.json",
+   "size": 57,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_universal_fixtures.1092.json",
+   "size": 410147,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_insight.csv",
+   "size": 77925,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_history_all.csv",
+   "size": 5271993,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_edge.csv",
+   "size": 19008,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v44.json",
+   "size": 8393,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v43.csv",
+   "size": 313058,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_mega_golden.csv",
+   "size": 42533,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_backtest_1500.csv",
+   "size": 124000,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_poster_audit.json",
+   "size": 6119,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_history.csv",
+   "size": 5850818,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_aliases.json",
+   "size": 1187,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_suspect.json",
+   "size": 5998,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v42.csv",
+   "size": 175587,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_all_competitions.json",
+   "size": 7635,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v41.json",
+   "size": 4368,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v43.json",
+   "size": 6533,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_mega_conditions.csv",
+   "size": 38256,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.csv",
+   "size": 407934,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_old_new_fed.csv",
+   "size": 4984,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_super_backtest.csv",
+   "size": 149626,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_history_full.csv",
+   "size": 1604332,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_finished_archive.csv",
+   "size": 117739,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_team_stats.json",
+   "size": 233973,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_next_month.csv",
+   "size": 86891,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_super_model.json",
+   "size": 175,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_knowledge.json",
+   "size": 1230,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_league_stats.json",
+   "size": 2848,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v41.csv",
+   "size": 175587,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_team_stats_all.json",
+   "size": 156983,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_brain_state.json",
+   "size": 225,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_mega_predictions.csv",
+   "size": 29785,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_all_13_matches.json",
+   "size": 755590,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v44.json",
+   "size": 1414660,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v44.csv",
+   "size": 407934,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_real_verified.csv",
+   "size": 727,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_manual_fixtures.csv",
+   "size": 383,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_live.csv",
+   "size": 63,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_history_backup.csv",
+   "size": 150922,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v50_audit.json",
+   "size": 388,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_unified.json",
+   "size": 163128,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.json",
+   "size": 1414660,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v43.json",
+   "size": 1164051,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v50_data_pack.json",
+   "size": 32826,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_basketball_fixtures.json",
+   "size": 4558,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v42.csv",
+   "size": 253849,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v43.csv",
+   "size": 415938,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_all_sports_master.json",
+   "size": 8354,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_next_month.json",
+   "size": 640247,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v43.json",
+   "size": 1345149,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_missing_teams.json",
+   "size": 2,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_v42.json",
+   "size": 6558,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  },
+  {
+   "file": "data/sigma_universal_fixtures.json",
+   "size": 806847,
+   "encoded_name": false,
+   "is_diwan_html": false,
+   "has_ghp": false
+  }
+ ],
+ "external": [
+  {
+   "name": "GitHub repo sigma",
+   "url": "https://github.com/mahmoud822822/sigma",
+   "type": "program-code",
+   "status": "NEED_FETCH"
+  },
+  {
+   "name": "Live site",
+   "url": "https://mahmoud822822.github.io/sigma/?v=50",
+   "type": "program-site",
+   "status": "NEED_FETCH"
+  },
+  {
+   "name": "UEFA",
+   "url": "https://www.uefa.com",
+   "type": "football-source",
+   "status": "NEED_FETCH"
+  },
+  {
+   "name": "CAF",
+   "url": "https://www.cafonline.com",
+   "type": "football-source",
+   "status": "NEED_FETCH"
+  },
+  {
+   "name": "ATP Finals",
+   "url": "https://www.atptour.com",
+   "type": "tennis-source",
+   "status": "VERIFIED_STRUCTURE"
+  },
+  {
+   "name": "NFL",
+   "url": "https://www.nfl.com/schedules",
+   "type": "american-football-source",
+   "status": "VERIFIED_SEED"
+  },
+  {
+   "name": "NHL",
+   "url": "https://www.nhl.com/schedule",
+   "type": "hockey-source",
+   "status": "VERIFIED_SEED"
+  },
+  {
+   "name": "CEV",
+   "url": "https://www.cev.eu",
+   "type": "volleyball-source",
+   "status": "VERIFIED_SEED"
+  },
+  {
+   "name": "EHF",
+   "url": "https://www.eurohandball.com",
+   "type": "handball-source",
+   "status": "VERIFIED_SEED"
+  },
+  {
+   "name": "EuroLeague/NBA",
+   "url": "https://www.euroleaguebasketball.net",
+   "type": "basketball-source",
+   "status": "VERIFIED_SEED"
+  }
+ ],
+ "audit": {
+  "total": 842,
+  "future": 842,
+  "past": 0,
+  "default_count": 0,
+  "golden_fixed": 22,
+  "golden_before": 0,
+  "edge_missing": 22,
+  "golden_sample": [
+   "Man City vs Fulham",
+   "Portugal vs Denmark",
+   "France vs Turkey",
+   "Everton vs Liverpool",
+   "Norway vs Wales"
+  ],
+  "formula_842_13_829": "842-13=829 shown (UI must show formula)"
+ },
+ "sports_view": {
+  "tabs": [
+   "football",
+   "basketball",
+   "tennis",
+   "american_football",
+   "ice_hockey",
+   "volleyball",
+   "handball"
+  ],
+  "pulse": "ALIVE",
+  "truth_labels": [
+   "VERIFIED",
+   "SUSPECT",
+   "BETA"
+  ],
+  "golden_rule": "Conf>=70 AND not DEFAULT AND (edge missing OR edge>0)",
+  "value_autofill": "Frontend must fill Prob from Sigma prob of selected match"
+ },
+ "fixes": [
+  "Golden 0 -> recomputed with 8 conf fields",
+  "DEFAULT 0 -> detected from any field / league Default / MANUAL",
+  "842-13=829 formula",
+  "Value auto-fill",
+  "All-sports tabs",
+  "DIWAN flagged",
+  "Encoded cleaned by sigma_v50_clean_fix.py"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "version": "V50-v2",
+ "audit": {
+  "total": 842,
+  "future": 842,
+  "past": 0,
+  "default_count": 0,
+  "golden_fixed": 22,
+  "golden_before": 0,
+  "edge_missing": 22,
+  "golden_sample": [
+   "Man City vs Fulham",
+   "Portugal vs Denmark",
+   "France vs Turkey",
+   "Everton vs Liverpool",
+   "Norway vs Wales"
+  ],
+  "formula_842_13_829": "842-13=829 shown (UI must show formula)"
+ }
+}
