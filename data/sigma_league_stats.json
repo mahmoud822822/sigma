@@ -1,0 +1,607 @@
+{
+ "per_league": [
+  {
+   "league": "International",
+   "n": 7650,
+   "avg_goals": 2.74,
+   "avgGoals": 2.74,
+   "home_win_pct": 48.1,
+   "homeWinPct": 48.1,
+   "btts_pct": 43.9,
+   "bttsPct": 43.9
+  },
+  {
+   "league": "England Championship",
+   "n": 6065,
+   "avg_goals": 2.53,
+   "avgGoals": 2.53,
+   "home_win_pct": 43.3,
+   "homeWinPct": 43.3,
+   "btts_pct": 51.2,
+   "bttsPct": 51.2
+  },
+  {
+   "league": "England League 2",
+   "n": 5950,
+   "avg_goals": 2.57,
+   "avgGoals": 2.57,
+   "home_win_pct": 42.0,
+   "homeWinPct": 42.0,
+   "btts_pct": 51.9,
+   "bttsPct": 51.9
+  },
+  {
+   "league": "England League 1",
+   "n": 5908,
+   "avg_goals": 2.61,
+   "avgGoals": 2.61,
+   "home_win_pct": 43.4,
+   "homeWinPct": 43.4,
+   "btts_pct": 51.5,
+   "bttsPct": 51.5
+  },
+  {
+   "league": "England Conference",
+   "n": 5847,
+   "avg_goals": 2.72,
+   "avgGoals": 2.72,
+   "home_win_pct": 42.4,
+   "homeWinPct": 42.4,
+   "btts_pct": 53.2,
+   "bttsPct": 53.2
+  },
+  {
+   "league": "Spain Segunda",
+   "n": 5078,
+   "avg_goals": 2.29,
+   "avgGoals": 2.29,
+   "home_win_pct": 44.9,
+   "homeWinPct": 44.9,
+   "btts_pct": 47.9,
+   "bttsPct": 47.9
+  },
+  {
+   "league": "Italy Serie B",
+   "n": 4388,
+   "avg_goals": 2.46,
+   "avgGoals": 2.46,
+   "home_win_pct": 42.1,
+   "homeWinPct": 42.1,
+   "btts_pct": 52.8,
+   "bttsPct": 52.8
+  },
+  {
+   "league": "Italy Serie A",
+   "n": 4177,
+   "avg_goals": 2.73,
+   "avgGoals": 2.73,
+   "home_win_pct": 42.3,
+   "homeWinPct": 42.3,
+   "btts_pct": 53.7,
+   "bttsPct": 53.7
+  },
+  {
+   "league": "Spain La Liga",
+   "n": 4172,
+   "avg_goals": 2.63,
+   "avgGoals": 2.63,
+   "home_win_pct": 45.7,
+   "homeWinPct": 45.7,
+   "btts_pct": 51.4,
+   "bttsPct": 51.4
+  },
+  {
+   "league": "England Premier League",
+   "n": 4163,
+   "avg_goals": 2.82,
+   "avgGoals": 2.82,
+   "home_win_pct": 44.3,
+   "homeWinPct": 44.3,
+   "btts_pct": 52.7,
+   "bttsPct": 52.7
+  },
+  {
+   "league": "France Ligue 2",
+   "n": 3925,
+   "avg_goals": 2.42,
+   "avgGoals": 2.42,
+   "home_win_pct": 41.9,
+   "homeWinPct": 41.9,
+   "btts_pct": 48.2,
+   "bttsPct": 48.2
+  },
+  {
+   "league": "France Ligue 1",
+   "n": 3857,
+   "avg_goals": 2.71,
+   "avgGoals": 2.71,
+   "home_win_pct": 43.8,
+   "homeWinPct": 43.8,
+   "btts_pct": 52.0,
+   "bttsPct": 52.0
+  },
+  {
+   "league": "World Cup",
+   "n": 3812,
+   "avg_goals": 2.83,
+   "avgGoals": 2.83,
+   "home_win_pct": 48.0,
+   "homeWinPct": 48.0,
+   "btts_pct": 40.7,
+   "bttsPct": 40.7
+  },
+  {
+   "league": "Turkey Super Lig",
+   "n": 3699,
+   "avg_goals": 2.81,
+   "avgGoals": 2.81,
+   "home_win_pct": 45.4,
+   "homeWinPct": 45.4,
+   "btts_pct": 55.3,
+   "bttsPct": 55.3
+  },
+  {
+   "league": "Portugal Primeira",
+   "n": 3365,
+   "avg_goals": 2.6,
+   "avgGoals": 2.6,
+   "home_win_pct": 44.1,
+   "homeWinPct": 44.1,
+   "btts_pct": 48.3,
+   "bttsPct": 48.3
+  },
+  {
+   "league": "Germany Bundesliga",
+   "n": 3365,
+   "avg_goals": 3.07,
+   "avgGoals": 3.07,
+   "home_win_pct": 44.2,
+   "homeWinPct": 44.2,
+   "btts_pct": 58.4,
+   "bttsPct": 58.4
+  },
+  {
+   "league": "Germany 2 Bundesliga",
+   "n": 3364,
+   "avg_goals": 2.87,
+   "avgGoals": 2.87,
+   "home_win_pct": 43.1,
+   "homeWinPct": 43.1,
+   "btts_pct": 57.0,
+   "bttsPct": 57.0
+  },
+  {
+   "league": "Netherlands Eredivisie",
+   "n": 3291,
+   "avg_goals": 3.08,
+   "avgGoals": 3.08,
+   "home_win_pct": 45.2,
+   "homeWinPct": 45.2,
+   "btts_pct": 56.5,
+   "bttsPct": 56.5
+  },
+  {
+   "league": "Belgium Jupiler",
+   "n": 3044,
+   "avg_goals": 2.86,
+   "avgGoals": 2.86,
+   "home_win_pct": 44.2,
+   "homeWinPct": 44.2,
+   "btts_pct": 56.0,
+   "bttsPct": 56.0
+  },
+  {
+   "league": "Greece Super League",
+   "n": 2628,
+   "avg_goals": 2.39,
+   "avgGoals": 2.39,
+   "home_win_pct": 43.5,
+   "homeWinPct": 43.5,
+   "btts_pct": 43.6,
+   "bttsPct": 43.6
+  },
+  {
+   "league": "Scotland Premiership",
+   "n": 2453,
+   "avg_goals": 2.71,
+   "avgGoals": 2.71,
+   "home_win_pct": 43.7,
+   "homeWinPct": 43.7,
+   "btts_pct": 49.6,
+   "bttsPct": 49.6
+  },
+  {
+   "league": "Scotland Championship",
+   "n": 1883,
+   "avg_goals": 2.62,
+   "avgGoals": 2.62,
+   "home_win_pct": 41.1,
+   "homeWinPct": 41.1,
+   "btts_pct": 50.2,
+   "bttsPct": 50.2
+  },
+  {
+   "league": "Scotland League 1",
+   "n": 1864,
+   "avg_goals": 2.88,
+   "avgGoals": 2.88,
+   "home_win_pct": 42.8,
+   "homeWinPct": 42.8,
+   "btts_pct": 54.3,
+   "bttsPct": 54.3
+  },
+  {
+   "league": "Scotland League 2",
+   "n": 1862,
+   "avg_goals": 2.77,
+   "avgGoals": 2.77,
+   "home_win_pct": 42.8,
+   "homeWinPct": 42.8,
+   "btts_pct": 52.4,
+   "bttsPct": 52.4
+  },
+  {
+   "league": "African Cup",
+   "n": 1483,
+   "avg_goals": 2.32,
+   "avgGoals": 2.32,
+   "home_win_pct": 48.7,
+   "homeWinPct": 48.7,
+   "btts_pct": 40.7,
+   "bttsPct": 40.7
+  },
+  {
+   "league": "UEFA Nations League",
+   "n": 1325,
+   "avg_goals": 2.84,
+   "avgGoals": 2.84,
+   "home_win_pct": 45.2,
+   "homeWinPct": 45.2,
+   "btts_pct": 45.1,
+   "bttsPct": 45.1
+  },
+  {
+   "league": "Euro",
+   "n": 1200,
+   "avg_goals": 2.77,
+   "avgGoals": 2.77,
+   "home_win_pct": 45.5,
+   "homeWinPct": 45.5,
+   "btts_pct": 42.3,
+   "bttsPct": 42.3
+  },
+  {
+   "league": "Asian Cup",
+   "n": 436,
+   "avg_goals": 2.81,
+   "avgGoals": 2.81,
+   "home_win_pct": 50.0,
+   "homeWinPct": 50.0,
+   "btts_pct": 43.1,
+   "bttsPct": 43.1
+  },
+  {
+   "league": "Gold Cup",
+   "n": 259,
+   "avg_goals": 2.93,
+   "avgGoals": 2.93,
+   "home_win_pct": 54.4,
+   "homeWinPct": 54.4,
+   "btts_pct": 45.9,
+   "bttsPct": 45.9
+  },
+  {
+   "league": "Copa America",
+   "n": 174,
+   "avg_goals": 2.36,
+   "avgGoals": 2.36,
+   "home_win_pct": 44.8,
+   "homeWinPct": 44.8,
+   "btts_pct": 38.5,
+   "bttsPct": 38.5
+  }
+ ],
+ "perLeague": [
+  {
+   "league": "International",
+   "n": 7650,
+   "avg_goals": 2.74,
+   "avgGoals": 2.74,
+   "home_win_pct": 48.1,
+   "homeWinPct": 48.1,
+   "btts_pct": 43.9,
+   "bttsPct": 43.9
+  },
+  {
+   "league": "England Championship",
+   "n": 6065,
+   "avg_goals": 2.53,
+   "avgGoals": 2.53,
+   "home_win_pct": 43.3,
+   "homeWinPct": 43.3,
+   "btts_pct": 51.2,
+   "bttsPct": 51.2
+  },
+  {
+   "league": "England League 2",
+   "n": 5950,
+   "avg_goals": 2.57,
+   "avgGoals": 2.57,
+   "home_win_pct": 42.0,
+   "homeWinPct": 42.0,
+   "btts_pct": 51.9,
+   "bttsPct": 51.9
+  },
+  {
+   "league": "England League 1",
+   "n": 5908,
+   "avg_goals": 2.61,
+   "avgGoals": 2.61,
+   "home_win_pct": 43.4,
+   "homeWinPct": 43.4,
+   "btts_pct": 51.5,
+   "bttsPct": 51.5
+  },
+  {
+   "league": "England Conference",
+   "n": 5847,
+   "avg_goals": 2.72,
+   "avgGoals": 2.72,
+   "home_win_pct": 42.4,
+   "homeWinPct": 42.4,
+   "btts_pct": 53.2,
+   "bttsPct": 53.2
+  },
+  {
+   "league": "Spain Segunda",
+   "n": 5078,
+   "avg_goals": 2.29,
+   "avgGoals": 2.29,
+   "home_win_pct": 44.9,
+   "homeWinPct": 44.9,
+   "btts_pct": 47.9,
+   "bttsPct": 47.9
+  },
+  {
+   "league": "Italy Serie B",
+   "n": 4388,
+   "avg_goals": 2.46,
+   "avgGoals": 2.46,
+   "home_win_pct": 42.1,
+   "homeWinPct": 42.1,
+   "btts_pct": 52.8,
+   "bttsPct": 52.8
+  },
+  {
+   "league": "Italy Serie A",
+   "n": 4177,
+   "avg_goals": 2.73,
+   "avgGoals": 2.73,
+   "home_win_pct": 42.3,
+   "homeWinPct": 42.3,
+   "btts_pct": 53.7,
+   "bttsPct": 53.7
+  },
+  {
+   "league": "Spain La Liga",
+   "n": 4172,
+   "avg_goals": 2.63,
+   "avgGoals": 2.63,
+   "home_win_pct": 45.7,
+   "homeWinPct": 45.7,
+   "btts_pct": 51.4,
+   "bttsPct": 51.4
+  },
+  {
+   "league": "England Premier League",
+   "n": 4163,
+   "avg_goals": 2.82,
+   "avgGoals": 2.82,
+   "home_win_pct": 44.3,
+   "homeWinPct": 44.3,
+   "btts_pct": 52.7,
+   "bttsPct": 52.7
+  },
+  {
+   "league": "France Ligue 2",
+   "n": 3925,
+   "avg_goals": 2.42,
+   "avgGoals": 2.42,
+   "home_win_pct": 41.9,
+   "homeWinPct": 41.9,
+   "btts_pct": 48.2,
+   "bttsPct": 48.2
+  },
+  {
+   "league": "France Ligue 1",
+   "n": 3857,
+   "avg_goals": 2.71,
+   "avgGoals": 2.71,
+   "home_win_pct": 43.8,
+   "homeWinPct": 43.8,
+   "btts_pct": 52.0,
+   "bttsPct": 52.0
+  },
+  {
+   "league": "World Cup",
+   "n": 3812,
+   "avg_goals": 2.83,
+   "avgGoals": 2.83,
+   "home_win_pct": 48.0,
+   "homeWinPct": 48.0,
+   "btts_pct": 40.7,
+   "bttsPct": 40.7
+  },
+  {
+   "league": "Turkey Super Lig",
+   "n": 3699,
+   "avg_goals": 2.81,
+   "avgGoals": 2.81,
+   "home_win_pct": 45.4,
+   "homeWinPct": 45.4,
+   "btts_pct": 55.3,
+   "bttsPct": 55.3
+  },
+  {
+   "league": "Portugal Primeira",
+   "n": 3365,
+   "avg_goals": 2.6,
+   "avgGoals": 2.6,
+   "home_win_pct": 44.1,
+   "homeWinPct": 44.1,
+   "btts_pct": 48.3,
+   "bttsPct": 48.3
+  },
+  {
+   "league": "Germany Bundesliga",
+   "n": 3365,
+   "avg_goals": 3.07,
+   "avgGoals": 3.07,
+   "home_win_pct": 44.2,
+   "homeWinPct": 44.2,
+   "btts_pct": 58.4,
+   "bttsPct": 58.4
+  },
+  {
+   "league": "Germany 2 Bundesliga",
+   "n": 3364,
+   "avg_goals": 2.87,
+   "avgGoals": 2.87,
+   "home_win_pct": 43.1,
+   "homeWinPct": 43.1,
+   "btts_pct": 57.0,
+   "bttsPct": 57.0
+  },
+  {
+   "league": "Netherlands Eredivisie",
+   "n": 3291,
+   "avg_goals": 3.08,
+   "avgGoals": 3.08,
+   "home_win_pct": 45.2,
+   "homeWinPct": 45.2,
+   "btts_pct": 56.5,
+   "bttsPct": 56.5
+  },
+  {
+   "league": "Belgium Jupiler",
+   "n": 3044,
+   "avg_goals": 2.86,
+   "avgGoals": 2.86,
+   "home_win_pct": 44.2,
+   "homeWinPct": 44.2,
+   "btts_pct": 56.0,
+   "bttsPct": 56.0
+  },
+  {
+   "league": "Greece Super League",
+   "n": 2628,
+   "avg_goals": 2.39,
+   "avgGoals": 2.39,
+   "home_win_pct": 43.5,
+   "homeWinPct": 43.5,
+   "btts_pct": 43.6,
+   "bttsPct": 43.6
+  },
+  {
+   "league": "Scotland Premiership",
+   "n": 2453,
+   "avg_goals": 2.71,
+   "avgGoals": 2.71,
+   "home_win_pct": 43.7,
+   "homeWinPct": 43.7,
+   "btts_pct": 49.6,
+   "bttsPct": 49.6
+  },
+  {
+   "league": "Scotland Championship",
+   "n": 1883,
+   "avg_goals": 2.62,
+   "avgGoals": 2.62,
+   "home_win_pct": 41.1,
+   "homeWinPct": 41.1,
+   "btts_pct": 50.2,
+   "bttsPct": 50.2
+  },
+  {
+   "league": "Scotland League 1",
+   "n": 1864,
+   "avg_goals": 2.88,
+   "avgGoals": 2.88,
+   "home_win_pct": 42.8,
+   "homeWinPct": 42.8,
+   "btts_pct": 54.3,
+   "bttsPct": 54.3
+  },
+  {
+   "league": "Scotland League 2",
+   "n": 1862,
+   "avg_goals": 2.77,
+   "avgGoals": 2.77,
+   "home_win_pct": 42.8,
+   "homeWinPct": 42.8,
+   "btts_pct": 52.4,
+   "bttsPct": 52.4
+  },
+  {
+   "league": "African Cup",
+   "n": 1483,
+   "avg_goals": 2.32,
+   "avgGoals": 2.32,
+   "home_win_pct": 48.7,
+   "homeWinPct": 48.7,
+   "btts_pct": 40.7,
+   "bttsPct": 40.7
+  },
+  {
+   "league": "UEFA Nations League",
+   "n": 1325,
+   "avg_goals": 2.84,
+   "avgGoals": 2.84,
+   "home_win_pct": 45.2,
+   "homeWinPct": 45.2,
+   "btts_pct": 45.1,
+   "bttsPct": 45.1
+  },
+  {
+   "league": "Euro",
+   "n": 1200,
+   "avg_goals": 2.77,
+   "avgGoals": 2.77,
+   "home_win_pct": 45.5,
+   "homeWinPct": 45.5,
+   "btts_pct": 42.3,
+   "bttsPct": 42.3
+  },
+  {
+   "league": "Asian Cup",
+   "n": 436,
+   "avg_goals": 2.81,
+   "avgGoals": 2.81,
+   "home_win_pct": 50.0,
+   "homeWinPct": 50.0,
+   "btts_pct": 43.1,
+   "bttsPct": 43.1
+  },
+  {
+   "league": "Gold Cup",
+   "n": 259,
+   "avg_goals": 2.93,
+   "avgGoals": 2.93,
+   "home_win_pct": 54.4,
+   "homeWinPct": 54.4,
+   "btts_pct": 45.9,
+   "bttsPct": 45.9
+  },
+  {
+   "league": "Copa America",
+   "n": 174,
+   "avg_goals": 2.36,
+   "avgGoals": 2.36,
+   "home_win_pct": 44.8,
+   "homeWinPct": 44.8,
+   "btts_pct": 38.5,
+   "bttsPct": 38.5
+  }
+ ],
+ "history_rows": 100687
+}
