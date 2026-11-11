@@ -1,7 +1,6 @@
-# V24 Walk-Forward Backtest - Train only on past - Mahmoud Emad
 import csv, math
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 def parse_date(s):
     for fmt in ("%d/%m/%Y","%d/%m/%y","%Y-%m-%d"):
         try: return datetime.strptime(str(s).strip(), fmt)
@@ -11,12 +10,7 @@ def poisson(lam,g): return (math.exp(-lam)*lam**g)/math.factorial(g)
 rows=list(csv.DictReader(open("data/sigma_history_all.csv", encoding="utf-8")))
 rows=sorted(rows, key=lambda x: parse_date(x["date"]))
 print(f"Backtest on {len(rows)} matches - Walk-Forward")
-# Use last 5000 as test, train only on before each test date
 test=rows[-5000:]
-train_all=rows[:-5000]
-# Build stats from train only for first test, then rolling: for speed, build stats from all train_all + update incrementally
-# Simpler correct walk-forward: for each test in chunks of 500, train on all before chunk
-import statistics
 brier=0; logloss=0; hit=0; n=0
 for start in range(0, len(test), 500):
     chunk=test[start:start+500]
@@ -26,8 +20,8 @@ for start in range(0, len(test), 500):
     for r in train:
         try: hg=int(r["home_goals"]); ag=int(r["away_goals"])
         except: continue
-        for team, sc, co, home in [(r["home"],hg,ag,True),(r["away"],ag,hg,False)]:
-            s=stats.get(team, {"n":0,"sc":0,"co":0}); s["n"]+=1; s["sc"]+=sc; s["co"]+=co; stats[team]=s
+        for team, sc in [(r["home"],hg),(r["away"],ag)]:
+            s=stats.get(team, {"n":0,"sc":0}); s["n"]+=1; s["sc"]+=sc; stats[team]=s
     for r in chunk:
         try: hg=int(r["home_goals"]); ag=int(r["away_goals"])
         except: continue
@@ -35,7 +29,6 @@ for start in range(0, len(test), 500):
         hxg=1.55; axg=1.25
         if hs and hs["n"]>=5: hxg=hs["sc"]/hs["n"]*1.10
         if aws and aws["n"]>=5: axg=aws["sc"]/aws["n"]
-        # Poisson 1X2
         hw=d=aw=0
         for x in range(11):
             for y in range(11):

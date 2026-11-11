@@ -1,0 +1,45 @@
+{
+ "version": "V49",
+ "fake_patterns": [
+  {
+   "pattern": "ALL matches marked 'very high confidence' + green check",
+   "learned_from": "Poster V48",
+   "action": "Strip confidence, use model only"
+  },
+  {
+   "pattern": "Odds ranges like 1.07-1.13 for every match",
+   "learned_from": "Poster V48",
+   "action": "Strip odds, mark NOT VERIFIED"
+  },
+  {
+   "pattern": "Accumulator single number 3.24",
+   "learned_from": "Poster V48: lower=2.65 upper=3.28",
+   "action": "Show range, never single inflated number"
+  },
+  {
+   "pattern": "Home/away swap (Egypt home vs Malawi 17 Nov)",
+   "learned_from": "V47+V48: real home Malawi",
+   "action": "Reverse-check home vs 2 sources"
+  },
+  {
+   "pattern": "Finished match still OPEN (Hansa-Stuttgart, Portugal-Wales)",
+   "learned_from": "V47: date < today",
+   "action": "Archive, never keep as upcoming"
+  },
+  {
+   "pattern": "Football model applied to basketball/other sport",
+   "learned_from": "V48",
+   "action": "Block - per-sport model only"
+  }
+ ],
+ "sports": [
+  "football",
+  "basketball",
+  "tennis",
+  "american_football",
+  "ice_hockey",
+  "volleyball",
+  "handball"
+ ],
+ "truth_rule": "2 sources must agree, else SUSPECT. Reverse-check home/away, date, odds math."
+}

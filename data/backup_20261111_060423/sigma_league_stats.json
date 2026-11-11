@@ -1,0 +1,44 @@
+{
+  "Netherlands": {
+    "n": 281,
+    "avg_goals": 3.31,
+    "home_win": 40.9,
+    "btts": 64.4
+  },
+  "Italy": {
+    "n": 340,
+    "avg_goals": 2.69,
+    "home_win": 42.4,
+    "btts": 48.8
+  },
+  "Default": {
+    "n": 352,
+    "avg_goals": 2.8,
+    "home_win": 46.0,
+    "btts": 57.4
+  },
+  "England": {
+    "n": 343,
+    "avg_goals": 2.75,
+    "home_win": 39.1,
+    "btts": 54.8
+  },
+  "France": {
+    "n": 270,
+    "avg_goals": 2.81,
+    "home_win": 44.8,
+    "btts": 53.7
+  },
+  "Germany": {
+    "n": 280,
+    "avg_goals": 3.37,
+    "home_win": 46.4,
+    "btts": 63.9
+  },
+  "Portugal": {
+    "n": 284,
+    "avg_goals": 2.67,
+    "home_win": 43.0,
+    "btts": 48.9
+  }
+}

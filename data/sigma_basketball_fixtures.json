@@ -1,0 +1,139 @@
+{
+ "sport": "basketball",
+ "total": 12,
+ "warning": "BETA - no predictions. Show fixtures only until points-Elo is built.",
+ "matches": [
+  {
+   "match": "Partizan Belgrade vs Baskonia",
+   "date": "2026-11-11",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11 Belgrade 20:45 CET"
+  },
+  {
+   "match": "Paris Basketball vs Fenerbahce",
+   "date": "2026-11-11",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11 Paris 20:45 CET"
+  },
+  {
+   "match": "Maccabi Tel Aviv vs Hapoel Tel Aviv",
+   "date": "2026-11-12",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11"
+  },
+  {
+   "match": "Olympiacos vs Dubai Basketball",
+   "date": "2026-11-12",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11"
+  },
+  {
+   "match": "Olimpia Milano vs Zalgiris Kaunas",
+   "date": "2026-11-12",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11"
+  },
+  {
+   "match": "Valencia vs Bayern Munich",
+   "date": "2026-11-12",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11 - basketball Bayern, NOT football"
+  },
+  {
+   "match": "Real Madrid vs Crvena Zvezda",
+   "date": "2026-11-12",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11 Madrid - basketball Real, NOT football"
+  },
+  {
+   "match": "Anadolu Efes vs Virtus Bologna",
+   "date": "2026-11-13",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11"
+  },
+  {
+   "match": "Panathinaikos vs Barcelona",
+   "date": "2026-11-13",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11 - basketball Barca, NOT football"
+  },
+  {
+   "match": "Lyon-Villeurbanne vs Besiktas",
+   "date": "2026-11-13",
+   "league": "EuroLeague",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "Round 11"
+  },
+  {
+   "match": "Indiana Pacers vs Washington Wizards",
+   "date": "2026-11-12",
+   "league": "NBA",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "02:00 Cairo (11 Nov 19:00 ET) Gainbridge"
+  },
+  {
+   "match": "New York Knicks vs Cleveland Cavaliers",
+   "date": "2026-11-12",
+   "league": "NBA",
+   "sport": "basketball",
+   "status": "SCHEDULED",
+   "prediction": "NONE - BETA, no model yet",
+   "model": "DO NOT USE football Dixon-Coles - basketball needs points-based Elo",
+   "verified": "V48-basketball-verified",
+   "note": "02:00 Cairo (11 Nov 19:00 ET) MSG"
+  }
+ ]
+}

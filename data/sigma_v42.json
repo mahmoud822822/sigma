@@ -1,0 +1,350 @@
+{
+  "generated": "2026-11-11",
+  "engine": "Sigma V42 - Fix + League-strength + Calibration + More markets + Future",
+  "history": 84449,
+  "verified": 14,
+  "future": 957,
+  "teams": 576,
+  "default_count": 953,
+  "golden_count": 0,
+  "future_count": 622,
+  "backtest": {
+    "n": 500,
+    "hit": 245,
+    "hit_rate": 49.0,
+    "brier": 0.6096,
+    "logloss": 1.0151
+  },
+  "calibration": {
+    "30": {
+      "n": 74,
+      "actual": 32.4,
+      "centre": 35
+    },
+    "40": {
+      "n": 148,
+      "actual": 45.9,
+      "centre": 45
+    },
+    "50": {
+      "n": 113,
+      "actual": 42.5,
+      "centre": 55
+    },
+    "60": {
+      "n": 77,
+      "actual": 51.9,
+      "centre": 65
+    },
+    "70": {
+      "n": 46,
+      "actual": 76.1,
+      "centre": 75
+    },
+    "80": {
+      "n": 42,
+      "actual": 71.4,
+      "centre": 85
+    }
+  },
+  "league_elo": {
+    "England League 1": {
+      "avg": 1490.3,
+      "n": 27
+    },
+    "England Premier League": {
+      "avg": 1657.1,
+      "n": 24
+    },
+    "England Championship": {
+      "avg": 1541.5,
+      "n": 19
+    },
+    "Default": {
+      "avg": 1496.1,
+      "n": 3
+    },
+    "Spain La Liga": {
+      "avg": 1585.6,
+      "n": 23
+    },
+    "Italy Serie A": {
+      "avg": 1587.0,
+      "n": 25
+    },
+    "Netherlands Eredivisie": {
+      "avg": 1499.6,
+      "n": 28
+    },
+    "Portugal Primeira": {
+      "avg": 1500.0,
+      "n": 31
+    },
+    "Belgium Jupiler": {
+      "avg": 1500.0,
+      "n": 26
+    },
+    "Turkey Super Lig": {
+      "avg": 1500.3,
+      "n": 39
+    },
+    "England League 2": {
+      "avg": 1477.3,
+      "n": 26
+    },
+    "England Conference": {
+      "avg": 1409.6,
+      "n": 41
+    },
+    "France Ligue 1": {
+      "avg": 1573.3,
+      "n": 20
+    },
+    "France Ligue 2": {
+      "avg": 1459.3,
+      "n": 36
+    },
+    "Italy Serie B": {
+      "avg": 1445.6,
+      "n": 40
+    },
+    "Greece Super League": {
+      "avg": 1500.0,
+      "n": 27
+    },
+    "Scotland Premiership": {
+      "avg": 1634.2,
+      "n": 11
+    },
+    "Scotland Championship": {
+      "avg": 1537.9,
+      "n": 11
+    },
+    "Spain Segunda": {
+      "avg": 1455.5,
+      "n": 44
+    },
+    "Germany 2 Bundesliga": {
+      "avg": 1445.3,
+      "n": 30
+    },
+    "Germany Bundesliga": {
+      "avg": 1591.1,
+      "n": 18
+    },
+    "Scotland League 1": {
+      "avg": 1450.4,
+      "n": 13
+    },
+    "Scotland League 2": {
+      "avg": 1410.9,
+      "n": 14
+    }
+  },
+  "global_elo_avg": 1500.0,
+  "per_league": {
+    "Default": {
+      "n": 84477,
+      "avg_goals": 2.67,
+      "home_win_pct": 43.5,
+      "btts_pct": 52.1,
+      "over25_pct": 50.0
+    },
+    "England Championship": {
+      "n": 6072,
+      "avg_goals": 2.53,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "England Conference": {
+      "n": 5850,
+      "avg_goals": 2.72,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "England Premier League": {
+      "n": 4180,
+      "avg_goals": 2.82,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "England League 1": {
+      "n": 5920,
+      "avg_goals": 2.61,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "England League 2": {
+      "n": 5960,
+      "avg_goals": 2.57,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "France Ligue 1": {
+      "n": 3857,
+      "avg_goals": 2.71,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Spain La Liga": {
+      "n": 4180,
+      "avg_goals": 2.63,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Italy Serie B": {
+      "n": 4388,
+      "avg_goals": 2.46,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "France Ligue 2": {
+      "n": 3930,
+      "avg_goals": 2.42,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Portugal Primeira": {
+      "n": 3366,
+      "avg_goals": 2.6,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Italy Serie A": {
+      "n": 4180,
+      "avg_goals": 2.73,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Greece Super League": {
+      "n": 2628,
+      "avg_goals": 2.39,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Scotland Premiership": {
+      "n": 2459,
+      "avg_goals": 2.71,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Spain Segunda": {
+      "n": 5082,
+      "avg_goals": 2.29,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Germany Bundesliga": {
+      "n": 3366,
+      "avg_goals": 3.07,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Germany 2 Bundesliga": {
+      "n": 3366,
+      "avg_goals": 2.87,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Netherlands Eredivisie": {
+      "n": 3292,
+      "avg_goals": 3.08,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Belgium Jupiler": {
+      "n": 3045,
+      "avg_goals": 2.86,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Turkey Super Lig": {
+      "n": 3700,
+      "avg_goals": 2.81,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Scotland Championship": {
+      "n": 1892,
+      "avg_goals": 2.61,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Scotland League 1": {
+      "n": 1869,
+      "avg_goals": 2.88,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Scotland League 2": {
+      "n": 1867,
+      "avg_goals": 2.77,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    }
+  },
+  "top_elo": [
+    {
+      "team": "Celtic",
+      "elo": 1900.1
+    },
+    {
+      "team": "Liverpool",
+      "elo": 1898.1
+    },
+    {
+      "team": "Man City",
+      "elo": 1871.0
+    },
+    {
+      "team": "Bayern Munich",
+      "elo": 1852.7
+    },
+    {
+      "team": "Olympiakos",
+      "elo": 1827.6
+    },
+    {
+      "team": "Benfica",
+      "elo": 1826.4
+    },
+    {
+      "team": "Ath Madrid",
+      "elo": 1826.1
+    },
+    {
+      "team": "Real Madrid",
+      "elo": 1825.0
+    },
+    {
+      "team": "Rangers",
+      "elo": 1823.5
+    },
+    {
+      "team": "Barcelona",
+      "elo": 1822.3
+    }
+  ]
+}

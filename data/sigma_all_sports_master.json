@@ -1,0 +1,392 @@
+{
+ "version": "V49",
+ "date": "2026-11-11",
+ "sports": {
+  "football": {
+   "scoring": "goals",
+   "model": "Dixon-Coles Poisson (V46)",
+   "sources": [
+    "UEFA",
+    "CAF",
+    "Sportradar",
+    "FotMob"
+   ],
+   "status": "LIVE"
+  },
+  "basketball": {
+   "scoring": "points 70-120",
+   "model": "Points-Elo BETA (NOT football Poisson)",
+   "sources": [
+    "EuroLeague",
+    "NBA",
+    "Sportradar"
+   ],
+   "status": "BETA fixtures only"
+  },
+  "tennis": {
+   "scoring": "sets",
+   "model": "Surface Elo sets BETA",
+   "sources": [
+    "ATP",
+    "Sportradar"
+   ],
+   "status": "BETA - tournament structure only"
+  },
+  "american_football": {
+   "scoring": "points",
+   "model": "Points-Elo BETA",
+   "sources": [
+    "NFL",
+    "ESPN"
+   ],
+   "status": "BETA fixtures only"
+  },
+  "ice_hockey": {
+   "scoring": "goals 0-8",
+   "model": "Goals-Elo BETA",
+   "sources": [
+    "NHL",
+    "Sportradar"
+   ],
+   "status": "BETA fixtures only"
+  },
+  "volleyball": {
+   "scoring": "sets best-of-5",
+   "model": "Sets-Elo BETA",
+   "sources": [
+    "CEV",
+    "Sportradar"
+   ],
+   "status": "BETA fixtures only"
+  },
+  "handball": {
+   "scoring": "goals 20-40",
+   "model": "Goals-Elo BETA",
+   "sources": [
+    "EHF",
+    "Sportradar"
+   ],
+   "status": "BETA fixtures only"
+  }
+ },
+ "old_files": [
+  {
+   "file": "sigma_old_new_fed.csv",
+   "size": 4984
+  },
+  {
+   "file": "data/sigma_universal_fixtures.1092.json",
+   "size": 410147
+  },
+  {
+   "file": "data/sigma_v44.json",
+   "size": 8393
+  },
+  {
+   "file": "data/sigma_poster_audit.json",
+   "size": 6119
+  },
+  {
+   "file": "data/sigma_aliases.json",
+   "size": 1187
+  },
+  {
+   "file": "data/sigma_suspect.json",
+   "size": 5998
+  },
+  {
+   "file": "data/sigma_all_competitions.json",
+   "size": 7635
+  },
+  {
+   "file": "data/sigma_v41.json",
+   "size": 4368
+  },
+  {
+   "file": "data/sigma_v43.json",
+   "size": 6533
+  },
+  {
+   "file": "data/sigma_team_stats.json",
+   "size": 233973
+  },
+  {
+   "file": "data/sigma_super_model.json",
+   "size": 175
+  },
+  {
+   "file": "data/sigma_league_stats.json",
+   "size": 2848
+  },
+  {
+   "file": "data/sigma_team_stats_all.json",
+   "size": 156983
+  },
+  {
+   "file": "data/sigma_all_13_matches.json",
+   "size": 755590
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v44.json",
+   "size": 1407248
+  },
+  {
+   "file": "data/sigma_unified.json",
+   "size": 163128
+  },
+  {
+   "file": "data/sigma_bulk_predictions.json",
+   "size": 1407248
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v43.json",
+   "size": 1164051
+  },
+  {
+   "file": "data/sigma_basketball_fixtures.json",
+   "size": 4558
+  },
+  {
+   "file": "data/sigma_next_month.json",
+   "size": 640247
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v43.json",
+   "size": 1345149
+  },
+  {
+   "file": "data/sigma_missing_teams.json",
+   "size": 2
+  },
+  {
+   "file": "data/sigma_v42.json",
+   "size": 6558
+  },
+  {
+   "file": "data/sigma_universal_fixtures.json",
+   "size": 798297
+  },
+  {
+   "file": "data/sigma_insight.csv",
+   "size": 77925
+  },
+  {
+   "file": "data/sigma_history_all.csv",
+   "size": 5271993
+  },
+  {
+   "file": "data/sigma_edge.csv",
+   "size": 19008
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v43.csv",
+   "size": 313058
+  },
+  {
+   "file": "data/sigma_mega_golden.csv",
+   "size": 42533
+  },
+  {
+   "file": "data/sigma_backtest_1500.csv",
+   "size": 124000
+  },
+  {
+   "file": "data/sigma_history.csv",
+   "size": 5850818
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v42.csv",
+   "size": 175587
+  },
+  {
+   "file": "data/sigma_mega_conditions.csv",
+   "size": 38256
+  },
+  {
+   "file": "data/sigma_bulk_predictions.csv",
+   "size": 407934
+  },
+  {
+   "file": "data/sigma_old_new_fed.csv",
+   "size": 4984
+  },
+  {
+   "file": "data/sigma_super_backtest.csv",
+   "size": 149626
+  },
+  {
+   "file": "data/sigma_history_full.csv",
+   "size": 1604332
+  },
+  {
+   "file": "data/sigma_finished_archive.csv",
+   "size": 117739
+  },
+  {
+   "file": "data/sigma_next_month.csv",
+   "size": 86891
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v41.csv",
+   "size": 175587
+  },
+  {
+   "file": "data/sigma_mega_predictions.csv",
+   "size": 29785
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v44.csv",
+   "size": 407934
+  },
+  {
+   "file": "data/sigma_real_verified.csv",
+   "size": 727
+  },
+  {
+   "file": "data/sigma_manual_fixtures.csv",
+   "size": 383
+  },
+  {
+   "file": "data/sigma_live.csv",
+   "size": 63
+  },
+  {
+   "file": "data/sigma_history_backup.csv",
+   "size": 150922
+  },
+  {
+   "file": "data/sigma_bulk_predictions_v42.csv",
+   "size": 253849
+  },
+  {
+   "file": "data/sigma_bulk_predictions.backup_v43.csv",
+   "size": 415938
+  }
+ ],
+ "verified_seeds": [
+  {
+   "sport": "tennis",
+   "match": "ATP Finals - Tournament Structure",
+   "date": "2026-11-15",
+   "league": "ATP Finals Turin",
+   "note": "Structure REAL: 15-22 Nov Turin, draw 12 Nov. Individual pairings = after draw, DO NOT invent before draw.",
+   "verify": [
+    "STRUCTURE_ONLY_NO_PAIR_YET"
+   ]
+  },
+  {
+   "sport": "american_football",
+   "match": "Houston Texans vs Indianapolis Colts",
+   "date": "2026-11-19",
+   "league": "NFL Week 11",
+   "note": "REAL Thu 19 Nov 8:15pm ET. Home Texans.",
+   "verify": []
+  },
+  {
+   "sport": "american_football",
+   "match": "Buffalo Bills vs Miami Dolphins",
+   "date": "2026-11-22",
+   "league": "NFL Week 11",
+   "note": "REAL Sun 22 Nov. Home Bills.",
+   "verify": []
+  },
+  {
+   "sport": "american_football",
+   "match": "Washington Commanders vs Cincinnati Bengals",
+   "date": "2026-11-23",
+   "league": "NFL Week 11",
+   "note": "REAL Mon 23 Nov. Home Washington.",
+   "verify": []
+  },
+  {
+   "sport": "ice_hockey",
+   "match": "Seattle Kraken vs Carolina Hurricanes",
+   "date": "2026-11-12",
+   "league": "NHL",
+   "note": "REAL Global Series Helsinki. Home Kraken (neutral venue).",
+   "verify": []
+  },
+  {
+   "sport": "ice_hockey",
+   "match": "Buffalo Sabres vs Tampa Bay Lightning",
+   "date": "2026-11-12",
+   "league": "NHL",
+   "note": "REAL 12 Nov.",
+   "verify": []
+  },
+  {
+   "sport": "volleyball",
+   "match": "Budowlani Lodz vs Galatasaray Istanbul",
+   "date": "2026-11-25",
+   "league": "CEV Champions League Women",
+   "note": "REAL 25 Nov Lodz.",
+   "verify": []
+  },
+  {
+   "sport": "volleyball",
+   "match": "Vero Volley Milano vs Levallois Paris",
+   "date": "2026-11-25",
+   "league": "CEV Champions League Women",
+   "note": "REAL 25 Nov Monza.",
+   "verify": []
+  },
+  {
+   "sport": "handball",
+   "match": "Aalborg vs Fuchse Berlin",
+   "date": "2026-11-18",
+   "league": "EHF Champions League",
+   "note": "REAL Main Round 18 Nov Aalborg.",
+   "verify": []
+  },
+  {
+   "sport": "handball",
+   "match": "Wisla Plock vs Veszprem KC",
+   "date": "2026-11-18",
+   "league": "EHF Champions League",
+   "note": "REAL Main Round 18 Nov Plock.",
+   "verify": []
+  },
+  {
+   "sport": "handball",
+   "match": "Storhamar Elite vs Nykoebing Falster",
+   "date": "2026-11-14",
+   "league": "EHF Champions League Women",
+   "note": "REAL 14 Nov Hamar.",
+   "verify": []
+  }
+ ],
+ "suspect": [],
+ "fake_patterns_learned": [
+  {
+   "pattern": "ALL matches marked 'very high confidence' + green check",
+   "learned_from": "Poster V48",
+   "action": "Strip confidence, use model only"
+  },
+  {
+   "pattern": "Odds ranges like 1.07-1.13 for every match",
+   "learned_from": "Poster V48",
+   "action": "Strip odds, mark NOT VERIFIED"
+  },
+  {
+   "pattern": "Accumulator single number 3.24",
+   "learned_from": "Poster V48: lower=2.65 upper=3.28",
+   "action": "Show range, never single inflated number"
+  },
+  {
+   "pattern": "Home/away swap (Egypt home vs Malawi 17 Nov)",
+   "learned_from": "V47+V48: real home Malawi",
+   "action": "Reverse-check home vs 2 sources"
+  },
+  {
+   "pattern": "Finished match still OPEN (Hansa-Stuttgart, Portugal-Wales)",
+   "learned_from": "V47: date < today",
+   "action": "Archive, never keep as upcoming"
+  },
+  {
+   "pattern": "Football model applied to basketball/other sport",
+   "learned_from": "V48",
+   "action": "Block - per-sport model only"
+  }
+ ],
+ "rule": "No prediction is guaranteed. No sure wins. Odds/confidence from posters are stripped."
+}

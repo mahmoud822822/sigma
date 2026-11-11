@@ -1,0 +1,958 @@
+date,match,league,competition,xG,xG_home,xG_away,1,X,2,BTTS,Over25,conf,sigma20,grade,pick,top3,n,elo_home,elo_away,form_home,form_away,tier
+2026-11-21,Man City vs Fulham FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2026-11-24,Man City vs SSC Napoli,Europe,UEFA Champions League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2026-12-02,Man City vs Leeds United FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2026-12-12,Man City vs Chelsea FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2026-12-19,Man City vs Hull City AFC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2027-01-03,Man City vs Tottenham Hotspur FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2027-01-16,Man City vs Nottingham Forest FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2027-01-27,Man City vs Sporting Clube de Portugal,Europe,UEFA Champions League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2027-01-30,Man City vs Arsenal FC,England,Premier League,3.12-0.74,3.12,0.74,82.4,12.4,5.2,50.5,73.0,82.4,85.0,D,1,3-0 11.1% / 2-0 10.7% / 4-0 8.7%,0,1871.0,1500.0,WWLDD,,Gold
+2026-11-24,RB Leipzig vs Racing Club de Lens,Europe,UEFA Champions League,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2026-12-05,RB Leipzig vs 1. FSV Mainz 05,Germany,Bundesliga,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2026-12-19,RB Leipzig vs Borussia Dortmund,Germany,Bundesliga,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2027-01-12,RB Leipzig vs VfB Stuttgart,Germany,Bundesliga,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2027-01-20,RB Leipzig vs FK Shakhtar Donetsk,Europe,UEFA Champions League,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2027-01-30,RB Leipzig vs SV Werder Bremen,Germany,Bundesliga,2.43-0.88,2.43,0.88,70.3,19.0,10.8,54.3,63.9,70.3,79.5,D,1,2-0 10.9% / 2-1 9.6% / 1-1 8.9%,0,1683.8,1500.0,LLWWL,,Gold
+2026-11-29,Arsenal FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2026-12-05,Brentford FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2026-12-08,FC Barcelona vs Man City,Europe,UEFA Champions League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2026-12-26,Newcastle United FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2026-12-29,Everton FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2027-01-06,Leeds United FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2027-01-20,Racing Club de Lens vs Man City,Europe,UEFA Champions League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2027-01-23,Brighton & Hove Albion FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2027-02-06,Fulham FC vs Man City,England,Premier League,0.79-2.33,0.79,2.33,10.1,19.5,70.5,50.3,59.8,70.5,76.6,D,2,0-2 12.1% / 1-2 9.6% / 0-3 9.4%,0,1500.0,1871.0,,WWLDD,Gold
+2026-11-28,PSV vs Go Ahead Eagles,Netherlands,Eredivisie,2.32-1.0,2.32,1.0,65.5,20.7,13.8,57.9,64.0,65.5,73.8,D,1,2-0 9.9% / 2-1 9.8% / 1-1 9.6%,1,1511.8,1480.5,W,DLLDW,Gold
+2026-11-28,Man Utd vs Brentford FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2026-12-05,Man Utd vs Coventry City FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2026-12-27,Man Utd vs Nottingham Forest FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2027-01-07,Man Utd vs Newcastle United FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2027-01-20,Man Utd vs FC Bayern München,Europe,UEFA Champions League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2027-01-23,Man Utd vs Liverpool FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2027-02-06,Man Utd vs Chelsea FC,England,Premier League,2.13-0.88,2.13,0.88,64.6,22.1,13.3,52.7,57.6,64.6,72.6,D,1,2-0 11.3% / 1-1 10.5% / 2-1 9.9%,0,1735.7,1500.0,WDDWW,,Gold
+2026-12-12,SC Heerenveen vs Go Ahead Eagles,Netherlands,Eredivisie,1.83-0.96,1.83,0.96,56.2,25.6,18.2,53.3,52.8,56.2,62.7,D,1,1-1 12.2% / 2-0 10.3% / 2-1 9.9%,0,1500.0,1480.5,,DLLDW,Balanced
+2027-01-10,FC Groningen vs Go Ahead Eagles,Netherlands,Eredivisie,1.83-0.96,1.83,0.96,56.2,25.6,18.2,53.3,52.8,56.2,62.7,D,1,1-1 12.2% / 2-0 10.3% / 2-1 9.9%,0,1500.0,1480.5,,DLLDW,Balanced
+2027-01-30,ADO Den Haag vs Go Ahead Eagles,Netherlands,Eredivisie,1.83-0.96,1.83,0.96,56.2,25.6,18.2,53.3,52.8,56.2,62.7,D,1,1-1 12.2% / 2-0 10.3% / 2-1 9.9%,0,1500.0,1480.5,,DLLDW,Balanced
+2026-11-21,Aston Villa vs Sunderland AFC,England,Premier League,1.85-1.1,1.85,1.1,53.5,25.5,21.0,57.6,56.5,53.5,59.5,D,1,1-1 12.1% / 2-1 9.9% / 2-0 9.0%,0,1615.1,1500.0,LLWLL,,Balanced
+2026-12-02,Aston Villa vs Everton FC,England,Premier League,1.85-1.1,1.85,1.1,53.5,25.5,21.0,57.6,56.5,53.5,59.5,D,1,1-1 12.1% / 2-1 9.9% / 2-0 9.0%,0,1615.1,1500.0,LLWLL,,Balanced
+2026-12-08,Aston Villa vs Paris Saint-Germain FC,Europe,UEFA Champions League,1.85-1.1,1.85,1.1,53.5,25.5,21.0,57.6,56.5,53.5,59.5,D,1,1-1 12.1% / 2-1 9.9% / 2-0 9.0%,0,1615.1,1500.0,LLWLL,,Balanced
+2026-12-26,Aston Villa vs Leeds United FC,England,Premier League,1.85-1.1,1.85,1.1,53.5,25.5,21.0,57.6,56.5,53.5,59.5,D,1,1-1 12.1% / 2-1 9.9% / 2-0 9.0%,0,1615.1,1500.0,LLWLL,,Balanced
+2027-01-30,Aston Villa vs Ipswich Town FC,England,Premier League,1.85-1.1,1.85,1.1,53.5,25.5,21.0,57.6,56.5,53.5,59.5,D,1,1-1 12.1% / 2-1 9.9% / 2-0 9.0%,0,1615.1,1500.0,LLWLL,,Balanced
+2026-11-21,1. FC Union Berlin vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2026-11-29,SC Freiburg vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2026-12-12,1. FC Köln vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2027-01-16,TSG 1899 Hoffenheim vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2027-01-23,Borussia Mönchengladbach vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2027-01-27,Feyenoord Rotterdam vs RB Leipzig,Europe,UEFA Champions League,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2027-02-06,Hamburger SV vs RB Leipzig,Germany,Bundesliga,1.11-1.94,1.11,1.94,20.1,24.7,55.2,58.6,58.5,55.2,58.6,D,2,1-1 11.6% / 1-2 9.9% / 0-2 9.0%,0,1500.0,1683.8,,LLWWL,Balanced
+2026-11-28,SC Cambuur-Leeuwarden vs Sparta Rotterdam,Netherlands,Eredivisie,1.76-1.04,1.76,1.04,52.6,26.4,21.0,55.1,53.0,52.6,58.5,D,1,1-1 12.6% / 2-1 9.8% / 2-0 9.4%,0,1500.0,1465.2,,WLWLL,Balanced
+2026-12-19,Fortuna Sittard vs Sparta Rotterdam,Netherlands,Eredivisie,1.76-1.04,1.76,1.04,52.6,26.4,21.0,55.1,53.0,52.6,58.5,D,1,1-1 12.6% / 2-1 9.8% / 2-0 9.4%,0,1500.0,1465.2,,WLWLL,Balanced
+2027-01-15,SC Heerenveen vs Sparta Rotterdam,Netherlands,Eredivisie,1.76-1.04,1.76,1.04,52.6,26.4,21.0,55.1,53.0,52.6,58.5,D,1,1-1 12.6% / 2-1 9.8% / 2-0 9.4%,0,1500.0,1465.2,,WLWLL,Balanced
+2027-02-06,FC Twente '65 vs Sparta Rotterdam,Netherlands,Eredivisie,1.76-1.04,1.76,1.04,52.6,26.4,21.0,55.1,53.0,52.6,58.5,D,1,1-1 12.6% / 2-1 9.8% / 2-0 9.4%,0,1500.0,1465.2,,WLWLL,Balanced
+2026-12-09,PSV vs Club Atlético de Madrid,Europe,UEFA Champions League,1.87-1.23,1.87,1.23,50.9,25.4,23.7,61.2,59.8,50.9,56.5,D,1,1-1 11.7% / 2-1 9.7% / 2-0 7.9%,0,1511.8,1500.0,W,,Balanced
+2026-12-13,PSV vs Telstar 1963,Netherlands,Eredivisie,1.87-1.23,1.87,1.23,50.9,25.4,23.7,61.2,59.8,50.9,56.5,D,1,1-1 11.7% / 2-1 9.7% / 2-0 7.9%,0,1511.8,1500.0,W,,Balanced
+2027-01-23,PSV vs ADO Den Haag,Netherlands,Eredivisie,1.87-1.23,1.87,1.23,50.9,25.4,23.7,61.2,59.8,50.9,56.5,D,1,1-1 11.7% / 2-1 9.7% / 2-0 7.9%,0,1511.8,1500.0,W,,Balanced
+2027-01-27,PSV vs VfB Stuttgart,Europe,UEFA Champions League,1.87-1.23,1.87,1.23,50.9,25.4,23.7,61.2,59.8,50.9,56.5,D,1,1-1 11.7% / 2-1 9.7% / 2-0 7.9%,0,1511.8,1500.0,W,,Balanced
+2026-11-22,Paris FC vs Angers SCO,France,Ligue 1,1.56-0.95,1.56,0.95,50.1,28.6,21.3,49.9,45.8,50.1,55.6,D,1,1-1 13.6% / 1-0 11.2% / 2-0 9.9%,0,1544.2,1500.0,DWWWW,,Balanced
+2026-12-05,Paris FC vs Le Mans FC,France,Ligue 1,1.56-0.95,1.56,0.95,50.1,28.6,21.3,49.9,45.8,50.1,55.6,D,1,1-1 13.6% / 1-0 11.2% / 2-0 9.9%,0,1544.2,1500.0,DWWWW,,Balanced
+2027-01-02,Paris FC vs Le Havre AC,France,Ligue 1,1.56-0.95,1.56,0.95,50.1,28.6,21.3,49.9,45.8,50.1,55.6,D,1,1-1 13.6% / 1-0 11.2% / 2-0 9.9%,0,1544.2,1500.0,DWWWW,,Balanced
+2027-01-17,Paris FC vs Toulouse FC,France,Ligue 1,1.56-0.95,1.56,0.95,50.1,28.6,21.3,49.9,45.8,50.1,55.6,D,1,1-1 13.6% / 1-0 11.2% / 2-0 9.9%,0,1544.2,1500.0,DWWWW,,Balanced
+2027-01-30,Paris FC vs AJ Auxerre,France,Ligue 1,1.56-0.95,1.56,0.95,50.1,28.6,21.3,49.9,45.8,50.1,55.6,D,1,1-1 13.6% / 1-0 11.2% / 2-0 9.9%,0,1544.2,1500.0,DWWWW,,Balanced
+2026-12-13,Crystal Palace vs Man Utd,England,Premier League,1.03-1.74,1.03,1.74,21.0,26.7,52.3,54.4,52.1,52.3,55.2,A,2,1-1 12.7% / 1-2 9.8% / 0-2 9.5%,419,1675.0,1735.7,WWDDW,WDDWW,Balanced
+2027-01-16,Aston Villa vs Man Utd,England,Premier League,1.2-1.88,1.2,1.88,22.9,25.3,51.9,60.5,59.4,51.9,54.6,A,2,1-1 11.7% / 1-2 9.8% / 0-2 8.2%,419,1615.1,1735.7,LLWLL,WDDWW,Risky
+2026-11-22,Liverpool FC vs Man Utd,England,Premier League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2026-11-25,Sporting Clube de Portugal vs Man Utd,Europe,UEFA Champions League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2026-12-02,Newcastle United FC vs Man Utd,England,Premier League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2027-01-02,Brighton & Hove Albion FC vs Man Utd,England,Premier League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2027-01-27,Villarreal CF vs Man Utd,Europe,UEFA Champions League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2027-01-30,Brentford FC vs Man Utd,England,Premier League,1.13-1.73,1.13,1.73,23.4,26.7,49.9,57.0,54.3,49.9,52.3,D,2,1-1 12.7% / 1-2 9.7% / 0-2 8.6%,0,1500.0,1735.7,,WDDWW,Risky
+2026-12-08,Man Utd vs RB Leipzig,Europe,UEFA Champions League,1.73-1.31,1.73,1.31,45.9,26.4,27.7,61.5,58.5,45.9,50.6,A,1,1-1 12.3% / 2-1 9.4% / 2-0 7.2%,374,1735.7,1683.8,WDDWW,LLWWL,Risky
+2026-11-29,Crystal Palace vs Hull City AFC,England,Premier League,1.5-1.08,1.5,1.08,45.2,29.1,25.8,52.9,47.6,45.2,49.8,D,1,1-1 13.9% / 1-0 9.8% / 2-1 9.2%,0,1675.0,1500.0,WWDDW,,Risky
+2026-12-27,Crystal Palace vs Arsenal FC,England,Premier League,1.5-1.08,1.5,1.08,45.2,29.1,25.8,52.9,47.6,45.2,49.8,D,1,1-1 13.9% / 1-0 9.8% / 2-1 9.2%,0,1675.0,1500.0,WWDDW,,Risky
+2027-01-06,Crystal Palace vs Chelsea FC,England,Premier League,1.5-1.08,1.5,1.08,45.2,29.1,25.8,52.9,47.6,45.2,49.8,D,1,1-1 13.9% / 1-0 9.8% / 2-1 9.2%,0,1675.0,1500.0,WWDDW,,Risky
+2027-01-23,Crystal Palace vs Tottenham Hotspur FC,England,Premier League,1.5-1.08,1.5,1.08,45.2,29.1,25.8,52.9,47.6,45.2,49.8,D,1,1-1 13.9% / 1-0 9.8% / 2-1 9.2%,0,1675.0,1500.0,WWDDW,,Risky
+2027-02-06,Crystal Palace vs Coventry City FC,England,Premier League,1.5-1.08,1.5,1.08,45.2,29.1,25.8,52.9,47.6,45.2,49.8,D,1,1-1 13.9% / 1-0 9.8% / 2-1 9.2%,0,1675.0,1500.0,WWDDW,,Risky
+2026-11-14,Mirassol FC vs CA Mineiro,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-14,Chapecoense AF vs CR Vasco da Gama,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-18,Coritiba FBC vs Santos FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-18,Clube do Remo vs Chapecoense AF,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-18,Cruzeiro EC vs SE Palmeiras,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-18,CR Flamengo vs CA Paranaense,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-19,Grêmio FBPA vs EC Bahia,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-19,SC Corinthians Paulista vs Botafogo FR,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-19,EC Vitória vs RB Bragantino,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-19,CR Vasco da Gama vs SC Internacional,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Southampton FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Millwall FC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Norwich City FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Deportivo Alavés vs RC Deportivo La Coruña,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Como 1907 vs Cagliari Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,SS Lazio vs US Lecce,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Borussia Mönchengladbach vs Borussia Dortmund,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Bayer 04 Leverkusen vs SC Paderborn 07,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,SV 07 Elversberg vs SC Freiburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Eintracht Frankfurt vs TSG 1899 Hoffenheim,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,AFC Bournemouth vs Nottingham Forest FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Stoke City FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Swansea City AFC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Wolverhampton Wanderers FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Lincoln City FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Chelsea FC vs Leeds United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Bolton Wanderers FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Tottenham Hotspur FC vs Ipswich Town FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Sheffield United FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,West Ham United FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Middlesbrough FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Rayo Vallecano de Madrid vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,OGC Nice vs Paris Saint-Germain FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Parma Calcio 1913 vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Sevilla FC vs Real Betis Balompié,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Newcastle United FC vs Arsenal FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,FC Schalke 04 vs VfB Stuttgart,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,FC Utrecht vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Feyenoord Rotterdam vs SBV Excelsior,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,SE Palmeiras vs CR Flamengo,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,SSC Napoli vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,RC Strasbourg Alsace vs Stade Brestois 29,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Racing Club de Lens vs Toulouse FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Lille OSC vs Olympique Lyonnais,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,AS Monaco FC vs AJ Auxerre,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Real Madrid CF vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,FC Groningen vs SC Heerenveen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,Telstar 1963 vs PEC Zwolle,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-21,EC Bahia vs Coritiba FBC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Chapecoense AF vs Cruzeiro EC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,FC Twente '65 vs Willem II Tilburg,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Juventus FC vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Burnley FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,FC Barcelona vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,AFC Ajax vs ADO Den Haag,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Bologna FC 1909 vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,US Sassuolo Calcio vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Hull City AFC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,FC Augsburg vs 1. FSV Mainz 05,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Real Racing Club de Santander vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,FC Lorient vs Stade Rennais FC 1901,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,SV Werder Bremen vs Hamburger SV,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,AC Milan vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,CA Osasuna vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,CA Paranaense vs Clube do Remo,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Olympique de Marseille vs Le Mans FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Atalanta BC vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Getafe CF vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Fluminense FC vs Mirassol FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,RB Bragantino vs CR Vasco da Gama,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-23,AC Monza vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-23,Brentford FC vs Everton FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-23,Levante UD vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-23,SC Internacional vs EC Vitória,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-23,Botafogo FR vs São Paulo FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Santos FC vs Grêmio FBPA,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,FK Bodø/Glimt vs LASK Linz,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Middlesbrough FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Norwich City FC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Sheffield United FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Charlton Athletic FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Bristol City FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Portsmouth FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Cardiff City FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,ŠK Slovan Bratislava vs Real Betis Balompié,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Como 1907 vs PAE AEK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Arsenal FC vs Borussia Dortmund,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Wolverhampton Wanderers FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Feyenoord Rotterdam vs FC Porto,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-24,Chapecoense AF vs SE Palmeiras,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,SK Slavia Praha vs Villarreal CF,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Sabah FK vs FC Barcelona,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Burnley FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Watford FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Bolton Wanderers FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Club Atlético de Madrid vs Viking FK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Stoke City FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Club Brugge KV vs Liverpool FC,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,FC Internazionale Milano vs VfB Stuttgart,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,FK Shakhtar Donetsk vs Fenerbahçe SK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Paris Saint-Germain FC vs AS Roma,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,Lille OSC vs FC Bayern München,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-25,CA Mineiro vs SC Corinthians Paulista,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-26,São Paulo FC vs Clube do Remo,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,FC Groningen vs Willem II Tilburg,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,SV Werder Bremen vs Borussia Mönchengladbach,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,Venezia FC vs Bologna FC 1909,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,Levante UD vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,Southampton FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,Nottingham Forest FC vs Chelsea FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,CS Marítimo vs CD Nacional,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-27,Fluminense FC vs Cruzeiro EC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Lincoln City FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Blackburn Rovers FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Preston North End FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Real Betis Balompié vs Rayo Vallecano de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Frosinone Calcio vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,1. FC Köln vs SV 07 Elversberg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,SC Paderborn 07 vs FC Schalke 04,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Hamburger SV vs FC Bayern München,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,1. FSV Mainz 05 vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,West Ham United FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Birmingham City FC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Queens Park Rangers FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Leeds United FC vs Coventry City FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Wrexham AFC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,West Bromwich Albion FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Derby County FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Millwall FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Málaga CF vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Moreirense FC vs CD Santa Clara,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,SBV Excelsior vs Telstar 1963,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,FC Arouca vs Rio Ave FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Angers SCO vs Racing Club de Lens,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Torino FC vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,VfB Stuttgart vs Eintracht Frankfurt,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Elche CF vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Académico de Viseu FC vs FC Alverca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Paris Saint-Germain FC vs FC Lorient,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,OGC Nice vs ES Troyes AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Le Havre AC vs RC Strasbourg Alsace,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,FC Internazionale Milano vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Le Mans FC vs Lille OSC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Real Madrid CF vs Deportivo Alavés,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-28,Vitória SC vs CF Estrela da Amadora,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Botafogo FR vs EC Bahia,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,ADO Den Haag vs FC Utrecht,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Udinese Calcio vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Swansea City AFC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Everton FC vs Liverpool FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Valencia CF vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Feyenoord Rotterdam vs AFC Ajax,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Fortuna Sittard vs SC Heerenveen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,US Sassuolo Calcio vs SSC Napoli,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,AJ Auxerre vs Olympique de Marseille,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Fulham FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Brighton & Hove Albion FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Sunderland AFC vs Tottenham Hotspur FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,RC Deportivo La Coruña vs FC Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,PEC Zwolle vs AZ,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Toulouse FC vs Stade Rennais FC 1901,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,TSG 1899 Hoffenheim vs FC Augsburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,AS Roma vs AC Monza,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,RC Celta de Vigo vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Gil Vicente FC vs GD Estoril Praia,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Borussia Dortmund vs Bayer 04 Leverkusen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,NEC vs FC Twente '65,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,EC Vitória vs Santos FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Coritiba FBC vs CR Flamengo,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Como 1907 vs Juventus FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Olympique Lyonnais vs AS Monaco FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Real Sociedad de Fútbol vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,FC Porto vs Sporting Clube de Portugal,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,Mirassol FC vs CA Paranaense,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,SC Corinthians Paulista vs Grêmio FBPA,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,SC Internacional vs RB Bragantino,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-29,CA Mineiro vs CR Vasco da Gama,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-01,Coventry City FC vs Ipswich Town FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,Real Sociedad de Fútbol vs Real Madrid CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,Hull City AFC vs Nottingham Forest FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,Liverpool FC vs Sunderland AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,AFC Bournemouth vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,Brentford FC vs Arsenal FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-02,FC Barcelona vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,CR Flamengo vs Chapecoense AF,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,CA Paranaense vs São Paulo FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,SE Palmeiras vs Coritiba FBC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,RB Bragantino vs Fluminense FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,Santos FC vs Botafogo FR,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,CR Vasco da Gama vs EC Vitória,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,Grêmio FBPA vs Mirassol FC,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,EC Bahia vs CA Mineiro,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,Clube do Remo vs SC Corinthians Paulista,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,Cruzeiro EC vs SC Internacional,Brazil,Campeonato Brasileiro Série A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-03,Tottenham Hotspur FC vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,Telstar 1963 vs FC Groningen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,FC Bayern München vs SC Paderborn 07,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,Bologna FC 1909 vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,Toulouse FC vs Paris Saint-Germain FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,Sheffield United FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-04,Sporting Clube de Portugal vs CS Marítimo,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Bolton Wanderers FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Chelsea FC vs Liverpool FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Bristol City FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Middlesbrough FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Watford FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,AC Monza vs Como 1907,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,1. FC Union Berlin vs Hamburger SV,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,SC Freiburg vs TSG 1899 Hoffenheim,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Bayer 04 Leverkusen vs Borussia Mönchengladbach,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,FC Augsburg vs 1. FC Köln,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Portsmouth FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Charlton Athletic FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,AFC Bournemouth vs Hull City AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Leeds United FC vs Ipswich Town FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Norwich City FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Stoke City FC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Wolverhampton Wanderers FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Cardiff City FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,CD Nacional vs Sport Lisboa e Benfica,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Willem II Tilburg vs Feyenoord Rotterdam,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Lille OSC vs AJ Auxerre,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Frosinone Calcio vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Nottingham Forest FC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Eintracht Frankfurt vs SV Werder Bremen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,CD Santa Clara vs FC Porto,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,AS Monaco FC vs Angers SCO,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,RC Strasbourg Alsace vs FC Lorient,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,SSC Napoli vs US Lecce,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Racing Club de Lens vs Le Havre AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Fortuna Sittard vs PEC Zwolle,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-05,Sporting Clube de Braga vs FC Arouca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Club Atlético de Madrid vs Real Betis Balompié,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Rayo Vallecano de Madrid vs Levante UD,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,FC Barcelona vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Sevilla FC vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Athletic Club vs Real Madrid CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Villarreal CF vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Real Racing Club de Santander vs RC Deportivo La Coruña,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,CA Osasuna vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Getafe CF vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Deportivo Alavés vs RCD Espanyol de Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,SC Heerenveen vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Genoa CFC vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Burnley FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,AFC Ajax vs FC Utrecht,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,SS Lazio vs Atalanta BC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Newcastle United FC vs Sunderland AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Everton FC vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,ES Troyes AC vs Olympique Lyonnais,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,FC Schalke 04 vs Borussia Dortmund,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Rio Ave FC vs Casa Pia AC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,CF Estrela da Amadora vs Gil Vicente FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,ADO Den Haag vs SBV Excelsior,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Stade Rennais FC 1901 vs Stade Brestois 29,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Tottenham Hotspur FC vs Arsenal FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,SV 07 Elversberg vs VfB Stuttgart,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Juventus FC vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,GD Estoril Praia vs Vitória SC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,Olympique de Marseille vs OGC Nice,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,AC Milan vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-06,FC Famalicão vs Académico de Viseu FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-07,Venezia FC vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-07,ACF Fiorentina vs Cagliari Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-07,FC Alverca vs Moreirense FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Viking FK vs Feyenoord Rotterdam,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Villarreal CF vs Sabah FK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Millwall FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Queens Park Rangers FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,West Bromwich Albion FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Swansea City AFC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Blackburn Rovers FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Wrexham AFC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,West Ham United FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,SSC Napoli vs Club Brugge KV,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,AS Roma vs Sporting Clube de Portugal,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,PAE AEK vs Galatasaray SK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,Birmingham City FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-08,FC Bayern München vs SK Slavia Praha,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Real Betis Balompié vs Como 1907,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,ŠK Slovan Bratislava vs FK Shakhtar Donetsk,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Rayo Vallecano de Madrid vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Lincoln City FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Preston North End FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Derby County FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Racing Club de Lens vs FK Bodø/Glimt,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Arsenal FC vs Real Madrid CF,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,VfB Stuttgart vs Lille OSC,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Southampton FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Liverpool FC vs FC Porto,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,LASK Linz vs Fenerbahçe SK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-09,Borussia Dortmund vs FC Internazionale Milano,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-11,Hamburger SV vs FC Schalke 04,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-11,AJ Auxerre vs Toulouse FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-11,Udinese Calcio vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-11,Bolton Wanderers FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-11,Académico de Viseu FC vs FC Arouca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Queens Park Rangers FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Stoke City FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Preston North End FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Cagliari Calcio vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,VfB Stuttgart vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,SC Paderborn 07 vs SV 07 Elversberg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Borussia Dortmund vs FC Augsburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Blackburn Rovers FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Sheffield United FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,West Ham United FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Cardiff City FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Fulham FC vs Brentford FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Portsmouth FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Charlton Athletic FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Wolverhampton Wanderers FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Liverpool FC vs Leeds United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Ipswich Town FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,FC Utrecht vs Fortuna Sittard,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,GD Estoril Praia vs CD Santa Clara,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,US Lecce vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Borussia Mönchengladbach vs Eintracht Frankfurt,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,CS Marítimo vs Rio Ave FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Stade Brestois 29 vs ES Troyes AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Como 1907 vs Bologna FC 1909,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Angers SCO vs RC Strasbourg Alsace,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Le Havre AC vs Le Mans FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,OGC Nice vs Racing Club de Lens,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,PEC Zwolle vs SBV Excelsior,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-12,Gil Vicente FC vs Sporting Clube de Portugal,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Real Madrid CF vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Real Sociedad de Fútbol vs Getafe CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Levante UD vs Deportivo Alavés,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,RCD Espanyol de Barcelona vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Villarreal CF vs Rayo Vallecano de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Real Betis Balompié vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,RC Deportivo La Coruña vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Club Atlético de Madrid vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Elche CF vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Málaga CF vs FC Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,SS Lazio vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Willem II Tilburg vs ADO Den Haag,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,FC Groningen vs Feyenoord Rotterdam,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Brighton & Hove Albion FC vs Everton FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Sunderland AFC vs Nottingham Forest FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,FC Lorient vs Lille OSC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Arsenal FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,FC Internazionale Milano vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Lincoln City FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,1. FSV Mainz 05 vs SC Freiburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Casa Pia AC vs CD Nacional,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Moreirense FC vs FC Famalicão,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,AZ vs NEC,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Stade Rennais FC 1901 vs AS Monaco FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,TSG 1899 Hoffenheim vs FC Bayern München,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Parma Calcio 1913 vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Vitória SC vs FC Alverca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,SV Werder Bremen vs Bayer 04 Leverkusen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,AFC Ajax vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,Olympique Lyonnais vs Olympique de Marseille,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,SSC Napoli vs AC Milan,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-13,FC Porto vs CF Estrela da Amadora,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-14,Atalanta BC vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-14,Juventus FC vs AC Monza,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-14,Hull City AFC vs Tottenham Hotspur FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-14,Sport Lisboa e Benfica vs Sporting Clube de Braga,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-18,Frosinone Calcio vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-18,Telstar 1963 vs Willem II Tilburg,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-18,FC Bayern München vs SV Werder Bremen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-18,US Lecce vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-18,West Bromwich Albion FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Bristol City FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Watford FC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Brentford FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Millwall FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Birmingham City FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Swansea City AFC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,US Sassuolo Calcio vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,FC Augsburg vs SC Paderborn 07,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,SV 07 Elversberg vs Hamburger SV,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Bayer 04 Leverkusen vs Eintracht Frankfurt,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,1. FSV Mainz 05 vs 1. FC Köln,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Derby County FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Southampton FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,AFC Bournemouth vs Coventry City FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Middlesbrough FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Leeds United FC vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Wrexham AFC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Norwich City FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Burnley FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,SBV Excelsior vs AZ,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,AC Milan vs Como 1907,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,Liverpool FC vs Tottenham Hotspur FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,AS Roma vs Juventus FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-19,FC Utrecht vs SC Heerenveen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,CD Nacional vs Moreirense FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Deportivo Alavés vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,CF Estrela da Amadora vs CS Marítimo,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,RC Deportivo La Coruña vs Real Madrid CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Rio Ave FC vs Sport Lisboa e Benfica,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,CA Osasuna vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,FC Alverca vs Gil Vicente FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Athletic Club vs Real Betis Balompié,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Sporting Clube de Braga vs Académico de Viseu FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,RC Celta de Vigo vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Rayo Vallecano de Madrid vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,FC Arouca vs Casa Pia AC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Valencia CF vs RCD Espanyol de Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,FC Famalicão vs FC Porto,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Sevilla FC vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,FC Barcelona vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,CD Santa Clara vs Vitória SC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Getafe CF vs Levante UD,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-20,Sporting Clube de Portugal vs GD Estoril Praia,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Bolton Wanderers FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Sheffield United FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Fulham FC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Queens Park Rangers FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Portsmouth FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Cardiff City FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,West Ham United FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Preston North End FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Charlton Athletic FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Tottenham Hotspur FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Stoke City FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Everton FC vs Sunderland AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Blackburn Rovers FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Ipswich Town FC vs Brentford FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Lincoln City FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Wolverhampton Wanderers FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-26,Hull City AFC vs Liverpool FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Gil Vicente FC vs FC Arouca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,FC Porto vs CD Nacional,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,GD Estoril Praia vs FC Alverca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Moreirense FC vs Académico de Viseu FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Vitória SC vs Rio Ave FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Casa Pia AC vs FC Famalicão,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,CS Marítimo vs Sporting Clube de Braga,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,CD Santa Clara vs CF Estrela da Amadora,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Sport Lisboa e Benfica vs Sporting Clube de Portugal,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-27,Coventry City FC vs Chelsea FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Wrexham AFC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Hull City AFC vs Leeds United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Tottenham Hotspur FC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,West Bromwich Albion FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Bristol City FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Burnley FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Swansea City AFC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Middlesbrough FC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Norwich City FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Derby County FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Millwall FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Watford FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Birmingham City FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-12-29,Southampton FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Norwich City FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Burnley FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Wrexham AFC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Birmingham City FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Southampton FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Bristol City FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Watford FC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Swansea City AFC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Derby County FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Middlesbrough FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Millwall FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,West Bromwich Albion FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-01,Leeds United FC vs Everton FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Cagliari Calcio vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,ACF Fiorentina vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Torino FC vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Liverpool FC vs Coventry City FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Nottingham Forest FC vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Arsenal FC vs Ipswich Town FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Sunderland AFC vs Hull City AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Stade Brestois 29 vs Olympique de Marseille,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,AS Roma vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,AC Monza vs AC Milan,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,Toulouse FC vs Angers SCO,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,FC Lorient vs AJ Auxerre,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,ES Troyes AC vs Stade Rennais FC 1901,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-02,AS Monaco FC vs OGC Nice,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Levante UD vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Villarreal CF vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Málaga CF vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Real Madrid CF vs Getafe CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,RC Celta de Vigo vs RC Deportivo La Coruña,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,RCD Espanyol de Barcelona vs FC Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Real Racing Club de Santander vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Rayo Vallecano de Madrid vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Real Betis Balompié vs Deportivo Alavés,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Real Sociedad de Fútbol vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,FC Internazionale Milano vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Como 1907 vs US Lecce,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Le Mans FC vs Olympique Lyonnais,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Udinese Calcio vs Atalanta BC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Chelsea FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Lille OSC vs RC Strasbourg Alsace,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Parma Calcio 1913 vs SSC Napoli,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Racing Club de Lens vs Paris Saint-Germain FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-03,Bologna FC 1909 vs Juventus FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Venezia FC vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Genoa CFC vs AC Monza,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Brighton & Hove Albion FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Nottingham Forest FC vs Hull City AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Arsenal FC vs Brentford FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,AC Milan vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-05,Sunderland AFC vs Liverpool FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,Juventus FC vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,US Lecce vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,Frosinone Calcio vs Bologna FC 1909,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,Atalanta BC vs Como 1907,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,Ipswich Town FC vs Coventry City FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,Fulham FC vs Tottenham Hotspur FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-06,SS Lazio vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-07,US Sassuolo Calcio vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-07,SSC Napoli vs Cagliari Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-08,FC Twente '65 vs Fortuna Sittard,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-08,Borussia Dortmund vs 1. FSV Mainz 05,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Athletic Club vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,CD Nacional vs Gil Vicente FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Deportivo Alavés vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Real Madrid CF vs Levante UD,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,FC Arouca vs Sport Lisboa e Benfica,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,CF Estrela da Amadora vs GD Estoril Praia,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,RCD Espanyol de Barcelona vs Real Betis Balompié,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,RC Deportivo La Coruña vs Rayo Vallecano de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Académico de Viseu FC vs Casa Pia AC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Club Atlético de Madrid vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Sporting Clube de Portugal vs CD Santa Clara,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Elche CF vs Getafe CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Rio Ave FC vs Moreirense FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Sporting Clube de Braga vs FC Porto,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Sevilla FC vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,CA Osasuna vs FC Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,FC Alverca vs CS Marítimo,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,FC Famalicão vs Vitória SC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Valencia CF vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,NEC vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Como 1907 vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,ADO Den Haag vs Telstar 1963,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Parma Calcio 1913 vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,ACF Fiorentina vs US Lecce,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,SV Werder Bremen vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Hamburger SV vs Bayer 04 Leverkusen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,Torino FC vs Atalanta BC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-10,FC Internazionale Milano vs Juventus FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-11,Cagliari Calcio vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-11,Udinese Calcio vs SSC Napoli,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-12,1. FC Köln vs Borussia Dortmund,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-12,1. FSV Mainz 05 vs TSG 1899 Hoffenheim,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-12,FC Augsburg vs Borussia Mönchengladbach,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-13,SV 07 Elversberg vs Eintracht Frankfurt,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-13,FC Bayern München vs Bayer 04 Leverkusen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-13,SC Freiburg vs Hamburger SV,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-13,1. FC Union Berlin vs SC Paderborn 07,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-14,FC Schalke 04 vs SV Werder Bremen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-15,West Ham United FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-15,VfB Stuttgart vs 1. FSV Mainz 05,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-15,Olympique de Marseille vs Lille OSC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Lincoln City FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Blackburn Rovers FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Queens Park Rangers FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Preston North End FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Bolton Wanderers FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Portsmouth FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Wolverhampton Wanderers FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Sheffield United FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Cardiff City FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Stoke City FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Hamburger SV vs FC Augsburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,SC Paderborn 07 vs 1. FC Köln,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Borussia Dortmund vs SC Freiburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Borussia Mönchengladbach vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Chelsea FC vs Sunderland AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,AFC Bournemouth vs Ipswich Town FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Newcastle United FC vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Coventry City FC vs Everton FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Brentford FC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Hull City AFC vs Arsenal FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Tottenham Hotspur FC vs Leeds United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Telstar 1963 vs NEC,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Angers SCO vs Paris Saint-Germain FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Eintracht Frankfurt vs FC Bayern München,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,SBV Excelsior vs Feyenoord Rotterdam,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,ADO Den Haag vs PEC Zwolle,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,RC Strasbourg Alsace vs Le Mans FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,OGC Nice vs Le Havre AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,AJ Auxerre vs ES Troyes AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-16,Stade Rennais FC 1901 vs Racing Club de Lens,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Málaga CF vs Real Madrid CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Casa Pia AC vs CS Marítimo,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,US Sassuolo Calcio vs AC Monza,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,FC Famalicão vs GD Estoril Praia,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Getafe CF vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Parma Calcio 1913 vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Villarreal CF vs Deportivo Alavés,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,FC Alverca vs FC Porto,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,SS Lazio vs Bologna FC 1909,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Sporting Clube de Braga vs Moreirense FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Real Betis Balompié vs RC Deportivo La Coruña,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,US Lecce vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Levante UD vs RCD Espanyol de Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,FC Arouca vs Vitória SC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Atalanta BC vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,RC Celta de Vigo vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,AC Milan vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,FC Barcelona vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,CD Nacional vs CD Santa Clara,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,SSC Napoli vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Sporting Clube de Portugal vs CF Estrela da Amadora,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Rayo Vallecano de Madrid vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Juventus FC vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Real Racing Club de Santander vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Académico de Viseu FC vs Sport Lisboa e Benfica,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Venezia FC vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Rio Ave FC vs Gil Vicente FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Club Atlético de Madrid vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Cagliari Calcio vs Como 1907,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,FC Utrecht vs FC Twente '65,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Charlton Athletic FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,AFC Ajax vs FC Groningen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,SV Werder Bremen vs SV 07 Elversberg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,SC Cambuur-Leeuwarden vs Willem II Tilburg,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,AS Monaco FC vs Stade Brestois 29,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Bayer 04 Leverkusen vs FC Schalke 04,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-17,Olympique Lyonnais vs FC Lorient,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-20,Fenerbahçe SK vs Villarreal CF,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-20,Sabah FK vs SSC Napoli,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-20,Sporting Clube de Portugal vs FC Barcelona,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-20,Real Betis Balompié vs Arsenal FC,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-20,Como 1907 vs Paris Saint-Germain FC,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-22,Preston North End FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-22,SBV Excelsior vs Fortuna Sittard,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-22,SV Werder Bremen vs SC Freiburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-22,ES Troyes AC vs AS Monaco FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Queens Park Rangers FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Watford FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Derby County FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Blackburn Rovers FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Charlton Athletic FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Birmingham City FC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Bristol City FC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Wrexham AFC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,West Bromwich Albion FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Portsmouth FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,SC Paderborn 07 vs 1. FSV Mainz 05,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,FC Schalke 04 vs FC Augsburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,VfB Stuttgart vs FC Bayern München,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Arsenal FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Ipswich Town FC vs Hull City AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Sunderland AFC vs Coventry City FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Leeds United FC vs Chelsea FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Everton FC vs Brentford FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Nottingham Forest FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,AFC Ajax vs Telstar 1963,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Hamburger SV vs Borussia Dortmund,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Feyenoord Rotterdam vs PEC Zwolle,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,FC Twente '65 vs SC Heerenveen,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Toulouse FC vs OGC Nice,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Paris Saint-Germain FC vs AJ Auxerre,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Le Mans FC vs Angers SCO,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-23,Racing Club de Lens vs Stade Brestois 29,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Valencia CF vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,FC Porto vs Rio Ave FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Frosinone Calcio vs AC Milan,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,RCD Espanyol de Barcelona vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,US Lecce vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Deportivo Alavés vs FC Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,CD Santa Clara vs Académico de Viseu FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Bologna FC 1909 vs Atalanta BC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Real Madrid CF vs Real Betis Balompié,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Moreirense FC vs FC Arouca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,FC Internazionale Milano vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Real Racing Club de Santander vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Gil Vicente FC vs Sporting Clube de Braga,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Como 1907 vs SSC Napoli,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Athletic Club vs Levante UD,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Vitória SC vs Sporting Clube de Portugal,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,AC Monza vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Elche CF vs Rayo Vallecano de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Sport Lisboa e Benfica vs Casa Pia AC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,AS Roma vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,CF Estrela da Amadora vs FC Alverca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,RC Deportivo La Coruña vs Club Atlético de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Juventus FC vs Cagliari Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Real Sociedad de Fútbol vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,CS Marítimo vs FC Famalicão,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Genoa CFC vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Getafe CF vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,GD Estoril Praia vs CD Nacional,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,ACF Fiorentina vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Cardiff City FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,NEC vs Willem II Tilburg,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Le Havre AC vs Stade Rennais FC 1901,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Eintracht Frankfurt vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,AZ vs FC Utrecht,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,FC Lorient vs Olympique de Marseille,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,Bayer 04 Leverkusen vs SV 07 Elversberg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,TSG 1899 Hoffenheim vs 1. FC Köln,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-24,RC Strasbourg Alsace vs Olympique Lyonnais,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Millwall FC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Norwich City FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Burnley FC vs Queens Park Rangers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Sheffield United FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Bolton Wanderers FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Stoke City FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Lincoln City FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-26,Southampton FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Middlesbrough FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Swansea City AFC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,West Ham United FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Wolverhampton Wanderers FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Liverpool FC vs Racing Club de Lens,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,FC Barcelona vs Como 1907,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Borussia Dortmund vs PAE AEK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,SSC Napoli vs Viking FK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Arsenal FC vs Sabah FK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Paris Saint-Germain FC vs Galatasaray SK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,AS Roma vs Lille OSC,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,ŠK Slovan Bratislava vs FC Internazionale Milano,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Club Brugge KV vs FK Bodø/Glimt,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,FK Shakhtar Donetsk vs Real Madrid CF,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,Club Atlético de Madrid vs Fenerbahçe SK,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,FC Bayern München vs Real Betis Balompié,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-27,LASK Linz vs FC Porto,Europe,UEFA Champions League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Borussia Dortmund vs TSG 1899 Hoffenheim,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,1. FC Union Berlin vs Bayer 04 Leverkusen,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,FC Augsburg vs Eintracht Frankfurt,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,FC Bayern München vs FC Schalke 04,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,1. FC Köln vs VfB Stuttgart,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,SV 07 Elversberg vs Borussia Mönchengladbach,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,SC Freiburg vs SC Paderborn 07,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,1. FSV Mainz 05 vs Hamburger SV,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,West Ham United FC vs Blackburn Rovers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Millwall FC vs West Bromwich Albion FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Sheffield United FC vs Charlton Athletic FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Stoke City FC vs Portsmouth FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Swansea City AFC vs Birmingham City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Southampton FC vs Preston North End FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Middlesbrough FC vs Watford FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Wolverhampton Wanderers FC vs Wrexham AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Burnley FC vs Cardiff City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Bolton Wanderers FC vs Derby County FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,AFC Bournemouth vs Fulham FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Liverpool FC vs Everton FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Coventry City FC vs Leeds United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Tottenham Hotspur FC vs Sunderland AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Chelsea FC vs Nottingham Forest FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Newcastle United FC vs Brighton & Hove Albion FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,AS Monaco FC vs Paris Saint-Germain FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Angers SCO vs Le Havre AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Toulouse FC vs Racing Club de Lens,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,Le Mans FC vs OGC Nice,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-30,PEC Zwolle vs Fortuna Sittard,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Rio Ave FC vs GD Estoril Praia,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,CA Osasuna vs RC Deportivo La Coruña,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,SSC Napoli vs FC Internazionale Milano,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Sporting Clube de Braga vs CF Estrela da Amadora,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Villarreal CF vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Genoa CFC vs US Lecce,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Real Betis Balompié vs Elche CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,AC Monza vs AS Roma,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Famalicão vs CD Santa Clara,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Barcelona vs Valencia CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Atalanta BC vs ACF Fiorentina,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,CD Nacional vs Vitória SC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Club Atlético de Madrid vs RCD Espanyol de Barcelona,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Udinese Calcio vs Bologna FC 1909,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,RC Celta de Vigo vs Getafe CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,US Sassuolo Calcio vs Como 1907,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Alverca vs Sporting Clube de Portugal,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Málaga CF vs Deportivo Alavés,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,AC Milan vs Juventus FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Arouca vs FC Porto,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Levante UD vs Real Sociedad de Fútbol,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Cagliari Calcio vs Parma Calcio 1913,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Casa Pia AC vs Gil Vicente FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Rayo Vallecano de Madrid vs Real Madrid CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Torino FC vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Académico de Viseu FC vs CS Marítimo,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Sevilla FC vs Athletic Club,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,SS Lazio vs Venezia FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Sport Lisboa e Benfica vs Moreirense FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,SC Heerenveen vs AFC Ajax,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Norwich City FC vs Bristol City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Twente '65 vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,AZ vs Feyenoord Rotterdam,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Stade Rennais FC 1901 vs FC Lorient,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,FC Groningen vs NEC,Netherlands,Eredivisie,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Olympique de Marseille vs ES Troyes AC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-01-31,Olympique Lyonnais vs Lille OSC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-05,Bristol City FC vs Middlesbrough FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,SC Paderborn 07 vs Borussia Dortmund,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Bayer 04 Leverkusen vs FC Augsburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Stade Rennais FC 1901 vs Olympique Lyonnais,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Eintracht Frankfurt vs 1. FSV Mainz 05,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Racing Club de Lens vs Angers SCO,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,VfB Stuttgart vs TSG 1899 Hoffenheim,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,AJ Auxerre vs AS Monaco FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,FC Schalke 04 vs 1. FC Union Berlin,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,FC Lorient vs Le Mans FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,OGC Nice vs Stade Brestois 29,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,ES Troyes AC vs Lille OSC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,SV Werder Bremen vs 1. FC Köln,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Borussia Mönchengladbach vs SC Freiburg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Le Havre AC vs Toulouse FC,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,FC Bayern München vs SV 07 Elversberg,Germany,Bundesliga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Charlton Athletic FC vs Wolverhampton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Watford FC vs Sheffield United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Portsmouth FC vs Bolton Wanderers FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,West Bromwich Albion FC vs Swansea City AFC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Birmingham City FC vs Stoke City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Derby County FC vs Southampton FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Wrexham AFC vs Lincoln City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Preston North End FC vs West Ham United FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Cardiff City FC vs Norwich City FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Queens Park Rangers FC vs Millwall FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Nottingham Forest FC vs Brentford FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Everton FC vs Newcastle United FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Brighton & Hove Albion FC vs Hull City AFC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Leeds United FC vs AFC Bournemouth,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Ipswich Town FC vs Tottenham Hotspur FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-06,Arsenal FC vs Liverpool FC,England,Premier League,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Moreirense FC vs Casa Pia AC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,ACF Fiorentina vs Udinese Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,FC Porto vs Académico de Viseu FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,AS Roma vs Torino FC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,RCD Espanyol de Barcelona vs Rayo Vallecano de Madrid,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,CS Marítimo vs FC Arouca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,FC Internazionale Milano vs Cagliari Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Athletic Club vs CA Osasuna,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Vitória SC vs Sporting Clube de Braga,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Parma Calcio 1913 vs Frosinone Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,RC Deportivo La Coruña vs Málaga CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,GD Estoril Praia vs Sport Lisboa e Benfica,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,US Lecce vs SSC Napoli,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Real Betis Balompié vs Sevilla FC,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Sporting Clube de Portugal vs Rio Ave FC,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Venezia FC vs Genoa CFC,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Elche CF vs Levante UD,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Juventus FC vs US Sassuolo Calcio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,CF Estrela da Amadora vs CD Nacional,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Atalanta BC vs SS Lazio,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Getafe CF vs Villarreal CF,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,CD Santa Clara vs FC Alverca,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Como 1907 vs AC Monza,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Deportivo Alavés vs RC Celta de Vigo,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Gil Vicente FC vs FC Famalicão,Portugal,Primeira Liga,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Bologna FC 1909 vs AC Milan,Italy,Serie A,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Valencia CF vs Real Racing Club de Santander,Spain,Primera Division,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Blackburn Rovers FC vs Burnley FC,England 2,Championship,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2027-02-07,Paris Saint-Germain FC vs Olympique de Marseille,France,Ligue 1,1.48-1.19,1.48,1.19,42.2,28.9,28.9,55.2,49.7,42.2,46.3,D,1,1-1 13.8% / 2-1 9.0% / 1-0 8.7%,0,1500.0,1500.0,,,Risky
+2026-11-22,Go Ahead Eagles vs Fortuna Sittard,Netherlands,Eredivisie,1.56-1.51,1.56,1.51,37.6,26.9,35.5,62.8,59.0,37.6,40.8,D,1,1-1 12.4% / 2-1 8.5% / 1-2 8.3%,0,1480.5,1500.0,DLLDW,,Risky
+2026-12-05,Aston Villa vs Crystal Palace,England,Premier League,1.51-1.45,1.51,1.45,37.6,27.5,34.9,61.0,56.6,37.6,40.8,A,1,1-1 12.9% / 2-1 8.6% / 1-2 8.2%,419,1615.1,1675.0,LLWLL,WWDDW,Risky
+2026-12-06,Go Ahead Eagles vs FC Twente '65,Netherlands,Eredivisie,1.56-1.51,1.56,1.51,37.6,26.9,35.5,62.8,59.0,37.6,40.8,D,1,1-1 12.4% / 2-1 8.5% / 1-2 8.3%,0,1480.5,1500.0,DLLDW,,Risky
+2027-01-17,Go Ahead Eagles vs AZ,Netherlands,Eredivisie,1.56-1.51,1.56,1.51,37.6,26.9,35.5,62.8,59.0,37.6,40.8,D,1,1-1 12.4% / 2-1 8.5% / 1-2 8.3%,0,1480.5,1500.0,DLLDW,,Risky
+2027-01-24,Go Ahead Eagles vs SC Cambuur-Leeuwarden,Netherlands,Eredivisie,1.56-1.51,1.56,1.51,37.6,26.9,35.5,62.8,59.0,37.6,40.8,D,1,1-1 12.4% / 2-1 8.5% / 1-2 8.3%,0,1480.5,1500.0,DLLDW,,Risky
+2026-11-22,Sparta Rotterdam vs AZ,Netherlands,Eredivisie,1.37-1.54,1.37,1.54,32.4,27.7,39.9,59.9,55.4,39.9,40.6,D,2,1-1 13.0% / 1-2 8.9% / 2-1 7.9%,0,1465.2,1500.0,WLWLL,,Risky
+2026-12-05,Sparta Rotterdam vs NEC,Netherlands,Eredivisie,1.37-1.54,1.37,1.54,32.4,27.7,39.9,59.9,55.4,39.9,40.6,D,2,1-1 13.0% / 1-2 8.9% / 2-1 7.9%,0,1465.2,1500.0,WLWLL,,Risky
+2027-01-24,Sparta Rotterdam vs FC Groningen,Netherlands,Eredivisie,1.37-1.54,1.37,1.54,32.4,27.7,39.9,59.9,55.4,39.9,40.6,D,2,1-1 13.0% / 1-2 8.9% / 2-1 7.9%,0,1465.2,1500.0,WLWLL,,Risky
+2027-01-30,Sparta Rotterdam vs Telstar 1963,Netherlands,Eredivisie,1.37-1.54,1.37,1.54,32.4,27.7,39.9,59.9,55.4,39.9,40.6,D,2,1-1 13.0% / 1-2 8.9% / 2-1 7.9%,0,1465.2,1500.0,WLWLL,,Risky
+2026-11-21,NEC vs PSV,Netherlands,Eredivisie,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2026-11-24,Real Madrid CF vs PSV,Europe,UEFA Champions League,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2026-12-05,AZ vs PSV,Netherlands,Eredivisie,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2027-01-10,Feyenoord Rotterdam vs PSV,Netherlands,Eredivisie,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2027-01-16,Fortuna Sittard vs PSV,Netherlands,Eredivisie,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2027-01-20,Viking FK vs PSV,Europe,UEFA Champions League,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2027-01-30,Willem II Tilburg vs PSV,Netherlands,Eredivisie,1.53-1.51,1.53,1.51,36.9,27.1,36.0,62.4,58.4,36.9,40.0,D,1,1-1 12.5% / 2-1 8.5% / 1-2 8.4%,0,1500.0,1511.8,,W,Risky
+2026-11-27,Stade Brestois 29 vs Paris FC,France,Ligue 1,1.07-1.21,1.07,1.21,30.5,31.8,37.7,47.9,40.0,37.7,38.2,D,2,1-1 15.0% / 0-0 11.9% / 0-1 10.7%,0,1500.0,1544.2,,DWWWW,Risky
+2026-12-12,Paris Saint-Germain FC vs Paris FC,France,Ligue 1,1.07-1.21,1.07,1.21,30.5,31.8,37.7,47.9,40.0,37.7,38.2,D,2,1-1 15.0% / 0-0 11.9% / 0-1 10.7%,0,1500.0,1544.2,,DWWWW,Risky
+2027-01-23,Lille OSC vs Paris FC,France,Ligue 1,1.07-1.21,1.07,1.21,30.5,31.8,37.7,47.9,40.0,37.7,38.2,D,2,1-1 15.0% / 0-0 11.9% / 0-1 10.7%,0,1500.0,1544.2,,DWWWW,Risky
+2027-02-06,RC Strasbourg Alsace vs Paris FC,France,Ligue 1,1.07-1.21,1.07,1.21,30.5,31.8,37.7,47.9,40.0,37.7,38.2,D,2,1-1 15.0% / 0-0 11.9% / 0-1 10.7%,0,1500.0,1544.2,,DWWWW,Risky
+2026-11-21,Coventry City FC vs Crystal Palace,England,Premier League,1.33-1.42,1.33,1.42,33.7,28.7,37.7,57.3,51.8,37.7,38.0,D,2,1-1 13.7% / 1-2 8.6% / 2-1 8.0%,0,1500.0,1675.0,,WWDDW,Risky
+2026-12-02,Chelsea FC vs Crystal Palace,England,Premier League,1.33-1.42,1.33,1.42,33.7,28.7,37.7,57.3,51.8,37.7,38.0,D,2,1-1 13.7% / 1-2 8.6% / 2-1 8.0%,0,1500.0,1675.0,,WWDDW,Risky
+2027-01-02,Brentford FC vs Crystal Palace,England,Premier League,1.33-1.42,1.33,1.42,33.7,28.7,37.7,57.3,51.8,37.7,38.0,D,2,1-1 13.7% / 1-2 8.6% / 2-1 8.0%,0,1500.0,1675.0,,WWDDW,Risky
+2027-01-16,Liverpool FC vs Crystal Palace,England,Premier League,1.33-1.42,1.33,1.42,33.7,28.7,37.7,57.3,51.8,37.7,38.0,D,2,1-1 13.7% / 1-2 8.6% / 2-1 8.0%,0,1500.0,1675.0,,WWDDW,Risky
+2027-01-30,Hull City AFC vs Crystal Palace,England,Premier League,1.33-1.42,1.33,1.42,33.7,28.7,37.7,57.3,51.8,37.7,38.0,D,2,1-1 13.7% / 1-2 8.6% / 2-1 8.0%,0,1500.0,1675.0,,WWDDW,Risky
+2026-11-24,Galatasaray SK vs Aston Villa,Europe,UEFA Champions League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2026-11-28,Ipswich Town FC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2026-12-13,Coventry City FC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2026-12-21,Chelsea FC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2027-01-02,AFC Bournemouth vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2027-01-05,Everton FC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2027-01-23,Fulham FC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2027-01-27,SK Slavia Praha vs Aston Villa,Europe,UEFA Champions League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky
+2027-02-06,Sunderland AFC vs Aston Villa,England,Premier League,1.22-1.29,1.22,1.29,33.1,30.3,36.6,52.7,45.9,36.6,36.9,D,2,1-1 14.5% / 0-0 9.8% / 0-1 8.8%,0,1500.0,1615.1,,LLWLL,Risky

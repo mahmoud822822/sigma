@@ -208,7 +208,7 @@ def do_learn():
     if not os.path.exists("data/sigma_history.csv"):
         print("No history - Run 7 History first"); return
     rows=list(csv.DictReader(open("data/sigma_history.csv", encoding="utf-8")))
-    rows=[r for r in rows if r["status"]=="FINISHED"]
+    rows=[r for r in rows if r.get("status","FINISHED")=="FINISHED" or "status" not in r]
     n=len(rows)
     if n==0: print("History empty"); return
     avg=sum(int(r["home_goals"])+int(r["away_goals"]) for r in rows)/n

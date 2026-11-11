@@ -12,7 +12,7 @@ def predict(home,away,league):
     avg={"England":3.43,"Spain":3.10,"Italy":3.00,"Germany":3.20,"Netherlands":3.30,"Portugal":3.00,"Belgium":3.10}.get(league,3.10)
     f=avg/3.10
     ph=round(1.55*f,1); pa=round(1.25*f,1)
-    mk=[("Over 1",f"Over 1 ({ph+pa:.1f} exp)",9.0,82,"Gold"),("2H Over 0.5","2H Over 0.5 - Late 76-90 30%",9.5,85,"Gold"),("BTTS","BTTS - weight 70",7.0,67,"Value"),("X2",f"{away} X2",8.0,76,"Balanced"),("Home X2",f"{home} X2",8.0,76,"Balanced")]
+    mk=[("Over 1",f"Over 1 ({ph+pa:.1f} exp)",9.0,82,"Gold"),("2H Over 0.5","2H Over 0.5 - Late 76-90 30%",9.5,85,"Gold"),("BTTS","BTTS - weight 70",7.0,67,"Value"),("X2",f"{away} X2",8.0,76,"Balanced"),("Home X2",f"{home} X2",8.0,76,"Balanced"),("Over 2.5",f"Over 2.5 - exp {ph+pa:.1f}",7.5,72,"Value"),("1X",f"{home} 1X",8.5,78,"Balanced"),("BTTS + Over 1.5","BTTS + Over 1.5 Combo",6.5,64,"Value")]
     return ph,pa,mk
 def fetch_chunk(token,df,dt):
     url=f"https://api.football-data.org/v4/matches?dateFrom={df}&dateTo={dt}&competitions={COMP}"

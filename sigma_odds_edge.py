@@ -1,9 +1,6 @@
-# V24 Real Odds Edge - B365 from football-data.co.uk - Mahmoud Emad
-# football-data.co.uk CSV has B365H, B365D, B365A - free real odds
-import urllib.request, csv, math, json
+import urllib.request, csv, math
 from pathlib import Path
 def poisson(lam,g): return (math.exp(-lam)*lam**g)/math.factorial(g)
-# Fetch one season E0 to get real odds example + compute edge
 url="https://www.football-data.co.uk/mmz4281/2425/E0.csv"
 try:
     req=urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
@@ -14,9 +11,6 @@ try:
         try:
             hg=int(r["FTHG"]); ag=int(r["FTAG"]); oh=float(r["B365H"]); od=float(r["B365D"]); oa=float(r["B365A"])
         except: continue
-        # Simple model prob from league avg for demo - real edge needs team stats, here we show formula
-        # For full edge, use team stats from history_all.csv - here we compute market prob vs model prob
-        # Model: use 1.55-1.25 as baseline, then edge = model_prob * odds - 1
         hxg=1.55; axg=1.25
         hw=d=aw=0
         for x in range(6):
