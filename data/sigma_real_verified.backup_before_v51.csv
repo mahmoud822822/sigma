@@ -1,0 +1,15 @@
+match,predicted_home,predicted_away,real_home,real_away,bet,bet_result
+Ipswich vs Bournemouth,1,2,1,2,BTTS 1.59,correct
+Brighton vs Brentford,2,1,2,0,BTTS 1.5,incorrect
+Palace vs Liverpool,1,2,1,3,Team2 score 1.28,correct
+Sunderland vs Chelsea,0,2,1,0,Team2 score 1.53,incorrect
+Man Utd vs Villa,1,1,4,4,Over 0.5 1.21,correct
+Atletico vs Barca,1,1,1,2,12+BTTS 1.739,correct
+Inter vs Como,3,1,2,0,12+BTTS 2.032,incorrect
+Twente vs Ajax,2,2,2,2,BTTS 1.37,correct
+Estrela vs Benfica,0,2,2,3,Win 2 1.231,correct
+Brugge vs Anderlecht,2,1,1,1,Team1 score 1.27,correct
+Cambuur vs PSV,1,2,2,5,Win 2 1.396,correct
+Alanya vs Trabzon,0,2,0,2,X2 1.187,correct
+Napoli vs Lazio,1,2,1,1,BTTS,correct
+Valencia vs Real,0,3,0,3,Win Real,correct

@@ -1,0 +1,154 @@
+{
+ "version": "V51",
+ "date": "2026-11-11",
+ "program": {
+  "name": "Sigma",
+  "author": "Mahmoud Emad",
+  "signature": "Signature Prediction and Forecast: Sigma - Mahmoud Emad"
+ },
+ "football": {
+  "total": 842,
+  "shown": 829,
+  "skipped": 13,
+  "golden": 22,
+  "edge_missing": 22,
+  "source": "data/sigma_bulk_predictions.json",
+  "formula": "842 total - 13 skipped = 829 shown"
+ },
+ "basketball": {
+  "total": 12,
+  "file": "data/sigma_basketball_fixtures.json",
+  "fake_predictions": 0,
+  "status": "BETA separate OK"
+ },
+ "delta": {
+  "date": "2026-11-11",
+  "version_old": "V50",
+  "version_new": "V51",
+  "old": {
+   "total": 842,
+   "future": 842,
+   "past": 0,
+   "default_count": 0,
+   "golden_fixed": 22,
+   "golden_before": 0,
+   "edge_missing": 22,
+   "golden_sample": [
+    "Man City vs Fulham",
+    "Portugal vs Denmark",
+    "France vs Turkey",
+    "Everton vs Liverpool",
+    "Norway vs Wales"
+   ],
+   "formula_842_13_829": "842-13=829 shown (UI must show formula)"
+  },
+  "new": {
+   "total": 842,
+   "shown": 829,
+   "golden": 22,
+   "default": 0,
+   "basketball": 12
+  },
+  "changed": {
+   "golden": "22 -> 22",
+   "total": "842 -> 842",
+   "default": "0 -> 0"
+  },
+  "rule": "Old delta preserved in sigma_delta_old_backup.json, new delta in sigma_delta_old_new.json"
+ },
+ "feed": {
+  "sources": [
+   {
+    "name": "UEFA",
+    "url": "https://www.uefa.com",
+    "type": "football"
+   },
+   {
+    "name": "CAF",
+    "url": "https://www.cafonline.com",
+    "type": "football"
+   },
+   {
+    "name": "ATP",
+    "url": "https://www.atptour.com",
+    "type": "tennis"
+   },
+   {
+    "name": "NFL",
+    "url": "https://www.nfl.com/schedules",
+    "type": "american_football"
+   },
+   {
+    "name": "NHL",
+    "url": "https://www.nhl.com/schedule",
+    "type": "ice_hockey"
+   },
+   {
+    "name": "CEV",
+    "url": "https://www.cev.eu",
+    "type": "volleyball"
+   },
+   {
+    "name": "EHF",
+    "url": "https://www.eurohandball.com",
+    "type": "handball"
+   },
+   {
+    "name": "EuroLeague/NBA",
+    "url": "https://www.euroleaguebasketball.net",
+    "type": "basketball"
+   },
+   {
+    "name": "GitHub repo",
+    "url": "https://github.com/mahmoud822822/sigma",
+    "type": "program"
+   },
+   {
+    "name": "Live site",
+    "url": "https://mahmoud822822.github.io/sigma/?v=51",
+    "type": "program"
+   }
+  ],
+  "candidates_seen": [
+   "sigma_v50_clean_report.json",
+   "sigma_universal_fixtures.1092.json",
+   "sigma_v44.json",
+   "sigma_poster_audit.json",
+   "sigma_aliases.json",
+   "sigma_suspect.json",
+   "sigma_all_competitions.json",
+   "sigma_v41.json",
+   "sigma_v43.json",
+   "sigma_team_stats.json",
+   "sigma_super_model.json",
+   "sigma_knowledge.json",
+   "sigma_league_stats.json",
+   "sigma_team_stats_all.json",
+   "sigma_brain_state.json",
+   "sigma_all_13_matches.json",
+   "sigma_bulk_predictions_v44.json",
+   "sigma_v50_audit.json",
+   "sigma_unified.json",
+   "sigma_bulk_predictions.json",
+   "sigma_bulk_predictions_v43.json",
+   "sigma_basketball_fixtures.json",
+   "sigma_all_sports_master.json",
+   "sigma_next_month.json",
+   "sigma_bulk_predictions.backup_v43.json",
+   "sigma_missing_teams.json",
+   "sigma_v42.json",
+   "sigma_universal_fixtures.json"
+  ],
+  "new_verified_added": 0,
+  "note": "0 invented. New verified only after 2-source check (V49 rule)."
+ },
+ "bot": {
+  "rule": "Answers ONLY from real files. No hallucination.",
+  "test_questions": [
+   "Man City vs Fulham",
+   "Basketball",
+   "Golden",
+   "Delta"
+  ]
+ }
+}

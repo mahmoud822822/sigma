@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-11",
+ "version_old": "V50",
+ "version_new": "V51",
+ "old": {
+  "total": 842,
+  "future": 842,
+  "past": 0,
+  "default_count": 0,
+  "golden_fixed": 22,
+  "golden_before": 0,
+  "edge_missing": 22,
+  "golden_sample": [
+   "Man City vs Fulham",
+   "Portugal vs Denmark",
+   "France vs Turkey",
+   "Everton vs Liverpool",
+   "Norway vs Wales"
+  ],
+  "formula_842_13_829": "842-13=829 shown (UI must show formula)"
+ },
+ "new": {
+  "total": 842,
+  "shown": 829,
+  "golden": 22,
+  "default": 0,
+  "basketball": 12
+ },
+ "changed": {
+  "golden": "22 -> 22",
+  "total": "842 -> 842",
+  "default": "0 -> 0"
+ },
+ "rule": "Old delta preserved in sigma_delta_old_backup.json, new delta in sigma_delta_old_new.json"
+}
