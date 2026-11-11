@@ -1,17 +1,27 @@
-import csv, unicodedata, re
+import csv, json
 from pathlib import Path
-def clean(n):
-    n=unicodedata.normalize("NFKD", n).encode("ascii","ignore").decode()
-    n=n.lower().strip()
-    n=re.sub(r"[^a-z0-9 ]","",n)
-    n=re.sub(r"\b(fc|cf|afc|sc|ac|ssc|us|rcd|real|club|【entity-sporting¦canonical_name=Sporting CP】|sp)\b","",n).strip()
-    n=re.sub(r"\s+"," ",n)
-    m={"【entity-bayern munich¦canonical_name=Bayern】":"【entity-bayern munich¦canonical_name=Bayern】","【entity-bayern¦canonical_name=Bayern】 munchen":"【entity-bayern munich¦canonical_name=Bayern】","【entity-psv eindhoven¦canonical_name=PSV】":"【entity-psv¦canonical_name=PSV】","【entity-psv¦canonical_name=PSV】":"【entity-psv¦canonical_name=PSV】","【entity-lille osc¦canonical_name=Lille】":"【entity-lille¦canonical_name=Lille】","【entity-lille¦canonical_name=Lille】":"【entity-lille¦canonical_name=Lille】","paris sg":"paris saint germain","paris saint germain":"paris saint germain","man city":"manchester city","manchester city":"manchester city","sp lisbon":"sporting lisbon","sporting lisbon":"sporting lisbon","sporting":"sporting lisbon"}
-    return m.get(n, n)
-rows=list(csv.DictReader(open("data/sigma_history.csv", encoding="utf-8")))
+M={"Spanien":"Spain","Norwegen":"Norway","Tschechien":"Czech Republic","Kroatien":"Croatia","Deutschland":"Germany","Frankreich":"France","Italien":"Italy","England":"England","Portugal":"Portugal","Niederlande":"Netherlands","Holland":"Netherlands","Osterreich":"Austria","Schweiz":"Switzerland","Belgien":"Belgium","Danemark":"Denmark","Schweden":"Sweden","Finnland":"Finland","Polen":"Poland","Ungarn":"Hungary","Griechenland":"Greece","Turkei":"Turkey","Rumanien":"Romania","Bulgarien":"Bulgaria","Serbien":"Serbia","Slowakei":"Slovakia","Slowenien":"Slovenia","Irland":"Ireland","Schottland":"Scotland","Wales":"Wales","Nordirland":"Northern Ireland"}
+p=Path("data/sigma_history.csv")
+rows=list(csv.DictReader(open(p, encoding="utf-8")))
+f=0
 for r in rows:
-    r["home_team"]=clean(r.get("home_team","")); r["away_team"]=clean(r.get("away_team",""))
-rows.sort(key=lambda x: x["date"])
-with open("data/sigma_history.csv","w",newline="",encoding="utf-8") as f:
-    w=csv.DictWriter(f, fieldnames=["date","home_team","away_team","home_goals","away_goals","league","status","match_id"]); w.writeheader(); w.writerows(rows)
-print(f"Fixed names: {len(rows)} - check: bayern count {sum(1 for r in rows if 'bayern' in r['home_team'] or 'bayern' in r['away_team'])}")
+    for k in ["home","away"]:
+        if r.get(k) in M: r[k]=M[r[k]]; f+=1
+with open(p,"w",newline="",encoding="utf-8") as fh:
+    w=csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+print("history fixed", f)
+fp=Path("data/sigma_universal_fixtures.json")
+d=json.load(open(fp, encoding="utf-8"))
+lst=d.get("matches") or d.get("fixtures") or d if isinstance(d, dict) else d
+f2=0
+for r in lst:
+    for k in ["home","away","home_team","away_team"]:
+        if r.get(k) in M: r[k]=M[r[k]]; f2+=1
+    for tk in ["homeTeam","awayTeam"]:
+        if isinstance(r.get(tk), dict) and r[tk].get("name") in M: r[tk]["name"]=M[r[tk]["name"]]; f2+=1
+if isinstance(d, dict) and "matches" in d: d["matches"]=lst
+elif isinstance(d, dict) and "fixtures" in d: d["fixtures"]=lst
+else: d=lst
+json.dump(d, open(fp,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+print("fixtures fixed", f2)
+print("DONE - German names -> English")

@@ -1,40 +1,40 @@
 {
   "generated": "2026-11-11",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 84449,
+  "history": 100788,
   "verified": 14,
-  "future": 963,
-  "teams": 576,
-  "default_count": 927,
-  "golden_count": 13,
-  "future_count": 542,
+  "future": 1091,
+  "teams": 887,
+  "default_count": 1002,
+  "golden_count": 24,
+  "future_count": 620,
   "by_source": {
-    "AUTO": 244,
     "OPEN": 716,
-    "MANUAL": 3
+    "AUTO": 373,
+    "MANUAL": 2
   },
   "by_competition_type": {
-    "LEAGUE": 858,
-    "CUP": 56,
-    "NATIONAL": 49
+    "NATIONAL": 48,
+    "LEAGUE": 987,
+    "CUP": 56
   },
   "by_competition": {
+    "UEFA Nations League": 48,
     "Premier League": 129,
-    "Bundesliga": 316,
+    "Bundesliga": 309,
+    "Championship": 179,
     "DFB-Pokal": 56,
-    "Primeira Liga": 88,
-    "Ligue 1": 17,
+    "Ligue 1": 62,
     "2. Bundesliga": 306,
-    "UEFA Nations League": 49,
     "Egyptian Premier League": 1,
     "Saudi Pro League": 1
   },
   "backtest": {
     "n": 500,
-    "hit": 245,
-    "hit_rate": 49.0,
-    "brier": 0.6096,
-    "logloss": 1.0151
+    "hit": 244,
+    "hit_rate": 48.8,
+    "brier": 0.6105,
+    "logloss": 1.0167
   },
   "calibration": {
     "30": {
@@ -43,13 +43,13 @@
       "centre": 35
     },
     "40": {
-      "n": 148,
-      "actual": 45.9,
+      "n": 147,
+      "actual": 45.6,
       "centre": 45
     },
     "50": {
-      "n": 113,
-      "actual": 42.5,
+      "n": 114,
+      "actual": 42.1,
       "centre": 55
     },
     "60": {
@@ -86,7 +86,7 @@
       "n": 3
     },
     "Spain La Liga": {
-      "avg": 1585.6,
+      "avg": 1583.5,
       "n": 23
     },
     "Italy Serie A": {
@@ -118,11 +118,11 @@
       "n": 41
     },
     "France Ligue 1": {
-      "avg": 1573.3,
+      "avg": 1572.0,
       "n": 20
     },
     "France Ligue 2": {
-      "avg": 1459.3,
+      "avg": 1458.8,
       "n": 36
     },
     "Italy Serie B": {
@@ -142,7 +142,7 @@
       "n": 11
     },
     "Spain Segunda": {
-      "avg": 1455.5,
+      "avg": 1449.4,
       "n": 44
     },
     "Germany 2 Bundesliga": {
@@ -160,16 +160,36 @@
     "Scotland League 2": {
       "avg": 1410.9,
       "n": 14
+    },
+    "International": {
+      "avg": 1510.2,
+      "n": 184
+    },
+    "World Cup": {
+      "avg": 1435.7,
+      "n": 3
+    },
+    "African Cup": {
+      "avg": 1453.2,
+      "n": 33
+    },
+    "UEFA Nations League": {
+      "avg": 1506.8,
+      "n": 88
+    },
+    "Asian Cup": {
+      "avg": 1372.7,
+      "n": 3
     }
   },
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 84477,
-      "avg_goals": 2.67,
-      "home_win_pct": 43.5,
-      "btts_pct": 52.1,
-      "over25_pct": 50.0
+      "n": 100816,
+      "avg_goals": 2.68,
+      "home_win_pct": 44.2,
+      "btts_pct": 50.6,
+      "over25_pct": 49.8
     },
     "England Championship": {
       "n": 6072,
@@ -324,9 +344,73 @@
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
+    },
+    "International": {
+      "n": 7650,
+      "avg_goals": 2.74,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Asian Cup": {
+      "n": 436,
+      "avg_goals": 2.81,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "African Cup": {
+      "n": 1483,
+      "avg_goals": 2.32,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "World Cup": {
+      "n": 3812,
+      "avg_goals": 2.83,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Euro": {
+      "n": 1200,
+      "avg_goals": 2.77,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Gold Cup": {
+      "n": 259,
+      "avg_goals": 2.93,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Copa America": {
+      "n": 174,
+      "avg_goals": 2.36,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "UEFA Nations League": {
+      "n": 1325,
+      "avg_goals": 2.84,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
     }
   },
   "top_elo": [
+    {
+      "team": "Spain",
+      "elo": 1936.3
+    },
+    {
+      "team": "Argentina",
+      "elo": 1912.6
+    },
     {
       "team": "Celtic",
       "elo": 1900.1
@@ -340,32 +424,24 @@
       "elo": 1871.0
     },
     {
+      "team": "France",
+      "elo": 1867.0
+    },
+    {
       "team": "Bayern Munich",
       "elo": 1852.7
+    },
+    {
+      "team": "England",
+      "elo": 1833.4
     },
     {
       "team": "Olympiakos",
       "elo": 1827.6
     },
     {
-      "team": "Benfica",
-      "elo": 1826.4
-    },
-    {
-      "team": "Ath Madrid",
-      "elo": 1826.1
-    },
-    {
-      "team": "Real Madrid",
-      "elo": 1825.0
-    },
-    {
-      "team": "Rangers",
-      "elo": 1823.5
-    },
-    {
-      "team": "Barcelona",
-      "elo": 1822.3
+      "team": "Brazil",
+      "elo": 1827.3
     }
   ]
 }
