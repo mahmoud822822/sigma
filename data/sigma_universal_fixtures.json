@@ -40958,7 +40958,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.54 - 0.2",
+   "xg_home": 1.54,
+   "xg_away": 0.2,
+   "p1": 71.7,
+   "pX": 24.3,
+   "p2": 4.1,
+   "1": 71.7,
+   "X": 24.3,
+   "2": 4.1,
+   "conf": 71.7,
+   "confidence": 71.7,
+   "pick": "1",
+   "grade": "A",
+   "btts": 14.7,
+   "BTTS": 14.7,
+   "over25": 25.3,
+   "Over25": 25.3,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 26.6
+    },
+    {
+     "score": "2-0",
+     "p": 20.8
+    },
+    {
+     "score": "0-0",
+     "p": 18.0
+    }
+   ]
   },
   {
    "match": "Malawi vs Egypt",
@@ -40971,7 +41006,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "0.58 - 2.08",
+   "xg_home": 0.58,
+   "xg_away": 2.08,
+   "p1": 8.5,
+   "pX": 19.7,
+   "p2": 71.9,
+   "1": 8.5,
+   "X": 19.7,
+   "2": 71.9,
+   "conf": 71.9,
+   "confidence": 71.9,
+   "pick": "2",
+   "grade": "A",
+   "btts": 39.2,
+   "BTTS": 39.2,
+   "over25": 49.7,
+   "Over25": 49.7,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "0-2",
+     "p": 15.1
+    },
+    {
+     "score": "0-1",
+     "p": 13.9
+    },
+    {
+     "score": "0-3",
+     "p": 10.5
+    }
+   ]
   },
   {
    "match": "Morocco vs Niger",
@@ -40984,7 +41054,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "3.45 - 0.2",
+   "xg_home": 3.45,
+   "xg_away": 0.2,
+   "p1": 94.3,
+   "pX": 5.0,
+   "p2": 0.6,
+   "1": 94.3,
+   "X": 5.0,
+   "2": 0.6,
+   "conf": 94.3,
+   "confidence": 94.3,
+   "pick": "1",
+   "grade": "A",
+   "btts": 17.7,
+   "BTTS": 17.7,
+   "over25": 70.6,
+   "Over25": 70.6,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "3-0",
+     "p": 17.8
+    },
+    {
+     "score": "2-0",
+     "p": 15.5
+    },
+    {
+     "score": "4-0",
+     "p": 15.4
+    }
+   ]
   },
   {
    "match": "Morocco vs Niger",
@@ -40997,7 +41102,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "3.45 - 0.2",
+   "xg_home": 3.45,
+   "xg_away": 0.2,
+   "p1": 94.3,
+   "pX": 5.0,
+   "p2": 0.6,
+   "1": 94.3,
+   "X": 5.0,
+   "2": 0.6,
+   "conf": 94.3,
+   "confidence": 94.3,
+   "pick": "1",
+   "grade": "A",
+   "btts": 17.7,
+   "BTTS": 17.7,
+   "over25": 70.6,
+   "Over25": 70.6,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "3-0",
+     "p": 17.8
+    },
+    {
+     "score": "2-0",
+     "p": 15.5
+    },
+    {
+     "score": "4-0",
+     "p": 15.4
+    }
+   ]
   },
   {
    "match": "Algeria vs Togo",
@@ -41010,7 +41150,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "2.64 - 0.24",
+   "xg_home": 2.64,
+   "xg_away": 0.24,
+   "p1": 87.9,
+   "pX": 10.3,
+   "p2": 1.8,
+   "1": 87.9,
+   "X": 10.3,
+   "2": 1.8,
+   "conf": 87.9,
+   "confidence": 87.9,
+   "pick": "1",
+   "grade": "A",
+   "btts": 20.1,
+   "BTTS": 20.1,
+   "over25": 54.9,
+   "Over25": 54.9,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 19.6
+    },
+    {
+     "score": "3-0",
+     "p": 17.2
+    },
+    {
+     "score": "1-0",
+     "p": 14.5
+    }
+   ]
   },
   {
    "match": "Togo vs Algeria",
@@ -41023,7 +41198,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "0.62 - 2.31",
+   "xg_home": 0.62,
+   "xg_away": 2.31,
+   "p1": 7.7,
+   "pX": 17.4,
+   "p2": 74.9,
+   "1": 7.7,
+   "X": 17.4,
+   "2": 74.9,
+   "conf": 74.9,
+   "confidence": 74.9,
+   "pick": "2",
+   "grade": "A",
+   "btts": 42.2,
+   "BTTS": 42.2,
+   "over25": 56.1,
+   "Over25": 56.1,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "0-2",
+     "p": 14.2
+    },
+    {
+     "score": "0-1",
+     "p": 11.7
+    },
+    {
+     "score": "0-3",
+     "p": 11.0
+    }
+   ]
   },
   {
    "match": "Real Madrid vs PSV Eindhoven",
@@ -41036,7 +41246,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.82 - 1.39",
+   "xg_home": 1.82,
+   "xg_away": 1.39,
+   "p1": 46.9,
+   "pX": 24.5,
+   "p2": 28.7,
+   "1": 46.9,
+   "X": 24.5,
+   "2": 28.7,
+   "conf": 46.9,
+   "confidence": 46.9,
+   "pick": "1",
+   "grade": "A",
+   "btts": 63.7,
+   "BTTS": 63.7,
+   "over25": 62.2,
+   "Over25": 62.2,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 11.0
+    },
+    {
+     "score": "2-1",
+     "p": 9.3
+    },
+    {
+     "score": "1-2",
+     "p": 7.1
+    }
+   ]
   },
   {
    "match": "Sabah vs Barcelona",
@@ -41049,7 +41294,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.55 - 1.25",
+   "xg_home": 1.55,
+   "xg_away": 1.25,
+   "p1": 43.4,
+   "pX": 26.8,
+   "p2": 29.8,
+   "1": 43.4,
+   "X": 26.8,
+   "2": 29.8,
+   "conf": 43.4,
+   "confidence": 43.4,
+   "pick": "1",
+   "grade": "C",
+   "btts": 57.1,
+   "BTTS": 57.1,
+   "over25": 53.1,
+   "Over25": 53.1,
+   "is_new_team": 1,
+   "data_quality": "partial-new-team",
+   "source": "league-avg-prior",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.7
+    },
+    {
+     "score": "2-1",
+     "p": 9.1
+    },
+    {
+     "score": "1-0",
+     "p": 8.5
+    }
+   ]
   },
   {
    "match": "Atletico Madrid vs Viking",
@@ -41062,7 +41342,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.55 - 1.25",
+   "xg_home": 1.55,
+   "xg_away": 1.25,
+   "p1": 43.4,
+   "pX": 26.8,
+   "p2": 29.8,
+   "1": 43.4,
+   "X": 26.8,
+   "2": 29.8,
+   "conf": 43.4,
+   "confidence": 43.4,
+   "pick": "1",
+   "grade": "C",
+   "btts": 57.1,
+   "BTTS": 57.1,
+   "over25": 53.1,
+   "Over25": 53.1,
+   "is_new_team": 1,
+   "data_quality": "partial-new-team",
+   "source": "league-avg-prior",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.7
+    },
+    {
+     "score": "2-1",
+     "p": 9.1
+    },
+    {
+     "score": "1-0",
+     "p": 8.5
+    }
+   ]
   },
   {
    "match": "Lille vs Bayern Munich",
@@ -41075,7 +41390,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "0.83 - 2.25",
+   "xg_home": 0.83,
+   "xg_away": 2.25,
+   "p1": 11.7,
+   "pX": 19.5,
+   "p2": 68.8,
+   "1": 11.7,
+   "X": 19.5,
+   "2": 68.8,
+   "conf": 68.8,
+   "confidence": 68.8,
+   "pick": "2",
+   "grade": "A",
+   "btts": 51.1,
+   "BTTS": 51.1,
+   "over25": 59.4,
+   "Over25": 59.4,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "0-2",
+     "p": 11.6
+    },
+    {
+     "score": "1-2",
+     "p": 9.7
+    },
+    {
+     "score": "0-1",
+     "p": 9.7
+    }
+   ]
   },
   {
    "match": "Arsenal vs Borussia Dortmund",
@@ -41088,7 +41438,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.55 - 1.25",
+   "xg_home": 1.55,
+   "xg_away": 1.25,
+   "p1": 43.4,
+   "pX": 26.8,
+   "p2": 29.8,
+   "1": 43.4,
+   "X": 26.8,
+   "2": 29.8,
+   "conf": 43.4,
+   "confidence": 43.4,
+   "pick": "1",
+   "grade": "C",
+   "btts": 57.1,
+   "BTTS": 57.1,
+   "over25": 53.1,
+   "Over25": 53.1,
+   "is_new_team": 1,
+   "data_quality": "partial-new-team",
+   "source": "league-avg-prior",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.7
+    },
+    {
+     "score": "2-1",
+     "p": 9.1
+    },
+    {
+     "score": "1-0",
+     "p": 8.5
+    }
+   ]
   },
   {
    "match": "Manchester City vs Napoli",
@@ -41101,7 +41486,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.55 - 1.25",
+   "xg_home": 1.55,
+   "xg_away": 1.25,
+   "p1": 43.4,
+   "pX": 26.8,
+   "p2": 29.8,
+   "1": 43.4,
+   "X": 26.8,
+   "2": 29.8,
+   "conf": 43.4,
+   "confidence": 43.4,
+   "pick": "1",
+   "grade": "C",
+   "btts": 57.1,
+   "BTTS": 57.1,
+   "over25": 53.1,
+   "Over25": 53.1,
+   "is_new_team": 1,
+   "data_quality": "partial-new-team",
+   "source": "league-avg-prior",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.7
+    },
+    {
+     "score": "2-1",
+     "p": 9.1
+    },
+    {
+     "score": "1-0",
+     "p": 8.5
+    }
+   ]
   },
   {
    "match": "Al Ahli vs Al Nassr",
@@ -41114,7 +41534,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 1
+   "needs_recheck": 1,
+   "xG": "1.55 - 1.25",
+   "xg_home": 1.55,
+   "xg_away": 1.25,
+   "p1": 43.4,
+   "pX": 26.8,
+   "p2": 29.8,
+   "1": 43.4,
+   "X": 26.8,
+   "2": 29.8,
+   "conf": 43.4,
+   "confidence": 43.4,
+   "pick": "1",
+   "grade": "C",
+   "btts": 57.1,
+   "BTTS": 57.1,
+   "over25": 53.1,
+   "Over25": 53.1,
+   "is_new_team": 1,
+   "data_quality": "partial-new-team",
+   "source": "league-avg-prior",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.7
+    },
+    {
+     "score": "2-1",
+     "p": 9.1
+    },
+    {
+     "score": "1-0",
+     "p": 8.5
+    }
+   ]
   },
   {
    "match": "Spain vs England",
@@ -41127,7 +41582,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.6 - 0.94",
+   "xg_home": 1.6,
+   "xg_away": 0.94,
+   "p1": 51.9,
+   "pX": 26.9,
+   "p2": 21.2,
+   "1": 51.9,
+   "X": 26.9,
+   "2": 21.2,
+   "conf": 51.9,
+   "confidence": 51.9,
+   "pick": "1",
+   "grade": "A",
+   "btts": 49.6,
+   "BTTS": 49.6,
+   "over25": 46.6,
+   "Over25": 46.6,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 12.8
+    },
+    {
+     "score": "1-0",
+     "p": 11.7
+    },
+    {
+     "score": "2-0",
+     "p": 10.1
+    }
+   ]
   },
   {
    "match": "Italy vs France",
@@ -41140,7 +41630,42 @@
    "odds_note": "POSTER ODDS NOT VERIFIED - DO NOT USE",
    "poster_confidence": "FAKE - stripped, use model only",
    "is_default": 0,
-   "needs_recheck": 0
+   "needs_recheck": 0,
+   "xG": "1.13 - 1.89",
+   "xg_home": 1.13,
+   "xg_away": 1.89,
+   "p1": 21.7,
+   "pX": 24.0,
+   "p2": 54.3,
+   "1": 21.7,
+   "X": 24.0,
+   "2": 54.3,
+   "conf": 54.3,
+   "confidence": 54.3,
+   "pick": "2",
+   "grade": "A",
+   "btts": 58.3,
+   "BTTS": 58.3,
+   "over25": 58.1,
+   "Over25": 58.1,
+   "is_new_team": 0,
+   "data_quality": "full",
+   "source": "history-dixon-coles-elo",
+   "golden": 0,
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 11.3
+    },
+    {
+     "score": "1-2",
+     "p": 9.8
+    },
+    {
+     "score": "0-2",
+     "p": 8.7
+    }
+   ]
   }
  ],
  "total_matches": 832

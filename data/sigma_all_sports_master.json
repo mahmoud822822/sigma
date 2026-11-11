@@ -115,6 +115,10 @@
    "size": 175
   },
   {
+   "file": "data/sigma_knowledge.json",
+   "size": 1230
+  },
+  {
    "file": "data/sigma_league_stats.json",
    "size": 2848
   },
@@ -123,12 +127,16 @@
    "size": 156983
   },
   {
+   "file": "data/sigma_brain_state.json",
+   "size": 225
+  },
+  {
    "file": "data/sigma_all_13_matches.json",
    "size": 755590
   },
   {
    "file": "data/sigma_bulk_predictions_v44.json",
-   "size": 1407248
+   "size": 1414660
   },
   {
    "file": "data/sigma_unified.json",
@@ -136,7 +144,7 @@
   },
   {
    "file": "data/sigma_bulk_predictions.json",
-   "size": 1407248
+   "size": 1414660
   },
   {
    "file": "data/sigma_bulk_predictions_v43.json",
@@ -145,6 +153,10 @@
   {
    "file": "data/sigma_basketball_fixtures.json",
    "size": 4558
+  },
+  {
+   "file": "data/sigma_all_sports_master.json",
+   "size": 8150
   },
   {
    "file": "data/sigma_next_month.json",
@@ -164,7 +176,7 @@
   },
   {
    "file": "data/sigma_universal_fixtures.json",
-   "size": 798297
+   "size": 806847
   },
   {
    "file": "data/sigma_insight.csv",
