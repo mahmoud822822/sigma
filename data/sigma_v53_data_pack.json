@@ -1,0 +1,9 @@
+{
+ "version": "V53",
+ "removed_fake": 2,
+ "total_before": 842,
+ "total_after": 840,
+ "shown_after": 840,
+ "quarantine_file": "data/sigma_quarantine_fake_v53.json",
+ "rule": "No manual without source URL + verified date"
+}
