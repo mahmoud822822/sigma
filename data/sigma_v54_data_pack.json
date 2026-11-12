@@ -1,0 +1,8 @@
+{
+ "version": "V54",
+ "before": 840,
+ "removed_v54": 1,
+ "after": 839,
+ "quarantine": "data/sigma_quarantine_fake_v54.json",
+ "rule": "Keep real API bulk, remove only verified manual fakes, quarantine manual file"
+}
