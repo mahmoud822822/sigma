@@ -1,0 +1,21 @@
+{
+ "version": "V71",
+ "date": "2026-11-13",
+ "bulk_rows": 839,
+ "history_rows": 100788,
+ "history_valid": 100788,
+ "base_rates": {
+  "home_win": 44.2,
+  "draw": 25.7,
+  "away_win": 30.1,
+  "avg_goals": 2.68,
+  "btts": 50.6,
+  "over25": 49.8
+ },
+ "real_verified": {
+  "n": 14,
+  "hits": 11,
+  "rate": 78.6
+ },
+ "note": "History has no conf - no conf-vs-hit calibration invented"
+}
