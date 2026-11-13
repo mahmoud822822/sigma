@@ -1,0 +1,107 @@
+{
+ "version": "V62",
+ "generated": "2026-11-13",
+ "signature": "Sigma - Mahmoud Emad",
+ "matches": [
+  {
+   "match": "Netherlands vs Greece",
+   "date": "2026-11-13",
+   "league": "UEFA Nations League A2",
+   "base_conf": 68.5,
+   "adjusted_conf": 68.5,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 68.5% (safe range 62-79)",
+    "safety": 6
+   }
+  },
+  {
+   "match": "Serbia vs Germany",
+   "date": "2026-11-13",
+   "league": "UEFA Nations League A2",
+   "base_conf": 71.2,
+   "adjusted_conf": 71.2,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 2",
+    "why": "adj 71.2% (safe range 62-79)",
+    "safety": 6
+   }
+  },
+  {
+   "match": "Egypt vs Malawi",
+   "date": "2026-11-13",
+   "league": "AFCON Qualifiers Group B",
+   "base_conf": 71.7,
+   "adjusted_conf": 64.7,
+   "flags": [
+    "HYPE_TRAP"
+   ],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 64.7% (safe range 62-79)",
+    "safety": 6
+   }
+  },
+  {
+   "match": "Morocco vs Niger",
+   "date": "2026-11-13",
+   "league": "AFCON Qualifiers Group A",
+   "base_conf": 94.3,
+   "adjusted_conf": 75.0,
+   "flags": [
+    "OVERCONFIDENT_BASE",
+    "HYPE_TRAP"
+   ],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "2 severe: OVERCONFIDENT_BASE, HYPE_TRAP - no market safe",
+    "safety": 0
+   }
+  },
+  {
+   "match": "Portugal vs Denmark",
+   "date": "2026-11-14",
+   "league": "UEFA Nations League A4",
+   "base_conf": 72.4,
+   "adjusted_conf": 72.4,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 72.4% (safe range 62-79)",
+    "safety": 6
+   }
+  },
+  {
+   "match": "Norway vs Wales",
+   "date": "2026-11-14",
+   "league": "UEFA Nations League A4",
+   "base_conf": 82.0,
+   "adjusted_conf": 82.0,
+   "flags": [],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "HIGH CONF GATE - adj 82.0% >=80 needs lineup check (rotation / key absence unknown) - same trap as France 87.9%",
+    "safety": 0
+   }
+  },
+  {
+   "match": "Algeria vs Togo",
+   "date": "2026-11-14",
+   "league": "AFCON Qualifiers Group I",
+   "base_conf": 87.9,
+   "adjusted_conf": 85.0,
+   "flags": [
+    "OVERCONFIDENT_BASE"
+   ],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "HIGH CONF GATE - adj 85.0% >=80 needs lineup check (rotation / key absence unknown) - same trap as France 87.9%",
+    "safety": 0
+   }
+  }
+ ],
+ "duplicate_base": [],
+ "gate": "PASS"
+}
