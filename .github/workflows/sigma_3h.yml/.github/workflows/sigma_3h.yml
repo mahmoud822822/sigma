@@ -1,0 +1,22 @@
+name: Sigma 3h Automation - V69 Fixes + Collect
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+jobs:
+  run-v69:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run Sigma V69 - Fixes + 3h Automation
+        run: python3 sigma_v69_fix_and_automation.py
+      - name: Commit only reports + snapshots - NEVER Bulk
+        run: |
+          git config user.name "Sigma Bot"
+          git config user.email "sigma@mahmoud.local"
+          git add sigma_v69_fix_and_automation.py data/sigma_v69_report.json data/sigma_v69_fixed_predictions.json data/sigma_v69_snapshots.jsonl || true
+          git commit -m "Sigma V69 - 3h auto - fixes + collect" || echo "no change"
+          git push || echo "push failed - check token"
