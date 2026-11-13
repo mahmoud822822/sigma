@@ -1,0 +1,87 @@
+{
+ "version": "V60",
+ "generated": "2026-11-13",
+ "signature": "Sigma - Mahmoud Emad",
+ "yesterday": [
+  {
+   "match": "Turkiye vs Belgium",
+   "sigma_pick": "2",
+   "sigma_conf": 80.1,
+   "v60_adj": 85.0,
+   "flags": "OPP_DEAD_FAV_MUSTWIN_BONUS",
+   "real": "1-2",
+   "verdict": "1X2 OK",
+   "v60_bet": "Over 2.5"
+  },
+  {
+   "match": "Italy vs France",
+   "sigma_pick": "2",
+   "sigma_conf": 53.4,
+   "v60_adj": 31.4,
+   "flags": "MUSTWIN_VS_NEEDS1PT,KEY_ABSENCE",
+   "real": "3-1",
+   "verdict": "1X2 WRONG",
+   "v60_bet": "NO SAFE BET"
+  },
+  {
+   "match": "Czechia vs Spain",
+   "sigma_pick": null,
+   "sigma_conf": null,
+   "real": "0-2",
+   "verdict": "ABSTAIN"
+  },
+  {
+   "match": "England vs Croatia",
+   "sigma_pick": null,
+   "sigma_conf": null,
+   "real": "2-1",
+   "verdict": "ABSTAIN"
+  }
+ ],
+ "future": [
+  {
+   "match": "Belgium vs Italy",
+   "base_conf": 54.4,
+   "adjusted_conf": 54.4,
+   "flags": [],
+   "notes": [],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "adj 54.4 <55",
+    "safety": 0
+   }
+  },
+  {
+   "match": "France vs Turkey",
+   "base_conf": 87.9,
+   "adjusted_conf": 49.0,
+   "flags": [
+    "OVERCONFIDENT_BASE",
+    "MOTIVATION_MISMATCH",
+    "KEY_ABSENCE",
+    "ROTATION_RISK",
+    "HYPE_TRAP"
+   ],
+   "notes": [
+    "Base 87.9% >85 cap to 85",
+    "NEEDS_1PT vs DEAD mismatch -8% (V59)",
+    "Key absence Mbappe? check lineup -10%",
+    "Rotation MEDIUM -8%",
+    "Hype -10%"
+   ],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "5 severe flags: OVERCONFIDENT_BASE, MOTIVATION_MISMATCH, KEY_ABSENCE, ROTATION_RISK, HYPE_TRAP - no market safe",
+    "safety": 0
+   }
+  }
+ ],
+ "percentages": {
+  "total": 4,
+  "predicted": 2,
+  "abstain": 2,
+  "correct": 1,
+  "wrong": 1
+ },
+ "gate": "PASS"
+}
