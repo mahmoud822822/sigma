@@ -1,0 +1,130 @@
+{
+ "version": "V64",
+ "generated": "2026-11-13",
+ "signature": "Sigma - Mahmoud Emad",
+ "gate": "PASS",
+ "evaluated": [
+  {
+   "match": "Turkiye vs Belgium",
+   "date": "2026-11-12",
+   "pred_pick": "2",
+   "pred_adj": 85.0,
+   "pred_bet": "1X2 pick 2",
+   "real": "1-2",
+   "real_1x2": "2",
+   "verdict": "1X2 OK",
+   "elo_home_before": 1669.4,
+   "elo_home_after": 1662.3,
+   "elo_away_before": 1773.8,
+   "elo_away_after": 1780.9
+  },
+  {
+   "match": "Italy vs France",
+   "date": "2026-11-12",
+   "pred_pick": "2",
+   "pred_adj": 31.4,
+   "pred_bet": "NO SAFE BET",
+   "real": "3-1",
+   "real_1x2": "1",
+   "verdict": "NO_SAFE_BET - correctly abstained",
+   "elo_home_before": 1761.0,
+   "elo_home_after": 1774.0,
+   "elo_away_before": 1867.0,
+   "elo_away_after": 1854.0
+  },
+  {
+   "match": "Czechia vs Spain",
+   "date": "2026-11-12",
+   "pred_pick": null,
+   "pred_adj": null,
+   "pred_bet": "ABSTAIN - fixture-only",
+   "real": "0-2",
+   "real_1x2": "2",
+   "verdict": "ABSTAIN - fixture-only in Bulk, not counted"
+  },
+  {
+   "match": "England vs Croatia",
+   "date": "2026-11-12",
+   "pred_pick": null,
+   "pred_adj": null,
+   "pred_bet": "ABSTAIN - fixture-only",
+   "real": "2-1",
+   "real_1x2": "1",
+   "verdict": "ABSTAIN - fixture-only in Bulk, not counted"
+  },
+  {
+   "match": "Netherlands vs Greece",
+   "date": "2026-11-13",
+   "pred_pick": "1",
+   "pred_adj": 68.5,
+   "pred_bet": "1X2 pick 1",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Serbia vs Germany",
+   "date": "2026-11-13",
+   "pred_pick": "2",
+   "pred_adj": 71.2,
+   "pred_bet": "1X2 pick 2",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Egypt vs Malawi",
+   "date": "2026-11-13",
+   "pred_pick": "1",
+   "pred_adj": 64.7,
+   "pred_bet": "1X2 pick 1",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Morocco vs Niger",
+   "date": "2026-11-13",
+   "pred_pick": "1",
+   "pred_adj": 75.0,
+   "pred_bet": "NO SAFE BET",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Portugal vs Denmark",
+   "date": "2026-11-14",
+   "pred_pick": "1",
+   "pred_adj": 72.4,
+   "pred_bet": "1X2 pick 1",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Norway vs Wales",
+   "date": "2026-11-14",
+   "pred_pick": "1",
+   "pred_adj": 82.0,
+   "pred_bet": "NO SAFE BET",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  },
+  {
+   "match": "Algeria vs Togo",
+   "date": "2026-11-14",
+   "pred_pick": "1",
+   "pred_adj": 85.0,
+   "pred_bet": "NO SAFE BET",
+   "real": null,
+   "verdict": "ABSTAIN - NO CONFIRMED DATA"
+  }
+ ],
+ "percentages": {
+  "total": 11,
+  "counted": 1,
+  "correct": 1,
+  "wrong": 0,
+  "abstain": 9,
+  "no_safe_bet": 1
+ },
+ "bulk_before": 839,
+ "bulk_after": 837,
+ "moved": 2
+}

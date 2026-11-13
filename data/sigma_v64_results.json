@@ -1,0 +1,57 @@
+{
+ "Turkiye vs Belgium": {
+  "real_home": 1,
+  "real_away": 2,
+  "source": "CONFIRMED Termux V58/V60 eval 12 Nov - Real 1-2"
+ },
+ "Italy vs France": {
+  "real_home": 3,
+  "real_away": 1,
+  "source": "CONFIRMED Termux V58/V60 eval 12 Nov - Real 3-1"
+ },
+ "Czechia vs Spain": {
+  "real_home": 0,
+  "real_away": 2,
+  "source": "CONFIRMED Termux V58 eval 12 Nov - Real 0-2 - fixture-only, not in Bulk"
+ },
+ "England vs Croatia": {
+  "real_home": 2,
+  "real_away": 1,
+  "source": "CONFIRMED Termux V58 eval 12 Nov - Real 2-1 - fixture-only, not in Bulk"
+ },
+ "Netherlands vs Greece": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Serbia vs Germany": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Egypt vs Malawi": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Morocco vs Niger": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Portugal vs Denmark": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Norway vs Wales": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ },
+ "Algeria vs Togo": {
+  "real_home": null,
+  "real_away": null,
+  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
+ }
+}
