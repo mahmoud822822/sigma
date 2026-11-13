@@ -1,0 +1,81 @@
+{
+ "version": "V57",
+ "date": "2026-11-13",
+ "rules": [
+  "No 100% ever - cap conf at 85%",
+  "MUST_WIN beats NEEDS_1PT / DEAD_RUBBER - motivation beats market",
+  "KEY_ABSENCE (Mbappe/Saliba) changes Elo - do not use full-strength Elo if star missing",
+  "HYPE_TRAP: if crowd 80%+ on one side, reduce conf 7% and do NOT offer 1X2 bet",
+  "DEAD_RUBBER + ROTATION_RISK = NO SAFE BET",
+  "Social media is hype signal, NOT prediction source. News is injury/lineup source only.",
+  "After every matchday: move finished to History, re-predict future with new Elo"
+ ],
+ "yesterday_eval": [
+  {
+   "match": "Turkiye vs Belgium",
+   "date": "2026-11-12",
+   "sigma_pred": "p1 7.2 pX 12.7 p2 80.1",
+   "sigma_pick": "2",
+   "sigma_conf": 80.1,
+   "real": "1-2",
+   "real_1x2": "2",
+   "verdict": "1X2 OK",
+   "exact": null,
+   "flip_reason": "No flip - context matched",
+   "context": {
+    "home": "DEAD_RUBBER",
+    "away": "MUST_WIN",
+    "reason": "Turkiye 0 pts, 5 straight losses, already relegated. Belgium needed win to stay alive for QF."
+   }
+  },
+  {
+   "match": "Italy vs France",
+   "date": "2026-11-12",
+   "sigma_pred": "p1 22.6 pX 24.1 p2 53.4",
+   "sigma_pick": "2",
+   "sigma_conf": 53.4,
+   "real": "3-1",
+   "real_1x2": "1",
+   "verdict": "1X2 WRONG",
+   "exact": null,
+   "flip_reason": "Italy needed win to stay alive. France needed 1 pt only. France without Mbappe (injured) + Saliba missing. Zidane: second-best in duels, lost shape defensively.",
+   "context": {
+    "home": "MUST_WIN",
+    "away": "NEEDS_1PT",
+    "reason": "Italy needed win to stay alive. France needed 1 pt only. France without Mbappe (injured) + Saliba missing. Zidane: second-best in duels, lost shape defensively."
+   }
+  },
+  {
+   "match": "Czechia vs Spain",
+   "date": "2026-11-12",
+   "sigma_pred": "fixture-only",
+   "sigma_pick": null,
+   "sigma_conf": null,
+   "real": "0-2",
+   "real_1x2": "2",
+   "verdict": "ABSTAIN - fixture-only",
+   "flip_reason": "Spain stronger squad + motivation to top group. Czechia home but outmatched on quality.",
+   "context": {
+    "home": "NEEDS_PTS",
+    "away": "MUST_WIN",
+    "reason": "Spain stronger squad + motivation to top group. Czechia home but outmatched on quality."
+   }
+  },
+  {
+   "match": "England vs Croatia",
+   "date": "2026-11-12",
+   "sigma_pred": "fixture-only",
+   "sigma_pick": null,
+   "sigma_conf": null,
+   "real": "2-1",
+   "real_1x2": "1",
+   "verdict": "ABSTAIN - fixture-only",
+   "flip_reason": "England home + Kane record motivation + need QF. Croatia needing pts but away.",
+   "context": {
+    "home": "MUST_WIN",
+    "away": "NEEDS_PTS",
+    "reason": "England home + Kane record motivation + need QF. Croatia needing pts but away."
+   }
+  }
+ ]
+}

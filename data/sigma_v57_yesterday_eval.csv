@@ -1,0 +1,5 @@
+match,date,sigma_pred,sigma_pick,sigma_conf,real,real_1x2,verdict,flip_reason
+Turkiye vs Belgium,2026-11-12,p1 7.2 pX 12.7 p2 80.1,2,80.1,1-2,2,1X2 OK,No flip - context matched
+Italy vs France,2026-11-12,p1 22.6 pX 24.1 p2 53.4,2,53.4,3-1,1,1X2 WRONG,"Italy needed win to stay alive. France needed 1 pt only. France without Mbappe (injured) + Saliba missing. Zidane: second-best in duels, lost shape defensively."
+Czechia vs Spain,2026-11-12,fixture-only,,,0-2,2,ABSTAIN - fixture-only,Spain stronger squad + motivation to top group. Czechia home but outmatched on quality.
+England vs Croatia,2026-11-12,fixture-only,,,2-1,1,ABSTAIN - fixture-only,England home + Kane record motivation + need QF. Croatia needing pts but away.
