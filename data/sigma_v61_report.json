@@ -1,0 +1,113 @@
+{
+ "version": "V61",
+ "generated": "2026-11-13",
+ "signature": "Sigma - Mahmoud Emad",
+ "matches": [
+  {
+   "match": "Netherlands vs Greece",
+   "date": "2026-11-13",
+   "league": "UEFA Nations League A2",
+   "base_conf": 68.5,
+   "adjusted_conf": 68.5,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 68.5%",
+    "safety": 6
+   },
+   "context": "Both unbeaten. Greece win guarantees 1st + QF. Netherlands home."
+  },
+  {
+   "match": "Serbia vs Germany",
+   "date": "2026-11-13",
+   "league": "UEFA Nations League A2",
+   "base_conf": 71.2,
+   "adjusted_conf": 71.2,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 2",
+    "why": "adj 71.2%",
+    "safety": 6
+   },
+   "context": "Germany trails leaders by 3, trip to Serbia is MUST_WIN for Germany."
+  },
+  {
+   "match": "Egypt vs Malawi",
+   "date": "2026-11-13",
+   "league": "AFCON Qualifiers Group B",
+   "base_conf": 71.7,
+   "adjusted_conf": 64.7,
+   "flags": [
+    "HYPE_TRAP"
+   ],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 64.7%",
+    "safety": 6
+   },
+   "context": "Egypt top Group B 4pts/2, level Angola ahead GD. Home Cairo. New era after Hossam Hassan exit."
+  },
+  {
+   "match": "Morocco vs Niger",
+   "date": "2026-11-13",
+   "league": "AFCON Qualifiers Group A",
+   "base_conf": 94.3,
+   "adjusted_conf": 75.0,
+   "flags": [
+    "OVERCONFIDENT_BASE",
+    "HYPE_TRAP"
+   ],
+   "best_bet": {
+    "bet": "NO SAFE BET",
+    "why": "2 severe: OVERCONFIDENT_BASE, HYPE_TRAP - no market safe",
+    "safety": 0
+   },
+   "context": "Morocco perfect start Group A, double-header 13+17 Nov."
+  },
+  {
+   "match": "Portugal vs Denmark",
+   "date": "2026-11-14",
+   "league": "UEFA Nations League A4",
+   "base_conf": 72.4,
+   "adjusted_conf": 72.4,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 72.4%",
+    "safety": 6
+   },
+   "context": "A4 MD5 Braga. Portugal home, Denmark needs pts."
+  },
+  {
+   "match": "Norway vs Wales",
+   "date": "2026-11-14",
+   "league": "UEFA Nations League A4",
+   "base_conf": 82.0,
+   "adjusted_conf": 82.0,
+   "flags": [],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 82.0%",
+    "safety": 6
+   },
+   "context": "A4 MD5 Oslo."
+  },
+  {
+   "match": "Algeria vs Togo",
+   "date": "2026-11-14",
+   "league": "AFCON Qualifiers Group I",
+   "base_conf": 87.9,
+   "adjusted_conf": 85.0,
+   "flags": [
+    "OVERCONFIDENT_BASE"
+   ],
+   "best_bet": {
+    "bet": "1X2 pick 1",
+    "why": "adj 85.0%",
+    "safety": 6
+   },
+   "context": "AFCON Qualifiers Group I MD3."
+  }
+ ],
+ "gate": "PASS"
+}
