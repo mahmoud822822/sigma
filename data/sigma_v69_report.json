@@ -1,0 +1,134 @@
+{
+ "version": "V69",
+ "generated": "2026-11-13",
+ "bulk_rows": 839,
+ "fixed": {
+  "Netherlands vs Greece": {
+   "date": "2026-11-13",
+   "pick": "1",
+   "base_before": 68.5,
+   "base_fixed": 68.5,
+   "adj_before": 68.5,
+   "adj_fixed": 68.5,
+   "bet_before": "1X2 pick 1",
+   "bet_fixed": "1X2 pick 1",
+   "flags": [],
+   "elo_home_fixed": 1775.2,
+   "elo_away_fixed": 1634.1,
+   "fix_reasons": []
+  },
+  "Serbia vs Germany": {
+   "date": "2026-11-13",
+   "pick": "2",
+   "base_before": 71.2,
+   "base_fixed": 71.2,
+   "adj_before": 71.2,
+   "adj_fixed": 71.2,
+   "bet_before": "1X2 pick 2",
+   "bet_fixed": "1X2 pick 2",
+   "flags": [],
+   "elo_home_fixed": 1606.5,
+   "elo_away_fixed": 1756.4,
+   "fix_reasons": []
+  },
+  "Egypt vs Malawi": {
+   "date": "2026-11-13",
+   "pick": "1",
+   "base_before": 71.7,
+   "base_fixed": 71.7,
+   "adj_before": 64.7,
+   "adj_fixed": 64.7,
+   "bet_before": "1X2 pick 1",
+   "bet_fixed": "1X2 pick 1",
+   "flags": [
+    "HYPE_TRAP"
+   ],
+   "elo_home_fixed": null,
+   "elo_away_fixed": null,
+   "fix_reasons": [
+    "Elo home: FIX-B Elo: missing -> NO DATA",
+    "Elo away: FIX-B Elo: missing -> NO DATA"
+   ]
+  },
+  "Morocco vs Niger": {
+   "date": "2026-11-13",
+   "pick": "1",
+   "base_before": 94.3,
+   "base_fixed": 94.3,
+   "adj_before": 75.0,
+   "adj_fixed": 75.0,
+   "bet_before": "NO SAFE BET",
+   "bet_fixed": "NO SAFE BET",
+   "flags": [
+    "OVERCONFIDENT_BASE",
+    "HYPE_TRAP"
+   ],
+   "elo_home_fixed": null,
+   "elo_away_fixed": null,
+   "fix_reasons": [
+    "Elo home: FIX-B Elo: missing -> NO DATA",
+    "Elo away: FIX-B Elo: missing -> NO DATA",
+    "FIX-C: base>=90 or 87.9-no-proof -> FORCE NO SAFE BET, never unlock"
+   ]
+  },
+  "Portugal vs Denmark": {
+   "date": "2026-11-14",
+   "pick": "1",
+   "base_before": 72.4,
+   "base_fixed": 72.4,
+   "adj_before": 72.4,
+   "adj_fixed": 72.4,
+   "bet_before": "1X2 pick 1",
+   "bet_fixed": "1X2 pick 1",
+   "flags": [],
+   "elo_home_fixed": 1824.5,
+   "elo_away_fixed": 1705.6,
+   "fix_reasons": []
+  },
+  "Norway vs Wales": {
+   "date": "2026-11-14",
+   "pick": "1",
+   "base_before": 82.0,
+   "base_fixed": 82.0,
+   "adj_before": 82.0,
+   "adj_fixed": 82.0,
+   "bet_before": "NO SAFE BET",
+   "bet_fixed": "NO SAFE BET",
+   "flags": [
+    "HIGH_CONF_GATE"
+   ],
+   "elo_home_fixed": 1686.7,
+   "elo_away_fixed": 1569.4,
+   "fix_reasons": [
+    "FIX-C: HIGH_CONF_GATE -> keep NO SAFE BET"
+   ]
+  },
+  "Algeria vs Togo": {
+   "date": "2026-11-14",
+   "pick": "1",
+   "base_before": 87.9,
+   "base_fixed": null,
+   "adj_before": 85.0,
+   "adj_fixed": 85.0,
+   "bet_before": "NO SAFE BET",
+   "bet_fixed": "NO SAFE BET",
+   "flags": [
+    "OVERCONFIDENT_BASE",
+    "HIGH_CONF_GATE"
+   ],
+   "elo_home_fixed": null,
+   "elo_away_fixed": null,
+   "fix_reasons": [
+    "FIX-A V50: 87.9 is default, no Elo proof -> NO DATA",
+    "Elo home: FIX-B Elo: missing -> NO DATA",
+    "Elo away: FIX-B Elo: missing -> NO DATA",
+    "FIX-C: base>=90 or 87.9-no-proof -> FORCE NO SAFE BET, never unlock",
+    "FIX-C: HIGH_CONF_GATE -> keep NO SAFE BET"
+   ]
+  }
+ },
+ "fixes_summary": {
+  "v50_no_data": 1,
+  "elo_no_data": 3
+ }
+}
