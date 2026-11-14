@@ -1,0 +1,12 @@
+{
+  "version": "V72",
+  "date": "2026-11-14",
+  "results_13_nov": [
+    {"match":"Netherlands vs Greece","prediction":"1","actual":"7-0","result":"correct"},
+    {"match":"Serbia vs Germany","prediction":"2","actual":"1-3","result":"correct"},
+    {"match":"Egypt vs Malawi","prediction":"1","actual":"5-0","result":"correct"},
+    {"match":"Morocco vs Niger","prediction":"NO SAFE BET","actual":"5-1 FT","result":"abstain-correct"}
+  ],
+  "summary": "3/3 correct + 1 abstain-correct",
+  "next": "14 Nov - Portugal vs Denmark, Norway vs Wales, Algeria vs Togo - WAITING"
+}
