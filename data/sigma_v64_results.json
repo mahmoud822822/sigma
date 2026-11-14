@@ -1,57 +1,6 @@
-{
- "Turkiye vs Belgium": {
-  "real_home": 1,
-  "real_away": 2,
-  "source": "CONFIRMED Termux V58/V60 eval 12 Nov - Real 1-2"
- },
- "Italy vs France": {
-  "real_home": 3,
-  "real_away": 1,
-  "source": "CONFIRMED Termux V58/V60 eval 12 Nov - Real 3-1"
- },
- "Czechia vs Spain": {
-  "real_home": 0,
-  "real_away": 2,
-  "source": "CONFIRMED Termux V58 eval 12 Nov - Real 0-2 - fixture-only, not in Bulk"
- },
- "England vs Croatia": {
-  "real_home": 2,
-  "real_away": 1,
-  "source": "CONFIRMED Termux V58 eval 12 Nov - Real 2-1 - fixture-only, not in Bulk"
- },
- "Netherlands vs Greece": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Serbia vs Germany": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Egypt vs Malawi": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Morocco vs Niger": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Portugal vs Denmark": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Norway vs Wales": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- },
- "Algeria vs Togo": {
-  "real_home": null,
-  "real_away": null,
-  "source": "13-14 Nov still SCHEDULED 13 Nov afternoon - DO NOT invent - fill after FT"
- }
-}
+[
+  {"match":"Netherlands vs Greece","date":"2026-11-13","prediction":"1","conf":68.5,"actual":"7-0","result":"correct"},
+  {"match":"Serbia vs Germany","date":"2026-11-13","prediction":"2","conf":71.2,"actual":"1-3","result":"correct"},
+  {"match":"Egypt vs Malawi","date":"2026-11-13","prediction":"1","conf":64.7,"actual":"5-0","result":"correct","note":"HYPE -7 applied"},
+  {"match":"Morocco vs Niger","date":"2026-11-13","prediction":"NO SAFE BET","conf":94.3,"actual":"5-1 FT","result":"abstain-correct","note":"OVERCONFIDENT_BASE + HYPE_TRAP - do not count as win/loss"}
+]
