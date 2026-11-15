@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135160,
+  "history": 135200,
   "verified": 14,
   "future": 441,
   "teams": 1258,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 78,
+  "golden_count": 64,
   "future_count": 360,
   "by_source": {
     "OPEN": 441
@@ -2571,11 +2571,11 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1430.9,
+      "avg": 1430.8,
       "n": 36
     },
     "Germany Bundesliga": {
-      "avg": 1583.1,
+      "avg": 1583.0,
       "n": 26
     },
     "Spain Segunda": {
@@ -2623,28 +2623,28 @@
       "n": 25
     },
     "BL2": {
-      "avg": 1480.1,
-      "n": 7
-    },
-    "2. Bundesliga": {
-      "avg": 1480.9,
-      "n": 18
+      "avg": 1471.0,
+      "n": 17
     },
     "BL1": {
-      "avg": 1587.6,
-      "n": 4
-    },
-    "Bundesliga": {
-      "avg": 1569.7,
-      "n": 15
+      "avg": 1582.4,
+      "n": 17
     },
     "Portugal": {
       "avg": 1506.3,
       "n": 2
     },
+    "2. Bundesliga": {
+      "avg": 1502.1,
+      "n": 8
+    },
     "【entity-DFB¦canonical_name=DFB】-Pokal": {
       "avg": 1486.9,
       "n": 1
+    },
+    "Bundesliga": {
+      "avg": 1495.9,
+      "n": 2
     },
     "Germany": {
       "avg": 1516.0,
@@ -2654,7 +2654,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135188,
+      "n": 135228,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2870,6 +2870,13 @@
       "btts_pct": 0.0,
       "over25_pct": 0.0
     },
+    "BL2": {
+      "n": 25,
+      "avg_goals": 2.36,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
     "2. Bundesliga": {
       "n": 59,
       "avg_goals": 3.32,
@@ -2887,6 +2894,13 @@
     "Bundesliga": {
       "n": 36,
       "avg_goals": 3.81,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "BL1": {
+      "n": 21,
+      "avg_goals": 3.38,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
