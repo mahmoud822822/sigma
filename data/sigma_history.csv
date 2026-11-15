@@ -106301,6 +106301,9 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-11-13,Morocco,Niger,5,1,International,FINISHED,sigma_daily_report.json:V72
 2026-11-13,Netherlands,Greece,7,0,International,FINISHED,sigma_daily_report.json:V72
 2026-11-13,Serbia,Germany,1,3,International,FINISHED,sigma_daily_report.json:V72
+2026-11-14,Algeria,Togo,1,0,Africa Cup of Nations Qualification,FINISHED,verified-14Nov
+2026-11-14,Norway,Wales,3,1,UEFA Nations League,FINISHED,verified-14Nov
+2026-11-14,Portugal,Denmark,1,4,UEFA Nations League,FINISHED,verified-14Nov
 21/01/17,Accrington,Carlisle,1,1,England League 2,FINISHED,existing
 21/01/17,Akhisar Belediyespor,Kayserispor,0,0,Turkey Super Lig,FINISHED,existing
 21/01/17,Alaves,Leganes,2,2,Spain La Liga,FINISHED,existing
@@ -136060,6 +136063,3 @@ date,home,away,home_goals,away_goals,league,status,source
 31/12/2023,Tottenham,Bournemouth,3,1,England Premier League,FINISHED,existing
 31/12/2024,Morton,Partick,2,1,Scotland Championship,FINISHED,existing
 31/12/2024,Solihull,Tamworth,2,0,England Conference,FINISHED,existing
-2026-11-14,Norway,Wales,3,1,UEFA Nations League,FINISHED,verified-14Nov
-2026-11-14,Algeria,Togo,1,0,Africa Cup of Nations Qualification,FINISHED,verified-14Nov
-2026-11-14,Portugal,Denmark,1,4,UEFA Nations League,FINISHED,verified-14Nov

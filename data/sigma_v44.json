@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 134991,
+  "history": 134994,
   "verified": 14,
   "future": 371,
   "teams": 1211,
@@ -2591,16 +2591,20 @@
       "n": 13
     },
     "International": {
-      "avg": 1513.5,
-      "n": 189
+      "avg": 1512.2,
+      "n": 188
     },
     "World Cup": {
       "avg": 1471.3,
       "n": 5
     },
     "African Cup": {
-      "avg": 1453.3,
-      "n": 32
+      "avg": 1452.2,
+      "n": 31
+    },
+    "Africa Cup of Nations Qualification": {
+      "avg": 1620.6,
+      "n": 2
     },
     "UEFA Nations League": {
       "avg": 1491.0,
@@ -2626,7 +2630,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135019,
+      "n": 135022,
       "avg_goals": 2.67,
       "home_win_pct": 44.1,
       "btts_pct": 51.1,
@@ -2836,7 +2840,7 @@
       "over25_pct": 0.0
     },
     "UEFA Nations League": {
-      "n": 1325,
+      "n": 1327,
       "avg_goals": 2.84,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,

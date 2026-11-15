@@ -15,7 +15,7 @@
   "manual": [],
   "history": {
     "file": "data/sigma_history.csv",
-    "total_rows_before": 134991,
+    "total_rows_before": 134994,
     "duplicate_rows": 49,
     "fake_row": "Man Utd vs Villa 2-1 on 2026-10-01 (quarantined, never learned)",
     "real_correction": "Man Utd vs Aston Villa 4-4 on 8 Nov 2026 - in history via verified14"
