@@ -1,14 +1,14 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135260,
+  "history": 135275,
   "verified": 14,
-  "future": 441,
+  "future": 448,
   "teams": 1258,
   "total_fixtures": 719,
-  "real_predictions": 441,
-  "no_confirmed_data": 9,
-  "no_confirmed_data_count": 9,
+  "real_predictions": 448,
+  "no_confirmed_data": 2,
+  "no_confirmed_data_count": 2,
   "passed_skipped": 269,
   "passed_skipped_matches": [
     {
@@ -2434,21 +2434,21 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 65,
+  "golden_count": 67,
   "future_count": 360,
   "by_source": {
-    "OPEN": 441
+    "OPEN": 448
   },
   "by_competition_type": {
+    "NATIONAL": 8,
     "LEAGUE": 432,
-    "CUP": 8,
-    "NATIONAL": 1
+    "CUP": 8
   },
   "by_competition": {
+    "UEFA Nations League": 8,
     "Bundesliga": 225,
     "DFB-Pokal": 8,
-    "2. Bundesliga": 207,
-    "UEFA Nations League": 1
+    "2. Bundesliga": 207
   },
   "backtest": {
     "n": 500,
@@ -2607,16 +2607,16 @@
       "n": 2
     },
     "UEFA Nations League": {
-      "avg": 1490.9,
-      "n": 82
+      "avg": 1486.1,
+      "n": 80
     },
     "Asian Cup": {
       "avg": 1372.6,
       "n": 3
     },
     "UNL": {
-      "avg": 1538.2,
-      "n": 15
+      "avg": 1555.1,
+      "n": 17
     },
     "DFB-Pokal": {
       "avg": 1472.9,
@@ -2658,7 +2658,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135288,
+      "n": 135303,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2875,8 +2875,8 @@
       "over25_pct": 0.0
     },
     "BL2": {
-      "n": 46,
-      "avg_goals": 2.48,
+      "n": 50,
+      "avg_goals": 2.58,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2903,8 +2903,15 @@
       "over25_pct": 0.0
     },
     "BL1": {
-      "n": 44,
-      "avg_goals": 3.2,
+      "n": 47,
+      "avg_goals": 3.17,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "UNL": {
+      "n": 23,
+      "avg_goals": 3.48,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2941,7 +2948,7 @@
     },
     {
       "team": "England",
-      "elo": 1831.5
+      "elo": 1833.2
     },
     {
       "team": "Olympiakos",
