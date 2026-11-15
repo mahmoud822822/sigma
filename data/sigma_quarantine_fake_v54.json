@@ -12,10 +12,67 @@
     "history_duplicate_rows": 49,
     "future_unverified": 3
   },
-  "manual": [],
+  "manual": [
+    {
+      "match": "【entity-Real Madrid¦canonical_name=Real Madrid】 vs 【entity-Barcelona¦canonical_name=Barcelona】",
+      "date": "2026-11-17",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "Man City vs 【entity-Arsenal¦canonical_name=Arsenal】",
+      "date": "2026-11-18",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "【entity-Inter¦canonical_name=Inter】 vs 【entity-Milan¦canonical_name=AC Milan】",
+      "date": "2026-11-19",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "Brazil vs Argentina",
+      "date": "2026-11-20",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "【entity-Al Ahly¦canonical_name=Al Ahly】 vs 【entity-Zamalek¦canonical_name=Zamalek】",
+      "date": "2026-11-15",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "【entity-Al Hilal¦canonical_name=Al Hilal】 vs 【entity-Al Nassr¦canonical_name=Al Nassr】",
+      "date": "2026-11-16",
+      "reason": "FAKE manual date - no verified fixture, quarantined, no-data only",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    },
+    {
+      "match": "【entity-England¦canonical_name=England】 vs Croatia",
+      "date": "2026-11-12",
+      "reason": "CORRECTED - web-verified 2-1, in history",
+      "current_location": "no-data (not a prediction)",
+      "as_prediction": false,
+      "corrected": false
+    }
+  ],
   "history": {
     "file": "data/sigma_history.csv",
-    "total_rows_before": 134994,
+    "total_rows_before": 135275,
     "duplicate_rows": 49,
     "fake_row": "Man Utd vs Villa 2-1 on 2026-10-01 (quarantined, never learned)",
     "real_correction": "Man Utd vs Aston Villa 4-4 on 8 Nov 2026 - in history via verified14"
@@ -38,6 +95,5 @@
     }
   ],
   "quarantined_history_rows": [],
-  "conflicts": [],
-  "manual_error": "[Errno 2] No such file or directory: '/data/data/com.termux/files/home/sigma-repo/sigma_v54_real_complete.json'"
+  "conflicts": []
 }
