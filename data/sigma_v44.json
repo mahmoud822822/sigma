@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135140,
+  "history": 135160,
   "verified": 14,
   "future": 441,
   "teams": 1258,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 80,
+  "golden_count": 78,
   "future_count": 360,
   "by_source": {
     "OPEN": 441
@@ -2571,11 +2571,11 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1431.1,
+      "avg": 1430.9,
       "n": 36
     },
     "Germany Bundesliga": {
-      "avg": 1583.2,
+      "avg": 1583.1,
       "n": 26
     },
     "Spain Segunda": {
@@ -2607,28 +2607,36 @@
       "n": 2
     },
     "UEFA Nations League": {
-      "avg": 1492.4,
-      "n": 95
+      "avg": 1490.9,
+      "n": 82
     },
     "Asian Cup": {
       "avg": 1372.6,
       "n": 3
     },
     "UNL": {
-      "avg": 1775.7,
-      "n": 2
+      "avg": 1538.2,
+      "n": 15
     },
     "DFB-Pokal": {
       "avg": 1476.8,
       "n": 25
     },
+    "BL2": {
+      "avg": 1480.1,
+      "n": 7
+    },
     "2. Bundesliga": {
-      "avg": 1480.2,
-      "n": 25
+      "avg": 1480.9,
+      "n": 18
+    },
+    "BL1": {
+      "avg": 1587.6,
+      "n": 4
     },
     "Bundesliga": {
-      "avg": 1573.5,
-      "n": 19
+      "avg": 1569.7,
+      "n": 15
     },
     "Portugal": {
       "avg": 1506.3,
@@ -2646,7 +2654,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135168,
+      "n": 135188,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2911,7 +2919,11 @@
     },
     {
       "team": "Bayern Munich",
-      "elo": 1853.7
+      "elo": 1853.6
+    },
+    {
+      "team": "England",
+      "elo": 1831.5
     },
     {
       "team": "Olympiakos",
@@ -2920,10 +2932,6 @@
     {
       "team": "Liverpool FC",
       "elo": 1826.9
-    },
-    {
-      "team": "Brazil",
-      "elo": 1826.8
     }
   ]
 }

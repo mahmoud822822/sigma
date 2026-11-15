@@ -106300,6 +106300,7 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-01,Dänemark,Portugal,2,4,UEFA Nations League,FINISHED,verified-UNL-Oct
 2026-10-01,Germany,Serbia,2,0,UEFA Nations League,FINISHED,international_results
 2026-10-01,Greece,Netherlands,2,2,UEFA Nations League,FINISHED,international_results
+2026-10-01,Griechenland,Niederlande,2,2,UNL,FINISHED,verified-V44-12
 2026-10-01,Guinea,Kenya,1,0,African Cup,FINISHED,international_results
 2026-10-01,Indonesia,Bangladesh,9,2,International,FINISHED,international_results
 2026-10-01,Israel,Kosovo,0,0,UEFA Nations League,FINISHED,international_results
@@ -106314,7 +106315,9 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-01,United States Virgin Islands,Saint Martin,0,5,UEFA Nations League,FINISHED,international_results
 2026-10-01,Uzbekistan,Syria,4,1,International,FINISHED,international_results
 2026-10-01,Wales,Norway,2,1,UEFA Nations League,FINISHED,international_results
+2026-10-01,Wales,Norwegen,2,1,UNL,FINISHED,verified-V44-12
 2026-10-02,Barbados,Bermuda,4,1,UEFA Nations League,FINISHED,international_results
+2026-10-02,Belgien,Türkei,3,0,UNL,FINISHED,verified-V44-12
 2026-10-02,Belgium,Turkey,3,0,UEFA Nations League,FINISHED,international_results
 2026-10-02,Bonaire,Grenada,2,3,UEFA Nations League,FINISHED,international_results
 2026-10-02,Bosnia and Herzegovina,Sweden,1,1,UEFA Nations League,FINISHED,international_results
@@ -106325,6 +106328,7 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-02,El Salvador,Jamaica,0,2,UEFA Nations League,FINISHED,international_results
 2026-10-02,Faroe Islands,Slovakia,1,1,UEFA Nations League,FINISHED,international_results
 2026-10-02,France,Italy,1,1,UEFA Nations League,FINISHED,international_results
+2026-10-02,Frankreich,Italien,1,1,UNL,FINISHED,verified-V44-12
 2026-10-02,Hungary,Georgia,1,0,UEFA Nations League,FINISHED,international_results
 2026-10-02,Kazakhstan,Moldova,1,2,UEFA Nations League,FINISHED,international_results
 2026-10-02,Latvia,Montenegro,1,2,UEFA Nations League,FINISHED,international_results
@@ -106350,11 +106354,13 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-03,Iceland,Bulgaria,3,0,UEFA Nations League,FINISHED,international_results
 2026-10-03,India,Brazil,0,4,International,FINISHED,international_results
 2026-10-03,Ivory Coast,Cameroon,0,1,International,FINISHED,international_results
+2026-10-03,Kroatien,England,0,7,UNL,FINISHED,verified-V44-12
 2026-10-03,North Macedonia,Scotland,0,2,UEFA Nations League,FINISHED,international_results
 2026-10-03,Russia,Namibia,6,0,International,FINISHED,international_results
 2026-10-03,Saudi Arabia,Qatar,0,0,International,FINISHED,international_results
 2026-10-03,Sint Maarten,Saint Vincent and the Grenadines,2,4,UEFA Nations League,FINISHED,international_results
 2026-10-03,Spain,Czech Republic,3,1,UEFA Nations League,FINISHED,international_results
+2026-10-03,Spanien,Tschechien,3,1,UNL,FINISHED,verified-V44-12
 2026-10-03,Switzerland,Slovenia,2,1,UEFA Nations League,FINISHED,international_results
 2026-10-03,United Arab Emirates,Oman,1,0,International,FINISHED,international_results
 2026-10-03,United States,Mexico,3,0,International,FINISHED,international_results
@@ -106363,6 +106369,7 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-04,Costa Rica,Haiti,2,0,UEFA Nations League,FINISHED,international_results
 2026-10-04,Egypt,South Africa,0,1,International,FINISHED,international_results
 2026-10-04,Greece,Germany,0,0,UEFA Nations League,FINISHED,international_results
+2026-10-04,Griechenland,Deutschland,0,0,UNL,FINISHED,verified-V44-12
 2026-10-04,Guyana,Dominica,8,1,UEFA Nations League,FINISHED,international_results
 2026-10-04,Kosovo,Austria,1,1,UEFA Nations League,FINISHED,international_results
 2026-10-04,Kyrgyzstan,Lebanon,3,1,International,FINISHED,international_results
@@ -106370,24 +106377,29 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-04,Morocco,Mali,1,1,International,FINISHED,international_results
 2026-10-04,Netherlands,Serbia,2,1,UEFA Nations League,FINISHED,international_results
 2026-10-04,Nicaragua,Dominican Republic,1,2,UEFA Nations League,FINISHED,international_results
+2026-10-04,Niederlande,Serbien,2,1,UNL,FINISHED,verified-V44-12
 2026-10-04,Portugal,Norway,2,1,UEFA Nations League,FINISHED,international_results
+2026-10-04,Portugal,Norwegen,2,1,UNL,FINISHED,verified-V44-12
 2026-10-04,Puerto Rico,Cayman Islands,1,0,UEFA Nations League,FINISHED,international_results
 2026-10-04,Republic of Ireland,Israel,1,1,UEFA Nations League,FINISHED,international_results
 2026-10-04,Senegal,Comoros,1,0,International,FINISHED,international_results
 2026-10-04,Trinidad and Tobago,Curaçao,1,1,UEFA Nations League,FINISHED,international_results
 2026-10-04,Turks and Caicos Islands,British Virgin Islands,3,0,UEFA Nations League,FINISHED,international_results
 2026-10-04,Wales,Denmark,0,1,UEFA Nations League,FINISHED,international_results
+2026-10-04,Wales,Dänemark,0,1,UNL,FINISHED,verified-V44-12
 2026-10-05,Barbados,Bermuda,2,1,UEFA Nations League,FINISHED,international_results
 2026-10-05,Bosnia and Herzegovina,Poland,1,0,UEFA Nations League,FINISHED,international_results
 2026-10-05,Cuba,Saint Kitts and Nevis,2,2,UEFA Nations League,FINISHED,international_results
 2026-10-05,Cyprus,Latvia,2,1,UEFA Nations League,FINISHED,international_results
 2026-10-05,Ecuador,Panama,1,1,International,FINISHED,international_results
 2026-10-05,France,Belgium,4,1,UEFA Nations League,FINISHED,international_results
+2026-10-05,Frankreich,Belgien,4,1,UNL,FINISHED,verified-V44-12
 2026-10-05,Grenada,Bonaire,1,4,UEFA Nations League,FINISHED,international_results
 2026-10-05,Guadeloupe,Saint Lucia,0,1,UEFA Nations League,FINISHED,international_results
 2026-10-05,Guatemala,Suriname,1,0,UEFA Nations League,FINISHED,international_results
 2026-10-05,Honduras,Jamaica,1,1,UEFA Nations League,FINISHED,international_results
 2026-10-05,Indonesia,Thailand,2,2,International,FINISHED,international_results
+2026-10-05,Italien,Türkei,3,1,UNL,FINISHED,verified-V44-12
 2026-10-05,Italy,Turkey,3,1,UEFA Nations League,FINISHED,international_results
 2026-10-05,Japan,New Zealand,2,1,International,FINISHED,international_results
 2026-10-05,Liechtenstein,Gibraltar,0,2,International,FINISHED,international_results
@@ -106411,10 +106423,12 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-06,Colombia,Peru,2,0,International,FINISHED,international_results
 2026-10-06,Croatia,Spain,1,2,UEFA Nations League,FINISHED,international_results
 2026-10-06,England,Czech Republic,3,0,UEFA Nations League,FINISHED,international_results
+2026-10-06,England,Tschechien,3,0,UNL,FINISHED,verified-V44-12
 2026-10-06,Estonia,Iceland,0,0,UEFA Nations League,FINISHED,international_results
 2026-10-06,India,Uruguay,1,6,International,FINISHED,international_results
 2026-10-06,Jordan,Venezuela,0,0,International,FINISHED,international_results
 2026-10-06,Kazakhstan,Faroe Islands,2,2,UEFA Nations League,FINISHED,international_results
+2026-10-06,Kroatien,Spanien,1,2,UNL,FINISHED,verified-V44-12
 2026-10-06,Luxembourg,Bulgaria,0,2,UEFA Nations League,FINISHED,international_results
 2026-10-06,Mexico,Chile,0,2,International,FINISHED,international_results
 2026-10-06,Moldova,Slovakia,0,4,UEFA Nations League,FINISHED,international_results
@@ -106427,6 +106441,12 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-10-06,Switzerland,North Macedonia,3,0,UEFA Nations League,FINISHED,international_results
 2026-10-06,Turks and Caicos Islands,Montserrat,1,4,UEFA Nations League,FINISHED,international_results
 2026-10-06,United States,Canada,1,0,International,FINISHED,international_results
+2026-10-09,1. FC Heidenheim 1846,1. FC Kaiserslautern,0,0,BL2,FINISHED,verified-V44-12
+2026-10-09,Borussia Dortmund,SV Werder Bremen,2,2,BL1,FINISHED,verified-V44-12
+2026-10-09,Eintracht Braunschweig,Holstein Kiel,1,0,BL2,FINISHED,verified-V44-12
+2026-10-10,1. FC Magdeburg,Hannover 96,3,0,BL2,FINISHED,verified-V44-12
+2026-10-10,1. FC Nürnberg,VfL Wolfsburg,4,4,BL2,FINISHED,verified-V44-12
+2026-10-10,1. FC Union Berlin,SV 07 Elversberg,1,0,BL1,FINISHED,verified-V44-12
 2026-11-03,Bayern,Atletico,2,0,Europe,FINISHED,sigma_old_new_fed.csv:NEW_2026
 2026-11-07,Bayern,Mainz,2,1,Germany,FINISHED,sigma_old_new_fed.csv:NEW_2026
 2026-11-08,Alanya,Trabzonspor,0,2,Turkey,FINISHED,sigma_old_new_fed.csv:NEW_VERIFIED
