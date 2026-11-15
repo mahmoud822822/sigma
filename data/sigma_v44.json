@@ -1,14 +1,14 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135080,
+  "history": 135100,
   "verified": 14,
-  "future": 393,
+  "future": 441,
   "teams": 1241,
   "total_fixtures": 719,
-  "real_predictions": 393,
-  "no_confirmed_data": 57,
-  "no_confirmed_data_count": 57,
+  "real_predictions": 441,
+  "no_confirmed_data": 9,
+  "no_confirmed_data_count": 9,
   "passed_skipped": 269,
   "passed_skipped_matches": [
     {
@@ -2435,19 +2435,19 @@
   ],
   "default_count": 0,
   "golden_count": 78,
-  "future_count": 320,
+  "future_count": 360,
   "by_source": {
-    "OPEN": 393
+    "OPEN": 441
   },
   "by_competition_type": {
-    "LEAGUE": 384,
+    "LEAGUE": 432,
     "CUP": 8,
     "NATIONAL": 1
   },
   "by_competition": {
-    "Bundesliga": 200,
+    "Bundesliga": 225,
     "DFB-Pokal": 8,
-    "2. Bundesliga": 184,
+    "2. Bundesliga": 207,
     "UEFA Nations League": 1
   },
   "backtest": {
@@ -2619,16 +2619,16 @@
       "n": 2
     },
     "DFB-Pokal": {
-      "avg": 1480.2,
-      "n": 27
+      "avg": 1476.8,
+      "n": 25
     },
     "2. Bundesliga": {
-      "avg": 1483.5,
-      "n": 22
+      "avg": 1478.3,
+      "n": 23
     },
     "Bundesliga": {
-      "avg": 1575.9,
-      "n": 16
+      "avg": 1582.1,
+      "n": 17
     },
     "Portugal": {
       "avg": 1506.3,
@@ -2646,7 +2646,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135108,
+      "n": 135128,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2863,8 +2863,8 @@
       "over25_pct": 0.0
     },
     "2. Bundesliga": {
-      "n": 37,
-      "avg_goals": 3.57,
+      "n": 47,
+      "avg_goals": 3.49,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2872,6 +2872,13 @@
     "DFB-Pokal": {
       "n": 31,
       "avg_goals": 4.58,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "Bundesliga": {
+      "n": 25,
+      "avg_goals": 3.84,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
