@@ -2,208 +2,8 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Passed events with no verified result are tracked here, NEVER invented.",
-  "total": 148,
+  "total": 128,
   "matches": [
-    {
-      "date": "2026-09-20",
-      "home": "FC Schalke 04",
-      "away": "SV 07 Elversberg",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-20",
-      "home": "Hannover 96",
-      "away": "VfL Bochum",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-20",
-      "home": "SC Paderborn 07",
-      "away": "TSG Hoffenheim",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Niederlande",
-      "away": "Deutschland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Norwegen",
-      "away": "Dänemark",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Serbien",
-      "away": "Griechenland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-25",
-      "home": "Italien",
-      "away": "Belgien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-25",
-      "home": "Türkei",
-      "away": "Frankreich",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-26",
-      "home": "England",
-      "away": "Spanien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-26",
-      "home": "Tschechien",
-      "away": "Kroatien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Deutschland",
-      "away": "Griechenland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Dänemark",
-      "away": "Wales",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Norwegen",
-      "away": "Portugal",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Serbien",
-      "away": "Niederlande",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-28",
-      "home": "Belgien",
-      "away": "Frankreich",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-28",
-      "home": "Türkei",
-      "away": "Italien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-29",
-      "home": "Spanien",
-      "away": "Kroatien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-29",
-      "home": "Tschechien",
-      "away": "England",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-10-01",
-      "home": "Deutschland",
-      "away": "Serbien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-10-01",
-      "home": "Dänemark",
-      "away": "Portugal",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
     {
       "date": "2026-10-01",
       "home": "Griechenland",
@@ -1485,7 +1285,7 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "learned_total": 117,
+  "learned_total": 134,
   "learned": [
     {
       "date": "2026-08-08",
@@ -2754,12 +2554,199 @@
     },
     {
       "date": "2026-09-24",
+      "home": "Niederlande",
+      "away": "Deutschland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Norwegen",
+      "away": "Dänemark",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "3-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
       "home": "Portugal",
       "away": "Wales",
       "league": "UNL",
       "competition": "UEFA Nations League",
       "source": "sigma_next_month.json",
       "score": "1-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Serbien",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Italien",
+      "away": "Belgien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Türkei",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-26",
+      "home": "England",
+      "away": "Spanien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-26",
+      "home": "Tschechien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Deutschland",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Dänemark",
+      "away": "Wales",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Norwegen",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Serbien",
+      "away": "Niederlande",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Belgien",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Türkei",
+      "away": "Italien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Spanien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "4-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Tschechien",
+      "away": "England",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Deutschland",
+      "away": "Serbien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Dänemark",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-4",
       "status": "LEARNED",
       "where": "history"
     },

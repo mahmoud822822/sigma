@@ -2,10 +2,10 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Any event that passes is analyzed and learned from. No invented scores.",
-  "history_before": 135120,
-  "history_before_this_run": 135120,
+  "history_before": 135140,
+  "history_before_this_run": 135140,
   "history_before_original": 134947,
-  "history_after": 135120,
+  "history_after": 135140,
   "added_this_run": [],
   "added_this_run_count": 0,
   "added": [],
@@ -1282,12 +1282,199 @@
     },
     {
       "date": "2026-09-24",
+      "home": "Niederlande",
+      "away": "Deutschland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Norwegen",
+      "away": "Dänemark",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "3-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
       "home": "Portugal",
       "away": "Wales",
       "league": "UNL",
       "competition": "UEFA Nations League",
       "source": "sigma_next_month.json",
       "score": "1-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Serbien",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Italien",
+      "away": "Belgien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Türkei",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-26",
+      "home": "England",
+      "away": "Spanien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-26",
+      "home": "Tschechien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Deutschland",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Dänemark",
+      "away": "Wales",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Norwegen",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Serbien",
+      "away": "Niederlande",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Belgien",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Türkei",
+      "away": "Italien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "1-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Spanien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "4-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Tschechien",
+      "away": "England",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Deutschland",
+      "away": "Serbien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Dänemark",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-4",
       "status": "LEARNED",
       "where": "history"
     },
@@ -1303,7 +1490,7 @@
       "where": "history"
     }
   ],
-  "passed_learned_count": 117,
+  "passed_learned_count": 134,
   "passed_unverified": [
     {
       "date": "2026-08-07",
@@ -1374,176 +1561,6 @@
       "source": "sigma_next_month.json",
       "status": "PASSED_WITHOUT_VERIFIED_RESULT",
       "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Niederlande",
-      "away": "Deutschland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Norwegen",
-      "away": "Dänemark",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-24",
-      "home": "Serbien",
-      "away": "Griechenland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-25",
-      "home": "Italien",
-      "away": "Belgien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-25",
-      "home": "Türkei",
-      "away": "Frankreich",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-26",
-      "home": "England",
-      "away": "Spanien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-26",
-      "home": "Tschechien",
-      "away": "Kroatien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Deutschland",
-      "away": "Griechenland",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Dänemark",
-      "away": "Wales",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Norwegen",
-      "away": "Portugal",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-27",
-      "home": "Serbien",
-      "away": "Niederlande",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-28",
-      "home": "Belgien",
-      "away": "Frankreich",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-28",
-      "home": "Türkei",
-      "away": "Italien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-29",
-      "home": "Spanien",
-      "away": "Kroatien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-09-29",
-      "home": "Tschechien",
-      "away": "England",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-10-01",
-      "home": "Deutschland",
-      "away": "Serbien",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-10-01",
-      "home": "Dänemark",
-      "away": "Portugal",
-      "league": "UNL",
-      "competition": "UEFA Nations League",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     },
     {
       "date": "2026-10-01",
@@ -2826,10 +2843,10 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "passed_unverified_count": 152,
+  "passed_unverified_count": 135,
   "future_fixtures_count": 450,
   "patterns_all": {
-    "n": 135120,
+    "n": 135140,
     "avg_goals": 2.67,
     "home_win_pct": 44.0,
     "draw_pct": 26.0,
@@ -2850,9 +2867,9 @@
       "over25_pct": 100.0
     },
     "EXISTING": {
-      "n": 135076,
+      "n": 135096,
       "avg_goals": 2.67,
-      "home_win_pct": 44.1,
+      "home_win_pct": 44.0,
       "draw_pct": 26.0,
       "away_win_pct": 29.9,
       "btts_pct": 51.1,
@@ -4449,6 +4466,17 @@
       "home_conceded_avg": 1.42,
       "away_conceded_avg": 1.54,
       "form_last5": "LDLDW",
+      "btts_note": "computed from history"
+    },
+    "Belgien": {
+      "n": 2,
+      "scored_avg": 1.0,
+      "conceded_avg": 0.5,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 2.0,
+      "home_conceded_avg": 1.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "WL",
       "btts_note": "computed from history"
     },
     "Belgium": {
@@ -6640,6 +6668,17 @@
       "form_last5": "DLWWD",
       "btts_note": "computed from history"
     },
+    "Deutschland": {
+      "n": 3,
+      "scored_avg": 1.0,
+      "conceded_avg": 0.67,
+      "home_scored_avg": 1.0,
+      "away_scored_avg": 1.0,
+      "home_conceded_avg": 0.5,
+      "away_conceded_avg": 1.0,
+      "form_last5": "DLW",
+      "btts_note": "computed from history"
+    },
     "Dijon": {
       "n": 294,
       "scored_avg": 1.13,
@@ -6836,6 +6875,17 @@
       "home_conceded_avg": 1.28,
       "away_conceded_avg": 1.7,
       "form_last5": "WLLDL",
+      "btts_note": "computed from history"
+    },
+    "Dänemark": {
+      "n": 3,
+      "scored_avg": 2.0,
+      "conceded_avg": 2.33,
+      "home_scored_avg": 2.0,
+      "away_scored_avg": 2.0,
+      "home_conceded_avg": 2.0,
+      "away_conceded_avg": 3.0,
+      "form_last5": "LWL",
       "btts_note": "computed from history"
     },
     "Délvidék": {
@@ -7147,14 +7197,14 @@
       "btts_note": "computed from history"
     },
     "England": {
-      "n": 217,
-      "scored_avg": 2.06,
+      "n": 219,
+      "scored_avg": 2.05,
       "conceded_avg": 0.75,
       "home_scored_avg": 2.0,
       "away_scored_avg": 2.13,
-      "home_conceded_avg": 0.71,
-      "away_conceded_avg": 0.79,
-      "form_last5": "LWWWW",
+      "home_conceded_avg": 0.73,
+      "away_conceded_avg": 0.78,
+      "form_last5": "WWWWW",
       "btts_note": "computed from history"
     },
     "Equatorial Guinea": {
@@ -7949,6 +7999,17 @@
       "form_last5": "LLWDD",
       "btts_note": "computed from history"
     },
+    "Frankreich": {
+      "n": 2,
+      "scored_avg": 1.0,
+      "conceded_avg": 0.0,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 1.0,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "WW",
+      "btts_note": "computed from history"
+    },
     "Freiburg": {
       "n": 374,
       "scored_avg": 1.47,
@@ -8497,6 +8558,17 @@
       "home_conceded_avg": 1.41,
       "away_conceded_avg": 1.78,
       "form_last5": "WDDDW",
+      "btts_note": "computed from history"
+    },
+    "Griechenland": {
+      "n": 2,
+      "scored_avg": 1.5,
+      "conceded_avg": 0.5,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 1.5,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 0.5,
+      "form_last5": "WW",
       "btts_note": "computed from history"
     },
     "Grimsby": {
@@ -9258,6 +9330,17 @@
       "form_last5": "LDLLL",
       "btts_note": "computed from history"
     },
+    "Italien": {
+      "n": 2,
+      "scored_avg": 2.0,
+      "conceded_avg": 1.5,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 4.0,
+      "home_conceded_avg": 2.0,
+      "away_conceded_avg": 1.0,
+      "form_last5": "LW",
+      "btts_note": "computed from history"
+    },
     "Italy": {
       "n": 207,
       "scored_avg": 1.72,
@@ -9619,6 +9702,17 @@
       "home_conceded_avg": 1.28,
       "away_conceded_avg": 1.39,
       "form_last5": "WWLDD",
+      "btts_note": "computed from history"
+    },
+    "Kroatien": {
+      "n": 2,
+      "scored_avg": 1.5,
+      "conceded_avg": 2.5,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 1.5,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 2.5,
+      "form_last5": "WL",
       "btts_note": "computed from history"
     },
     "Kurdistan": {
@@ -11249,6 +11343,17 @@
       "form_last5": "LWWLW",
       "btts_note": "computed from history"
     },
+    "Niederlande": {
+      "n": 2,
+      "scored_avg": 1.5,
+      "conceded_avg": 1.0,
+      "home_scored_avg": 1.0,
+      "away_scored_avg": 2.0,
+      "home_conceded_avg": 1.0,
+      "away_conceded_avg": 1.0,
+      "form_last5": "DW",
+      "btts_note": "computed from history"
+    },
     "Niger": {
       "n": 135,
       "scored_avg": 0.97,
@@ -11390,6 +11495,17 @@
       "home_conceded_avg": 0.91,
       "away_conceded_avg": 1.4,
       "form_last5": "WLLLW",
+      "btts_note": "computed from history"
+    },
+    "Norwegen": {
+      "n": 2,
+      "scored_avg": 2.0,
+      "conceded_avg": 2.0,
+      "home_scored_avg": 2.0,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 2.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "WL",
       "btts_note": "computed from history"
     },
     "Norwich": {
@@ -12306,13 +12422,13 @@
       "btts_note": "computed from history"
     },
     "Portugal": {
-      "n": 217,
-      "scored_avg": 2.11,
-      "conceded_avg": 0.85,
+      "n": 219,
+      "scored_avg": 2.12,
+      "conceded_avg": 0.86,
       "home_scored_avg": 2.4,
-      "away_scored_avg": 1.73,
+      "away_scored_avg": 1.76,
       "home_conceded_avg": 0.8,
-      "away_conceded_avg": 0.91,
+      "away_conceded_avg": 0.93,
       "form_last5": "WWWWL",
       "btts_note": "computed from history"
     },
@@ -13175,14 +13291,14 @@
       "btts_note": "computed from history"
     },
     "SC Paderborn 07": {
-      "n": 276,
+      "n": 277,
       "scored_avg": 1.57,
       "conceded_avg": 1.51,
-      "home_scored_avg": 1.78,
+      "home_scored_avg": 1.79,
       "away_scored_avg": 1.35,
-      "home_conceded_avg": 1.58,
+      "home_conceded_avg": 1.57,
       "away_conceded_avg": 1.45,
-      "form_last5": "LWDLL",
+      "form_last5": "WDLLW",
       "btts_note": "computed from history"
     },
     "SC St. Tönis": {
@@ -13329,14 +13445,14 @@
       "btts_note": "computed from history"
     },
     "SV 07 Elversberg": {
-      "n": 72,
-      "scored_avg": 1.72,
-      "conceded_avg": 1.5,
+      "n": 73,
+      "scored_avg": 1.7,
+      "conceded_avg": 1.48,
       "home_scored_avg": 1.83,
-      "away_scored_avg": 1.61,
+      "away_scored_avg": 1.57,
       "home_conceded_avg": 1.58,
-      "away_conceded_avg": 1.42,
-      "form_last5": "WWWWL",
+      "away_conceded_avg": 1.38,
+      "form_last5": "WWWLD",
       "btts_note": "computed from history"
     },
     "SV Darmstadt 98": {
@@ -13744,6 +13860,17 @@
       "home_conceded_avg": 1.25,
       "away_conceded_avg": 1.14,
       "form_last5": "LLLLL",
+      "btts_note": "computed from history"
+    },
+    "Serbien": {
+      "n": 3,
+      "scored_avg": 0.67,
+      "conceded_avg": 2.0,
+      "home_scored_avg": 1.0,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 2.0,
+      "away_conceded_avg": 2.0,
+      "form_last5": "LLL",
       "btts_note": "computed from history"
     },
     "Setubal": {
@@ -14195,6 +14322,17 @@
       "home_conceded_avg": 1.39,
       "away_conceded_avg": 1.41,
       "form_last5": "LDWWL",
+      "btts_note": "computed from history"
+    },
+    "Spanien": {
+      "n": 2,
+      "scored_avg": 3.5,
+      "conceded_avg": 1.5,
+      "home_scored_avg": 4.0,
+      "away_scored_avg": 3.0,
+      "home_conceded_avg": 1.0,
+      "away_conceded_avg": 2.0,
+      "form_last5": "WW",
       "btts_note": "computed from history"
     },
     "Sparta Rotterdam": {
@@ -15110,6 +15248,17 @@
       "form_last5": "DLWLD",
       "btts_note": "computed from history"
     },
+    "Tschechien": {
+      "n": 2,
+      "scored_avg": 0.5,
+      "conceded_avg": 2.0,
+      "home_scored_avg": 0.5,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 2.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "LL",
+      "btts_note": "computed from history"
+    },
     "Tunisia": {
       "n": 212,
       "scored_avg": 1.46,
@@ -15185,6 +15334,17 @@
       "home_conceded_avg": 0.0,
       "away_conceded_avg": 3.0,
       "form_last5": "WLLLL",
+      "btts_note": "computed from history"
+    },
+    "Türkei": {
+      "n": 2,
+      "scored_avg": 0.5,
+      "conceded_avg": 2.5,
+      "home_scored_avg": 0.5,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 2.5,
+      "away_conceded_avg": 0.0,
+      "form_last5": "LL",
       "btts_note": "computed from history"
     },
     "UC Sampdoria": {
@@ -15749,14 +15909,14 @@
       "btts_note": "computed from history"
     },
     "VfL Bochum": {
-      "n": 211,
+      "n": 212,
       "scored_avg": 1.47,
       "conceded_avg": 1.29,
       "home_scored_avg": 1.78,
       "away_scored_avg": 1.16,
       "home_conceded_avg": 1.22,
       "away_conceded_avg": 1.36,
-      "form_last5": "WWLWD",
+      "form_last5": "WLWDL",
       "btts_note": "computed from history"
     },
     "VfL Bochum 1848": {
@@ -15958,13 +16118,13 @@
       "btts_note": "computed from history"
     },
     "Wales": {
-      "n": 161,
+      "n": 162,
       "scored_avg": 1.17,
       "conceded_avg": 1.16,
       "home_scored_avg": 1.39,
-      "away_scored_avg": 0.92,
+      "away_scored_avg": 0.91,
       "home_conceded_avg": 0.98,
-      "away_conceded_avg": 1.37,
+      "away_conceded_avg": 1.38,
       "form_last5": "LLWLL",
       "btts_note": "computed from history"
     },
@@ -16518,6 +16678,28 @@
       "form_last5": "WL",
       "btts_note": "computed from history"
     },
+    "【entity-FC Schalke 04¦canonical_name=FC Schalke 04】": {
+      "n": 1,
+      "scored_avg": 0.0,
+      "conceded_avg": 0.0,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "D",
+      "btts_note": "computed from history"
+    },
+    "【entity-Hannover¦canonical_name=Hannover 96】 96": {
+      "n": 1,
+      "scored_avg": 2.0,
+      "conceded_avg": 1.0,
+      "home_scored_avg": 2.0,
+      "away_scored_avg": 0.0,
+      "home_conceded_avg": 1.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "W",
+      "btts_note": "computed from history"
+    },
     "【entity-Hertha BSC¦canonical_name=Hertha BSC】": {
       "n": 2,
       "scored_avg": 2.0,
@@ -16560,6 +16742,17 @@
       "home_conceded_avg": 3.0,
       "away_conceded_avg": 0.0,
       "form_last5": "DL",
+      "btts_note": "computed from history"
+    },
+    "【entity-TSG Hoffenheim¦canonical_name=TSG Hoffenheim】": {
+      "n": 1,
+      "scored_avg": 1.0,
+      "conceded_avg": 3.0,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 1.0,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 3.0,
+      "form_last5": "L",
       "btts_note": "computed from history"
     },
     "【entity-VfB Stuttgart¦canonical_name=VfB Stuttgart】": {
@@ -16657,8 +16850,8 @@
       "date": "2026-11-15",
       "match": "Belgien vs Italien",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 2,
+      "n_away": 2,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16666,8 +16859,8 @@
       "date": "2026-11-15",
       "match": "Frankreich vs Türkei",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 2,
+      "n_away": 2,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16675,8 +16868,8 @@
       "date": "2026-11-15",
       "match": "Kroatien vs Tschechien",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 2,
+      "n_away": 2,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16684,8 +16877,8 @@
       "date": "2026-11-15",
       "match": "Spanien vs England",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 217,
+      "n_home": 2,
+      "n_away": 219,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16702,8 +16895,8 @@
       "date": "2026-11-16",
       "match": "Deutschland vs Niederlande",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 3,
+      "n_away": 2,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16711,8 +16904,8 @@
       "date": "2026-11-16",
       "match": "Griechenland vs Serbien",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 2,
+      "n_away": 3,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16720,8 +16913,8 @@
       "date": "2026-11-17",
       "match": "Dänemark vs Norwegen",
       "league": "UNL",
-      "n_home": 0,
-      "n_away": 0,
+      "n_home": 3,
+      "n_away": 2,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -16729,8 +16922,8 @@
       "date": "2026-11-17",
       "match": "Wales vs Portugal",
       "league": "UNL",
-      "n_home": 161,
-      "n_away": 217,
+      "n_home": 162,
+      "n_away": 219,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -16784,7 +16977,7 @@
       "match": "Bayer 04 Leverkusen vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 175,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -16820,7 +17013,7 @@
       "match": "FC St. Pauli vs VfL Bochum",
       "league": "BL2",
       "n_home": 313,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -16837,7 +17030,7 @@
       "date": "2026-11-21",
       "match": "SV 07 Elversberg vs SC Freiburg",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -16918,7 +17111,7 @@
       "date": "2026-11-27",
       "match": "VfL Bochum vs SV Darmstadt 98",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 347,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -16928,7 +17121,7 @@
       "match": "1. FC Köln vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 346,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -16981,7 +17174,7 @@
       "date": "2026-11-28",
       "match": "SC Paderborn 07 vs FC Schalke 04",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 344,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17125,7 +17318,7 @@
       "date": "2026-12-02",
       "match": "VfL Bochum vs FC Augsburg",
       "league": "DFB",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17153,7 +17346,7 @@
       "match": "FC Bayern München vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 175,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17171,7 +17364,7 @@
       "match": "1. FC Nürnberg vs VfL Bochum",
       "league": "BL2",
       "n_home": 347,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17269,7 +17462,7 @@
       "date": "2026-12-06",
       "match": "SV 07 Elversberg vs VfB Stuttgart",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17386,8 +17579,8 @@
       "date": "2026-12-12",
       "match": "SC Paderborn 07 vs SV 07 Elversberg",
       "league": "BL1",
-      "n_home": 276,
-      "n_away": 72,
+      "n_home": 277,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17440,7 +17633,7 @@
       "date": "2026-12-13",
       "match": "VfL Bochum vs 1. FC Heidenheim 1846",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 348,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17504,7 +17697,7 @@
       "match": "FC Augsburg vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17539,7 +17732,7 @@
       "date": "2026-12-19",
       "match": "SV 07 Elversberg vs Hamburger SV",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17548,7 +17741,7 @@
       "date": "2026-12-19",
       "match": "VfL Bochum vs 1. FC Magdeburg",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 144,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17656,7 +17849,7 @@
       "date": "2027-01-09",
       "match": "SC Paderborn 07 vs RB Leipzig",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 719,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17666,7 +17859,7 @@
       "match": "TSG Hoffenheim vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 5,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17738,7 +17931,7 @@
       "match": "1. FC Union Berlin vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17773,7 +17966,7 @@
       "date": "2027-01-13",
       "match": "SV 07 Elversberg vs Eintracht Frankfurt",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17873,7 +18066,7 @@
       "match": "Holstein Kiel vs VfL Bochum",
       "league": "BL2",
       "n_home": 585,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17881,7 +18074,7 @@
       "date": "2027-01-16",
       "match": "SC Paderborn 07 vs 1. FC Köln",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 346,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17927,7 +18120,7 @@
       "match": "SV Werder Bremen vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 141,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18008,7 +18201,7 @@
       "match": "Hertha BSC vs VfL Bochum",
       "league": "BL2",
       "n_home": 345,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18016,7 +18209,7 @@
       "date": "2027-01-23",
       "match": "SC Paderborn 07 vs 1. FSV Mainz 05",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18053,7 +18246,7 @@
       "match": "Bayer 04 Leverkusen vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 175,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18170,7 +18363,7 @@
       "match": "SC Freiburg vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18178,7 +18371,7 @@
       "date": "2027-01-30",
       "match": "SV 07 Elversberg vs Borussia Mönchengladbach",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 175,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18250,7 +18443,7 @@
       "date": "2027-01-31",
       "match": "VfL Bochum vs Eintracht Braunschweig",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 245,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18296,7 +18489,7 @@
       "match": "FC Bayern München vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 175,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18322,7 +18515,7 @@
       "date": "2027-02-06",
       "match": "SC Paderborn 07 vs Borussia Dortmund",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18413,7 +18606,7 @@
       "match": "VfL Osnabrück vs VfL Bochum",
       "league": "BL2",
       "n_home": 109,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18493,7 +18686,7 @@
       "date": "2027-02-13",
       "match": "SV 07 Elversberg vs FC Schalke 04",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 344,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18503,7 +18696,7 @@
       "match": "TSG Hoffenheim vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 5,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18583,7 +18776,7 @@
       "date": "2027-02-14",
       "match": "VfL Bochum vs Dynamo Dresden",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 177,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18646,7 +18839,7 @@
       "date": "2027-02-20",
       "match": "SV 07 Elversberg vs 1. FC Union Berlin",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18665,7 +18858,7 @@
       "match": "VfB Stuttgart vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18737,7 +18930,7 @@
       "match": "SpVgg Greuther Fürth vs VfL Bochum",
       "league": "BL2",
       "n_home": 313,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18782,7 +18975,7 @@
       "match": "FC Augsburg vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18808,7 +19001,7 @@
       "date": "2027-02-27",
       "match": "SC Paderborn 07 vs SV Werder Bremen",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 141,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18898,7 +19091,7 @@
       "date": "2027-02-28",
       "match": "VfL Bochum vs Hannover 96",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 346,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18971,7 +19164,7 @@
       "match": "Hamburger SV vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18979,7 +19172,7 @@
       "date": "2027-03-02",
       "match": "SV 07 Elversberg vs RB Leipzig",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 719,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19007,7 +19200,7 @@
       "match": "DSC Arminia Bielefeld vs VfL Bochum",
       "league": "BL2",
       "n_home": 7,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19088,7 +19281,7 @@
       "match": "1. FSV Mainz 05 vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19132,7 +19325,7 @@
       "date": "2027-03-06",
       "match": "SC Paderborn 07 vs Borussia Mönchengladbach",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 175,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19222,7 +19415,7 @@
       "date": "2027-03-07",
       "match": "VfL Bochum vs 1. FC Kaiserslautern",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 211,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19268,7 +19461,7 @@
       "match": "Eintracht Frankfurt vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19303,7 +19496,7 @@
       "date": "2027-03-13",
       "match": "SV 07 Elversberg vs Borussia Dortmund",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19394,7 +19587,7 @@
       "match": "VfL Wolfsburg vs VfL Bochum",
       "league": "BL2",
       "n_home": 347,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19448,7 +19641,7 @@
       "match": "SC Freiburg vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19456,7 +19649,7 @@
       "date": "2027-03-20",
       "match": "SC Paderborn 07 vs Bayer 04 Leverkusen",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 175,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19546,7 +19739,7 @@
       "date": "2027-03-21",
       "match": "VfL Bochum vs Energie Cottbus",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 7,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19619,7 +19812,7 @@
       "match": "FC Schalke 04 vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 344,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19636,7 +19829,7 @@
       "date": "2027-04-03",
       "match": "SV 07 Elversberg vs 1. FC Köln",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 346,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19691,7 +19884,7 @@
       "match": "Karlsruher SC vs VfL Bochum",
       "league": "BL2",
       "n_home": 278,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19771,7 +19964,7 @@
       "date": "2027-04-10",
       "match": "SC Paderborn 07 vs FC Bayern München",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 175,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19799,7 +19992,7 @@
       "match": "VfB Stuttgart vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19870,7 +20063,7 @@
       "date": "2027-04-11",
       "match": "VfL Bochum vs FC St. Pauli",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 313,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19960,8 +20153,8 @@
       "date": "2027-04-17",
       "match": "SV 07 Elversberg vs SC Paderborn 07",
       "league": "BL1",
-      "n_home": 72,
-      "n_away": 276,
+      "n_home": 73,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20033,7 +20226,7 @@
       "match": "SV Darmstadt 98 vs VfL Bochum",
       "league": "BL2",
       "n_home": 347,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20087,7 +20280,7 @@
       "match": "Hamburger SV vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20095,7 +20288,7 @@
       "date": "2027-04-24",
       "match": "SC Paderborn 07 vs FC Augsburg",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20194,7 +20387,7 @@
       "date": "2027-04-25",
       "match": "VfL Bochum vs 1. FC Nürnberg",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 347,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20267,7 +20460,7 @@
       "match": "RB Leipzig vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 719,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20284,7 +20477,7 @@
       "date": "2027-05-08",
       "match": "SV 07 Elversberg vs TSG Hoffenheim",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 5,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20294,7 +20487,7 @@
       "match": "1. FC Heidenheim 1846 vs VfL Bochum",
       "league": "BL2",
       "n_home": 348,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20402,7 +20595,7 @@
       "match": "Eintracht Frankfurt vs SV 07 Elversberg",
       "league": "BL1",
       "n_home": 345,
-      "n_away": 72,
+      "n_away": 73,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20419,7 +20612,7 @@
       "date": "2027-05-15",
       "match": "SC Paderborn 07 vs 1. FC Union Berlin",
       "league": "BL1",
-      "n_home": 276,
+      "n_home": 277,
       "n_away": 345,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20465,7 +20658,7 @@
       "match": "1. FC Magdeburg vs VfL Bochum",
       "league": "BL2",
       "n_home": 144,
-      "n_away": 211,
+      "n_away": 212,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20537,7 +20730,7 @@
       "match": "1. FC Köln vs SC Paderborn 07",
       "league": "BL1",
       "n_home": 346,
-      "n_away": 276,
+      "n_away": 277,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20608,7 +20801,7 @@
       "date": "2027-05-22",
       "match": "SV 07 Elversberg vs SV Werder Bremen",
       "league": "BL1",
-      "n_home": 72,
+      "n_home": 73,
       "n_away": 141,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20680,7 +20873,7 @@
       "date": "2027-05-23",
       "match": "VfL Bochum vs Holstein Kiel",
       "league": "BL2",
-      "n_home": 211,
+      "n_home": 212,
       "n_away": 585,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"

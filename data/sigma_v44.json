@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135120,
+  "history": 135140,
   "verified": 14,
   "future": 441,
-  "teams": 1242,
+  "teams": 1258,
   "total_fixtures": 719,
   "real_predictions": 441,
   "no_confirmed_data": 9,
@@ -2607,15 +2607,15 @@
       "n": 2
     },
     "UEFA Nations League": {
-      "avg": 1491.0,
-      "n": 82
+      "avg": 1492.4,
+      "n": 95
     },
     "Asian Cup": {
       "avg": 1372.6,
       "n": 3
     },
     "UNL": {
-      "avg": 1782.4,
+      "avg": 1775.7,
       "n": 2
     },
     "DFB-Pokal": {
@@ -2623,12 +2623,12 @@
       "n": 25
     },
     "2. Bundesliga": {
-      "avg": 1479.4,
-      "n": 24
+      "avg": 1480.2,
+      "n": 25
     },
     "Bundesliga": {
-      "avg": 1582.1,
-      "n": 17
+      "avg": 1573.5,
+      "n": 19
     },
     "Portugal": {
       "avg": 1506.3,
@@ -2646,7 +2646,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135148,
+      "n": 135168,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2856,15 +2856,15 @@
       "over25_pct": 0.0
     },
     "UEFA Nations League": {
-      "n": 1327,
+      "n": 1344,
       "avg_goals": 2.84,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
     },
     "2. Bundesliga": {
-      "n": 58,
-      "avg_goals": 3.33,
+      "n": 59,
+      "avg_goals": 3.32,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2877,8 +2877,8 @@
       "over25_pct": 0.0
     },
     "Bundesliga": {
-      "n": 34,
-      "avg_goals": 3.91,
+      "n": 36,
+      "avg_goals": 3.81,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2887,7 +2887,7 @@
   "top_elo": [
     {
       "team": "Spain",
-      "elo": 1940.0
+      "elo": 1939.9
     },
     {
       "team": "Argentina",
@@ -2914,16 +2914,16 @@
       "elo": 1853.7
     },
     {
-      "team": "England",
-      "elo": 1838.9
-    },
-    {
       "team": "Olympiakos",
       "elo": 1827.6
     },
     {
       "team": "Liverpool FC",
       "elo": 1826.9
+    },
+    {
+      "team": "Brazil",
+      "elo": 1826.8
     }
   ]
 }
