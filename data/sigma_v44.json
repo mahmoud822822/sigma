@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135034,
+  "history": 135061,
   "verified": 14,
   "future": 371,
-  "teams": 1232,
+  "teams": 1240,
   "total_fixtures": 719,
   "real_predictions": 371,
   "no_confirmed_data": 79,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 81,
+  "golden_count": 78,
   "future_count": 302,
   "by_source": {
     "OPEN": 371
@@ -2454,8 +2454,8 @@
     "n": 500,
     "hit": 242,
     "hit_rate": 48.4,
-    "brier": 0.6109,
-    "logloss": 1.0167
+    "brier": 0.611,
+    "logloss": 1.0168
   },
   "calibration": {
     "40": {
@@ -2571,12 +2571,12 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1431.2,
-      "n": 40
+      "avg": 1431.5,
+      "n": 36
     },
     "Germany Bundesliga": {
-      "avg": 1590.3,
-      "n": 31
+      "avg": 1583.5,
+      "n": 26
     },
     "Spain Segunda": {
       "avg": 1448.1,
@@ -2618,29 +2618,25 @@
       "avg": 1782.4,
       "n": 2
     },
-    "2. Bundesliga": {
-      "avg": 1472.1,
-      "n": 17
-    },
     "DFB-Pokal": {
-      "avg": 1500.1,
+      "avg": 1476.1,
       "n": 24
     },
-    "【entity-DFB¦canonical_name=DFB】-Pokal": {
-      "avg": 1499.7,
-      "n": 3
+    "2. Bundesliga": {
+      "avg": 1478.3,
+      "n": 23
     },
     "Bundesliga": {
-      "avg": 1692.2,
-      "n": 2
-    },
-    "Women Bundesliga": {
-      "avg": 1516.8,
-      "n": 2
+      "avg": 1580.6,
+      "n": 17
     },
     "Portugal": {
       "avg": 1506.3,
       "n": 2
+    },
+    "【entity-DFB¦canonical_name=DFB】-Pokal": {
+      "avg": 1487.2,
+      "n": 1
     },
     "Germany": {
       "avg": 1516.0,
@@ -2650,7 +2646,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135062,
+      "n": 135089,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2867,8 +2863,15 @@
       "over25_pct": 0.0
     },
     "2. Bundesliga": {
-      "n": 21,
-      "avg_goals": 3.43,
+      "n": 27,
+      "avg_goals": 3.59,
+      "home_win_pct": 0.0,
+      "btts_pct": 0.0,
+      "over25_pct": 0.0
+    },
+    "DFB-Pokal": {
+      "n": 28,
+      "avg_goals": 4.57,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2901,7 +2904,7 @@
     },
     {
       "team": "Bayern Munich",
-      "elo": 1853.7
+      "elo": 1854.2
     },
     {
       "team": "England",

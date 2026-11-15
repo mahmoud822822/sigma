@@ -2,7 +2,7 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Passed events with no verified result are tracked here, NEVER invented.",
-  "total": 235,
+  "total": 208,
   "matches": [
     {
       "date": "2026-08-07",
@@ -73,276 +73,6 @@
       "source": "sigma_next_month.json",
       "status": "PASSED_WITHOUT_VERIFIED_RESULT",
       "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-21",
-      "home": "SC St. Tönis",
-      "away": "Eintracht Frankfurt",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-21",
-      "home": "SV Waldhof Mannheim",
-      "away": "1. FC Kaiserslautern",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "1. FC Saarbrücken",
-      "away": "Hertha BSC",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "Eintracht Trier",
-      "away": "RB Leipzig",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "Energie Cottbus",
-      "away": "FC Augsburg",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "Erzgebirge Aue",
-      "away": "TSG Hoffenheim",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "Lüneburger SK Hansa",
-      "away": "SV Werder Bremen",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "MSV Duisburg",
-      "away": "SV 07 Elversberg",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "SG Sonnenhof Großaspach",
-      "away": "DSC Arminia Bielefeld",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "SV Hemelingen",
-      "away": "Hannover 96",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "SV Wehen Wiesbaden",
-      "away": "Bayer 04 Leverkusen",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "TSV 1860 München",
-      "away": "Holstein Kiel",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-22",
-      "home": "Viktoria Köln",
-      "away": "1. FC Nürnberg",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "1. FC Köln",
-      "away": "TSG Hoffenheim",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "1. FC Nürnberg",
-      "away": "DSC Arminia Bielefeld",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "1. FC Union Berlin",
-      "away": "Eintracht Frankfurt",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "1. FSV Mainz 05",
-      "away": "SC Paderborn 07",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "Borussia Dortmund",
-      "away": "Hamburger SV",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "Energie Cottbus",
-      "away": "SpVgg Greuther Fürth",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "Karlsruher SC",
-      "away": "VfL Wolfsburg",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "RB Leipzig",
-      "away": "Borussia Mönchengladbach",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-29",
-      "home": "SV 07 Elversberg",
-      "away": "Bayer 04 Leverkusen",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-30",
-      "home": "1. FC Magdeburg",
-      "away": "Holstein Kiel",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-30",
-      "home": "FC Augsburg",
-      "away": "FC Schalke 04",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-30",
-      "home": "FC St. Pauli",
-      "away": "1. FC Kaiserslautern",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-30",
-      "home": "SC Freiburg",
-      "away": "SV Werder Bremen",
-      "league": "BL1",
-      "competition": "Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-30",
-      "home": "SV Darmstadt 98",
-      "away": "Hannover 96",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     },
     {
       "date": "2026-09-01",
@@ -2355,7 +2085,7 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "learned_total": 34,
+  "learned_total": 61,
   "learned": [
     {
       "date": "2026-08-08",
@@ -2497,6 +2227,149 @@
       "competition": "DFB-Pokal",
       "source": "sigma_next_month.json",
       "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-21",
+      "home": "SC St. Tönis",
+      "away": "Eintracht Frankfurt",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-11",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-21",
+      "home": "SV Waldhof Mannheim",
+      "away": "1. FC Kaiserslautern",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "1. FC Saarbrücken",
+      "away": "Hertha BSC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Eintracht Trier",
+      "away": "RB Leipzig",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-6",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Energie Cottbus",
+      "away": "FC Augsburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Erzgebirge Aue",
+      "away": "TSG Hoffenheim",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Lüneburger SK Hansa",
+      "away": "SV Werder Bremen",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "MSV Duisburg",
+      "away": "SV 07 Elversberg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SG Sonnenhof Großaspach",
+      "away": "DSC Arminia Bielefeld",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "2-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SV Hemelingen",
+      "away": "Hannover 96",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-9",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SV Wehen Wiesbaden",
+      "away": "Bayer 04 Leverkusen",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "TSV 1860 München",
+      "away": "Holstein Kiel",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "0-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Viktoria Köln",
+      "away": "1. FC Nürnberg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-1",
       "status": "LEARNED",
       "where": "history"
     },
@@ -2706,6 +2579,160 @@
       "competition": "2. Bundesliga",
       "source": "sigma_next_month.json",
       "score": "5-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Köln",
+      "away": "TSG Hoffenheim",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Nürnberg",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "4-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Union Berlin",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FSV Mainz 05",
+      "away": "SC Paderborn 07",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "0-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Borussia Dortmund",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Energie Cottbus",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Karlsruher SC",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "2-5",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "RB Leipzig",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-29",
+      "home": "SV 07 Elversberg",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-30",
+      "home": "1. FC Magdeburg",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "2-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-30",
+      "home": "FC Augsburg",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-30",
+      "home": "FC St. Pauli",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-30",
+      "home": "SC Freiburg",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "4-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-30",
+      "home": "SV Darmstadt 98",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
       "status": "LEARNED",
       "where": "history"
     },
