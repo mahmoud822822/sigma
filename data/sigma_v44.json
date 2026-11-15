@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135012,
+  "history": 135014,
   "verified": 14,
   "future": 371,
-  "teams": 1219,
+  "teams": 1220,
   "total_fixtures": 719,
   "real_predictions": 371,
   "no_confirmed_data": 79,
@@ -2455,7 +2455,7 @@
     "hit": 242,
     "hit_rate": 48.4,
     "brier": 0.6109,
-    "logloss": 1.0166
+    "logloss": 1.0167
   },
   "calibration": {
     "40": {
@@ -2571,11 +2571,11 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1437.3,
+      "avg": 1437.0,
       "n": 48
     },
     "Germany Bundesliga": {
-      "avg": 1592.0,
+      "avg": 1591.9,
       "n": 37
     },
     "Spain Segunda": {
@@ -2619,8 +2619,12 @@
       "n": 2
     },
     "2. Bundesliga": {
-      "avg": 1481.0,
-      "n": 21
+      "avg": 1479.5,
+      "n": 20
+    },
+    "DFB-Pokal": {
+      "avg": 1513.4,
+      "n": 2
     },
     "Portugal": {
       "avg": 1506.3,
@@ -2634,7 +2638,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135040,
+      "n": 135042,
       "avg_goals": 2.67,
       "home_win_pct": 44.1,
       "btts_pct": 51.1,
@@ -2878,7 +2882,7 @@
     },
     {
       "team": "Bayern Munich",
-      "elo": 1853.8
+      "elo": 1853.7
     },
     {
       "team": "England",

@@ -2,10 +2,10 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Any event that passes is analyzed and learned from. No invented scores.",
-  "history_before": 135012,
-  "history_before_this_run": 135012,
+  "history_before": 135014,
+  "history_before_this_run": 135014,
   "history_before_original": 134947,
-  "history_after": 135012,
+  "history_after": 135014,
   "added_this_run": [],
   "added_this_run_count": 0,
   "added": [],
@@ -148,6 +148,17 @@
       "where": "history"
     },
     {
+      "date": "2026-08-21",
+      "home": "Preußen Münster",
+      "away": "Karlsruher SC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
       "date": "2026-09-24",
       "home": "Portugal",
       "away": "Wales",
@@ -170,7 +181,7 @@
       "where": "history"
     }
   ],
-  "passed_learned_count": 14,
+  "passed_learned_count": 15,
   "passed_unverified": [
     {
       "date": "2026-08-07",
@@ -236,16 +247,6 @@
       "date": "2026-08-21",
       "home": "Hansa Rostock",
       "away": "VfB Stuttgart",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-21",
-      "home": "Preußen Münster",
-      "away": "Karlsruher SC",
       "league": "DFB",
       "competition": "DFB-Pokal",
       "source": "sigma_next_month.json",
@@ -2723,10 +2724,10 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "passed_unverified_count": 255,
+  "passed_unverified_count": 254,
   "future_fixtures_count": 450,
   "patterns_all": {
-    "n": 135012,
+    "n": 135014,
     "avg_goals": 2.67,
     "home_win_pct": 44.1,
     "draw_pct": 26.0,
@@ -2747,7 +2748,7 @@
       "over25_pct": 100.0
     },
     "EXISTING": {
-      "n": 134968,
+      "n": 134970,
       "avg_goals": 2.67,
       "home_win_pct": 44.1,
       "draw_pct": 26.0,
@@ -8551,12 +8552,12 @@
       "btts_note": "computed from history"
     },
     "Hansa Rostock": {
-      "n": 204,
-      "scored_avg": 1.01,
-      "conceded_avg": 1.54,
-      "home_scored_avg": 1.08,
+      "n": 205,
+      "scored_avg": 1.0,
+      "conceded_avg": 1.55,
+      "home_scored_avg": 1.07,
       "away_scored_avg": 0.94,
-      "home_conceded_avg": 1.51,
+      "home_conceded_avg": 1.53,
       "away_conceded_avg": 1.57,
       "form_last5": "DWWWW",
       "btts_note": "computed from history"
@@ -9255,14 +9256,14 @@
       "btts_note": "computed from history"
     },
     "Karlsruher SC": {
-      "n": 273,
+      "n": 274,
       "scored_avg": 1.45,
       "conceded_avg": 1.48,
       "home_scored_avg": 1.63,
-      "away_scored_avg": 1.26,
+      "away_scored_avg": 1.27,
       "home_conceded_avg": 1.36,
       "away_conceded_avg": 1.6,
-      "form_last5": "WDDWW",
+      "form_last5": "DDWWW",
       "btts_note": "computed from history"
     },
     "Kasimpasa": {
@@ -12159,12 +12160,12 @@
       "btts_note": "computed from history"
     },
     "Preußen Münster": {
-      "n": 102,
+      "n": 103,
       "scored_avg": 1.16,
-      "conceded_avg": 1.44,
+      "conceded_avg": 1.45,
       "home_scored_avg": 1.1,
       "away_scored_avg": 1.22,
-      "home_conceded_avg": 1.18,
+      "home_conceded_avg": 1.19,
       "away_conceded_avg": 1.71,
       "form_last5": "WDWLW",
       "btts_note": "computed from history"
@@ -16216,6 +16217,17 @@
       "away_conceded_avg": 0.0,
       "form_last5": "D",
       "btts_note": "computed from history"
+    },
+    "【entity-VfB Stuttgart¦canonical_name=VfB Stuttgart】": {
+      "n": 1,
+      "scored_avg": 4.0,
+      "conceded_avg": 0.0,
+      "home_scored_avg": 0.0,
+      "away_scored_avg": 4.0,
+      "home_conceded_avg": 0.0,
+      "away_conceded_avg": 0.0,
+      "form_last5": "W",
+      "btts_note": "computed from history"
     }
   },
   "daily_eval": {
@@ -16526,7 +16538,7 @@
       "date": "2026-11-22",
       "match": "Karlsruher SC vs VfL Osnabrück",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 104,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -16608,7 +16620,7 @@
       "match": "Hertha BSC vs Karlsruher SC",
       "league": "BL2",
       "n_home": 340,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -16868,7 +16880,7 @@
       "date": "2026-12-05",
       "match": "Karlsruher SC vs Holstein Kiel",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 580,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17004,7 +17016,7 @@
       "match": "Eintracht Braunschweig vs Karlsruher SC",
       "league": "BL2",
       "n_home": 238,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17165,7 +17177,7 @@
       "date": "2026-12-19",
       "match": "Karlsruher SC vs Dynamo Dresden",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 172,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -17436,7 +17448,7 @@
       "match": "SpVgg Greuther Fürth vs Karlsruher SC",
       "league": "BL2",
       "n_home": 308,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -17706,7 +17718,7 @@
       "match": "DSC Arminia Bielefeld vs Karlsruher SC",
       "league": "BL2",
       "n_home": 2,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -17876,7 +17888,7 @@
       "date": "2027-01-31",
       "match": "Karlsruher SC vs 1. FC Kaiserslautern",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 205,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18066,7 +18078,7 @@
       "match": "VfL Wolfsburg vs Karlsruher SC",
       "league": "BL2",
       "n_home": 342,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18209,7 +18221,7 @@
       "date": "2027-02-14",
       "match": "Karlsruher SC vs Hannover 96",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 342,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18345,7 +18357,7 @@
       "match": "Energie Cottbus vs Karlsruher SC",
       "league": "BL2",
       "n_home": 2,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "No confirmed data (need >=5 each)",
       "source": "sigma_next_month.json"
     },
@@ -18498,7 +18510,7 @@
       "match": "1. FC Nürnberg vs Karlsruher SC",
       "league": "BL2",
       "n_home": 342,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -18695,7 +18707,7 @@
       "date": "2027-03-03",
       "match": "Karlsruher SC vs FC St. Pauli",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 307,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -18858,7 +18870,7 @@
       "match": "SV Darmstadt 98 vs Karlsruher SC",
       "league": "BL2",
       "n_home": 342,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19019,7 +19031,7 @@
       "date": "2027-03-14",
       "match": "Karlsruher SC vs 1. FC Magdeburg",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 138,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19128,7 +19140,7 @@
       "match": "1. FC Heidenheim 1846 vs Karlsruher SC",
       "league": "BL2",
       "n_home": 342,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19334,7 +19346,7 @@
       "date": "2027-04-04",
       "match": "Karlsruher SC vs VfL Bochum",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 206,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19524,7 +19536,7 @@
       "match": "VfL Osnabrück vs Karlsruher SC",
       "league": "BL2",
       "n_home": 104,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19667,7 +19679,7 @@
       "date": "2027-04-18",
       "match": "Karlsruher SC vs Hertha BSC",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 340,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -19821,7 +19833,7 @@
       "match": "Holstein Kiel vs Karlsruher SC",
       "league": "BL2",
       "n_home": 580,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -19991,7 +20003,7 @@
       "date": "2027-05-09",
       "match": "Karlsruher SC vs Eintracht Braunschweig",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 238,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
@@ -20127,7 +20139,7 @@
       "match": "Dynamo Dresden vs Karlsruher SC",
       "league": "BL2",
       "n_home": 172,
-      "n_away": 273,
+      "n_away": 274,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"
     },
@@ -20306,7 +20318,7 @@
       "date": "2027-05-23",
       "match": "Karlsruher SC vs SpVgg Greuther Fürth",
       "league": "BL2",
-      "n_home": 273,
+      "n_home": 274,
       "n_away": 308,
       "status_after_learning": "REAL (both n>=5)",
       "source": "sigma_next_month.json"

@@ -2,7 +2,7 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Passed events with no verified result are tracked here, NEVER invented.",
-  "total": 255,
+  "total": 254,
   "matches": [
     {
       "date": "2026-08-07",
@@ -68,16 +68,6 @@
       "date": "2026-08-21",
       "home": "Hansa Rostock",
       "away": "VfB Stuttgart",
-      "league": "DFB",
-      "competition": "DFB-Pokal",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-21",
-      "home": "Preußen Münster",
-      "away": "Karlsruher SC",
       "league": "DFB",
       "competition": "DFB-Pokal",
       "source": "sigma_next_month.json",
@@ -2555,7 +2545,7 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "learned_total": 14,
+  "learned_total": 15,
   "learned": [
     {
       "date": "2026-08-08",
@@ -2686,6 +2676,17 @@
       "competition": "2. Bundesliga",
       "source": "sigma_next_month.json",
       "score": "0-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-21",
+      "home": "Preußen Münster",
+      "away": "Karlsruher SC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_next_month.json",
+      "score": "1-2",
       "status": "LEARNED",
       "where": "history"
     },
