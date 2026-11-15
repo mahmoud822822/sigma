@@ -106048,9 +106048,29 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-09-12,SC Freiburg,Borussia Mönchengladbach,5,0,Bundesliga,FINISHED,verified-BL1-Sep
 2026-09-12,TSG Hoffenheim,VfB Stuttgart,2,1,Bundesliga,FINISHED,verified-BL1-Sep
 2026-09-12,VfL Bochum,SpVgg Greuther Fürth,1,1,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-13,1. FC Heidenheim 1846,【entity-Holstein Kiel¦canonical_name=Holstein Kiel】,1,0,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-13,RB Leipzig,Hamburger SV,5,0,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-13,SV 07 Elversberg,FC Bayern München,1,2,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-13,VfL Osnabrück,【entity-Hertha BSC¦canonical_name=Hertha BSC】,1,3,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-13,【entity-Karlsruher SC¦canonical_name=Karlsruher SC】,Energie Cottbus,0,3,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-18,FC Bayern München,1. FC Union Berlin,7,0,Bundesliga,FINISHED,verified-BL1-Sep
 2026-09-18,Fiji,Solomon Islands,3,3,International,FINISHED,international_results
 2026-09-18,Papua New Guinea,Vanuatu,2,1,International,FINISHED,international_results
+2026-09-18,SpVgg Greuther Fürth,1. FC Magdeburg,1,1,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-18,VfL Wolfsburg,SV Darmstadt 98,5,1,2. Bundesliga,FINISHED,verified-BL2-Sep
 2026-09-18,Vietnam,Myanmar,4,0,International,FINISHED,international_results
+2026-09-19,1. FC Kaiserslautern,Eintracht Braunschweig,1,0,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-19,Borussia Mönchengladbach,1. FSV Mainz 05,3,4,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-19,Dynamo Dresden,Hertha BSC,1,2,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-19,Eintracht Frankfurt,SC Freiburg,2,2,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-19,Hamburger SV,1. FC Köln,2,1,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-19,Holstein Kiel,VfL Osnabrück,1,1,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-19,Karlsruher SC,1. FC Nürnberg,0,1,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-19,SV Werder Bremen,FC Augsburg,3,2,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-19,VfB Stuttgart,Borussia Dortmund,0,1,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-20,Bayer 04 Leverkusen,RB Leipzig,2,0,Bundesliga,FINISHED,verified-BL1-Sep
+2026-09-20,DSC Arminia Bielefeld,1. FC Heidenheim 1846,2,2,2. Bundesliga,FINISHED,verified-BL2-Sep
+2026-09-20,Energie Cottbus,FC St. Pauli,1,1,2. Bundesliga,FINISHED,verified-BL2-Sep
 2026-09-21,Dominica,Anguilla,1,0,International,FINISHED,international_results
 2026-09-21,Fiji,Vanuatu,0,1,International,FINISHED,international_results
 2026-09-21,New Caledonia,Solomon Islands,0,2,International,FINISHED,international_results

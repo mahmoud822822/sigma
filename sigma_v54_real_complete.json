@@ -1,45 +1,12 @@
 {
-  "real": {
-    "verified_count": 14,
-    "note": "V54 real complete, NOT 842"
-  },
-  "quarantine": {
-    "manual": [
-      {
-        "match": "Real Madrid vs Barcelona",
-        "date": "2026-11-17",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "Man City vs 【entity-Arsenal¦canonical_name=Arsenal】",
-        "date": "2026-11-18",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "【entity-Inter¦canonical_name=Inter】 vs 【entity-Milan¦canonical_name=AC Milan】",
-        "date": "2026-11-19",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "Brazil vs Argentina",
-        "date": "2026-11-20",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "【entity-Al Ahly¦canonical_name=Al Ahly】 vs 【entity-Zamalek¦canonical_name=Zamalek】",
-        "date": "2026-11-15",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "【entity-Al Hilal¦canonical_name=Al Hilal】 vs 【entity-Al Nassr¦canonical_name=Al Nassr】",
-        "date": "2026-11-16",
-        "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"
-      },
-      {
-        "match": "【entity-England¦canonical_name=England】 vs Croatia",
-        "date": "2026-11-12",
-        "reason": "CORRECTED - web-verified 2-1, in history"
-      }
-    ]
-  }
+  "real": {"verified_count": 14, "note": "V54 real complete, NOT 842"},
+  "quarantine": {"manual": [
+    {"match": "【entity-Real Madrid¦canonical_name=Real Madrid】 vs 【entity-Barcelona¦canonical_name=Barcelona】", "date": "2026-11-17", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "Man City vs 【entity-Arsenal¦canonical_name=Arsenal】", "date": "2026-11-18", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "【entity-Inter¦canonical_name=Inter】 vs 【entity-Milan¦canonical_name=AC Milan】", "date": "2026-11-19", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "Brazil vs Argentina", "date": "2026-11-20", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "【entity-Al Ahly¦canonical_name=Al Ahly】 vs 【entity-Zamalek¦canonical_name=Zamalek】", "date": "2026-11-15", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "【entity-Al Hilal¦canonical_name=Al Hilal】 vs 【entity-Al Nassr¦canonical_name=Al Nassr】", "date": "2026-11-16", "reason": "FAKE manual date - no verified fixture, quarantined, no-data only"},
+    {"match": "【entity-England¦canonical_name=England】 vs Croatia", "date": "2026-11-12", "reason": "CORRECTED - web-verified 2-1, in history"}
+  ]}
 }

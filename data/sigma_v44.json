@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135100,
+  "history": 135120,
   "verified": 14,
   "future": 441,
-  "teams": 1241,
+  "teams": 1242,
   "total_fixtures": 719,
   "real_predictions": 441,
   "no_confirmed_data": 9,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 78,
+  "golden_count": 80,
   "future_count": 360,
   "by_source": {
     "OPEN": 441
@@ -2571,7 +2571,7 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1431.2,
+      "avg": 1431.1,
       "n": 36
     },
     "Germany Bundesliga": {
@@ -2623,8 +2623,8 @@
       "n": 25
     },
     "2. Bundesliga": {
-      "avg": 1478.3,
-      "n": 23
+      "avg": 1479.4,
+      "n": 24
     },
     "Bundesliga": {
       "avg": 1582.1,
@@ -2646,7 +2646,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135128,
+      "n": 135148,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2863,8 +2863,8 @@
       "over25_pct": 0.0
     },
     "2. Bundesliga": {
-      "n": 47,
-      "avg_goals": 3.49,
+      "n": 58,
+      "avg_goals": 3.33,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2877,8 +2877,8 @@
       "over25_pct": 0.0
     },
     "Bundesliga": {
-      "n": 25,
-      "avg_goals": 3.84,
+      "n": 34,
+      "avg_goals": 3.91,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2911,7 +2911,7 @@
     },
     {
       "team": "Bayern Munich",
-      "elo": 1853.8
+      "elo": 1853.7
     },
     {
       "team": "England",
