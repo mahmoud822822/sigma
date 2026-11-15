@@ -2,7 +2,7 @@
   "generated": "2026-11-15",
   "today": "2026-11-15",
   "rule": "Passed events with no verified result are tracked here, NEVER invented.",
-  "total": 260,
+  "total": 255,
   "matches": [
     {
       "date": "2026-08-07",
@@ -63,56 +63,6 @@
       "source": "sigma_next_month.json",
       "status": "PASSED_WITHOUT_VERIFIED_RESULT",
       "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-15",
-      "home": "SpVgg Greuther Fürth",
-      "away": "1. FC Nürnberg",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-15",
-      "home": "VfL Osnabrück",
-      "away": "1. FC Magdeburg",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-16",
-      "home": "DSC Arminia Bielefeld",
-      "away": "Energie Cottbus",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-16",
-      "home": "Dynamo Dresden",
-      "away": "SV Darmstadt 98",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-    },
-    {
-      "date": "2026-08-16",
-      "home": "Hannover 96",
-      "away": "VfL Wolfsburg",
-      "league": "BL2",
-      "competition": "2. Bundesliga",
-      "source": "sigma_next_month.json",
-      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
-      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     },
     {
       "date": "2026-08-21",
@@ -2605,7 +2555,7 @@
       "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
     }
   ],
-  "learned_total": 9,
+  "learned_total": 14,
   "learned": [
     {
       "date": "2026-08-08",
@@ -2681,6 +2631,61 @@
       "competition": "2. Bundesliga",
       "source": "sigma_next_month.json",
       "score": "1-1",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-15",
+      "home": "SpVgg Greuther Fürth",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "2-4",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-15",
+      "home": "VfL Osnabrück",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "0-3",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-16",
+      "home": "DSC Arminia Bielefeld",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "3-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-16",
+      "home": "Dynamo Dresden",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "1-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-08-16",
+      "home": "Hannover 96",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_next_month.json",
+      "score": "0-1",
       "status": "LEARNED",
       "where": "history"
     },
