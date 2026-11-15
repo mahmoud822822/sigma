@@ -3,65 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sigma V44.22 - Mahmoud Emad</title>
+<title>Sigma V44.24 LIVE - Mahmoud Emad</title>
 <style>
-body{margin:0;background:#0b0f14;color:#fff;font-family:system-ui,Arial;padding:16px}
-.card{background:#151c26;border:1px solid #26303f;border-radius:16px;padding:18px;max-width:920px;margin:0 auto}
+*{box-sizing:border-box} body{margin:0;background:#0b0f14;color:#fff;font-family:system-ui,Arial;padding:16px}
+.card{background:#151c26;border:1px solid #26303f;border-radius:16px;padding:18px;max-width:1080px;margin:0 auto}
 h1{margin:0 0 4px;font-size:28px} p.sub{color:#aab8cc;margin:0 0 14px}
-.badge{display:inline-block;background:#2ee66b;color:#06210f;padding:5px 10px;border-radius:999px;font-weight:800;font-size:13px}
-.badge2{background:#ffd166;color:#3a2800}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:14px 0}
+.badge{display:inline-block;background:#2ee66b;color:#06210f;padding:5px 10px;border-radius:999px;font-weight:800;font-size:13px;margin:2px}
+.badge2{background:#ffd166;color:#3a2800}.badge3{background:#fff;color:#111}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
 .stat{background:#0b0f14;border:1px solid #26303f;border-radius:12px;padding:14px;text-align:center}
-.stat b{font-size:26px;display:block} .stat span{color:#aab8cc;font-size:13px}
-h2{font-size:18px;margin:22px 0 8px} ul{line-height:1.9;color:#dbe6f2}
+.stat b{font-size:26px;display:block}.stat span{color:#aab8cc;font-size:13px}
+h2{font-size:18px;margin:22px 0 8px}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.controls input,.controls select{flex:1;min-width:140px;background:#0b0f14;color:#fff;border:1px solid #26303f;border-radius:10px;padding:10px;font-size:14px}
 table{width:100%;border-collapse:collapse;font-size:14px} th,td{border-bottom:1px solid #26303f;padding:9px 6px;text-align:right}
+th{color:#aab8cc;position:sticky;top:0;background:#151c26}
 .ok{color:#2ee66b}.no{color:#ff5c5c}.warn{color:#ffd166}
 .btn{display:inline-block;background:#2ee66b;color:#06210f;padding:11px 16px;border-radius:10px;text-decoration:none;font-weight:800;margin:4px 0}
 .btn2{background:#fff;color:#111}
 code{background:#0b0f14;padding:3px 7px;border-radius:6px}
 footer{color:#8ea1b8;text-align:center;margin-top:18px;font-size:13px}
 .note{background:#0b0f14;border:1px solid #ffd166;border-radius:12px;padding:12px;color:#ffe9a8;font-size:14px;line-height:1.7}
+.live{border:1px solid #2ee66b;border-radius:12px;padding:12px;background:#0e1a12;color:#c8f5d6;font-size:14px;line-height:1.7}
+.hidden{display:none}
 </style>
 </head>
 <body>
 <div class="card">
-<h1>Sigma V44.22 - Mahmoud Emad</h1>
-<p class="sub">Signature Prediction and Forecast: Sigma</p>
-<p><span class="badge">V54.2 PASS - Safe</span> <span class="badge badge2">Bulk = Real Only</span></p>
+<h1>Sigma V44.24 LIVE - Mahmoud Emad</h1>
+<p class="sub">Signature Prediction and Forecast: Sigma - النسخة اللايف - بتجيب الداتا من الريبو نفسه</p>
+<p><span class="badge">V54.2.1 PASS - Safe</span> <span class="badge badge2">Bulk = Real Only - 0 DEFAULT</span> <span class="badge badge3" id="liveBadge">LIVE: جاري تحميل الداتا...</span></p>
 <div class="grid">
-<div class="stat"><b>448</b><span>Bulk REAL Predictions - 0 DEFAULT</span></div>
-<div class="stat"><b>6</b><span>No Confirmed Data - Future Fakes</span></div>
-<div class="stat"><b>78.6%</b><span>Bet Hit - 11 / 14 Verified</span></div>
-<div class="stat"><b>28.6%</b><span>Exact Score - 4 / 14</span></div>
-<div class="stat"><b>64.3%</b><span>1X2 Hit - 9 / 14</span></div>
+<div class="stat"><b id="statBulk">448</b><span>Bulk REAL Predictions - 0 DEFAULT</span></div>
+<div class="stat"><b id="statNoData">5</b><span>No Confirmed Data - Future Only</span></div>
+<div class="stat"><b>297</b><span>Fetched 15 Nov - 20 Dec - Football-Data</span></div>
 <div class="stat"><b>136,345</b><span>History Rows Learned</span></div>
 <div class="stat"><b>59</b><span>Quarantine V54 - Fakes Isolated</span></div>
+<div class="stat"><b>14</b><span>Verified - 11 / 14 Bet Hit 78.6%</span></div>
+<div class="stat"><b>4 / 14</b><span>Exact Score 28.6% - 1X2 9 / 14 64.3%</span></div>
 <div class="stat"><b>0</b><span>Passed-Unverified</span></div>
 </div>
-<div class="note"><b>قاعدة Sigma الذهبية:</b> مفيش نتيجة مخترعة. لو مفيش بيانات مؤكدة &rarr; <b>No confirmed data</b>. لو الفريق عنده أقل من 5 ماتشات في الـ History &rarr; <b>ABSTAIN / NO SAFE BET</b>. أي ماتش عدّى &rarr; يتعلم منه، مش يتنبأ بيه تاني.</div>
-<h2>الـ 6 فيك اليدوي - حالتهم</h2>
-<table>
-<tr><th>الماتش</th><th>التاريخ</th><th>الحالة</th></tr>
+<div class="live" id="liveNote">النسخة دي لايف: بتقرا <code>data/sigma_bulk_predictions.json</code> + <code>data/sigma_no_confirmed_data.json</code> + <code>data/sigma_v44.json</code> من نفس الريبو. لو فتحت الملف من الموبايل مباشرة من غير GitHub Pages، المتصفح بيمنع الـ fetch - افتحها من <b>https://mahmoud822822.github.io/sigma/</b> عشان تشوف الجدول اللايف كامل.</div>
+<div class="note"><b>قاعدة Sigma الذهبية - بخلاف الفيك:</b> الفيك مش توقع. الفيك المستقبلي في <b>No-data بس</b> بـ <b>No confirmed data</b> - مفيش xG ولا pick ولا أرقام. الفيك اللي عدّى يتشال بـ <code>sigma_fake_cleanup.py</code> ويروح Quarantine بس. لو مفيش بيانات مؤكدة &rarr; <b>No confirmed data</b>. لو الفريق عنده أقل من 5 ماتشات في الـ History &rarr; <b>ABSTAIN / NO SAFE BET</b>. أي ماتش عدّى &rarr; يتعلم منه، مش يتنبأ بيه تاني.</div>
+
+<h2>🔍 توقعات LIVE - Bulk REAL فقط (الفيك مش هنا)</h2>
+<div class="controls">
+<input id="q" placeholder="دوّر: فريق أو ماتش - مثال: Liverpool">
+<select id="leagueFilter"><option value="">كل الدوريات</option></select>
+<select id="tierFilter"><option value="">كل الـ Tier</option><option>Gold</option><option>Balanced</option><option>Value</option></select>
+<select id="sortBy"><option value="date">ترتيب: التاريخ</option><option value="grade">ترتيب: Grade</option><option value="conf">ترتيب: الثقة</option></select>
+</div>
+<p id="bulkCount" style="color:#aab8cc;font-size:13px">جاري تحميل Bulk...</p>
+<div style="overflow:auto;max-height:520px">
+<table id="bulkTable"><thead><tr><th>التاريخ</th><th>الماتش</th><th>الدوري</th><th>xG</th><th>Pick</th><th>Tier / Grade</th><th>الثقة</th></tr></thead><tbody id="bulkBody"></tbody></table>
+</div>
+<p id="bulkEmpty" class="hidden" style="color:#ffd166">مفيش Bulk متحمل من الـ fetch - دي النسخة الاحتياطية: الـ 14 Verified + الـ 5 No-data تحت. افتح الموقع من GitHub Pages عشان تشوف الـ 448 كاملين.</p>
+
+<h2>الـ 6 فيك اليدوي - بخلاف الفيك - حالتهم</h2>
+<table><tr><th>الماتش</th><th>التاريخ</th><th>الحالة</th></tr>
 <tr><td>Al Ahly vs Zamalek</td><td>15 Nov 2026</td><td class="ok">عدّى - اتشال من no-data - Quarantine بس</td></tr>
 <tr><td>Al Hilal vs Al Nassr</td><td>16 Nov 2026</td><td class="warn">الجاي - يتشال يوم 17 Nov بـ sigma_fake_cleanup.py</td></tr>
-<tr><td>Real Madrid vs Barcelona</td><td>17 Nov 2026</td><td>مستقبلي - في no-data</td></tr>
-<tr><td>Man City vs Arsenal</td><td>18 Nov 2026</td><td>مستقبلي - في no-data</td></tr>
-<tr><td>Inter vs Milan</td><td>19 Nov 2026</td><td>مستقبلي - في no-data</td></tr>
-<tr><td>Brazil vs Argentina</td><td>20 Nov 2026</td><td>مستقبلي - في no-data</td></tr>
+<tr><td>Real Madrid vs Barcelona</td><td>17 Nov 2026</td><td>مستقبلي - في no-data - No confirmed data</td></tr>
+<tr><td>Man City vs Arsenal</td><td>18 Nov 2026</td><td>مستقبلي - في no-data - No confirmed data</td></tr>
+<tr><td>Inter vs Milan</td><td>19 Nov 2026</td><td>مستقبلي - في no-data - No confirmed data</td></tr>
+<tr><td>Brazil vs Argentina</td><td>20 Nov 2026</td><td>مستقبلي - في no-data - No confirmed data</td></tr>
 </table>
-<p style="color:#aab8cc;font-size:13px">التنظيف تلقائي: <code>python3 sigma_fake_cleanup.py --check</code> - بيمسح بس اللي تاريخه أقل من النهارده، وبيحدّث no-data JSON + CSV + v44.json مع بعض.</p>
-<h2>قواعد الأمان - Sigma Safety</h2>
-<ul>
-<li>1 جول أأمن من 2 - Over 0.5 الشوط التاني أأمن من يكسب شوط</li>
-<li>أي فريق أأمن من فريق معين</li>
-<li>Asian Over 1 اللي بيرجع فلوسك لو جه جول واحد أأمن من BTTS</li>
-<li>متكررش ماتش في تذكرتين - استقلال كامل</li>
-<li>تقسيم رأس المال: 50% Gold / 30% Balanced / 20% Value</li>
-<li>توكن GitHub (ghp_ 39) للـ push بس - توكن football-data (32) للـ Fetch بس - ميتخلطوش</li>
-</ul>
-<h2>النتائج الحقيقية - 14 ماتش Verified</h2>
-<table>
-<tr><th>الماتش</th><th>توقع</th><th>حقيقي</th><th>الرهان</th><th>؟</th></tr>
+
+<h2>No Confirmed Data - LIVE - 5</h2>
+<p style="color:#aab8cc;font-size:13px">دول المستقبلي اللي ملهمش تاريخ كفاية - مفيش أرقام، مفيش توقع - <b>No confirmed data</b> بس.</p>
+<div style="overflow:auto"><table><thead><tr><th>الماتش</th><th>التاريخ</th><th>السبب</th></tr></thead><tbody id="noDataBody"><tr><td>Al Hilal vs Al Nassr</td><td>2026-11-16</td><td>No confirmed data</td></tr><tr><td>Real Madrid vs Barcelona</td><td>2026-11-17</td><td>No confirmed data</td></tr><tr><td>Man City vs Arsenal</td><td>2026-11-18</td><td>No confirmed data</td></tr><tr><td>Inter vs Milan</td><td>2026-11-19</td><td>No confirmed data</td></tr><tr><td>Brazil vs Argentina</td><td>2026-11-20</td><td>No confirmed data</td></tr></tbody></table></div>
+
+<h2>النتائج الحقيقية - 14 Verified</h2>
+<table><tr><th>الماتش</th><th>توقع</th><th>حقيقي</th><th>الرهان</th><th>؟</th></tr>
 <tr><td>Ipswich vs Bournemouth</td><td>1-2</td><td>1-2</td><td>BTTS</td><td class="ok">صح</td></tr>
 <tr><td>Brighton vs Brentford</td><td>1-1</td><td>2-0</td><td>BTTS</td><td class="no">غلط</td></tr>
 <tr><td>Crystal Palace vs Liverpool</td><td>0-1</td><td>1-3</td><td>Liverpool Score</td><td class="ok">صح</td></tr>
@@ -78,15 +92,99 @@ footer{color:#8ea1b8;text-align:center;margin-top:18px;font-size:13px}
 <tr><td>Valencia vs Real Madrid</td><td>0-3</td><td>0-3</td><td>Win Real</td><td class="ok">صح</td></tr>
 </table>
 <p style="color:#aab8cc;font-size:13px">العينة صغيرة (14) - النسبة 78.6% مش ضمان. الـ Bulk 448 لسه متقيمش لحد ما ماتشاته تتلعب.</p>
+
+<h2>قواعد الأمان - Sigma Safety</h2>
+<ul>
+<li>1 جول أأمن من 2 - Over 0.5 الشوط التاني أأمن من يكسب شوط</li>
+<li>أي فريق أأمن من فريق معين</li>
+<li>Asian Over 1 اللي بيرجع فلوسك لو جه جول واحد أأمن من BTTS</li>
+<li>متكررش ماتش في تذكرتين - استقلال كامل</li>
+<li>تقسيم رأس المال: 50% Gold / 30% Balanced / 20% Value</li>
+<li>توكن GitHub (ghp_ 40) للـ push بس - توكن football-data (32) للـ Fetch بس - ميتخلطوش</li>
+</ul>
 <h2>تشغيل الكود - Termux</h2>
 <p><code>python3 sigma_fake_cleanup.py --check</code> - تنظيف الفيك اللي عدّى + Check</p>
 <p><code>python3 sigma_check_token.py</code> - فحص التوكنين (من غير ما يطبع التوكن)</p>
 <p><code>python3 sigma_run_full.py</code> - تشغيل كامل</p>
-<p>
-<a class="btn" href="https://github.com/mahmoud822822/sigma">افتح الريبو على GitHub</a>
-<a class="btn btn2" href="https://github.com/mahmoud822822/sigma/tree/main">افتح مجلد الكود</a>
-</p>
-<footer>Signature Prediction and Forecast: Sigma - Mahmoud Emad<br>V44.22 - V54.2 PASS - Bulk Real Only - Fakes in No-Data - Passed Learned<br>تحليل فقط - مش ضمان - 18+ - العب بالمبلغ اللي تقدر تخسره</footer>
+<p><a class="btn" href="https://github.com/mahmoud822822/sigma">افتح الريبو على GitHub</a> <a class="btn btn2" href="https://github.com/mahmoud822822/sigma/tree/main">افتح مجلد الكود</a></p>
+<footer>Signature Prediction and Forecast: Sigma - Mahmoud Emad<br>V44.24 LIVE - V54.2.1 PASS - Bulk Real Only - Fakes in No-Data - Passed Learned<br>تحليل فقط - مش ضمان - 18+ - العب بالمبلغ اللي تقدر تخسره</footer>
 </div>
+<script>
+var FAKES = ["Al Ahly vs Zamalek","Al Hilal vs Al Nassr","Real Madrid vs Barcelona","Man City vs Arsenal","Inter vs Milan","Brazil vs Argentina"];
+var allRows = [];
+function isFake(m){ return FAKES.indexOf(m) >= 0; }
+function fmtRow(r){
+  var m = r.match || (r.home_team + " vs " + r.away_team) || "";
+  var d = (r.date || "").toString().slice(0,10);
+  var lg = r.league || r.competition || "";
+  var xg = r.xG || r.xg || "";
+  if(typeof xg === "object") xg = (xg.home||"") + " - " + (xg.away||"");
+  var pick = r.pick || "";
+  var tier = (r.tier||"") + " / " + (r.grade||"");
+  var conf = r.conf || r.confidence || r.n || "";
+  return "<tr><td>"+d+"</td><td>"+m+"</td><td>"+lg+"</td><td>"+xg+"</td><td>"+pick+"</td><td>"+tier+"</td><td>"+conf+"</td></tr>";
+}
+function render(){
+  var q = (document.getElementById("q").value||"").toLowerCase();
+  var lf = document.getElementById("leagueFilter").value;
+  var tf = document.getElementById("tierFilter").value;
+  var sort = document.getElementById("sortBy").value;
+  var rows = allRows.filter(function(r){
+    if(r.is_default === 1) return false;
+    var m = (r.match || "") + "";
+    if(isFake(m)) return false;
+    if(q && m.toLowerCase().indexOf(q) < 0 && (r.home_team||"").toLowerCase().indexOf(q) < 0 && (r.away_team||"").toLowerCase().indexOf(q) < 0) return false;
+    if(lf && (r.league||r.competition||"") !== lf) return false;
+    if(tf && (r.tier||"") !== tf) return false;
+    return true;
+  });
+  if(sort === "grade") rows.sort(function(a,b){ return (b.grade||"").localeCompare(a.grade||""); });
+  else if(sort === "conf") rows.sort(function(a,b){ return (b.conf||b.confidence||0) - (a.conf||a.confidence||0); });
+  else rows.sort(function(a,b){ return (a.date||"").localeCompare(b.date||""); });
+  document.getElementById("bulkCount").textContent = "Bulk LIVE: " + rows.length + " توقع حقيقي - الفيك مستبعد من الجدول";
+  document.getElementById("bulkBody").innerHTML = rows.slice(0,500).map(fmtRow).join("");
+  var leagues = {};
+  allRows.forEach(function(r){ if(r.league) leagues[r.league]=1; });
+  var sel = document.getElementById("leagueFilter");
+  if(sel.options.length <= 1){ Object.keys(leagues).sort().forEach(function(L){ var o=document.createElement("option"); o.value=L; o.textContent=L; sel.appendChild(o); }); }
+}
+["q","leagueFilter","tierFilter","sortBy"].forEach(function(id){ document.getElementById(id).addEventListener("input", render); });
+function loadLive(){
+  Promise.all([
+    fetch("data/sigma_bulk_predictions.json").then(function(r){ return r.json(); }).catch(function(){ return null; }),
+    fetch("data/sigma_no_confirmed_data.json").then(function(r){ return r.json(); }).catch(function(){ return null; }),
+    fetch("data/sigma_v44.json").then(function(r){ return r.json(); }).catch(function(){ return null; })
+  ]).then(function(res){
+    var bulk = res[0], nd = res[1], snap = res[2];
+    var bulkRows = bulk ? (bulk.matches || bulk) : [];
+    if(!Array.isArray(bulkRows)) bulkRows = [];
+    var ndRows = nd ? (nd.matches || nd.rows || nd) : [];
+    if(!Array.isArray(ndRows)) ndRows = [];
+    if(bulkRows.length > 0){
+      allRows = bulkRows;
+      document.getElementById("statBulk").textContent = bulkRows.length;
+      document.getElementById("liveBadge").textContent = "LIVE: Bulk " + bulkRows.length + " من الريبو";
+      document.getElementById("bulkEmpty").classList.add("hidden");
+    } else {
+      document.getElementById("liveBadge").textContent = "OFFLINE: افتح من GitHub Pages";
+      document.getElementById("bulkEmpty").classList.remove("hidden");
+    }
+    if(Array.isArray(ndRows) && ndRows.length > 0){
+      document.getElementById("statNoData").textContent = ndRows.length;
+      document.getElementById("noDataBody").innerHTML = ndRows.map(function(r){
+        var m = r.match || "";
+        var d = (r.date||"").toString().slice(0,10);
+        return "<tr><td>"+m+"</td><td>"+d+"</td><td>No confirmed data</td></tr>";
+      }).join("");
+    }
+    render();
+  }).catch(function(){
+    document.getElementById("liveBadge").textContent = "OFFLINE: افتح من GitHub Pages";
+    document.getElementById("bulkEmpty").classList.remove("hidden");
+    render();
+  });
+}
+loadLive();
+</script>
 </body>
 </html>
