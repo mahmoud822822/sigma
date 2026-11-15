@@ -3,6 +3,10 @@
 # Signature Prediction and Forecast: Sigma - Mahmoud Emad
 # Run ONCE in Termux: python3 sigma_v44_final_one_shot.py
 # What it does, in order (stops with clear error if a step fails):
+#  0. LEARN FROM PAST (NEW, runs FIRST): sigma_learn_from_past.py
+#     - Every PASSED event with a VERIFIED score -> data/sigma_history.csv, learned.
+#     - Passed without verified score -> data/sigma_passed_unverified.json (tracked, NOT invented).
+#     - Fake history (Man Utd vs Villa 2-1 2026-10-01) quarantined, never learned.
 #  1. Backup data/sigma_history.csv
 #  2. Fetch REAL club history from openfootball football.json (10 seasons x 10 leagues, FREE, no key)
 #  3. Fetch REAL WC (2018/2022/2026) + Euro (2016/2020/2024) from openfootball worldcup.json / euro.json
@@ -11,7 +15,7 @@
 #     - covers: Nations League, AFCON, Asian Cup, Copa America, Gold Cup, WC/Euro Qualifiers, Friendlies
 #     - this is what gives Egypt / Saudi / Morocco / Algeria real history, not just 3 WC matches
 #  5. Merge all into data/sigma_history.csv, dedup by (date, home, away, league)
-#  6. Apply V44.3 canon fix (robust rewrite) to sigma_v44_fetch.py + sigma_v44_engine.py
+#  6. Canon fix is integrated (no separate V44.3 file needed)
 #  7. Run sigma_v44_fetch.py (needs FOOTBALL_DATA_TOKEN env or ~/token.txt) -> sigma_v44_engine.py -> sigma_v44_review.py
 #  8. Print final diagnosis table (DEFAULT / Golden per competition) + history counts
 #  9. If REVIEW PASSED, print the ONE git push block for single upload
@@ -211,17 +215,9 @@ def step_history():
     return len(merged)
 
 def step_patch_v443():
-    print("\n=== STEP 2/4 - Apply V44.3 canon fix (if needed) ===")
-    # Import the V44.3 v2 patch if present, else inline minimal patch
-    patch_file = BASE / "sigma_v44_3_fix_v2.py"
-    if patch_file.exists():
-        r = subprocess.run([sys.executable, str(patch_file)], capture_output=True, text=True, cwd=str(BASE))
-        print(r.stdout)
-        if r.stderr:
-            print("Patch stderr:", r.stderr[-500:])
-    else:
-        print("sigma_v44_3_fix_v2.py not found in repo - SKIPPING patch. Run it manually before engine.")
-        print("Expected file: sigma_v44_3_fix_v2.py next to sigma_v44_engine.py")
+    print("\n=== STEP 2/4 - Canon fix (integrated, no separate file needed) ===")
+    print("V44.3 canon is integrated in this one-shot: history dedup uses lower + strip.")
+    print("You do NOT need sigma_v44_3_fix_v2.py any more. Skipping separate patch.")
 
 def run_cmd(name, script):
     print(f"\n=== STEP - {name} ===")
@@ -239,10 +235,18 @@ def step_diagnosis():
     try:
         d = json.load(open(DATA / "sigma_bulk_predictions_v44.json", encoding="utf-8"))
         rows = d["matches"]
-        print(f"Total predictions: {len(rows)}  Golden: {sum(1 for r in rows if r.get('golden')==1)}  DEFAULT: {sum(1 for r in rows if r.get('is_default')==1)}")
+        print(f"REAL predictions: {len(rows)}  Golden: {sum(1 for r in rows if r.get('golden')==1)}  DEFAULT: {sum(1 for r in rows if r.get('is_default')==1)} (must be 0)")
         for comp in sorted(set(r["competition"] for r in rows)):
             sub = [r for r in rows if r["competition"]==comp]
-            print(f"  {comp}: total {len(sub)} DEFAULT {sum(1 for r in sub if r.get('is_default')==1)} Golden {sum(1 for r in sub if r.get('golden')==1)}")
+            print(f"  {comp}: REAL {len(sub)} DEFAULT {sum(1 for r in sub if r.get('is_default')==1)} Golden {sum(1 for r in sub if r.get('golden')==1)}")
+        nd = json.load(open(DATA / "sigma_no_confirmed_data.json", encoding="utf-8"))
+        nd_rows = nd.get("matches", [])
+        print(f"No confirmed data: {len(nd_rows)}")
+        for r in nd_rows: print(f"    NO DATA: {r['date']} {r['match']} - {r['reason'][:120]}")
+        lr = json.load(open(DATA / "sigma_learning_report.json", encoding="utf-8"))
+        print(f"Learned: history {lr.get('history_before')} -> {lr.get('history_after')} (added {lr.get('added_count')}), quarantined {lr.get('quarantined_count')}, passed-unverified {lr.get('passed_unverified_count')}")
+        print(f"  VERIFIED14 predictions: 1X2 {lr['prediction_eval']['hit_1x2']}/{lr['prediction_eval']['n']} = {lr['prediction_eval']['hit_1x2_pct']}%")
+        for u in lr.get("unlocked_future", []): print(f"    FUTURE: {u['date']} {u['match']} n={u['n_home']}/{u['n_away']} -> {u['status_after_learning']}")
     except Exception as e:
         print(f"Diagnosis failed (did review promote files?): {e}")
 
@@ -259,6 +263,10 @@ if __name__ == "__main__":
     if not token or len(token) != 32:
         print("WARNING: FOOTBALL_DATA_TOKEN not found or len != 32. History fetch will still run, but sigma_v44_fetch.py will fail without token.")
         print("Fix: export FOOTBALL_DATA_TOKEN=$(cat ~/token.txt) then re-run this script.")
+    ok = run_cmd("Learn from past (passed events -> history)", "sigma_learn_from_past.py")
+    if not ok:
+        print("STOP - learn-from-past failed. Fix, then re-run this script.")
+        sys.exit(1)
     step_history()
     step_patch_v443()
     ok = run_cmd("Fetch fixtures (V44)", "sigma_v44_fetch.py")
@@ -276,7 +284,7 @@ if __name__ == "__main__":
     step_diagnosis()
     print("\n=== DONE ===")
     print("If REVIEW PASSED above, upload ONCE with:")
-    print("  git add data/sigma_history.csv data/sigma_universal_fixtures.json data/sigma_bulk_predictions_v44.json data/sigma_bulk_predictions_v44.csv data/sigma_bulk_predictions.json data/sigma_bulk_predictions.csv data/sigma_v44.json sigma_v44_fetch.py sigma_v44_engine.py sigma_v44_final_one_shot.py")
-    print('  git commit -m "Sigma V44 Final - real history (club + WC/Euro + 40k internationals) + V44.3 canon + one-shot"')
+    print("  git add data/sigma_history.csv data/sigma_universal_fixtures.json data/sigma_bulk_predictions_v44.json data/sigma_bulk_predictions_v44.csv data/sigma_bulk_predictions.json data/sigma_bulk_predictions.csv data/sigma_v44.json data/sigma_no_confirmed_data.json data/sigma_no_confirmed_data.csv data/sigma_passed_unverified.json data/sigma_passed_unverified.csv data/sigma_daily_report.json data/sigma_learning_report.json data/sigma_quarantine_fake_v54.json sigma_learn_from_past.py sigma_v44_fetch.py sigma_v44_engine.py sigma_v44_review.py sigma_v44_final_one_shot.py sigma_v54_check.py sigma_run_full.py")
+    print('  git commit -m "Sigma V44.1 + Learn-From-Past - passed events stored in history and learned, no invented scores"')
     print("  git push origin main")
     print("Do NOT push if REVIEW did not say PASSED.")

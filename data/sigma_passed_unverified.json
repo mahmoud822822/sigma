@@ -1,0 +1,2703 @@
+{
+  "generated": "2026-11-15",
+  "today": "2026-11-15",
+  "rule": "Passed events with no verified result are tracked here, NEVER invented.",
+  "total": 267,
+  "matches": [
+    {
+      "date": "2026-08-07",
+      "home": "VfL Bochum",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-08",
+      "home": "1. FC Heidenheim 1846",
+      "away": "VfL Osnabrück",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-08",
+      "home": "1. FC Magdeburg",
+      "away": "Eintracht Braunschweig",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-08",
+      "home": "Karlsruher SC",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-08",
+      "home": "SV Darmstadt 98",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-08",
+      "home": "VfL Wolfsburg",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-09",
+      "home": "1. FC Nürnberg",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-09",
+      "home": "Energie Cottbus",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-09",
+      "home": "FC St. Pauli",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-14",
+      "home": "Eintracht Braunschweig",
+      "away": "VfL Bochum",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-14",
+      "home": "Holstein Kiel",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-15",
+      "home": "1. FC Kaiserslautern",
+      "away": "Karlsruher SC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-15",
+      "home": "Hertha BSC",
+      "away": "1. FC Heidenheim 1846",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-15",
+      "home": "SpVgg Greuther Fürth",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-15",
+      "home": "VfL Osnabrück",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-16",
+      "home": "DSC Arminia Bielefeld",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-16",
+      "home": "Dynamo Dresden",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-16",
+      "home": "Hannover 96",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-21",
+      "home": "Hansa Rostock",
+      "away": "VfB Stuttgart",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-21",
+      "home": "Preußen Münster",
+      "away": "Karlsruher SC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-21",
+      "home": "SC St. Tönis",
+      "away": "Eintracht Frankfurt",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-21",
+      "home": "SV Waldhof Mannheim",
+      "away": "1. FC Kaiserslautern",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-21 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "1. FC Saarbrücken",
+      "away": "Hertha BSC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Eintracht Trier",
+      "away": "RB Leipzig",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Energie Cottbus",
+      "away": "FC Augsburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Erzgebirge Aue",
+      "away": "TSG Hoffenheim",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Lüneburger SK Hansa",
+      "away": "SV Werder Bremen",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "MSV Duisburg",
+      "away": "SV 07 Elversberg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SG Sonnenhof Großaspach",
+      "away": "DSC Arminia Bielefeld",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SV Hemelingen",
+      "away": "Hannover 96",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "SV Wehen Wiesbaden",
+      "away": "Bayer 04 Leverkusen",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "TSV 1860 München",
+      "away": "Holstein Kiel",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-22",
+      "home": "Viktoria Köln",
+      "away": "1. FC Nürnberg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-22 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "1. FC Phönix Lübeck",
+      "away": "SC Paderborn 07",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Bahlinger SC",
+      "away": "1. FC Magdeburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Eintracht Braunschweig",
+      "away": "1. FC Union Berlin",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "FC Carl Zeiss Jena",
+      "away": "SV Darmstadt 98",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Fortuna Düsseldorf",
+      "away": "SC Freiburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "Rot-Weiss Essen",
+      "away": "FC St. Pauli",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "SpVgg Greuther Fürth",
+      "away": "VfL Bochum",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "SSV Jeddeloh II",
+      "away": "1. FC Heidenheim 1846",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "SV Westfalia Rhynern",
+      "away": "Dynamo Dresden",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "TSV Schott Mainz",
+      "away": "Borussia Mönchengladbach",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-23",
+      "home": "VfB 1921 Krieschow",
+      "away": "1. FSV Mainz 05",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-24",
+      "home": "Hallescher",
+      "away": "FC Schalke 04",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-24",
+      "home": "SC Verl",
+      "away": "Hamburger SV",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-24",
+      "home": "VSG Altglienicke Berlin",
+      "away": "VfL Wolfsburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-24",
+      "home": "Würzburger Kickers",
+      "away": "1. FC Köln",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-28",
+      "home": "Eintracht Braunschweig",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-28",
+      "home": "FC Bayern München",
+      "away": "VfB Stuttgart",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-28",
+      "home": "VfL Bochum",
+      "away": "VfL Osnabrück",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Köln",
+      "away": "TSG Hoffenheim",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Nürnberg",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FC Union Berlin",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "1. FSV Mainz 05",
+      "away": "SC Paderborn 07",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Borussia Dortmund",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Energie Cottbus",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Karlsruher SC",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "RB Leipzig",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-29",
+      "home": "SV 07 Elversberg",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-30",
+      "home": "1. FC Magdeburg",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-30",
+      "home": "FC Augsburg",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-30",
+      "home": "FC St. Pauli",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-30",
+      "home": "SC Freiburg",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-08-30",
+      "home": "SV Darmstadt 98",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-08-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-01",
+      "home": "Hamburg Eimsbütteler BC",
+      "away": "Borussia Dortmund",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-02",
+      "home": "VfL Osnabrück",
+      "away": "FC Bayern München",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-02 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-04",
+      "home": "DSC Arminia Bielefeld",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Hannover 96",
+      "away": "Karlsruher SC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-04",
+      "home": "VfB Stuttgart",
+      "away": "1. FC Köln",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "1. FC Kaiserslautern",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Bayer 04 Leverkusen",
+      "away": "1. FC Union Berlin",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Borussia Mönchengladbach",
+      "away": "SV 07 Elversberg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Dynamo Dresden",
+      "away": "VfL Bochum",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "FC Schalke 04",
+      "away": "FC Bayern München",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "Holstein Kiel",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "SC Paderborn 07",
+      "away": "SC Freiburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "SV Werder Bremen",
+      "away": "RB Leipzig",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "TSG Hoffenheim",
+      "away": "Borussia Dortmund",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-05",
+      "home": "VfL Wolfsburg",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Eintracht Frankfurt",
+      "away": "FC Augsburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Hamburger SV",
+      "away": "1. FSV Mainz 05",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-06",
+      "home": "Hertha BSC",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-06",
+      "home": "SpVgg Greuther Fürth",
+      "away": "1. FC Heidenheim 1846",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-06",
+      "home": "VfL Osnabrück",
+      "away": "Eintracht Braunschweig",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-11",
+      "home": "1. FC Nürnberg",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-11",
+      "home": "1. FC Union Berlin",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-11",
+      "home": "SV Darmstadt 98",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "1. FC Köln",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "1. FC Magdeburg",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "1. FSV Mainz 05",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Borussia Dortmund",
+      "away": "SC Paderborn 07",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Eintracht Braunschweig",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "FC Augsburg",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "FC St. Pauli",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "SC Freiburg",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "TSG Hoffenheim",
+      "away": "VfB Stuttgart",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-12",
+      "home": "VfL Bochum",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-13",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Karlsruher SC",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-13",
+      "home": "RB Leipzig",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-13",
+      "home": "SV 07 Elversberg",
+      "away": "FC Bayern München",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-13",
+      "home": "VfL Osnabrück",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-18",
+      "home": "FC Bayern München",
+      "away": "1. FC Union Berlin",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-18",
+      "home": "SpVgg Greuther Fürth",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-18",
+      "home": "VfL Wolfsburg",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "1. FC Kaiserslautern",
+      "away": "Eintracht Braunschweig",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Borussia Mönchengladbach",
+      "away": "1. FSV Mainz 05",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Dynamo Dresden",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Eintracht Frankfurt",
+      "away": "SC Freiburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Hamburger SV",
+      "away": "1. FC Köln",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Holstein Kiel",
+      "away": "VfL Osnabrück",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Karlsruher SC",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "SV Werder Bremen",
+      "away": "FC Augsburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-19",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Dortmund",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-19 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Bayer 04 Leverkusen",
+      "away": "RB Leipzig",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "DSC Arminia Bielefeld",
+      "away": "1. FC Heidenheim 1846",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Energie Cottbus",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "FC Schalke 04",
+      "away": "SV 07 Elversberg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Hannover 96",
+      "away": "VfL Bochum",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-20",
+      "home": "SC Paderborn 07",
+      "away": "TSG Hoffenheim",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-20 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Niederlande",
+      "away": "Deutschland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Norwegen",
+      "away": "Dänemark",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-24",
+      "home": "Serbien",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Italien",
+      "away": "Belgien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-25",
+      "home": "Türkei",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-26",
+      "home": "England",
+      "away": "Spanien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-26",
+      "home": "Tschechien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-26 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Deutschland",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Dänemark",
+      "away": "Wales",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Norwegen",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Serbien",
+      "away": "Niederlande",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Belgien",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-28",
+      "home": "Türkei",
+      "away": "Italien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Spanien",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-09-29",
+      "home": "Tschechien",
+      "away": "England",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-09-29 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Deutschland",
+      "away": "Serbien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Dänemark",
+      "away": "Portugal",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Griechenland",
+      "away": "Niederlande",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-01",
+      "home": "Wales",
+      "away": "Norwegen",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-02",
+      "home": "Belgien",
+      "away": "Türkei",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-02 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-02",
+      "home": "Frankreich",
+      "away": "Italien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-02 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Kroatien",
+      "away": "England",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-03 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Spanien",
+      "away": "Tschechien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-03 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Griechenland",
+      "away": "Deutschland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Niederlande",
+      "away": "Serbien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Portugal",
+      "away": "Norwegen",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Wales",
+      "away": "Dänemark",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-04 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-05",
+      "home": "Frankreich",
+      "away": "Belgien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-05",
+      "home": "Italien",
+      "away": "Türkei",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-05 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-06",
+      "home": "England",
+      "away": "Tschechien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-06",
+      "home": "Kroatien",
+      "away": "Spanien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-09",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-09",
+      "home": "Borussia Dortmund",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-09",
+      "home": "Eintracht Braunschweig",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "1. FC Magdeburg",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "1. FC Nürnberg",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "1. FC Union Berlin",
+      "away": "SV 07 Elversberg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "1. FSV Mainz 05",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "FC Augsburg",
+      "away": "FC Bayern München",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "RB Leipzig",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "SC Paderborn 07",
+      "away": "VfB Stuttgart",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "SV Darmstadt 98",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "TSG Hoffenheim",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-10",
+      "home": "VfL Osnabrück",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-10 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-11",
+      "home": "1. FC Köln",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-11",
+      "home": "FC St. Pauli",
+      "away": "Karlsruher SC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-11",
+      "home": "Hertha BSC",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-11",
+      "home": "SC Freiburg",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-11",
+      "home": "VfL Bochum",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-11 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-16",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-16",
+      "home": "Energie Cottbus",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-16",
+      "home": "Holstein Kiel",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-16 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "1. FC Kaiserslautern",
+      "away": "VfL Bochum",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "1. FC Union Berlin",
+      "away": "Borussia Dortmund",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "FC Bayern München",
+      "away": "RB Leipzig",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "FC Schalke 04",
+      "away": "1. FSV Mainz 05",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Hamburger SV",
+      "away": "VfB Stuttgart",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "Hannover 96",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "SpVgg Greuther Fürth",
+      "away": "Eintracht Braunschweig",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "SV 07 Elversberg",
+      "away": "FC Augsburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "SV Werder Bremen",
+      "away": "SC Paderborn 07",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-17",
+      "home": "VfL Wolfsburg",
+      "away": "1. FC Heidenheim 1846",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-17 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SC Freiburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Borussia Mönchengladbach",
+      "away": "TSG Hoffenheim",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-18",
+      "home": "DSC Arminia Bielefeld",
+      "away": "VfL Osnabrück",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Dynamo Dresden",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Karlsruher SC",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-18 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-23",
+      "home": "SV Darmstadt 98",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-23",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-23",
+      "home": "VfL Bochum",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-23 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "1. FC Köln",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "1. FC Magdeburg",
+      "away": "Karlsruher SC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "1. FC Nürnberg",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "1. FSV Mainz 05",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "FC Augsburg",
+      "away": "1. FC Union Berlin",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Hertha BSC",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "RB Leipzig",
+      "away": "SV 07 Elversberg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-24",
+      "home": "SC Paderborn 07",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-24 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Eintracht Braunschweig",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Holstein Kiel",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-25",
+      "home": "SC Freiburg",
+      "away": "FC Bayern München",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-25",
+      "home": "TSG Hoffenheim",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-25",
+      "home": "VfL Osnabrück",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-25 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "1. FC Köln",
+      "away": "1. FC Union Berlin",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "Borussia Dortmund",
+      "away": "SV Werder Bremen",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "Borussia Mönchengladbach",
+      "away": "Karlsruher SC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "Hamburger SV",
+      "away": "Eintracht Frankfurt",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "Rot-Weiss Essen",
+      "away": "RB Leipzig",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "SG Sonnenhof Großaspach",
+      "away": "FC Augsburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "SV 07 Elversberg",
+      "away": "SV Darmstadt 98",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-27",
+      "home": "VfL Bochum",
+      "away": "1. FSV Mainz 05",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-27 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "Bayer 04 Leverkusen",
+      "away": "1. FC Nürnberg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "Dynamo Dresden",
+      "away": "FC Schalke 04",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "FC Bayern München",
+      "away": "1. FC Magdeburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "Hannover 96",
+      "away": "1. FC Kaiserslautern",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "Holstein Kiel",
+      "away": "TSG Hoffenheim",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "SC Freiburg",
+      "away": "VfL Wolfsburg",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "SC Paderborn 07",
+      "away": "VfB Stuttgart",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-28",
+      "home": "SSV Jeddeloh II",
+      "away": "Hertha BSC",
+      "league": "DFB",
+      "competition": "DFB-Pokal",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-28 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-30",
+      "home": "DSC Arminia Bielefeld",
+      "away": "Eintracht Braunschweig",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-30",
+      "home": "Energie Cottbus",
+      "away": "VfL Bochum",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-30",
+      "home": "SV 07 Elversberg",
+      "away": "1. FSV Mainz 05",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-30 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "1. FC Kaiserslautern",
+      "away": "Hertha BSC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Bayer 04 Leverkusen",
+      "away": "VfB Stuttgart",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Borussia Mönchengladbach",
+      "away": "SC Paderborn 07",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "FC Augsburg",
+      "away": "SC Freiburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "FC Bayern München",
+      "away": "Borussia Dortmund",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "FC Schalke 04",
+      "away": "RB Leipzig",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "Karlsruher SC",
+      "away": "1. FC Heidenheim 1846",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "SV Darmstadt 98",
+      "away": "1. FC Magdeburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "SV Werder Bremen",
+      "away": "TSG Hoffenheim",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-10-31",
+      "home": "VfL Wolfsburg",
+      "away": "VfL Osnabrück",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-10-31 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-01",
+      "home": "1. FC Union Berlin",
+      "away": "1. FC Köln",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Eintracht Frankfurt",
+      "away": "Hamburger SV",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-01",
+      "home": "FC St. Pauli",
+      "away": "1. FC Nürnberg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Hannover 96",
+      "away": "Dynamo Dresden",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-01",
+      "home": "SpVgg Greuther Fürth",
+      "away": "Holstein Kiel",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-01 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-06",
+      "home": "Dynamo Dresden",
+      "away": "SpVgg Greuther Fürth",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-06",
+      "home": "Eintracht Braunschweig",
+      "away": "Energie Cottbus",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-06",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-06 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "1. FC Nürnberg",
+      "away": "SV Darmstadt 98",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "1. FSV Mainz 05",
+      "away": "FC Bayern München",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Borussia Dortmund",
+      "away": "SV 07 Elversberg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Hertha BSC",
+      "away": "VfL Wolfsburg",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "Holstein Kiel",
+      "away": "DSC Arminia Bielefeld",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "RB Leipzig",
+      "away": "FC Augsburg",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "SC Paderborn 07",
+      "away": "Eintracht Frankfurt",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-07",
+      "home": "VfL Osnabrück",
+      "away": "1. FC Kaiserslautern",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Hannover 96",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "1. FC Köln",
+      "away": "Bayer 04 Leverkusen",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "1. FC Magdeburg",
+      "away": "FC St. Pauli",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "SC Freiburg",
+      "away": "1. FC Union Berlin",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "TSG Hoffenheim",
+      "away": "FC Schalke 04",
+      "league": "BL1",
+      "competition": "Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-08",
+      "home": "VfL Bochum",
+      "away": "Karlsruher SC",
+      "league": "BL2",
+      "competition": "2. Bundesliga",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-12",
+      "home": "England",
+      "away": "Kroatien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-12",
+      "home": "Italien",
+      "away": "Frankreich",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-12",
+      "home": "Tschechien",
+      "away": "Spanien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-12",
+      "home": "Türkei",
+      "away": "Belgien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-12 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-13",
+      "home": "Niederlande",
+      "away": "Griechenland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-13",
+      "home": "Serbien",
+      "away": "Deutschland",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-13 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-14",
+      "home": "Norwegen",
+      "away": "Wales",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    },
+    {
+      "date": "2026-11-14",
+      "home": "Portugal",
+      "away": "Dänemark",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed on 2026-11-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
+    }
+  ],
+  "learned_total": 2,
+  "learned": [
+    {
+      "date": "2026-09-24",
+      "home": "Portugal",
+      "away": "Wales",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_universal_fixtures.json",
+      "score": "1-0",
+      "status": "LEARNED",
+      "where": "history"
+    },
+    {
+      "date": "2026-11-12",
+      "home": "England",
+      "away": "Croatia",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "source": "sigma_next_month.json",
+      "score": "2-1",
+      "status": "LEARNED",
+      "where": "history"
+    }
+  ]
+}

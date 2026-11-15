@@ -6,6 +6,14 @@
 # Reads: data/sigma_universal_fixtures.json (V44 fetch) -> fallback data/sigma_next_month.json
 # Writes: data/sigma_bulk_predictions_v44.json + .csv + data/sigma_v44.json
 # V43 files untouched. Review must PASS before upload.
+# V44.1 - NO CONFIRMED DATA RULE (Mahmoud Emad):
+#  If a team has < 5 history matches, the engine REFUSES to invent a prediction.
+#  No league-average fallback, no 1.45-1.97 template, no pick, no probs.
+#  That fixture goes to data/sigma_no_confirmed_data.json/.csv with
+#  xG = pick = "No confirmed data" and a reason, and is NOT counted as a prediction.
+#  Bulk files contain ONLY real predictions (both teams n >= 5).
+#  PASSED fixtures (date < today) are NEVER predicted - they are learned by
+#  sigma_learn_from_past.py (stored in history if verified, else passed_unverified).
 import csv, json, math
 from collections import defaultdict
 from pathlib import Path
@@ -14,6 +22,8 @@ from datetime import date
 BASE = Path(__file__).parent
 DATA = BASE / "data"
 DATA.mkdir(exist_ok=True)
+MIN_TEAM_MATCHES = 5
+NO_DATA = "No confirmed data"
 
 CANON = {"palace": "Crystal Palace", "crystal palace": "Crystal Palace",
  "man utd": "Man Utd", "manchester united": "Man Utd", "man united": "Man Utd",
@@ -72,7 +82,29 @@ def load_history():
             return out
     return []
 
+def load_v54_quarantine():
+    try:
+        d = json.load(open(BASE / "sigma_v54_real_complete.json", encoding="utf-8"))
+        out = {}
+        for r in (d.get("quarantine", {}) or {}).get("manual", []) or []:
+            out[(str(r.get("match", "")).strip().lower(), str(r.get("date", ""))[:10])] = r.get("reason", "")
+        return out
+    except Exception:
+        return {}
+
 def load_verified():
+    # DATA file has NO date column - fill from BASE file by match (same fix as learner).
+    # Without this, verified rows get date="" and dedup vs history fails (Lazio n=5 not 4).
+    _date_by_match = {}
+    _base = BASE / "sigma_real_verified.csv"
+    if _base.exists():
+        try:
+            for _r in csv.DictReader(open(_base, encoding="utf-8")):
+                if " vs " in (_r.get("match") or "") and _r.get("date"):
+                    _hh, _aa = _r["match"].split(" vs ", 1)
+                    _date_by_match[(canon_team(_hh.strip()).lower(), canon_team(_aa.strip()).lower())] = str(_r.get("date", ""))[:10]
+        except Exception:
+            pass
     for cand in [DATA / "sigma_real_verified.csv", BASE / "sigma_real_verified.csv"]:
         if cand.exists():
             rows = list(csv.DictReader(open(cand, encoding="utf-8")))
@@ -85,7 +117,8 @@ def load_verified():
                     h, a = canon_team(h.strip()), canon_team(a.strip())
                     if is_numeric_name(h) or is_numeric_name(a):
                         continue
-                    out.append({"date": r.get("date", "")[:10], "home": h, "away": a,
+                    _d = (r.get("date", "") or "").strip()[:10] or _date_by_match.get((h.lower(), a.lower()), "")
+                    out.append({"date": _d, "home": h, "away": a,
                                 "hg": int(r["real_home"]), "ag": int(r["real_away"]),
                                 "league": r.get("league", "Default")})
                 except Exception:
@@ -132,6 +165,41 @@ def load_future():
                                 "country": mm.get("country") or ""})
                 except Exception:
                     continue
+            # ALSO: sigma_year_2026.csv pending fixtures (no real score, not TEMPLATE).
+            # They are future fixtures the learner tracks; if the engine ignores them they are lost.
+            # They get the same V44.1 treatment: real prediction if n>=5 else No confirmed data.
+            try:
+                y26 = BASE / "sigma_year_2026.csv"
+                if y26.exists():
+                    y_added = 0
+                    for _r in csv.DictReader(open(y26, encoding="utf-8")):
+                        _m = (_r.get("match") or "").strip()
+                        if _m.upper().startswith("TEMPLATE") or " vs " not in _m:
+                            continue
+                        try:
+                            if _r.get("real_home") not in (None, "") and str(_r.get("real_home")).strip() != "":
+                                continue  # has a real score -> already in history, not a future fixture
+                        except Exception:
+                            pass
+                        _h_raw, _a_raw = _m.split(" vs ", 1)
+                        _h, _a = canon_team(_h_raw.strip()), canon_team(_a_raw.strip())
+                        if not _h or not _a or is_numeric_name(_h) or is_numeric_name(_a):
+                            continue
+                        _d = str(_r.get("date") or "")[:10]
+                        _lg = _r.get("league") or "Default"
+                        _key = (_d, _h.lower(), _a.lower(), str(_lg).lower())
+                        if _key in seen:
+                            continue
+                        seen.add(_key)
+                        out.append({"date": _d, "home": _h, "away": _a, "league": _lg,
+                                    "competition": _lg, "competition_type": "LEAGUE",
+                                    "stage": "", "group": "", "source": "AUTO",
+                                    "source_detail": "sigma_year_2026.csv:pending", "country": ""})
+                        y_added += 1
+                    if y_added:
+                        print(f"Future (year_2026 pending added): {y_added}")
+            except Exception as _e:
+                print(f"Year2026 pending load skipped: {_e}")
             print(f"Future (universal): {len(out)} unique, {skipped} numeric-name skipped")
             return out
     # Fallback: next_month.json (V43 format)
@@ -171,6 +239,9 @@ def load_future():
 def predict_match(states, league_stats, league_elo, global_elo_avg, home, away, league):
     hs = states.get(home)
     aws = states.get(away)
+    # V44.1: refuse to fabricate. Both teams need >= MIN_TEAM_MATCHES history.
+    if not hs or not aws or hs.get("n", 0) < MIN_TEAM_MATCHES or aws.get("n", 0) < MIN_TEAM_MATCHES:
+        return None
     def adj_elo(team, s):
         if not s:
             return 1500.0
@@ -355,6 +426,7 @@ def main():
     print("Sigma V44 Engine - Universal + JSON-first + Tier fix + Directions")
     history = load_history()
     verified = load_verified()
+    v54_q = load_v54_quarantine()
     future = load_future()
     print(f"History: {len(history)}  Verified: {len(verified)}  Future unique: {len(future)}")
     states = defaultdict(lambda: {"elo": 1500.0, "n": 0, "scored": 0, "conceded": 0,
@@ -363,7 +435,16 @@ def main():
     league_stats = defaultdict(lambda: {"n": 0, "goals": 0, "home_goals": 0, "away_goals": 0,
                                          "home_win": 0, "btts": 0, "over25": 0})
     league_stats["Default"] = {"n": 0, "goals": 0, "home_goals": 0, "away_goals": 0, "home_win": 0, "btts": 0, "over25": 0}
-    combined = sorted(history + verified, key=lambda x: x["date"])
+    # Dedup: learner now stores verified rows IN history, so history+verified double-counts
+    # the same 14 matches (e.g. Lazio n=5 instead of 4). Keep one row per (date, home, away).
+    _seen_comb = set(); _combined = []
+    for _g in sorted(history + verified, key=lambda x: x["date"]):
+        _k = (_g["date"], _g["home"].lower(), _g["away"].lower())
+        if _k in _seen_comb:
+            continue
+        _seen_comb.add(_k)
+        _combined.append(_g)
+    combined = _combined
     backtest_n = 0
     backtest_hit = 0
     backtest_brier = 0.0
@@ -373,17 +454,18 @@ def main():
     for i, g in enumerate(combined):
         if i >= cutoff_idx and g in history:
             pred = predict_match(states, league_stats, {}, 1500.0, g["home"], g["away"], g["league"])
-            real = "1" if g["hg"] > g["ag"] else "X" if g["hg"] == g["ag"] else "2"
-            if pred["pick"] == real:
-                backtest_hit += 1
-            probs = {"1": pred["prob_1"] / 100.0, "X": pred["prob_X"] / 100.0, "2": pred["prob_2"] / 100.0}
-            backtest_brier += sum((probs[k] - (1.0 if k == real else 0.0)) ** 2 for k in probs)
-            backtest_logloss += -math.log(max(0.01, probs[real]))
-            backtest_n += 1
-            b = int(pred["sigma20"] // 10 * 10)
-            bins[b]["n"] += 1
-            if pred["pick"] == real:
-                bins[b]["hit"] += 1
+            if pred is not None:
+                real = "1" if g["hg"] > g["ag"] else "X" if g["hg"] == g["ag"] else "2"
+                if pred["pick"] == real:
+                    backtest_hit += 1
+                probs = {"1": pred["prob_1"] / 100.0, "X": pred["prob_X"] / 100.0, "2": pred["prob_2"] / 100.0}
+                backtest_brier += sum((probs[k] - (1.0 if k == real else 0.0)) ** 2 for k in probs)
+                backtest_logloss += -math.log(max(0.01, probs[real]))
+                backtest_n += 1
+                b = int(pred["sigma20"] // 10 * 10)
+                bins[b]["n"] += 1
+                if pred["pick"] == real:
+                    bins[b]["hit"] += 1
         update_state(states, league_stats, g["home"], g["away"], g["hg"], g["ag"])
         ls = league_stats[g["league"]]
         ls["n"] += 1
@@ -411,8 +493,49 @@ def main():
         league_elo_avg[lg] = {"avg": round(v["sum"] / max(1, v["n"]), 1), "n": v["n"]}
     today = date.today()
     out = []
+    no_data = []
+    passed_skipped = []
     for f in future:
+        # PASSED fixtures are NEVER predicted - they belong to the learner, not the forecaster.
+        try:
+            _fd = date(*map(int, f["date"].split("-")))
+            if _fd < today:
+                passed_skipped.append({"date": f["date"], "home_team": f["home"], "away_team": f["away"],
+                                        "match": f"{f['home']} vs {f['away']}", "league": f["league"],
+                                        "competition": f.get("competition", f["league"]),
+                                        "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."})
+                continue
+        except Exception:
+            pass
         p = predict_match(states, league_stats, league_elo_avg, global_avg, f["home"], f["away"], f["league"])
+        if p is None:
+            hs_n = states.get(f["home"]).get("n", 0) if states.get(f["home"]) else 0
+            aws_n = states.get(f["away"]).get("n", 0) if states.get(f["away"]) else 0
+            reason = (f"No confirmed data: {f['home']} n={hs_n} / {f['away']} n={aws_n} "
+                      f"(need >= {MIN_TEAM_MATCHES} each) in history+verified")
+            q_reason = v54_q.get((f"{f['home']} vs {f['away']}".lower(), f["date"][:10]), "")
+            if q_reason:
+                reason += f" | V54 quarantine: {q_reason}"
+            no_data.append({"date": f["date"], "home_team": f["home"], "away_team": f["away"],
+                            "match": f"{f['home']} vs {f['away']}", "league": f["league"],
+                            "competition": f.get("competition", f["league"]),
+                            "competition_type": f.get("competition_type", "LEAGUE"),
+                            "stage": f.get("stage", ""), "group": f.get("group", ""),
+                            "source": f.get("source", "AUTO"), "source_detail": f.get("source_detail", ""),
+                            "country": f.get("country", ""), "status": NO_DATA, "reason": reason,
+                            "xG": NO_DATA, "xG_home": None, "xG_away": None,
+                            "prob_1": None, "prob_X": None, "prob_2": None, "prob_sum": None,
+                            "BTTS": None, "Over15": None, "Over25": None, "Over35": None, "Under25": None,
+                            "DC1X": None, "DC12": None, "DCX2": None, "CS_Home": None, "CS_Away": None,
+                            "conf": None, "sigma20": None, "sigma_cal": None,
+                            "grade": "No Data", "pick": NO_DATA, "top3": NO_DATA,
+                            "n": min(hs_n, aws_n), "n_home": hs_n, "n_away": aws_n,
+                            "is_default": 1, "golden": 0, "is_future": 0,
+                            "elo_home": None, "elo_away": None, "elo_diff": None,
+                            "form_home": "", "form_away": "", "form_points_home": None, "form_points_away": None,
+                            "direction": NO_DATA, "direction_arrow": "", "form_trend": NO_DATA,
+                            "elo_trend": NO_DATA, "xg_trend": NO_DATA, "tier": "No Data"})
+            continue
         try:
             y, m, d = map(int, f["date"].split("-"))
             delta = (date(y, m, d) - today).days
@@ -471,6 +594,19 @@ def main():
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(out_sorted)
+    no_data_sorted = sorted(no_data, key=lambda x: (x["date"], x["match"]))
+    (DATA / "sigma_no_confirmed_data.json").write_text(json.dumps(
+        {"generated": str(today), "engine": "Sigma V44 Universal - No confirmed data",
+         "total": len(no_data_sorted), "matches": no_data_sorted},
+        ensure_ascii=False, indent=2), encoding="utf-8")
+    nd_fields = ["date", "home_team", "away_team", "match", "league", "competition", "competition_type",
+                 "stage", "group", "source", "source_detail", "country", "status", "reason",
+                 "xG", "pick", "tier", "grade", "n", "n_home", "n_away", "is_default", "golden"]
+    with open(DATA / "sigma_no_confirmed_data.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=nd_fields)
+        w.writeheader()
+        for r in no_data_sorted:
+            w.writerow({k: r.get(k, "") for k in nd_fields})
     top_elo = sorted([(t, s["elo"]) for t, s in states.items()], key=lambda x: x[1], reverse=True)[:10]
     per_league = {}
     for lg, ls in league_stats.items():
@@ -488,7 +624,10 @@ def main():
         by_comp[o["competition"]] = by_comp.get(o["competition"], 0) + 1
     snap = {"generated": str(today), "engine": "Sigma V44 Universal - FREE ONLY",
             "history": len(history), "verified": len(verified), "future": len(out), "teams": len(states),
-            "default_count": sum(1 for o in out if o["is_default"] == 1),
+            "total_fixtures": len(future), "real_predictions": len(out),
+            "no_confirmed_data": len(no_data_sorted), "no_confirmed_data_count": len(no_data_sorted),
+            "passed_skipped": len(passed_skipped), "passed_skipped_matches": passed_skipped,
+            "default_count": 0,
             "golden_count": sum(1 for o in out if o["golden"] == 1),
             "future_count": sum(1 for o in out if o["is_future"] == 1),
             "by_source": by_source, "by_competition_type": by_type, "by_competition": by_comp,
@@ -500,9 +639,14 @@ def main():
             "per_league": per_league,
             "top_elo": [{"team": t, "elo": round(e, 1)} for t, e in top_elo]}
     (DATA / "sigma_v44.json").write_text(json.dumps(snap, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Saved: {len(out_sorted)} -> data/sigma_bulk_predictions_v44.json + .csv")
+    print(f"Saved: {len(out_sorted)} REAL predictions -> data/sigma_bulk_predictions_v44.json + .csv")
+    print(f"Saved: {len(no_data_sorted)} No confirmed data -> data/sigma_no_confirmed_data.json + .csv")
+    for r in no_data_sorted:
+        print(f"  NO DATA: {r['date']} {r['match']} - {r['reason']}")
+    for r in passed_skipped:
+        print(f"  PASSED-SKIPPED (not predicted): {r['date']} {r['match']}")
     print(f"By source: {by_source}  By type: {by_type}")
-    print(f"DEFAULT {snap['default_count']} Golden {snap['golden_count']} Future {snap['future_count']}")
+    print(f"REAL {len(out_sorted)} | NO DATA {len(no_data_sorted)} | PASSED-SKIPPED {len(passed_skipped)} | DEFAULT 0 (refused) | Golden {snap['golden_count']} | Future {snap['future_count']}")
     print("Top 5:")
     for o in out_sorted[:5]:
         print(f"  {o['date']} {o['match']} [{o['competition']} | {o['source']}] xG {o['xG']} Probs {o['prob_1']}/{o['prob_X']}/{o['prob_2']} {o['direction']} Tier {o['tier']} Grade {o['grade']}")

@@ -3,6 +3,7 @@
 # Signature Prediction and Forecast: Sigma - Mahmoud Emad
 # Usage in Termux:  python3 sigma_run_full.py
 # Order:
+#  0. Learn From Past - passed events -> history, learned (MUST run first)
 #  1. Forecaster (14 verified) - offline
 #  2. Main: Eval + PredictAll + Learn + Team + xG + List - offline, inputs piped
 #  3. V54 Check (14 real / 0 manual / 7 quarantine / 49 dup) - offline
@@ -48,6 +49,8 @@ def main():
             token = tf.read_text().strip(); os.environ["FOOTBALL_DATA_TOKEN"] = token
     log(f"Token: {'OK len=32' if len(token)==32 else 'MISSING/invalid len='+str(len(token))+' -> Auto-Fetch + FD layer will SKIP, MANUAL only'}")
     # 1 Forecaster
+    # 0 Learn From Past - MUST run first so every later step learns from updated history
+    run_step("0 Learn From Past (passed events -> history)", [sys.executable, "sigma_learn_from_past.py"], timeout=60)
     run_step("1 Forecaster (14 verified)", [sys.executable, "sigma_forecaster.py"], timeout=30)
     # 2 Main - Eval + PredictAll + Learn
     run_step("2 Main Eval/PredictAll/Learn", [sys.executable, "sigma_main.py"], inp="4\n6\n8\n0\n", timeout=30)
@@ -63,14 +66,14 @@ def main():
     ok_oneshot = run_step("5 V44 One-Shot (history+fetch+engine+review)", [sys.executable, "sigma_v44_final_one_shot.py"], timeout=180)
     # 6 Summary from generated files
     log(f"\n{'='*68}\nFINAL FILES\n{'='*68}")
-    for p in ["data/sigma_history.csv", "data/sigma_universal_fixtures.json", "data/sigma_bulk_predictions_v44.json", "data/sigma_bulk_predictions_v44.csv", "data/sigma_bulk_predictions.csv", "data/sigma_bulk_predictions.json", "data/sigma_v44.json", "data/sigma_real_verified.csv"]:
+    for p in ["data/sigma_history.csv", "data/sigma_universal_fixtures.json", "data/sigma_bulk_predictions_v44.json", "data/sigma_bulk_predictions_v44.csv", "data/sigma_bulk_predictions.csv", "data/sigma_bulk_predictions.json", "data/sigma_v44.json", "data/sigma_real_verified.csv", "data/sigma_no_confirmed_data.json", "data/sigma_passed_unverified.json", "data/sigma_daily_report.json", "data/sigma_learning_report.json", "data/sigma_quarantine_fake_v54.json"]:
         fp = BASE / p
         log(f"{p}: {'EXISTS '+str(fp.stat().st_size)+' bytes' if fp.exists() else 'MISSING'}")
     try:
         d = json.loads((DATA / "sigma_bulk_predictions_v44.json").read_text(encoding="utf-8"))
         rows = d.get("matches", [])
-        log(f"V44 predictions: total={len(rows)} DEFAULT={sum(1 for r in rows if r.get('is_default')==1)} Golden={sum(1 for r in rows if r.get('golden')==1)}")
-        log("RULE: DEFAULT rows are template fallback (xG 1.45-1.97), NOT real team history. Do NOT present them as confident picks.")
+        log(f"V44 REAL predictions: total={len(rows)} DEFAULT={sum(1 for r in rows if r.get('is_default')==1)} (must be 0) Golden={sum(1 for r in rows if r.get('golden')==1)}")
+        log("RULE V44.1: No DEFAULT rows in bulk. Fixtures without history are in sigma_no_confirmed_data, NOT presented as picks. Passed events are learned, not predicted.")
         results["v44"] = {"total": len(rows), "default": sum(1 for r in rows if r.get('is_default')==1), "golden": sum(1 for r in rows if r.get('golden')==1)}
     except Exception as e:
         log(f"V44 summary failed: {e}")
@@ -81,6 +84,20 @@ def main():
         log(f"Verified rows: {len(vr)}")
     except Exception as e:
         log(f"Verified summary failed: {e}")
+    try:
+        lr = json.loads((DATA / "sigma_learning_report.json").read_text(encoding="utf-8"))
+        results["learning"] = {"history_before": lr.get("history_before"), "history_after": lr.get("history_after"),
+                               "added": lr.get("added_count"), "quarantined": lr.get("quarantined_count"),
+                               "passed_unverified": lr.get("passed_unverified_count"),
+                               "verified14_1x2_pct": lr.get("prediction_eval", {}).get("hit_1x2_pct")}
+        log(f"Learning: history {lr.get('history_before')} -> {lr.get('history_after')} (added {lr.get('added_count')}), quarantined {lr.get('quarantined_count')}, passed-unverified {lr.get('passed_unverified_count')}")
+        try:
+            nd = json.loads((DATA / "sigma_no_confirmed_data.json").read_text(encoding="utf-8"))
+            results["v44_no_data"] = len(nd.get("matches", []))
+            log(f"No confirmed data: {results['v44_no_data']}")
+        except Exception: pass
+    except Exception as e:
+        log(f"Learning summary failed: {e}")
     results["oneshot_ok"] = ok_oneshot
     (DATA / "sigma_full_report.json").write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     LOG.write_text("\n".join(log_lines), encoding="utf-8")
