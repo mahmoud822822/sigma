@@ -9,9 +9,13 @@ import json, sys, csv
 from pathlib import Path
 BASE = Path(__file__).parent; DATA = BASE / "data"
 NO_DATA = "No confirmed data"
+# V44.19 - 2026-11-15: Al Ahly vs Zamalek PASSED (fake, no derby 15 Nov - real derby 11 Oct 0-2).
+# It is NO LONGER a future fixture: quarantine only, never in bulk / no-data / history.
 MANUAL_FAKES_6 = [("Real Madrid vs Barcelona", "2026-11-17"), ("Man City vs Arsenal", "2026-11-18"),
             ("Inter vs Milan", "2026-11-19"), ("Brazil vs Argentina", "2026-11-20"),
             ("Al Ahly vs Zamalek", "2026-11-15"), ("Al Hilal vs Al Nassr", "2026-11-16")]
+PASSED_FAKES = [("Al Ahly vs Zamalek", "2026-11-15")]  # passed fake -> quarantine only
+FUTURE_FAKES = [m for m in MANUAL_FAKES_6 if m not in PASSED_FAKES]  # 5 remaining
 fails = []
 def fail(m): fails.append(m); print("FAIL:", m)
 def ok(m): print("OK:", m)
@@ -69,10 +73,14 @@ else:
     if bulk_p.exists():
         b = json.loads(bulk_p.read_text(encoding="utf-8")); bulk_rows = b.get("matches", []) if isinstance(b, dict) else b
     covered = {(str(r.get("match", "")), str(r.get("date", ""))[:10]) for r in bulk_rows + nd_rows}
-    # Future manuals (15-20 Nov) must be in bulk/no-data; passed England-Croatia must be in history (checked above)
-    missing = [m for m in MANUAL_FAKES_6 if m not in covered]
+    # Future manuals (16-20 Nov, 5 left) must be in bulk/no-data; PASSED fake Ahly must NOT be in bulk/no-data
+    # (passed fixtures are learned/tracked, fakes are quarantine only)
+    passed_in_covered = [m for m in PASSED_FAKES if m in covered]
+    if passed_in_covered: fail(f"PASSED fake still in bulk/no-data as future (must be quarantine only): {passed_in_covered}")
+    else: ok("PASSED fake Al Ahly vs Zamalek NOT in bulk/no-data (quarantine only)")
+    missing = [m for m in FUTURE_FAKES if m not in covered]
     if missing: fail(f"Future manual fixtures lost (neither in bulk nor no-data): {missing}")
-    else: ok(f"All {len(MANUAL_FAKES_6)} future manual fixtures accounted for (bulk + no-data)")
+    else: ok(f"All {len(FUTURE_FAKES)} future manual fixtures accounted for (bulk + no-data)")
 q_p = DATA / "sigma_quarantine_fake_v54.json"
 if not q_p.exists(): fail("V54 quarantine missing")
 else:
