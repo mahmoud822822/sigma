@@ -105961,7 +105961,27 @@ date,home,away,home_goals,away_goals,league,status,source
 2026-08-21,Hansa Rostock,【entity-VfB Stuttgart¦canonical_name=VfB Stuttgart】,0,4,DFB-Pokal,FINISHED,verified-DFB-Aug
 2026-08-21,Preußen Münster,Karlsruher SC,1,2,DFB-Pokal,FINISHED,verified-DFB-Aug
 2026-08-22,Thailand,Vietnam,0,2,International,FINISHED,international_results
+2026-08-23,1. FC Phönix Lübeck,SC Paderborn 07,2,4,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,Bahlinger SC,1. FC Magdeburg,0,4,【entity-DFB¦canonical_name=DFB】-Pokal,FINISHED,verified-【entity-DFB¦canonical_name=DFB】-Aug
+2026-08-23,Eintracht Braunschweig,1. FC Union Berlin,2,4,【entity-DFB¦canonical_name=DFB】-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,FC Carl Zeiss Jena,SV Darmstadt 98,1,2,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,Fortuna Düsseldorf,SC Freiburg,1,5,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,Rot-Weiss Essen,FC St. Pauli,2,0,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,SpVgg Greuther Fürth,VfL Bochum,1,2,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,SSV Jeddeloh II,1. FC Heidenheim 1846,5,2,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,SV Westfalia Rhynern,Dynamo Dresden,0,6,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,TSV Schott Mainz,Borussia Mönchengladbach,0,5,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-23,VfB 1921 Krieschow,1. FSV Mainz 05,0,9,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-24,Hallescher,FC Schalke 04,2,5,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-24,SC Verl,Hamburger SV,0,3,DFB-Pokal,FINISHED,verified-DFB-Aug
+2026-08-24,VSG Altglienicke Berlin,VfL Wolfsburg,3,3,DFB-Pokal,FINISHED,verified-DFB-Aug-pens-Wolfsburg
+2026-08-24,Würzburger Kickers,1. FC Köln,1,2,DFB-Pokal,FINISHED,verified-DFB-Aug
 2026-08-26,Vietnam,Thailand,2,2,International,FINISHED,international_results
+2026-08-28,1. FC Köln,TSG Hoffenheim,1,0,Women Bundesliga,FINISHED,verified-Women-Aug
+2026-08-28,Eintracht Braunschweig,Hertha BSC,3,5,2. Bundesliga,FINISHED,verified-BL2-Aug
+2026-08-28,FC Bayern München,VfB Stuttgart,5,1,Bundesliga,FINISHED,verified-BL1-Aug
+2026-08-28,VfL Bochum,VfL Osnabrück,0,1,2. Bundesliga,FINISHED,verified-BL2-Aug
+2026-08-29,1. FC Heidenheim 1846,Dynamo Dresden,5,3,2. Bundesliga,FINISHED,verified-BL2-Aug-real-date-29
 2026-09-18,Fiji,Solomon Islands,3,3,International,FINISHED,international_results
 2026-09-18,Papua New Guinea,Vanuatu,2,1,International,FINISHED,international_results
 2026-09-18,Vietnam,Myanmar,4,0,International,FINISHED,international_results
