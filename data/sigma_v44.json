@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 135200,
+  "history": 135220,
   "verified": 14,
   "future": 441,
   "teams": 1258,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 64,
+  "golden_count": 86,
   "future_count": 360,
   "by_source": {
     "OPEN": 441
@@ -2571,11 +2571,11 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1430.8,
+      "avg": 1431.1,
       "n": 36
     },
     "Germany Bundesliga": {
-      "avg": 1583.0,
+      "avg": 1583.5,
       "n": 26
     },
     "Spain Segunda": {
@@ -2619,16 +2619,20 @@
       "n": 15
     },
     "DFB-Pokal": {
-      "avg": 1476.8,
-      "n": 25
+      "avg": 1475.4,
+      "n": 24
     },
     "BL2": {
-      "avg": 1471.0,
-      "n": 17
+      "avg": 1470.3,
+      "n": 16
+    },
+    "DFB": {
+      "avg": 1556.0,
+      "n": 9
     },
     "BL1": {
-      "avg": 1582.4,
-      "n": 17
+      "avg": 1587.0,
+      "n": 10
     },
     "Portugal": {
       "avg": 1506.3,
@@ -2654,7 +2658,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135228,
+      "n": 135248,
       "avg_goals": 2.67,
       "home_win_pct": 44.0,
       "btts_pct": 51.1,
@@ -2871,8 +2875,8 @@
       "over25_pct": 0.0
     },
     "BL2": {
-      "n": 25,
-      "avg_goals": 2.36,
+      "n": 32,
+      "avg_goals": 2.44,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2899,8 +2903,8 @@
       "over25_pct": 0.0
     },
     "BL1": {
-      "n": 21,
-      "avg_goals": 3.38,
+      "n": 29,
+      "avg_goals": 3.14,
       "home_win_pct": 0.0,
       "btts_pct": 0.0,
       "over25_pct": 0.0
@@ -2933,7 +2937,7 @@
     },
     {
       "team": "Bayern Munich",
-      "elo": 1853.6
+      "elo": 1854.2
     },
     {
       "team": "England",
