@@ -1,13 +1,6 @@
 date,home,away,league,competition,source,status,reason
 2026-08-07,VfL Bochum,Hertha BSC,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-07 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-08,1. FC Heidenheim 1846,VfL Osnabrück,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
 2026-08-08,1. FC Magdeburg,Eintracht Braunschweig,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-08,Karlsruher SC,DSC Arminia Bielefeld,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-08,SV Darmstadt 98,Holstein Kiel,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-08,VfL Wolfsburg,1. FC Kaiserslautern,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-08 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-09,1. FC Nürnberg,Dynamo Dresden,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-09,Energie Cottbus,Hannover 96,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
-2026-08-09,FC St. Pauli,SpVgg Greuther Fürth,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-09 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
 2026-08-14,Eintracht Braunschweig,VfL Bochum,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
 2026-08-14,Holstein Kiel,FC St. Pauli,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-14 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."
 2026-08-15,1. FC Kaiserslautern,Karlsruher SC,BL2,2. Bundesliga,sigma_next_month.json,PASSED_WITHOUT_VERIFIED_RESULT,"Passed on 2026-08-15 but no verified result in any source - NOT stored as score, NOT learned, NOT invented."

@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-15",
   "engine": "Sigma V44 Universal - FREE ONLY",
-  "history": 134994,
+  "history": 135003,
   "verified": 14,
   "future": 371,
-  "teams": 1211,
+  "teams": 1215,
   "total_fixtures": 719,
   "real_predictions": 371,
   "no_confirmed_data": 79,
@@ -2434,7 +2434,7 @@
     }
   ],
   "default_count": 0,
-  "golden_count": 87,
+  "golden_count": 84,
   "future_count": 302,
   "by_source": {
     "OPEN": 371
@@ -2571,12 +2571,12 @@
       "n": 82
     },
     "Germany 2 Bundesliga": {
-      "avg": 1442.0,
-      "n": 59
+      "avg": 1437.3,
+      "n": 48
     },
     "Germany Bundesliga": {
-      "avg": 1587.5,
-      "n": 39
+      "avg": 1592.0,
+      "n": 37
     },
     "Spain Segunda": {
       "avg": 1448.1,
@@ -2618,6 +2618,10 @@
       "avg": 1782.4,
       "n": 2
     },
+    "2. Bundesliga": {
+      "avg": 1476.4,
+      "n": 17
+    },
     "Portugal": {
       "avg": 1506.3,
       "n": 2
@@ -2630,7 +2634,7 @@
   "global_elo_avg": 1500.0,
   "per_league": {
     "Default": {
-      "n": 135022,
+      "n": 135031,
       "avg_goals": 2.67,
       "home_win_pct": 44.1,
       "btts_pct": 51.1,
