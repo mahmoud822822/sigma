@@ -1,4 +1,8 @@
 date,home_team,away_team,league,competition,competition_type,stage,group,notes
 2026-11-12,England,Croatia,UNL,UEFA Nations League,NATIONAL,Group Stage,Group C,
-2026-11-15,Al Ahly¦canonical_name=Al Ahly,Zamalek¦canonical_name=Zamalek,EGY,Egyptian Premier League,LEAGUE,,,
-2026-11-16,Al Hilal¦canonical_name=Al Hilal,Al Nassr¦canonical_name=Al Nassr,SAU,Saudi Pro League,LEAGUE,,,
+2026-11-15,Al Ahly,Zamalek,EGY,Egyptian Premier League,LEAGUE,,,
+2026-11-16,Al Hilal,Al Nassr,SAU,Saudi Pro League,LEAGUE,,,
+2026-11-17,Real Madrid,Barcelona,PD,La Liga,LEAGUE,El Clasico,,
+2026-11-18,Man City,Arsenal,PL,Premier League,LEAGUE,,,
+2026-11-19,Inter,Milan,SA,Serie A,LEAGUE,Derby,,
+2026-11-20,Brazil,Argentina,WC,FIFA World Cup,NATIONAL,Group Stage,Group A,

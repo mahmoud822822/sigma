@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "engine": "Sigma V44 Universal - FREE ONLY",
   "history": 135275,
   "verified": 14,
-  "future": 448,
+  "future": 444,
   "teams": 1258,
-  "total_fixtures": 722,
-  "real_predictions": 448,
-  "no_confirmed_data": 5,
-  "no_confirmed_data_count": 5,
-  "passed_skipped": 269,
+  "total_fixtures": 724,
+  "real_predictions": 444,
+  "no_confirmed_data": 6,
+  "no_confirmed_data_count": 6,
+  "passed_skipped": 274,
   "passed_skipped_matches": [
     {
       "date": "2026-08-07",
@@ -2431,24 +2431,69 @@
       "league": "UNL",
       "competition": "UEFA Nations League",
       "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
+    },
+    {
+      "date": "2026-11-15",
+      "home_team": "Al Ahly¦canonical_name=Al Ahly",
+      "away_team": "Zamalek¦canonical_name=Zamalek",
+      "match": "Al Ahly¦canonical_name=Al Ahly vs Zamalek¦canonical_name=Zamalek",
+      "league": "EGY",
+      "competition": "Egyptian Premier League",
+      "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
+    },
+    {
+      "date": "2026-11-15",
+      "home_team": "Belgien",
+      "away_team": "Italien",
+      "match": "Belgien vs Italien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
+    },
+    {
+      "date": "2026-11-15",
+      "home_team": "Frankreich",
+      "away_team": "Türkei",
+      "match": "Frankreich vs Türkei",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
+    },
+    {
+      "date": "2026-11-15",
+      "home_team": "Kroatien",
+      "away_team": "Tschechien",
+      "match": "Kroatien vs Tschechien",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
+    },
+    {
+      "date": "2026-11-15",
+      "home_team": "Spanien",
+      "away_team": "England",
+      "match": "Spanien vs England",
+      "league": "UNL",
+      "competition": "UEFA Nations League",
+      "reason": "Passed fixture - not predicted. See sigma_learn_from_past.py (history if verified, else passed_unverified)."
     }
   ],
   "default_count": 0,
   "golden_count": 67,
   "future_count": 360,
   "by_source": {
-    "OPEN": 448
+    "OPEN": 444
   },
   "by_competition_type": {
-    "NATIONAL": 8,
     "LEAGUE": 432,
-    "CUP": 8
+    "CUP": 8,
+    "NATIONAL": 4
   },
   "by_competition": {
-    "UEFA Nations League": 8,
     "Bundesliga": 225,
     "DFB-Pokal": 8,
-    "2. Bundesliga": 207
+    "2. Bundesliga": 207,
+    "UEFA Nations League": 4
   },
   "backtest": {
     "n": 500,

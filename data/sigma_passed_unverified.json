@@ -1,9 +1,22 @@
 {
-  "generated": "2026-11-15",
-  "today": "2026-11-15",
+  "generated": "2026-11-16",
+  "today": "2026-11-16",
   "rule": "Passed events with no verified result are tracked here, NEVER invented.",
-  "total": 0,
-  "matches": [],
+  "total": 1,
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "home": "Al Ahly",
+      "away": "Zamalek",
+      "match": "Al Ahly vs Zamalek",
+      "league": "Default",
+      "status": "PASSED_WITHOUT_VERIFIED_RESULT",
+      "reason": "Passed fake - quarantined, no invented score - tracked here",
+      "home_goals": null,
+      "away_goals": null,
+      "score": null
+    }
+  ],
   "learned_total": 269,
   "learned": [
     {

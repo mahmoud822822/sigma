@@ -51,7 +51,7 @@ else:
     eng = [r for r in hrows if r.get("date") == "2026-11-12" and (r.get("home") or "") == "England" and (r.get("away") or "") == "Croatia"]
     if not eng or eng[0].get("home_goals") != "2" or eng[0].get("away_goals") != "1": fail("England vs Croatia 2-1 not in history")
     else: ok("England vs Croatia 2-1 in history (V54 fake corrected by web verification)")
-bulk_p = DATA / "sigma_bulk_predictions.json"
+bulk_p = DATA / "sigma_bulk_predictions_v44.json"
 bulk_rows = []
 if not bulk_p.exists(): fail("Bulk missing")
 else:

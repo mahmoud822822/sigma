@@ -130,6 +130,16 @@ def main():
         for r in csv.DictReader(open(DATA / "sigma_history.csv", encoding="utf-8")):
             hist_keys.add((str(r.get("date", ""))[:10], str(r.get("home", "")).lower(), str(r.get("away", "")).lower()))
     except Exception: pass
+    quar_keys = set()
+    try:
+        _q = json.load(open(DATA / "sigma_quarantine_fake_v54.json", encoding="utf-8"))
+        for _r in _q.get("manual", []):
+            _mm = (_r.get("match") or "").strip()
+            if " vs " in _mm:
+                _h,_a = _mm.split(" vs ",1)
+                quar_keys.add((str(_r.get("date",""))[:10], _h.strip().lower(), _a.strip().lower()))
+    except Exception:
+        pass
     pu_keys = set()
     if pu_p.exists():
         try:
@@ -147,7 +157,8 @@ def main():
                 in_pred = any(str(r.get("home_team", "")).lower() == h and str(r.get("away_team", "")).lower() == a for r in rows + no_data)
                 in_hist = (d, h, a) in hist_keys
                 in_pu = (d, h, a) in pu_keys
-                if not (in_pred or in_hist or in_pu):
+                in_quar = (d, h, a) in quar_keys
+                if not (in_pred or in_hist or in_pu or in_quar):
                     missing.append(f"{mr.get('home_team')} vs {mr.get('away_team')} ({d})")
             if missing: fails.append(f"Manual fixtures lost (not in predictions/no-data/history/passed_unverified): {missing}")
             else: print(f"PASS: all {len(mrows)} manual fixtures preserved (predictions/no-data/history/passed_unverified)")
