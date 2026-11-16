@@ -1,0 +1,483 @@
+{
+  "source_file": "sigma_bulk_predictions_v44.csv",
+  "total_predictions": 444,
+  "by_type": {
+    "LEAGUE": 432,
+    "CUP": 8,
+    "NATIONAL": 4
+  },
+  "by_league_top": {
+    "BL1": 225,
+    "BL2": 207,
+    "DFB": 8,
+    "UNL": 4
+  },
+  "coverage_targets_total": 65,
+  "coverage_covered": 2,
+  "coverage_missing": 63,
+  "covered": [
+    {
+      "name": "Bundesliga",
+      "type": "LEAGUE",
+      "region": "Germany",
+      "status": "COVERED"
+    },
+    {
+      "name": "UEFA Nations League",
+      "type": "NATIONAL",
+      "region": "Europe",
+      "status": "COVERED"
+    }
+  ],
+  "missing": [
+    {
+      "name": "Premier League",
+      "type": "LEAGUE",
+      "region": "England",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "La Liga",
+      "type": "LEAGUE",
+      "region": "Spain",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Serie A",
+      "type": "LEAGUE",
+      "region": "Italy",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Ligue 1",
+      "type": "LEAGUE",
+      "region": "France",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Eredivisie",
+      "type": "LEAGUE",
+      "region": "Netherlands",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Primeira Liga",
+      "type": "LEAGUE",
+      "region": "Portugal",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Belgian Pro League",
+      "type": "LEAGUE",
+      "region": "Belgium",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Super Lig",
+      "type": "LEAGUE",
+      "region": "Turkey",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Scottish Premiership",
+      "type": "LEAGUE",
+      "region": "Scotland",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Austrian Bundesliga",
+      "type": "LEAGUE",
+      "region": "Austria",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Swiss Super League",
+      "type": "LEAGUE",
+      "region": "Switzerland",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Danish Superliga",
+      "type": "LEAGUE",
+      "region": "Denmark",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Swedish Allsvenskan",
+      "type": "LEAGUE",
+      "region": "Sweden",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Norwegian Eliteserien",
+      "type": "LEAGUE",
+      "region": "Norway",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Greek Super League",
+      "type": "LEAGUE",
+      "region": "Greece",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Czech First League",
+      "type": "LEAGUE",
+      "region": "Czech",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Polish Ekstraklasa",
+      "type": "LEAGUE",
+      "region": "Poland",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Croatian HNL",
+      "type": "LEAGUE",
+      "region": "Croatia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Serbian SuperLiga",
+      "type": "LEAGUE",
+      "region": "Serbia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Egyptian Premier League",
+      "type": "LEAGUE",
+      "region": "Egypt",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Saudi Pro League",
+      "type": "LEAGUE",
+      "region": "Saudi Arabia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "UAE Pro League",
+      "type": "LEAGUE",
+      "region": "UAE",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Qatar Stars League",
+      "type": "LEAGUE",
+      "region": "Qatar",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Moroccan Botola",
+      "type": "LEAGUE",
+      "region": "Morocco",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Algerian Ligue 1",
+      "type": "LEAGUE",
+      "region": "Algeria",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Tunisian Ligue 1",
+      "type": "LEAGUE",
+      "region": "Tunisia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "South African PSL",
+      "type": "LEAGUE",
+      "region": "South Africa",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Nigerian NPFL",
+      "type": "LEAGUE",
+      "region": "Nigeria",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Brazil Serie A",
+      "type": "LEAGUE",
+      "region": "Brazil",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Argentina Primera",
+      "type": "LEAGUE",
+      "region": "Argentina",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "MLS",
+      "type": "LEAGUE",
+      "region": "USA",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Liga MX",
+      "type": "LEAGUE",
+      "region": "Mexico",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Colombian Primera",
+      "type": "LEAGUE",
+      "region": "Colombia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Chilean Primera",
+      "type": "LEAGUE",
+      "region": "Chile",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "J1 League",
+      "type": "LEAGUE",
+      "region": "Japan",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "K League 1",
+      "type": "LEAGUE",
+      "region": "Korea",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Indian Super League",
+      "type": "LEAGUE",
+      "region": "India",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Australian A-League",
+      "type": "LEAGUE",
+      "region": "Australia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "UEFA Champions League",
+      "type": "CUP",
+      "region": "Europe",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "UEFA Europa League",
+      "type": "CUP",
+      "region": "Europe",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "UEFA Conference League",
+      "type": "CUP",
+      "region": "Europe",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Copa Libertadores",
+      "type": "CUP",
+      "region": "South America",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Copa Sudamericana",
+      "type": "CUP",
+      "region": "South America",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "AFC Champions League",
+      "type": "CUP",
+      "region": "Asia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "CAF Champions League",
+      "type": "CUP",
+      "region": "Africa",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "CAF Confederation Cup",
+      "type": "CUP",
+      "region": "Africa",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "FIFA Club World Cup",
+      "type": "CUP",
+      "region": "World",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "FA Cup",
+      "type": "CUP",
+      "region": "England",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Copa del Rey",
+      "type": "CUP",
+      "region": "Spain",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Coppa Italia",
+      "type": "CUP",
+      "region": "Italy",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "DFB Pokal",
+      "type": "CUP",
+      "region": "Germany",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Coupe de France",
+      "type": "CUP",
+      "region": "France",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Egypt Cup",
+      "type": "CUP",
+      "region": "Egypt",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "King Cup",
+      "type": "CUP",
+      "region": "Saudi Arabia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "World Cup Qualifiers",
+      "type": "NATIONAL",
+      "region": "World",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "AFCON",
+      "type": "NATIONAL",
+      "region": "Africa",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Copa America",
+      "type": "NATIONAL",
+      "region": "South America",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Asian Cup",
+      "type": "NATIONAL",
+      "region": "Asia",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Gold Cup",
+      "type": "NATIONAL",
+      "region": "North America",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Euro Qualifiers",
+      "type": "NATIONAL",
+      "region": "Europe",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Friendlies - National",
+      "type": "NATIONAL",
+      "region": "World",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Women - Top Leagues",
+      "type": "WOMEN",
+      "region": "World",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    },
+    {
+      "name": "Youth - U21 / U19",
+      "type": "YOUTH",
+      "region": "World",
+      "status": "MISSING - needs real source, NOT invented",
+      "action": "Fetch from API-Football / football-data if available, else No-data"
+    }
+  ],
+  "note": "MISSING لا يعني اختراع توقع. يعني لازم مصدر حقيقي (API-Football token في apifootball_token.txt منفصل، او football-data) او يروح No-data. لا تضع اي توكن في الشات.",
+  "next_steps": [
+    "1- احفظ توكن API-Football في ~/apifootball_token.txt منفصل - مش في الشات",
+    "2- شغل الفetch الكامل من Termux",
+    "3- شغل FROZEN_sigma_safe_markets.py للاسواق والرهان الامان",
+    "4- Review + V54 - لو PASS بس اعمل Push V44.50",
+    "5- اي بطولة ملهاش داتا مؤكدة تروح No-data"
+  ]
+}
