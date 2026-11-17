@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sigma FULL HISTORY - التعلم الكامل</title>
+<title>Sigma FULL HISTORY + بحث فريق - التعلم الكامل</title>
 <style>
 body{font-family:system-ui;max-width:460px;margin:0 auto;background:#d9f5e8;padding:12px}
 h1{margin:6px 0 2px;font-size:26px;color:#0a3d2a}
@@ -74,6 +74,15 @@ td,th{padding:6px;border-bottom:1px solid #eee;text-align:center}
 <div id="list"></div>
 </div>
 
+
+<div class="card" style="border:3px solid #0a7a4a">
+<h3>🔍 بحث باسم الفريق - من التاريخي كله</h3>
+<p class="small">اكتب اسم فريق - سيجما هيجيب تاريخه من كل التاريخي + الجديد - فوز / تعادل / خسارة - وآخر 10 نتايج.</p>
+<label>اسم الفريق</label><input id="teamSearch" placeholder="مثال Germany - Egypt - Brazil">
+<button onclick="searchTeam()">دور على الفريق في التاريخي</button>
+<pre id="teamOut">دوس اعرض النتايج الاول - وبعدين دور على فريق.</pre>
+<div id="teamList"></div>
+</div>
 <div class="card" style="border:3px solid #0a7a4a">
 <h3>📥 استيراد جماعي - الجديد يندمج على التاريخي</h3>
 <p class="small"><b>كل نتيجة في سطر:</b> <code>Germany 5 - 0 Netherlands</code> - سيجما هيتخطى التكرار لوحده - والجديد هيدخل في التعلم علطول.</p>
@@ -172,6 +181,28 @@ async function listMatches(){
     return data;
   }catch(e){document.getElementById('list').textContent='فشل: '+e.message;return [];}
 }
+
+function searchTeam(){
+  const q=document.getElementById('teamSearch').value.trim().toLowerCase();
+  if(!q){document.getElementById('teamOut').textContent='اكتب اسم فريق الاول';return;}
+  if(!ALL.length){document.getElementById('teamOut').textContent='دوس اعرض النتايج الاول عشان نحمل التاريخي.';return;}
+  // ندور في كل اللي عندنا - مش أول 1000 بس - لو أكتر من 1000 هنقول العدد تقريبي من اللي اتحمل
+  const rows=ALL.filter(r=> (r.home||'').toLowerCase().includes(q) || (r.away||'').toLowerCase().includes(q));
+  if(!rows.length){document.getElementById('teamOut').textContent='مفيش نتايج للفريق ده في اللي اتحمل - جرب اسم تاني - مثال Germany';document.getElementById('teamList').innerHTML='';return;}
+  let w=0,d=0,l=0;
+  rows.forEach(r=>{
+    const s=(r.score||'').replace(/\s/g,''); const m=s.match(/^(\d+)-(\d+)$/); if(!m) return;
+    const a=parseInt(m[1]), b=parseInt(m[2]);
+    const isHome=(r.home||'').toLowerCase().includes(q);
+    const gf=isHome?a:b, ga=isHome?b:a;
+    if(gf>ga) w++; else if(gf===ga) d++; else l++;
+  });
+  const total=w+d+l;
+  const winPct= total? Math.round(w/total*100):0;
+  document.getElementById('teamOut').textContent='الفريق: '+document.getElementById('teamSearch').value+' - من '+total+' نتيجة محللة (من اللي اتحمل)\nفوز '+w+' ('+Math.round(w/total*100)+'%) - تعادل '+d+' ('+Math.round(d/total*100)+'%) - خسارة '+l+' ('+Math.round(l/total*100)+'%)\nنسبة الفوز التاريخية: '+winPct+'% - دي الثقة الحقيقية - مش 96% وهمي.';
+  document.getElementById('teamList').innerHTML='<div class="small">آخر 10 نتايج:</div>'+rows.slice(0,10).map(r=>'<div>'+(r.home||'')+' '+(r.score||'')+' '+(r.away||'')+' - '+(r.result||'')+'</div>').join('');
+}
+
 function applyFilter(){
   const v=document.getElementById('filterTournament').value;
   if(!ALL.length){document.getElementById('filterOut').textContent='دوس اعرض النتايج الاول عشان نحلل.';return;}
