@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sigma BIG FIXED - يجيب كل 39 - Elo + توقع + Value + بحث فريق - التعلم الكامل</title>
+<title>Sigma BIG FIXED - يجيب كل 39 - Sigma BIG FIXED - يجيب كل 39 - Elo + توقع + Value + بحث فريق - التعلم الكامل</title>
 <style>
 body{font-family:system-ui;max-width:460px;margin:0 auto;background:#d9f5e8;padding:12px}
 h1{margin:6px 0 2px;font-size:26px;color:#0a3d2a}
@@ -29,7 +29,7 @@ td,th{padding:6px;border-bottom:1px solid #eee;text-align:center}
 </head>
 <body>
 <!-- SIGMA-BIG-FIXED يجيب كل 39 -->
-<p style='text-align:center;color:#0a7a4a;font-weight:bold'>Sigma BIG FIXED - يجيب كل 39 الف - مش 1000 بس</p>
+<p>Sigma BIG FIXED - يجيب كل 39 الف - مش 1000 بس</p>
 <h1>Sigma <span style="background:#0a7a4a;color:#fff;padding:2px 10px;border-radius:999px;font-size:13px">FULL HISTORY LIVE</span></h1>
 <div class="small">داتا تاريخية كاملة لكرة القدم بالعالم للتعلم والتحليل - والجديد يندمج عليها علطول بعد انتهاء أي ماتش.</div>
 
@@ -169,7 +169,14 @@ async function test(){
 }
 async function getExisting(){
   const url=getUrl(),key=getKey();
-  try{const res=await fetch(url+'/rest/v1/sigma_matches?select=home,score,away&limit=1000',{headers:{apikey:key,Authorization:'Bearer '+key}});const d=await res.json();if(!Array.isArray(d)) return new Set();return new Set(d.map(r=>((r.home||'')+'|'+(r.score||'')+'|'+(r.away||'')).toLowerCase()));}catch(e){return new Set();}
+  try{
+    let all=[]; let off=0;
+    while(true){
+      const res=await fetch(url+'/rest/v1/sigma_matches?select=home,score,away&limit=1000&offset='+off,{headers:{apikey:key,Authorization:'Bearer '+key}});
+      const d=await res.json(); if(!Array.isArray(d)||!d.length) break; all=all.concat(d); if(d.length<1000) break; off+=1000; if(off>60000) break;
+    }
+    return new Set(all.map(r=>((r.home||'')+'|'+(r.score||'')+'|'+(r.away||'')).toLowerCase()));
+  }catch(e){return new Set();}
 }
 function analyze(data){
   let hw=0,dr=0,aw=0;
@@ -219,9 +226,9 @@ async async function listMatches(){
     document.getElementById('totalLearn').textContent=totalLearn.toLocaleString()+' مرجعية';
     document.getElementById('histCount').textContent=totalInDb.toLocaleString()+' في Supabase';
     document.getElementById('newCount').textContent=(totalInDb-hist).toLocaleString()+' جديد';
-    document.getElementById('learnStats').textContent='التعلم السابق: 5,481 + 27 + 26 • التاريخي + الجديد في Supabase: '+totalInDb+' • الإجمالي: '+totalLearn+' مرجعية تعلم';
+    document.getElementById('learnStats').textContent='التعلم السابق: 5,481 + 27 + 26 - التاريخي + الجديد في Supabase: '+totalInDb+' - الاجمالي: '+totalLearn+' مرجعية تعلم';
     analyze(data);
-    document.getElementById('list').innerHTML=data.slice(-20).reverse().map(r=>'<div>'+(r.home||'')+' '+(r.score||'')+' '+(r.away||'')+' - '+(r.result||'')+'</div>').join('')+'<div class="small">معروض آخر 20 من '+totalInDb+' - التحليل محسوب من كل '+totalInDb+' نتيجة - مش 1000 بس.</div>';
+    document.getElementById('list').innerHTML=data.slice(-20).reverse().map(r=>'<div>'+(r.home||'')+' '+(r.score||'')+' '+(r.away||'')+' - '+(r.result||'')+'</div>').join('')+'<div class="small">معروض اخر 20 من '+totalInDb+' - التحليل محسوب من كل '+totalInDb+' نتيجة - مش 1000 بس.</div>';
     return data;
   }catch(e){document.getElementById('list').textContent='فشل: '+e.message;return [];}
 }
