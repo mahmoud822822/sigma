@@ -160,7 +160,11 @@ const OLD = {total:5481, sheet:27, bets:26};
 let ALL = [];
 function getUrl(){return document.getElementById('url').value.trim().replace(/\/$/,'');}
 function getKey(){return document.getElementById('key').value.trim();}
-function save(){localStorage.setItem('sigma_url',getUrl());localStorage.setItem('sigma_key',getKey());document.getElementById('out').textContent='تم الحفظ. دوس جرب الاتصال.';}
+function _setCookie(n,v){try{document.cookie=n+'='+encodeURIComponent(v)+';max-age=31536000;path=/;SameSite=Lax';}catch(e){}}
+function _getCookie(n){try{var m=document.cookie.match(new RegExp('(^| )'+n+'=([^;]+)'));return m?decodeURIComponent(m[2]):'';}catch(e){return '';}}
+function _saveAll(){var u=getUrl(),k=getKey();try{localStorage.setItem('sigma_url',u);localStorage.setItem('sigma_key',k);}catch(e){}_setCookie('sigma_url',u);_setCookie('sigma_key',k);try{history.replaceState(null,'','#u='+encodeURIComponent(u)+'&k='+encodeURIComponent(k));}catch(e){}}
+function _loadAll(){var u='',k='';try{u=localStorage.getItem('sigma_url')||'';k=localStorage.getItem('sigma_key')||'';}catch(e){}if(!u)u=_getCookie('sigma_url');if(!k)k=_getCookie('sigma_key');if(!u||!k){try{var hp=new URLSearchParams(location.hash.slice(1));if(!u)u=hp.get('u')||'';if(!k)k=hp.get('k')||'';var qp=new URLSearchParams(location.search);if(!u)u=qp.get('u')||'';if(!k)k=qp.get('k')||'';}catch(e){}}return {u:u,k:k};}
+function save(){_saveAll();document.getElementById('out').textContent='تم الحفظ في المتصفح + الكوكي + الرابط - اعمل ريفريش وهتلاقيهم موجودين.';}
 async function test(){
   const url=getUrl(),key=getKey();
   if(!url||!key){document.getElementById('out').textContent='حط الرابط والمفتاح الاول';return;}
@@ -407,11 +411,7 @@ async function addMatch(){
   if(!confirm('اضيف: '+home+' '+score+' '+away+' ؟ - هتندمج في التعلم علطول')) return;
   try{const res=await fetch(url+'/rest/v1/sigma_matches',{method:'POST',headers:{apikey:key,Authorization:'Bearer '+key,'Content-Type':'application/json',Prefer:'return=representation'},body:JSON.stringify([{home,score,away,result:tour?('history-'+tour):'manual',status:'correct'}])});const txt=await res.text();document.getElementById('addOut').textContent='Status: '+res.status+'\n'+txt.slice(0,1000)+'\n✅ اندمجت في التعلم - دوس اعرض النتايج.';if(res.ok) listMatches();}catch(e){document.getElementById('addOut').textContent='فشل: '+e.message;}
 }
-window.onload=()=>{
-  document.getElementById('url').value=localStorage.getItem('sigma_url')||'';
-  document.getElementById('key').value=localStorage.getItem('sigma_key')||'';
-  if(getUrl()&&getKey()) listMatches();
-};
+window.onload=()=>{var s=_loadAll();document.getElementById('url').value=s.u;document.getElementById('key').value=s.k;if(s.u&&s.k) listMatches();};
 </script>
 </body>
 </html>
