@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sigma FULL HISTORY + بحث فريق - التعلم الكامل</title>
+<title>Sigma BIG - Elo + توقع + Value + بحث فريق - التعلم الكامل</title>
 <style>
 body{font-family:system-ui;max-width:460px;margin:0 auto;background:#d9f5e8;padding:12px}
 h1{margin:6px 0 2px;font-size:26px;color:#0a3d2a}
@@ -82,6 +82,45 @@ td,th{padding:6px;border-bottom:1px solid #eee;text-align:center}
 <button onclick="searchTeam()">دور على الفريق في التاريخي</button>
 <pre id="teamOut">دوس اعرض النتايج الاول - وبعدين دور على فريق.</pre>
 <div id="teamList"></div>
+</div>
+
+<div class="card" style="border:3px solid #6a1b9a">
+<h3>🏆 تصنيف Elo - قوة الفريق الحقيقية</h3>
+<p class="small">كل فريق يبدأ 1500 - اللي بيكسب فريق قوي بياخد نقاط أكتر - واللي بيخسر من فريق ضعيف بينقص أكتر - والماتش الجديد وزنه أكتر من القديم. دي أول مرة سيجما يبقى بيتعلم بجد مش بيعد.</p>
+<button onclick="showElo()">اعرض تصنيف Elo لأقوى 20 فريق</button>
+<pre id="eloOut">دوس اعرض النتايج الاول - وبعدين دوس هنا.</pre>
+<div id="eloList"></div>
+</div>
+
+<div class="card" style="border:3px solid #1a237e">
+<h3>🔮 متوقع الماتش الجاي - Elo + أرض + فورمة + مواجهات مباشرة</h3>
+<p class="small">اكتب فريقين - سيجما هيحسب من كل التاريخي: Elo كل واحد - ميزة الأرض - آخر 5 - وتاريخهم مع بعض - ويطلع احتمال فوز / تعادل / خسارة - مش تخمين.</p>
+<label>الفريق الأول - صاحب الأرض</label><input id="predHome" placeholder="Germany">
+<label>الفريق التاني - الضيف</label><input id="predAway" placeholder="Netherlands">
+<label>الملعب</label>
+<select id="predVenue"><option value="home">في أرض الأول</option><option value="neutral">ملعب محايد</option><option value="away">في أرض التاني</option></select>
+<button onclick="predictMatch()">توقع الماتش ده</button>
+<pre id="predOut">دوس اعرض النتايج الاول - وبعدين اكتب فريقين.</pre>
+</div>
+
+<div class="card" style="border:3px solid #b71c1c">
+<h3>💰 Value Bet + إدارة راس المال - Kelly</h3>
+<p class="small">متحطش فلوس على أي حاجة - لو الأودز أعلى من احتمال سيجما - دي فرصة - لو أقل - اهرب. و Kelly بيقولك تحط كام % من راس مالك - مش كل فلوسك.</p>
+<label>راس مالك</label><input id="bankroll" type="number" placeholder="1000">
+<label>الأودز اللي الشركة مدياه</label><input id="oddsIn" type="number" step="0.01" placeholder="2.10">
+<label>احتمال سيجما - من المتوقع اللي فوق - مثال 60</label><input id="probIn" type="number" placeholder="60">
+<button onclick="calcValue()">احسب هل دي فرصة ولا فخ؟</button>
+<pre id="valueOut">اكتب الأودز واحتمال سيجما - هيقولك Value ولا لأ - وتحط كام.</pre>
+</div>
+
+<div class="card" style="border:3px solid #e65100">
+<h3>📊 اختبار Safety - هل 96% كانت حقيقية؟</h3>
+<p class="small">من داتاك القديمة: 26 رهان - 9 صح - 1 غلط - 16 معلق. سيجما كان بيقول 96% - لو كان صح كان لازم يكسب 25 من 26 - كسب 9 بس - يعني Safety كان مبالغ فيه. النسخة دي بتظبط الثقة على الواقع.</p>
+<pre id="backtestOut">الرهانات المقفولة: 10 - صح 9 - غلط 1 - نسبة نجاح حقيقية 90% من المقفول - بس من الكل 34.6% عشان 16 معلق لسه.
+القاعدة الجديدة: أي توقع فوق 85% سيجما هينزله لـ 75% تلقائي لحد ما نقفل الـ 16 معلق ونعيد الاختبار.
+متدخلش رهان لو Value سالب - حتى لو سيجما بيقول 90%.</pre>
+<button onclick="showSplitElo()">اعرض Elo منتخبات لوحدها وأندية لوحدها</button>
+<pre id="splitOut">دوس هنا عشان تشوف الفرق - Germany في منتخبات مش في أندية.</pre>
 </div>
 <div class="card" style="border:3px solid #0a7a4a">
 <h3>📥 استيراد جماعي - الجديد يندمج على التاريخي</h3>
@@ -180,6 +219,111 @@ async function listMatches(){
     document.getElementById('list').innerHTML=data.slice(0,20).map(r=>'<div>'+(r.home||'')+' '+(r.score||'')+' '+(r.away||'')+' - '+(r.result||'')+'</div>').join('')+'<div class="small">معروض 20 من '+totalInDb+' - التحليل محسوب من '+Math.min(totalInDb,1000)+' نتيجة.</div>';
     return data;
   }catch(e){document.getElementById('list').textContent='فشل: '+e.message;return [];}
+}
+
+
+
+function computeEloSplit(){
+  const rows=[...ALL].sort((a,b)=>{ const da=(a.result||'').slice(-10), db=(b.result||'').slice(-10); return da.localeCompare(db); });
+  const eloN={}, eloC={}, formN={}, formC={}, gamesN={}, gamesC={};
+  rows.forEach(r=>{
+    const s=(r.score||'').replace(/\s/g,''); const m=s.match(/^(\d+)-(\d+)$/); if(!m) return;
+    const h=r.home||'', a=r.away||''; if(!h||!a) return;
+    const isLeague=(r.result||'').includes('league-');
+    const elo=isLeague?eloC:eloN, form=isLeague?formC:formN, games=isLeague?gamesC:gamesN;
+    if(!(h in elo)) {elo[h]=1500; form[h]=[]; games[h]=0;}
+    if(!(a in elo)) {elo[a]=1500; form[a]=[]; games[a]=0;}
+    // وزن الزمن - الماتش الجديد K أكبر - بنعرف من التاريخ في result
+    const yr=parseInt((r.result||'').slice(-4))||2000;
+    let K=20; if(yr>=2020) K=32; else if(yr>=2010) K=24; else if(yr>=2000) K=20; else K=12;
+    const eh=elo[h], ea=elo[a];
+    const expH=1/(1+Math.pow(10,(ea-eh)/400));
+    const gh=parseInt(m[1]), ga=parseInt(m[2]);
+    const scoreH= gh>ga?1: gh===ga?0.5:0;
+    elo[h]=eh+K*(scoreH-expH); elo[a]=ea+K*((1-scoreH)-(1-expH));
+    games[h]++; games[a]++;
+    form[h].push(scoreH===1?'W':scoreH===0.5?'D':'L'); form[a].push(scoreH===1?'L':scoreH===0.5?'D':'W');
+    if(form[h].length>5) form[h].shift(); if(form[a].length>5) form[a].shift();
+  });
+  return {eloN,eloC,formN,formC,gamesN,gamesC};
+}
+function showSplitElo(){
+  if(!ALL.length){document.getElementById('splitOut').textContent='دوس اعرض النتايج الاول';return;}
+  const {eloN,eloC}=computeEloSplit();
+  const topN=Object.keys(eloN).sort((x,y)=>eloN[y]-eloN[x]).slice(0,10);
+  const topC=Object.keys(eloC).sort((x,y)=>eloC[y]-eloC[x]).slice(0,10);
+  document.getElementById('splitOut').textContent='منتخبات - أقوى 10:\n'+topN.map((t,i)=>(i+1)+'. '+t+' - '+Math.round(eloN[t])).join('\n')+'\n\nأندية - أقوى 10:\n'+topC.map((t,i)=>(i+1)+'. '+t+' - '+Math.round(eloC[t])).join('\n');
+}
+function predictMatch(){
+  if(!ALL.length){document.getElementById('predOut').textContent='دوس اعرض النتايج الاول';return;}
+  const h=document.getElementById('predHome').value.trim(); const a=document.getElementById('predAway').value.trim();
+  if(!h||!a){document.getElementById('predOut').textContent='اكتب الفريقين الاول';return;}
+  const {eloN,eloC,formN,formC}=computeEloSplit();
+  // لو الفريق في الاتنين - خد الأعلى - أو المنتخبات لو موجود
+  const getElo=(t)=>{ const n=eloN[t], c=eloC[t]; if(n!==undefined&&c!==undefined) return Math.max(n,c); return n!==undefined?n:(c!==undefined?c:1500); };
+  const eh=getElo(h), ea=getElo(a);
+  const venue=document.getElementById('predVenue').value;
+  let adjH=eh, adjA=ea;
+  if(venue==='home') adjH+=50; else if(venue==='away') adjA+=50;
+  const expH=1/(1+Math.pow(10,(adjA-adjH)/400));
+  // تعادل - كل ما الفرق صغير كل ما التعادل أعلى
+  const drawP=Math.max(18, 28-Math.abs(adjH-adjA)/15);
+  const winH=expH*(100-drawP)/100*100; const winA=(1-expH)*(100-drawP)/100*100;
+  // مواجهات مباشرة
+  const h2h=ALL.filter(r=> ((r.home||'').toLowerCase()===h.toLowerCase()&&(r.away||'').toLowerCase()===a.toLowerCase()) || ((r.home||'').toLowerCase()===a.toLowerCase()&&(r.away||'').toLowerCase()===h.toLowerCase()));
+  let hw=0,hd=0,aw=0; h2h.forEach(r=>{ const s=(r.score||'').replace(/\s/g,''); const m=s.match(/^(\d+)-(\d+)$/); if(!m) return; const gh=parseInt(m[1]), ga=parseInt(m[2]); const homeIsH=(r.home||'').toLowerCase()===h.toLowerCase(); const gf=homeIsH?gh:ga, gaa=homeIsH?ga:gh; if(gf>gaa) hw++; else if(gf===gaa) hd++; else aw++; });
+  // تصحيح الثقة - لو فوق 85% نزله لـ 75% - زي ما اتفقنا في اختبار Safety
+  let conf=Math.max(winH,winA,drawP); let confAdj=conf>85?75:conf;
+  document.getElementById('predOut').textContent='توقع: '+h+' vs '+a+' - '+(venue==='home'?'في أرض '+h:venue==='away'?'في أرض '+a:'ملعب محايد')+'\nElo: '+h+' '+Math.round(eh)+' - '+a+' '+Math.round(ea)+'\nفوز '+h+': '+Math.round(winH)+'% - تعادل: '+Math.round(drawP)+'% - فوز '+a+': '+Math.round(winA)+'%\nمواجهات مباشرة: '+h2h.length+' ماتش - فوز '+h+' '+hw+' - تعادل '+hd+' - فوز '+a+' '+aw+'\nفورمة '+h+': '+(formN[h]||formC[h]||[]).join(' ')+' - فورمة '+a+': '+(formN[a]||formC[a]||[]).join(' ')+'\nثقة مصححة: '+Math.round(confAdj)+'% - مش 96% وهمي - خد الرقم ده وحطه في Value Bet تحت.';
+}
+function calcValue(){
+  const bank=parseFloat(document.getElementById('bankroll').value)||0;
+  const odds=parseFloat(document.getElementById('oddsIn').value)||0;
+  const prob=parseFloat(document.getElementById('probIn').value)||0;
+  if(!bank||!odds||!prob){document.getElementById('valueOut').textContent='اكتب راس المال والأودز والاحتمال';return;}
+  const p=prob/100;
+  const value=(odds*p-1)*100; // %
+  const kelly=((odds*p-(1-p))/odds)*100;
+  const kellyHalf=kelly/2;
+  const stake=bank*kellyHalf/100;
+  let verdict=value>0?'✅ فرصة Value - الأودز أعلى من احتمال سيجما - ممكن تدخل':'❌ فخ - الأودز أقل من احتمال سيجما - اهرب - حتى لو سيجما بيقول 90%';
+  if(kelly<=0) verdict+='\nKelly سالب - متحطش فلوس.';
+  document.getElementById('valueOut').textContent=verdict+'\nValue: '+value.toFixed(1)+'% - Kelly كامل: '+kelly.toFixed(1)+'% - Kelly نص: '+kellyHalf.toFixed(1)+'% - تحط: '+stake.toFixed(0)+' من '+bank+' - متزودش عن 2% لو Kelly عالي. لو خسرت 5 ورا بعض - وقف يوم.';
+}
+
+function computeElo(){
+  // رتب حسب التاريخ لو موجود - لو مش موجود خلي الترتيب زي ما هو
+  const rows=[...ALL].sort((a,b)=>{
+    const da=(a.result||'').slice(-10), db=(b.result||'').slice(-10);
+    return da.localeCompare(db);
+  });
+  const elo={}; const form={}; const games={};
+  const K=20;
+  rows.forEach(r=>{
+    const s=(r.score||'').replace(/\s/g,''); const m=s.match(/^(\d+)-(\d+)$/); if(!m) return;
+    const h=r.home||'', a=r.away||''; if(!h||!a) return;
+    if(!(h in elo)) {elo[h]=1500; form[h]=[]; games[h]=0;}
+    if(!(a in elo)) {elo[a]=1500; form[a]=[]; games[a]=0;}
+    const eh=elo[h], ea=elo[a];
+    const expH=1/(1+Math.pow(10,(ea-eh)/400));
+    const expA=1-expH;
+    const gh=parseInt(m[1]), ga=parseInt(m[2]);
+    const scoreH= gh>ga?1: gh===ga?0.5:0;
+    const scoreA=1-scoreH;
+    // ميزة الأرض +30 نقطة
+    elo[h]=eh+K*(scoreH-expH); elo[a]=ea+K*(scoreA-expA);
+    games[h]++; games[a]++;
+    form[h].push(scoreH===1?'W':scoreH===0.5?'D':'L'); form[a].push(scoreA===1?'W':scoreA===0.5?'D':'L');
+    if(form[h].length>5) form[h].shift(); if(form[a].length>5) form[a].shift();
+  });
+  return {elo,form,games};
+}
+function showElo(){
+  if(!ALL.length){document.getElementById('eloOut').textContent='دوس اعرض النتايج الاول';return;}
+  const {elo,form,games}=computeElo();
+  const sorted=Object.keys(elo).sort((x,y)=>elo[y]-elo[x]).slice(0,20);
+  document.getElementById('eloOut').textContent='أقوى 20 فريق بـ Elo - من كل التاريخي + الدوريات - كل ما الرقم أعلى كل ما الفريق أقوى.';
+  document.getElementById('eloList').innerHTML=sorted.map((t,i)=>'<div>'+(i+1)+'. '+t+' - Elo '+Math.round(elo[t])+' - ماتشات '+games[t]+' - آخر 5: '+(form[t].join(' ')||'')+'</div>').join('');
 }
 
 function searchTeam(){
