@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ME SPORTS AI</title>
+<meta name="theme-color" content="#06060f">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#06060f;--cd:#0e0e1d;--bd:#26264a;--tx:#e8eaff;--sf:#8a8cb8;--c:#00e5ff;--m:#ff2e9a;--l:#b6ff3b;--r:#ff4d5e}
+*{box-sizing:border-box;margin:0}
+body{font-family:Cairo,system-ui,sans-serif;background:radial-gradient(circle at 80% -10%,#1b0b3a,transparent 45%),var(--bg);color:var(--tx);padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0);min-height:100vh}
+button,select,input{font:inherit;color:inherit}button{cursor:pointer;border:0;background:none}
+.hd{position:sticky;top:env(safe-area-inset-top,0);z-index:9;background:#06060fe6;backdrop-filter:blur(10px);border-bottom:1px solid var(--bd)}
+.in,main{max-width:980px;margin:auto;padding:0 12px}main{padding:12px}
+.row{display:flex;align-items:center;gap:8px}.sp{justify-content:space-between}.wr{flex-wrap:wrap}
+.logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--c),var(--m));color:#000;font-weight:800;display:grid;place-items:center;font-size:12px;box-shadow:0 0 14px #00e5ff66}
+.seg{display:flex;border:1px solid var(--bd);border-radius:99px;padding:2px}
+.seg button,.sm{padding:5px 13px;border-radius:99px;font-size:12px;font-weight:600;color:var(--sf)}
+.seg .on{background:var(--c);color:#000;box-shadow:0 0 12px #00e5ff77}
+.sm{border:1px solid var(--bd)}
+.chips{display:flex;gap:7px;overflow-x:auto;padding:8px 0;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chip{white-space:nowrap;padding:5px 13px;border-radius:99px;font-size:12px;font-weight:600;border:1px solid var(--bd);color:var(--sf)}
+.chip.on{border-color:var(--m);color:#fff;background:#ff2e9a22;box-shadow:0 0 10px #ff2e9a55}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--r);box-shadow:0 0 8px var(--r);animation:p 1.1s infinite}@keyframes p{50%{opacity:.25}}
+input,select{background:#13132a;border:1px solid var(--bd);border-radius:10px;padding:7px 10px;outline:0;max-width:100%}
+input:focus{border-color:var(--c)}
+.q{width:100%;border-radius:99px;margin-top:8px;padding:9px 16px}
+.st{font-size:11px;color:var(--sf);padding:0 0 7px}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:16px;margin-bottom:12px;overflow:hidden}
+.top{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;border-bottom:1px solid var(--bd);font-size:12px;color:var(--sf)}.top b{color:var(--tx)}
+.bdg{padding:2px 9px;border-radius:99px;font-size:10px;font-weight:800;background:var(--r);color:#fff;box-shadow:0 0 10px #ff4d5e88}.bdg.f{background:#333;box-shadow:none}
+.bdg.hi{background:var(--l);color:#000;box-shadow:0 0 10px #b6ff3b77}.bdg.md{background:var(--c);color:#000;box-shadow:none}.bdg.cl{background:#444;box-shadow:none}
+.mt{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:13px}
+.tm{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;line-height:1.25;min-width:0}.tm.a{justify-content:flex-end;flex-direction:row-reverse}
+.tm img{width:34px;height:34px;object-fit:contain;flex:none}
+.sc{font-weight:800;font-size:21px;white-space:nowrap;text-shadow:0 0 12px #00e5ff88}
+.vs{font-size:12px;color:var(--sf);border:1px solid var(--bd);border-radius:99px;padding:3px 10px}
+.pr{margin:0 12px 12px;padding:10px;border-radius:12px;background:#0a0a18;border:1px solid var(--bd)}
+.h{display:flex;justify-content:space-between;gap:6px;font-size:12px;font-weight:700;margin-bottom:8px}.h span{font-weight:400;color:var(--sf)}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;font-size:11px}
+.bar{height:6px;background:#1c1c3a;border-radius:9px;overflow:hidden;margin-bottom:4px}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--c),var(--m));box-shadow:0 0 8px var(--c)}
+.mk{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px;font-size:11px;text-align:center}
+.mk div{background:#13132a;border-radius:8px;padding:5px}.mk b{display:block;color:var(--c);font-size:13px}
+.sco{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;font-size:11px}.sco span{border:1px solid var(--bd);border-radius:8px;padding:2px 8px}
+.ok{color:var(--l);font-weight:700}.no{color:var(--r);font-weight:700}
+.lk{margin-top:8px;font-size:11px;color:var(--sf);text-align:center}
+.ai{margin-top:8px;font-size:12px;line-height:1.8;color:#cfd2ff;white-space:pre-wrap}
+.emp{text-align:center;padding:50px 16px;color:var(--sf);font-size:14px}
+.k{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:12px}@media(min-width:700px){.k{grid-template-columns:repeat(4,1fr)}}
+.k div{background:var(--cd);border:1px solid var(--bd);border-radius:14px;padding:11px}.k small{font-size:11px;color:var(--sf)}.k b{display:block;font-size:22px;color:var(--c)}
+.pad{padding:14px}.pad h3{font-size:14px;margin-bottom:10px;color:var(--c)}.pad p{font-size:12px;color:var(--sf);line-height:1.7}
+table{width:100%;border-collapse:collapse;font-size:12px}td,th{padding:6px 4px;text-align:start;border-top:1px solid var(--bd)}th{color:var(--sf);font-weight:600;border:0}
+.btn{background:linear-gradient(90deg,var(--c),var(--m));color:#000;font-weight:800;border-radius:99px;padding:7px 15px;font-size:12px}.btn.g{background:#1c1c3a;color:var(--tx)}
+.f{display:flex;gap:8px;align-items:center;margin:7px 0;font-size:12px}.f label{width:110px;color:var(--sf)}.f input,.f select{flex:1}
+footer{text-align:center;font-size:11px;color:var(--sf);padding:18px}
+</style>
+</head>
+<body>
+<div class="hd"><div class="in">
+ <div class="row sp" style="height:50px">
+  <div class="row"><div class="logo">AI</div><b>ME SPORTS</b></div>
+  <div class="row" id="hr"></div>
+ </div><div id="tools"></div>
+</div></div>
+<main id="app"></main>
+<footer id="ft"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+/* ===== Supabase: ضع بياناتك هنا (anon key آمن للنشر مع RLS) ===== */
+const SB_URL="PASTE_SUPABASE_URL",SB_KEY="PASTE_SUPABASE_ANON_KEY";
+const sb=SB_URL.startsWith("https://")&&window.supabase?window.supabase.createClient(SB_URL,SB_KEY):null;
+/* ===== إعدادات ثابتة: [id, عربي, English, ESPN, متوسط أهداف الأرض, متوسط أهداف الضيف] ===== */
+const LG=[["eng","الإنجليزي","Premier League","eng.1",1.5,1.2],["esp","الإسباني","LaLiga","esp.1",1.5,1.1],["ita","الإيطالي","Serie A","ita.1",1.4,1.1],["ger","الألماني","Bundesliga","ger.1",1.7,1.3],["fra","الفرنسي","Ligue 1","fra.1",1.4,1.1],["ucl","دوري الأبطال","Champions League","uefa.champions",1.5,1.2],["egy","المصري","Egypt","egy.1",1.1,.8],["sau","السعودي","Saudi Pro","sau.1",1.6,1.2],["bra","البرازيلي","Brasileirão","bra.1",1.4,1],["arg","الأرجنتيني","Argentina","arg.1",1.1,.8]];
+const LGM=Object.fromEntries(LG.map(l=>[l[0],l]));
+const MD=["dc","elo","form","ens"],MN={dc:"Dixon-Coles",elo:"Elo",form:"Form",ens:"AI"};
+
+/* ===== تخزين محلي ===== */
+const ST={get(k,d){try{return JSON.parse(localStorage.getItem("mes2_"+k))??d}catch{return d}},set(k,v){try{localStorage.setItem("mes2_"+k,JSON.stringify(v))}catch{}},del(k){try{localStorage.removeItem("mes2_"+k)}catch{}}};
+let L=ST.get("lang","ar"),preds=ST.get("preds",{}),hist=ST.get("hist",[]),W=ST.get("w",{dc:.4,elo:.3,form:.3}),T=ST.get("T",1),
+ cfg=ST.get("cfg",{ha:{}}),
+ fin=ST.get("fin",{}),briefs=ST.get("briefs",{}),ais=ST.get("ais",{});
+const S={mode:"user",user:null,prof:null,users:[],use:[0,0],shared:{},msg:"",tn:-1,day:"today",lg:"all",q:"",m:[],log:{},last:null,busy:false,err:false,t0:Date.now(),aiBusy:{}};
+const b=(a,e)=>L==="ar"?a:e,esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pc=v=>Math.round(v*100),role=()=>!sb?"admin":S.prof?(S.prof.active===false?"banned":S.prof.role):"guest",isAdm=()=>role()==="admin",can=()=>{const r=role();return r==="admin"||(r==="vip"&&(!S.prof.vip_until||new Date(S.prof.vip_until)>new Date()))},g=id=>document.getElementById(id),lname=id=>LGM[id]?LGM[id][L==="ar"?1:2]:id;
+const ymd=n=>{const x=new Date();x.setDate(x.getDate()+n);return x.getFullYear()+String(x.getMonth()+1).padStart(2,"0")+String(x.getDate()).padStart(2,"0")};
+const dkey=d=>d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate(),off=n=>{const x=new Date();x.setDate(x.getDate()+n);return dkey(x)};
+const loc=()=>L==="ar"?"ar-EG":"en-GB";
+
+/* ===== جلب ESPN + كاش متعدد المستويات (المنتهية تُحفظ للأبد) ===== */
+function parse(ev,l){
+ const c=ev.competitions?.[0]||{},cs=c.competitors||[],h=cs.find(x=>x.homeAway==="home"),a=cs.find(x=>x.homeAway==="away");if(!h||!a)return null;
+ const s=ev.status?.type?.state||c.status?.type?.state,status=s==="in"?"live":s==="post"?"finished":"scheduled";
+ const t=x=>({name:x.team?.displayName||"?",short:x.team?.abbreviation||"",logo:x.team?.logo||"",score:status==="scheduled"?null:parseInt(x.score),
+  rec:(x.records||[]).find(r=>r.type==="total")?.summary||x.records?.[0]?.summary||""});
+ return{id:ev.id,lg:l[0],date:new Date(ev.date),status,clock:ev.status?.displayClock||"",h:t(h),a:t(a)};
+}
+async function sync(){
+ if(S.busy)return;S.busy=true;paint();await ready;
+ const rng=ymd(-1)+"-"+ymd(2),all=[],log={};
+ await Promise.all(LG.map(async l=>{try{
+  const r=await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${l[3]}/scoreboard?dates=${rng}&limit=100`);if(!r.ok)throw 0;
+  const ms=((await r.json()).events||[]).map(e=>parse(e,l)).filter(Boolean);all.push(...ms);log[l[0]]={ok:1,n:ms.length};
+ }catch{log[l[0]]={ok:0,n:0}}}));
+ const okc=Object.values(log).filter(x=>x.ok).length;S.err=!okc;S.log=log;
+ if(okc){
+  all.filter(m=>m.status==="finished").forEach(m=>fin[m.id]=m);
+  const ks=Object.keys(fin);if(ks.length>800)ks.slice(0,ks.length-800).forEach(k=>delete fin[k]);ST.set("fin",fin);
+  const seen=new Set(all.map(m=>m.id));
+  Object.values(fin).forEach(m=>{if(!seen.has(m.id)){m.date=new Date(m.date);all.push(m)}});
+  S.m=all.sort((a,b)=>a.date-b.date);S.last=new Date();
+  if(sb)await loadPreds();
+  learn();S.m.forEach(predict);
+  if(sb&&isAdm())await pushPreds();
+ }
+ S.busy=false;paint();
+}
+
+/* ===== المحرك الرياضي: Dixon-Coles + Elo + Form ثم معايرة بدرجة حرارة T ===== */
+const fact=n=>n<2?1:n*fact(n-1),pois=(k,l)=>Math.exp(-l)*l**k/fact(k);
+const norm=p=>{p=p.map(v=>Math.max(.015,v));const s=p[0]+p[1]+p[2];return p.map(v=>v/s)};
+const temp=(p,t)=>norm(p.map(v=>Math.max(v,1e-6)**(1/t)));
+const rd=v=>v.map(x=>+x.toFixed(4));
+function sg(rec){const m=(rec||"").match(/(\d+)-(\d+)-(\d+)/);if(!m)return[1,0];const w=+m[1],d=+m[2],l=+m[3],n=w+d+l;if(n<3)return[1,n];return[Math.min(2,Math.max(.4,((3*w+d)/n)/1.4)),n]}
+function models(m){
+ const g=LGM[m.lg]||LG[0],ha=cfg.ha[m.lg]??1,[sh,nh]=sg(m.h.rec),[sa,na]=sg(m.a.rec),r=Math.sqrt(sh/sa),lh=g[4]*ha*r,la=g[5]/r,rho=-.1;
+ const G=[];let tot=0;
+ for(let i=0;i<=8;i++)for(let j=0;j<=8;j++){
+  let p=pois(i,lh)*pois(j,la);
+  if(i<2&&j<2)p*=i==0&&j==0?1-lh*la*rho:i==0&&j==1?1+lh*rho:i==1&&j==0?1+la*rho:1-rho; // تصحيح Dixon-Coles للنتائج المنخفضة
+  G.push([i,j,p]);tot+=p}
+ let H=0,D=0,A=0,o15=0,o25=0,o35=0,bt=0,csh=0,csa=0;
+ for(const x of G){x[2]/=tot;const[i,j,p]=x;i>j?H+=p:i<j?A+=p:D+=p;const s=i+j;if(s>1)o15+=p;if(s>2)o25+=p;if(s>3)o35+=p;if(i&&j)bt+=p;if(!j)csh+=p;if(!i)csa+=p}
+ const dc=norm([H,D,A]);
+ const E=1/(1+10**(((1500+300*(sa-1))-(1500+300*(sh-1)+60))/400)),d=.3-.14*Math.abs(2*E-1),elo=norm([E-d/2,d,1-E-d/2]);
+ const F=1/(1+Math.exp(-((sh-sa)*1.4+.3))),df=.27-.1*Math.abs(2*F-1),form=norm([F-df/2,df,1-F-df/2]);
+ const raw=norm([0,1,2].map(i=>W.dc*dc[i]+W.elo*elo[i]+W.form*form[i])),ens=temp(raw,T);
+ return{dc:rd(dc),elo:rd(elo),form:rd(form),raw:rd(raw),ens:rd(ens),lh,la,o:{o15,o25,o35,bt,csh,csa},
+  top:G.sort((a,b)=>b[2]-a[2]).slice(0,5).map(x=>[x[0],x[1],+x[2].toFixed(4)]),dense:nh>=8&&na>=8};
+}
+function predict(m){
+ let p=preds[m.id];if(p)return p;if(m.status==="finished")return null;
+ p=models(m);if(m.status==="scheduled"){preds[m.id]=p;ST.set("preds",preds)}return p;
+}
+const conf=p=>{const x=Math.max(...p.ens);return p.dense&&x>=.55?"hi":x>=.45?"md":"cl"};
+
+/* ===== التعلم الذاتي: Brier + Log-Loss + ضبط الأوزان و T ===== */
+const yOf=m=>m.h.score>m.a.score?0:m.h.score<m.a.score?2:1;
+const ll=(v,y)=>-Math.log(Math.max(v[y],1e-6)),br=(v,y)=>v.reduce((s,x,i)=>s+(x-(i==y?1:0))**2,0);
+const vec=(x,k)=>k==="ens"?temp(x.raw,T):x[k];
+function learn(){
+ if(sb){if(isAdm()&&hist.length!==S.tn){S.tn=hist.length;if(tune())saveCfg()}return}
+ let ch=false;
+ for(const m of S.m){
+  if(m.status!=="finished"||m.h.score==null||m.a.score==null||hist.some(x=>x.id===m.id))continue;
+  const p=preds[m.id];if(!p)continue;
+  hist.push({id:m.id,lg:m.lg,y:yOf(m),dc:p.dc,elo:p.elo,form:p.form,raw:p.raw});ch=true}
+ if(ch){hist=hist.slice(-400);ST.set("hist",hist);tune()}
+}
+function tune(){
+ if(hist.length<8)return false;
+ const r=hist.slice(-60),e={};let z=0;
+ for(const n of["dc","elo","form"]){e[n]=Math.exp(-3*r.reduce((s,x)=>s+ll(x[n],x.y),0)/r.length);z+=e[n]}
+ for(const n in e)W[n]=.7*W[n]+.3*e[n]/z;
+ let bt=T,bl=1e9;
+ for(let t=.7;t<=1.6;t+=.05){const l=r.reduce((s,x)=>s+ll(temp(x.raw,t),x.y),0)/r.length;if(l<bl){bl=l;bt=t}}
+ T=+bt.toFixed(2);ST.set("w",W);ST.set("T",T);return true;
+}
+const mean=(arr,f)=>arr.length?arr.reduce((s,x)=>s+f(x),0)/arr.length:null;
+
+/* ===== Supabase: حسابات + تعلم مشترك ===== */
+let rdy;const ready=new Promise(r=>rdy=r);
+async function loadProf(){S.prof=null;if(!S.user)return;const{data}=await sb.from("profiles").select("*").eq("id",S.user.id).maybeSingle();S.prof=data}
+async function loadShared(){const{data}=await sb.from("app_config").select("*").eq("id",1).maybeSingle();if(data){if(data.w)W=data.w;if(data.t)T=+data.t;if(data.ha)cfg.ha=data.ha}}
+const saveCfg=()=>sb.from("app_config").upsert({id:1,w:W,t:T,ha:cfg.ha,updated_at:new Date().toISOString()});
+async function loadPreds(){
+ const ids=S.m.map(m=>m.id),hs=[];
+ for(let i=0;i<ids.length;i+=150){
+  const{data}=await sb.from("predictions").select("*").in("match_id",ids.slice(i,i+150));
+  for(const r of data||[]){S.shared[r.match_id]=r.result;preds[r.match_id]=r.data;
+   if(r.result!=null)hs.push({id:r.match_id,lg:r.lg,y:r.result,dc:r.data.dc,elo:r.data.elo,form:r.data.form,raw:r.data.raw})}}
+ hist=hs.slice(-400);
+}
+async function pushPreds(){
+ const rows=[];
+ for(const m of S.m){const p=preds[m.id];if(!p)continue;const sh=S.shared[m.id],fn=m.status==="finished"&&m.h.score!=null;
+  if(sh===undefined||(sh===null&&fn))rows.push({match_id:m.id,lg:m.lg,data:p,result:fn?yOf(m):null})}
+ if(rows.length){const{error}=await sb.from("predictions").upsert(rows);if(!error)rows.forEach(r=>S.shared[r.match_id]=r.result)}
+}
+async function loadAdmin(){
+ if(!sb||!isAdm())return;
+ const[u,a]=await Promise.all([sb.from("profiles").select("*").order("created_at",{ascending:false}).limit(200),sb.from("ai_usage").select("tin,tout").limit(5000)]);
+ S.users=u.data||[];S.use=(a.data||[]).reduce((s,x)=>[s[0]+x.tin,s[1]+x.tout],[0,0]);paint();
+}
+function initAuth(){
+ if(!sb)return rdy();
+ sb.auth.onAuthStateChange((ev,ses)=>setTimeout(async()=>{
+  S.user=ses?.user||null;
+  if(ev==="PASSWORD_RECOVERY"){const p=prompt(b("كلمة سر جديدة (6 أحرف فأكثر):","New password (6+ chars):"));if(p&&p.length>=6){const{error}=await sb.auth.updateUser({password:p});alert(error?error.message:b("تم التغيير","Changed"))}}
+  await loadProf();await loadShared();if(S.mode==="admin"&&!isAdm())S.mode="user";paint();rdy();if(ev!=="INITIAL_SESSION")sync();
+ },0));
+}
+function authView(){
+ const u=S.user,p=S.prof,f=(l,i,t)=>`<div class="f"><label>${l}</label><input id="${i}" type="${t}"></div>`;
+ return`<div class="card pad"><h3>${b("الحساب","Account")}</h3>`+(u?`<p>${esc(u.email)} • ${p?.role||"..."}${p?.vip_until?b(" • VIP حتى "," • VIP until ")+p.vip_until.slice(0,10):""}</p>
+ <div class="row" style="margin-top:10px"><button class="btn" data-a="out">${b("تسجيل خروج","Sign out")}</button><button class="btn g" data-a="mode" data-v="user">${b("رجوع","Back")}</button></div>`
+ :f(b("البريد","Email"),"ae","email")+f(b("كلمة السر","Password"),"ap","password")+`<div class="row wr"><button class="btn" data-a="in">${b("دخول","Sign in")}</button><button class="btn g" data-a="up">${b("إنشاء حساب","Sign up")}</button><button class="sm" data-a="rs">${b("نسيت كلمة السر","Forgot password")}</button></div>`)
+ +(S.msg?`<p style="margin-top:8px;color:var(--c)">${esc(S.msg)}</p>`:"")+`</div>`;
+}
+
+/* ===== Claude API (تحليل حقيقي من البيانات المحسوبة فقط) ===== */
+async function claude(user,max=700){
+ if(!sb)throw new Error(b("يتطلب ربط Supabase","Requires Supabase"));
+ const sys=`You are a football match analyst. Use ONLY the JSON data supplied. Never invent injuries, line-ups, players, form or events; if data is missing, say so explicitly. Be concise and structured. Reply in ${L==="ar"?"Arabic":"English"}.`;
+ const{data,error}=await sb.functions.invoke("claude",{body:{system:sys,prompt:user,max}});
+ if(error){let m=error.message;try{m=(await error.context.json()).error||m}catch{}throw new Error(m)}
+ if(data.error)throw new Error(data.error);return data.text;
+}
+const facts=m=>{const p=predict(m);return{league:lname(m.lg),home:m.h.name,away:m.a.name,kickoff:m.date.toISOString(),status:m.status,score:m.status==="scheduled"?null:m.h.score+"-"+m.a.score,
+ records_WDL:[m.h.rec||null,m.a.rec||null],model:p&&{home_draw_away:p.ens.map(x=>pc(x)),xG:[+p.lh.toFixed(2),+p.la.toFixed(2)],over25:pc(p.o.o25),btts:pc(p.o.bt),top_scores:p.top.map(x=>x[0]+"-"+x[1]),data_dense:p.dense}}};
+async function analyze(id){
+ const m=S.m.find(x=>x.id===id),k=id+L;if(!m||S.aiBusy[k])return;S.aiBusy[k]=1;list();
+ try{ais[k]=await claude("Pre/in-match analysis (tactical angle, what drives the probabilities, upset risk, data gaps). Max 120 words.\n"+JSON.stringify(facts(m)),500);ST.set("ais",ais)}catch(e){ais[k]="⚠ "+e.message}
+ delete S.aiBusy[k];list();
+}
+async function brief(force){
+ const k=dkey(new Date())+L;if(briefs[k]&&!force||S.aiBusy.br)return;S.aiBusy.br=1;list();
+ const ms=S.m.filter(m=>m.status==="scheduled"&&dkey(m.date)===off(0)&&predict(m)).sort((a,b)=>Math.max(...predict(b).ens)-Math.max(...predict(a).ens)).slice(0,10);
+ try{if(!ms.length)throw new Error(b("لا مباريات قادمة اليوم","No upcoming matches today"));
+  briefs[k]=await claude("Daily brief: pick the top 3 high-value matches, flag upset risks, and list data gaps (teams without records / low data density). Max 180 words.\n"+JSON.stringify(ms.map(facts)),700);ST.set("briefs",briefs)}catch(e){briefs[k]="⚠ "+e.message}
+ delete S.aiBusy.br;list();
+}
+
+/* ===== واجهة المستخدم ===== */
+function card(m){
+ const t=m.date,tm=t.toLocaleTimeString(loc(),{hour:"numeric",minute:"2-digit"}),dy=t.toLocaleDateString(loc(),{weekday:"short",day:"numeric",month:"short"});
+ const bg=m.status==="live"?`<span class="bdg">${esc(m.clock)||b("مباشر","LIVE")}</span>`:m.status==="finished"?`<span class="bdg f">${b("انتهت","FT")}</span>`:"";
+ const im=x=>`<img src="${esc(x.logo)}" alt="" onerror="this.style.visibility='hidden'">`;
+ const p=predict(m);let pr="";
+ if(p){
+  const e=p.ens,h=pc(e[0]),a=pc(e[2]),d=100-h-a,v=can();
+  let tag=`xG ${p.lh.toFixed(1)}-${p.la.toFixed(1)}`;
+  if(m.status==="finished"&&m.h.score!=null)tag=e.indexOf(Math.max(...e))===yOf(m)?`<span class="ok">✓ ${b("توقع صحيح","Correct")}</span>`:`<span class="no">✗ ${b("توقع خاطئ","Wrong")}</span>`;
+  const bx=(x,s)=>`<div><div class="bar"><i style="width:${x}%"></i></div><b>${x}%</b> ${s}</div>`;
+  const o=p.o,mk=(x,s)=>`<div><b>${pc(x)}%</b>${s}</div>`,k=id=>id+L;
+  pr=`<div class="pr"><div class="h">${b("توقع المباراة","Prediction")}<span>${tag}</span></div>
+  <div class="g3">${bx(h,b("فوز ","Win ")+esc(m.h.short))}${bx(d,b("تعادل","Draw"))}${bx(a,b("فوز ","Win ")+esc(m.a.short))}</div>
+  ${v?`<div class="mk">${mk(o.o15,"Over 1.5")}${mk(o.o25,"Over 2.5")}${mk(o.o35,"Over 3.5")}${mk(o.bt,"BTTS")}${mk(o.csh,b("شباك نظيفة (أرض)","CS home"))}${mk(o.csa,b("شباك نظيفة (ضيف)","CS away"))}</div>
+  <div class="sco"><span class="bdg ${conf(p)}">${b("الثقة: ","Conf: ")}${{hi:b("عالية","High"),md:b("متوسطة","Medium"),cl:b("متقاربة","Close")}[conf(p)]}</span>${p.top.map(x=>`<span>${x[0]}-${x[1]} • ${pc(x[2])}%</span>`).join("")}</div>
+  <div class="sco"><span>xG ${p.lh.toFixed(2)} + ${p.la.toFixed(2)} = ${(p.lh+p.la).toFixed(2)}</span></div>
+  ${m.status!=="finished"?`<div style="margin-top:8px"><button class="btn" data-a="an" data-v="${m.id}">${S.aiBusy[k(m.id)]?"...":b("تحليل Claude","Claude analysis")}</button></div>`:""}
+  ${ais[k(m.id)]?`<div class="ai">${esc(ais[k(m.id)])}</div>`:""}`
+  :`<div class="lk">${b("🔒 VIP: الأسواق والنتائج الدقيقة والثقة وتحليل Claude","🔒 VIP: markets, exact scores, confidence & Claude analysis")}</div>`}</div>`;
+ }
+ return`<div class="card"><div class="top"><span><b>${lname(m.lg)}</b> • ${dy} • ${tm}</span>${bg}</div>
+ <div class="mt"><div class="tm">${im(m.h)}<span>${esc(m.h.name)}</span></div>${m.status==="scheduled"?'<span class="vs">VS</span>':`<span class="sc">${m.h.score} - ${m.a.score}</span>`}
+ <div class="tm a">${im(m.a)}<span>${esc(m.a.name)}</span></div></div>${pr}</div>`;
+}
+function filtered(){
+ const q=S.q.trim().toLowerCase(),d=S.day==="today"?0:S.day==="tomorrow"?1:2;
+ return S.m.filter(m=>(S.lg==="all"||m.lg===S.lg)&&(S.day==="live"?m.status==="live":S.day==="finished"?m.status==="finished":dkey(m.date)===off(d))&&(!q||(m.h.name+m.a.name).toLowerCase().includes(q)))
+  .sort((a,c)=>S.day==="finished"?c.date-a.date:a.date-c.date);
+}
+function list(){
+ const el=document.getElementById("list");if(!el)return;
+ if(S.busy&&!S.m.length)return el.innerHTML=`<div class="emp">${b("يجلب البيانات...","Loading...")}</div>`;
+ if(S.err&&!S.m.length)return el.innerHTML=`<div class="emp">${b("تعذر الاتصال بـ ESPN — افتح الملف من المتصفح مباشرة ثم اضغط تحديث","ESPN unreachable — open the file directly in a browser, then refresh")}</div>`;
+ let bh="";
+ if(S.day==="today"){const k=dkey(new Date())+L;
+  bh=can()?`<div class="card pad"><div class="row sp"><h3>${b("الملخص اليومي بالذكاء الاصطناعي","AI daily brief")}</h3><button class="btn" data-a="brief">${S.aiBusy.br?"...":briefs[k]?b("تحديث","Redo"):b("توليد","Generate")}</button></div>${briefs[k]?`<div class="ai">${esc(briefs[k])}</div>`:`<p>${b("يعتمد على احتمالات النموذج فقط بدون اختلاق معلومات.","Uses model data only — no invented facts.")}</p>`}</div>`
+   :`<div class="card pad"><div class="lk">${b("🔒 الملخص اليومي بالذكاء الاصطناعي للمشتركين VIP","🔒 AI daily brief is VIP")}</div></div>`}
+ const f=filtered();el.innerHTML=bh+(f.length?f.map(card).join(""):`<div class="emp">⚽<br>${b("لا توجد مباريات في هذا التصنيف","No matches here")}</div>`);
+}
+function tools(){
+ if(S.mode!=="user")return"";
+ const D=[["today",b("اليوم","Today")],["tomorrow",b("غدًا","Tomorrow")],["after",b("بعد غد","Day after")],["live",b("مباشر","Live")],["finished",b("انتهت","Finished")]];
+ return`<input class="q" id="q" placeholder="${b("ابحث عن فريق...","Search team...")}" value="${esc(S.q)}">
+ <div class="chips">${D.map(d=>`<button class="chip ${S.day===d[0]?"on":""}" data-a="day" data-v="${d[0]}">${d[1]} ${d[0]==="live"?'<i class="dot"></i>':""}</button>`).join("")}</div>
+ <div class="chips" style="padding-top:0"><button class="chip ${S.lg==="all"?"on":""}" data-a="lg" data-v="all">${b("الكل","All")}</button>${LG.map(l=>`<button class="chip ${S.lg===l[0]?"on":""}" data-a="lg" data-v="${l[0]}">${lname(l[0])}</button>`).join("")}</div>
+ <div class="st">${S.busy?b("يجلب البيانات...","Loading..."):S.last?b("آخر تحديث ","Updated ")+S.last.toLocaleTimeString(loc(),{hour:"numeric",minute:"2-digit"})+b(" • كل دقيقتين"," • every 2 min"):""}</div>`;
+}
+
+/* ===== لوحة الأدمن ===== */
+function admin(){
+ const okc=Object.values(S.log).filter(x=>x.ok).length,e=hist.map(x=>({...x,ens:temp(x.raw,T)})),kb=Object.keys(localStorage).filter(k=>k.startsWith("mes2_")).reduce((s,k)=>s+localStorage[k].length,0)/1024;
+ const mem=performance.memory?(performance.memory.usedJSHeapSize/1048576).toFixed(0)+" MB":"—",up=Math.round((Date.now()-S.t0)/60000);
+ const k=(t,v)=>`<div><small>${t}</small><b>${v}</b></div>`,acc=e.length?pc(mean(e,x=>vec(x,"ens").indexOf(Math.max(...vec(x,"ens")))===x.y?1:0)):null;
+ const row=(t,c)=>`<div class="f"><label>${t}</label>${c}</div>`;
+ const mt=MD.map(n=>{const a=hist.length?mean(hist,x=>{const v=vec(x,n);return v.indexOf(Math.max(...v))===x.y?1:0}):null;
+  return`<tr><td>${MN[n]}</td><td>${a==null?"—":pc(a)+"%"}</td><td>${hist.length?mean(hist,x=>br(vec(x,n),x.y)).toFixed(3):"—"}</td><td>${hist.length?mean(hist,x=>ll(vec(x,n),x.y)).toFixed(3):"—"}</td></tr>`}).join("");
+ const lt=LG.map(l=>{const h=hist.filter(x=>x.lg===l[0]);return`<tr><td>${lname(l[0])}</td><td>${h.length}</td><td>${h.length?pc(mean(h,x=>{const v=vec(x,"ens");return v.indexOf(Math.max(...v))===x.y?1:0}))+"%":"—"}</td><td>${h.length?mean(h,x=>ll(vec(x,"ens"),x.y)).toFixed(3):"—"}</td><td><input type="number" step=".05" min=".5" max="1.5" style="width:70px" value="${cfg.ha[l[0]]??1}" data-c="ha" data-v="${l[0]}"></td><td>${S.log[l[0]]?(S.log[l[0]].ok?`<span class="ok">${S.log[l[0]].n}</span>`:'<span class="no">✗</span>'):"—"}</td></tr>`}).join("");
+ return`<div class="k">${k(b("دوريات متصلة","Feeds OK"),okc+"/"+LG.length)}${k(b("كاش المنتهية","Finished cache"),Object.keys(fin).length)}${k(b("توقعات مُقيَّمة","Evaluated"),hist.length)}${k(b("دقة AI","AI accuracy"),acc==null?"—":acc+"%")}</div>
+ <div class="k">${k(b("حرارة المعايرة T","Calibration T"),T.toFixed(2))}${k(b("تخزين","Storage"),kb.toFixed(0)+" KB")}${k(b("الذاكرة","Memory"),mem)}${k(b("مدة التشغيل","Uptime"),up+" "+b("د","min"))}</div>
+ <div class="card pad"><div class="row sp wr"><h3>${b("التدريب والتحكم اليدوي","Training & manual control")}</h3><div class="row wr"><button class="btn" data-a="sync">${b("تحديث الكاش","Force refresh")}</button><button class="btn" data-a="tune">${b("تدريب الآن","Train now")}</button><button class="btn g" data-a="reset">${b("تصفير التعلم","Reset learning")}</button></div></div>
+ <p>${b("يُحفظ توقع كل مباراة قبل صافرتها، وعند انتهائها تُحسب Brier وLog-Loss، ثم تُضبط أوزان النماذج ودرجة الحرارة T تلقائيًا (بعد 8 مباريات مُقيَّمة). الأوزان الآن:","Each prediction is stored before kickoff; after the match Brier and Log-Loss are computed, then model weights and temperature T are auto-tuned (after 8 evaluated matches). Weights:")} DC ${pc(W.dc)}% • Elo ${pc(W.elo)}% • Form ${pc(W.form)}%</p>
+ <table style="margin-top:8px"><tr><th>${b("النموذج","Model")}</th><th>${b("الدقة","Acc")}</th><th>Brier</th><th>Log-Loss</th></tr>${mt}</table></div>
+ <div class="card pad"><h3>${b("الدوريات: الدقة ومعامل أفضلية الأرض","Leagues: accuracy & home-advantage coefficient")}</h3><div style="overflow-x:auto"><table><tr><th>${b("الدوري","League")}</th><th>n</th><th>${b("الدقة","Acc")}</th><th>LL</th><th>${b("أفضلية","HA")}</th><th>${b("تغذية","Feed")}</th></tr>${lt}</table></div></div>
+ ${sb?`<div class="card pad"><h3>${b("المستخدمون والاشتراكات","Users & subscriptions")} (${S.users.length})</h3><div style="overflow-x:auto"><table><tr><th>${b("البريد","Email")}</th><th>${b("الدور","Role")}</th><th>${b("VIP حتى","VIP until")}</th><th>${b("فعّال","Active")}</th></tr>${S.users.map(u=>`<tr><td>${esc(u.email)}</td><td><select data-c="u" data-id="${u.id}" data-f="role">${["free","vip","admin"].map(r=>`<option ${u.role===r?"selected":""}>${r}</option>`).join("")}</select></td><td><input type="date" data-c="u" data-id="${u.id}" data-f="vip_until" value="${u.vip_until?u.vip_until.slice(0,10):""}"></td><td><input type="checkbox" data-c="u" data-id="${u.id}" data-f="active" ${u.active?"checked":""}></td></tr>`).join("")}</table></div><p style="margin-top:6px">${b("استهلاك Claude: ","Claude usage: ")}${S.use[0]} in / ${S.use[1]} out</p></div>`:`<div class="card pad"><p>${b("وضع محلي: ضع بيانات Supabase أعلى ملف index.html لتفعيل الحسابات والاشتراكات والتعلم المشترك.","Local mode: set Supabase credentials at the top of index.html to enable accounts, subscriptions and shared learning.")}</p></div>`}
+ <div class="card pad"><h3>${b("نسخ احتياطي واستعادة (JSON)","Backup & restore (JSON)")}</h3><div class="row wr"><button class="btn" data-a="exp">${b("تصدير","Export")}</button><label class="btn g" style="cursor:pointer">${b("استيراد","Import")}<input type="file" accept=".json" data-c="imp" hidden></label></div>
+ <p style="margin-top:6px">${b("يشمل التوقعات والتاريخ والأوزان والكاش والإعدادات (بدون مفتاح Claude).","Includes predictions, history, weights, cache and settings (not the Claude key).")}</p></div>`;
+}
+
+/* ===== رسم وأحداث ===== */
+function paint(){
+ document.documentElement.lang=L;document.documentElement.dir=L==="ar"?"rtl":"ltr";
+  g("hr").innerHTML=`<button class="sm" data-a="lang">${L==="ar"?"EN":"ع"}</button>`+(sb?`<button class="sm" data-a="mode" data-v="auth">${S.user?"👤":b("دخول","Login")}</button>`:"")+(isAdm()?`<div class="seg">${[["user",b("المستخدم","User")],["admin",b("الأدمن","Admin")]].map(x=>`<button data-a="mode" data-v="${x[0]}" class="${S.mode===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`:"");
+ document.getElementById("ft").textContent=b("ME SPORTS AI • بيانات ESPN الحية • التعلم يعمل داخل جهازك","ME SPORTS AI • live ESPN data • learning runs on your device");
+ document.getElementById("tools").innerHTML=tools();
+ const q=document.getElementById("q");if(q)q.oninput=e=>{S.q=e.target.value;list()};
+ g("app").innerHTML=S.mode==="auth"?authView():S.mode==="user"?'<div id="list"></div>':admin();list();
+}
+document.addEventListener("click",async e=>{
+ const x=e.target.closest("[data-a]");if(!x)return;const a=x.dataset.a,v=x.dataset.v;
+ if(a==="mode"){if(v==="admin"&&!isAdm())return;S.mode=v;if(v==="admin")loadAdmin()}
+ else if(a==="lang"){L=L==="ar"?"en":"ar";ST.set("lang",L)}
+ else if(a==="day")S.day=v;else if(a==="lg")S.lg=v;
+ else if(a==="sync")return sync();
+ else if(a==="an")return analyze(v);else if(a==="brief")return brief(true);
+ else if(a==="tune"){if(tune()){if(sb)saveCfg();alert(b("تم الضبط: T = ","Tuned: T = ")+T)}else alert(b("يحتاج 8 مباريات مُقيَّمة على الأقل","Needs at least 8 evaluated matches"))}
+
+ else if(a==="in"||a==="up"){const em=g("ae").value.trim(),pw=g("ap").value,r=a==="in"?await sb.auth.signInWithPassword({email:em,password:pw}):await sb.auth.signUp({email:em,password:pw});
+  S.msg=r.error?r.error.message:(r.data.session?"":b("تحقق من بريدك لتأكيد الحساب","Check your email to confirm your account"));if(!r.error&&r.data.session)S.mode="user"}
+ else if(a==="rs"){const{error}=await sb.auth.resetPasswordForEmail(g("ae").value.trim(),{redirectTo:location.href.split("#")[0]});S.msg=error?error.message:b("أُرسل رابط الاستعادة لبريدك","Reset link sent")}
+ else if(a==="out"){await sb.auth.signOut();S.mode="user"}
+ else if(a==="reset"){if(!confirm(b("مسح التوقعات وسجل التعلم؟","Clear predictions and learning history?")))return;if(sb)await sb.from("predictions").delete().neq("match_id","");S.shared={};preds={};hist=[];W={dc:.4,elo:.3,form:.3};T=1;if(sb)saveCfg();["preds","hist","w","T"].forEach(k=>ST.del(k));S.m.forEach(predict)}
+ else if(a==="exp"){const d={preds,hist,W,T,cfg,fin,briefs},u=URL.createObjectURL(new Blob([JSON.stringify(d)],{type:"application/json"})),l=document.createElement("a");l.href=u;l.download="me-sports-backup.json";l.click();return}
+ paint();
+});
+document.addEventListener("change",async e=>{
+ const x=e.target,c=x.dataset.c;if(!c)return;
+ if(c==="ha"){cfg.ha[x.dataset.v]=Math.min(1.5,Math.max(.5,+x.value||1));ST.set("cfg",cfg);if(sb)saveCfg();else{preds={};S.m.forEach(predict)}}
+ else if(c==="u"){const f=x.dataset.f,v=f==="active"?x.checked:f==="vip_until"?(x.value?new Date(x.value+"T23:59:59").toISOString():null):x.value;
+  const{error}=await sb.from("profiles").update({[f]:v}).eq("id",x.dataset.id);if(error)alert(error.message);return loadAdmin()}
+ else if(c==="imp"){const f=x.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);
+  preds=d.preds||{};hist=d.hist||[];W=d.W||W;T=d.T||1;cfg=d.cfg||cfg;fin=d.fin||{};briefs=d.briefs||{};
+  ST.set("preds",preds);ST.set("hist",hist);ST.set("w",W);ST.set("T",T);ST.set("cfg",cfg);ST.set("fin",fin);ST.set("briefs",briefs);alert(b("تمت الاستعادة","Restored"));paint()}catch{alert(b("ملف غير صالح","Invalid file"))}});return}
+ paint();
+});
+setInterval(()=>{if(!document.hidden)sync()},120000);
+paint();initAuth();sync();
+</script>
+</body>
+</html>
