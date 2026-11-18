@@ -1,25 +1,21 @@
-name: Sigma Auto Learn Every 3 Hours
+name: Sigma Auto Update
 on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
 jobs:
-  learn:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch real data - no invented results
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Sigma
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
-          echo "Sigma auto learn - checking Supabase connection"
-          curl -s -o /tmp/check.json -w "Status: %{http_code}\n" "$SUPABASE_URL/rest/v1/sigma_matches?select=*&limit=3" -H "apikey: $SUPABASE_KEY" -H "Authorization: Bearer $SUPABASE_KEY"
-          cat /tmp/check.json
-          echo "Fetching real teams from TheSportsDB"
-          curl -s "https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=English%20Premier%20League" | head -c 1000
-          echo ""
-          echo "Fetching real weather Cairo from Open-Meteo"
-          curl -s "https://api.open-meteo.com/v1/forecast?latitude=30.04&longitude=31.23&current=temperature_2m,wind_speed_10m"
-          echo ""
-          echo "If source says No-data, keep No-data. No invented results."
+          python scripts/fetch_results.py
+          python scripts/learn.py
+          python scripts/heal.py
