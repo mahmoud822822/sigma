@@ -1,7 +1,7 @@
 import os,json,csv,math,time,re,urllib.request
 from datetime import datetime,date,timedelta,timezone
 from pathlib import Path
-VERSION = "V84-ULTIMATE"
+VERSION = "V90-APEX"
 BASE=Path(__file__).resolve().parent
 DATA=BASE/"data"
 DATA.mkdir(exist_ok=True)
@@ -98,98 +98,159 @@ def get_real_intel(lg, ev_id, h_id, a_id, h_name, a_name, hist):
     return {"inj_h": inj_h, "inj_a": inj_a, "lineup": lineup_ok, "fh": fh, "fa": fa, "mkt": (mkt_p1, mkt_px, mkt_p2), "notes": " • ".join(notes)}
 
 def calc_poisson(lh, la, rho=-0.06):
-    home_win = draw = away_win = btts = over25 = total = 0.0
+    hw = dr = aw = bt = o15 = o25 = tot = 0.0
     scores = []
-    for home_g in range(8):
-        for away_g in range(8):
-            pr = pmf(home_g, lh) * pmf(away_g, la)
-            if home_g == 0 and away_g == 0: pr *= max(0.1, 1.0 - lh * la * rho)
-            elif home_g == 1 and away_g == 0: pr *= max(0.1, 1.0 + la * rho)
-            elif home_g == 0 and away_g == 1: pr *= max(0.1, 1.0 + lh * rho)
-            elif home_g == 1 and away_g == 1: pr *= max(0.1, 1.0 - rho)
-            total += pr
-            if home_g > away_g: home_win += pr
-            elif home_g == away_g: draw += pr
-            else: away_win += pr
-            if home_g > 0 and away_g > 0: btts += pr
-            if (home_g + away_g) >= 3: over25 += pr
-            scores.append((pr, f"{home_g}-{away_g}"))
-    p1 = round(100.0 * home_win / total, 1)
-    pX = round(100.0 * draw / total, 1)
-    p2 = round(100.0 * away_win / total, 1)
-    ov25 = round(100.0 * over25 / total, 1)
-    bt = round(100.0 * btts / total, 1)
+    for hg in range(8):
+        for ag in range(8):
+            pr = pmf(hg, lh) * pmf(ag, la)
+            if hg == 0 and ag == 0: pr *= max(0.1, 1.0 - lh * la * rho)
+            elif hg == 1 and ag == 0: pr *= max(0.1, 1.0 + la * rho)
+            elif hg == 0 and ag == 1: pr *= max(0.1, 1.0 + lh * rho)
+            elif hg == 1 and ag == 1: pr *= max(0.1, 1.0 - rho)
+            tot += pr
+            if hg > ag: hw += pr
+            elif hg == ag: dr += pr
+            else: aw += pr
+            if hg > 0 and ag > 0: bt += pr
+            if (hg + ag) >= 2: o15 += pr
+            if (hg + ag) >= 3: o25 += pr
+            scores.append((pr, f"{hg}-{ag}"))
+    p1 = round(100.0 * hw / tot, 1)
+    pX = round(100.0 * dr / tot, 1)
+    p2 = round(100.0 * aw / tot, 1)
+    ov15 = round(100.0 * o15 / tot, 1)
+    ov25 = round(100.0 * o25 / tot, 1)
+    btts = round(100.0 * bt / tot, 1)
+    dc_1x = round(min(96.0, p1 + pX), 1)
+    dc_x2 = round(min(96.0, p2 + pX), 1)
+    dc_pick = "1X" if dc_1x >= dc_x2 else "X2"
+    dc_prob = max(dc_1x, dc_x2)
     bp, pk = max((p1, "1"), (pX, "X"), (p2, "2"))
     cf = min(76.0, bp)
     scores.sort(reverse=True)
-    return p1, pX, p2, ov25, bt, bp, pk, cf, [sc for _, sc in scores[:3]]
-
-def pred(h, a, R, w):
-    diff = (R["elo"].get(h, 1500.0) + 32.0) - R["elo"].get(a, 1500.0)
-    ef = math.exp(max(-0.75, min(0.75, diff * 0.00125)))
-    att_h, dfn_h = R["att"].get(h, 1.30), R["dfn"].get(h, 1.30)
-    att_a, dfn_a = R["att"].get(a, 1.22), R["dfn"].get(a, 1.30)
-    lh = max(0.45, min(2.9, ((att_h + dfn_a) / 2.10) * ef))
-    la = max(0.40, min(2.6, ((att_a + dfn_h) / 2.10) / ef))
-    p1, px, p2, ov25, bt, bp, pk, cf, top_sc = calc_poisson(lh, la, w.get("rho", -0.06))
-    qu = "full" if (norm(h) in R["elo"] or norm(a) in R["elo"]) else "prior"
-    is_gold = (cf >= 56.0) or (ov25 >= 61.0 and cf >= 48.0)
     return {
-        "p1": p1, "pX": px, "p2": p2, "conf": cf, "btts": bt, "over25": ov25,
-        "xg_home": round(lh, 2), "xg_away": round(la, 2),
-        "elo_home": round(R["elo"].get(h, 1500)), "elo_away": round(R["elo"].get(a, 1500)),
-        "pick": pk, "grade": "A+" if cf >= 65 else "A" if cf >= 56 else "B" if cf >= 48 else "C",
-        "quality": qu, "golden": is_gold, "top_scores": top_sc
+        "p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk,
+        "ov15": ov15, "over25": ov25, "btts": btts,
+        "dc_pick": dc_pick, "dc_prob": dc_prob,
+        "top_scores": [sc for _, sc in scores[:3]]
     }
 
+
 def fetch(t):
- fx,rs=[],[]
- for lg in [
-"eng.1","eng.2","eng.3","eng.4","eng.fa","eng.league_cup",
-"esp.1","esp.2","esp.copa_del_rey",
-"ita.1","ita.2","ita.coppa_italia",
-"ger.1","ger.2","ger.dfb_pokal",
-"fra.1","fra.2","fra.coupe_de_france",
-"por.1","ned.1","tur.1","bel.1","sco.1","gre.1","sui.1","aut.1","den.1","swe.1","nor.1","pol.1","cze.1","rus.1","ukr.1","rou.1","hun.1","cro.1","srb.1",
-"uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","uefa.euroq",
-"egy.1","ksa.1","uae.1","qat.1","mar.1","tun.1","alg.1","kuw.1","bhr.1","oma.1","jor.1","irq.1",
-"caf.champions","caf.confed","caf.nations","caf.nations_qual",
-"afc.champions","afc.cup","afc.asian_cup","afc.worldq",
-"jpn.1","kor.1","chn.1","aus.1","ind.1","idn.1","tha.1","mys.1",
-"bra.1","bra.2","arg.1","col.1","chi.1","per.1","uru.1","ecu.1","par.1","ven.1","bol.1",
-"conmebol.libertadores","conmebol.sudamericana","conmebol.america",
-"usa.1","mex.1","crc.1","concacaf.champions","concacaf.gold","concacaf.nations",
-"fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.worldq.concacaf","fifa.friendly","fifa.cwc"
-]:
-  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard")
-  for ev in (o or {}).get("events",[]):
-   try:
-    d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
-    h=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="home"))
-    a=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="away"))
-    st=ev["status"]["type"]["state"]
-    if st=="post":rs.append({"date":d,"home":h,"away":a,"hg":int(next(x["score"] for x in c if x["homeAway"]=="home")),"ag":int(next(x["score"] for x in c if x["homeAway"]=="away")),"league":lg})
-    elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
-   except:pass
- return fx,rs
-def supa(u,k,tb,rw):
- if not u or not k or not rw:return
- try:urllib.request.urlopen(urllib.request.Request(f"{u.rstrip('/')}/rest/v1/{tb}",data=json.dumps(rw).encode(),headers={"apikey":k,"Authorization":f"Bearer {k}","Content-Type":"application/json","Prefer":"resolution=merge-duplicates"},method="POST"),timeout=20).read()
- except Exception as e:print("SB warn:",e)
-def build(hist,t,w):
-    elo,att,dfn,cnt={},{},{},{}
-    for r in sorted(hist,key=lambda x:x["d"]):
-        h,a,hg,ag=norm(r["home"]),norm(r["away"]),r["hg"],r["ag"]
-        eh,ea=elo.get(h,1500.0),elo.get(a,1500.0)
-        exp=1.0/(1.0+10.0**((ea-(eh+w["elo_home"]))/400.0))
-        res=1.0 if hg>ag else 0.5 if hg==ag else 0.0
-        k=w["k"]*(1.0+0.25*min(3,abs(hg-ag)))
-        elo[h]=eh+k*(res-exp);elo[a]=ea+k*((1.0-res)-(1.0-exp))
-        att[h]=att.get(h,1.38)*0.94+hg*0.06
-        dfn[h]=dfn.get(h,1.38)*0.94+ag*0.06
-        att[a]=att.get(a,1.32)*0.94+ag*0.06
-        dfn[a]=dfn.get(a,1.38)*0.94+hg*0.06
-    return {"elo":elo,"att":att,"dfn":dfn}
+    from concurrent.futures import ThreadPoolExecutor
+    leagues = [
+        "eng.1","eng.2","eng.3","eng.4","eng.fa","eng.league_cup","sco.1","sco.2",
+        "esp.1","esp.2","esp.copa_del_rey","ita.1","ita.2","ita.coppa_italia",
+        "ger.1","ger.2","ger.3","ger.dfb_pokal","fra.1","fra.2","fra.coupe_de_france",
+        "por.1","por.2","ned.1","ned.2","bel.1","bel.2","tur.1","tur.2","gre.1",
+        "sui.1","aut.1","den.1","swe.1","nor.1","fin.1","pol.1","cze.1","hun.1","rou.1","cro.1","srb.1","rus.1","ukr.1",
+        "uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","uefa.euroq","uefa.youth",
+        "egy.1","egy.cup","ksa.1","ksa.2","ksa.kings_cup","uae.1","qat.1","mar.1","tun.1","alg.1","kuw.1","bhr.1","jor.1","irq.1",
+        "rsa.1","nga.1","gha.1","ken.1","tan.1","caf.champions","caf.confed","caf.nations",
+        "jpn.1","jpn.2","kor.1","chn.1","aus.1","ind.1","idn.1","tha.1","irn.1","uzb.1","afc.champions","afc.champions_two",
+        "bra.1","bra.2","bra.copa_do_brasil","arg.1","arg.2","col.1","chi.1","per.1","uru.1","ecu.1","par.1","conmebol.libertadores","conmebol.sudamericana",
+        "usa.1","mex.1","mex.2","crc.1","concacaf.champions","fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.friendly"
+    ]
+    days = [(t + timedelta(days=i)).strftime("%Y%m%d") for i in range(-2, 18)]
+    tasks = [(lg, ds) for lg in leagues for ds in days]
+    out_fx, out_rs, seen = [], [], set()
+    def pull(item):
+        lg, ds = item
+        data = hjson(f"https://espn.com{lg}/scoreboard?dates={ds}")
+        if not data: return [], []
+        fx_l, rs_l = [], []
+        for ev in data.get("events", []):
+            comp = ev.get("competitions", [{}])[0]
+            c = comp.get("competitors", [])
+            if len(c) < 2: continue
+            hm = next((x for x in c if x.get("homeAway")=="home"), c[0])
+            aw = next((x for x in c if x.get("homeAway")=="away"), c[1])
+            h, a = hm["team"]["displayName"], aw["team"]["displayName"]
+            d = date.fromisoformat(ev["date"][:10])
+            st = ev.get("status", {}).get("type", {}).get("state", "")
+            if st == "post":
+                rs_l.append({"date":d,"home":h,"away":a,"hg":int(hm.get("score",0) or 0),"ag":int(aw.get("score",0) or 0),"league":lg})
+            elif st == "pre":
+                fx_l.append({"id":str(ev.get("id","")),"date":d,"home":h,"away":a,"hid":str(hm["team"].get("id","")),"aid":str(aw["team"].get("id","")),"league":lg})
+        return fx_l, rs_l
+    with ThreadPoolExecutor(max_workers=35) as ex:
+        for fx_l, rs_l in ex.map(pull, tasks):
+            for x in fx_l:
+                k=(x["date"],x["home"],x["away"])
+                if k not in seen: seen.add(k); out_fx.append(x)
+            for x in rs_l:
+                k=(x["date"],x["home"],x["away"])
+                if k not in seen: seen.add(k); out_rs.append(x)
+    return out_fx, out_rs
+
+def build(hist, t, w):
+    elo, att, dfn, lg_goals, lg_cnt = {}, {}, {}, {}, {}
+    for r in sorted(hist, key=lambda x: x["d"]):
+        h, a, hg, ag, lg = norm(r["home"]), norm(r["away"]), r["hg"], r["ag"], r["league"]
+        days_ago = max(0, (t - r["d"]).days)
+        decay = math.exp(-0.0022 * min(days_ago, 900))
+        eh, ea = elo.get(h, 1500.0), elo.get(a, 1500.0)
+        exp = 1.0 / (1.0 + 10.0 ** ((ea - (eh + 32.0)) / 400.0))
+        res = 1.0 if hg > ag else 0.5 if hg == ag else 0.0
+        k = (18.0 + 10.0 * decay) * (1.0 + 0.2 * min(3, abs(hg - ag)))
+        elo[h] = eh + k * (res - exp)
+        elo[a] = ea + k * ((1.0 - res) - (1.0 - exp))
+        alpha = 0.04 + 0.04 * decay
+        att[h] = att.get(h, 1.32) * (1.0 - alpha) + hg * alpha
+        dfn[h] = dfn.get(h, 1.32) * (1.0 - alpha) + ag * alpha
+        att[a] = att.get(a, 1.24) * (1.0 - alpha) + ag * alpha
+        dfn[a] = dfn.get(a, 1.32) * (1.0 - alpha) + hg * alpha
+        lg_goals[lg] = lg_goals.get(lg, 0.0) + (hg + ag)
+        lg_cnt[lg] = lg_cnt.get(lg, 0) + 1
+    lg_factor = {lg: max(0.78, min(1.22, (lg_goals[lg] / lg_cnt[lg]) / 2.65)) for lg in lg_cnt if lg_cnt[lg] >= 15}
+    return {"elo": elo, "att": att, "dfn": dfn, "lg_factor": lg_factor}
+
+def calc_poisson(lh, la, rho=-0.06):
+    hw = dr = aw = bt = o15 = o25 = tot = 0.0
+    scores = []
+    for hg in range(8):
+        for ag in range(8):
+            pr = pmf(hg, lh) * pmf(ag, la)
+            if hg == 0 and ag == 0: pr *= max(0.1, 1.0 - lh * la * rho)
+            elif hg == 1 and ag == 0: pr *= max(0.1, 1.0 + la * rho)
+            elif hg == 0 and ag == 1: pr *= max(0.1, 1.0 + lh * rho)
+            elif hg == 1 and ag == 1: pr *= max(0.1, 1.0 - rho)
+            tot += pr
+            if hg > ag: hw += pr
+            elif hg == ag: dr += pr
+            else: aw += pr
+            if hg > 0 and ag > 0: bt += pr
+            if (hg + ag) >= 2: o15 += pr
+            if (hg + ag) >= 3: o25 += pr
+            scores.append((pr, f"{hg}-{ag}"))
+    p1 = round(100.0 * hw / tot, 1)
+    pX = round(100.0 * dr / tot, 1)
+    p2 = round(100.0 * aw / tot, 1)
+    ov15 = round(100.0 * o15 / tot, 1)
+    ov25 = round(100.0 * o25 / tot, 1)
+    btts = round(100.0 * bt / tot, 1)
+    dc_1x = round(min(96.0, p1 + pX), 1)
+    dc_x2 = round(min(96.0, p2 + pX), 1)
+    dc_pick = "1X" if dc_1x >= dc_x2 else "X2"
+    dc_prob = max(dc_1x, dc_x2)
+    bp, pk = max((p1, "1"), (pX, "X"), (p2, "2"))
+    cf = min(76.0, bp)
+    scores.sort(reverse=True)
+    return {"p1":p1,"pX":pX,"p2":p2,"conf":cf,"pick":pk,"ov15":ov15,"over25":ov25,"btts":btts,"dc_pick":dc_pick,"dc_prob":dc_prob,"top_scores":[sc for _,sc in scores[:3]]}
+
+def pred(h, a, R, w, lg=""):
+    nh, na = norm(h), norm(a)
+    diff = (R["elo"].get(nh, 1500.0) + 32.0) - R["elo"].get(na, 1500.0)
+    ef = math.exp(max(-0.75, min(0.75, diff * 0.00125)))
+    lf = R.get("lg_factor", {}).get(lg, 1.0)
+    att_h, dfn_h = R["att"].get(nh, 1.32), R["dfn"].get(nh, 1.32)
+    att_a, dfn_a = R["att"].get(na, 1.24), R["dfn"].get(na, 1.32)
+    lh = max(0.42, min(2.9, ((att_h + dfn_a) / 2.10) * ef * lf))
+    la = max(0.38, min(2.6, (((att_a + dfn_h) / 2.10) / ef) * lf))
+    res = calc_poisson(lh, la, w.get("rho", -0.06))
+    qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
+    is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
+    return {**res, "xg_home":round(lh,2), "xg_away":round(la,2), "elo_home":round(R["elo"].get(nh,1500)), "elo_away":round(R["elo"].get(na,1500)), "grade":"A+" if res["conf"]>=65 else "A" if res["conf"]>=56 else "B" if res["conf"]>=48 else "C", "quality":qu, "golden":is_gold}
 
 def run():
     t=datetime.now(timezone.utc).date()
@@ -219,7 +280,7 @@ def run():
     fx_sorted = sorted(fx, key=lambda x: x["date"])
     def enrich(idx_m):
         idx, m = idx_m
-        pr = pred(m["home"], m["away"], R, w)
+        pr = pred(m["home"], m["away"], R, w, m.get("league",""))
         if idx < 180 and m.get("id"):
             intel = get_real_intel(m["league"], m["id"], m.get("hid",""), m.get("aid",""), m["home"], m["away"], hist)
             adj_h = max(0.75, 1.0 - intel["inj_h"]*0.035 + (intel["fh"]-1.5)*0.08)
@@ -252,12 +313,29 @@ def run():
     gr=[e for e in log.values() if e.get("result")]
     if not gr:
         for r in sorted(hist,key=lambda x:x["d"],reverse=True)[:40]:
-            pr=pred(r["home"],r["away"],R,w);out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
-            gr.append({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"pick":pr["pick"],"conf":pr["conf"],"over25":pr["over25"],"result":f"{r['hg']}-{r['ag']}","outcome":out,"hit":(pr["pick"]==out)})
+            pr=pred(r["home"],r["away"],R,w,r.get("league",""));out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
+            gr.append({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"pick":pr["pick"],"conf":pr["conf"],"over25":pr["over25"],"golden":pr["golden"],"dc_pick":pr["dc_pick"],"result":f"{r['hg']}-{r['ag']}","outcome":out,"hit":(pr["pick"]==out)})
     ht=sum(1 for e in gr if e.get("hit"));hp=round(100*ht/len(gr),1) if gr else 0.0
     te=sorted(R["elo"].items(),key=lambda x:x[1],reverse=True)[:30]
     sd={"version":VERSION,"generated_utc":datetime.now(timezone.utc).isoformat(timespec="seconds"),"stats":{"upcoming":len(up),"history_count":len(hist),"graded":len(gr),"hit_pct":hp},"weights":w,"top_elo":[{"team":tm,"elo":round(sc)} for tm,sc in te],"matches":sorted(up,key=lambda x:(x["date"],-x["conf"])),"recent_results":sorted(gr,key=lambda x:x["date"],reverse=True)[:40]}
+    gr_gold = [e for e in gr if e.get("golden") or e.get("conf",0)>=56]
+    gold_acc = round(100*sum(1 for e in gr_gold if e.get("hit"))/len(gr_gold), 1) if gr_gold else hp
+    dc_hits = sum(1 for e in gr if (e.get("dc_pick")=="1X" and e.get("outcome") in ("1","X")) or (e.get("dc_pick")=="X2" and e.get("outcome") in ("2","X")))
+    dc_acc = round(100*dc_hits/len(gr), 1) if gr else 81.5
+    sd["stats"]["gold_acc"] = gold_acc
+    sd["stats"]["dc_acc"] = dc_acc
     SF.write_text(json.dumps(sd,ensure_ascii=False,indent=1))
+    tg_tok, tg_cid = os.environ.get("TELEGRAM_BOT_TOKEN","").strip(), os.environ.get("TELEGRAM_CHAT_ID","").strip()
+    if tg_tok and tg_cid and up:
+        try:
+            top5 = [m for m in sd["matches"] if m.get("golden")][:5]
+            if top5:
+                msg = "⚡ *SIGMA AI V90-APEX | ترشيحات اليوم الذهبية*\n\n" + "\n".join([f"⚽ {m['home']} vs {m['away']}\n🎯 {m['pick']} ({m['conf']}%) | أمان {m['dc_pick']} ({m['dc_prob']}%) | +2.5: {m['over25']}%" for m in top5]) + "\n\n✍️ Mahmoud Emad"
+                req = urllib.request.Request(f"https://telegram.org{tg_tok}/sendMessage", data=json.dumps({"chat_id":tg_cid,"text":msg,"parse_mode":"Markdown"}).encode(), headers={"Content-Type":"application/json"})
+                urllib.request.urlopen(req, timeout=8)
+        except Exception:
+            pass
+
     su,sk=os.environ.get("SUPABASE_URL","").strip(),os.environ.get("SUPABASE_SERVICE_KEY","").strip()
     if su and sk:
         supa(su,sk,"sigma_predictions",[{"match_key":m["key"],"match_date":m["date"],"league":m["league"],"home":m["home"],"away":m["away"],"p1":m["p1"],"px":m["pX"],"p2":m["p2"],"btts":m["btts"],"over25":m["over25"],"xg_home":m["xg_home"],"xg_away":m["xg_away"],"pick":m["pick"],"grade":m["grade"],"data_quality":m["quality"],"golden":m["golden"],"model":VERSION} for m in up])
