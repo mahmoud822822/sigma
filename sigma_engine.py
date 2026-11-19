@@ -55,7 +55,7 @@ def ratings(hist,ref,w):
  return {"elo":elo,"att":att,"dfn":dfn}
 def pmf(k,l):return (l**k)*math.exp(-l)/math.factorial(k)
 def pred(h,a,R,w):
-    diff=(R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500); ef=math.exp(max(-1.2,min(1.2,diff*0.0022)))
+    diff=(R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500); ef=math.exp(max(-1.2,min(1.2,diff*0.00165)))
     att_h,dfn_h=R["att"].get(h,1.38),R["dfn"].get(h,1.38)
     att_a,dfn_a=R["att"].get(a,1.32),R["dfn"].get(a,1.38)
     lh=max(0.45,min(3.8,((att_h+dfn_a)/2.0)*ef))
@@ -148,7 +148,7 @@ def run():
     with open(HF,"w",encoding="utf-8",newline="") as f:
         w=csv.DictWriter(f,["date","league","home","away","hg","ag"]);w.writeheader()
         for r in sorted(hist,key=lambda x:x["d"]): w.writerow({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"]})
-    w=json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k":22,"elo_home":55,"elo_adj":0.0022,"rho":-0.08,"decay":0.0018}
+    w=json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k":22,"elo_home":45,"elo_adj":0.0022,"rho":-0.08,"decay":0.0018}
     R=build(hist,t,w)
     log=json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
     for r in rs:
