@@ -73,55 +73,18 @@ def pred(h,a,R,w):
  qu="full" if (h in R["elo"] and a in R["elo"]) else "prior"
  return {"p1":p1,"pX":px,"p2":p2,"conf":cf,"btts":round(100*bt/tot,1),"over25":round(100*ov/tot,1),"xg_home":round(lh,2),"xg_away":round(la,2),"elo_home":round(R["elo"].get(h,1500)),"elo_away":round(R["elo"].get(a,1500)),"pick":pk,"grade":"A+" if cf>=70 else "A" if cf>=60 else "B" if cf>=50 else "C","quality":qu,"golden":(62<=cf<=82 and qu=="full"),"top_scores":[x[1] for x in sc[:3]]}
 def fetch(t):
- tk=os.environ.get("FOOTBALL_DATA_TOKEN","").strip()
- if not tk and (Path.home()/"football_token.txt").exists():tk=(Path.home()/"football_token.txt").read_text().strip()
  fx,rs=[],[]
- if len(tk)==32:
-  for c,n in FD.items():
-   o=hjson(f"https://football-data.org{c}/matches?dateFrom={(t-timedelta(days=5)).isoformat()}&dateTo={(t+timedelta(days=10)).isoformat()}",{"X-Auth-Token":tk})
-   for m in (o or {}).get("matches",[]):
-    d=date.fromisoformat(m["utcDate"][:10]);h,a=clean(m["homeTeam"]["name"]),clean(m["awayTeam"]["name"]);st=m.get("status","");ft=(m.get("score") or {}).get("fullTime") or {}
-    if st=="FINISHED" and ft.get("home") is not None:rs.append({"date":d,"home":h,"away":a,"hg":int(ft["home"]),"ag":int(ft["away"]),"league":n})
-    elif st in ("SCHEDULED","TIMED"):fx.append({"date":d,"home":h,"away":a,"league":n})
-   time.sleep(6.1)
- if not fx:
-  y=t.year if t.month>=7 else t.year-1
-  for c,n in OF.items():
-   o=hjson(f"https://githubusercontent.com{y}-{str(y+1)[2:]}/{c}.json")
-   for m in (o or {}).get("matches",[]):
-    try:
-     d=date.fromisoformat(m["date"][:10]);h,a=clean(m["team1"]),clean(m["team2"]);ft=(m.get("score") or {}).get("ft")
-     if ft and len(ft)==2 and d<=t:rs.append({"date":d,"home":h,"away":a,"hg":int(ft[0]),"ag":int(ft[1]),"league":n})
-     elif not ft and t<=d<=t+timedelta(days=10):fx.append({"date":d,"home":h,"away":a,"league":n})
-    except:pass
-
- if not fx:
-  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
-   o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
-   for ev in (o or {}).get("events",[]):
-    try:
-     d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
-     h=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="home"))
-     a=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="away"))
-     st=ev["status"]["type"]["state"]
-     if st=="post":rs.append({"date":d,"home":h,"away":a,"hg":int(next(x["score"] for x in c if x["homeAway"]=="home")),"ag":int(next(x["score"] for x in c if x["homeAway"]=="away")),"league":lg})
-     elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
-    except:pass
-
-
- if not fx:
-  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
-   o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
-   for ev in (o or {}).get("events",[]):
-    try:
-     d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
-     h=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="home"))
-     a=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="away"))
-     st=ev["status"]["type"]["state"]
-     if st=="post":rs.append({"date":d,"home":h,"away":a,"hg":int(next(x["score"] for x in c if x["homeAway"]=="home")),"ag":int(next(x["score"] for x in c if x["homeAway"]=="away")),"league":lg})
-     elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
-    except:pass
-
+ for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
+  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=10)).strftime('%Y%m%d')}")
+  for ev in (o or {}).get("events",[]):
+   try:
+    d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
+    h=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="home"))
+    a=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="away"))
+    st=ev["status"]["type"]["state"]
+    if st=="post":rs.append({"date":d,"home":h,"away":a,"hg":int(next(x["score"] for x in c if x["homeAway"]=="home")),"ag":int(next(x["score"] for x in c if x["homeAway"]=="away")),"league":lg})
+    elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
+   except:pass
  return fx,rs
 def supa(u,k,tb,rw):
  if not u or not k or not rw:return
