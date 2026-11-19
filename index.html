@@ -74,7 +74,7 @@
 <body>
 <header>
   <div class="brand"><h1>SIGMA AI V400-AUTONOMOUS 👑</h1><span>By Mahmoud Emad</span></div>
-  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
+  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
   <div class="box"><b id="s1">0</b><small>قادمة</small></div>
@@ -286,7 +286,7 @@ function rn(){
   .ai-chip{background:rgba(16,185,129,.14);border:1px solid rgba(16,185,129,.35);color:#6ee7b7;padding:4px 9px;border-radius:14px;font-size:.68rem;font-weight:700;cursor:pointer}
   .ai-ans{background:rgba(5,9,20,.8);border:1px solid var(--bd);border-radius:11px;padding:9px;font-size:.73rem;line-height:1.65;color:#e2e8f0;max-height:210px;overflow-y:auto}
 </style>
-<button class="ai-fab" onclick="togAI()">🤖 مساعد SIGMA</button>
+
 <div class="ai-box" id="aibox">
   <div class="row"><b style="color:var(--ac);font-size:.84rem">🤖 المستشار الخارق SIGMA Co-Pilot</b><button class="tbtn" onclick="togAI()">✕</button></div>
   <div class="ai-chips">
