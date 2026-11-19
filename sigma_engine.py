@@ -15,7 +15,14 @@ FD={"PL":"Premier League","PD":"La Liga","SA":"Serie A","BL1":"Bundesliga","FL1"
 OF={"en.1":"Premier League","es.1":"La Liga","it.1":"Serie A","de.1":"Bundesliga","fr.1":"Ligue 1"}
 def today():return datetime.now(timezone.utc).date()
 def clean(s):return re.sub(r"\s+"," ",str(s or "")).strip()
-def norm(s):return "".join(c for c in clean(s).lower() if c.isalnum())
+def norm(s):
+    s = re.sub(r"(fc|cf|sc|ac|as|cd|ud|fk|sk|bk|if|ik|afc|rfc|club|de|la|el|al|sporting|athletic)", " ", (s or "").lower())
+    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    mp = {"internazionale":"inter","inter milan":"inter","paris saint germain":"psg","wolverhampton wanderers":"wolves","brighton hove albion":"brighton","tottenham hotspur":"tottenham","nottingham forest":"nottm forest","west ham united":"west ham","newcastle united":"newcastle","manchester united":"man united","manchester city":"man city","bayern munich":"bayern","bayer leverkusen":"leverkusen","borussia dortmund":"dortmund","rb leipzig":"leipzig","eintracht frankfurt":"ein frankfurt","borussia monchengladbach":"mgladbach","atletico madrid":"atletico","athletic bilbao":"ath bilbao","real sociedad":"sociedad","real betis":"betis","celta vigo":"celta","olympique marseille":"marseille","olympique lyonnais":"lyon","hellas verona":"verona","sporting cp":"sporting lisbon"}
+    for k,v in mp.items():
+        if k in s: return v
+    return s or (s or "").lower().strip()
+
 def mkey(d,h,a):return f"{d}|{norm(h)}|{norm(a)}"
 def load_w():
  w=dict(DW)
