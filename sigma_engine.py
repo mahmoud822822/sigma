@@ -18,8 +18,17 @@ def clean(s):return re.sub(r"\s+"," ",str(s or "")).strip()
 def norm(s):
     s = re.sub(r"(fc|cf|sc|ac|as|cd|ud|fk|sk|bk|if|ik|afc|rfc|club|de|la|el|al|sporting|athletic)", " ", (s or "").lower())
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
-    mp = {"internazionale":"inter","inter milan":"inter","paris saint germain":"psg","wolverhampton wanderers":"wolves","brighton hove albion":"brighton","tottenham hotspur":"tottenham","nottingham forest":"nottm forest","west ham united":"west ham","newcastle united":"newcastle","manchester united":"man united","manchester city":"man city","bayern munich":"bayern","bayer leverkusen":"leverkusen","borussia dortmund":"dortmund","rb leipzig":"leipzig","eintracht frankfurt":"ein frankfurt","borussia monchengladbach":"mgladbach","atletico madrid":"atletico","athletic bilbao":"ath bilbao","real sociedad":"sociedad","real betis":"betis","celta vigo":"celta","olympique marseille":"marseille","olympique lyonnais":"lyon","hellas verona":"verona","sporting cp":"sporting lisbon"}
-    for k,v in mp.items():
+    mp = {
+        "internazionale":"inter","inter milan":"inter","ac milan":"milan","as roma":"roma","ss lazio":"lazio","hellas verona":"verona",
+        "paris saint germain":"psg","olympique marseille":"marseille","olympique lyonnais":"lyon","as monaco":"monaco",
+        "wolverhampton wanderers":"wolves","brighton hove albion":"brighton","tottenham hotspur":"tottenham","nottingham forest":"nottm forest",
+        "west ham united":"west ham","newcastle united":"newcastle","manchester united":"man united","manchester city":"man city",
+        "bayern munich":"bayern","bayer leverkusen":"leverkusen","borussia dortmund":"dortmund","rb leipzig":"leipzig",
+        "eintracht frankfurt":"ein frankfurt","borussia monchengladbach":"mgladbach","vfb stuttgart":"stuttgart",
+        "atletico madrid":"atletico","athletic bilbao":"ath bilbao","real sociedad":"sociedad","real betis":"betis","celta vigo":"celta",
+        "sporting cp":"sporting lisbon","ahly cairo":"ahly","al ahly":"ahly","zamalek":"zamalek","hilal":"hilal","nassr":"nassr","ittihad":"ittihad"
+    }
+    for k, v in mp.items():
         if k in s: return v
     return s or (s or "").lower().strip()
 
