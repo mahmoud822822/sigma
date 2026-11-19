@@ -157,7 +157,7 @@ def fetch(t):
     out_fx, out_rs, seen = [], [], set()
     def pull(item):
         lg, ds = item
-        data = hjson("https://site.api."+"espn.com"+lg+"/scoreboard?dates="+ds)
+        data = hjson("https://site.api."+ "://espn.com" + "/".join(["apis","site","v2","sports","soccer",lg,"scoreboard"]) + "?dates=" + ds)
         if not data: return [], []
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
