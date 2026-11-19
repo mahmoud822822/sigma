@@ -55,11 +55,11 @@ def ratings(hist,ref,w):
  return {"elo":elo,"att":att,"dfn":dfn}
 def pmf(k,l):return (l**k)*math.exp(-l)/math.factorial(k)
 def pred(h,a,R,w):
-    ef=math.exp(((R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500))*w["elo_adj"])
+    diff=(R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500); ef=math.exp(max(-1.2,min(1.2,diff*0.0022)))
     att_h,dfn_h=R["att"].get(h,1.38),R["dfn"].get(h,1.38)
     att_a,dfn_a=R["att"].get(a,1.32),R["dfn"].get(a,1.38)
-    lh=max(0.35,min(4.2,((att_h+dfn_a)/2.0)*(ef**0.65)))
-    la=max(0.30,min(3.8,((att_a+dfn_h)/2.0)/(ef**0.55)))
+    lh=max(0.45,min(3.8,((att_h+dfn_a)/2.0)*ef))
+    la=max(0.40,min(3.5,((att_a+dfn_h)/2.0)/ef))
     p1=px=p2=bt=ov=tot=0.0;sc=[]
     for i in range(8):
         for j in range(8):

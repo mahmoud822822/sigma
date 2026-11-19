@@ -153,9 +153,9 @@ function render() {
         <span>${m.away}</span>
       </div>
       <div class="probs">
-        <div class="p-pill ${m.pick==='1'?'pick':''}">فوز 1: ${m.p1}%</div>
+        <div class="p-pill ${m.pick==='1'?'pick':''}">${m.home.slice(0,14)}: ${m.p1}%</div>
         <div class="p-pill ${m.pick==='X'?'pick':''}">تعادل X: ${m.pX}%</div>
-        <div class="p-pill ${m.pick==='2'?'pick':''}">فوز 2: ${m.p2}%</div>
+        <div class="p-pill ${m.pick==='2'?'pick':''}">${m.away.slice(0,14)}: ${m.p2}%</div>
       </div>
       <div class="metrics">
         <div class="${m.over25>=60?'over-hi':''}">+2.5 هدف<br><b>${m.over25}%</b></div>
