@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V700-QUANTUM SHIELD | Mahmoud Emad</title>
+<title>SIGMA AI V800-OBSIDIAN LUXE | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -70,10 +70,26 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="SIGMA AI">
+<style>
+  :root{--bg:#030712;--card:rgba(11,17,32,.88);--card2:rgba(15,23,42,.95);--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(255,255,255,.08);--ac:#10b981;--gd:#f59e0b;--bl:#38bdf8;--rd:#f43f5e}
+  body{background:radial-gradient(circle at top,#0d172a 0%,#030712 65%) fixed!important;color:var(--tx);transition:background .35s ease,color .35s ease}
+  @keyframes cardSlide{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+  .card{background:var(--card)!important;border:1px solid var(--bd)!important;border-radius:18px!important;padding:13px!important;margin-bottom:11px!important;animation:cardSlide .32s cubic-bezier(.22,1,.36,1) both;transition:transform .22s cubic-bezier(.22,1,.36,1),box-shadow .22s ease,border-color .22s ease!important}
+  .card:hover{border-color:rgba(16,185,129,.35)!important;box-shadow:0 12px 30px rgba(0,0,0,.45)!important}
+  .card.gold{border-color:rgba(245,158,11,.45)!important;background:linear-gradient(145deg,rgba(245,158,11,.08),rgba(11,17,32,.94))!important;box-shadow:0 8px 26px rgba(245,158,11,.12)!important}
+  .qpill,.tab,.bitem,.tbtn,.share-btn{transition:all .2s cubic-bezier(.22,1,.36,1)!important}
+  .qpill:active,.tab:active,.bitem:active,.tbtn:active{transform:scale(.93)!important}
+  .prob-bar{display:flex;height:6px;border-radius:99px;overflow:hidden;background:rgba(255,255,255,.06);margin:8px 0 9px;gap:2px}
+  .pb-1{background:linear-gradient(90deg,#059669,#10b981);border-radius:99px}
+  .pb-x{background:#64748b;border-radius:99px}
+  .pb-2{background:linear-gradient(90deg,#0284c7,#38bdf8);border-radius:99px}
+  .bnav{background:rgba(6,11,25,.94)!important;border:1px solid rgba(255,255,255,.1)!important;box-shadow:0 14px 35px rgba(0,0,0,.75)!important}
+  body.light{background:#f1f5f9!important;--card:rgba(255,255,255,.95);--card2:#f8fafc;--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.1)}
+</style>
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V700-QUANTUM SHIELD 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
@@ -202,14 +218,14 @@ function cpTxt(i){
 }
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V700-QUANTUM SHIELD\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V800-OBSIDIAN LUXE\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V700-QUANTUM SHIELD",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V800-OBSIDIAN LUXE",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
