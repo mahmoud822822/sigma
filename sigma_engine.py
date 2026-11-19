@@ -291,6 +291,8 @@ def calc_poisson(lh, la, rho=-0.06):
     return {"p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk, "ov15": ov15, "over25": ov25, "btts": btts, "dc_pick": dc_pick, "dc_prob": dc_prob, "corners": round(max(6.4, min(13.6, 5.8 + (lh + la) * 1.45 + abs(lh - la) * 0.9)), 1), "top_scores": [sc for _, sc in scores[:3]]}
 
 def resolve_team(name, pool):
+    if any(tag in name.lower() for tag in ["u17","u18","u19","u20","u21","u23","women","(w)","ladies"]):
+        return norm(name)
     n = norm(name)
     if n in pool: return n
     toks = [w for w in n.split() if len(w) > 3]
@@ -317,7 +319,7 @@ ARAB_ELO = {
 def get_base_elo(n, pool):
     if n in pool: return pool[n]
     for k, v in ARAB_ELO.items():
-        if k in n or n in k: return v
+        if n == k or k in n.split(): return v
     h_val = sum(ord(c) * (idx + 1) for idx, c in enumerate(n)) % 130
     return 1465.0 + h_val
 
