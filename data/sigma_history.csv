@@ -54793,6 +54793,7 @@ date,home,away,home_goals,away_goals,league,source
 2024-07-13,Canada,Uruguay,2,2,Copa America,international_results
 2024-07-14,Argentina,Colombia,1,0,Copa America,international_results
 2024-07-14,Spain,England,2,1,Euro,international_results
+2024-07-15,Argentina,Colombia,1,0,conmebol.america,api
 2024-07-27,Guatemala,El Salvador,0,1,International,international_results
 2024-07-27,Jordan,North Korea,0,0,International,international_results
 2024-08-02,1. FC Köln,Hamburger SV,1,2,Germany 2 Bundesliga,openfootball
@@ -59718,6 +59719,7 @@ date,home,away,home_goals,away_goals,league,source
 2025-07-13,Gozo,Shetland,0,0,International,international_results
 2025-07-13,Hitra,Isle of Man,2,7,International,international_results
 2025-07-13,Orkney,Frøya,3,0,International,international_results
+2025-07-13,Chelsea,Paris Saint-Germain,3,0,fifa.cwc,api
 2025-07-14,Isle of Man,Frøya,10,1,International,international_results
 2025-07-14,Jersey,Gozo,2,0,International,international_results
 2025-07-14,Orkney,Hitra,3,2,International,international_results
@@ -59892,6 +59894,11 @@ date,home,away,home_goals,away_goals,league,source
 2025-09-09,Wales,Canada,0,1,International,international_results
 2025-09-09,Zimbabwe,Rwanda,0,1,World Cup,international_results
 2025-09-20,Man Utd,Chelsea,2,1,England,sigma_old_new_fed.csv:OLD_BACKTEST
+2025-09-28,Young Boys,FC Thun,4,2,sui.1,api
+2025-09-28,FC Basel,FC Luzern,1,2,sui.1,api
+2025-09-28,FC Sion,Lausanne Sports,0,0,sui.1,api
+2025-09-29,Metaloglobus,FC Botosani,0,2,rou.1,api
+2025-09-29,Universitatea Cluj,CFR Cluj-Napoca,2,2,rou.1,api
 2025-10-04,Chelsea,Liverpool,2,1,England,sigma_old_new_fed.csv:OLD_BACKTEST
 2025-10-04,Saint Kitts and Nevis,Saint Martin,5,0,International,international_results
 2025-10-05,Porto,Benfica,0,0,Portugal,sigma_old_new_fed.csv:OLD_BACKTEST
@@ -60236,6 +60243,12 @@ date,home,away,home_goals,away_goals,league,source
 2025-11-18,Wales,North Macedonia,7,1,World Cup,international_results
 2025-11-18,Yemen,Bhutan,7,1,Asian Cup,international_results
 2025-11-19,Laos,Vietnam,0,2,Asian Cup,international_results
+2025-11-19,Costa Rica,Honduras,0,0,fifa.worldq.concacaf,api
+2025-11-19,Guatemala,Suriname,3,1,fifa.worldq.concacaf,api
+2025-11-19,Haiti,Nicaragua,2,0,fifa.worldq.concacaf,api
+2025-11-19,Jamaica,Curaçao,0,0,fifa.worldq.concacaf,api
+2025-11-19,Panama,El Salvador,3,0,fifa.worldq.concacaf,api
+2025-11-19,Trinidad and Tobago,Bermuda,2,2,fifa.worldq.concacaf,api
 2025-11-20,Papua New Guinea,Fiji,2,0,International,international_results
 2025-11-20,Vanuatu,Solomon Islands,2,1,International,international_results
 2025-11-23,Papua New Guinea,Vanuatu,2,2,International,international_results
@@ -60336,6 +60349,7 @@ date,home,away,home_goals,away_goals,league,source
 2026-01-18,Bolivia,Panama,1,1,International,international_results
 2026-01-18,Grenada,Jamaica,0,1,International,international_results
 2026-01-18,Morocco,Senegal,3,0,African Cup,international_results
+2026-01-18,Senegal,Morocco,0,3,caf.nations,api
 2026-01-22,Panama,Mexico,0,1,International,international_results
 2026-01-25,Bolivia,Mexico,0,1,International,international_results
 2026-01-26,Uzbekistan,China,2,2,International,international_results
@@ -60501,8 +60515,25 @@ date,home,away,home_goals,away_goals,league,source
 2026-03-31,Kosovo,Türkiye,0,1,fifa.worldq.uefa,api
 2026-04-04,Atletico,Barcelona,1,2,Spain,sigma_old_new_fed.csv:OLD_BACKTEST
 2026-05-10,Barcelona,Real Madrid,2,0,Spain,sigma_old_new_fed.csv:OLD_BACKTEST
+2026-05-10,Ayutthaya United,Port FC,1,4,tha.1,api
+2026-05-10,BG Pathum United,PT Prachuap FC,3,0,tha.1,api
+2026-05-10,Buriram United,Lamphun Warriors,1,1,tha.1,api
+2026-05-10,Chiangrai United,Uthai Thani FC,1,0,tha.1,api
+2026-05-10,Chonburi FC,Nakhon Ratchasima FC,2,1,tha.1,api
+2026-05-10,Kanchanaburi Power FC,Ratchaburi FC,0,1,tha.1,api
+2026-05-10,Rayong FC,Bangkok United,1,1,tha.1,api
+2026-05-10,Sukhothai FC,Muangthong United,3,0,tha.1,api
 2026-05-16,Republic of Ireland,Grenada,5,0,International,international_results
+2026-05-17,Kuching City,Kuala Lumpur City FC,1,0,mys.1,api
+2026-05-17,Selangor FC,PDRM FC,6,0,mys.1,api
 2026-05-22,Mexico,Ghana,2,0,International,international_results
+2026-05-23,Bhayangkara Presisi,PSBS Biak,7,0,idn.1,api
+2026-05-23,Borneo FC,Malut United,7,1,idn.1,api
+2026-05-23,Madura United FC,PSM Makassar,2,0,idn.1,api
+2026-05-23,Persebaya Surabaya,Persik Kediri,5,0,idn.1,api
+2026-05-23,Persib Bandung,Persijap,0,0,idn.1,api
+2026-05-23,Persija,Semen Padang,3,0,idn.1,api
+2026-05-23,Persita,Persis Solo,1,3,idn.1,api
 2026-05-26,Morocco,Burundi,5,0,International,international_results
 2026-05-26,Nigeria,Zimbabwe,2,0,International,international_results
 2026-05-27,India,Jamaica,0,2,International,international_results
@@ -60527,6 +60558,7 @@ date,home,away,home_goals,away_goals,league,source
 2026-05-31,Singapore,Mongolia,4,0,International,international_results
 2026-05-31,Switzerland,Jordan,4,1,International,international_results
 2026-05-31,United States,Senegal,3,2,International,international_results
+2026-05-31,Toluca,Tigres UANL,1,1,concacaf.champions,api
 2026-06-01,Austria,Tunisia,1,0,International,international_results
 2026-06-01,Bulgaria,Montenegro,0,1,International,international_results
 2026-06-01,Canada,Uzbekistan,2,0,International,international_results
@@ -61372,6 +61404,7 @@ date,home,away,home_goals,away_goals,league,source
 2026-10-28,SC Freiburg,VfL Wolfsburg,3,2,DFB,verified-V44-16
 2026-10-28,SC Paderborn 07,VfB Stuttgart,0,1,DFB,verified-V44-16
 2026-10-28,SSV Jeddeloh II,Hertha BSC,0,2,DFB,verified-V44-16
+2026-10-29,Everton,Newcastle United,3,1,eng.league_cup,api
 2026-10-30,DSC Arminia Bielefeld,Eintracht Braunschweig,3,1,BL2,verified-V44-16
 2026-10-30,Energie Cottbus,VfL Bochum,1,2,BL2,verified-V44-16
 2026-10-30,SV 07 Elversberg,1. FSV Mainz 05,4,1,BL1,verified-V44-16
@@ -61423,6 +61456,15 @@ date,home,away,home_goals,away_goals,league,source
 2026-11-08,Twente,Ajax,2,2,Netherlands,sigma_old_new_fed.csv:NEW_VERIFIED
 2026-11-08,Valencia,Real Madrid,0,3,Spain,sigma_old_new_fed.csv:NEW_VERIFIED
 2026-11-08,VfL Bochum,Karlsruher SC,3,2,BL2,verified-V44-18
+2026-11-08,Beijing Guoan,Chongqing Tonglianglong,1,0,chn.1,api
+2026-11-08,Dalian Yingbo,Tianjin Jinmen Tiger,3,1,chn.1,api
+2026-11-08,Qingdao Hainiu,Shenzhen Xinpengcheng,2,2,chn.1,api
+2026-11-08,Shandong Taishan,Chengdu Rongcheng,3,2,chn.1,api
+2026-11-08,Shanghai Port FC,Liaoning Tieren,6,1,chn.1,api
+2026-11-08,Shanghai Shenhua FC,Qingdao West Coast,4,0,chn.1,api
+2026-11-08,Yunnan Yukun,Wuhan Three Towns,2,1,chn.1,api
+2026-11-08,Zhejiang Professional FC,Henan,4,0,chn.1,api
+2026-11-09,Plymouth Parkway,Berkhamsted,2,1,eng.fa,api
 2026-11-12,England,Croatia,2,1,UNL,web: Sportradar + Gulf News + Sportsmole (verified 2026-11-14)
 2026-11-12,England,Kroatien,2,1,UNL,verified-V44-18
 2026-11-12,Italien,Frankreich,3,1,UNL,verified-V44-18
@@ -61439,6 +61481,40 @@ date,home,away,home_goals,away_goals,league,source
 2026-11-14,Norwegen,Wales,3,1,UNL,verified-V44-18
 2026-11-14,Portugal,Denmark,1,4,UEFA Nations League,verified-14Nov
 2026-11-14,Portugal,Dänemark,1,4,UNL,verified-V44-18
+2026-11-15,Chatou,Les Ulis,0,0,fra.coupe_de_france,api
+2026-11-15,ESAP Metz,Reipertswiller,0,1,fra.coupe_de_france,api
+2026-11-15,Massay,Montlouis,2,2,fra.coupe_de_france,api
+2026-11-15,Montigny-Les-Metz,Pontarlier,0,5,fra.coupe_de_france,api
+2026-11-15,Montreuil FC,Loon Plage FC,0,3,fra.coupe_de_france,api
+2026-11-15,Neslois,Furiani-Agliani,1,4,fra.coupe_de_france,api
+2026-11-15,Olympique Charleville Prix AM,Olympique Marcquois,2,0,fra.coupe_de_france,api
+2026-11-15,Paris 13 Atletico,Red Star FC 93,0,2,fra.coupe_de_france,api
+2026-11-15,Racing Chambery,Chamois Niortais FC,2,2,fra.coupe_de_france,api
+2026-11-15,Riom,FC Limonest,0,4,fra.coupe_de_france,api
+2026-11-15,Rives 82,Trelissac FC,2,1,fra.coupe_de_france,api
+2026-11-15,Rochefort FC,Juventus Papus,2,2,fra.coupe_de_france,api
+2026-11-15,Saint-Die Kellermann,Metz,1,0,fra.coupe_de_france,api
+2026-11-15,Saint-Renan,Stade Laval,1,2,fra.coupe_de_france,api
+2026-11-15,Sedan,Bourges Foot,2,0,fra.coupe_de_france,api
+2026-11-15,Senlis,Saint-Pryvé Saint Hilaire,0,2,fra.coupe_de_france,api
+2026-11-15,Seyssinet,Nimes,0,2,fra.coupe_de_france,api
+2026-11-15,St Martin Tatinghem,Racing Club de France,1,2,fra.coupe_de_france,api
+2026-11-15,Stade Castelbourgeois,Nantes,1,9,fra.coupe_de_france,api
+2026-11-15,Stade Pontivy,Plabennec,0,0,fra.coupe_de_france,api
+2026-11-15,Talange,Baume-Les-Dames,2,0,fra.coupe_de_france,api
+2026-11-15,Tremblay,Maisons-Alfort,2,0,fra.coupe_de_france,api
+2026-11-15,US Marseille Endoume,SC Toulon,2,1,fra.coupe_de_france,api
+2026-11-15,Val Yerres Crosne,Union Cosnoise,2,2,fra.coupe_de_france,api
+2026-11-15,Vandruvre,Epinal,0,3,fra.coupe_de_france,api
+2026-11-15,Veauche,St Paul en Jarez,1,3,fra.coupe_de_france,api
+2026-11-15,Verson,Calais,1,5,fra.coupe_de_france,api
+2026-11-15,Violaines,Vermelles,0,1,fra.coupe_de_france,api
+2026-11-15,Perros-Louannec,Vannes OC,0,7,fra.coupe_de_france,api
+2026-11-15,Stade Sotteville,USF Fecamp,0,0,fra.coupe_de_france,api
+2026-11-15,Atlas Paillade,AS Cannes,0,2,fra.coupe_de_france,api
+2026-11-15,Rumilly Vallières,Saint-Étienne,1,2,fra.coupe_de_france,api
+2026-11-15,Saint-Pauloise FC,La Tamponnaise,1,2,fra.coupe_de_france,api
+2026-11-16,Montevideo Wanderers,Juventud,2,1,uru.1,api
 2026-11-17,Bosnia-Herzegovina,Romania,2,1,uefa.nations,api
 2026-11-17,Denmark,Norway,2,3,uefa.nations,api
 2026-11-17,Hungary,Northern Ireland,1,1,uefa.nations,api
@@ -61465,9 +61541,34 @@ date,home,away,home_goals,away_goals,league,source
 2026-11-17,Chile,Colombia,0,0,fifa.friendly,api
 2026-11-17,Ecuador,Bolivia,2,0,fifa.friendly,api
 2026-11-17,Uruguay,Dominican Republic,5,0,fifa.friendly,api
+2026-11-17,Burundi,Zambia,1,1,caf.nations_qual,api
+2026-11-17,Ethiopia,Mozambique,0,1,caf.nations_qual,api
+2026-11-17,Lesotho,Gabon,2,1,caf.nations_qual,api
+2026-11-17,Malawi,Egypt,0,0,caf.nations_qual,api
+2026-11-17,South Sudan,Angola,0,1,caf.nations_qual,api
+2026-11-17,Tanzania,Nigeria,0,0,caf.nations_qual,api
+2026-11-17,Gambia,Ivory Coast,2,2,caf.nations_qual,api
+2026-11-17,Guinea-Bissau,Madagascar,2,0,caf.nations_qual,api
+2026-11-17,Kenya,South Africa,1,2,caf.nations_qual,api
+2026-11-17,Libya,Tunisia,1,1,caf.nations_qual,api
+2026-11-17,Sierra Leone,Congo DR,1,1,caf.nations_qual,api
+2026-11-17,Togo,Algeria,3,0,caf.nations_qual,api
+2026-11-17,Botswana,Uganda,1,1,caf.nations_qual,api
+2026-11-17,Congo,Comoros,0,1,caf.nations_qual,api
+2026-11-17,Liberia,Cape Verde,2,0,caf.nations_qual,api
+2026-11-17,Mauritania,Burkina Faso,1,3,caf.nations_qual,api
+2026-11-17,Rwanda,Mali,0,2,caf.nations_qual,api
+2026-11-17,Niger,Morocco,0,1,caf.nations_qual,api
 2026-11-18,Coritiba,Santos,0,1,bra.1,api
 2026-11-18,Remo,Chapecoense,2,0,bra.1,api
 2026-11-18,Cruzeiro,Palmeiras,2,1,bra.1,api
 2026-11-18,Flamengo,Athletico-PR,2,1,bra.1,api
+2026-11-18,Portugalete,Real Unión Irun,0,0,esp.copa_del_rey,api
+2026-11-18,Utebo,CD Sabadell,0,3,esp.copa_del_rey,api
+2026-11-18,Alcoyano,Mallorca,1,3,esp.copa_del_rey,api
+2026-11-18,Badajoz,Tenerife,2,5,esp.copa_del_rey,api
+2026-11-18,CD Minera,FC Cartagena,1,2,esp.copa_del_rey,api
+2026-11-18,Reus FC Reddis,Barakaldo,1,1,esp.copa_del_rey,api
+2026-11-18,Alianza Atlético,Melgar,1,1,per.1,api
 2026-11-19,Corinthians,Botafogo,4,0,bra.1,api
 2026-11-19,Grêmio,Bahia,0,0,bra.1,api

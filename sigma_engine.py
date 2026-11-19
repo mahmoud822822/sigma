@@ -74,7 +74,23 @@ def pred(h,a,R,w):
  return {"p1":p1,"pX":px,"p2":p2,"conf":cf,"btts":round(100*bt/tot,1),"over25":round(100*ov/tot,1),"xg_home":round(lh,2),"xg_away":round(la,2),"elo_home":round(R["elo"].get(h,1500)),"elo_away":round(R["elo"].get(a,1500)),"pick":pk,"grade":"A+" if cf>=70 else "A" if cf>=60 else "B" if cf>=50 else "C","quality":qu,"golden":(62<=cf<=82 and qu=="full"),"top_scores":[x[1] for x in sc[:3]]}
 def fetch(t):
  fx,rs=[],[]
- for lg in ["eng.1","eng.2","esp.1","ita.1","ger.1","fra.1","por.1","ned.1","tur.1","bel.1","sco.1","uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.friendly","egy.1","ksa.1","caf.champions","afc.champions","bra.1","arg.1","usa.1","mex.1"]:
+ for lg in [
+"eng.1","eng.2","eng.3","eng.4","eng.fa","eng.league_cup",
+"esp.1","esp.2","esp.copa_del_rey",
+"ita.1","ita.2","ita.coppa_italia",
+"ger.1","ger.2","ger.dfb_pokal",
+"fra.1","fra.2","fra.coupe_de_france",
+"por.1","ned.1","tur.1","bel.1","sco.1","gre.1","sui.1","aut.1","den.1","swe.1","nor.1","pol.1","cze.1","rus.1","ukr.1","rou.1","hun.1","cro.1","srb.1",
+"uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","uefa.euroq",
+"egy.1","ksa.1","uae.1","qat.1","mar.1","tun.1","alg.1","kuw.1","bhr.1","oma.1","jor.1","irq.1",
+"caf.champions","caf.confed","caf.nations","caf.nations_qual",
+"afc.champions","afc.cup","afc.asian_cup","afc.worldq",
+"jpn.1","kor.1","chn.1","aus.1","ind.1","idn.1","tha.1","mys.1",
+"bra.1","bra.2","arg.1","col.1","chi.1","per.1","uru.1","ecu.1","par.1","ven.1","bol.1",
+"conmebol.libertadores","conmebol.sudamericana","conmebol.america",
+"usa.1","mex.1","crc.1","concacaf.champions","concacaf.gold","concacaf.nations",
+"fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.worldq.concacaf","fifa.friendly","fifa.cwc"
+]:
   o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard")
   for ev in (o or {}).get("events",[]):
    try:
