@@ -74,8 +74,8 @@ def pred(h,a,R,w):
  return {"p1":p1,"pX":px,"p2":p2,"conf":cf,"btts":round(100*bt/tot,1),"over25":round(100*ov/tot,1),"xg_home":round(lh,2),"xg_away":round(la,2),"elo_home":round(R["elo"].get(h,1500)),"elo_away":round(R["elo"].get(a,1500)),"pick":pk,"grade":"A+" if cf>=70 else "A" if cf>=60 else "B" if cf>=50 else "C","quality":qu,"golden":(62<=cf<=82 and qu=="full"),"top_scores":[x[1] for x in sc[:3]]}
 def fetch(t):
  fx,rs=[],[]
- for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
-  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=10)).strftime('%Y%m%d')}")
+ for lg in ["eng.1","eng.2","esp.1","ita.1","ger.1","fra.1","por.1","ned.1","tur.1","bel.1","sco.1","uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.friendly","egy.1","ksa.1","caf.champions","afc.champions","bra.1","arg.1","usa.1","mex.1"]:
+  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=14)).strftime('%Y%m%d')}")
   for ev in (o or {}).get("events",[]):
    try:
     d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
