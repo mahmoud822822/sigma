@@ -329,6 +329,46 @@ def get_base_elo(n, pool):
     h_val = sum(ord(c) * (idx + 1) for idx, c in enumerate(n)) % 115
     return 1470.0 + h_val
 
+
+def fetch_standings_stakes(leagues):
+    stakes = {}
+    for lg in list(set(leagues))[:28]:
+        try:
+            d = hjson(f"https://espn.com{lg}/standings")
+            entries = d.get("children", [{}])[0].get("standings", {}).get("entries", [])
+            n_tm = len(entries)
+            if n_tm < 6: continue
+            for idx, ent in enumerate(entries):
+                tn = norm(ent.get("team", {}).get("displayName", ""))
+                pos = idx + 1
+                if pos <= 3:
+                    stakes[tn] = (18, "🏆 صراع القمة واللقب")
+                elif pos >= n_tm - 2:
+                    stakes[tn] = (16, "🔥 معركة الهروب من الهبوط")
+        except Exception:
+            pass
+    return stakes
+
+def send_telegram_alerts(matches):
+    tok = os.getenv("TELEGRAM_TOKEN", "").strip()
+    cid = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    if not tok or not cid: return
+    top = [m for m in matches if m.get("golden")][:5]
+    if not top: return
+    lines = ["👑 *SIGMA AI V300-SINGULARITY — أقوى الفرص الذهبية*\n"]
+    for m in top:
+        pk = f"فوز {m['home']}" if m["pick"]=="1" else (f"فوز {m['away']}" if m["pick"]=="2" else "تعادل")
+        lines.append(f"⚽ *{m['home']} vs {m['away']}*\n🏆 {m.get('league_name',m['league'])} | 📅 {m['date']}\n🎯 التوقع: *{pk}* ({m['conf']}%) | 🛡️ أمان: {m['dc_pick']} ({m['dc_prob']}%)\n")
+    try:
+        req = urllib.request.Request(
+            f"https://telegram.org{tok}/sendMessage",
+            data=json.dumps({"chat_id": cid, "text": "\n".join(lines), "parse_mode": "Markdown"}).encode(),
+            headers={"Content-Type": "application/json"}
+        )
+        urllib.request.urlopen(req, timeout=8)
+    except Exception:
+        pass
+
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     diff = (get_base_elo(nh, R["elo"]) + 32.0) - get_base_elo(na, R["elo"])
