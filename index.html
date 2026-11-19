@@ -17,8 +17,8 @@
   .tabs{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-bottom:9px;background:var(--card);padding:4px;border-radius:12px;border:1px solid var(--bd)}
   .tab{padding:7px 2px;font-weight:700;font-size:.66rem;cursor:pointer;text-align:center;border-radius:8px;color:var(--mt);transition:.2s}
   .tab.on{background:linear-gradient(135deg,#10b981,#059669);color:#022c22}
-  .qpills{display:flex;gap:5px;overflow-x:auto;padding-bottom:6px;margin-bottom:8px}
-  .qpill{background:var(--card);border:1px solid var(--bd);color:var(--mt);padding:5px 11px;border-radius:20px;font-size:.7rem;font-weight:700;white-space:nowrap;cursor:pointer}
+  .qpills{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-bottom:8px}
+  .qpill{background:var(--card);border:1px solid var(--bd);color:var(--mt);padding:6px 4px;border-radius:10px;font-size:.68rem;font-weight:700;text-align:center;cursor:pointer}
   .qpill.on{background:rgba(245,158,11,.18);color:var(--gd);border-color:var(--gd)}
   .filters{display:grid;grid-template-columns:1.2fr 1fr;gap:7px;margin-bottom:10px}
   input,select{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:10px;padding:9px;font-size:.78rem;width:100%}
