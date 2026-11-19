@@ -289,8 +289,17 @@ def calc_poisson(lh, la, rho=-0.06):
     scores.sort(reverse=True)
     return {"p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk, "ov15": ov15, "over25": ov25, "btts": btts, "dc_pick": dc_pick, "dc_prob": dc_prob, "top_scores": [sc for _, sc in scores[:3]]}
 
+def resolve_team(name, pool):
+    n = norm(name)
+    if n in pool: return n
+    toks = [w for w in n.split() if len(w) > 3]
+    for k in pool:
+        if n in k or k in n or any(t in k.split() for t in toks):
+            return k
+    return n
+
 def pred(h, a, R, w, lg=""):
-    nh, na = norm(h), norm(a)
+    nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     diff = (R["elo"].get(nh, 1500.0) + 32.0) - R["elo"].get(na, 1500.0)
     ef = math.exp(max(-0.75, min(0.75, diff * 0.00125)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
