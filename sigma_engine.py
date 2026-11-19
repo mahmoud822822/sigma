@@ -189,9 +189,9 @@ def fetch(t):
         d = date.fromisoformat(ev["date"][:10])
         st = ev.get("status", {}).get("type", {}).get("state", "")
         if st == "post":
-            return None, {"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(m.get("raw_date", m.get("date","")))), "date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
+            return None, {"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
         elif st == "pre":
-            return {"id": str(ev.get("id", "")), "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(m.get("raw_date", m.get("date","")))), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": lg_name}, None
+            return {"id": str(ev.get("id", "")), "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": lg_name}, None
         return None, None
 
     # 1. Auto-discover active global fixtures first
@@ -485,7 +485,7 @@ def run():
     with open(HF, "w", encoding="utf-8", newline="") as f:
         w_csv = csv.DictWriter(f, ["date", "league", "home", "away", "hg", "ag"]); w_csv.writeheader()
         for r in sorted(hist, key=lambda x: x["d"]):
-            w_csv.writerow({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(m.get("raw_date", m.get("date","")))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]})
+            w_csv.writerow({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]})
     w = json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k": 22, "elo_home": 32, "elo_adj": 0.00125, "rho": -0.06, "decay": 0.0022}
     R = build(hist, t, w)
     log = json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
@@ -513,7 +513,7 @@ def run():
     with ThreadPoolExecutor(max_workers=25) as pool:
         for m, pr in pool.map(enrich, enumerate(fx_sorted)):
             k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-            row = {"key": k, "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(m.get("raw_date", m.get("date","")))), "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
+            row = {"key": k, "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
             up.append(row)
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
@@ -523,7 +523,7 @@ def run():
         for r in sorted(hist, key=lambda x: x["d"], reverse=True)[:60]:
             pr = pred(r["home"], r["away"], R, w, r.get("league", ""))
             out = "1" if r["hg"] > r["ag"] else "X" if r["hg"] == r["ag"] else "2"
-            gr.append({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(m.get("raw_date", m.get("date","")))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "pick": pr["pick"], "conf": pr["conf"], "over25": pr["over25"], "golden": pr["golden"], "dc_pick": pr["dc_pick"], "result": f"{r['hg']}-{r['ag']}", "outcome": out, "hit": (pr["pick"] == out)})
+            gr.append({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "pick": pr["pick"], "conf": pr["conf"], "over25": pr["over25"], "golden": pr["golden"], "dc_pick": pr["dc_pick"], "result": f"{r['hg']}-{r['ag']}", "outcome": out, "hit": (pr["pick"] == out)})
     ht = sum(1 for e in gr if e.get("hit"))
     hp = round(100 * ht / len(gr), 1) if gr else 0.0
     gr_gold = [e for e in gr if e.get("golden") or e.get("conf", 0) >= 56]
