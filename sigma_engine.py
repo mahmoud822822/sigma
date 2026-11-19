@@ -196,7 +196,7 @@ def fetch(t):
 
     # 1. Auto-discover active global fixtures first
     for ds in days[:7]:
-        gdata = hjson(f"{base}/all/scoreboard?dates={ds}&limit=300", timeout=8)
+        gdata = hjson(f"{base}/all/scoreboard?dates={ds}&limit=300")
         if gdata:
             for ev in gdata.get("events", []):
                 lg_s = ev.get("league", {}).get("slug", "")
@@ -213,7 +213,7 @@ def fetch(t):
     tasks = [(lg, ds) for lg in sorted(leagues) for ds in days]
     def pull(item):
         lg, ds = item
-        data = hjson(f"{base}/{lg}/scoreboard?dates={ds}", timeout=6)
+        data = hjson(f"{base}/{lg}/scoreboard?dates={ds}")
         if not data: return [], []
         lg_title = next((x.get("name", "") for x in data.get("leagues", [])), lg)
         fx_l, rs_l = [], []
