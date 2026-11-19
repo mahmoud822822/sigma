@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 import os,json,csv,math,time,re,urllib.request
 from datetime import datetime,date,timedelta,timezone
 from pathlib import Path
@@ -253,94 +254,81 @@ def pred(h, a, R, w, lg=""):
     return {**res, "xg_home":round(lh,2), "xg_away":round(la,2), "elo_home":round(R["elo"].get(nh,1500)), "elo_away":round(R["elo"].get(na,1500)), "grade":"A+" if res["conf"]>=65 else "A" if res["conf"]>=56 else "B" if res["conf"]>=48 else "C", "quality":qu, "golden":is_gold}
 
 def run():
-    t=datetime.now(timezone.utc).date()
-    fx,rs=fetch(t)
-    hist,ex=[],set()
+    t = datetime.now(timezone.utc).date()
+    fx, rs = fetch(t)
+    hist, ex = [], set()
     if HF.exists():
-        with open(HF,encoding="utf-8") as f:
+        with open(HF, encoding="utf-8") as f:
             for r in csv.DictReader(f):
-                d=date.fromisoformat(r["date"]);k=(d,norm(r["home"]),norm(r["away"]))
-                if k not in ex: ex.add(k);hist.append({"d":d,"league":r["league"],"home":r["home"],"away":r["away"],"hg":int(r.get("hg") or r.get("home_goals") or r.get("FTHG") or 0),"ag":int(r.get("ag") or r.get("away_goals") or r.get("FTAG") or 0)})
-    add=0
+                d = date.fromisoformat(r["date"])
+                k = (d, norm(r["home"]), norm(r["away"]))
+                if k not in ex:
+                    ex.add(k)
+                    hg = int(r.get("hg") or r.get("home_goals") or r.get("FTHG") or 0)
+                    ag = int(r.get("ag") or r.get("away_goals") or r.get("FTAG") or 0)
+                    hist.append({"d": d, "league": r["league"], "home": r["home"], "away": r["away"], "hg": hg, "ag": ag})
+    add = 0
     for r in rs:
-        k=(r["date"],norm(r["home"]),norm(r["away"]))
-        if k not in ex: ex.add(k);hist.append({"d":r["date"],"league":r["league"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"]});add+=1
-    with open(HF,"w",encoding="utf-8",newline="") as f:
-        w=csv.DictWriter(f,["date","league","home","away","hg","ag"]);w.writeheader()
-        for r in sorted(hist,key=lambda x:x["d"]): w.writerow({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"]})
-    w=json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k":22,"elo_home":45,"elo_adj":0.0022,"rho":-0.08,"decay":0.0018}
-    R=build(hist,t,w)
-    log=json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
+        k = (r["date"], norm(r["home"]), norm(r["away"]))
+        if k not in ex:
+            ex.add(k); hist.append({"d": r["date"], "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]}); add += 1
+    with open(HF, "w", encoding="utf-8", newline="") as f:
+        w_csv = csv.DictWriter(f, ["date", "league", "home", "away", "hg", "ag"]); w_csv.writeheader()
+        for r in sorted(hist, key=lambda x: x["d"]):
+            w_csv.writerow({"date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]})
+    w = json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k": 22, "elo_home": 32, "elo_adj": 0.00125, "rho": -0.06, "decay": 0.0022}
+    R = build(hist, t, w)
+    log = json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
     for r in rs:
-        k=f"{r['date']}|{norm(r['home'])}|{norm(r['away'])}"
+        k = f"{r['date']}|{norm(r['home'])}|{norm(r['away'])}"
         if k in log and not log[k].get("result"):
-            out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
-            log[k]["result"]=f"{r['hg']}-{r['ag']}";log[k]["outcome"]=out;log[k]["hit"]=(log[k]["pick"]==out)
-    from concurrent.futures import ThreadPoolExecutor
+            out = "1" if r["hg"] > r["ag"] else "X" if r["hg"] == r["ag"] else "2"
+            log[k]["result"] = f"{r['hg']}-{r['ag']}"; log[k]["outcome"] = out; log[k]["hit"] = (log[k]["pick"] == out)
     fx_sorted = sorted(fx, key=lambda x: x["date"])
     def enrich(idx_m):
         idx, m = idx_m
-        pr = pred(m["home"], m["away"], R, w, m.get("league",""))
-        if idx < 180 and m.get("id"):
-            intel = get_real_intel(m["league"], m["id"], m.get("hid",""), m.get("aid",""), m["home"], m["away"], hist)
-            adj_h = max(0.75, 1.0 - intel["inj_h"]*0.035 + (intel["fh"]-1.5)*0.08)
-            adj_a = max(0.75, 1.0 - intel["inj_a"]*0.035 + (intel["fa"]-1.5)*0.08)
-            lh_n = max(0.40, min(3.2, pr["xg_home"] * adj_h))
-            la_n = max(0.35, min(2.9, pr["xg_away"] * adj_a))
-            p1,px,p2,ov25,btts,bp,pk,cf,top_sc = calc_poisson(lh_n, la_n)
-            pr.update({"xg_home":round(lh_n,2),"xg_away":round(la_n,2),"p1":p1,"pX":px,"p2":p2,"over25":ov25,"btts":btts,"pick":pk,"conf":cf,"top_scores":top_sc,"golden":(cf>=57.0) or (ov25>=62.0 and cf>=50.0)})
-            if intel["mkt"][0]:
-                mp1, mpx, mp2 = intel["mkt"]
-                pr["p1"] = round(pr["p1"]*0.65 + mp1*0.35, 1)
-                pr["pX"] = round(pr["pX"]*0.65 + mpx*0.35, 1)
-                pr["p2"] = round(pr["p2"]*0.65 + mp2*0.35, 1)
-                bp, pk = max((pr["p1"],"1"),(pr["pX"],"X"),(pr["p2"],"2"))
-                pr["pick"], pr["conf"] = pk, min(88.0, bp)
-                pr["golden"] = (pr["conf"] >= 58.0) or (pr["over25"] >= 64.0 and pr["conf"] >= 50.0)
-            pr["intel"] = intel["notes"]
+        pr = pred(m["home"], m["away"], R, w, m.get("league", ""))
+        if idx < 150:
+            intel = get_real_intel(m["league"], m.get("id", ""), m.get("hid", ""), m.get("aid", ""), m["home"], m["away"], hist)
+            adj_h = max(0.76, min(1.22, 1.0 - intel["inj_h"] * 0.03 + (intel["fh"] - 1.5) * 0.06))
+            adj_a = max(0.76, min(1.22, 1.0 - intel["inj_a"] * 0.03 + (intel["fa"] - 1.5) * 0.06))
+            lh_n = max(0.40, min(3.0, pr["xg_home"] * adj_h))
+            la_n = max(0.35, min(2.7, pr["xg_away"] * adj_a))
+            res = calc_poisson(lh_n, la_n, w.get("rho", -0.06))
+            pr.update({**res, "xg_home": round(lh_n, 2), "xg_away": round(la_n, 2), "golden": (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0), "intel": intel["notes"]})
         else:
-            pr["intel"] = "📊 تحليل Elo + Poisson"
+            pr["intel"] = "📊 معايرة الدوري + التلاشي الزمني"
         return m, pr
-    up=[]
-    with ThreadPoolExecutor(max_workers=20) as ex:
-        enriched = list(ex.map(enrich, enumerate(fx_sorted)))
-    for m, pr in enriched:
-        k=f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-        row={"key":k,"date":m["date"].isoformat(),"league":m["league"],"home":m["home"],"away":m["away"],**pr}
-        up.append(row)
-        if k not in log: log[k]={**row,"result":None,"outcome":None,"hit":None}
-    LF.write_text(json.dumps(log,ensure_ascii=False))
-    gr=[e for e in log.values() if e.get("result")]
+    up = []
+    with ThreadPoolExecutor(max_workers=25) as pool:
+        for m, pr in pool.map(enrich, enumerate(fx_sorted)):
+            k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
+            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "home": m["home"], "away": m["away"], **pr}
+            up.append(row)
+            if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
+    LF.write_text(json.dumps(log, ensure_ascii=False))
+    gr = [e for e in log.values() if e.get("result")]
     if not gr:
-        for r in sorted(hist,key=lambda x:x["d"],reverse=True)[:40]:
-            pr=pred(r["home"],r["away"],R,w,r.get("league",""));out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
-            gr.append({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"pick":pr["pick"],"conf":pr["conf"],"over25":pr["over25"],"golden":pr["golden"],"dc_pick":pr["dc_pick"],"result":f"{r['hg']}-{r['ag']}","outcome":out,"hit":(pr["pick"]==out)})
-    ht=sum(1 for e in gr if e.get("hit"));hp=round(100*ht/len(gr),1) if gr else 0.0
-    te=sorted(R["elo"].items(),key=lambda x:x[1],reverse=True)[:30]
-    sd={"version":VERSION,"generated_utc":datetime.now(timezone.utc).isoformat(timespec="seconds"),"stats":{"upcoming":len(up),"history_count":len(hist),"graded":len(gr),"hit_pct":hp},"weights":w,"top_elo":[{"team":tm,"elo":round(sc)} for tm,sc in te],"matches":sorted(up,key=lambda x:(x["date"],-x["conf"])),"recent_results":sorted(gr,key=lambda x:x["date"],reverse=True)[:40]}
-    gr_gold = [e for e in gr if e.get("golden") or e.get("conf",0)>=56]
-    gold_acc = round(100*sum(1 for e in gr_gold if e.get("hit"))/len(gr_gold), 1) if gr_gold else hp
-    dc_hits = sum(1 for e in gr if (e.get("dc_pick")=="1X" and e.get("outcome") in ("1","X")) or (e.get("dc_pick")=="X2" and e.get("outcome") in ("2","X")))
-    dc_acc = round(100*dc_hits/len(gr), 1) if gr else 81.5
-    sd["stats"]["gold_acc"] = gold_acc
-    sd["stats"]["dc_acc"] = dc_acc
-    SF.write_text(json.dumps(sd,ensure_ascii=False,indent=1))
-    tg_tok, tg_cid = os.environ.get("TELEGRAM_BOT_TOKEN","").strip(), os.environ.get("TELEGRAM_CHAT_ID","").strip()
-    if tg_tok and tg_cid and up:
-        try:
-            top5 = [m for m in sd["matches"] if m.get("golden")][:5]
-            if top5:
-                msg = "⚡ *SIGMA AI V90-APEX | ترشيحات اليوم الذهبية*\n\n" + "\n".join([f"⚽ {m['home']} vs {m['away']}\n🎯 {m['pick']} ({m['conf']}%) | أمان {m['dc_pick']} ({m['dc_prob']}%) | +2.5: {m['over25']}%" for m in top5]) + "\n\n✍️ Mahmoud Emad"
-                req = urllib.request.Request(f"https://telegram.org{tg_tok}/sendMessage", data=json.dumps({"chat_id":tg_cid,"text":msg,"parse_mode":"Markdown"}).encode(), headers={"Content-Type":"application/json"})
-                urllib.request.urlopen(req, timeout=8)
-        except Exception:
-            pass
+        for r in sorted(hist, key=lambda x: x["d"], reverse=True)[:60]:
+            pr = pred(r["home"], r["away"], R, w, r.get("league", ""))
+            out = "1" if r["hg"] > r["ag"] else "X" if r["hg"] == r["ag"] else "2"
+            gr.append({"date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "pick": pr["pick"], "conf": pr["conf"], "over25": pr["over25"], "golden": pr["golden"], "dc_pick": pr["dc_pick"], "result": f"{r['hg']}-{r['ag']}", "outcome": out, "hit": (pr["pick"] == out)})
+    ht = sum(1 for e in gr if e.get("hit"))
+    hp = round(100 * ht / len(gr), 1) if gr else 0.0
+    gr_gold = [e for e in gr if e.get("golden") or e.get("conf", 0) >= 56]
+    gold_acc = round(100 * sum(1 for e in gr_gold if e.get("hit")) / len(gr_gold), 1) if gr_gold else hp
+    dc_hits = sum(1 for e in gr if (e.get("dc_pick") == "1X" and e.get("outcome") in ("1", "X")) or (e.get("dc_pick") == "X2" and e.get("outcome") in ("2", "X")))
+    dc_acc = round(100 * dc_hits / len(gr), 1) if gr else 81.5
+    te = sorted(R["elo"].items(), key=lambda x: x, reverse=True)[:30]
+    sd = {
+        "version": VERSION, "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "stats": {"upcoming": len(up), "history_count": len(hist), "graded": len(gr), "hit_pct": hp, "gold_acc": gold_acc, "dc_acc": dc_acc},
+        "weights": w, "top_elo": [{"team": tm, "elo": round(sc)} for tm, sc in te],
+        "matches": sorted(up, key=lambda x: (x["date"], -x["conf"])),
+        "recent_results": sorted(gr, key=lambda x: x["date"], reverse=True)[:60]
+    }
+    SF.write_text(json.dumps(sd, ensure_ascii=False, indent=1))
+    print(f"✅ Sigma {VERSION} Done: History={len(hist)} | Upcoming={len(up)} | New={add} | Acc={hp}% | Gold={gold_acc}% | Safe={dc_acc}%")
 
-    su,sk=os.environ.get("SUPABASE_URL","").strip(),os.environ.get("SUPABASE_SERVICE_KEY","").strip()
-    if su and sk:
-        supa(su,sk,"sigma_predictions",[{"match_key":m["key"],"match_date":m["date"],"league":m["league"],"home":m["home"],"away":m["away"],"p1":m["p1"],"px":m["pX"],"p2":m["p2"],"btts":m["btts"],"over25":m["over25"],"xg_home":m["xg_home"],"xg_away":m["xg_away"],"pick":m["pick"],"grade":m["grade"],"data_quality":m["quality"],"golden":m["golden"],"model":VERSION} for m in up])
-        supa(su,sk,"sigma_heartbeat",[{"id":1,"beat_at":datetime.now(timezone.utc).isoformat()}])
-    print(f"✅ Sigma V75 Done: History={len(hist)} | Upcoming={len(up)} | New={add} | Acc={hp}%")
-
-if __name__=="__main__":
+if __name__ == "__main__":
     run()
