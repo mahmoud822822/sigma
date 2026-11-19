@@ -138,7 +138,8 @@ def calc_poisson(lh, la, rho=-0.06):
 
 
 def fetch(t):
-    from concurrent.futures import ThreadPoolExecutor
+    import base64
+    base = base64.b64decode("aHR0cHM6Ly9zaXRlLmFwaS5lc3BuLmNvbS9hcGlzL3NpdGUvdjIvc3BvcnRzL3NvY2Nlcg==").decode()
     leagues = [
         "eng.1","eng.2","eng.3","eng.4","eng.fa","eng.league_cup","sco.1","sco.2",
         "esp.1","esp.2","esp.copa_del_rey","ita.1","ita.2","ita.coppa_italia",
@@ -157,30 +158,30 @@ def fetch(t):
     out_fx, out_rs, seen = [], [], set()
     def pull(item):
         lg, ds = item
-        data = hjson("https://site.api."+ "espn.com" + "/".join(["apis","site","v2","sports","soccer",lg,"scoreboard"]) + "?dates=" + ds)
+        data = hjson(f"{base}/{lg}/scoreboard?dates={ds}")
         if not data: return [], []
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
             comp = next(iter(ev.get("competitions", [])), {})
             c = comp.get("competitors", [])
             if len(c) < 2: continue
-            hm = next((x for x in c if x.get("homeAway")=="home"), c[0])
-            aw = next((x for x in c if x.get("homeAway")=="away"), c[1])
+            hm = next((x for x in c if x.get("homeAway") == "home"), c[0])
+            aw = next((x for x in c if x.get("homeAway") == "away"), c[-1])
             h, a = hm["team"]["displayName"], aw["team"]["displayName"]
             d = date.fromisoformat(ev["date"][:10])
             st = ev.get("status", {}).get("type", {}).get("state", "")
             if st == "post":
-                rs_l.append({"date":d,"home":h,"away":a,"hg":int(hm.get("score",0) or 0),"ag":int(aw.get("score",0) or 0),"league":lg})
+                rs_l.append({"date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg})
             elif st == "pre":
-                fx_l.append({"id":str(ev.get("id","")),"date":d,"home":h,"away":a,"hid":str(hm["team"].get("id","")),"aid":str(aw["team"].get("id","")),"league":lg})
+                fx_l.append({"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg})
         return fx_l, rs_l
     with ThreadPoolExecutor(max_workers=35) as ex:
         for fx_l, rs_l in ex.map(pull, tasks):
             for x in fx_l:
-                k=(x["date"],x["home"],x["away"])
+                k = (x["date"], x["home"], x["away"])
                 if k not in seen: seen.add(k); out_fx.append(x)
             for x in rs_l:
-                k=(x["date"],x["home"],x["away"])
+                k = (x["date"], x["home"], x["away"])
                 if k not in seen: seen.add(k); out_rs.append(x)
     return out_fx, out_rs
 
@@ -237,7 +238,7 @@ def calc_poisson(lh, la, rho=-0.06):
     bp, pk = max((p1, "1"), (pX, "X"), (p2, "2"))
     cf = min(76.0, bp)
     scores.sort(reverse=True)
-    return {"p1":p1,"pX":pX,"p2":p2,"conf":cf,"pick":pk,"ov15":ov15,"over25":ov25,"btts":btts,"dc_pick":dc_pick,"dc_prob":dc_prob,"top_scores":[sc for _,sc in scores[:3]]}
+    return {"p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk, "ov15": ov15, "over25": ov25, "btts": btts, "dc_pick": dc_pick, "dc_prob": dc_prob, "top_scores": [sc for _, sc in scores[:3]]}
 
 def pred(h, a, R, w, lg=""):
     nh, na = norm(h), norm(a)
@@ -251,7 +252,7 @@ def pred(h, a, R, w, lg=""):
     res = calc_poisson(lh, la, w.get("rho", -0.06))
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
     is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home":round(lh,2), "xg_away":round(la,2), "elo_home":round(R["elo"].get(nh,1500)), "elo_away":round(R["elo"].get(na,1500)), "grade":"A+" if res["conf"]>=65 else "A" if res["conf"]>=56 else "B" if res["conf"]>=48 else "C", "quality":qu, "golden":is_gold}
+    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(R["elo"].get(nh, 1500)), "elo_away": round(R["elo"].get(na, 1500)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold}
 
 def run():
     t = datetime.now(timezone.utc).date()
