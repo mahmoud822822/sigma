@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V130-APEX LEGEND | Mahmoud Emad</title>
+<title>SIGMA AI V145-APEX OMEGA | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -52,7 +52,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V130-APEX LEGEND 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V145-APEX OMEGA 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div style="font-size:.64rem;color:var(--ac);font-weight:700">● 220+ دوري عالمي</div></div>
 </header>
 <div class="stats">
@@ -109,7 +109,7 @@ function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V130-APEX LEGEND",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V145-APEX OMEGA",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
@@ -150,7 +150,7 @@ function rn(){
   const tp=Math.max(1,Math.ceil(w.length/pp));pg=Math.min(Math.max(1,pg),tp);
   pi.textContent=`صفحة ${pg} من ${tp} (${w.length})`;b1.disabled=pg<=1;b2.disabled=pg>=tp;
   window._cur=w.slice((pg-1)*pp,pg*pp);
-  ls.innerHTML=window._cur.map((m,i)=>{
+  try{ ls.innerHTML=window._cur.map((m,i)=>{
     const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
     return `<div class="card ${m.golden?"gold":""}">
       <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
@@ -186,7 +186,7 @@ function rn(){
         <div class="reasons">${(m.reasons||[]).map(r=>"• "+r).join("<br>")}</div>
       </div>
     </div>`;
-  }).join("")||"<div class=card style='text-align:center'>لا توجد مباريات مطابقة</div>";
+  }).join("")||"<div class=card style='text-align:center'>لا توجد مباريات مطابقة</div>"; }catch(err){ ls.innerHTML="<div class=card style='color:#fca5a5'>"+err.message+"</div>"; }
 }
 </script>
 </body>
