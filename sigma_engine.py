@@ -191,7 +191,7 @@ def fetch(t):
         if st == "post":
             return None, {"date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
         elif st == "pre":
-            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "league_name": lg_name}, None
+            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "league_name": lg_name}, None
         return None, None
 
     # 1. Auto-discover active global fixtures first
@@ -318,7 +318,20 @@ ARAB_ELO = {
     "sundowns": 1700, "orlando pirates": 1635, "kaizer chiefs": 1600, "persepolis": 1645, "esteghlal": 1635, "ulsan": 1660, "jeonbuk": 1645, "vissel kobe": 1665, "yokohama": 1650
 }
 RESERVE_TAGS = (" u17"," u18"," u19"," u20"," u21"," u23"," women"," (w)"," wfc"," feminino"," ladies"," reserves"," castilla"," ii"," b")
-def is_reserve(name):
+
+def detect_tier(home, away, league):
+    txt = f" {home} {away} {league} ".lower()
+    if any(k in txt for k in ["women","wfc","feminino","femenil","femminile","frauen","ladies","(w)","uwcl","nwsl","wsl"]):
+        return "👩 سيدات"
+    for u in ["u17","u18","u19","u20","u21","u23"]:
+        if f" {u} " in txt or f"-{u}" in txt or f"({u})" in txt:
+            return f"👦 {u.upper()}"
+    if any(f" {home.lower()} ".endswith(x) or f" {away.lower()} ".endswith(x) for x in [" b "," ii "," reserves "," castilla "]) or "jong " in txt:
+        return "🔁 رديف B"
+    return ""
+
+def is_reserve(name, league=""):
+    if detect_tier(name, "", league) != "": return True
     ln = " " + name.lower().strip()
     return any(ln.endswith(t) or (t + " ") in ln for t in RESERVE_TAGS)
 
@@ -446,7 +459,7 @@ def run():
     with ThreadPoolExecutor(max_workers=25) as pool:
         for m, pr in pool.map(enrich, enumerate(fx_sorted)):
             k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
+            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
             up.append(row)
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
