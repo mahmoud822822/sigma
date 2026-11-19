@@ -157,11 +157,11 @@ def fetch(t):
     out_fx, out_rs, seen = [], [], set()
     def pull(item):
         lg, ds = item
-        data = hjson(f"https://site.api.://espn.com{lg}/scoreboard?dates={ds}")
+        data = hjson(f"https://site.api."+"://espn.com{lg}/scoreboard?dates={ds}")
         if not data: return [], []
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
-            comp = ev.get("competitions", [{}])[0]
+            comp = ev.get("competitions", [{}])[0][0]
             c = comp.get("competitors", [])
             if len(c) < 2: continue
             hm = next((x for x in c if x.get("homeAway")=="home"), c[0])
