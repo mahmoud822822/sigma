@@ -127,7 +127,7 @@ def calc_poisson(lh, la, rho=-0.06):
     dc_pick = "1X" if dc_1x >= dc_x2 else "X2"
     dc_prob = max(dc_1x, dc_x2)
     bp, pk = max((p1, "1"), (pX, "X"), (p2, "2"))
-    cf = min(76.0, bp)
+    cf = bp
     scores.sort(reverse=True)
     return {
         "p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk,
@@ -236,7 +236,7 @@ def calc_poisson(lh, la, rho=-0.06):
     dc_pick = "1X" if dc_1x >= dc_x2 else "X2"
     dc_prob = max(dc_1x, dc_x2)
     bp, pk = max((p1, "1"), (pX, "X"), (p2, "2"))
-    cf = min(76.0, bp)
+    cf = bp
     scores.sort(reverse=True)
     return {"p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk, "ov15": ov15, "over25": ov25, "btts": btts, "dc_pick": dc_pick, "dc_prob": dc_prob, "top_scores": [sc for _, sc in scores[:3]]}
 
@@ -309,7 +309,8 @@ def run():
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
     gr = [e for e in log.values() if e.get("result")]
-    if not gr:
+    gr = []
+    if True:
         for r in sorted(hist, key=lambda x: x["d"], reverse=True)[:60]:
             pr = pred(r["home"], r["away"], R, w, r.get("league", ""))
             out = "1" if r["hg"] > r["ag"] else "X" if r["hg"] == r["ag"] else "2"
