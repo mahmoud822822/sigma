@@ -1,0 +1,140 @@
+{
+ "version": "Sigma-AI-V75",
+ "generated_utc": "2026-11-19T01:51:51+00:00",
+ "stats": {
+  "upcoming": 0,
+  "history_count": 61436,
+  "graded": 0,
+  "hit_pct": 0.0
+ },
+ "weights": {
+  "xi": 0.0018,
+  "elo_home": 65.0,
+  "elo_adj": 0.001,
+  "rho": -0.08
+ },
+ "top_elo": [
+  {
+   "team": "Spain",
+   "elo": 1648
+  },
+  {
+   "team": "FC Bayern München",
+   "elo": 1639
+  },
+  {
+   "team": "Argentina",
+   "elo": 1629
+  },
+  {
+   "team": "Morocco",
+   "elo": 1627
+  },
+  {
+   "team": "England",
+   "elo": 1625
+  },
+  {
+   "team": "Borussia Dortmund",
+   "elo": 1605
+  },
+  {
+   "team": "France",
+   "elo": 1605
+  },
+  {
+   "team": "Liverpool FC",
+   "elo": 1595
+  },
+  {
+   "team": "Algeria",
+   "elo": 1595
+  },
+  {
+   "team": "FC Barcelona",
+   "elo": 1595
+  },
+  {
+   "team": "Bayer 04 Leverkusen",
+   "elo": 1595
+  },
+  {
+   "team": "Real Madrid CF",
+   "elo": 1594
+  },
+  {
+   "team": "Switzerland",
+   "elo": 1589
+  },
+  {
+   "team": "Portugal",
+   "elo": 1589
+  },
+  {
+   "team": "Arsenal FC",
+   "elo": 1587
+  },
+  {
+   "team": "FC Internazionale Milano",
+   "elo": 1587
+  },
+  {
+   "team": "Man City",
+   "elo": 1584
+  },
+  {
+   "team": "Manchester City FC",
+   "elo": 1582
+  },
+  {
+   "team": "Paris Saint-Germain FC",
+   "elo": 1581
+  },
+  {
+   "team": "Hertha BSC",
+   "elo": 1580
+  },
+  {
+   "team": "Netherlands",
+   "elo": 1577
+  },
+  {
+   "team": "Vietnam",
+   "elo": 1576
+  },
+  {
+   "team": "Senegal",
+   "elo": 1574
+  },
+  {
+   "team": "RB Leipzig",
+   "elo": 1574
+  },
+  {
+   "team": "Belgium",
+   "elo": 1571
+  },
+  {
+   "team": "Japan",
+   "elo": 1570
+  },
+  {
+   "team": "Brazil",
+   "elo": 1569
+  },
+  {
+   "team": "SSC Napoli",
+   "elo": 1569
+  },
+  {
+   "team": "Nigeria",
+   "elo": 1567
+  },
+  {
+   "team": "Leeds United FC",
+   "elo": 1565
+  }
+ ],
+ "matches": [],
+ "recent_results": []
+}

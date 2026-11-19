@@ -1,0 +1,1 @@
+const CACHE="sigma-v75";self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(["./","./index.html","./manifest.json","./data/sigma_site.json"])).catch(()=>{})));self.addEventListener("fetch",e=>e.respondWith(fetch(e.request).catch(()=>caches.match(e.request))));
