@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V145-APEX OMEGA | Mahmoud Emad</title>
+<title>SIGMA AI V170-SUPREME OVERLORD | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -52,7 +52,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V145-APEX OMEGA 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V170-SUPREME OVERLORD 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div style="font-size:.64rem;color:var(--ac);font-weight:700">● 220+ دوري عالمي</div></div>
 </header>
 <div class="stats">
@@ -77,7 +77,7 @@
   <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
   <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div>
 </div>
-<div class="filters" id="fb">
+<div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
   <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
   <select id="df" onchange="pg=1;rn()">
     <option value="time">📅 ترتيب: الأقرب موعداً</option>
@@ -115,17 +115,22 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
   ST=d.stats||{}; s1.textContent=(ST.upcoming||0).toLocaleString();
   s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc||82)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
-  A=d.matches||[]; R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; rn();
+  A=d.matches||[]; R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
 });
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
-function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid";qp.style.display=hide?"none":"flex";pg=1;rn()}
+function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
 function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
 function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
+function cpTxt(i){
+  const m=window._cur[i]; if(!m) return;
+  const txt=`👑 SIGMA AI V170-SUPREME\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⚽ +2.5 هدف: ${m.over25}% | BTTS: ${m.btts}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
+}
 function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V145-APEX OMEGA",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V170-SUPREME OVERLORD",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
@@ -165,7 +170,7 @@ function rn(){
   }
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
-  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
   if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
@@ -175,7 +180,7 @@ function rn(){
   try{ ls.innerHTML=window._cur.map((m,i)=>{
     const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
     return `<div class="card ${m.golden?"gold":""}">
-      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
+      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
         <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home||1500}</span></div>
         <div class="vs-pill">VS</div>
@@ -200,7 +205,7 @@ function rn(){
       </div>
       <button class="adv-btn" onclick="togAdv(${i})">📊 عرض الأسواق المتقدمة (HT/FT • هانديكاب • ركنيات) وأسباب الذكاء ▾</button>
       <div class="adv-box" id="adv_${i}">
-        <div class="adv-grid">
+        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||32)+" Elo"}</b></div><div class="adv-item">شباك نظيفة<br><b style="color:var(--bl)">${m.cs_best||42}%</b></div><div class="adv-item">حجم الرهان<br><b style="color:var(--gd)">💰 ${m.stake||2}%</b></div></div><div class="adv-grid">
           <div class="adv-item">شوط/مباراة<br><b style="color:var(--gd)">${m.htft||"1/1"}</b></div>
           <div class="adv-item">هانديكاب<br><b style="color:var(--ac)">${m.ah_line||"-0.5"}</b></div>
           <div class="adv-item">الركنيات<br><b style="color:var(--bl)">+${m.corners?(m.corners-1).toFixed(1):(6.5+((m.over25||50)/22)).toFixed(1)} ركنية</b></div>
