@@ -300,7 +300,7 @@ function rn(){
       </div>
       <button class="adv-btn" onclick="togAdv(${i})">📊 عرض الأسواق المتقدمة (HT/FT • هانديكاب • ركنيات) وأسباب الذكاء ▾</button>
       <div class="adv-box" id="adv_${i}">
-        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||32)+" Elo"}</b></div><div class="adv-item">هدف شوط 1<br><b style="color:var(--bl)">${m.fh_ov05||72}%</b></div><div class="adv-item">حصة رأس المال<br><b style="color:var(--gd)">💰 ${m.stake||2}% (${Math.round((Number(localStorage.getItem("sigma_bank")||1000)*(m.stake||2))/100)})</b></div></div><div class="adv-grid">
+        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||12)+" Elo"}</b></div><div class="adv-item">هدف شوط 1<br><b style="color:var(--bl)">${m.fh_ov05||72}%</b></div><div class="adv-item">حصة رأس المال<br><b style="color:var(--gd)">💰 ${m.stake||2}% (${Math.round((Number(localStorage.getItem("sigma_bank")||1000)*(m.stake||2))/100)})</b></div></div><div class="adv-grid">
           <div class="adv-item">شوط/مباراة<br><b style="color:var(--gd)">${m.htft||"1/1"}</b></div>
           <div class="adv-item">هانديكاب<br><b style="color:var(--ac)">${m.ah_line||"-0.5"}</b></div>
           <div class="adv-item">الركنيات<br><b style="color:var(--bl)">+${m.corners?(m.corners-1).toFixed(1):(6.5+((m.over25||50)/22)).toFixed(1)} ركنية</b></div>

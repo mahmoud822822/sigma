@@ -242,7 +242,7 @@ def build(hist, t, w):
         days_ago = max(0, (t - r["d"]).days)
         decay = math.exp(-0.0022 * min(days_ago, 900))
         eh, ea = elo.get(h, 1500.0), elo.get(a, 1500.0)
-        exp = 1.0 / (1.0 + 10.0 ** ((ea - (eh + 32.0)) / 400.0))
+        exp = 1.0 / (1.0 + 10.0 ** ((ea - (eh + 12.0)) / 400.0))
         res = 1.0 if hg > ag else 0.5 if hg == ag else 0.0
         k = (18.0 + 10.0 * decay) * (1.0 + 0.2 * min(3, abs(hg - ag)))
         elo[h] = eh + k * (res - exp)
@@ -476,7 +476,7 @@ def compute_quantum_shield(p1, pX, p2, dc_prob, over25, lgrade, ctx_tags):
 
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
-    diff = (get_base_elo(nh, R["elo"]) + 32.0) - get_base_elo(na, R["elo"])
+    diff = (get_base_elo(nh, R["elo"]) + 12.0) - get_base_elo(na, R["elo"])
     ef = math.exp(max(-0.75, min(0.75, diff * 0.00125)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
     att_h, dfn_h = R["att"].get(nh, 1.32), R["dfn"].get(nh, 1.32)
