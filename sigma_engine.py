@@ -161,7 +161,7 @@ def fetch(t):
         if not data: return [], []
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
-            comp = next(iter(ev.get("competitions", [])), {})[0][0]
+            comp = next(iter(ev.get("competitions", [])), {})
             c = comp.get("competitors", [])
             if len(c) < 2: continue
             hm = next((x for x in c if x.get("homeAway")=="home"), c[0])
