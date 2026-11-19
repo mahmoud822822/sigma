@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V170-SUPREME OVERLORD | Mahmoud Emad</title>
+<title>SIGMA AI V200-ULTRA GLASS | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -69,7 +69,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V170-SUPREME OVERLORD 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V200-ULTRA GLASS 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
@@ -94,7 +94,7 @@
   <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
   <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div>
 </div>
-<div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
+<div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
   <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
   <select id="df" onchange="pg=1;rn()">
     <option value="time">📅 ترتيب: الأقرب موعداً</option>
@@ -155,7 +155,7 @@ function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V170-SUPREME OVERLORD",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V200-ULTRA GLASS",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
@@ -205,7 +205,7 @@ function rn(){
   try{ ls.innerHTML=window._cur.map((m,i)=>{
     const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
     if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,10):m.pick==="2"?m.away.slice(0,10):"تعادل"} (${m.conf}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${m.dc_prob}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
-      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
+      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
         <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home||1500}</span></div>
         <div class="vs-pill">VS</div>
