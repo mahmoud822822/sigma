@@ -191,7 +191,7 @@ def fetch(t):
         if st == "post":
             return None, {"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
         elif st == "pre":
-            return {"id": str(ev.get("id", "")), "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(h, a, lg_name or lg_slug), "lgrade": detect_league_grade(lg_slug, lg_name), "ctx_tags": detect_context_tags(h, a, lg_slug, lg_name, 1500, 1500), "league_name": lg_name}, None
+            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(h, a, lg_name or lg_slug), "lgrade": detect_league_grade(lg_slug, lg_name), "ctx_tags": detect_context_tags(h, a, lg_slug, lg_name, 1500, 1500), "league_name": lg_name}, None
         return None, None
 
     # 1. Auto-discover active global fixtures first
@@ -523,7 +523,7 @@ def run():
         for r in sorted(hist, key=lambda x: x["d"], reverse=True)[:60]:
             pr = pred(r["home"], r["away"], R, w, r.get("league", ""))
             out = "1" if r["hg"] > r["ag"] else "X" if r["hg"] == r["ag"] else "2"
-            gr.append({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "pick": pr["pick"], "conf": pr["conf"], "over25": pr["over25"], "golden": pr["golden"], "dc_pick": pr["dc_pick"], "result": f"{r['hg']}-{r['ag']}", "outcome": out, "hit": (pr["pick"] == out)})
+            gr.append({"date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "pick": pr["pick"], "conf": pr["conf"], "over25": pr["over25"], "golden": pr["golden"], "dc_pick": pr["dc_pick"], "result": f"{r['hg']}-{r['ag']}", "outcome": out, "hit": (pr["pick"] == out)})
     ht = sum(1 for e in gr if e.get("hit"))
     hp = round(100 * ht / len(gr), 1) if gr else 0.0
     gr_gold = [e for e in gr if e.get("golden") or e.get("conf", 0) >= 56]
