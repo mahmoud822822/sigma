@@ -108,6 +108,20 @@ def fetch(t):
      elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
     except:pass
 
+
+ if not fx:
+  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions"]:
+   o=hjson(f"https://espn.com{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
+   for ev in (o or {}).get("events",[]):
+    try:
+     d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
+     h=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="home"))
+     a=clean(next(x["team"]["displayName"] for x in c if x["homeAway"]=="away"))
+     st=ev["status"]["type"]["state"]
+     if st=="post":rs.append({"date":d,"home":h,"away":a,"hg":int(next(x["score"] for x in c if x["homeAway"]=="home")),"ag":int(next(x["score"] for x in c if x["homeAway"]=="away")),"league":lg})
+     elif st=="pre":fx.append({"date":d,"home":h,"away":a,"league":lg})
+    except:pass
+
  return fx,rs
 def supa(u,k,tb,rw):
  if not u or not k or not rw:return
