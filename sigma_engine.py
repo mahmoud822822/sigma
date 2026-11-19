@@ -191,7 +191,7 @@ def fetch(t):
         if st == "post":
             return None, {"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
         elif st == "pre":
-            return {"id": str(ev.get("id", "")), "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": lg_name}, None
+            return {"id": str(ev.get("id", "")), "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(h, a, lg_name or lg_slug), "lgrade": detect_league_grade(lg_slug, lg_name), "ctx_tags": detect_context_tags(h, a, lg_slug, lg_name, 1500, 1500), "league_name": lg_name}, None
         return None, None
 
     # 1. Auto-discover active global fixtures first
@@ -513,7 +513,7 @@ def run():
     with ThreadPoolExecutor(max_workers=25) as pool:
         for m, pr in pool.map(enrich, enumerate(fx_sorted)):
             k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-            row = {"key": k, "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
+            row = {"key": k, "kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(h, a, lg_name or lg_slug), "lgrade": detect_league_grade(lg_slug, lg_name), "ctx_tags": detect_context_tags(h, a, lg_slug, lg_name, 1500, 1500), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
             up.append(row)
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
