@@ -1,7 +1,7 @@
-name: Sigma Hourly
+name: Sigma 3-Hourly
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -15,12 +15,13 @@ jobs:
           python-version: "3.11"
       - env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python3 sigma_engine.py
       - run: |
           git config user.name "Sigma Bot"
           git config user.email "bot@sigma.local"
           git add data/
-          git commit -m "Auto update" || true
+          git commit -m "Fix secrets mapping" || true
           git push
