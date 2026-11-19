@@ -292,7 +292,7 @@ def calc_poisson(lh, la, rho=-0.06):
 
 STOP_W = {"united","city","club","sporting","athletic","atletico","real","union","national","olympic","youth","academica","rovers","wanderers","albion","villa","town","county","fc","sc","ac","cf","cd","ud","sd","al","el"}
 def resolve_team(name, pool):
-    if any(tag in name.lower() for tag in ["u17","u18","u19","u20","u21","u23","women","(w)","ladies"]):
+    if is_reserve(name):
         return norm(name)
     n = norm(name)
     if n in pool: return n
@@ -317,12 +317,17 @@ ARAB_ELO = {
     "al sadd": 1670, "al duhail": 1655, "al rayyan": 1615, "al gharafa": 1610,
     "sundowns": 1700, "orlando pirates": 1635, "kaizer chiefs": 1600, "persepolis": 1645, "esteghlal": 1635, "ulsan": 1660, "jeonbuk": 1645, "vissel kobe": 1665, "yokohama": 1650
 }
+RESERVE_TAGS = (" u17"," u18"," u19"," u20"," u21"," u23"," women"," (w)"," wfc"," feminino"," ladies"," reserves"," castilla"," ii"," b")
+def is_reserve(name):
+    ln = " " + name.lower().strip()
+    return any(ln.endswith(t) or (t + " ") in ln for t in RESERVE_TAGS)
+
 def get_base_elo(n, pool):
     if n in pool: return pool[n]
     for k, v in ARAB_ELO.items():
-        if n == k or k in n.split(): return v
-    h_val = sum(ord(c) * (idx + 1) for idx, c in enumerate(n)) % 130
-    return 1465.0 + h_val
+        if n == k: return v
+    h_val = sum(ord(c) * (idx + 1) for idx, c in enumerate(n)) % 115
+    return 1470.0 + h_val
 
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
@@ -336,7 +341,7 @@ def pred(h, a, R, w, lg=""):
     res = calc_poisson(lh, la, w.get("rho", -0.06))
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
     is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(R["elo"].get(nh, 1500)), "elo_away": round(R["elo"].get(na, 1500)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold}
+    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(get_base_elo(nh, R["elo"])), "elo_away": round(get_base_elo(nh, R["elo"])), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold}
 
 def run():
     t = datetime.now(timezone.utc).date()
