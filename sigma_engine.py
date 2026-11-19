@@ -290,12 +290,13 @@ def calc_poisson(lh, la, rho=-0.06):
     scores.sort(reverse=True)
     return {"p1": p1, "pX": pX, "p2": p2, "conf": cf, "pick": pk, "ov15": ov15, "over25": ov25, "btts": btts, "dc_pick": dc_pick, "dc_prob": dc_prob, "corners": round(max(6.4, min(13.6, 5.8 + (lh + la) * 1.45 + abs(lh - la) * 0.9)), 1), "top_scores": [sc for _, sc in scores[:3]]}
 
+STOP_W = {"united","city","club","sporting","athletic","atletico","real","union","national","olympic","youth","academica","rovers","wanderers","albion","villa","town","county","fc","sc","ac","cf","cd","ud","sd","al","el"}
 def resolve_team(name, pool):
     if any(tag in name.lower() for tag in ["u17","u18","u19","u20","u21","u23","women","(w)","ladies"]):
         return norm(name)
     n = norm(name)
     if n in pool: return n
-    toks = [w for w in n.split() if len(w) > 3]
+    toks = [w for w in n.split() if len(w) > 3 and w not in STOP_W]
     for k in pool:
         if n in k or k in n or any(t in k.split() for t in toks):
             return k
