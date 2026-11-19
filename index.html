@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V400-AUTONOMOUS | Mahmoud Emad</title>
+<title>SIGMA AI V500-OMEGA | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -73,7 +73,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V400-AUTONOMOUS 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V500-OMEGA 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
@@ -168,6 +168,18 @@ function applyLang(){
   if(qp.length>=7){qp[0].textContent=d.all;qp[1].textContent=d.today;qp[2].textContent=d.tom;qp[3].textContent=d.cons;qp[4].textContent=d.o25;qp[5].textContent=d.arab;qp[6].textContent=d.clash;}
 }
 function togLang(){LANG=LANG==="ar"?"en":"ar";localStorage.setItem("sigma_lang",LANG);applyLang();rn();}
+function renderBrief(list){
+  if(!list.length||T!=="all"){return "";}
+  const best=[...list].sort((a,b)=>b.conf-a.conf);
+  const topG=[...list].sort((a,b)=>b.over25-a.over25);
+  return `<div class="card" style="border-color:rgba(16,185,129,.45);background:linear-gradient(135deg,rgba(16,185,129,.12),rgba(13,21,38,.95));padding:10px 12px">
+    <div style="font-size:.74rem;font-weight:800;color:var(--ac);margin-bottom:4px">⚡ ملخص الذكاء الاصطناعي الفوري (${list.length} مباراة مطابقة)</div>
+    <div style="font-size:.71rem;color:var(--tx);line-height:1.6">
+      👑 <b>أقوى ترشيح:</b> ${best.home} vs ${best.away} (<span style="color:var(--gd)">${best.conf}%</span>)<br>
+      ⚽ <b>أعلى مباراة أهدافاً:</b> ${topG.home} vs ${topG.away} (<span style="color:var(--bl)">+2.5: ${topG.over25}%</span>)
+    </div>
+  </div>`;
+}
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
 fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
@@ -186,14 +198,14 @@ function cpTxt(i){
 }
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V400-AUTONOMOUS\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V500-OMEGA\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V400-AUTONOMOUS",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V500-OMEGA",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
@@ -233,7 +245,7 @@ function rn(){
   }
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
-  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="clash"||((m.elo_h||1500)+(m.elo_a||1500)>=3380))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="clash"||((m.elo_h||1500)+(m.elo_a||1500)>=3380)||/ديربي|نهائي|خروج مغلوب/.test(m.ctx_tags||""))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
   if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
@@ -243,7 +255,7 @@ function rn(){
   try{ ls.innerHTML=window._cur.map((m,i)=>{
     const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
     if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,10):m.pick==="2"?m.away.slice(0,10):"تعادل"} (${m.conf}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${m.dc_prob}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
-      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.over25>=62?"⚡ إيقاع هجومي مفتوح • ":(m.over25<=44?"🛡️ صراع تكتيكي مغلق • ":"")}${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
+      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,25)} • ${m.date} ${m.kickoff?`⏰ ${m.kickoff}`:""}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.over25>=62?"⚡ إيقاع هجومي مفتوح • ":(m.over25<=44?"🛡️ صراع تكتيكي مغلق • ":"")}${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
         <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home||1500}</span></div>
         <div class="vs-pill">VS</div>
