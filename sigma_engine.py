@@ -485,7 +485,7 @@ def run():
     with open(HF, "w", encoding="utf-8", newline="") as f:
         w_csv = csv.DictWriter(f, ["date", "league", "home", "away", "hg", "ag"]); w_csv.writeheader()
         for r in sorted(hist, key=lambda x: x["d"]):
-            w_csv.writerow({"kickoff": (lambda dt: f"{(int(dt[11:13])+2)%24:02d}:{dt[14:16]}" if len(dt)>=16 else "20:00")(str(ev.get("date",""))), "date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]})
+            w_csv.writerow({"date": r["d"].isoformat(), "league": r["league"], "home": r["home"], "away": r["away"], "hg": r["hg"], "ag": r["ag"]})
     w = json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k": 22, "elo_home": 32, "elo_adj": 0.00125, "rho": -0.06, "decay": 0.0022}
     R = build(hist, t, w)
     log = json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
