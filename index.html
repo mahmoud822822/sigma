@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V110-SOVEREIGN | Mahmoud Emad</title>
+<title>SIGMA AI V120-GLOBAL | Mahmoud Emad</title>
 <style>
   :root{--bg:#060b16;--card:#0f172a;--card2:#162038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -47,7 +47,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V110-SOVEREIGN 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V120-GLOBAL 🌍</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.7rem;color:var(--mt)">جاري التحميل...</div><div style="font-size:.66rem;color:var(--ac);font-weight:700">● نظام ذاتي التعلم</div></div>
 </header>
 <div class="stats">
@@ -96,7 +96,7 @@ function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#060b16";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 26px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V110-SOVEREIGN",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 26px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V120-GLOBAL",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="19px sans-serif";ctx.textAlign="right";ctx.fillText(m.league.toUpperCase()+" | "+m.date+" | "+(m.audit_id||""),760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 29px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,150);
   ctx.fillStyle="#f59e0b";ctx.font="bold 27px sans-serif";
@@ -130,11 +130,11 @@ function rn(){
   ls.innerHTML=window._cur.map((m,i)=>{
     const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
     return `<div class="card ${m.golden?"gold":""}">
-      <div class="top"><span>🏆 ${m.league.toUpperCase()} • ${m.date} • 🔒 ${m.audit_id||""}</span><div style="display:flex;gap:5px;align-items:center"><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span class="badge ${m.golden?"b-gold":"b-ai"}">${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
+      <div class="top"><span>🏆 ${(m.league_name||m.league).slice(0,26)} • ${m.date} • 🔒 ${m.audit_id||""}</span><div style="display:flex;gap:5px;align-items:center"><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span class="badge ${m.golden?"b-gold":"b-ai"}">${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
-        <div class="tm-box"><span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home||1500}</span></div>
+        <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:28px;height:28px;object-fit:contain;margin-bottom:3px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home||1500}</span></div>
         <div class="vs-pill">VS</div>
-        <div class="tm-box"><span class="tm-name">${m.away}</span><span class="tm-elo">Elo ${m.elo_away||1500}</span></div>
+        <div class="tm-box">${m.a_logo?`<img src="${m.a_logo}" style="width:28px;height:28px;object-fit:contain;margin-bottom:3px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.away}</span><span class="tm-elo">Elo ${m.elo_away||1500}</span></div>
       </div>
       ${m.trap?`<div class="trap">⚠️ رادار المفاجآت: تذبذب في الزخم — يُنصح بخيار الأمان ${m.dc_pick} (${m.dc_prob}%)</div>`:""}
       <div class="pick-banner">

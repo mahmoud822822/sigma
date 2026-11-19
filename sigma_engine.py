@@ -154,44 +154,77 @@ def calc_poisson(lh, la, rho=-0.06):
 
 
 def fetch(t):
-    import base64
     base = base64.b64decode("aHR0cHM6Ly9zaXRlLmFwaS5lc3BuLmNvbS9hcGlzL3NpdGUvdjIvc3BvcnRzL3NvY2Nlcg==").decode()
-    leagues = [
-        "eng.1","eng.2","eng.3","eng.4","eng.fa","eng.league_cup","sco.1","sco.2",
-        "esp.1","esp.2","esp.copa_del_rey","ita.1","ita.2","ita.coppa_italia",
-        "ger.1","ger.2","ger.3","ger.dfb_pokal","fra.1","fra.2","fra.coupe_de_france",
-        "por.1","por.2","ned.1","ned.2","bel.1","bel.2","tur.1","tur.2","gre.1",
-        "sui.1","aut.1","den.1","swe.1","nor.1","fin.1","pol.1","cze.1","hun.1","rou.1","cro.1","srb.1","rus.1","ukr.1",
-        "uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","uefa.euroq","uefa.youth",
-        "egy.1","egy.cup","ksa.1","ksa.2","ksa.kings_cup","uae.1","qat.1","mar.1","tun.1","alg.1","kuw.1","bhr.1","jor.1","irq.1",
-        "rsa.1","nga.1","gha.1","ken.1","tan.1","caf.champions","caf.confed","caf.nations",
-        "jpn.1","jpn.2","kor.1","chn.1","aus.1","ind.1","idn.1","tha.1","irn.1","uzb.1","afc.champions","afc.champions_two",
-        "bra.1","bra.2","bra.copa_do_brasil","arg.1","arg.2","col.1","chi.1","per.1","uru.1","ecu.1","par.1","conmebol.libertadores","conmebol.sudamericana",
-        "usa.1","mex.1","mex.2","crc.1","concacaf.champions","fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.friendly"
-    ]
-    days = [(t + timedelta(days=i)).strftime("%Y%m%d") for i in range(-2, 18)]
-    tasks = [(lg, ds) for lg in leagues for ds in days]
+    leagues = {
+        "eng.1","eng.2","eng.3","eng.4","eng.5","eng.fa","eng.league_cup","eng.trophy","sco.1","sco.2","sco.3","sco.fa","wal.1","nir.1","irl.1",
+        "esp.1","esp.2","esp.copa_del_rey","ita.1","ita.2","ita.coppa_italia","ger.1","ger.2","ger.3","ger.dfb_pokal","fra.1","fra.2","fra.coupe_de_france",
+        "por.1","por.2","por.taca","ned.1","ned.2","ned.knvb_beker","bel.1","bel.2","tur.1","tur.2","tur.cup","gre.1","gre.2","sui.1","sui.2",
+        "aut.1","aut.2","den.1","den.2","swe.1","swe.2","nor.1","nor.2","fin.1","fin.2","isl.1","pol.1","pol.2","cze.1","cze.2","hun.1","rou.1",
+        "cro.1","srb.1","bul.1","svk.1","svn.1","bih.1","mkd.1","alb.1","cyp.1","isr.1","rus.1","ukr.1","blr.1","kaz.1","aze.1","arm.1","geo.1",
+        "uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","uefa.euroq","uefa.euro","uefa.youth","uefa.super_cup",
+        "egy.1","egy.cup","ksa.1","ksa.2","ksa.kings_cup","uae.1","uae.cup","qat.1","qat.cup","mar.1","mar.cup","tun.1","tun.cup","alg.1","alg.cup",
+        "kuw.1","bhr.1","jor.1","irq.1","oma.1","lbn.1","sdn.1","lby.1","caf.champions","caf.confed","caf.nations","caf.nations_qual","caf.super_cup",
+        "rsa.1","rsa.2","nga.1","gha.1","ken.1","tan.1","uga.1","zam.1","zim.1","eth.1","cmr.1","civ.1","sen.1",
+        "jpn.1","jpn.2","jpn.3","jpn.cup","kor.1","kor.2","kor.cup","chn.1","chn.2","aus.1","aus.cup","nzl.1","ind.1","ind.2","idn.1","tha.1",
+        "mys.1","vnm.1","sgp.1","irn.1","uzb.1","afc.champions","afc.champions_two","afc.asian_cup","afc.cup",
+        "bra.1","bra.2","bra.3","bra.copa_do_brasil","arg.1","arg.2","arg.copa","col.1","col.2","chi.1","chi.2","per.1","uru.1","ecu.1","par.1",
+        "bol.1","ven.1","conmebol.libertadores","conmebol.sudamericana","conmebol.recopa","conmebol.america",
+        "usa.1","usa.usl.1","usa.open","mex.1","mex.2","mex.copa","can.1","crc.1","hon.1","slv.1","gua.1","pan.1","jam.1","concacaf.champions","concacaf.gold","concacaf.nations.league",
+        "fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.worldq.concacaf","fifa.worldq.ofc","fifa.friendly","fifa.cwc","fifa.olympics"
+    }
+    days = [(t + timedelta(days=i)).strftime("%Y%m%d") for i in range(-2, 15)]
     out_fx, out_rs, seen = [], [], set()
+    def parse_ev(ev, lg_hint=""):
+        comp = next(iter(ev.get("competitions", [])), {})
+        c = comp.get("competitors", [])
+        if len(c) < 2: return None, None
+        hm = next((x for x in c if x.get("homeAway") == "home"), c)
+        aw = next((x for x in c if x.get("homeAway") == "away"), c[-1])
+        h, a = hm["team"]["displayName"], aw["team"]["displayName"]
+        h_logo = hm["team"].get("logo", "")
+        a_logo = aw["team"].get("logo", "")
+        lg_slug = ev.get("season", {}).get("slug") or lg_hint or "global"
+        lg_name = comp.get("league", {}).get("name") or ev.get("league", {}).get("name") or lg_hint
+        d = date.fromisoformat(ev["date"][:10])
+        st = ev.get("status", {}).get("type", {}).get("state", "")
+        if st == "post":
+            return None, {"date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
+        elif st == "pre":
+            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "league_name": lg_name}, None
+        return None, None
+
+    # 1. Auto-discover active global fixtures first
+    for ds in days[:7]:
+        gdata = hjson(f"{base}/all/scoreboard?dates={ds}&limit=300", timeout=8)
+        if gdata:
+            for ev in gdata.get("events", []):
+                lg_s = ev.get("league", {}).get("slug", "")
+                if lg_s: leagues.add(lg_s)
+                fx_i, rs_i = parse_ev(ev, lg_s)
+                if fx_i:
+                    k = (fx_i["date"], fx_i["home"], fx_i["away"])
+                    if k not in seen: seen.add(k); out_fx.append(fx_i)
+                if rs_i:
+                    k = (rs_i["date"], rs_i["home"], rs_i["away"])
+                    if k not in seen: seen.add(k); out_rs.append(rs_i)
+
+    # 2. Sweep all 220+ leagues across full window
+    tasks = [(lg, ds) for lg in sorted(leagues) for ds in days]
     def pull(item):
         lg, ds = item
-        data = hjson(f"{base}/{lg}/scoreboard?dates={ds}")
+        data = hjson(f"{base}/{lg}/scoreboard?dates={ds}", timeout=6)
         if not data: return [], []
+        lg_title = next((x.get("name", "") for x in data.get("leagues", [])), lg)
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
-            comp = next(iter(ev.get("competitions", [])), {})
-            c = comp.get("competitors", [])
-            if len(c) < 2: continue
-            hm = next((x for x in c if x.get("homeAway") == "home"), c[0])
-            aw = next((x for x in c if x.get("homeAway") == "away"), c[-1])
-            h, a = hm["team"]["displayName"], aw["team"]["displayName"]
-            d = date.fromisoformat(ev["date"][:10])
-            st = ev.get("status", {}).get("type", {}).get("state", "")
-            if st == "post":
-                rs_l.append({"date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg})
-            elif st == "pre":
-                fx_l.append({"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg})
+            fx_i, rs_i = parse_ev(ev, lg)
+            if fx_i:
+                if lg_title: fx_i["league_name"] = lg_title
+                fx_l.append(fx_i)
+            if rs_i: rs_l.append(rs_i)
         return fx_l, rs_l
-    with ThreadPoolExecutor(max_workers=35) as ex:
+
+    with ThreadPoolExecutor(max_workers=40) as ex:
         for fx_l, rs_l in ex.map(pull, tasks):
             for x in fx_l:
                 k = (x["date"], x["home"], x["away"])
@@ -320,7 +353,7 @@ def run():
     with ThreadPoolExecutor(max_workers=25) as pool:
         for m, pr in pool.map(enrich, enumerate(fx_sorted)):
             k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "home": m["home"], "away": m["away"], **pr}
+            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
             up.append(row)
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
