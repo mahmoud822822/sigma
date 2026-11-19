@@ -449,6 +449,31 @@ def sync_elo_memory(R):
         else: R["elo"][k] = round(0.75 * R["elo"][k] + 0.25 * float(v), 2)
     json.dump({k: round(v, 2) for k, v in R["elo"].items()}, open(mp, "w", encoding="utf-8"))
 
+
+def compute_quantum_shield(p1, pX, p2, dc_prob, over25, lgrade, ctx_tags):
+    probs = sorted([p1, pX, p2], reverse=True)
+    gap = probs[0] - probs[1]
+    is_friendly = "ودية" in str(lgrade)
+    is_derby = "ديربي" in str(ctx_tags) or "نهائي" in str(ctx_tags)
+    # Anti-Trap Detector
+    trap = False
+    trap_reason = ""
+    if is_friendly:
+        trap, trap_reason = True, "⚠️ ودية: تجنّب الرهان"
+    elif gap < 10.5 and dc_prob < 74.0:
+        trap, trap_reason = True, "⚠️ فخ تقارب شديد: تجنّب"
+    elif is_derby and probs[0] < 58.0:
+        trap, trap_reason = True, "⚠️ ديربي متقلب: أمان فقط"
+    # Net Safety Score (0 - 100)
+    safety = round(min(98, max(25, (dc_prob * 0.72) + (gap * 0.55) - (18 if is_friendly else 0) - (6 if is_derby else 0))))
+    # Safe Combo Shield
+    if p1 >= p2:
+        combo_lbl = f"1X + {'تحت 4.5' if over25 < 65 else 'أكثر من 0.5'}"
+    else:
+        combo_lbl = f"X2 + {'تحت 4.5' if over25 < 65 else 'أكثر من 0.5'}"
+    combo_prob = round(min(94.5, dc_prob + 4.8), 1)
+    return trap, trap_reason, safety, combo_lbl, combo_prob
+
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     diff = (get_base_elo(nh, R["elo"]) + 32.0) - get_base_elo(na, R["elo"])

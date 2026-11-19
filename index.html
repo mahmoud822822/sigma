@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V600-APEX PRO | Mahmoud Emad</title>
+<title>SIGMA AI V700-QUANTUM SHIELD | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -73,7 +73,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V600-APEX PRO 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V700-QUANTUM SHIELD 👑</h1><span>By Mahmoud Emad</span></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
@@ -116,7 +116,10 @@
     <option value="goals">⚽ ترتيب: الأعلى أهدافاً</option>
   </select>
 </div>
-<div id="ls"></div>
+<div class="box" style="margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;gap:8px">
+  <span style="font-size:.75rem;font-weight:800;color:var(--gd)">💰 ميزانية رأس المال (Bankroll):</span>
+  <input id="bankInp" type="number" value="1000" style="width:110px;padding:5px 8px;text-align:center;font-weight:900;color:var(--ac)" oninput="localStorage.setItem('sigma_bank',this.value);rn()">
+</div><div id="ls"></div>
 <div class="pager" id="pb">
   <button onclick="goPage(-1)" id="b1">⬅️ السابق</button>
   <span id="pi" style="font-size:.78rem;color:var(--gd);font-weight:800">1</span>
@@ -180,6 +183,7 @@ function renderBrief(list){
     </div>
   </div>`;
 }
+if(window.bankInp)bankInp.value=localStorage.getItem("sigma_bank")||1000;
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
 fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
@@ -198,14 +202,14 @@ function cpTxt(i){
 }
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V600-APEX PRO\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V700-QUANTUM SHIELD\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V600-APEX PRO",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V700-QUANTUM SHIELD",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
@@ -280,7 +284,7 @@ function rn(){
       </div>
       <button class="adv-btn" onclick="togAdv(${i})">📊 عرض الأسواق المتقدمة (HT/FT • هانديكاب • ركنيات) وأسباب الذكاء ▾</button>
       <div class="adv-box" id="adv_${i}">
-        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||32)+" Elo"}</b></div><div class="adv-item">هدف شوط 1<br><b style="color:var(--bl)">${m.fh_ov05||72}%</b></div><div class="adv-item">حجم الرهان<br><b style="color:var(--gd)">💰 ${m.stake||2}%</b></div></div><div class="adv-grid">
+        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||32)+" Elo"}</b></div><div class="adv-item">هدف شوط 1<br><b style="color:var(--bl)">${m.fh_ov05||72}%</b></div><div class="adv-item">حصة رأس المال<br><b style="color:var(--gd)">💰 ${m.stake||2}% (${Math.round((Number(localStorage.getItem("sigma_bank")||1000)*(m.stake||2))/100)})</b></div></div><div class="adv-grid">
           <div class="adv-item">شوط/مباراة<br><b style="color:var(--gd)">${m.htft||"1/1"}</b></div>
           <div class="adv-item">هانديكاب<br><b style="color:var(--ac)">${m.ah_line||"-0.5"}</b></div>
           <div class="adv-item">الركنيات<br><b style="color:var(--bl)">+${m.corners?(m.corners-1).toFixed(1):(6.5+((m.over25||50)/22)).toFixed(1)} ركنية</b></div>
