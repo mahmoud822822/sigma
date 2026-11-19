@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.json">
-<title>SIGMA AI V300-SINGULARITY | Mahmoud Emad</title>
+<title>SIGMA AI V400-AUTONOMOUS | Mahmoud Emad</title>
 <style>
   :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
   *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
@@ -73,8 +73,8 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V300-SINGULARITY 👑</h1><span>By Mahmoud Emad</span></div>
-  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
+  <div class="brand"><h1>SIGMA AI V400-AUTONOMOUS 👑</h1><span>By Mahmoud Emad</span></div>
+  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
   <div class="box"><b id="s1">0</b><small>قادمة</small></div>
@@ -127,7 +127,7 @@ async function pullLive(){
       const aw=c.find(x=>x.homeAway==="away")||c[1]||{};
       return {home:hm.team?.displayName||"",away:aw.team?.displayName||"",hs:hm.score||"0",as:aw.score||"0",clk:e.status?.displayClock||"LIVE",lg:e.league?.name||""};
     });
-    if(T==="live")rn();
+    if(T==="live")applyLang(); rn();
   }catch(e){}
 }
 pullLive(); setInterval(pullLive,30000);
@@ -144,6 +144,21 @@ function askAI(mode){
   if(!list.length){aians.innerHTML="لا توجد مباريات مطابقة حالياً في هذا التصنيف.";return;}
   aians.innerHTML=list.map((m,idx)=>`<div style="margin-bottom:7px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.08)"><b style="color:var(--gd)">${idx+1}. ${m.home} vs ${m.away}</b><br>🎯 التوقع: <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)</b> • أمان ${m.dc_pick}: ${m.dc_prob}% • +2.5: ${m.over25}%</div>`).join("");
 }
+let LANG=localStorage.getItem("sigma_lang")||"ar";
+const DICT={
+  ar:{all:"كل الأوقات",today:"⚡ اليوم",tom:"📅 غداً",cons:"🧠 إجماع 3/3",o25:"⚽ +2.5 هدف",arab:"🇸🇦🇪🇬 الدوريات العربية",clash:"🔥 قمم وديربيات",ph:"🔍 ابحث عن فريق أو بطولة...",gold:"⭐ ذهبي",win:"فوز",draw:"تعادل",safe:"أمان",adv:"📊 عرض الأسواق المتقدمة وأسباب الذكاء"},
+  en:{all:"All Dates",today:"⚡ Today",tom:"📅 Tomorrow",cons:"🧠 3/3 Consensus",o25:"⚽ Over 2.5",arab:"🇸🇦🇪🇬 Arab Leagues",clash:"🔥 Big Clashes",ph:"🔍 Search team or league...",gold:"⭐ GOLDEN",win:"WIN",draw:"DRAW",safe:"Safe",adv:"📊 Advanced Markets & AI Insights"}
+};
+function applyLang(){
+  const d=DICT[LANG];
+  document.documentElement.dir=LANG==="ar"?"rtl":"ltr";
+  document.documentElement.lang=LANG;
+  if(window.lbtn) lbtn.textContent=LANG==="ar"?"🌐 EN":"🌐 عربي";
+  if(window.q) q.placeholder=d.ph;
+  const qp=document.querySelectorAll(".qpill");
+  if(qp.length>=7){qp[0].textContent=d.all;qp[1].textContent=d.today;qp[2].textContent=d.tom;qp[3].textContent=d.cons;qp[4].textContent=d.o25;qp[5].textContent=d.arab;qp[6].textContent=d.clash;}
+}
+function togLang(){LANG=LANG==="ar"?"en":"ar";localStorage.setItem("sigma_lang",LANG);applyLang();rn();}
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
 fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
@@ -162,14 +177,14 @@ function cpTxt(i){
 }
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V300-SINGULARITY\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V400-AUTONOMOUS\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${m.conf}%)\n🛡️ الأمان: ${m.dc_pick} (${m.dc_prob}%) | ${m.dnb_pick||"DNB"} (${m.dnb_prob||82}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function mkCard(i){
   const m=window._cur[i]; if(!m) return;
   const c=document.getElementById("cv"),ctx=c.getContext("2d");
   ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
-  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V300-SINGULARITY",40,62);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V400-AUTONOMOUS",40,62);
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText((m.league_name||m.league).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";

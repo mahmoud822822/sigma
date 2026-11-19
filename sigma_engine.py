@@ -369,6 +369,19 @@ def send_telegram_alerts(matches):
     except Exception:
         pass
 
+
+def sync_elo_memory(R):
+    mp = "data/elo_memory.json"
+    os.makedirs("data", exist_ok=True)
+    saved = {}
+    if os.path.exists(mp):
+        try: saved = json.load(open(mp, encoding="utf-8"))
+        except Exception: saved = {}
+    for k, v in saved.items():
+        if k not in R["elo"]: R["elo"][k] = float(v)
+        else: R["elo"][k] = round(0.75 * R["elo"][k] + 0.25 * float(v), 2)
+    json.dump({k: round(v, 2) for k, v in R["elo"].items()}, open(mp, "w", encoding="utf-8"))
+
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     diff = (get_base_elo(nh, R["elo"]) + 32.0) - get_base_elo(na, R["elo"])
