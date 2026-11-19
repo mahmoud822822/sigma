@@ -117,34 +117,67 @@ def supa(u,k,tb,rw):
  if not u or not k or not rw:return
  try:urllib.request.urlopen(urllib.request.Request(f"{u.rstrip('/')}/rest/v1/{tb}",data=json.dumps(rw).encode(),headers={"apikey":k,"Authorization":f"Bearer {k}","Content-Type":"application/json","Prefer":"resolution=merge-duplicates"},method="POST"),timeout=20).read()
  except Exception as e:print("SB warn:",e)
+def build(hist,t,w):
+    elo,att,dfn,cnt={},{},{},{}
+    for r in sorted(hist,key=lambda x:x["d"]):
+        h,a,hg,ag=r["home"],r["away"],r["hg"],r["ag"]
+        eh,ea=elo.get(h,1500.0),elo.get(a,1500.0)
+        exp=1.0/(1.0+10.0**((ea-(eh+w["elo_home"]))/400.0))
+        res=1.0 if hg>ag else 0.5 if hg==ag else 0.0
+        k=w["k"]*(1.0+0.25*min(3,abs(hg-ag)))
+        elo[h]=eh+k*(res-exp);elo[a]=ea+k*((1.0-res)-(1.0-exp))
+        att[h]=att.get(h,1.38)*0.94+hg*0.06
+        dfn[h]=dfn.get(h,1.38)*0.94+ag*0.06
+        att[a]=att.get(a,1.32)*0.94+ag*0.06
+        dfn[a]=dfn.get(a,1.38)*0.94+hg*0.06
+    return {"elo":elo,"att":att,"dfn":dfn}
+
 def run():
- t=today();w=load_w();hist=load_hist();fx,rs=fetch(t)
- ex={(r["d"],norm(r["home"]),norm(r["away"])) for r in hist};add=0
- for r in rs:
-  k=(r["date"],norm(r["home"]),norm(r["away"]))
-  if k not in ex:ex.add(k);hist.append({"d":r["date"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"],"league":r["league"],"source":"api"});add+=1
- with open(HF,"w",encoding="utf-8",newline="") as f:
-  wr=csv.writer(f);wr.writerow(["date","home","away","home_goals","away_goals","league","source"])
-  for r in sorted(hist,key=lambda x:x["d"]):wr.writerow([r["d"].isoformat(),r["home"],r["away"],r["hg"],r["ag"],r["league"],r.get("source","hist")])
- R=ratings(hist,t,w);log=json.loads(LF.read_text()) if LF.exists() else {}
- hidx={mkey(r["d"].isoformat(),r["home"],r["away"]):r for r in hist}
- for k,e in log.items():
-  if e.get("result") is None and k in hidx:
-   r=hidx[k];out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
-   e["result"],e["outcome"],e["hit"]=f"{r['hg']}-{r['ag']}",out,(e["pick"]==out)
- up=[]
- for f in fx:
-  k=mkey(f["date"].isoformat(),f["home"],f["away"]);p=pred(f["home"],f["away"],R,w)
-  row={"key":k,"date":f["date"].isoformat(),"league":f["league"],"home":f["home"],"away":f["away"],**p};up.append(row)
-  if k not in log:log[k]={**row,"result":None,"outcome":None,"hit":None}
- LF.write_text(json.dumps(log,ensure_ascii=False,indent=1))
- gr=[e for e in log.values() if e.get("result")];ht=sum(1 for e in gr if e.get("hit"));hp=round(100*ht/len(gr),1) if gr else 0.0
- te=sorted(R["elo"].items(),key=lambda x:x[1],reverse=True)[:30]
- sd={"version":VERSION,"generated_utc":datetime.now(timezone.utc).isoformat(timespec="seconds"),"stats":{"upcoming":len(up),"history_count":len(hist),"graded":len(gr),"hit_pct":hp},"weights":w,"top_elo":[{"team":tm,"elo":round(sc)} for tm,sc in te],"matches":sorted(up,key=lambda x:(x["date"],-x["conf"])),"recent_results":sorted(gr,key=lambda x:x["date"],reverse=True)[:40]}
- SF.write_text(json.dumps(sd,ensure_ascii=False,indent=1))
- su,sk=os.environ.get("SUPABASE_URL","").strip(),os.environ.get("SUPABASE_SERVICE_KEY","").strip()
- if su and sk:
-  supa(su,sk,"sigma_predictions",[{"match_key":m["key"],"match_date":m["date"],"league":m["league"],"home":m["home"],"away":m["away"],"p1":m["p1"],"px":m["pX"],"p2":m["p2"],"btts":m["btts"],"over25":m["over25"],"xg_home":m["xg_home"],"xg_away":m["xg_away"],"pick":m["pick"],"grade":m["grade"],"data_quality":m["quality"],"golden":m["golden"],"model":VERSION} for m in up])
-  supa(su,sk,"sigma_heartbeat",[{"id":1,"beat_at":datetime.now(timezone.utc).isoformat()}])
- print(f"✅ Sigma V75 Done: History={len(hist)} | Upcoming={len(up)} | New={add}")
-if __name__=="__main__":run()
+    t=datetime.now(timezone.utc).date()
+    fx,rs=fetch(t)
+    hist,ex=[],set()
+    if HF.exists():
+        with open(HF,encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                d=date.fromisoformat(r["date"]);k=(d,norm(r["home"]),norm(r["away"]))
+                if k not in ex: ex.add(k);hist.append({"d":d,"league":r["league"],"home":r["home"],"away":r["away"],"hg":int(r.get("hg") or r.get("home_goals") or r.get("FTHG") or 0),"ag":int(r.get("ag") or r.get("away_goals") or r.get("FTAG") or 0)})
+    add=0
+    for r in rs:
+        k=(r["date"],norm(r["home"]),norm(r["away"]))
+        if k not in ex: ex.add(k);hist.append({"d":r["date"],"league":r["league"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"]});add+=1
+    with open(HF,"w",encoding="utf-8",newline="") as f:
+        w=csv.DictWriter(f,["date","league","home","away","hg","ag"]);w.writeheader()
+        for r in sorted(hist,key=lambda x:x["d"]): w.writerow({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"hg":r["hg"],"ag":r["ag"]})
+    w=json.loads(WF.read_text(encoding="utf-8")) if WF.exists() else {"k":22,"elo_home":55,"elo_adj":0.0022,"rho":-0.08,"decay":0.0018}
+    R=build(hist,t,w)
+    log=json.loads(LF.read_text(encoding="utf-8")) if LF.exists() else {}
+    for r in rs:
+        k=f"{r['date']}|{norm(r['home'])}|{norm(r['away'])}"
+        if k in log and not log[k].get("result"):
+            out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
+            log[k]["result"]=f"{r['hg']}-{r['ag']}";log[k]["outcome"]=out;log[k]["hit"]=(log[k]["pick"]==out)
+    up=[]
+    for m in fx:
+        pr=pred(m["home"],m["away"],R,w)
+        k=f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
+        row={"key":k,"date":m["date"].isoformat(),"league":m["league"],"home":m["home"],"away":m["away"],**pr}
+        up.append(row)
+        if k not in log: log[k]={**row,"result":None,"outcome":None,"hit":None}
+    LF.write_text(json.dumps(log,ensure_ascii=False))
+    gr=[e for e in log.values() if e.get("result")]
+    if not gr:
+        for r in sorted(hist,key=lambda x:x["d"],reverse=True)[:40]:
+            pr=pred(r["home"],r["away"],R,w);out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
+            gr.append({"date":r["d"].isoformat(),"league":r["league"],"home":r["home"],"away":r["away"],"pick":pr["pick"],"conf":pr["conf"],"over25":pr["over25"],"result":f"{r['hg']}-{r['ag']}","outcome":out,"hit":(pr["pick"]==out)})
+    ht=sum(1 for e in gr if e.get("hit"));hp=round(100*ht/len(gr),1) if gr else 0.0
+    te=sorted(R["elo"].items(),key=lambda x:x[1],reverse=True)[:30]
+    sd={"version":VERSION,"generated_utc":datetime.now(timezone.utc).isoformat(timespec="seconds"),"stats":{"upcoming":len(up),"history_count":len(hist),"graded":len(gr),"hit_pct":hp},"weights":w,"top_elo":[{"team":tm,"elo":round(sc)} for tm,sc in te],"matches":sorted(up,key=lambda x:(x["date"],-x["conf"])),"recent_results":sorted(gr,key=lambda x:x["date"],reverse=True)[:40]}
+    SF.write_text(json.dumps(sd,ensure_ascii=False,indent=1))
+    su,sk=os.environ.get("SUPABASE_URL","").strip(),os.environ.get("SUPABASE_SERVICE_KEY","").strip()
+    if su and sk:
+        supa(su,sk,"sigma_predictions",[{"match_key":m["key"],"match_date":m["date"],"league":m["league"],"home":m["home"],"away":m["away"],"p1":m["p1"],"px":m["pX"],"p2":m["p2"],"btts":m["btts"],"over25":m["over25"],"xg_home":m["xg_home"],"xg_away":m["xg_away"],"pick":m["pick"],"grade":m["grade"],"data_quality":m["quality"],"golden":m["golden"],"model":VERSION} for m in up])
+        supa(su,sk,"sigma_heartbeat",[{"id":1,"beat_at":datetime.now(timezone.utc).isoformat()}])
+    print(f"✅ Sigma V75 Done: History={len(hist)} | Upcoming={len(up)} | New={add} | Acc={hp}%")
+
+if __name__=="__main__":
+    run()
