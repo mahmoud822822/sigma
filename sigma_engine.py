@@ -96,7 +96,7 @@ def fetch(t):
     except:pass
 
  if not fx:
-  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions"]:
+  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
    o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
    for ev in (o or {}).get("events",[]):
     try:
@@ -110,7 +110,7 @@ def fetch(t):
 
 
  if not fx:
-  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions"]:
+  for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions","uefa.nations","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.friendly","egy.1","ksa.1"]:
    o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
    for ev in (o or {}).get("events",[]):
     try:
