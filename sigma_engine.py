@@ -88,7 +88,7 @@ def fetch(t):
  return fx,rs
 def supa(u,k,tb,rw):
  if not u or not k or not rw:return
- try:urllib.request.urlopen(urllib.request.Request(f"{u.rstrip("/")}/rest/v1/{tb}",data=json.dumps(rw).encode(),headers={"apikey":k,"Authorization":f"Bearer {k}","Content-Type":"application/json","Prefer":"resolution=merge-duplicates"},method="POST"),timeout=20).read()
+ try:urllib.request.urlopen(urllib.request.Request(f"{u.rstrip('/')}/rest/v1/{tb}",data=json.dumps(rw).encode(),headers={"apikey":k,"Authorization":f"Bearer {k}","Content-Type":"application/json","Prefer":"resolution=merge-duplicates"},method="POST"),timeout=20).read()
  except Exception as e:print("SB warn:",e)
 def run():
  t=today();w=load_w();hist=load_hist();fx,rs=fetch(t)
