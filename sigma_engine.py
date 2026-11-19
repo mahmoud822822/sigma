@@ -1,3 +1,4 @@
+import base64
 from concurrent.futures import ThreadPoolExecutor
 import os,json,csv,math,time,re,urllib.request
 from datetime import datetime,date,timedelta,timezone
