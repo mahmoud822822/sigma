@@ -97,7 +97,7 @@ def fetch(t):
 
  if not fx:
   for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions"]:
-   o=hjson(f"https://espn.com{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
+   o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
    for ev in (o or {}).get("events",[]):
     try:
      d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
@@ -111,7 +111,7 @@ def fetch(t):
 
  if not fx:
   for lg in ["eng.1","esp.1","ita.1","ger.1","fra.1","uefa.champions"]:
-   o=hjson(f"https://espn.com{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
+   o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=7)).strftime('%Y%m%d')}")
    for ev in (o or {}).get("events",[]):
     try:
      d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]
