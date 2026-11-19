@@ -322,14 +322,29 @@ RESERVE_TAGS = (" u17"," u18"," u19"," u20"," u21"," u23"," women"," (w)"," wfc"
 
 def detect_league_grade(slug, lname):
     tx = f" {slug} {lname} ".lower()
-    if any(k in tx for k in ["friendly","friendlies","club.friendly"]): return "🤝 ودية"
-    if any(k in tx for k in ["fifa.","world","nations","euro.","copa.america","afcon","asian_cup","gold_cup"]): return "🌐 منتخبات"
-    if any(k in tx for k in ["champions","europa","conference","libertadores","sudamericana","caf.","afc.","concacaf"]): return "🌍 قاري"
-    if any(k in tx for k in ["cup","pokal","copa","coupe","coppa","trophy","shield","super"]): return "🏆 كأس"
-    if any(k in tx for k in [".2","championship","serie-b","serie b","segunda","2. bundesliga","2-bundesliga","ligue 2","ligue-2","eerste"]): return "🥈 درجة 2"
-    if any(k in tx for k in [".3","league one","league-one","serie c","3. liga","primera rfef"]): return "🥉 درجة 3"
-    if any(k in tx for k in [".4","league two","league-two"]): return "4️⃣ درجة 4"
-    return "🥇 ممتاز"
+    if any(k in tx for k in ["friendly","friendlies","club.friendly","club friendly"]):
+        return "🤝 مباراة ودية"
+    if any(k in tx for k in ["super cup","supercup","supercopa","supercoppa","community shield","trophée des champions","dfl-supercup"]):
+        return "⚡ كأس السوبر"
+    if any(k in tx for k in ["playoff","play-off","relegation","promotion"]):
+        return "⚔️ ملحق فاصل"
+    if any(k in tx for k in ["worldq","qualif","wcq","afconq","euroq"]):
+        return "🎯 تصفيات دولية"
+    if any(k in tx for k in ["fifa.","world cup","nations league","euro 20","copa america","afcon","asian cup","gold cup"]):
+        return "🌐 بطولة منتخبات"
+    if any(k in tx for k in ["champions","europa","conference","libertadores","sudamericana","caf.","afc.","concacaf","leagues cup","arab club"]):
+        return "🌍 بطولة قارية"
+    if any(k in tx for k in ["cup","pokal","copa","coupe","coppa","trophy","shield","taça","beker","kupa"]):
+        return "🏆 كأس محلي"
+    if any(k in tx for k in [".4","league two","league-two","serie d","3. liga"]):
+        return "4️⃣ دوري درجة 4"
+    if any(k in tx for k in [".3","league one","league-one","serie c","primera rfef","national league"]):
+        return "🥉 دوري درجة 3"
+    if any(k in tx for k in [".2","championship","serie-b","serie b","segunda","2. bundesliga","2-bundesliga","ligue 2","ligue-2","eerste","challenger"]):
+        return "🥈 دوري درجة 2"
+    if any(k in tx for k in ["regional","amateur","non-league","oberliga","tercera"]):
+        return "🏟️ دوري إقليمي"
+    return "🥇 دوري ممتاز"
 
 def detect_tier(home, away, league):
     txt = f" {home} {away} {league} ".lower()

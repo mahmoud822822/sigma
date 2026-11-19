@@ -98,7 +98,16 @@
   <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
   <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div><div class="qpill" onclick="sq('clash',this)">🔥 قمم وديربيات</div>
 </div>
-<div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
+<div style="margin-bottom:7px" id="gb"><select id="gf" onchange="pg=1;rn()">
+  <option value="">🏅 جميع أنواع المسابقات (دوري • كأس • قاري • وديات)</option>
+  <option value="🥇 دوري ممتاز">🥇 دوري ممتاز (الدرجة الأولى)</option>
+  <option value="🥈 دوري درجة 2">🥈 دوري درجة ثانية</option>
+  <option value="🥉 دوري درجة 3">🥉 دوري درجة ثالثة / رابعة</option>
+  <option value="🏆 كأس محلي">🏆 الكؤوس المحلية والسوبر</option>
+  <option value="🌍 بطولة قارية">🌍 البطولات القارية (أبطال / قاري)</option>
+  <option value="🌐 بطولة منتخبات">🌐 المنتخبات والتصفيات</option>
+  <option value="🤝 مباراة ودية">🤝 المباريات الودية</option>
+</select></div><div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
   <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
   <select id="df" onchange="pg=1;rn()">
     <option value="time">📅 ترتيب: الأقرب موعداً</option>
@@ -167,7 +176,7 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   A=d.matches||[]; R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
 });
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
-function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
+function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
 function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
 function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
 function cpTxt(i){
@@ -224,7 +233,7 @@ function rn(){
   }
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
-  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!lf.value||(m.league_name||m.league)===lf.value)&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="clash"||((m.elo_h||1500)+(m.elo_a||1500)>=3380))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="clash"||((m.elo_h||1500)+(m.elo_a||1500)>=3380))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
   if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
