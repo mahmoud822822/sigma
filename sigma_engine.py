@@ -75,7 +75,7 @@ def pred(h,a,R,w):
 def fetch(t):
  fx,rs=[],[]
  for lg in ["eng.1","eng.2","esp.1","ita.1","ger.1","fra.1","por.1","ned.1","tur.1","bel.1","sco.1","uefa.champions","uefa.europa","uefa.europa.conf","uefa.nations","fifa.world","fifa.worldq.uefa","fifa.worldq.caf","fifa.worldq.conmebol","fifa.worldq.afc","fifa.friendly","egy.1","ksa.1","caf.champions","afc.champions","bra.1","arg.1","usa.1","mex.1"]:
-  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard?dates={t.strftime('%Y%m%d')}-{(t+timedelta(days=14)).strftime('%Y%m%d')}")
+  o=hjson(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}/scoreboard")
   for ev in (o or {}).get("events",[]):
    try:
     d=date.fromisoformat(ev["date"][:10]);c=ev["competitions"][0]["competitors"]

@@ -60168,6 +60168,7 @@ date,home,away,home_goals,away_goals,league,source
 2025-11-16,Portugal,Armenia,9,1,World Cup,international_results
 2025-11-16,Serbia,Latvia,2,1,World Cup,international_results
 2025-11-16,Ukraine,Iceland,2,0,World Cup,international_results
+2025-11-16,Nigeria,Congo DR,1,1,fifa.worldq.caf,api
 2025-11-17,Bahrain,Somalia,1,2,International,international_results
 2025-11-17,Cape Verde,Egypt,1,1,International,international_results
 2025-11-17,Comoros,Namibia,4,0,International,international_results
@@ -60495,6 +60496,9 @@ date,home,away,home_goals,away_goals,league,source
 2026-03-31,Ukraine,Albania,1,0,International,international_results
 2026-03-31,United States,Portugal,0,2,International,international_results
 2026-03-31,Wales,Northern Ireland,1,1,International,international_results
+2026-03-31,Bosnia-Herzegovina,Italy,1,1,fifa.worldq.uefa,api
+2026-03-31,Czechia,Denmark,2,2,fifa.worldq.uefa,api
+2026-03-31,Kosovo,Türkiye,0,1,fifa.worldq.uefa,api
 2026-04-04,Atletico,Barcelona,1,2,Spain,sigma_old_new_fed.csv:OLD_BACKTEST
 2026-05-10,Barcelona,Real Madrid,2,0,Spain,sigma_old_new_fed.csv:OLD_BACKTEST
 2026-05-16,Republic of Ireland,Grenada,5,0,International,international_results
@@ -61435,3 +61439,35 @@ date,home,away,home_goals,away_goals,league,source
 2026-11-14,Norwegen,Wales,3,1,UNL,verified-V44-18
 2026-11-14,Portugal,Denmark,1,4,UEFA Nations League,verified-14Nov
 2026-11-14,Portugal,Dänemark,1,4,UNL,verified-V44-18
+2026-11-17,Bosnia-Herzegovina,Romania,2,1,uefa.nations,api
+2026-11-17,Denmark,Norway,2,3,uefa.nations,api
+2026-11-17,Hungary,Northern Ireland,1,1,uefa.nations,api
+2026-11-17,Israel,Austria,1,1,uefa.nations,api
+2026-11-17,Poland,Sweden,1,1,uefa.nations,api
+2026-11-17,Republic of Ireland,Kosovo,3,0,uefa.nations,api
+2026-11-17,Ukraine,Georgia,1,0,uefa.nations,api
+2026-11-17,Wales,Portugal,2,3,uefa.nations,api
+2026-11-17,Tahiti,Cook Islands,3,3,fifa.friendly,api
+2026-11-17,Malaysia,Yemen,2,1,fifa.friendly,api
+2026-11-17,Singapore,Brazil,0,7,fifa.friendly,api
+2026-11-17,China,Bahrain,2,2,fifa.friendly,api
+2026-11-17,Kyrgyz Republic,Vietnam,2,1,fifa.friendly,api
+2026-11-17,Lebanon,Palestine,0,0,fifa.friendly,api
+2026-11-17,Japan,Paraguay,1,2,fifa.friendly,api
+2026-11-17,Qatar,South Korea,0,1,fifa.friendly,api
+2026-11-17,United Arab Emirates,Syria,4,2,fifa.friendly,api
+2026-11-17,Saudi Arabia,Uzbekistan,1,2,fifa.friendly,api
+2026-11-17,Jordan,Australia,2,0,fifa.friendly,api
+2026-11-17,Russia,Venezuela,2,0,fifa.friendly,api
+2026-11-17,Iraq,Iran,1,1,fifa.friendly,api
+2026-11-17,Kuwait,Honduras,0,2,fifa.friendly,api
+2026-11-17,Argentina,Costa Rica,7,0,fifa.friendly,api
+2026-11-17,Chile,Colombia,0,0,fifa.friendly,api
+2026-11-17,Ecuador,Bolivia,2,0,fifa.friendly,api
+2026-11-17,Uruguay,Dominican Republic,5,0,fifa.friendly,api
+2026-11-18,Coritiba,Santos,0,1,bra.1,api
+2026-11-18,Remo,Chapecoense,2,0,bra.1,api
+2026-11-18,Cruzeiro,Palmeiras,2,1,bra.1,api
+2026-11-18,Flamengo,Athletico-PR,2,1,bra.1,api
+2026-11-19,Corinthians,Botafogo,4,0,bra.1,api
+2026-11-19,Grêmio,Bahia,0,0,bra.1,api
