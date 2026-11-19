@@ -1,6 +1,6 @@
 {
  "version": "Sigma-AI-V75",
- "generated_utc": "2026-11-19T04:25:26+00:00",
+ "generated_utc": "2026-11-19T04:32:52+00:00",
  "stats": {
   "upcoming": 172,
   "history_count": 61573,
@@ -161,7 +161,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-19|peñarol|cerrolargo",
@@ -187,7 +188,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-19|progreso|montevideocitytorque",
@@ -213,7 +215,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|athleticclub|espanyol",
@@ -239,7 +242,8 @@
     "2-0",
     "1-0",
     "3-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|asnancylorraine|dijonfco",
@@ -265,7 +269,8 @@
     "2-0",
     "2-1",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|arminiabielefeld|1fcmagdeburg",
@@ -291,7 +296,8 @@
     "1-2",
     "1-1",
     "1-3"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|barnsley|sheffieldwednesday",
@@ -317,7 +323,8 @@
     "1-1",
     "2-1",
     "2-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|troyes|lehavreac",
@@ -343,7 +350,8 @@
     "1-1",
     "2-1",
     "2-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|redstarfc93|pau",
@@ -369,7 +377,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|hellasverona|cesena",
@@ -395,7 +404,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|fcandorra|leganés",
@@ -421,7 +431,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|bayernmunich|fccologne",
@@ -447,7 +458,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|annecy|clermontfoot",
@@ -473,7 +485,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|guingamp|rodezaveyron",
@@ -499,7 +512,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|cerclebruggeksv|kvcwesterlo",
@@ -525,7 +539,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|agf|lyngbyboldklub",
@@ -551,7 +566,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|molde|bodoglimt",
@@ -577,7 +593,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|rostov|kryliasovetov",
@@ -603,7 +620,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|alahli|alnassr",
@@ -629,7 +647,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|kashimaantlers|shimizuspulse",
@@ -655,7 +674,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|kashiwareysol|jefunitedichiharachiba",
@@ -681,7 +701,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|visselkobe|mitohollyhock",
@@ -707,7 +728,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|westernsydneywanderersfc|adelaideunitedfc",
@@ -733,7 +755,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|eastbengalfc|sportingclubdelhi",
@@ -759,7 +782,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|bengalurufc|mumbaicityfc",
@@ -785,7 +809,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|vélezsarsfield|belgranocórdoba",
@@ -811,7 +836,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|independientemedellín|independientesantafe",
@@ -837,7 +863,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|atléticobucaramanga|américadecali",
@@ -863,7 +890,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|cobresal|audaxitaliano",
@@ -889,7 +917,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|palestino|uniónlacalera",
@@ -915,7 +944,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|independientedelvalle|macará",
@@ -941,7 +971,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|sportivoameliano|sportivoluqueño",
@@ -967,7 +998,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|deportivorecoleta|guaraní",
@@ -993,7 +1025,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|orlandocitysc|fccincinnati",
@@ -1019,7 +1052,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|seattlesoundersfc|realsaltlake",
@@ -1045,7 +1079,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|metz|boulogne",
@@ -1071,7 +1106,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-20|svdarmstadt98|1fcheidenheim1846",
@@ -1097,7 +1133,8 @@
     "1-1",
     "2-1",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|manchestercity|fulham",
@@ -1123,7 +1160,8 @@
     "3-0",
     "2-0",
     "4-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|tottenhamhotspur|ipswichtown",
@@ -1149,7 +1187,8 @@
     "2-0",
     "3-0",
     "4-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|wolverhamptonwanderers|charltonathletic",
@@ -1175,7 +1214,8 @@
     "2-0",
     "1-0",
     "3-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|boltonwanderers|portsmouth",
@@ -1201,7 +1241,8 @@
     "0-2",
     "0-1",
     "0-3"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|astonvilla|sunderland",
@@ -1227,7 +1268,8 @@
     "2-0",
     "2-1",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|grimsbytown|rotherhamunited",
@@ -1253,7 +1295,8 @@
     "2-0",
     "2-1",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|parma|asroma",
@@ -1279,7 +1322,8 @@
     "0-2",
     "0-1",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|norwichcity|cardiffcity",
@@ -1305,7 +1349,8 @@
     "0-1",
     "0-2",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|coventrycity|crystalpalace",
@@ -1331,7 +1376,8 @@
     "1-1",
     "1-2",
     "0-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|afcbournemouth|nottinghamforest",
@@ -1357,7 +1403,8 @@
     "1-1",
     "1-0",
     "2-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|millwall|queensparkrangers",
@@ -1383,7 +1430,8 @@
     "1-1",
     "2-1",
     "2-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|middlesbrough|bristolcity",
@@ -1409,7 +1457,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|swanseacity|westbromwichalbion",
@@ -1435,7 +1484,8 @@
     "1-1",
     "0-1",
     "0-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|chelsea|leedsunited",
@@ -1461,7 +1511,8 @@
     "1-1",
     "0-1",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|lincolncity|wrexham",
@@ -1487,7 +1538,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|stokecity|birminghamcity",
@@ -1513,7 +1565,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|gillingham|crewealexandra",
@@ -1539,7 +1592,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|newportcounty|swindontown",
@@ -1565,7 +1619,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|accringtonstanley|salfordcity",
@@ -1591,7 +1646,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|barnet|portvale",
@@ -1617,7 +1673,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|cheltenhamtown|bristolrovers",
@@ -1643,7 +1700,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|chesterfield|shrewsburytown",
@@ -1669,7 +1727,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|crawleytown|fleetwoodtown",
@@ -1695,7 +1754,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|northamptontown|rochdale",
@@ -1721,7 +1781,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|oldhamathletic|exetercity",
@@ -1747,7 +1808,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|tranmererovers|colchesterunited",
@@ -1773,7 +1835,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|yorkcity|walsall",
@@ -1799,7 +1862,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|necnijmegen|psveindhoven",
@@ -1825,7 +1889,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|fcutrecht|sccambuur",
@@ -1851,7 +1916,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|feyenoordrotterdam|excelsior",
@@ -1877,7 +1943,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|fcgroningen|heerenveen",
@@ -1903,7 +1970,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|telstar|peczwolle",
@@ -1929,7 +1997,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|genclerbirligi|gaziantepfk",
@@ -1955,7 +2024,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|amedsfk|caykurrizespor",
@@ -1981,7 +2051,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|galatasaray|samsunspor",
@@ -2007,7 +2078,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|kocaelispor|fenerbahce",
@@ -2033,7 +2105,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|celtic|stmirren",
@@ -2059,7 +2132,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|falkirk|stjohnstone",
@@ -2085,7 +2159,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|hibernian|dundeeunited",
@@ -2111,7 +2186,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|kilmarnock|aberdeen",
@@ -2137,7 +2213,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|dundee|heartofmidlothian",
@@ -2163,7 +2240,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|motherwell|rangers",
@@ -2189,7 +2267,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|kalamata|aekathens",
@@ -2215,7 +2294,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|lasklinz|tsvhartberg",
@@ -2241,7 +2321,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|wsgswarovskitirol|austrialustenau",
@@ -2267,7 +2348,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|grazerak|rapidvienna",
@@ -2293,7 +2375,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|aik|degerforsif",
@@ -2319,7 +2402,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|mjällbyaif|malmöff",
@@ -2345,7 +2429,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|gais|västeråssk",
@@ -2371,7 +2456,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|aucklandfc|melbournevictory",
@@ -2397,7 +2483,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|deportivocali|millonarios",
@@ -2423,7 +2510,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|deportivotáchira|caracasfc",
@@ -2449,7 +2537,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|realtomayapo|nacionalpotosí",
@@ -2475,7 +2564,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|abb|aurora",
@@ -2501,7 +2591,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|orientepetrolero|independientepetrolero",
@@ -2527,7 +2618,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|atléticomg|bocajuniors",
@@ -2553,7 +2645,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|puebla|atléticodesanluis",
@@ -2579,7 +2672,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|fcjuárez|atlas",
@@ -2605,7 +2699,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|tijuana|atlante",
@@ -2631,7 +2726,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|escorpionesbelén|adsancarlos",
@@ -2657,7 +2753,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|sheffieldunited|watford",
@@ -2683,7 +2780,8 @@
     "1-1",
     "1-0",
     "0-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|lazio|lecce",
@@ -2709,7 +2807,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|westhamunited|prestonnorthend",
@@ -2735,7 +2834,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|como|cagliari",
@@ -2761,7 +2861,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|newcastleunited|arsenal",
@@ -2787,7 +2888,8 @@
     "1-1",
     "1-0",
     "0-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|napoli|torino",
@@ -2813,7 +2915,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-21|southampton|derbycounty",
@@ -2839,7 +2942,8 @@
     "1-1",
     "2-1",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-22|criciúma|fortaleza",
@@ -2865,7 +2969,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-22|atléticogoianiense|vilanova",
@@ -2891,7 +2996,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|douanes|crbelouizdad",
@@ -2917,7 +3023,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|neftchifergana|alhilal",
@@ -2943,7 +3050,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|alain|esteghlalfc",
@@ -2969,7 +3077,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|alshamal|alahli",
@@ -2995,7 +3104,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|tractor|alwasl",
@@ -3021,7 +3131,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|alittihad|pakhtakor",
@@ -3047,7 +3158,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-23|alquwaaljawiya|algharafa",
@@ -3073,7 +3185,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|manchestercity|napoli",
@@ -3099,7 +3212,8 @@
     "3-0",
     "2-0",
     "4-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|realmadrid|psveindhoven",
@@ -3125,7 +3239,8 @@
     "2-0",
     "3-0",
     "4-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|rbleipzig|lens",
@@ -3151,7 +3266,8 @@
     "2-0",
     "3-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|arsenal|borussiadortmund",
@@ -3177,7 +3293,8 @@
     "0-2",
     "0-3",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|galatasaray|astonvilla",
@@ -3203,7 +3320,8 @@
     "1-1",
     "1-2",
     "0-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|slovanbratislava|realbetis",
@@ -3229,7 +3347,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|bodoglimt|lasklinz",
@@ -3255,7 +3374,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|feyenoordrotterdam|fcporto",
@@ -3281,7 +3401,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|eastbengalfc|alhusseinsc",
@@ -3307,7 +3428,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|alseebclub|alshortasc",
@@ -3333,7 +3455,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-24|como|aekathens",
@@ -3359,7 +3482,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|juventus|omonianicosia",
@@ -3385,7 +3509,8 @@
     "2-0",
     "3-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|boracbanjaluka|atalanta",
@@ -3411,7 +3536,8 @@
     "0-2",
     "0-3",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|scfreiburg|fctwente",
@@ -3437,7 +3563,8 @@
     "2-0",
     "2-1",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|necnijmegen|staderennais",
@@ -3463,7 +3590,8 @@
     "0-2",
     "1-2",
     "1-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|dinamozagreb|bayerleverkusen",
@@ -3489,7 +3617,8 @@
     "1-1",
     "1-2",
     "0-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|olympiacos|acmilan",
@@ -3515,7 +3644,8 @@
     "1-1",
     "1-2",
     "0-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|crystalpalace|realsociedad",
@@ -3541,7 +3671,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|heartofmidlothian|asmonaco",
@@ -3567,7 +3698,8 @@
     "1-1",
     "1-2",
     "0-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|celtavigo|afcbournemouth",
@@ -3593,7 +3725,8 @@
     "1-1",
     "0-1",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|tsghoffenheim|sksturmgraz",
@@ -3619,7 +3752,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|ajaxamsterdam|fcthun",
@@ -3645,7 +3779,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|sunderland|jagielloniabialystok",
@@ -3671,7 +3806,8 @@
     "1-1",
     "1-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|brightonhovealbion|csucraiova",
@@ -3697,7 +3833,8 @@
     "1-1",
     "0-1",
     "1-2"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|besiktas|hapoelbeer",
@@ -3723,7 +3860,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|marseille|levskisofia",
@@ -3749,7 +3887,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|rbsalzburg|araratarmenia",
@@ -3775,7 +3914,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|unionstgilloise|lechpoznan",
@@ -3801,7 +3941,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|ferencvaros|nkcelje",
@@ -3827,7 +3968,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|lyon|lillestrom",
@@ -3853,7 +3995,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|spartaprague|azalkmaar",
@@ -3879,7 +4022,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|torreense|celtic",
@@ -3905,7 +4049,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|kairatalmaty|mjällbyaif",
@@ -3931,7 +4076,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|egnatia|lincolnredimps",
@@ -3957,7 +4103,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|iberia1999|getafe",
@@ -3983,7 +4130,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|jablonec|fclugano",
@@ -4009,7 +4157,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|kaunozalgiris|rigafc",
@@ -4035,7 +4184,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|pafos|fcmidtjylland",
@@ -4061,7 +4211,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|skbrann|agf",
@@ -4087,7 +4238,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|fcnordsjælland|panathinaikos",
@@ -4113,7 +4265,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|hajduksplit|sinttruidense",
@@ -4139,7 +4292,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|interdescaldes|fckøbenhavn",
@@ -4165,7 +4319,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|kaagent|redstarbelgrade",
@@ -4191,7 +4346,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|braga|kupskuopio",
@@ -4217,7 +4373,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|oficrete|anderlecht",
@@ -4243,7 +4400,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|cskasofia|trabzonspor",
@@ -4269,7 +4427,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-26|viktoriaplzen|benfica",
@@ -4295,7 +4454,8 @@
     "1-1",
     "1-2",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-27|maritimo|cdnacional",
@@ -4321,7 +4481,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|youngafricans|mcalger",
@@ -4347,7 +4508,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|esperancesportivedetunis|wilietesc",
@@ -4373,7 +4535,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|pyramidsfc|maghrebasdefès",
@@ -4399,7 +4562,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|zamalek|clubafricain",
@@ -4425,7 +4589,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|rsbberkane|colombesportivdudjaetlobo",
@@ -4451,7 +4616,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-11-28|palmeiras|estudiantesdelaplata",
@@ -4477,7 +4643,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-12-01|vfbstuttgart|dynamodresden",
@@ -4503,7 +4670,8 @@
     "2-0",
     "3-0",
     "2-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-12-01|borussiamönchengladbach|svdarmstadt98",
@@ -4529,7 +4697,8 @@
     "1-1",
     "2-1",
     "2-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-12-01|holsteinkiel|fccologne",
@@ -4555,7 +4724,8 @@
     "1-1",
     "1-2",
     "0-1"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-12-01|internazionale|genoa",
@@ -4581,7 +4751,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   },
   {
    "key": "2026-12-01|bayernmunich|herthaberlin",
@@ -4607,7 +4778,8 @@
     "1-1",
     "2-1",
     "1-0"
-   ]
+   ],
+   "intel": "📊 تحليل Elo + Poisson"
   }
  ],
  "recent_results": [

@@ -54,6 +54,49 @@ def ratings(hist,ref,w):
   lr=0.08*dc;att[h]=att[h]*(1-lr)+r["hg"]*lr;dfn[h]=dfn[h]*(1-lr)+r["ag"]*lr;att[a]=att[a]*(1-lr)+r["ag"]*lr;dfn[a]=dfn[a]*(1-lr)+r["hg"]*lr
  return {"elo":elo,"att":att,"dfn":dfn}
 def pmf(k,l):return (l**k)*math.exp(-l)/math.factorial(k)
+def get_real_intel(lg, ev_id, h_id, a_id, h_name, a_name, hist):
+    base = "https://espn.com"
+    inj_h = inj_a = 0
+    lineup_ok = False
+    mkt_p1 = mkt_px = mkt_p2 = None
+    notes = []
+    try:
+        sm = hjson(f"{base}/{lg}/summary?event={ev_id}") or {}
+        for item in sm.get("injuries", []):
+            tid = str(item.get("team", {}).get("id", ""))
+            cnt = len(item.get("injuries", []))
+            if tid == str(h_id): inj_h = cnt
+            elif tid == str(a_id): inj_a = cnt
+        rosters = sm.get("rosters", [])
+        if any(len(r.get("roster", [])) >= 11 for r in rosters):
+            lineup_ok = True
+        odds = sm.get("pickcenter", [])
+        if odds:
+            o0 = odds[0]
+            hp = o0.get("homeTeamOdds", {}).get("winPercentage")
+            ap = o0.get("awayTeamOdds", {}).get("winPercentage")
+            if hp and ap:
+                mkt_p1, mkt_p2 = float(hp), float(ap)
+                mkt_px = max(5.0, round(100.0 - mkt_p1 - mkt_p2, 1))
+    except Exception:
+        pass
+    h_rec = [r for r in hist if r["home"] == h_name or r["away"] == h_name][-5:]
+    a_rec = [r for r in hist if r["home"] == a_name or r["away"] == a_name][-5:]
+    def form_pts(recs, tm):
+        if not recs: return 1.5
+        pts = 0
+        for r in recs:
+            gf = r["hg"] if r["home"] == tm else r["ag"]
+            ga = r["ag"] if r["home"] == tm else r["hg"]
+            pts += 3 if gf > ga else (1 if gf == ga else 0)
+        return pts / len(recs)
+    fh, fa = form_pts(h_rec, h_name), form_pts(a_rec, a_name)
+    if inj_h: notes.append(f"🏥 {h_name[:10]}: {inj_h} غيابات")
+    if inj_a: notes.append(f"🏥 {a_name[:10]}: {inj_a} غيابات")
+    if lineup_ok: notes.append("📋 تشكيلة مؤكدة")
+    notes.append(f"📈 فورمة: {round(fh,1)} vs {round(fa,1)}")
+    return {"inj_h": inj_h, "inj_a": inj_a, "lineup": lineup_ok, "fh": fh, "fa": fa, "mkt": (mkt_p1, mkt_px, mkt_p2), "notes": " • ".join(notes)}
+
 def pred(h,a,R,w):
     diff=(R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500); ef=math.exp(max(-1.2,min(1.2,diff*0.00165)))
     att_h,dfn_h=R["att"].get(h,1.38),R["dfn"].get(h,1.38)
@@ -156,9 +199,33 @@ def run():
         if k in log and not log[k].get("result"):
             out="1" if r["hg"]>r["ag"] else "X" if r["hg"]==r["ag"] else "2"
             log[k]["result"]=f"{r['hg']}-{r['ag']}";log[k]["outcome"]=out;log[k]["hit"]=(log[k]["pick"]==out)
+    from concurrent.futures import ThreadPoolExecutor
+    fx_sorted = sorted(fx, key=lambda x: x["date"])
+    def enrich(idx_m):
+        idx, m = idx_m
+        pr = pred(m["home"], m["away"], R, w)
+        if idx < 180 and m.get("id"):
+            intel = get_real_intel(m["league"], m["id"], m.get("hid",""), m.get("aid",""), m["home"], m["away"], hist)
+            adj_h = max(0.75, 1.0 - intel["inj_h"]*0.035 + (intel["fh"]-1.5)*0.08)
+            adj_a = max(0.75, 1.0 - intel["inj_a"]*0.035 + (intel["fa"]-1.5)*0.08)
+            pr["xg_home"] = round(pr["xg_home"] * adj_h, 2)
+            pr["xg_away"] = round(pr["xg_away"] * adj_a, 2)
+            if intel["mkt"][0]:
+                mp1, mpx, mp2 = intel["mkt"]
+                pr["p1"] = round(pr["p1"]*0.65 + mp1*0.35, 1)
+                pr["pX"] = round(pr["pX"]*0.65 + mpx*0.35, 1)
+                pr["p2"] = round(pr["p2"]*0.65 + mp2*0.35, 1)
+                bp, pk = max((pr["p1"],"1"),(pr["pX"],"X"),(pr["p2"],"2"))
+                pr["pick"], pr["conf"] = pk, min(88.0, bp)
+                pr["golden"] = (pr["conf"] >= 58.0) or (pr["over25"] >= 64.0 and pr["conf"] >= 50.0)
+            pr["intel"] = intel["notes"]
+        else:
+            pr["intel"] = "📊 تحليل Elo + Poisson"
+        return m, pr
     up=[]
-    for m in fx:
-        pr=pred(m["home"],m["away"],R,w)
+    with ThreadPoolExecutor(max_workers=20) as ex:
+        enriched = list(ex.map(enrich, enumerate(fx_sorted)))
+    for m, pr in enriched:
         k=f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
         row={"key":k,"date":m["date"].isoformat(),"league":m["league"],"home":m["home"],"away":m["away"],**pr}
         up.append(row)
