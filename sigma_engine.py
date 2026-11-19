@@ -225,7 +225,7 @@ def fetch(t):
             if rs_i: rs_l.append(rs_i)
         return fx_l, rs_l
 
-    with ThreadPoolExecutor(max_workers=40) as ex:
+    with ThreadPoolExecutor(max_workers=14) as ex:
         for fx_l, rs_l in ex.map(pull, tasks):
             for x in fx_l:
                 k = (x["date"], x["home"], x["away"])
