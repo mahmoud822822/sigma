@@ -94,6 +94,7 @@
 </div>
 <canvas id="cv" width="800" height="440" style="display:none"></canvas>
 <script>
+let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
 fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
