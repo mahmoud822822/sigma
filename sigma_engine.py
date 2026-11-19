@@ -191,7 +191,7 @@ def fetch(t):
         if st == "post":
             return None, {"date": d, "home": h, "away": a, "hg": int(hm.get("score", 0) or 0), "ag": int(aw.get("score", 0) or 0), "league": lg_hint or lg_slug}
         elif st == "pre":
-            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "league_name": lg_name}, None
+            return {"id": str(ev.get("id", "")), "date": d, "home": h, "away": a, "h_logo": h_logo, "a_logo": a_logo, "hid": str(hm["team"].get("id", "")), "aid": str(aw["team"].get("id", "")), "league": lg_hint or lg_slug, "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": lg_name}, None
         return None, None
 
     # 1. Auto-discover active global fixtures first
@@ -319,6 +319,33 @@ ARAB_ELO = {
 }
 RESERVE_TAGS = (" u17"," u18"," u19"," u20"," u21"," u23"," women"," (w)"," wfc"," feminino"," ladies"," reserves"," castilla"," ii"," b")
 
+
+
+DERBY_PAIRS = [
+    ("ahly","zamalek"),("hilal","nassr"),("ittihad","ahli"),("inter","milan"),
+    ("real madrid","atletico"),("real madrid","barcelona"),("liverpool","everton"),
+    ("arsenal","tottenham"),("manchester united","manchester city"),("boca","river"),
+    ("raja","wydad"),("esperance","club africain"),("galatasaray","fenerbahce"),
+    ("celtic","rangers"),("roma","lazio"),("dortmund","bayern")
+]
+
+def detect_context_tags(h, a, slug, lname, elo_h, elo_a):
+    tags = []
+    tx = f" {slug} {lname} ".lower()
+    hl, al = h.lower(), a.lower()
+    if "final" in tx and "semi" not in tx and "quarter" not in tx:
+        tags.append("👑 نهائي")
+    elif any(k in tx for k in ["semi","quarter","round of 16","knockout","eliminat"]):
+        tags.append("⚔️ خروج مغلوب")
+    elif "group" in tx or "league-phase" in tx:
+        tags.append("🔢 مجموعات")
+    if "1st leg" in tx or "leg 1" in tx: tags.append("🔄 ذهاب")
+    elif "2nd leg" in tx or "leg 2" in tx: tags.append("🔥 إياب")
+    if any((x in hl and y in al) or (y in hl and x in al) for x, y in DERBY_PAIRS):
+        tags.append("🔥 ديربي")
+    elif abs(elo_h - elo_a) <= 35:
+        tags.append("⚖️ متكافئة")
+    return " • ".join(tags)
 
 def detect_league_grade(slug, lname):
     tx = f" {slug} {lname} ".lower()
@@ -486,7 +513,7 @@ def run():
     with ThreadPoolExecutor(max_workers=25) as pool:
         for m, pr in pool.map(enrich, enumerate(fx_sorted)):
             k = f"{m['date']}|{norm(m['home'])}|{norm(m['away'])}"
-            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
+            row = {"key": k, "date": m["date"].isoformat(), "league": m["league"], "tier": detect_tier(m["home"], m["away"], m.get("league_name", m.get("league",""))), "lgrade": detect_league_grade(m.get("league",""), m.get("league_name","")), "ctx_tags": detect_context_tags(m["home"], m["away"], m.get("league",""), m.get("league_name",""), round(get_base_elo(norm(m["home"]), R["elo"])), round(get_base_elo(norm(m["away"]), R["elo"]))), "league_name": m.get("league_name", m["league"]), "home": m["home"], "away": m["away"], "h_logo": m.get("h_logo", ""), "a_logo": m.get("a_logo", ""), **pr}
             up.append(row)
             if k not in log: log[k] = {**row, "result": None, "outcome": None, "hit": None}
     LF.write_text(json.dumps(log, ensure_ascii=False))
