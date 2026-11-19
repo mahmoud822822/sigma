@@ -56,7 +56,7 @@ def ratings(hist,ref,w):
  return {"elo":elo,"att":att,"dfn":dfn}
 def pmf(k,l):return (l**k)*math.exp(-l)/math.factorial(k)
 def get_real_intel(lg, ev_id, h_id, a_id, h_name, a_name, hist):
-    base = "https://espn.com"
+    base = "httpsespn.com"
     inj_h = inj_a = 0
     lineup_ok = False
     mkt_p1 = mkt_px = mkt_p2 = None
@@ -157,7 +157,7 @@ def fetch(t):
     out_fx, out_rs, seen = [], [], set()
     def pull(item):
         lg, ds = item
-        data = hjson("https://site.api."+"://espn.com"+lg+"/scoreboard?dates="+ds)
+        data = hjson("https://site.api."+"espn.com"+lg+"/scoreboard?dates="+ds)
         if not data: return [], []
         fx_l, rs_l = [], []
         for ev in data.get("events", []):
