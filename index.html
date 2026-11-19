@@ -66,11 +66,15 @@
   .cmp-row{display:flex;justify-content:space-between;align-items:center;padding:9px 11px;background:var(--card);border:1px solid var(--bd);border-radius:11px;margin-bottom:6px;font-size:.76rem}
   .fab-top{position:fixed;bottom:74px;left:14px;background:var(--gd);color:#050914;border:none;width:36px;height:36px;border-radius:50%;font-weight:900;font-size:1rem;cursor:pointer;box-shadow:0 4px 14px rgba(245,158,11,.45);z-index:998}
 </style>
+<meta name="theme-color" content="#050914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SIGMA AI">
 </head>
 <body>
 <header>
   <div class="brand"><h1>SIGMA AI V300-SINGULARITY 👑</h1><span>By Mahmoud Emad</span></div>
-  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light')">🌓 مظهر</button></div></div>
+  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
   <div class="box"><b id="s1">0</b><small>قادمة</small></div>
@@ -92,7 +96,7 @@
   <div class="qpill" onclick="sq('tom',this)">📆 غداً</div>
   <div class="qpill" onclick="sq('c3',this)">🧠 إجماع 3/3</div>
   <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
-  <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div>
+  <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div><div class="qpill" onclick="sq('clash',this)">🔥 قمم وديربيات</div>
 </div>
 <div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
   <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
@@ -128,7 +132,7 @@ async function pullLive(){
 }
 pullLive(); setInterval(pullLive,30000);
 let CMP=false;
-function togView(){CMP=!CMP;vbtn.textContent=CMP?"📊 مفصّل":"⚡ مضغوط";rn()}
+function togView(){CMP=!CMP;localStorage.setItem("sigma_cmp",CMP?"1":"0");vbtn.textContent=CMP?"📊 مفصّل":"⚡ مضغوط";rn()}
 function stB(t,e){document.querySelectorAll(".bitem").forEach(x=>x.classList.remove("on"));e.classList.add("on");st(t,e)}
 function togAI(){aibox.style.display=aibox.style.display==="block"?"none":"block"}
 function askAI(mode){
@@ -205,7 +209,7 @@ function rn(){
   }
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
-  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!lf.value||(m.league_name||m.league)===lf.value)&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||(m.league_name||m.league)===lf.value)&&(!lf.value||(m.league_name||m.league)===lf.value)&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="clash"||((m.elo_h||1500)+(m.elo_a||1500)>=3380))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
   if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
