@@ -1,7 +1,7 @@
 import os,json,csv,math,time,re,urllib.request
 from datetime import datetime,date,timedelta,timezone
 from pathlib import Path
-VERSION = "V81-PRO"
+VERSION = "V84-ULTIMATE"
 BASE=Path(__file__).resolve().parent
 DATA=BASE/"data"
 DATA.mkdir(exist_ok=True)
@@ -132,7 +132,7 @@ def pred(h, a, R, w):
     lh = max(0.45, min(2.9, ((att_h + dfn_a) / 2.10) * ef))
     la = max(0.40, min(2.6, ((att_a + dfn_h) / 2.10) / ef))
     p1, px, p2, ov25, bt, bp, pk, cf, top_sc = calc_poisson(lh, la, w.get("rho", -0.06))
-    qu = "full" if (h in R["elo"] or a in R["elo"]) else "prior"
+    qu = "full" if (norm(h) in R["elo"] or norm(a) in R["elo"]) else "prior"
     is_gold = (cf >= 56.0) or (ov25 >= 61.0 and cf >= 48.0)
     return {
         "p1": p1, "pX": px, "p2": p2, "conf": cf, "btts": bt, "over25": ov25,
@@ -179,7 +179,7 @@ def supa(u,k,tb,rw):
 def build(hist,t,w):
     elo,att,dfn,cnt={},{},{},{}
     for r in sorted(hist,key=lambda x:x["d"]):
-        h,a,hg,ag=r["home"],r["away"],r["hg"],r["ag"]
+        h,a,hg,ag=norm(r["home"]),norm(r["away"]),r["hg"],r["ag"]
         eh,ea=elo.get(h,1500.0),elo.get(a,1500.0)
         exp=1.0/(1.0+10.0**((ea-(eh+w["elo_home"]))/400.0))
         res=1.0 if hg>ag else 0.5 if hg==ag else 0.0
