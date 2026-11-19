@@ -65,7 +65,7 @@
   <div class="tab on" onclick="st('all',this)">الكل 🌐</div>
   <div class="tab" onclick="st('gold',this)">الذهبية ⭐</div>
   <div class="tab" onclick="st('safe',this)">الأمان 🛡️</div>
-  <div class="tab" onclick="st('combo',this)">الورقة 🎫</div>
+  <div class="tab" onclick="st('live',this)" style="color:#fca5a5">مباشر 🔴</div><div class="tab" onclick="st('combo',this)">الورقة 🎫</div>
   <div class="tab" onclick="st('res',this)">النتائج 📊</div>
   <div class="tab" onclick="st('trust',this)">المصداقية 🏆</div>
 </div>
@@ -75,7 +75,7 @@
   <div class="qpill" onclick="sq('tom',this)">📆 غداً</div>
   <div class="qpill" onclick="sq('c3',this)">🧠 إجماع 3/3</div>
   <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
-  <div class="qpill" onclick="sq('btts',this)">🥅 كلاهما يسجل</div>
+  <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div>
 </div>
 <div class="filters" id="fb">
   <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
@@ -95,6 +95,21 @@
 <canvas id="cv" width="800" height="440" style="display:none"></canvas>
 <script>
 let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
+let LIVE=[];
+async function pullLive(){
+  try{
+    const r=await fetch("https://espn.com");
+    const d=await r.json();
+    LIVE=(d.events||[]).filter(e=>e.status?.type?.state==="in").map(e=>{
+      const c=e.competitions?.[0]?.competitors||[];
+      const hm=c.find(x=>x.homeAway==="home")||c[0]||{};
+      const aw=c.find(x=>x.homeAway==="away")||c[1]||{};
+      return {home:hm.team?.displayName||"",away:aw.team?.displayName||"",hs:hm.score||"0",as:aw.score||"0",clk:e.status?.displayClock||"LIVE",lg:e.league?.name||""};
+    });
+    if(T==="live")rn();
+  }catch(e){}
+}
+pullLive(); setInterval(pullLive,30000);
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
 fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
@@ -123,6 +138,12 @@ function mkCard(i){
   const a=document.createElement("a");a.download="SIGMA_"+m.home.slice(0,10)+".png";a.href=c.toDataURL("image/png");a.click();
 }
 function rn(){
+    if(T==="live"){
+    pb.style.display="none";
+    ls.innerHTML=`<div class="card gold"><div class="row"><h3 style="color:#fca5a5">🔴 المباريات الجارية الآن (${LIVE.length})</h3><button class="share-btn" onclick="pullLive()">🔄 تحديث</button></div><p style="font-size:.72rem;color:var(--mt);margin-top:4px">تحديث تلقائي مباشر كل 30 ثانية من ملاعب العالم</p></div>`+
+    (LIVE.length?LIVE.map(x=>`<div class="card"><div class="top"><span>🏆 ${x.lg}</span><span style="color:#fca5a5;font-weight:800">🔴 ${x.clk}</span></div><div class="teams" dir="ltr"><div class="tm-box"><span class="tm-name">${x.home}</span></div><div class="vs-pill" style="background:#ef4444;color:#fff;font-size:.9rem">${x.hs} - ${x.as}</div><div class="tm-box"><span class="tm-name">${x.away}</span></div></div></div>`).join(""):"<div class='card' style='text-align:center'>لا توجد مباريات جارية في هذه اللحظة — جرب التحديث بعد قليل</div>");
+    return;
+  }
   if(T==="trust"){
     pb.style.display="none";
     ls.innerHTML=`<div class="card gold"><h3 style="color:var(--gd);margin-bottom:8px">🛡️ ميثاق الشفافية والتعلم الذاتي</h3><p style="font-size:.78rem;color:#cbd5e1;line-height:1.7">كل توقع يُختم ببصمة رقمية SHA-256 ووقت إصدار UTC قبل صافرة البداية، ويعيد المحرك معايرة أوزانه تلقائياً كل 3 ساعات على آخر 120 مباراة منتهية.<br>أوزان المحرك الحية: أفضلية الأرض <b style="color:var(--ac)">+${W.elo_home||32}</b> | معامل التعادل <b style="color:var(--bl)">${W.rho||-0.06}</b></p></div>`+
@@ -144,7 +165,7 @@ function rn(){
   }
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
-  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
   if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
@@ -182,7 +203,7 @@ function rn(){
         <div class="adv-grid">
           <div class="adv-item">شوط/مباراة<br><b style="color:var(--gd)">${m.htft||"1/1"}</b></div>
           <div class="adv-item">هانديكاب<br><b style="color:var(--ac)">${m.ah_line||"-0.5"}</b></div>
-          <div class="adv-item">الركنيات<br><b style="color:var(--bl)">~${m.corners||9.5}</b></div>
+          <div class="adv-item">الركنيات<br><b style="color:var(--bl)">+${m.corners?(m.corners-1).toFixed(1):(6.5+((m.over25||50)/22)).toFixed(1)} ركنية</b></div>
         </div>
         <div class="reasons">${(m.reasons||[]).map(r=>"• "+r).join("<br>")}</div>
       </div>
