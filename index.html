@@ -1,1 +1,171 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sigma AI V75</title><link rel="manifest" href="manifest.json"><style>:root{--bg:#090d16;--card:#131b2e;--accent:#10b981;--gold:#f59e0b;--text:#f3f4f6;--muted:#9ca3af}*{box-sizing:border-box;font-family:system-ui,sans-serif}body{margin:0;background:var(--bg);color:var(--text);padding-bottom:50px}header{background:#0f172a;padding:14px;border-bottom:1px solid #1f2937;display:flex;justify-content:space-between;align-items:center}h1{margin:0;font-size:1.2rem;color:var(--accent)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px;max-width:650px;margin:auto}.sbox{background:var(--card);padding:10px;border-radius:12px;text-align:center}.sbox b{display:block;font-size:1.1rem;color:var(--accent)}.nav{display:flex;gap:6px;padding:0 12px 12px;max-width:650px;margin:auto}.nav button{flex:1;padding:10px;background:var(--card);border:1px solid #374151;color:#fff;border-radius:10px;font-weight:700}.nav button.active{background:var(--accent);color:#000}.wrap{padding:0 12px;max-width:650px;margin:auto}.card{background:var(--card);border-radius:14px;padding:14px;margin-bottom:12px;border:1px solid #1f2937}.card.golden{border-color:var(--gold)}.teams{display:flex;justify-content:space-between;font-weight:700;margin:8px 0}.probs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center}.prob{background:#0b1120;padding:6px;border-radius:8px}.prob.win{border:1px solid var(--accent);color:var(--accent);font-weight:700}input{width:100%;padding:10px;margin:6px 0;border-radius:10px;border:1px solid #374151;background:#0b1120;color:#fff}.btn{width:100%;padding:12px;background:var(--accent);color:#000;border:none;border-radius:10px;font-weight:700}</style></head><body><header><div><h1>⚡ SIGMA AI V75</h1><small style="color:var(--gold)">Mahmoud Emad</small></div><small id="lu"></small></header><div class="stats"><div class="sbox"><b id="su">-</b><span>قادمة</span></div><div class="sbox"><b id="sa">-</b><span>دقة</span></div><div class="sbox"><b id="sh">-</b><span>أرشيف</span></div></div><div class="nav"><button class="active" onclick="tab(1,this)">التوقعات</button><button onclick="tab(2,this)">الذهبية</button><button onclick="tab(3,this)">Elo</button><button onclick="tab(4,this)">Value</button></div><div class="wrap" id="v"></div><script>if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});let D={matches:[],top_elo:[],stats:{}};fetch("./data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{D=d;document.getElementById("lu").textContent=(d.generated_utc||"").slice(0,16);document.getElementById("su").textContent=d.stats.upcoming||0;document.getElementById("sa").textContent=(d.stats.hit_pct||0)+"%";document.getElementById("sh").textContent=(d.stats.history_count||0).toLocaleString();tab(1,document.querySelector(".nav button"))});function tab(n,b){document.querySelectorAll(".nav button").forEach(x=>x.classList.remove("active"));if(b)b.classList.add("active");const v=document.getElementById("v");if(n===1||n===2){const L=n===2?D.matches.filter(m=>m.golden):D.matches;v.innerHTML=L.length?L.map(m=>`<div class="card ${m.golden?"golden":""}"><small style="color:var(--muted)">${m.league} • ${m.date}</small><div class="teams"><span>${m.home} (${m.elo_home})</span><span style="color:var(--accent)">VS</span><span>${m.away} (${m.elo_away})</span></div><div class="probs"><div class="prob ${m.pick==="1"?"win":""}">1: ${m.p1}%</div><div class="prob ${m.pick==="X"?"win":""}">X: ${m.pX}%</div><div class="prob ${m.pick==="2"?"win":""}">2: ${m.p2}%</div></div><small style="display:block;margin-top:8px;color:var(--muted)">+2.5: ${m.over25}% | BTTS: ${m.btts}% | Top: ${(m.top_scores||[]).join(", ")}</small></div>`).join(""):"<div class=card>لا توجد مباريات</div>"}else if(n===3){v.innerHTML="<div class=card>"+(D.top_elo||[]).map((t,i)=>`<div style=display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #1f2937><span>${i+1}. ${t.team}</span><b>${t.elo}</b></div>`).join("")+"</div>"}else{v.innerHTML=`<div class=card><h3>Value & Kelly</h3><input id=bk type=number value=1000 placeholder="رأس المال"><input id=od type=number step=0.01 value=2.10 placeholder="الأودز"><input id=pr type=number value=60 placeholder="الاحتمال %"><button class=btn onclick="const bk=+document.getElementById(\x27bk\x27).value,od=+document.getElementById(\x27od\x27).value,pr=+document.getElementById(\x27pr\x27).value/100,ed=pr*od-1;document.getElementById(\x27vr\x27).textContent=ed>0.03?\x27✅ Value +\x27+(ed*100).toFixed(1)+\x27%\x27:\x27❌ No Value\x27">احسب</button><p id=vr></p></div>`}}</script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGMA AI V75 | Mahmoud Emad</title>
+<style>
+  :root { --bg:#0b1120; --card:#131c31; --accent:#10b981; --gold:#f59e0b; --text:#f1f5f9; --muted:#94a3b8; --border:#1e293b; }
+  * { box-sizing:border-box; margin:0; padding:0; font-family:system-ui,-apple-system,sans-serif; }
+  body { background:var(--bg); color:var(--text); padding:12px; max-width:900px; margin:auto; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:10px 4px; border-bottom:1px solid var(--border); margin-bottom:12px; }
+  .brand h1 { color:var(--accent); font-size:1.25rem; }
+  .brand span { color:var(--gold); font-size:0.8rem; display:block; }
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:12px; }
+  .stat-box { background:var(--card); padding:12px 8px; border-radius:12px; text-align:center; border:1px solid var(--border); }
+  .stat-box b { color:var(--accent); font-size:1.2rem; display:block; }
+  .stat-box small { color:var(--muted); font-size:0.8rem; }
+  .tabs { display:grid; grid-template-columns:repeat(5,1fr); gap:6px; margin-bottom:10px; }
+  .tab { background:var(--card); color:var(--text); border:1px solid var(--border); padding:9px 4px; border-radius:10px; font-weight:700; font-size:0.8rem; cursor:pointer; text-align:center; }
+  .tab.active { background:var(--accent); color:#052e16; border-color:var(--accent); }
+  .tab.gold-tab.active { background:var(--gold); color:#451a03; border-color:var(--gold); }
+  .filters { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:12px; }
+  input, select { background:var(--card); color:var(--text); border:1px solid var(--border); padding:10px; border-radius:10px; font-size:0.85rem; width:100%; outline:none; }
+  .match-card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:12px; margin-bottom:10px; position:relative; }
+  .match-card.golden { border-color:var(--gold); box-shadow:0 0 10px rgba(245,158,11,0.12); }
+  .m-top { display:flex; justify-content:space-between; font-size:0.75rem; color:var(--muted); margin-bottom:8px; }
+  .badge-gold { background:rgba(245,158,11,0.2); color:var(--gold); padding:2px 8px; border-radius:6px; font-weight:700; }
+  .teams { display:flex; justify-content:space-between; align-items:center; font-weight:700; font-size:0.95rem; margin-bottom:10px; }
+  .probs { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; text-align:center; margin-bottom:8px; }
+  .p-pill { background:#0f172a; padding:6px; border-radius:8px; font-size:0.8rem; border:1px solid var(--border); }
+  .p-pill.pick { border-color:var(--accent); color:var(--accent); font-weight:700; }
+  .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; font-size:0.75rem; text-align:center; background:#0f172a; padding:7px; border-radius:8px; }
+  .over-hi { color:#38bdf8; font-weight:700; }
+  .pager { display:flex; justify-content:space-between; align-items:center; gap:8px; margin:16px 0 24px; }
+  .pager button { background:var(--card); color:var(--text); border:1px solid var(--border); padding:10px 14px; border-radius:10px; font-weight:700; cursor:pointer; }
+  .pager button:disabled { opacity:0.4; cursor:not-allowed; }
+  footer { text-align:center; color:var(--muted); font-size:0.75rem; padding:12px 0; border-top:1px solid var(--border); }
+</style>
+</head>
+<body>
+<header>
+  <div id="updated" style="font-size:0.75rem;color:var(--muted)">جاري التحميل...</div>
+  <div class="brand" style="text-align:left">
+    <h1>SIGMA AI V75 ⚡</h1>
+    <span>Mahmoud Emad</span>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat-box"><b id="s-up">0</b><small>قادمة</small></div>
+  <div class="stat-box"><b id="s-acc">0%</b><small>دقة</small></div>
+  <div class="stat-box"><b id="s-hist">0</b><small>أرشيف</small></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="setTab('all',this)">التوقعات</div>
+  <div class="tab gold-tab" onclick="setTab('gold',this)">الذهبية ⭐</div>
+  <div class="tab" onclick="setTab('over25',this)">+2.5 هدف 🔥</div>
+  <div class="tab" onclick="setTab('elo',this)">Elo</div>
+  <div class="tab" onclick="setTab('value',this)">Value</div>
+</div>
+
+<div class="filters">
+  <input type="text" id="q" placeholder="🔍 ابحث بفريق أو بطولة..." oninput="resetPage()">
+  <select id="dayFilter" onchange="resetPage()">
+    <option value="all">📅 كل الشهر (30 يوم)</option>
+    <option value="today">اليوم فقط</option>
+    <option value="tomorrow">غداً فقط</option>
+    <option value="week">خلال 7 أيام</option>
+    <option value="o65">أهداف +2.5 فوق 65%</option>
+  </select>
+</div>
+
+<div id="list"></div>
+
+<div class="pager">
+  <button onclick="goPage(-1)" id="prevBtn">⬅️ السابق</button>
+  <span id="pageInfo" style="font-size:0.85rem;color:var(--muted)">صفحة 1</span>
+  <button onclick="goPage(1)" id="nextBtn">التالي ➡️</button>
+</div>
+
+<footer>SIGMA AI Engine • Updated Automatically Every 3 Hours • Mahmoud Emad</footer>
+
+<script>
+let ALL = [], TAB = 'all', PAGE = 1, PER_PAGE = 25;
+
+fetch('data/sigma_site.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById('updated').textContent = (d.generated_utc || '').slice(0,16).replace('T',' ');
+    document.getElementById('s-up').textContent = (d.stats?.upcoming || 0).toLocaleString();
+    document.getElementById('s-acc').textContent = (d.stats?.hit_pct || 0) + '%';
+    document.getElementById('s-hist').textContent = (d.stats?.history_count || 0).toLocaleString();
+    ALL = d.matches || [];
+    render();
+  });
+
+function setTab(t, el) {
+  TAB = t;
+  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+  el.classList.add('active');
+  resetPage();
+}
+
+function resetPage() { PAGE = 1; render(); }
+function goPage(dir) { PAGE += dir; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+
+function render() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const df = document.getElementById('dayFilter').value;
+  const now = new Date();
+  const todayStr = now.toISOString().slice(0,10);
+  const tom = new Date(now.getTime() + 86400000).toISOString().slice(0,10);
+  const wk = new Date(now.getTime() + 7*86400000).toISOString().slice(0,10);
+
+  let rows = ALL.filter(m => {
+    if (TAB === 'gold' && !m.golden && m.conf < 58) return false;
+    if (TAB === 'over25' && m.over25 < 58) return false;
+    if (TAB === 'value' && (m.conf < 55 || m.over25 < 55)) return false;
+    if (df === 'today' && m.date !== todayStr) return false;
+    if (df === 'tomorrow' && m.date !== tom) return false;
+    if (df === 'week' && m.date > wk) return false;
+    if (df === 'o65' && m.over25 < 65) return false;
+    if (q && !(`${m.home} ${m.away} ${m.league}`.toLowerCase().includes(q))) return false;
+    return true;
+  });
+
+  if (TAB === 'over25') rows.sort((a,b) => b.over25 - a.over25);
+  else if (TAB === 'elo') rows.sort((a,b) => Math.abs(b.elo_home - b.elo_away) - Math.abs(a.elo_home - a.elo_away));
+  else if (TAB === 'gold') rows.sort((a,b) => b.conf - a.conf);
+
+  const totalPages = Math.max(1, Math.ceil(rows.length / PER_PAGE));
+  if (PAGE > totalPages) PAGE = totalPages;
+  if (PAGE < 1) PAGE = 1;
+  const slice = rows.slice((PAGE-1)*PER_PAGE, PAGE*PER_PAGE);
+
+  document.getElementById('pageInfo').textContent = `صفحة ${PAGE} من ${totalPages} (${rows.length} مباراة)`;
+  document.getElementById('prevBtn').disabled = PAGE <= 1;
+  document.getElementById('nextBtn').disabled = PAGE >= totalPages;
+
+  const box = document.getElementById('list');
+  if (!slice.length) { box.innerHTML = '<div class="match-card" style="text-align:center;color:var(--muted)">لا توجد مباريات مطابقة للفلتر</div>'; return; }
+
+  box.innerHTML = slice.map(m => `
+    <div class="match-card ${m.golden ? 'golden' : ''}">
+      <div class="m-top">
+        <span>🏆 ${m.league.toUpperCase()} • 📅 ${m.date}</span>
+        ${m.golden ? '<span class="badge-gold">⭐ توقع ذهبي</span>' : `<span>ثقة ${m.grade}</span>`}
+      </div>
+      <div class="teams">
+        <span>${m.home}</span>
+        <span style="color:var(--muted);font-size:0.8rem">VS</span>
+        <span>${m.away}</span>
+      </div>
+      <div class="probs">
+        <div class="p-pill ${m.pick==='1'?'pick':''}">فوز 1: ${m.p1}%</div>
+        <div class="p-pill ${m.pick==='X'?'pick':''}">تعادل X: ${m.pX}%</div>
+        <div class="p-pill ${m.pick==='2'?'pick':''}">فوز 2: ${m.p2}%</div>
+      </div>
+      <div class="metrics">
+        <div class="${m.over25>=60?'over-hi':''}">+2.5 هدف<br><b>${m.over25}%</b></div>
+        <div>BTTS<br><b>${m.btts}%</b></div>
+        <div>xG<br><b>${m.xg_home}-${m.xg_away}</b></div>
+        <div>توقع نتيجة<br><b>${(m.top_scores||['1-0'])[0]}</b></div>
+      </div>
+    </div>
+  `).join('');
+}
+</script>
+</body>
+</html>

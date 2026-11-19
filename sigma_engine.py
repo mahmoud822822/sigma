@@ -55,23 +55,34 @@ def ratings(hist,ref,w):
  return {"elo":elo,"att":att,"dfn":dfn}
 def pmf(k,l):return (l**k)*math.exp(-l)/math.factorial(k)
 def pred(h,a,R,w):
- ef=math.exp(((R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500))*w["elo_adj"])
- lh=max(0.25,min(3.8,((R["att"].get(h,1.35)+R["dfn"].get(a,1.35))/2)*ef))
- la=max(0.20,min(3.5,((R["att"].get(a,1.35)+R["dfn"].get(h,1.35))/2)/ef))
- p1=px=p2=bt=ov=tot=0.0;sc=[]
- for i in range(7):
-  for j in range(7):
-   pr=pmf(i,lh)*pmf(j,la);tot+=pr
-   if i>j:p1+=pr
-   elif i==j:px+=pr
-   else:p2+=pr
-   if i>0 and j>0:bt+=pr
-   if i+j>2:ov+=pr
-   sc.append((pr,f"{i}-{j}"))
- p1,px,p2=round(100*p1/tot,1),round(100*px/tot,1),round(100*p2/tot,1)
- bp,pk=max((p1,"1"),(px,"X"),(p2,"2"));cf=min(85.0,bp);sc.sort(reverse=True)
- qu="full" if (h in R["elo"] and a in R["elo"]) else "prior"
- return {"p1":p1,"pX":px,"p2":p2,"conf":cf,"btts":round(100*bt/tot,1),"over25":round(100*ov/tot,1),"xg_home":round(lh,2),"xg_away":round(la,2),"elo_home":round(R["elo"].get(h,1500)),"elo_away":round(R["elo"].get(a,1500)),"pick":pk,"grade":"A+" if cf>=70 else "A" if cf>=60 else "B" if cf>=50 else "C","quality":qu,"golden":(62<=cf<=82 and qu=="full"),"top_scores":[x[1] for x in sc[:3]]}
+    ef=math.exp(((R["elo"].get(h,1500)+w["elo_home"])-R["elo"].get(a,1500))*w["elo_adj"])
+    att_h,dfn_h=R["att"].get(h,1.38),R["dfn"].get(h,1.38)
+    att_a,dfn_a=R["att"].get(a,1.32),R["dfn"].get(a,1.38)
+    lh=max(0.35,min(4.2,((att_h+dfn_a)/2.0)*(ef**0.65)))
+    la=max(0.30,min(3.8,((att_a+dfn_h)/2.0)/(ef**0.55)))
+    p1=px=p2=bt=ov=tot=0.0;sc=[]
+    for i in range(8):
+        for j in range(8):
+            pr=pmf(i,lh)*pmf(j,la)
+            if i==0 and j==0: pr*=max(0.1,1.0-lh*la*w.get("rho",-0.08))
+            elif i==1 and j==0: pr*=max(0.1,1.0+la*w.get("rho",-0.08))
+            elif i==0 and j==1: pr*=max(0.1,1.0+lh*w.get("rho",-0.08))
+            elif i==1 and j==1: pr*=max(0.1,1.0-w.get("rho",-0.08))
+            tot+=pr
+            if i>j:p1+=pr
+            elif i==j:px+=pr
+            else:p2+=pr
+            if i>0 and j>0:bt+=pr
+            if i+j>2:ov+=pr
+            sc.append((pr,f"{i}-{j}"))
+    p1,px,p2=round(100*p1/tot,1),round(100*px/tot,1),round(100*p2/tot,1)
+    ov25=round(100*ov/tot,1)
+    btts=round(100*bt/tot,1)
+    bp,pk=max((p1,"1"),(px,"X"),(p2,"2"));cf=min(88.0,bp);sc.sort(reverse=True)
+    qu="full" if (h in R["elo"] or a in R["elo"]) else "prior"
+    is_gold = (cf >= 58.0) or (ov25 >= 64.0 and cf >= 50.0)
+    return {"p1":p1,"pX":px,"p2":p2,"conf":cf,"btts":btts,"over25":ov25,"xg_home":round(lh,2),"xg_away":round(la,2),"elo_home":round(R["elo"].get(h,1500)),"elo_away":round(R["elo"].get(a,1500)),"pick":pk,"grade":"A+" if cf>=70 else "A" if cf>=60 else "B" if cf>=50 else "C","quality":qu,"golden":is_gold,"top_scores":[x[1] for x in sc[:3]]}
+
 def fetch(t):
  fx,rs=[],[]
  for lg in [
