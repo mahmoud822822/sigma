@@ -299,9 +299,31 @@ def resolve_team(name, pool):
             return k
     return n
 
+ARAB_ELO = {
+    "al hilal": 1745, "hilal": 1745, "al nassr": 1715, "nassr": 1715,
+    "al ittihad": 1695, "ittihad": 1695, "al ahli": 1680, "ahli jeddah": 1680,
+    "al qadsiah": 1625, "al shabab": 1615, "al ettifaq": 1595, "al taawoun": 1605,
+    "al fateh": 1560, "al fayha": 1550, "al khaleej": 1545, "al riyadh": 1530,
+    "abha": 1510, "al hazem": 1495, "al kholood": 1515, "diriyah": 1470, "neom": 1540,
+    "al ahly": 1735, "zamalek": 1670, "pyramids": 1665, "masry": 1590, "ceramica": 1575,
+    "ismaily": 1540, "enppi": 1545, "smouha": 1550, "zed": 1560, "modern": 1555,
+    "raja": 1655, "wydad": 1650, "far rabat": 1640, "berkane": 1630,
+    "esperance": 1665, "etoile": 1615, "club africain": 1610, "sfaxien": 1595,
+    "usm alger": 1625, "mc alger": 1630, "belouizdad": 1635, "kabylie": 1605,
+    "al ain": 1675, "shabab al ahli": 1655, "al wasl": 1650, "al jazira": 1615, "sharjah": 1625,
+    "al sadd": 1670, "al duhail": 1655, "al rayyan": 1615, "al gharafa": 1610,
+    "sundowns": 1700, "orlando pirates": 1635, "kaizer chiefs": 1600, "persepolis": 1645, "esteghlal": 1635, "ulsan": 1660, "jeonbuk": 1645, "vissel kobe": 1665, "yokohama": 1650
+}
+def get_base_elo(n, pool):
+    if n in pool: return pool[n]
+    for k, v in ARAB_ELO.items():
+        if k in n or n in k: return v
+    h_val = sum(ord(c) * (idx + 1) for idx, c in enumerate(n)) % 130
+    return 1465.0 + h_val
+
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
-    diff = (R["elo"].get(nh, 1500.0) + 32.0) - R["elo"].get(na, 1500.0)
+    diff = (get_base_elo(nh, R["elo"]) + 32.0) - get_base_elo(na, R["elo"])
     ef = math.exp(max(-0.75, min(0.75, diff * 0.00125)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
     att_h, dfn_h = R["att"].get(nh, 1.32), R["dfn"].get(nh, 1.32)
