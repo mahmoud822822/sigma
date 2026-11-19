@@ -13,6 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: |
+          pip install requests supabase python-dotenv numpy pandas scipy || true
+          [ -f requirements.txt ] && pip install -r requirements.txt || true
       - env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -22,6 +25,6 @@ jobs:
       - run: |
           git config user.name "Sigma Bot"
           git config user.email "bot@sigma.local"
-          git add data/
-          git commit -m "Fix secrets mapping" || true
+          git add -A
+          git commit -m "Auto update" || true
           git push
