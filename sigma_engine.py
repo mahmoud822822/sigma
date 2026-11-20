@@ -474,11 +474,21 @@ def compute_quantum_shield(p1, pX, p2, dc_prob, over25, lgrade, ctx_tags):
     combo_prob = round(min(94.5, dc_prob + 4.8), 1)
     return trap, trap_reason, safety, combo_lbl, combo_prob
 
+def get_dynamic_home_adv(lg):
+    s = str(lg).lower()
+    if any(k in s for k in ["friend", "world", "euro", "afcon", "copa-america", "nations", "neutral", "club-world"]):
+        return 3.0
+    if any(k in s for k in ["champions-league", "europa", "conference", "cup", "fa-cup", "copa", "pokal", "championship", "serie-b", "segunda", "ligue-2", "2-bundesliga"]):
+        return 5.0
+    if any(k in s for k in ["egypt", "saudi", "morocco", "botola", "tunisia", "algeria", "qatar", "uae", "caf", "brazil", "brasileiro", "argentina", "libertadores", "sudamericana", "turkey", "greece"]):
+        return 12.0
+    return 8.0
+
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     elo_h = get_base_elo(nh, R["elo"])
     elo_a = get_base_elo(na, R["elo"])
-    diff = (elo_h + 12.0) - elo_a
+    diff = (elo_h + (get_dynamic_home_adv(lg) * 1.5)) - elo_a
     ef = math.exp(max(-0.45, min(0.45, diff * 0.0013)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
     att_h = max(0.75, min(2.05, R["att"].get(nh, 1.35)))
@@ -490,7 +500,7 @@ def pred(h, a, R, w, lg=""):
     res = calc_poisson(lh, la, w.get("rho", -0.11))
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
     is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
+    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "home_adv_pct": int(get_dynamic_home_adv(lg)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
 
 def run():
     t = datetime.now(timezone.utc).date()
