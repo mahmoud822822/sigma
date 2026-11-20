@@ -511,16 +511,23 @@ def pred(h, a, R, w, lg=""):
     elo_gap = abs(elo_h - elo_a)
     is_trap = (elo_gap < 35 and res["conf"] > 62.0) or (res["conf"] < 46.0 and abs(lh - la) < 0.25)
     
-    # 5. الإجماع الثلاثي الحقيقي (Elo + xG + Balance)
-    model_elo_agree = (diff > 20 and res["p1"] > res["p2"]) or (diff < -20 and res["p2"] > res["p1"])
-    model_xg_agree = (lh > la + 0.25 and res["p1"] > res["p2"]) or (la > lh + 0.25 and res["p2"] > res["p1"])
-    consensus_val = "3/3" if (not is_trap and res["conf"] >= 56.0 and model_elo_agree and model_xg_agree) else "2/3"
+    # 5. الذكاء الجمعي الرباعي (4-Brain Ensemble Consensus)
+    brain_elo = (diff > 22 and res["p1"] > res["p2"]) or (diff < -22 and res["p2"] > res["p1"])
+    brain_xg = (lh > la + 0.28 and res["p1"] > res["p2"]) or (la > lh + 0.28 and res["p2"] > res["p1"])
+    brain_form = (att_h > att_a * 1.12 and dfn_h <= dfn_a * 1.05 and res["p1"] > res["p2"]) or (att_a > att_h * 1.12 and dfn_a <= dfn_h * 1.05 and res["p2"] > res["p1"])
+    brain_safety = (res["dc_prob"] >= 84.0)
     
-    # 6. توليد أسباب التحليل العميق بالذكاء الاصطناعي
+    brains_agreed = sum([brain_elo, brain_xg, brain_form, brain_safety])
+    consensus_val = "3/3" if (not is_trap and brains_agreed >= 3 and res["conf"] >= 57.0) else "2/3"
+    
+    # 6. وضع القناص الخارق (Sniper 90%+): تطابق كل العقول الأربعة بدون أي فخ
+    is_sniper = (not is_trap) and (brains_agreed == 4) and (res["conf"] >= 63.0) and (elo_gap >= 95)
+    
+    # 7. توليد تقرير التفكير العميق للذكاء الجمعي
     reasons = [
+        f"🧠 تصويت العقول الذكية: اتفاق {brains_agreed}/4 نماذج مستقلة ({'🎯 وضع القناص 90%+' if is_sniper else 'تحليل متوازن'})",
         f"⚖️ ميزان القوة Elo: {round(elo_h)} مقابل {round(elo_a)} مع أفضلية أرض ديناميكية +{int(h_adv_pct)}%",
-        f"⚽ مؤشر الأهداف المتوقعة (Dixon-Coles xG): {round(lh, 2)} لصاحب الأرض مقابل {round(la, 2)} للضيف",
-        f"🧠 تقييم الذكاء: {'⚠️ تحذير فخ سعري (تقارب شديد)' if is_trap else ('✅ إجماع ثلاثي مؤكد 3/3' if consensus_val=='3/3' else '📊 ترجيح إحصائي متوازن')}"
+        f"⚽ محاكاة الأهداف (Dixon-Coles xG): {round(lh, 2)} مقابل {round(la, 2)} | أمان مزدوج: {res['dc_prob']}%"
     ]
     
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
@@ -542,7 +549,7 @@ def pred(h, a, R, w, lg=""):
         "kelly_pct": kelly_pct,
         "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C",
         "quality": qu,
-        "golden": is_gold
+        "golden": is_gold, "sniper": is_sniper, "brains": brains_agreed
     }
 
 def run():
