@@ -500,7 +500,7 @@ def pred(h, a, R, w, lg=""):
     res = calc_poisson(lh, la, w.get("rho", -0.11))
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
     is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "home_adv_pct": int(get_dynamic_home_adv(lg)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
+    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "home_adv_pct": int(get_dynamic_home_adv(lg)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "consensus": "3/3" if (res["conf"] >= 58.0 and ((elo_h > elo_a and lh > la) or (elo_a > elo_h and la > lh))) else "2/3", "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
 
 def run():
     t = datetime.now(timezone.utc).date()
