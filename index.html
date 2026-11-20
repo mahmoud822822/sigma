@@ -89,7 +89,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span></div>
+  <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span><button class=tbtn onclick="sigmaAdminLogin()">Admin</button></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
 </header>
 <div class="stats">
@@ -397,5 +397,20 @@ function rn(){
   </div>
   <div class="ai-ans" id="aians">اختر أحد الأسئلة الذكية أعلاه لأحلل لك أفضل الفرص المتاحة الآن من بيانات المحرك الحية...</div>
 </div>
-<script>/*SIGMA_CAP*/function sigmaCap(p,eh,ea){return (eh==1500||ea==1500)?Math.min(p,52):Math.min(p,75)}</script></body>
+<script>/*SIGMA_CAP*/function sigmaCap(p,eh,ea){return (eh==1500||ea==1500)?Math.min(p,52):Math.min(p,75)}</script><script>
+window.sigmaAdminLogin=function(){
+var u=prompt("Admin user:");
+var pw=prompt("Password:");
+if(u==="admin"&&pw==="sigma123"){localStorage.setItem("sigma_role","admin");localStorage.setItem("sigma_admin","1");alert("Admin OK");location.reload()}
+else if(u==="editor1"&&pw==="123456"){localStorage.setItem("sigma_role","editor");alert("Editor OK");location.reload()}
+else if(u==="viewer1"&&pw==="123456"){localStorage.setItem("sigma_role","viewer");alert("Viewer OK");location.reload()}
+else{alert("Wrong")}
+};
+try{
+if(localStorage.getItem("sigma_role")==="admin"||localStorage.getItem("sigma_admin")==="1"){
+document.body.classList.add("is-admin");
+document.querySelectorAll(".admin-only").forEach(e=>e.style.display="");
+}
+}catch(e){}
+</script></body>
 </html>
