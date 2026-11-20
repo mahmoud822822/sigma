@@ -229,9 +229,9 @@ function mkCard(i){
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText(((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
-  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+m.conf+"%)",400,210);
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+sigmaCap(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
   ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
-  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+m.conf+"%)",400,210);
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+sigmaCap(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
   ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
   ctx.fillText("Safe "+m.dc_pick+": "+m.dc_prob+"%  |  "+(m.dnb_pick||"DNB")+": "+(m.dnb_prob ?? 0)+"%  |  Over 2.5: "+m.over25+"%",400,270);
   ctx.fillStyle="#142038";ctx.fillRect(40,335,720,66);ctx.fillStyle="#f59e0b";ctx.font="bold 23px sans-serif";ctx.fillText("Mahmoud Emad",400,376);
@@ -332,7 +332,7 @@ function rn(){
   pi.textContent=`صفحة ${pg} من ${tp} (${w.length})`;b1.disabled=pg<=1;b2.disabled=pg>=tp;
   window._cur=w.slice((pg-1)*pp,pg*pp);
   try{ ls.innerHTML=window._cur.map((m,i)=>{
-    const valEdge=Math.max(0,Math.round((m.conf-42)*0.45));
+    const valEdge=Math.max(0,Math.round((sigmaCap(m.conf,m.elo_h,m.elo_a)-42)*0.45));
     if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,15):m.pick==="2"?m.away.slice(0,15):"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${m.dc_prob}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
       <div class="top"><span>🏆 ${((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,25)} • ${String(m.date||"").slice(0,10)} ${m.kickoff?`⏰ ${m.kickoff}`:""}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.over25>=62?"⚡ إيقاع هجومي مفتوح • ":(m.over25<=44?"🛡️ صراع تكتيكي مغلق • ":"")}${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
