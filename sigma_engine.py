@@ -492,7 +492,7 @@ def pred(h, a, R, w, lg=""):
     
     # 1. حساب الفارق الموزون مع أفضلية الأرض الديناميكية (3% - 12%)
     diff = (elo_h + (h_adv_pct * 1.5)) - elo_a
-    ef = math.exp(max(-0.55, min(0.55, diff * 0.0015)))
+    ef = math.exp(max(-0.35, min(0.35, diff * 0.00095)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
     
     # 2. تقييم القوة الهجومية والدفاعية المنفصل (Pi-Style)
