@@ -486,8 +486,8 @@ def get_dynamic_home_adv(lg):
 
 def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
-    elo_h = get_base_elo(nh, R["elo"])
-    elo_a = get_base_elo(na, R["elo"])
+    elo_h = max(1380.0, get_base_elo(nh, R["elo"]))
+    elo_a = max(1380.0, get_base_elo(na, R["elo"]))
     h_adv_pct = get_dynamic_home_adv(lg)
     
     # 1. حساب الفارق الموزون مع أفضلية الأرض الديناميكية (3% - 12%)
