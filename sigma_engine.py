@@ -487,10 +487,10 @@ def pred(h, a, R, w, lg=""):
     dfn_a = max(0.75, min(2.00, R["dfn"].get(na, 1.35)))
     lh = max(0.45, min(2.75, ((att_h * 0.6 + dfn_a * 0.4) / 1.05) * ef * lf))
     la = max(0.38, min(2.45, (((att_a * 0.6 + dfn_h * 0.4) / 1.05) / ef) * lf))
-    res = calc_poisson(lh, la, w.get("rho", -0.06))
+    res = calc_poisson(lh, la, w.get("rho", -0.11))
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
     is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold}
+    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
 
 def run():
     t = datetime.now(timezone.utc).date()
@@ -533,7 +533,7 @@ def run():
             adj_a = max(0.76, min(1.22, 1.0 - intel["inj_a"] * 0.03 + (intel["fa"] - 1.5) * 0.06))
             lh_n = max(0.40, min(3.0, pr["xg_home"] * adj_h))
             la_n = max(0.35, min(2.7, pr["xg_away"] * adj_a))
-            res = calc_poisson(lh_n, la_n, w.get("rho", -0.06))
+            res = calc_poisson(lh_n, la_n, w.get("rho", -0.11))
             pr.update({**res, "xg_home": round(lh_n, 2), "xg_away": round(la_n, 2), "golden": (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0), "intel": intel["notes"]})
         else:
             pr["intel"] = "📊 معايرة الدوري + التلاشي الزمني"
