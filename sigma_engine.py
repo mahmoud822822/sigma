@@ -375,7 +375,7 @@ def detect_league_grade(slug, lname):
 
 def detect_tier(home, away, league):
     txt = f" {home} {away} {league} ".lower()
-    if any(k in txt for k in ["women","wfc","feminino","femenil","femminile","frauen","ladies","(w)","uwcl","wchampions","nwsl","wsl","ol lyonnes","lyonnes","feminine","wwc","weuro",".w.","concacaf.w","conmebol.w","shebelieves","arnold clark"]):
+    if any(k in txt for k in ["women","wfc","feminino","femenil","femminile","frauen","ladies","(w)","uwcl","wchampions","nwsl","wsl","ol lyonnes","lyonnes","feminine","ncaa","wome","college","wwc","weuro",".w.","concacaf.w","conmebol.w","shebelieves","arnold clark"]):
         return "👩 سيدات"
     for u in ["u17","u18","u19","u20","u21","u23","u-17","u-19","u-20","u-21","u-23","youth","sub-17","sub-20"]:
         if f" {u} " in txt or f"-{u}" in txt or f"({u})" in txt:
