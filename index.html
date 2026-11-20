@@ -607,5 +607,19 @@ if(m&&parseFloat(m[1])>86){e2.textContent=tx.replace(m[1]+"%","86%");}
 }
 setInterval(sigmaFixCaps,400);
 document.addEventListener("DOMContentLoaded",sigmaFixCaps);
+</script><script>
+function sigmaForceFab(){
+try{
+var els=document.querySelectorAll("button, div, a");
+for(var i=0;i<els.length;i++){
+var e=els[i];
+if((e.textContent||"").trim()==="\u2191" || e.className.toString().indexOf("fab")>=0){
+e.style.setProperty("right","12px","important");
+e.style.setProperty("left","auto","important");
+}
+}
+}catch(e){}
+}
+setInterval(sigmaForceFab,400);
 </script></body>
 </html>
