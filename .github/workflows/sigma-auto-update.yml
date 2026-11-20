@@ -1,7 +1,7 @@
 name: Sigma 3-Hourly
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -27,4 +27,5 @@ jobs:
           git config user.email "bot@sigma.local"
           git add -A
           git commit -m "Auto update" || true
+          git pull --rebase origin main || true
           git push

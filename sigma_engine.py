@@ -488,19 +488,62 @@ def pred(h, a, R, w, lg=""):
     nh, na = resolve_team(h, R["elo"]), resolve_team(a, R["elo"])
     elo_h = get_base_elo(nh, R["elo"])
     elo_a = get_base_elo(na, R["elo"])
-    diff = (elo_h + (get_dynamic_home_adv(lg) * 1.5)) - elo_a
-    ef = math.exp(max(-0.45, min(0.45, diff * 0.0013)))
+    h_adv_pct = get_dynamic_home_adv(lg)
+    
+    # 1. حساب الفارق الموزون مع أفضلية الأرض الديناميكية (3% - 12%)
+    diff = (elo_h + (h_adv_pct * 1.5)) - elo_a
+    ef = math.exp(max(-0.55, min(0.55, diff * 0.0015)))
     lf = R.get("lg_factor", {}).get(lg, 1.0)
+    
+    # 2. تقييم القوة الهجومية والدفاعية المنفصل (Pi-Style)
     att_h = max(0.75, min(2.05, R["att"].get(nh, 1.35)))
     dfn_h = max(0.75, min(1.95, R["dfn"].get(nh, 1.25)))
     att_a = max(0.70, min(1.95, R["att"].get(na, 1.22)))
     dfn_a = max(0.75, min(2.00, R["dfn"].get(na, 1.35)))
-    lh = max(0.45, min(2.75, ((att_h * 0.6 + dfn_a * 0.4) / 1.05) * ef * lf))
-    la = max(0.38, min(2.45, (((att_a * 0.6 + dfn_h * 0.4) / 1.05) / ef) * lf))
+    
+    lh = max(0.45, min(2.65, ((att_h * 0.62 + dfn_a * 0.38) / 1.05) * ef * lf))
+    la = max(0.38, min(2.40, (((att_a * 0.62 + dfn_h * 0.38) / 1.05) / ef) * lf))
+    
+    # 3. توزيع بواسون مع تصحيح ديكسون-كولز للنتائج المتقاربة
     res = calc_poisson(lh, la, w.get("rho", -0.11))
+    
+    # 4. كاشف الفخاخ الذكي (AI Trap Detector)
+    elo_gap = abs(elo_h - elo_a)
+    is_trap = (elo_gap < 35 and res["conf"] > 62.0) or (res["conf"] < 46.0 and abs(lh - la) < 0.25)
+    
+    # 5. الإجماع الثلاثي الحقيقي (Elo + xG + Balance)
+    model_elo_agree = (diff > 20 and res["p1"] > res["p2"]) or (diff < -20 and res["p2"] > res["p1"])
+    model_xg_agree = (lh > la + 0.25 and res["p1"] > res["p2"]) or (la > lh + 0.25 and res["p2"] > res["p1"])
+    consensus_val = "3/3" if (not is_trap and res["conf"] >= 56.0 and model_elo_agree and model_xg_agree) else "2/3"
+    
+    # 6. توليد أسباب التحليل العميق بالذكاء الاصطناعي
+    reasons = [
+        f"⚖️ ميزان القوة Elo: {round(elo_h)} مقابل {round(elo_a)} مع أفضلية أرض ديناميكية +{int(h_adv_pct)}%",
+        f"⚽ مؤشر الأهداف المتوقعة (Dixon-Coles xG): {round(lh, 2)} لصاحب الأرض مقابل {round(la, 2)} للضيف",
+        f"🧠 تقييم الذكاء: {'⚠️ تحذير فخ سعري (تقارب شديد)' if is_trap else ('✅ إجماع ثلاثي مؤكد 3/3' if consensus_val=='3/3' else '📊 ترجيح إحصائي متوازن')}"
+    ]
+    
     qu = "full" if (nh in R["elo"] or na in R["elo"]) else "prior"
-    is_gold = (res["conf"] >= 56.0) or (res["over25"] >= 61.0 and res["conf"] >= 48.0)
-    return {**res, "xg_home": round(lh, 2), "xg_away": round(la, 2), "elo_home": round(elo_h), "elo_away": round(elo_a), "home_adv_pct": int(get_dynamic_home_adv(lg)), "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C", "quality": qu, "golden": is_gold, "consensus": "3/3" if (res["conf"] >= 58.0 and ((elo_h > elo_a and lh > la) or (elo_a > elo_h and la > lh))) else "2/3", "value_edge": round(max(0, (res["conf"] - 52.0) * 0.45), 1), "kelly_pct": round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)}
+    is_gold = (not is_trap) and ((res["conf"] >= 57.0) or (res["over25"] >= 61.0 and res["conf"] >= 50.0))
+    val_edge = round(max(0, (res["conf"] - 52.0) * 0.45), 1)
+    kelly_pct = round(min(5.0, max(0.5, (res["conf"] - 50.0) * 0.15)), 1)
+    
+    return {
+        **res,
+        "xg_home": round(lh, 2),
+        "xg_away": round(la, 2),
+        "elo_home": round(elo_h),
+        "elo_away": round(elo_a),
+        "home_adv_pct": int(h_adv_pct),
+        "trap": is_trap,
+        "consensus": consensus_val,
+        "reasons": reasons,
+        "value_edge": val_edge,
+        "kelly_pct": kelly_pct,
+        "grade": "A+" if res["conf"] >= 65 else "A" if res["conf"] >= 56 else "B" if res["conf"] >= 48 else "C",
+        "quality": qu,
+        "golden": is_gold
+    }
 
 def run():
     t = datetime.now(timezone.utc).date()
