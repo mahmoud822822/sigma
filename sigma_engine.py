@@ -530,7 +530,7 @@ def pred(h, a, R, w, lg=""):
     
     upset_risk = round(max(5.0, min(48.0, (100.0 - res["dc_prob"]) * 1.45)), 1)
     stability_idx = round(min(99.0, max(50.0, (brains_agreed * 22.0) + (res["conf"] * 0.18))), 1)
-    probs = [max(0.01, res["p1"]/100.0), max(0.01, res["px"]/100.0), max(0.01, res["p2"]/100.0)]
+    probs = [max(0.01, res["p1"]/100.0), max(0.01, max(1.0, 100.0 - res["p1"] - res["p2"])/100.0), max(0.01, res["p2"]/100.0)]
     entropy = -sum(p * math.log(p, 3) for p in probs)
     certainty_pct = round((1.0 - entropy) * 100.0, 1)
     if entropy > 0.94:
