@@ -318,7 +318,7 @@ function rn(){
           </div>
         </div>`;
       }).join("") : `<p style="text-align:center;color:var(--mt);font-size:.78rem;padding:12px">اضغط على القلب 🤍 بجانب أي مباراة لإضافتها لحاسبة الورقة</p>`) +
-      `<div style="text-align:center;font-size:.65rem;color:var(--mt);margin-top:8px">SIGMA AI Parlay Engine • Mahmoud Emad</div>
+      `<button onclick="const txt=Array.from(document.querySelectorAll('#ls .card.gold .row')).map(r=>r.innerText.replace(/\n/g,' ')).join('\n');navigator.clipboard?.writeText('🧾 ورقة SIGMA AI:\n'+txt+'\n👑 By Mahmoud Emad');this.innerText='✅ تم النسخ!'" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid var(--ac);background:rgba(16,185,129,.15);color:#fff;font-weight:800;font-size:.76rem;cursor:pointer">📋 نسخ تفاصيل الورقة للمشاركة</button><div style="text-align:center;font-size:.65rem;color:var(--mt);margin-top:8px">SIGMA AI Parlay Engine • Mahmoud Emad</div>
     </div>`;
     return;
   }
