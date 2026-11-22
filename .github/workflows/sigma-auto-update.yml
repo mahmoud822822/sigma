@@ -29,3 +29,4 @@ jobs:
           git commit -m "Auto update" || true
           git pull --rebase origin main || true
           git push
+\n      - name: Cap probabilities\n        run: python3 cap_after_generate.py\n
