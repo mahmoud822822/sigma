@@ -23,17 +23,6 @@
       "TOP_PICK": true
     },
     {
-      "home": "Granada",
-      "away": "Real Madrid",
-      "league": "2026-27-spanish-liga-f",
-      "date": "2026-11-22",
-      "dc_prob_capped": 86,
-      "ev": 0,
-      "variance": 0.2,
-      "_or_score": 0.5333333333333333,
-      "TOP_PICK": true
-    },
-    {
       "home": "Monza",
       "away": "Fiorentina",
       "league": "2026-27-italian-serie-a",
@@ -105,17 +94,6 @@
       "home": "Hull City",
       "away": "Brighton & Hove Albion",
       "league": "2026-27-english-premier-league",
-      "date": "2026-11-22",
-      "dc_prob_capped": 86,
-      "ev": 0,
-      "variance": 0.2,
-      "_or_score": 0.5333333333333333,
-      "TOP_PICK": true
-    },
-    {
-      "home": "Granada",
-      "away": "Real Madrid",
-      "league": "2026-27-spanish-liga-f",
       "date": "2026-11-22",
       "dc_prob_capped": 86,
       "ev": 0,
