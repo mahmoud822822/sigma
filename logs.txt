@@ -1,0 +1,88 @@
+=== Sun Nov 22 16:48:29 EET 2026 - بدء Pipeline ===
+=== كل الـ 4 في v64_results ===
+{'match': 'Netherlands vs Greece', 'date': '2026-11-13', 'prediction': '1', 'conf': 68.5, 'actual': '7-0', 'result': 'correct'}
+{'match': 'Serbia vs Germany', 'date': '2026-11-13', 'prediction': '2', 'conf': 71.2, 'actual': '1-3', 'result': 'correct'}
+{'match': 'Egypt vs Malawi', 'date': '2026-11-13', 'prediction': '1', 'conf': 64.7, 'actual': '5-0', 'result': 'correct', 'note': 'HYPE -7 applied'}
+{'match': 'Morocco vs Niger', 'date': '2026-11-13', 'prediction': 'NO SAFE BET', 'conf': 94.3, 'actual': '5-1 FT', 'result': 'abstain-correct', 'note': 'OVERCONFIDENT_BASE + HYPE_TRAP - do not count as win/loss'}
+
+=== جلب BL1 + BL2 + DFB ===
+BL1 (bl1): 306 نتيجة منتهية
+BL2 (bl2): 306 نتيجة منتهية
+DFB (dfbpokal): 0 نتيجة منتهية
+
+=== النتيجة ===
+الـ Bulk: 444 | اتطابق: 0 | متطابقش: 444
+مفيش تطابق - راجع اسماء الفرق والتواريخ
+--- join خلص ---
+=== Sigma AI System - Ensemble + Context + Composite ===
+Context loaded: 2 فريق
+Ensemble weights: {'BL1': {'dixon': 0.357, 'elo': 0.309, 'xg': 0.334}, 'BL2': {'dixon': 0.341, 'elo': 0.31, 'xg': 0.348}}
+
+مثال: FC Bayern München vs 1. FC Köln
+ xG قبل Context: 3.5-0.78 | بعد Context (0/0): 3.50-0.78
+ Ensemble prob_1: 85.2% -> 84.9%
+ Composite: Prob 84.9% | Stability 80.0 | Value B
+ Caps: DC1X 95.6% -> 86% (كاب 86%)
+
+اتحفظ في data/sigma_ensemble_weights.json
+الخطوة الجاية: run_pipeline.sh هيشغل كل حاجة بالترتيب
+--- ai system خلص ---
+=== Bayesian - حماية من 4 نتايج ===
+عدد النتايج 4 | lr=0.01 | وزن الداتا 1.0% | وزن القاعدة 99.0% | 85.2% -> 84.8%
+عدد النتايج 50 | lr=0.03 | وزن الداتا 10.0% | وزن القاعدة 90.0% | 85.2% -> 81.7%
+عدد النتايج 150 | lr=0.03 | وزن الداتا 18.0% | وزن القاعدة 82.0% | 85.2% -> 78.9%
+عدد النتايج 400 | lr=0.05 | وزن الداتا 40.0% | وزن القاعدة 60.0% | 85.2% -> 71.1%
+عدد النتايج 600 | lr=0.1 | وزن الداتا 85.7% | وزن القاعدة 14.3% | 85.2% -> 55.0%
+
+=== Error Audit - الـ 4 نتايج ===
+بايرن 1-1 كولن: model_overconfidence - ثقة مبالغ فيها
+اتلتيك 0-1 اسبانيول: model_error - تقدير xG
+تروا 3-1 لوهافر: correct
+الاهلي 3-1 【entity-النصر¦canonical_name=النصر】: correct
+
+=== اللايف - بعد اصلاح منطق القرار ===
+عدد الماتشات: 551 | فوق الكاب: 8 | مرشحين على الكاب 86%: 8
+TOP_PICK بعد فلتر التنويع (2 لكل دوري / 3 لكل يوم): 8
+ - TOP_PICK: Juventus vs Venezia | 2026-27-italian-serie-a | 2026-11-22 | 86%
+ - TOP_PICK: Hull City vs Brighton & Hove Albion | 2026-27-english-premier-league | 2026-11-22 | 86%
+ - TOP_PICK: Granada vs Real Madrid | 2026-27-spanish-liga-f | 2026-11-22 | 86%
+ - TOP_PICK: Monza vs Fiorentina | 2026-27-italian-serie-a | 2026-11-23 | 86%
+ - TOP_PICK: Manchester City vs Napoli | league-phase | 2026-11-24 | 86%
+ - TOP_PICK: Bolton Wanderers vs West Bromwich Albion | regular-season | 2026-11-25 | 86%
+ - TOP_PICK: Burnley vs Birmingham City | regular-season | 2026-11-25 | 86%
+ - TOP_PICK: Inter D'Escaldes vs F.C. København | league-phase | 2026-11-26 | 86%
+اتحفظ في data/sigma_or_top_picks.json
+--- or v2 خلص ---
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+fatal: pathspec 'data/sigma_results_joined.json' did not match any files
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/sigma_site.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	data/context.json
+	data/sigma_ensemble_weights.json
+	data/sigma_or_top_picks.json
+	fetch_openligadb_bridge.py
+	fix_or_decision.py
+	fix_or_layer.py
+	join_bulk_results.py
+	logs.txt
+	multi_source_resolver.py
+	or_check.py
+	run_pipeline.sh
+	sigma_ai_system.py
+	sigma_or_engine.py
+	sigma_or_v2.py
+	test_dfb.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+--- push خلص ---
+=== Sun Nov 22 16:49:05 EET 2026 - خلص Pipeline ===

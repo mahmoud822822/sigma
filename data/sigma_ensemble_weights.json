@@ -1,0 +1,26 @@
+{
+  "weights": {
+    "BL1": {
+      "dixon": 0.357,
+      "elo": 0.309,
+      "xg": 0.334
+    },
+    "BL2": {
+      "dixon": 0.341,
+      "elo": 0.31,
+      "xg": 0.348
+    }
+  },
+  "calibration": {
+    "BL1": {
+      "brier_dixon": 0.45,
+      "brier_elo": 0.52,
+      "brier_xg": 0.48
+    },
+    "BL2": {
+      "brier_dixon": 0.5,
+      "brier_elo": 0.55,
+      "brier_xg": 0.49
+    }
+  }
+}
