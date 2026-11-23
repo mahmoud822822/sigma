@@ -145,11 +145,7 @@
   <button onclick="goPage(1)" id="b2">التالي ➡️</button>
 </div>
 <canvas id="cv" width="800" height="440" style="display:none"></canvas>
-<script>
-window.addEventListener('error',function(e){try{document.body.insertAdjacentHTML('afterbegin','<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR WINDOW: '+(e.message||e)+'</div>')}catch(_){}});
-window.addEventListener('unhandledrejection',function(e){try{document.body.insertAdjacentHTML('afterbegin','<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR PROMISE: '+((e.reason&&e.reason.message)||e.reason)+'</div>')}catch(_){}});
-setTimeout(function(){try{var s=document.getElementById('s1'); if(s && (s.textContent==='0'||s.textContent===''||s.textContent==='...')){document.body.insertAdjacentHTML('afterbegin','<div style=background:#92400e;color:#fff;padding:10px;font-size:13px>FETCH DID NOT SET STATS - s1 still 0 after 5s</div>')}}catch(_){}},5000);
-</script>
+
 <script>
 
 let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
@@ -165,7 +161,7 @@ async function pullLive(){
       return {home:hm.team?.displayName||"",away:aw.team?.displayName||"",hs:hm.score||"0",as:aw.score||"0",clk:e.status?.displayClock||"LIVE",lg:e.league?.name||""};
     });
     if(T==="live")applyLang(); rn();
-  }catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+  }catch(e){}
 }
 pullLive(); setInterval(pullLive,30000);
 let CMP=false;
@@ -217,6 +213,7 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   A=(d.matches||[]).map(m=>({...m,elo_h:(m.elo_home??1500),elo_a:(m.elo_away??1500)})); R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
 function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
+window.st=st;
 function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
 function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
 function cpTxt(i){
@@ -246,6 +243,7 @@ function mkCard(i){
   const a=document.createElement("a");a.download="SIGMA_"+m.home.slice(0,15)+".png";a.href=c.toDataURL("image/png");a.click();
 }
 function rn(){
+window.rn=rn;
     if(T==="live"){
     pb.style.display="none";
     ls.innerHTML=`<div class="card gold"><div class="row"><h3 style="color:#fca5a5">🔴 المباريات الجارية الآن (${LIVE.length})</h3><button class="share-btn" onclick="pullLive()">🔄 تحديث</button></div><p style="font-size:.72rem;color:var(--mt);margin-top:4px">تحديث تلقائي مباشر كل 30 ثانية من ملاعب العالم</p></div>`+
@@ -419,7 +417,7 @@ if(localStorage.getItem("sigma_role")==="admin"||localStorage.getItem("sigma_adm
 document.body.classList.add("is-admin");
 document.querySelectorAll(".admin-only").forEach(e=>e.style.display="");
 }
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 </script><script>
 window.SIGMA_DEFAULT_ACCOUNTS=[
 {u:"super",p:"Sigma2026!",r:"super"},
@@ -431,7 +429,7 @@ function sigmaGetAccounts(){
 try{
 var a=JSON.parse(localStorage.getItem("sigma_accounts"));
 if(a&&a.length>0){return a;}
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 localStorage.setItem("sigma_accounts",JSON.stringify(window.SIGMA_DEFAULT_ACCOUNTS));
 return window.SIGMA_DEFAULT_ACCOUNTS;
 }
@@ -488,7 +486,7 @@ if(r==="super"||r==="admin"||r==="editor"){
 document.body.classList.add("is-admin");
 document.querySelectorAll(".admin-only").forEach(function(e){e.style.display="";});
 }
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 </script><script>
 function sigmaRenderTop(){
 try{
@@ -518,7 +516,7 @@ tools.appendChild(b2);
 }
 var ab=document.getElementById("sigma-accounts-btn");
 if(ab){ab.style.display=(role==="super"||role==="admin")?"":"none";}
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 }
 window.sigmaToggleAccounts=function(){
 var p=document.getElementById("sigma-accounts-panel");
@@ -537,7 +535,7 @@ if(accs[i].u!=="super"){h+="<button onclick=\"window.sigmaDeleteAccount('"+accs[
 h+="</div>";
 }
 box.innerHTML=h;
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 };
 window.sigmaDeleteAccount=function(u){
 if(u==="super"){alert("Cannot delete super");return;}
@@ -574,7 +572,7 @@ panel.style.cssText="display:none;background:#0f172a;border:1px solid #334155;bo
 panel.innerHTML="<div style='display:flex;justify-content:space-between;'><b>Accounts</b><button onclick=\"window.sigmaToggleAccounts()\" style='background:#334155;color:#fff;border:0;padding:4px 10px;border-radius:6px;'>Close</button></div><div id='sigma-accounts-list' style='margin:10px 0;'></div><div style='display:flex;gap:6px;flex-wrap:wrap;'><input id='sigma-new-user' placeholder='New username' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><input id='sigma-new-pass' placeholder='New password' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><select id='sigma-new-role' style='padding:8px;border-radius:6px;background:#020617;color:#fff;'><option value='viewer'>viewer</option><option value='editor'>editor</option><option value='admin'>admin</option><option value='super'>super</option></select><button onclick=\"window.sigmaAddAccountUI()\" style='background:#16a34a;color:#fff;border:0;padding:8px 12px;border-radius:6px;'>Add</button></div><div style='font-size:.7rem;opacity:.7;margin-top:8px;'>Super cannot be deleted. Accounts are saved in this browser.</div>";
 var top=document.querySelector(".top-tools");
 if(top&&top.parentNode){top.parentNode.insertBefore(panel,top.nextSibling);}else{document.body.insertBefore(panel,document.body.firstChild);}
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 sigmaRenderTop();
 });
 setTimeout(sigmaRenderTop,800);
@@ -611,7 +609,7 @@ if(m&&parseFloat(m[1])>86){e2.textContent=tx.replace(m[1]+"%","86%");}
 }
 }
 });
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 }
 setInterval(sigmaFixCaps,400);
 document.addEventListener("DOMContentLoaded",sigmaFixCaps);
@@ -626,7 +624,7 @@ e.style.setProperty("right","12px","important");
 e.style.setProperty("left","auto","important");
 }
 }
-}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
+}catch(e){}
 }
 setInterval(sigmaForceFab,400);
 </html>
