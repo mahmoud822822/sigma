@@ -53,7 +53,7 @@
 <style>
   body.light{--bg:#f1f5f9;--card:rgba(255,255,255,.92);--card2:rgba(248,250,252,.96);--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.12);background:linear-gradient(180deg,#e2e8f0,#f8fafc)}
   body,*{font-family:'Cairo','Segoe UI',system-ui,sans-serif!important}
-  body{padding-bottom:76px!important}
+  body{padding-bottom:90px!important}
   header,.card,.box,.tabs,.pager{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(0,0,0,.22)}
   .card{transition:transform .2s ease,border-color .2s ease}
   .card:active{transform:scale(.985)}
@@ -65,7 +65,6 @@
   .tbtn{background:rgba(255,255,255,.08);border:1px solid var(--bd);color:var(--tx);padding:3px 8px;border-radius:8px;font-size:.66rem;font-weight:700;cursor:pointer}
   .cmp-row{display:flex;justify-content:space-between;align-items:center;padding:9px 11px;background:var(--card);border:1px solid var(--bd);border-radius:11px;margin-bottom:6px;font-size:.76rem}
   .fab-top{position:fixed;bottom:74px;left:14px;background:var(--gd);color:#050914;border:none;width:36px;height:36px;border-radius:50%;font-weight:900;font-size:1rem;cursor:pointer;box-shadow:0 4px 14px rgba(245,158,11,.45);z-index:998}
-.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
 <meta name="theme-color" content="#050914">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -85,7 +84,6 @@
   .pb-2{background:linear-gradient(90deg,#0284c7,#38bdf8);border-radius:99px}
   .bnav{background:rgba(6,11,25,.94)!important;border:1px solid rgba(255,255,255,.1)!important;box-shadow:0 14px 35px rgba(0,0,0,.75)!important}
   body.light{background:#f1f5f9!important;--card:rgba(255,255,255,.95);--card2:#f8fafc;--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.1)}
-.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
 </head>
 <body>
 <header>
@@ -385,7 +383,6 @@ function rn(){
   .ai-chips{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
   .ai-chip{background:rgba(16,185,129,.14);border:1px solid rgba(16,185,129,.35);color:#6ee7b7;padding:4px 9px;border-radius:14px;font-size:.68rem;font-weight:700;cursor:pointer}
   .ai-ans{background:rgba(5,9,20,.8);border:1px solid var(--bd);border-radius:11px;padding:9px;font-size:.73rem;line-height:1.65;color:#e2e8f0;max-height:210px;overflow-y:auto}
-.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
 
 <div class="ai-box" id="aibox">
   <div class="row"><b style="color:var(--ac);font-size:.84rem">🤖 المستشار الخارق SIGMA Co-Pilot</b><button class="tbtn" onclick="togAI()">✕</button></div>
@@ -498,7 +495,7 @@ var lbl2=document.getElementById("sigma-user-label");
 lbl2.textContent = role ? ("Logged: "+user+" - "+role) : "Not logged";
 if(!document.getElementById("sigma-logout-btn")){
 var b=document.createElement("button");
-b.id="sigma-logout-btn"; b.className="tbtn"; b.textContent="Logout";
+if(!role){ b.id="sigma-login-btn"; b.className="tbtn"; b.textContent="Login"; } else { b.id="sigma-logout-btn"; b.className="tbtn"; b.textContent="Logout"; }
 b.onclick=function(){window.sigmaLogout();};
 tools.appendChild(b);
 }

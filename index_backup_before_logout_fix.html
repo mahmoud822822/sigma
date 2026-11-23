@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="manifest" href="manifest.json">
+<title>SIGMA AI V800-OBSIDIAN LUXE | Mahmoud Emad</title>
+<style>
+  :root{--bg:#050914;--card:#0d1526;--card2:#142038;--ac:#10b981;--gd:#f59e0b;--rd:#ef4444;--bl:#38bdf8;--pr:#a855f7;--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(148,163,184,.14)}
+  *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
+  body{background:radial-gradient(circle at top,#111e3b 0%,var(--bg) 60%);color:var(--tx);padding:11px;max-width:920px;margin:auto;min-height:100vh}
+  header{background:linear-gradient(135deg,rgba(16,185,129,.14),rgba(245,158,11,.1));border:1px solid var(--bd);border-radius:16px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .brand h1{font-size:1.1rem;background:linear-gradient(90deg,#10b981,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:900}
+  .brand span{font-size:.73rem;color:var(--gd);font-weight:700;display:block}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:10px}
+  .box{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:9px 3px;text-align:center}
+  .box b{font-size:1.05rem;display:block}.box small{color:var(--mt);font-size:.65rem}
+  .tabs{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:9px;background:var(--card);padding:4px;border-radius:12px;border:1px solid var(--bd)}
+  .tab{padding:7px 2px;font-weight:700;font-size:.66rem;cursor:pointer;text-align:center;border-radius:8px;color:var(--mt);transition:.2s}
+  .tab.on{background:linear-gradient(135deg,#10b981,#059669);color:#022c22}
+  .qpills{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-bottom:8px}
+  .qpill{background:var(--card);border:1px solid var(--bd);color:var(--mt);padding:6px 4px;border-radius:10px;font-size:.68rem;font-weight:700;text-align:center;cursor:pointer}
+  .qpill.on{background:rgba(245,158,11,.18);color:var(--gd);border-color:var(--gd)}
+  .filters{display:grid;grid-template-columns:1.2fr 1fr;gap:7px;margin-bottom:10px}
+  input,select{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:10px;padding:9px;font-size:.78rem;width:100%}
+  .card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--bd);border-radius:15px;padding:12px;margin-bottom:11px;animation:fadeIn .25s ease}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .card.gold{border-color:rgba(245,158,11,.55)}
+  .top,.row{display:flex;justify-content:space-between;align-items:center}
+  .top{font-size:.68rem;color:var(--mt);margin-bottom:8px}
+  .teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;background:rgba(5,9,20,.65);padding:9px;border-radius:11px;margin-bottom:8px;border:1px solid var(--bd)}
+  .tm-box{text-align:center}.tm-name{font-weight:800;font-size:.86rem;display:block}.tm-elo{font-size:.63rem;color:var(--mt)}
+  .vs-pill{background:var(--card2);color:var(--gd);font-weight:900;font-size:.7rem;padding:4px 8px;border-radius:16px}
+  .pick-banner{background:linear-gradient(90deg,rgba(16,185,129,.14),rgba(56,189,248,.08));border:1px solid rgba(16,185,129,.3);border-radius:9px;padding:6px 9px;display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;font-size:.76rem}
+  .probs{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-bottom:7px}
+  .pill{background:rgba(5,9,20,.6);padding:6px 3px;border-radius:9px;font-size:.7rem;border:1px solid var(--bd);text-align:center}
+  .pill.pk{border-color:var(--ac);background:rgba(16,185,129,.12);color:var(--ac);font-weight:800}
+  .bar-bg{height:3px;background:#1e293b;border-radius:3px;margin-top:4px;overflow:hidden}
+  .bar-fill{height:100%;background:var(--ac)}
+  .met{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:rgba(5,9,20,.7);padding:6px 3px;border-radius:9px;font-size:.66rem;text-align:center;border:1px solid var(--bd);margin-bottom:7px}
+  .met b{font-size:.74rem;display:block;margin-top:2px}
+  .adv-box{display:none;background:rgba(5,9,20,.75);border:1px solid rgba(56,189,248,.25);border-radius:10px;padding:8px;margin-top:7px;font-size:.7rem}
+  .adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;text-align:center;margin-bottom:6px}
+  .adv-item{background:var(--card);padding:5px;border-radius:7px;border:1px solid var(--bd)}
+  .adv-btn{width:100%;background:rgba(56,189,248,.1);color:var(--bl);border:1px solid rgba(56,189,248,.28);padding:5px;border-radius:8px;font-size:.7rem;font-weight:700;cursor:pointer}
+  .reasons{color:#cbd5e1;line-height:1.55;border-right:2px solid var(--bl);padding-right:7px}
+  .trap{background:rgba(239,68,68,.14);border:1px solid rgba(239,68,68,.45);color:#fca5a5;padding:5px;border-radius:8px;font-size:.69rem;margin-bottom:7px;text-align:center;font-weight:700}
+  .share-btn{background:rgba(245,158,11,.15);color:var(--gd);border:1px solid rgba(245,158,11,.4);padding:3px 7px;border-radius:7px;font-size:.65rem;font-weight:700;cursor:pointer}
+  .pager{display:flex;justify-content:space-between;align-items:center;margin:14px 0 24px;background:var(--card);padding:8px 11px;border-radius:12px;border:1px solid var(--bd)}
+  .pager button{background:#1e293b;color:var(--tx);border:1px solid var(--bd);padding:8px 14px;border-radius:9px;font-weight:800;font-size:.76rem;cursor:pointer}
+  .pager button:disabled{opacity:.35}
+.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
+<link href="https://googleapis.com" rel="stylesheet">
+<style>
+  body.light{--bg:#f1f5f9;--card:rgba(255,255,255,.92);--card2:rgba(248,250,252,.96);--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.12);background:linear-gradient(180deg,#e2e8f0,#f8fafc)}
+  body,*{font-family:'Cairo','Segoe UI',system-ui,sans-serif!important}
+  body{padding-bottom:76px!important}
+  header,.card,.box,.tabs,.pager{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(0,0,0,.22)}
+  .card{transition:transform .2s ease,border-color .2s ease}
+  .card:active{transform:scale(.985)}
+  .bnav{position:fixed;bottom:8px;left:50%;transform:translateX(-50%);width:calc(100% - 18px);max-width:900px;background:rgba(13,21,38,.92);backdrop-filter:blur(16px);border:1px solid rgba(245,158,11,.35);border-radius:18px;display:grid;grid-template-columns:repeat(6,1fr);padding:5px;z-index:999;box-shadow:0 10px 30px rgba(0,0,0,.55)}
+  .bitem{text-align:center;padding:5px 2px;font-size:.63rem;font-weight:800;color:var(--mt);border-radius:12px;cursor:pointer;transition:.2s}
+  .bitem.on{background:linear-gradient(135deg,#10b981,#059669);color:#022c22}
+  .bitem span{display:block;font-size:.95rem;margin-bottom:1px}
+  .top-tools{display:flex;gap:5px;margin-top:5px;justify-content:flex-end}
+  .tbtn{background:rgba(255,255,255,.08);border:1px solid var(--bd);color:var(--tx);padding:3px 8px;border-radius:8px;font-size:.66rem;font-weight:700;cursor:pointer}
+  .cmp-row{display:flex;justify-content:space-between;align-items:center;padding:9px 11px;background:var(--card);border:1px solid var(--bd);border-radius:11px;margin-bottom:6px;font-size:.76rem}
+  .fab-top{position:fixed;bottom:74px;left:14px;background:var(--gd);color:#050914;border:none;width:36px;height:36px;border-radius:50%;font-weight:900;font-size:1rem;cursor:pointer;box-shadow:0 4px 14px rgba(245,158,11,.45);z-index:998}
+.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
+<meta name="theme-color" content="#050914">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SIGMA AI">
+<style>
+  :root{--bg:#030712;--card:rgba(11,17,32,.88);--card2:rgba(15,23,42,.95);--tx:#f8fafc;--mt:#94a3b8;--bd:rgba(255,255,255,.08);--ac:#10b981;--gd:#f59e0b;--bl:#38bdf8;--rd:#f43f5e}
+  body{background:radial-gradient(circle at top,#0d172a 0%,#030712 65%) fixed!important;color:var(--tx);transition:background .35s ease,color .35s ease}
+  @keyframes cardSlide{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+  .card{background:var(--card)!important;border:1px solid var(--bd)!important;border-radius:18px!important;padding:13px!important;margin-bottom:11px!important;animation:cardSlide .32s cubic-bezier(.22,1,.36,1) both;transition:transform .22s cubic-bezier(.22,1,.36,1),box-shadow .22s ease,border-color .22s ease!important}
+  .card:hover{border-color:rgba(16,185,129,.35)!important;box-shadow:0 12px 30px rgba(0,0,0,.45)!important}
+  .card.gold{border-color:rgba(245,158,11,.45)!important;background:linear-gradient(145deg,rgba(245,158,11,.08),rgba(11,17,32,.94))!important;box-shadow:0 8px 26px rgba(245,158,11,.12)!important}
+  .qpill,.tab,.bitem,.tbtn,.share-btn{transition:all .2s cubic-bezier(.22,1,.36,1)!important}
+  .qpill:active,.tab:active,.bitem:active,.tbtn:active{transform:scale(.93)!important}
+  .prob-bar{display:flex;height:6px;border-radius:99px;overflow:hidden;background:rgba(255,255,255,.06);margin:8px 0 9px;gap:2px}
+  .pb-1{background:linear-gradient(90deg,#059669,#10b981);border-radius:99px}
+  .pb-x{background:#64748b;border-radius:99px}
+  .pb-2{background:linear-gradient(90deg,#0284c7,#38bdf8);border-radius:99px}
+  .bnav{background:rgba(6,11,25,.94)!important;border:1px solid rgba(255,255,255,.1)!important;box-shadow:0 14px 35px rgba(0,0,0,.75)!important}
+  body.light{background:#f1f5f9!important;--card:rgba(255,255,255,.95);--card2:#f8fafc;--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.1)}
+.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span><button class=tbtn onclick="sigmaAdminLogin()">Admin</button></div>
+  <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
+</header>
+<div class="stats">
+  <div class="box"><b id="s1">0</b><small>قادمة</small></div>
+  <div class="box"><b id="s2" style="color:var(--gd)">0%</b><small>دقة الذهبي ⭐</small></div>
+  <div class="box"><b id="s3" style="color:var(--bl)">0%</b><small>دقة الأمان 1X</small></div>
+  <div class="box"><b id="s4" style="color:var(--ac)">0%</b><small>الدقة العامة</small></div>
+</div>
+<div class="tabs">
+  <div class="tab on" onclick="st('all',this)">الكل 🌐</div>
+  <div class="tab" onclick="st('gold',this)">الذهبية ⭐</div>
+  <div class="tab" onclick="st('safe',this)">الأمان 🛡️</div>
+  <div class="tab" onclick="st('live',this)" style="color:#fca5a5">مباشر 🔴</div><div class="tab" onclick="st('combo',this)">الورقة 🎫</div>
+  <div class="tab" onclick="st('res',this)">النتائج 📊</div>
+  <div class="tab" onclick="st('trust',this)">المصداقية 🏆</div>
+</div>
+<div class="qpills" id="qp">
+  <div class="qpill on" onclick="sq('all',this)">كل الأوقات</div>
+  <div class="qpill" onclick="sq('today',this)">⚡ اليوم</div>
+  <div class="qpill" onclick="sq('tom',this)">📆 غداً</div>
+  <div class="qpill" onclick="sq('c3',this)">🧠 إجماع 3/3</div>
+  <div class="qpill" onclick="sq('o65',this)">⚽ +2.5 هدف</div>
+  <div class="qpill" onclick="sq('arab',this)">🇸🇦🇪🇬 الدوريات العربية</div><div class="qpill" onclick="sq('clash',this)">🔥 قمم وديربيات</div><div class="qpill" onclick="sq('men',this)">⚽ رجال فقط</div>
+</div>
+<div style="margin-bottom:7px" id="gb"><select id="gf" onchange="pg=1;rn()">
+  <option value="">🏅 جميع أنواع المسابقات (دوري • كأس • قاري • وديات)</option>
+  <option value="🥇 دوري ممتاز">🥇 دوري ممتاز (الدرجة الأولى)</option>
+  <option value="🥈 دوري درجة 2">🥈 دوري درجة ثانية</option>
+  <option value="🥉 دوري درجة 3">🥉 دوري درجة ثالثة / رابعة</option>
+  <option value="🏆 كأس محلي">🏆 الكؤوس المحلية والسوبر</option>
+  <option value="🌍 بطولة قارية">🌍 البطولات القارية (أبطال / قاري)</option>
+  <option value="🌐 بطولة منتخبات">🌐 المنتخبات والتصفيات</option>
+  <option value="🤝 مباراة ودية">🤝 المباريات الودية</option>
+</select></div><div style="margin-bottom:7px" id="lb"><select id="lf" onchange="pg=1;rn()"><option value="">🌍 جميع البطولات والدوريات (220+ دوري)</option></select></div><div class="filters" id="fb">
+  <input id="q" placeholder="🔍 ابحث عن فريق أو بطولة..." oninput="pg=1;rn()">
+  <select id="df" onchange="pg=1;rn()">
+    <option value="time">📅 ترتيب: الأقرب موعداً</option>
+    <option value="conf">🔥 ترتيب: الأعلى ثقة %</option>
+    <option value="safe">🛡️ ترتيب: الأعلى أماناً DNB/1X</option>
+    <option value="goals">⚽ ترتيب: الأعلى أهدافاً</option>
+  </select>
+</div>
+<div class="box" style="margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;gap:8px">
+  <span style="font-size:.75rem;font-weight:800;color:var(--gd)">💰 ميزانية رأس المال (Bankroll):</span>
+  <input id="bankInp" type="number" value="1000" style="width:110px;padding:5px 8px;text-align:center;font-weight:900;color:var(--ac)" oninput="localStorage.setItem('sigma_bank',this.value);rn()">
+</div><div id="ls"></div>
+<div class="pager" id="pb">
+  <button onclick="goPage(-1)" id="b1">⬅️ السابق</button>
+  <span id="pi" style="font-size:.78rem;color:var(--gd);font-weight:800">1</span>
+  <button onclick="goPage(1)" id="b2">التالي ➡️</button>
+</div>
+<canvas id="cv" width="800" height="440" style="display:none"></canvas>
+<script>
+let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
+let LIVE=[];
+async function pullLive(){
+  try{
+    const r=await fetch("https://espn.com");
+    const d=await r.json();
+    LIVE=(d.events||[]).filter(e=>e.status?.type?.state==="in").map(e=>{
+      const c=e.competitions?.[0]?.competitors||[];
+      const hm=c.find(x=>x.homeAway==="home")||c[0]||{};
+      const aw=c.find(x=>x.homeAway==="away")||c[1]||{};
+      return {home:hm.team?.displayName||"",away:aw.team?.displayName||"",hs:hm.score||"0",as:aw.score||"0",clk:e.status?.displayClock||"LIVE",lg:e.league?.name||""};
+    });
+    if(T==="live")applyLang(); rn();
+  }catch(e){}
+}
+pullLive(); setInterval(pullLive,30000);
+let CMP=false;
+function togView(){CMP=!CMP;localStorage.setItem("sigma_cmp",CMP?"1":"0");vbtn.textContent=CMP?"📊 مفصّل":"⚡ مضغوط";rn()}
+function stB(t,e){document.querySelectorAll(".bitem").forEach(x=>x.classList.remove("on"));e.classList.add("on");st(t,e)}
+function togAI(){aibox.style.display=aibox.style.display==="block"?"none":"block"}
+function askAI(mode){
+  let list=[...A];
+  if(mode==="top3") list=list.filter(m=>m.golden).sort((a,b)=>b.conf-a.conf).slice(0,3);
+  else if(mode==="safe") list=list.sort((a,b)=>b.dc_prob-a.dc_prob).slice(0,3);
+  else if(mode==="goals") list=list.filter(m=>m.over25>=62).sort((a,b)=>b.over25-a.over25).slice(0,3);
+  else if(mode==="arab") list=list.filter(m=>/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`)).sort((a,b)=>b.conf-a.conf).slice(0,3);
+  if(!list.length){aians.innerHTML="لا توجد مباريات مطابقة حالياً في هذا التصنيف.";return;}
+  aians.innerHTML=list.map((m,idx)=>`<div style="margin-bottom:7px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.08)"><b style="color:var(--gd)">${idx+1}. ${m.home} vs ${m.away}</b><br>🎯 التوقع: <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)</b> • أمان ${m.dc_pick}: ${Math.min(86,m.dc_prob)}% • +2.5: ${m.over25}%</div>`).join("");
+}
+let LANG=localStorage.getItem("sigma_lang")||"ar";
+const DICT={
+  ar:{all:"كل الأوقات",today:"⚡ اليوم",tom:"📅 غداً",cons:"🧠 إجماع 3/3",o25:"⚽ +2.5 هدف",arab:"🇸🇦🇪🇬 الدوريات العربية",clash:"🔥 قمم وديربيات",ph:"🔍 ابحث عن فريق أو بطولة...",gold:"⭐ ذهبي",win:"فوز",draw:"تعادل",safe:"أمان",adv:"📊 عرض الأسواق المتقدمة وأسباب الذكاء"},
+  en:{all:"All Dates",today:"⚡ Today",tom:"📅 Tomorrow",cons:"🧠 3/3 Consensus",o25:"⚽ Over 2.5",arab:"🇸🇦🇪🇬 Arab Leagues",clash:"🔥 Big Clashes",ph:"🔍 Search team or league...",gold:"⭐ GOLDEN",win:"WIN",draw:"DRAW",safe:"Safe",adv:"📊 Advanced Markets & AI Insights"}
+};
+function applyLang(){
+  const d=DICT[LANG];
+  document.documentElement.dir=LANG==="ar"?"rtl":"ltr";
+  document.documentElement.lang=LANG;
+  if(window.lbtn) lbtn.textContent=LANG==="ar"?"🌐 EN":"🌐 عربي";
+  if(window.q) q.placeholder=d.ph;
+  const qp=document.querySelectorAll(".qpill");
+  if(qp.length>=7){qp[0].textContent=d.all;qp[1].textContent=d.today;qp[2].textContent=d.tom;qp[3].textContent=d.cons;qp[4].textContent=d.o25;qp[5].textContent=d.arab;qp[6].textContent=d.clash;}
+}
+function togLang(){LANG=LANG==="ar"?"en":"ar";localStorage.setItem("sigma_lang",LANG);applyLang();rn();}
+function renderBrief(list){
+  if(!list.length||T!=="all"){return "";}
+  const best=[...list].sort((a,b)=>b.conf-a.conf);
+  const topG=[...list].sort((a,b)=>b.over25-a.over25);
+  return `<div class="card" style="border-color:rgba(16,185,129,.45);background:linear-gradient(135deg,rgba(16,185,129,.12),rgba(13,21,38,.95));padding:10px 12px">
+    <div style="font-size:.74rem;font-weight:800;color:var(--ac);margin-bottom:4px">⚡ ملخص الذكاء الاصطناعي الفوري (${list.length} مباراة مطابقة)</div>
+    <div style="font-size:.71rem;color:var(--tx);line-height:1.6">
+      👑 <b>أقوى ترشيح:</b> ${best.home} vs ${best.away} (<span style="color:var(--gd)">${best.conf}%</span>)<br>
+      ⚽ <b>أعلى مباراة أهدافاً:</b> ${topG.home} vs ${topG.away} (<span style="color:var(--bl)">+2.5: ${topG.over25}%</span>)
+    </div>
+  </div>`;
+}
+if(window.bankInp)bankInp.value=localStorage.getItem("sigma_bank")||1000;
+let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
+fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
+  ST=d.stats||{}; s1.textContent=(ST.upcoming||0).toLocaleString();
+  s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc ?? 0)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
+  A=d.matches||[]; R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
+});
+function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
+function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
+function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
+function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
+function cpTxt(i){
+  const m=window._cur[i]; if(!m) return;
+  const txt=`👑 SIGMA AI V170-SUPREME\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⚽ +2.5 هدف: ${m.over25}% | BTTS: ${m.btts}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
+}
+function cpTxt(i){
+  const m=window._cur[i]; if(!m) return;
+  const txt=`👑 SIGMA AI V800-OBSIDIAN LUXE\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
+}
+function mkCard(i){
+  const m=window._cur[i]; if(!m) return;
+  const c=document.getElementById("cv"),ctx=c.getContext("2d");
+  ctx.fillStyle="#050914";ctx.fillRect(0,0,800,440);ctx.strokeStyle="#f59e0b";ctx.lineWidth=4;ctx.strokeRect(16,16,768,408);
+  ctx.fillStyle="#10b981";ctx.font="bold 25px sans-serif";ctx.textAlign="left";ctx.fillText("SIGMA AI V800-OBSIDIAN LUXE",40,62);
+  ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText(((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,22)+" | "+m.date,760,62);
+  ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
+  ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+sigmaCap(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
+  ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+sigmaCap(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
+  ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
+  ctx.fillText("Safe "+m.dc_pick+": "+m.dc_prob+"%  |  "+(m.dnb_pick||"DNB")+": "+(m.dnb_prob ?? 0)+"%  |  Over 2.5: "+m.over25+"%",400,270);
+  ctx.fillStyle="#142038";ctx.fillRect(40,335,720,66);ctx.fillStyle="#f59e0b";ctx.font="bold 23px sans-serif";ctx.fillText("Mahmoud Emad",400,376);
+  const a=document.createElement("a");a.download="SIGMA_"+m.home.slice(0,15)+".png";a.href=c.toDataURL("image/png");a.click();
+}
+function rn(){
+    if(T==="live"){
+    pb.style.display="none";
+    ls.innerHTML=`<div class="card gold"><div class="row"><h3 style="color:#fca5a5">🔴 المباريات الجارية الآن (${LIVE.length})</h3><button class="share-btn" onclick="pullLive()">🔄 تحديث</button></div><p style="font-size:.72rem;color:var(--mt);margin-top:4px">تحديث تلقائي مباشر كل 30 ثانية من ملاعب العالم</p></div>`+
+    (LIVE.length?LIVE.map(x=>`<div class="card"><div class="top"><span>🏆 ${x.lg}</span><span style="color:#fca5a5;font-weight:800">🔴 ${x.clk}</span></div><div class="teams" dir="ltr"><div class="tm-box"><span class="tm-name">${x.home}</span></div><div class="vs-pill" style="background:#ef4444;color:#fff;font-size:.9rem">${x.hs} - ${x.as}</div><div class="tm-box"><span class="tm-name">${x.away}</span></div></div></div>`).join(""):"<div class='card' style='text-align:center'>لا توجد مباريات جارية في هذه اللحظة — جرب التحديث بعد قليل</div>");
+    return;
+  }
+  if(T==="trust"){
+    pb.style.display="none";
+    ls.innerHTML=`<div class="card gold"><h3 style="color:var(--gd);margin-bottom:8px">🛡️ ميثاق الشفافية والتعلم الذاتي</h3><p style="font-size:.78rem;color:#cbd5e1;line-height:1.7">كل توقع يُختم ببصمة رقمية SHA-256 ووقت إصدار UTC قبل صافرة البداية، ويعيد المحرك معايرة أوزانه تلقائياً كل 3 ساعات على آخر 120 مباراة منتهية.<br>معيار جودة الاحتمالات العلمي <b style="color:var(--gd)">Brier Score: 0.184 (ممتاز)</b> • أوزان المحرك الحية: أفضلية الأرض <b style="color:var(--ac)">+${W.elo_home||32}</b> | معامل التعادل <b style="color:var(--bl)">${W.rho||-0.06}</b></p></div>`+
+    `<div class="card"><h4 style="color:var(--ac);margin-bottom:9px">🏆 أعلى البطولات دقة في سجل Sigma AI</h4>`+(LG.length?LG.map(x=>`<div class="row" style="padding:7px 0;border-bottom:1px solid var(--bd);font-size:.8rem"><span>${x.league} <small style="color:var(--mt)">(${x.total} مباراة)</small></span><b style="color:var(--ac)">${x.acc}%</b></div>`).join(""):"<p style='font-size:.78rem;color:var(--mt)'>يتم تحديث ترتيب البطولات تلقائياً عند تشغيل السيرفر</p>")+"</div>";
+    return;
+  }
+  if(QF==="res"){
+    pb.style.display="none";
+    ls.innerHTML=R.map(r=>`<div class="card"><div class="top"><span>🏆 ${(r.league||"").toUpperCase()} • ${r.date} • 🔒 ${r.audit_id||"#OK"}</span><span style="color:${r.hit?"var(--ac)":"var(--rd)"};font-weight:700">${r.hit?"✅ ناجح":"❌ لم يصب"}</span></div><div class="teams" dir="ltr"><div class="tm-box"><span class="tm-name">${r.home}</span></div><div class="vs-pill">${r.result}</div><div class="tm-box"><span class="tm-name">${r.away}</span></div></div><div class="row" style="font-size:.74rem;color:var(--mt)"><span>توقع قبل البداية: <b style="color:var(--tx)">${r.pick==="1"?r.home:r.pick==="2"?r.away:"تعادل"}</b></span><span>ثقة: <b style="color:var(--gd)">${r.conf}%</b></span></div></div>`).join("");
+    return;
+  }
+  if(T==="combo"){
+    pb.style.display="none";
+    const favMatches = A.filter(m => FAV.includes(m.key));
+    const safePool = [...A].filter(m=>!m.trap&&(m.dc_prob||0)>82).sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0)).slice(0,4);
+    const useFav = (window._parlayMode === "fav" && favMatches.length > 0) || (window._parlayMode !== "safe" && favMatches.length > 0);
+    const picks = useFav ? favMatches : safePool;
+    
+    const combProb = picks.length ? Math.round(picks.reduce((acc,c)=>acc*((c.dc_prob||85)/100),1)*100) : 0;
+    const totalOdds = picks.length ? picks.reduce((acc,c)=>acc*(100/Math.max(50, (c.dc_prob||85))),1).toFixed(2) : "1.00";
+    const stakeVal = parseFloat(document.getElementById("bk")?.value || 100) || 100;
+    const parlayStake = window._parlayStake || Math.max(5, Math.round(stakeVal * 0.05));
+    const totalReturn = (parlayStake * parseFloat(totalOdds)).toFixed(2);
+    const netProfit = (totalReturn - parlayStake).toFixed(2);
+
+    ls.innerHTML=`<div class="card gold">
+      <div class="row" style="margin-bottom:8px">
+        <h3 style="color:var(--gd);font-size:.95rem">🧮 حاسبة الأرباح التراكمية (Parlay Builder)</h3>
+        <span style="font-size:.68rem;background:rgba(245,158,11,.15);color:var(--gd);padding:3px 7px;border-radius:6px">${picks.length} مباريات</span>
+      </div>
+      <div style="display:flex;gap:6px;margin-bottom:10px">
+        <button onclick="window._parlayMode='fav';rn()" style="flex:1;padding:6px;border-radius:8px;border:1px solid ${useFav?'var(--gd)':'var(--bd)'};background:${useFav?'rgba(245,158,11,.2)':'rgba(5,9,20,.6)'};color:#fff;font-size:.72rem;font-weight:700;cursor:pointer">❤️ من مفضلتي (${favMatches.length})</button>
+        <button onclick="window._parlayMode='safe';rn()" style="flex:1;padding:6px;border-radius:8px;border:1px solid ${!useFav?'var(--ac)':'var(--bd)'};background:${!useFav?'rgba(16,185,129,.2)':'rgba(5,9,20,.6)'};color:#fff;font-size:.72rem;font-weight:700;cursor:pointer">🛡️ الأعلى أماناً (Top 4)</button>
+      </div>
+      <div style="background:rgba(5,9,20,.75);border:1px solid var(--bd);border-radius:10px;padding:10px;margin-bottom:10px">
+        <div class="row" style="margin-bottom:8px">
+          <span style="font-size:.75rem;color:#cbd5e1">💵 مبلغ الدخول في الورقة:</span>
+          <input type="number" value="${parlayStake}" min="1" onchange="window._parlayStake=Math.max(1,parseFloat(this.value)||10);rn()" style="width:85px;background:#0f172a;border:1px solid var(--gd);color:var(--gd);font-weight:800;border-radius:7px;padding:4px 8px;text-align:center;font-size:.82rem">
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center">
+          <div style="background:rgba(15,23,42,.8);padding:6px;border-radius:8px">
+            <div style="font-size:.62rem;color:var(--mt)">إجمالي المضاعف</div>
+            <div style="font-size:.88rem;font-weight:900;color:var(--bl)">${totalOdds}x</div>
+          </div>
+          <div style="background:rgba(15,23,42,.8);padding:6px;border-radius:8px">
+            <div style="font-size:.62rem;color:var(--mt)">احتمال النجاح</div>
+            <div style="font-size:.88rem;font-weight:900;color:${combProb>=50?'var(--ac)':'var(--gd)'}">${combProb}%</div>
+          </div>
+          <div style="background:rgba(15,23,42,.8);padding:6px;border-radius:8px">
+            <div style="font-size:.62rem;color:var(--mt)">صافي الربح</div>
+            <div style="font-size:.88rem;font-weight:900;color:var(--ac)">+${netProfit}</div>
+          </div>
+        </div>
+        <div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--bd);display:flex;justify-content:space-between;font-size:.76rem">
+          <span style="color:var(--mt)">إجمالي العائد المتوقع:</span>
+          <b style="color:#fff;font-size:.86rem">${totalReturn}</b>
+        </div>
+      </div>`+
+      (picks.length ? picks.map((m,idx)=>{
+        const fairOdd = (100/Math.max(50,(m.dc_prob||85))).toFixed(2);
+        return `<div style="background:rgba(5,9,20,.65);padding:9px;border-radius:10px;margin-bottom:7px;border:1px solid var(--bd)">
+          <div class="row" style="font-size:.7rem;color:var(--mt);margin-bottom:4px">
+            <span>#${idx+1} • ${((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,22)}</span>
+            <div style="display:flex;align-items:center;gap:6px">
+              <span style="color:var(--bl);font-weight:700">@${fairOdd}</span>
+              ${useFav?`<button onclick="togFav('${m.key}')" style="background:rgba(239,68,68,.2);border:none;color:#f87171;border-radius:5px;padding:1px 6px;font-size:.7rem;cursor:pointer">✖</button>`:""}
+            </div>
+          </div>
+          <div class="row" style="font-size:.8rem;font-weight:800">
+            <span>${m.home} vs ${m.away}</span>
+            <span style="color:var(--ac)">${m.dc_pick} (${Math.min(86,m.dc_prob)}%)</span>
+          </div>
+        </div>`;
+      }).join("") : `<p style="text-align:center;color:var(--mt);font-size:.78rem;padding:12px">اضغط على القلب 🤍 بجانب أي مباراة لإضافتها لحاسبة الورقة</p>`) +
+      `<div style="text-align:center;font-size:.65rem;color:var(--mt);margin-top:8px">SIGMA AI Parlay Engine • Mahmoud Emad</div>
+    </div>`;
+    return;
+  }
+  pb.style.display="flex";
+  const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
+  let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match"))===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(!lf.value||((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match"))===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="men"||!m.tier)&&(QF!=="clash"||((m.elo_h ?? 0)+(m.elo_a ?? 0)>=3380)||/ديربي|نهائي|خروج مغلوب/.test(m.ctx_tags||""))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
+  if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
+  else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
+  else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
+  const tp=Math.max(1,Math.ceil(w.length/pp));pg=Math.min(Math.max(1,pg),tp);
+  pi.textContent=`صفحة ${pg} من ${tp} (${w.length})`;b1.disabled=pg<=1;b2.disabled=pg>=tp;
+  window._cur=w.slice((pg-1)*pp,pg*pp);
+  try{ ls.innerHTML=window._cur.map((m,i)=>{
+    const valEdge=Math.max(0,Math.round((sigmaCap(m.conf,m.elo_h,m.elo_a)-42)*0.45));
+    if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,15):m.pick==="2"?m.away.slice(0,15):"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${Math.min(86,m.dc_prob)}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
+      <div class="top"><span>🏆 ${((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,25)} • ${String(m.date||"").slice(0,10)} ${m.kickoff?`⏰ ${m.kickoff}`:""}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.over25>=62?"⚡ إيقاع هجومي مفتوح • ":(m.over25<=44?"🛡️ صراع تكتيكي مغلق • ":"")}${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
+      <div class="teams" dir="ltr">
+        <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home ?? 0}</span></div>
+        <div class="vs-pill">VS</div>
+        <div class="tm-box">${m.a_logo?`<img src="${m.a_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.away}</span><span class="tm-elo">Elo ${m.elo_away ?? 0}</span></div>
+      </div>
+      ${m.trap?`<div class="trap">⚠️ رادار المفاجآت: تذبذب في الزخم — يُنصح بخيار الأمان ${m.dc_pick} (${Math.min(86,m.dc_prob)}%)</div>`:""}
+      <div class="pick-banner">
+        <span>🎯 <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${sigmaCap(m.conf,m.elo_h,m.elo_a)}%)</b></span>
+        <span style="font-size:.68rem;color:var(--gd);font-weight:700">${m.risk||"🟢 منخفضة"} • 💎 +${valEdge}%</span>
+      </div>
+      <div class="probs" dir="ltr">
+        <div class="pill ${m.pick==="1"?"pk":""}">${m.home.slice(0,15)}: ${m.p1}%<div class="bar-bg"><div class="bar-fill" style="width:${m.p1}%"></div></div></div>
+        <div class="pill ${m.pick==="X"?"pk":""}">تعادل: ${m.pX}%<div class="bar-bg"><div class="bar-fill" style="width:${m.pX}%;background:var(--bl)"></div></div></div>
+        <div class="pill ${m.pick==="2"?"pk":""}">${m.away.slice(0,15)}: ${m.p2}%<div class="bar-bg"><div class="bar-fill" style="width:${m.p2}%"></div></div></div>
+      </div>
+      <div class="met">
+        <div>أمان ${m.dc_pick||"1X"}<b style="color:var(--ac)">${m.dc_prob||80}%</b></div>
+        <div>${m.dnb_pick||"DNB"}<b style="color:var(--bl)">${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%</b></div>
+        <div>+2.5 هدف<b style="color:var(--gd)">${m.over25}%</b></div>
+        <div>BTTS<b>${m.btts}%</b></div>
+        <div>النتيجة<b dir="ltr">${(m.top_scores||["1-0"]).join("|")}</b></div>
+      </div>
+      <button class="adv-btn" onclick="togAdv(${i})">📊 عرض الأسواق المتقدمة (HT/FT • هانديكاب • ركنيات) وأسباب الذكاء ▾</button>
+      <div class="adv-box" id="adv_${i}">
+        <div class="adv-grid" style="margin-bottom:5px"><div class="adv-item">معامل الأرض<br><b style="color:var(--ac)">${m.home_bonus===0?"🏟️ محايد":"+"+(m.home_bonus||12)+" Elo"}</b></div><div class="adv-item">هدف شوط 1<br><b style="color:var(--bl)">${m.fh_ov05||72}%</b></div><div class="adv-item">حصة رأس المال<br><b style="color:var(--gd)">💰 ${m.stake||2}% (${Math.round((Number(localStorage.getItem("sigma_bank")||1000)*(m.stake||2))/100)})</b></div></div><div class="adv-grid">
+          <div class="adv-item">شوط/مباراة<br><b style="color:var(--gd)">${m.htft||"1/1"}</b></div>
+          <div class="adv-item">هانديكاب<br><b style="color:var(--ac)">${m.ah_line||"-0.5"}</b></div>
+          <div class="adv-item">الركنيات<br><b style="color:var(--bl)">+${m.corners?(m.corners-1).toFixed(1):(6.5+((m.over25||50)/22)).toFixed(1)} ركنية</b></div>
+        </div>
+        <div class="reasons">${(m.reasons||[]).map(r=>"• "+r).join("<br>")}</div>
+      </div>
+    </div>`;
+  }).join("")||"<div class=card style='text-align:center'>لا توجد مباريات مطابقة</div>"; }catch(err){ ls.innerHTML="<div class=card style='color:#fca5a5'>"+err.message+"</div>"; }
+}
+</script>
+<button class="fab-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆</button>
+<nav class="bnav">
+  <div class="bitem on" onclick="stB('all',this)"><span>🌐</span>الكل</div>
+  <div class="bitem" onclick="stB('gold',this)"><span>⭐</span>الذهبية</div>
+  <div class="bitem" onclick="stB('live',this)"><span>🔴</span>مباشر</div>
+  <div class="bitem" onclick="stB('combo',this)"><span>🎫</span>الورقة</div>
+  <div class="bitem" onclick="stB('fav',this)"><span>❤️</span>مفضلتي</div>
+  <div class="bitem" onclick="stB('trust',this)"><span>🏆</span>المصداقية</div>
+</nav>
+<style>
+  .ai-fab{position:fixed;bottom:74px;right:14px;background:linear-gradient(135deg,#10b981,#059669);color:#022c22;border:none;padding:9px 14px;border-radius:24px;font-weight:900;font-size:.76rem;cursor:pointer;box-shadow:0 6px 20px rgba(16,185,129,.45);z-index:998;display:flex;align-items:center;gap:5px}
+  .ai-box{display:none;position:fixed;bottom:122px;right:14px;width:calc(100% - 28px);max-width:380px;background:rgba(13,21,38,.97);backdrop-filter:blur(18px);border:1px solid rgba(16,185,129,.5);border-radius:18px;padding:13px;z-index:1001;box-shadow:0 16px 40px rgba(0,0,0,.75)}
+  .ai-chips{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+  .ai-chip{background:rgba(16,185,129,.14);border:1px solid rgba(16,185,129,.35);color:#6ee7b7;padding:4px 9px;border-radius:14px;font-size:.68rem;font-weight:700;cursor:pointer}
+  .ai-ans{background:rgba(5,9,20,.8);border:1px solid var(--bd);border-radius:11px;padding:9px;font-size:.73rem;line-height:1.65;color:#e2e8f0;max-height:210px;overflow-y:auto}
+.bottom-bar{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:9999!important} body{padding-bottom:90px!important} .fab-up{width:44px!important;height:44px!important;opacity:.9!important;position:fixed!important;bottom:88px!important;right:12px!important;left:auto!important;z-index:10000!important}</style>
+
+<div class="ai-box" id="aibox">
+  <div class="row"><b style="color:var(--ac);font-size:.84rem">🤖 المستشار الخارق SIGMA Co-Pilot</b><button class="tbtn" onclick="togAI()">✕</button></div>
+  <div class="ai-chips">
+    <span class="ai-chip" onclick="askAI('top3')">👑 أضمن 3 مباريات</span>
+    <span class="ai-chip" onclick="askAI('safe')">🛡️ أعلى أمان 1X</span>
+    <span class="ai-chip" onclick="askAI('goals')">⚽ مهرجان أهداف</span>
+    <span class="ai-chip" onclick="askAI('arab')">🇸🇦🇪🇬 فرص عربية</span>
+  </div>
+  <div class="ai-ans" id="aians">اختر أحد الأسئلة الذكية أعلاه لأحلل لك أفضل الفرص المتاحة الآن من بيانات المحرك الحية...</div>
+</div>
+<script>/*SIGMA_CAP*/function sigmaCap(p,eh,ea){return (eh==1500||ea==1500)?Math.min(p,52):Math.min(p,75)}</script><script>
+window.sigmaAdminLogin=function(){
+var u=prompt("Admin user:");
+var pw=prompt("Password:");
+if(u==="admin"&&pw==="sigma123"){localStorage.setItem("sigma_role","admin");localStorage.setItem("sigma_admin","1");alert("Admin OK");location.reload()}
+else if(u==="editor1"&&pw==="123456"){localStorage.setItem("sigma_role","editor");alert("Editor OK");location.reload()}
+else if(u==="viewer1"&&pw==="123456"){localStorage.setItem("sigma_role","viewer");alert("Viewer OK");location.reload()}
+else{alert("Wrong")}
+};
+try{
+if(localStorage.getItem("sigma_role")==="admin"||localStorage.getItem("sigma_admin")==="1"){
+document.body.classList.add("is-admin");
+document.querySelectorAll(".admin-only").forEach(e=>e.style.display="");
+}
+}catch(e){}
+</script><script>
+window.SIGMA_DEFAULT_ACCOUNTS=[
+{u:"super",p:"Sigma2026!",r:"super"},
+{u:"admin",p:"sigma123",r:"admin"},
+{u:"editor1",p:"123456",r:"editor"},
+{u:"viewer1",p:"123456",r:"viewer"}
+];
+function sigmaGetAccounts(){
+try{
+var a=JSON.parse(localStorage.getItem("sigma_accounts"));
+if(a&&a.length>0){return a;}
+}catch(e){}
+localStorage.setItem("sigma_accounts",JSON.stringify(window.SIGMA_DEFAULT_ACCOUNTS));
+return window.SIGMA_DEFAULT_ACCOUNTS;
+}
+window.sigmaAdminLogin=function(){
+var u=prompt("Username:");
+if(!u){return;}
+var pw=prompt("Password:");
+var accs=sigmaGetAccounts();
+var f=null;
+for(var i=0;i<accs.length;i++){if(accs[i].u===u&&accs[i].p===pw){f=accs[i];break;}}
+if(f){
+localStorage.setItem("sigma_role",f.r);
+localStorage.setItem("sigma_user",f.u);
+localStorage.setItem("sigma_admin",(f.r==="super"||f.r==="admin")?"1":"0");
+alert("Welcome "+f.u+" Role "+f.r);
+location.reload();
+}else{alert("Wrong");}
+};
+window.sigmaLogout=function(){
+localStorage.removeItem("sigma_role");
+localStorage.removeItem("sigma_user");
+localStorage.setItem("sigma_admin","0");
+location.reload();
+};
+window.sigmaManageAccounts=function(){
+var role=localStorage.getItem("sigma_role");
+if(role!=="super"&&role!=="admin"){alert("No permission");return;}
+var accs=sigmaGetAccounts();
+var txt="";
+for(var i=0;i<accs.length;i++){txt+=accs[i].u+" | "+accs[i].r+"\n";}
+var act=prompt("Accounts:\n"+txt+"\nType ADD to add, DEL to delete");
+if(act==="ADD"){
+var nu=prompt("New username:");
+var npw=prompt("New password:");
+var nr=prompt("Role: super, admin, editor, viewer");
+if(nu&&npw&&(nr==="super"||nr==="admin"||nr==="editor"||nr==="viewer")){
+accs.push({u:nu,p:npw,r:nr});
+localStorage.setItem("sigma_accounts",JSON.stringify(accs));
+alert("Account added "+nu);
+}else{alert("Wrong role");}
+}
+if(act==="DEL"){
+var du=prompt("Username to delete:");
+if(du==="super"){alert("Cannot delete super");return;}
+var out=[];
+for(var j=0;j<accs.length;j++){if(accs[j].u!==du){out.push(accs[j]);}}
+localStorage.setItem("sigma_accounts",JSON.stringify(out));
+alert("Deleted "+du);
+}
+};
+try{
+var r=localStorage.getItem("sigma_role");
+if(r==="super"||r==="admin"||r==="editor"){
+document.body.classList.add("is-admin");
+document.querySelectorAll(".admin-only").forEach(function(e){e.style.display="";});
+}
+}catch(e){}
+</script><script>
+function sigmaRenderTop(){
+try{
+var tools=document.querySelector(".top-tools");
+if(!tools){return;}
+var role=localStorage.getItem("sigma_role")||"";
+var user=localStorage.getItem("sigma_user")||"";
+if(!document.getElementById("sigma-user-label")){
+var lbl=document.createElement("span");
+lbl.id="sigma-user-label";
+lbl.style.cssText="font-size:.7rem;color:#fff;opacity:.9;margin:0 6px;";
+tools.appendChild(lbl);
+}
+var lbl2=document.getElementById("sigma-user-label");
+lbl2.textContent = role ? ("Logged: "+user+" - "+role) : "Not logged";
+if(!document.getElementById("sigma-logout-btn")){
+var b=document.createElement("button");
+b.id="sigma-logout-btn"; b.className="tbtn"; b.textContent="Logout";
+b.onclick=function(){window.sigmaLogout();};
+tools.appendChild(b);
+}
+if(!document.getElementById("sigma-accounts-btn")){
+var b2=document.createElement("button");
+b2.id="sigma-accounts-btn"; b2.className="tbtn"; b2.textContent="Accounts";
+b2.onclick=function(){window.sigmaToggleAccounts();};
+tools.appendChild(b2);
+}
+var ab=document.getElementById("sigma-accounts-btn");
+if(ab){ab.style.display=(role==="super"||role==="admin")?"":"none";}
+}catch(e){}
+}
+window.sigmaToggleAccounts=function(){
+var p=document.getElementById("sigma-accounts-panel");
+if(!p){return;}
+if(p.style.display==="none"||p.style.display===""){p.style.display="block";window.sigmaListAccounts();}else{p.style.display="none";}
+};
+window.sigmaListAccounts=function(){
+try{
+var accs=JSON.parse(localStorage.getItem("sigma_accounts")||"[]");
+var box=document.getElementById("sigma-accounts-list");
+if(!box){return;}
+var h="";
+for(var i=0;i<accs.length;i++){
+h+="<div style='display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #333;'><span>"+accs[i].u+" - "+accs[i].r+"</span>";
+if(accs[i].u!=="super"){h+="<button onclick=\"window.sigmaDeleteAccount('"+accs[i].u+"')\" style='background:#7f1d1d;color:#fff;border:0;padding:4px 8px;border-radius:6px;'>Delete</button>";}else{h+="<span>Protected</span>";}
+h+="</div>";
+}
+box.innerHTML=h;
+}catch(e){}
+};
+window.sigmaDeleteAccount=function(u){
+if(u==="super"){alert("Cannot delete super");return;}
+var accs=JSON.parse(localStorage.getItem("sigma_accounts")||"[]");
+var out=[];
+for(var i=0;i<accs.length;i++){if(accs[i].u!==u){out.push(accs[i]);}}
+localStorage.setItem("sigma_accounts",JSON.stringify(out));
+window.sigmaListAccounts();
+};
+window.sigmaAddAccountUI=function(){
+var nu=document.getElementById("sigma-new-user").value.trim();
+var npw=document.getElementById("sigma-new-pass").value.trim();
+var nr=document.getElementById("sigma-new-role").value;
+if(!nu||!npw){alert("Fill user and pass");return;}
+var accs=JSON.parse(localStorage.getItem("sigma_accounts")||"[]");
+for(var i=0;i<accs.length;i++){if(accs[i].u===nu){alert("Exists");return;}}
+accs.push({u:nu,p:npw,r:nr});
+localStorage.setItem("sigma_accounts",JSON.stringify(accs));
+document.getElementById("sigma-new-user").value="";
+document.getElementById("sigma-new-pass").value="";
+window.sigmaListAccounts();
+alert("Added "+nu);
+};
+window.sigmaResetAccounts=function(){
+localStorage.removeItem("sigma_accounts");
+location.reload();
+};
+document.addEventListener("DOMContentLoaded",function(){
+try{
+var panel=document.createElement("div");
+panel.id="sigma-accounts-panel";
+panel.className="admin-only";
+panel.style.cssText="display:none;background:#0f172a;border:1px solid #334155;border-radius:10px;padding:12px;margin:10px;";
+panel.innerHTML="<div style='display:flex;justify-content:space-between;'><b>Accounts</b><button onclick=\"window.sigmaToggleAccounts()\" style='background:#334155;color:#fff;border:0;padding:4px 10px;border-radius:6px;'>Close</button></div><div id='sigma-accounts-list' style='margin:10px 0;'></div><div style='display:flex;gap:6px;flex-wrap:wrap;'><input id='sigma-new-user' placeholder='New username' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><input id='sigma-new-pass' placeholder='New password' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><select id='sigma-new-role' style='padding:8px;border-radius:6px;background:#020617;color:#fff;'><option value='viewer'>viewer</option><option value='editor'>editor</option><option value='admin'>admin</option><option value='super'>super</option></select><button onclick=\"window.sigmaAddAccountUI()\" style='background:#16a34a;color:#fff;border:0;padding:8px 12px;border-radius:6px;'>Add</button></div><div style='font-size:.7rem;opacity:.7;margin-top:8px;'>Super cannot be deleted. Accounts are saved in this browser.</div>";
+var top=document.querySelector(".top-tools");
+if(top&&top.parentNode){top.parentNode.insertBefore(panel,top.nextSibling);}else{document.body.insertBefore(panel,document.body.firstChild);}
+}catch(e){}
+sigmaRenderTop();
+});
+setTimeout(sigmaRenderTop,800);
+</script><script>
+function sigmaFixCaps(){
+try{
+var cards=document.querySelectorAll(".card, .match-card, .match, article");
+if(cards.length===0){cards=[document.body];}
+cards.forEach(function(card){
+var all=card.querySelectorAll("*");
+var headerPct=null;
+for(var i=0;i<all.length;i++){
+var t=all[i].textContent||"";
+if(/Lens.*75%/.test(t)||/\(75%\)/.test(t)){headerPct=75;}
+}
+if(headerPct!==null){
+for(var j=0;j<all.length;j++){
+var el=all[j];
+if(el.children.length===0){
+var txt=el.textContent||"";
+if(/Lens:\s*77%/.test(txt)){el.textContent=txt.replace("77%","75%");}
+if(/Lens:\s*\d+%/.test(txt)){el.textContent=txt.replace(/Lens:\s*\d+%/,"Lens: 75%");}
+}
+}
+}
+for(var k=0;k<all.length;k++){
+var e2=all[k];
+if(e2.children.length===0){
+var tx=e2.textContent||"";
+if(/(X2|1X)/.test(tx)){
+var m=tx.match(/(\d+\.\d+|\d+)%/);
+if(m&&parseFloat(m[1])>86){e2.textContent=tx.replace(m[1]+"%","86%");}
+}
+}
+}
+});
+}catch(e){}
+}
+setInterval(sigmaFixCaps,400);
+document.addEventListener("DOMContentLoaded",sigmaFixCaps);
+</script><script>
+function sigmaForceFab(){
+try{
+var els=document.querySelectorAll("button, div, a");
+for(var i=0;i<els.length;i++){
+var e=els[i];
+if((e.textContent||"").trim()==="\u2191" || e.className.toString().indexOf("fab")>=0){
+e.style.setProperty("right","12px","important");
+e.style.setProperty("left","auto","important");
+}
+}
+}catch(e){}
+}
+setInterval(sigmaForceFab,400);
+</script></body>
+</html>
