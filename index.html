@@ -211,7 +211,7 @@ function renderBrief(list){
 }
 if(window.bankInp)bankInp.value=localStorage.getItem("sigma_bank")||1000;
 let A=[],R=[],LG=[],W={},ST={},T="all",QF="all",pg=1,pp=20;
-fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{ (d.matches||[]).forEach(m=>{for(let k in m){if(typeof m[k]==='string') m[k]=m[k].trim()}});
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
   ST=d.stats||{}; s1.textContent=(ST.upcoming||0).toLocaleString();
   s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc ?? 0)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
