@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -d ".git" ]; then
-  git pull --rebase
+  git pull --rebase --autostash
 fi
 echo "=== $(date) - بدء Pipeline ===" | tee -a logs.txt
 python3 join_bulk_results.py >> logs.txt 2>&1
