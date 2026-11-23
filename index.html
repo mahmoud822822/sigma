@@ -146,6 +146,10 @@
 </div>
 <canvas id="cv" width="800" height="440" style="display:none"></canvas>
 <script>
+window.addEventListener('error',function(e){try{document.body.insertAdjacentHTML('afterbegin','<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR WINDOW: '+(e.message||e)+'</div>')}catch(_){}});
+window.addEventListener('unhandledrejection',function(e){try{document.body.insertAdjacentHTML('afterbegin','<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR PROMISE: '+((e.reason&&e.reason.message)||e.reason)+'</div>')}catch(_){}});
+setTimeout(function(){try{var s=document.getElementById('s1'); if(s && (s.textContent==='0'||s.textContent===''||s.textContent==='...')){document.body.insertAdjacentHTML('afterbegin','<div style=background:#92400e;color:#fff;padding:10px;font-size:13px>FETCH DID NOT SET STATS - s1 still 0 after 5s</div>')}}catch(_){}},5000);
+
 let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
 let LIVE=[];
 async function pullLive(){
