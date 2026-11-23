@@ -147,6 +147,11 @@
 <canvas id="cv" width="800" height="440" style="display:none"></canvas>
 
 <script>
+var fb=document.getElementById('fb')||{style:{}};
+var lb=document.getElementById('lb')||{style:{}};
+var gb=document.getElementById('gb')||{style:{}};
+var qp=document.getElementById('qp')||{style:{}};
+
 
 let FAV=JSON.parse(localStorage.getItem("sigma_fav")||"[]");function togFav(k){FAV=FAV.includes(k)?FAV.filter(x=>x!==k):[...FAV,k];localStorage.setItem("sigma_fav",JSON.stringify(FAV));rn()}
 let LIVE=[];
@@ -376,6 +381,8 @@ window.rn=rn;
   }).join("")||"<div class=card style='text-align:center'>لا توجد مباريات مطابقة</div>"; }catch(err){ ls.innerHTML="<div class=card style='color:#fca5a5'>"+err.message+"</div>"; }
 }
 });
+
+window.sq=sq;window.stB=stB;window.st=st;
 </script>
 <button class="fab-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆</button>
 <nav class="bnav">
