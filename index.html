@@ -85,7 +85,7 @@
   .bnav{background:rgba(6,11,25,.94)!important;border:1px solid rgba(255,255,255,.1)!important;box-shadow:0 14px 35px rgba(0,0,0,.75)!important}
   body.light{background:#f1f5f9!important;--card:rgba(255,255,255,.95);--card2:#f8fafc;--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.1)}
 </head>
-<body>
+<body><div id='sigma-err' style='background:#7f1d1d;color:#fff;padding:12px;font:14px sans-serif;white-space:pre-wrap;display:none'></div><script>window.addEventListener('error',function(e){var d=document.getElementById('sigma-err'); if(d){d.style.display='block'; d.textContent='JS ERROR: '+(e.message||'')+' | '+(e.filename||'')+':'+(e.lineno||'')+':'+(e.colno||'');}});</script>
 <header>
   <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span><button class=tbtn onclick="sigmaAdminLogin()">Admin</button></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
