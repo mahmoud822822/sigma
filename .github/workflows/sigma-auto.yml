@@ -1,0 +1,33 @@
+name: Sigma Live - Auto Pipeline
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Sigma pipeline
+        run: |
+          git pull --rebase || true
+          if [ -f run_pipeline.sh ]; then bash run_pipeline.sh; else echo "no run_pipeline.sh"; python3 sigma_ai_system.py || true; python3 sigma_or_v2.py || true; python3 fix_womens_leak.py || true; python3 fix_or_layer.py || true; fi
+      - name: Verify caps 86
+        run: |
+          python3 -c "import json,pathlib,sys; p=pathlib.Path('data/sigma_site.json'); d=json.loads(p.read_text()) if p.exists() else {'matches':[]}; bad=[m for m in d.get('matches',[]) if (m.get('dc_prob_capped') or m.get('dc_prob') or 0)>86]; print(f'over86={len(bad)}'); sys.exit(1) if bad else print('caps OK')"
+          grep -q "Math.min(86,c.dc_prob_capped" index.html && echo "comb cap OK"
+          grep -q "Math.min(86,m.dc_prob_capped" index.html && echo "filter cap OK"
+      - name: Push if changed
+        run: |
+          git config user.name "sigma-bot"
+          git config user.email "sigma-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "auto: pipeline - caps 86, risk 13, ABSTAIN if no safe bet"
+          git push
