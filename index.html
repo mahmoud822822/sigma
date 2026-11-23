@@ -618,5 +618,5 @@ e.style.setProperty("left","auto","important");
 }catch(e){}
 }
 setInterval(sigmaForceFab,400);
-</script></body>
+</script><script>try{var el=document.getElementById('sigma-static'); if(el){el.textContent='ISOLATED FETCH - separate block runs';} fetch('data/sigma_site.json?t='+Date.now()).then(function(r){return r.text();}).then(function(tx){var e2=document.getElementById('sigma-static'); if(e2){e2.textContent='ISOLATED FETCH OK len '+tx.length;} try{var d=JSON.parse(tx); window.__sigmaData=d; if(typeof rn==='function'){rn();}}catch(err){}}).catch(function(e){var e3=document.getElementById('sigma-static'); if(e3){e3.textContent='ISOLATED FETCH FAIL: '+e.message;}});}catch(e){try{document.getElementById('sigma-static').textContent='ISOLATED BLOCK ERROR: '+e.message;}catch(_){}}</script></body>
 </html>
