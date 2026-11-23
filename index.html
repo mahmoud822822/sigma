@@ -159,7 +159,7 @@ async function pullLive(){
       return {home:hm.team?.displayName||"",away:aw.team?.displayName||"",hs:hm.score||"0",as:aw.score||"0",clk:e.status?.displayClock||"LIVE",lg:e.league?.name||""};
     });
     if(T==="live")applyLang(); rn();
-  }catch(e){}
+  }catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 }
 pullLive(); setInterval(pullLive,30000);
 let CMP=false;
@@ -412,7 +412,7 @@ if(localStorage.getItem("sigma_role")==="admin"||localStorage.getItem("sigma_adm
 document.body.classList.add("is-admin");
 document.querySelectorAll(".admin-only").forEach(e=>e.style.display="");
 }
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 </script><script>
 window.SIGMA_DEFAULT_ACCOUNTS=[
 {u:"super",p:"Sigma2026!",r:"super"},
@@ -424,7 +424,7 @@ function sigmaGetAccounts(){
 try{
 var a=JSON.parse(localStorage.getItem("sigma_accounts"));
 if(a&&a.length>0){return a;}
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 localStorage.setItem("sigma_accounts",JSON.stringify(window.SIGMA_DEFAULT_ACCOUNTS));
 return window.SIGMA_DEFAULT_ACCOUNTS;
 }
@@ -481,7 +481,7 @@ if(r==="super"||r==="admin"||r==="editor"){
 document.body.classList.add("is-admin");
 document.querySelectorAll(".admin-only").forEach(function(e){e.style.display="";});
 }
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 </script><script>
 function sigmaRenderTop(){
 try{
@@ -511,7 +511,7 @@ tools.appendChild(b2);
 }
 var ab=document.getElementById("sigma-accounts-btn");
 if(ab){ab.style.display=(role==="super"||role==="admin")?"":"none";}
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 }
 window.sigmaToggleAccounts=function(){
 var p=document.getElementById("sigma-accounts-panel");
@@ -530,7 +530,7 @@ if(accs[i].u!=="super"){h+="<button onclick=\"window.sigmaDeleteAccount('"+accs[
 h+="</div>";
 }
 box.innerHTML=h;
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 };
 window.sigmaDeleteAccount=function(u){
 if(u==="super"){alert("Cannot delete super");return;}
@@ -567,7 +567,7 @@ panel.style.cssText="display:none;background:#0f172a;border:1px solid #334155;bo
 panel.innerHTML="<div style='display:flex;justify-content:space-between;'><b>Accounts</b><button onclick=\"window.sigmaToggleAccounts()\" style='background:#334155;color:#fff;border:0;padding:4px 10px;border-radius:6px;'>Close</button></div><div id='sigma-accounts-list' style='margin:10px 0;'></div><div style='display:flex;gap:6px;flex-wrap:wrap;'><input id='sigma-new-user' placeholder='New username' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><input id='sigma-new-pass' placeholder='New password' style='flex:1;padding:8px;border-radius:6px;border:1px solid #334155;background:#020617;color:#fff;'><select id='sigma-new-role' style='padding:8px;border-radius:6px;background:#020617;color:#fff;'><option value='viewer'>viewer</option><option value='editor'>editor</option><option value='admin'>admin</option><option value='super'>super</option></select><button onclick=\"window.sigmaAddAccountUI()\" style='background:#16a34a;color:#fff;border:0;padding:8px 12px;border-radius:6px;'>Add</button></div><div style='font-size:.7rem;opacity:.7;margin-top:8px;'>Super cannot be deleted. Accounts are saved in this browser.</div>";
 var top=document.querySelector(".top-tools");
 if(top&&top.parentNode){top.parentNode.insertBefore(panel,top.nextSibling);}else{document.body.insertBefore(panel,document.body.firstChild);}
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 sigmaRenderTop();
 });
 setTimeout(sigmaRenderTop,800);
@@ -604,7 +604,7 @@ if(m&&parseFloat(m[1])>86){e2.textContent=tx.replace(m[1]+"%","86%");}
 }
 }
 });
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 }
 setInterval(sigmaFixCaps,400);
 document.addEventListener("DOMContentLoaded",sigmaFixCaps);
@@ -619,7 +619,7 @@ e.style.setProperty("right","12px","important");
 e.style.setProperty("left","auto","important");
 }
 }
-}catch(e){}
+}catch(e){document.body.insertAdjacentHTML("afterbegin","<div style=background:#7f1d1d;color:#fff;padding:10px;font-size:13px>ERR: "+(e&&e.message?e.message:e)+"</div>");}
 }
 setInterval(sigmaForceFab,400);
 </html>
