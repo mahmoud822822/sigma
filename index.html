@@ -171,7 +171,7 @@ async function pullLive(){
 pullLive(); setInterval(pullLive,30000);
 let CMP=false;
 function togView(){CMP=!CMP;localStorage.setItem("sigma_cmp",CMP?"1":"0");vbtn.textContent=CMP?"📊 مفصّل":"⚡ مضغوط";rn()}
-function stB(t,e){document.querySelectorAll(".bitem").forEach(x=>x.classList.remove("on"));e.classList.add("on");st(t,e)}
+function stB(t,e){st(t,e)}
 function togAI(){aibox.style.display=aibox.style.display==="block"?"none":"block"}
 function askAI(mode){
   let list=[...A];
@@ -217,7 +217,7 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{ (d.match
   s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc ?? 0)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
   A=(d.matches||[]).map(m=>({...m,elo_h:(m.elo_home??1500),elo_a:(m.elo_away??1500)})); R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
-function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
+function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".bitem").forEach(x=>x.classList.remove("on"));var tab=document.querySelector('.tab[onclick*="st(\''+t+'\'"]');if(tab)tab.classList.add("on");var b=document.querySelector('.bitem[onclick*="stB(\''+t+'\'"]');if(b)b.classList.add("on");if(e&&e.classList)e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
 window.st=st;
 function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
 function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
@@ -261,7 +261,7 @@ window.rn=rn;
     `<div class="card"><h4 style="color:var(--ac);margin-bottom:9px">🏆 أعلى البطولات دقة في سجل Sigma AI</h4>`+(LG.length?LG.map(x=>`<div class="row" style="padding:7px 0;border-bottom:1px solid var(--bd);font-size:.8rem"><span>${x.league} <small style="color:var(--mt)">(${x.total} مباراة)</small></span><b style="color:var(--ac)">${x.acc}%</b></div>`).join(""):"<p style='font-size:.78rem;color:var(--mt)'>يتم تحديث ترتيب البطولات تلقائياً عند تشغيل السيرفر</p>")+"</div>";
     return;
   }
-  if(QF==="res"){
+  if(QF==="res"||T==="res"){
     pb.style.display="none";
     ls.innerHTML=R.map(r=>`<div class="card"><div class="top"><span>🏆 ${(r.league||"").toUpperCase()} • ${r.date} • 🔒 ${r.audit_id||"#OK"}</span><span style="color:${r.hit?"var(--ac)":"var(--rd)"};font-weight:700">${r.hit?"✅ ناجح":"❌ لم يصب"}</span></div><div class="teams" dir="ltr"><div class="tm-box"><span class="tm-name">${r.home}</span></div><div class="vs-pill">${r.result}</div><div class="tm-box"><span class="tm-name">${r.away}</span></div></div><div class="row" style="font-size:.74rem;color:var(--mt)"><span>توقع قبل البداية: <b style="color:var(--tx)">${r.pick==="1"?r.home:r.pick==="2"?r.away:"تعادل"}</b></span><span>ثقة: <b style="color:var(--gd)">${r.conf}%</b></span></div></div>`).join("");
     return;
