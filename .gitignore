@@ -1,3 +1,4 @@
-token.txt
-*.log
-logs.txt
+archive_old/
+backup_old/
+*.bak
+*.bak3
