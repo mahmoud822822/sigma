@@ -21,7 +21,7 @@ print("\n=== جلب BL1 + BL2 + DFB ===")
 all_results = []  # (home, away, date, hg, ag, league)
 for league, code in [('BL1','bl1'), ('BL2','bl2'), ('DFB','dfbpokal')]:
     try:
-        url = f"https://api.openligadb.de/getmatchdata/{code}/2025"
+        url = f"https://api.openligadb.de/getmatchdata/{code}/2026"
         req = urllib.request.Request(url, headers={'User-Agent':'Sigma/1.0'})
         with urllib.request.urlopen(req, timeout=20) as r:
             data = json.loads(r.read().decode())
@@ -99,3 +99,9 @@ if brier_n:
     print("الـ 4 بتوع UNL هيكونوا في unmatched - دول هيتجابوا من international_results اللي في sigma-auto.yml")
 else:
     print("مفيش تطابق - راجع اسماء الفرق والتواريخ")
+json.dump(joined, open('data/sigma_results_joined.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+json.dump(unmatched, open('data/sigma_unmatched.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print("files written even if 0 matched")
+json.dump(joined, open('data/sigma_results_joined.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+json.dump(unmatched, open('data/sigma_unmatched.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print("files written even if 0 matched")
