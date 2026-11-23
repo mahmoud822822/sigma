@@ -256,7 +256,7 @@ function rn(){
   if(T==="combo"){
     pb.style.display="none";
     const favMatches = A.filter(m => FAV.includes(m.key));
-    const safePool = [...A].filter(m=>!m.trap&&(m.dc_prob||0)>82).sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0)).slice(0,4);
+    const safePool = [...A].filter(m=>!m.trap&&(m.dc_prob||0)>82).sort((a,b)=>(Math.min(86,b.dc_prob_capped||b.dc_prob||0))-(Math.min(86,a.dc_prob_capped||a.dc_prob||0))).slice(0,4);
     const useFav = (window._parlayMode === "fav" && favMatches.length > 0) || (window._parlayMode !== "safe" && favMatches.length > 0);
     const picks = useFav ? favMatches : safePool;
     
@@ -301,7 +301,7 @@ function rn(){
         </div>
       </div>`+
       (picks.length ? picks.map((m,idx)=>{
-        const fairOdd = (100/Math.max(50,(m.dc_prob||85))).toFixed(2);
+        const fairOdd = (100/Math.max(50,(Math.min(86,m.dc_prob_capped||m.dc_prob||85)))).toFixed(2);
         return `<div style="background:rgba(5,9,20,.65);padding:9px;border-radius:10px;margin-bottom:7px;border:1px solid var(--bd)">
           <div class="row" style="font-size:.7rem;color:var(--mt);margin-bottom:4px">
             <span>#${idx+1} • ${((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,22)}</span>
@@ -323,7 +323,7 @@ function rn(){
   pb.style.display="flex";
   const qv=q.value.trim().toLowerCase(),srt=df.value,td=new Date().toISOString().slice(0,10),tm=new Date(Date.now()+864e5).toISOString().slice(0,10);
   let w=A.filter(m=>(T!=="fav"||FAV.includes(m.key))&&(!lf.value||((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match"))===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(!lf.value||((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match"))===lf.value)&&(!gf.value||(gf.value==="🥉 دوري درجة 3"?/درجة 3|درجة 4|إقليمي/.test(m.lgrade||""):(gf.value==="🏆 كأس محلي"?/كأس/.test(m.lgrade||""):(gf.value==="🌐 بطولة منتخبات"?/منتخبات|تصفيات/.test(m.lgrade||""):(m.lgrade||"")===gf.value))))&&(T!=="gold"||m.golden)&&(T!=="safe"||(m.dc_prob||0)>=80)&&(QF!=="today"||m.date===td)&&(QF!=="tom"||m.date===tm)&&(QF!=="c3"||m.consensus==="3/3")&&(QF!=="o65"||m.over25>=62)&&(QF!=="men"||!m.tier)&&(QF!=="clash"||((m.elo_h ?? 0)+(m.elo_a ?? 0)>=3380)||/ديربي|نهائي|خروج مغلوب/.test(m.ctx_tags||""))&&(QF!=="arab"||/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr|ittihad|raja|wydad|esperance/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`))&&(QF!=="btts"||m.btts>=60)&&(!qv||`${m.home} ${m.away} ${m.league} ${m.league_name||""}`.toLowerCase().includes(qv)));
-  if(T==="safe"||srt==="safe")w.sort((a,b)=>(b.dc_prob||0)-(a.dc_prob||0));
+  if(T==="safe"||srt==="safe")w.sort((a,b)=>(Math.min(86,b.dc_prob_capped||b.dc_prob||0))-(Math.min(86,a.dc_prob_capped||a.dc_prob||0)));
   else if(T==="gold"||srt==="conf")w.sort((a,b)=>b.conf-a.conf);
   else if(srt==="goals")w.sort((a,b)=>b.over25-a.over25);
   const tp=Math.max(1,Math.ceil(w.length/pp));pg=Math.min(Math.max(1,pg),tp);
@@ -349,7 +349,7 @@ function rn(){
         <div class="pill ${m.pick==="2"?"pk":""}">${m.away.slice(0,15)}: ${m.p2}%<div class="bar-bg"><div class="bar-fill" style="width:${m.p2}%"></div></div></div>
       </div>
       <div class="met">
-        <div>أمان ${m.dc_pick||"1X"}<b style="color:var(--ac)">${m.dc_prob||80}%</b></div>
+        <div>أمان ${m.dc_pick||"1X"}<b style="color:var(--ac)">${Math.min(86,m.dc_prob_capped||m.dc_prob||80)}%</b></div>
         <div>${m.dnb_pick||"DNB"}<b style="color:var(--bl)">${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%</b></div>
         <div>+2.5 هدف<b style="color:var(--gd)">${m.over25}%</b></div>
         <div>BTTS<b>${m.btts}%</b></div>
