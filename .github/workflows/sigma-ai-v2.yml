@@ -1,0 +1,53 @@
+name: Sigma AI V2 - Every 3 Hours
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sigma-ai
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Backup
+        run: cp data/sigma_site.json /tmp/sigma_old.json
+      - name: Run Sigma AI V2
+        continue-on-error: true
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python3 build_sigma_ai_v2.py
+      - name: Validate - restore if bad
+        run: |
+          python3 - << 'PY'
+          import json, shutil
+          old=json.load(open('/tmp/sigma_old.json'))
+          try:
+              new=json.load(open('data/sigma_site.json'))
+              m=new.get('matches',[])
+              assert isinstance(m, list) and len(m)>=100, f"count {len(m)}"
+              for x in m:
+                  c=float(x.get('conf',0) or 0)
+                  assert c<=86, f"over cap {x.get('home')} {c}"
+                  # Juventus check
+                  if x.get('key')=="2026-11-22|juventus|venezia":
+                      assert c<=86
+              print("VALID", len(m), "brier", new.get('brier_score'))
+          except Exception as e:
+              print("RESTORE", e)
+              shutil.copy('/tmp/sigma_old.json','data/sigma_site.json')
+          PY
+      - name: Commit
+        run: |
+          git config user.name "sigma-bot"
+          git config user.email "sigma@bot.local"
+          git add data/sigma_site.json data/sigma_log.json
+          git diff --cached --quiet || git commit -m "Sigma AI V2 auto"
+          git push

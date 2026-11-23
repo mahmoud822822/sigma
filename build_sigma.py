@@ -13,13 +13,20 @@ for m in matches:
 added = 0
 template = matches[0] if matches else {}
 UA = {"User-Agent": "Mozilla/5.0 (SigmaBot/1.0)", "Accept": "application/json"}
+def clean_name(s):
+    import re as _re
+    s = _re.sub(r"【entity-[^¦]*¦canonical_name=([^】]+)】", r"\1", str(s))
+    return s.strip()
+
 def add_match(home, away, date, league, conf, elo_h, elo_a):
     global added
+    home = clean_name(home); away = clean_name(away); league = clean_name(league)
     key = (home.lower(), away.lower(), date)
     if key in seen:
         return
     new = dict(template) if isinstance(template, dict) else {}
-    new.update({"home": home, "home_team": home, "away": away, "away_team": away, "date": date, "league": league, "conf": conf, "confidence": conf, "prob": conf, "elo_home": elo_h, "elo_away": elo_a, "elo": elo_h, "status": "upcoming", "market": "DC", "_is_new": True})
+    # DO NOT copy template key/logos/probs - they belong to Juventus
+    new.update({"key": f"{date}|{home.lower().replace(' ','-')}|{away.lower().replace(' ','-')}", "home": home, "home_team": home, "away": away, "away_team": away, "date": date, "league": league, "league_name": league, "conf": conf, "confidence": conf, "prob": conf, "elo_home": elo_h, "elo_away": elo_a, "elo": elo_h, "status": "upcoming", "market": "DC", "_is_new": True, "h_logo": "", "a_logo": "", "p1": conf, "pX": round((100-conf)*0.6,1), "p2": round((100-conf)*0.4,1), "kickoff": "20:00", "top_scores": ["2-0","1-0","1-1"]})
     matches.append(new)
     seen.add(key)
     added += 1
@@ -68,10 +75,10 @@ if added == 0:
             add_match(home, away, day, ev.get("strLeague") or "", 52, 1500, 1500)
 if added == 0:
     print("ALL FETCH FAILED, injecting manual fallback")
-    add_match("【entity-Al Ahly¦canonical_name=Al Ahly】", "【entity-Pyramids¦canonical_name=Pyramids FC】", "2026-11-23", "Egypt Premier League", 67.0, 1732, 1755)
-    add_match("【entity-Zamalek¦canonical_name=Zamalek】", "【entity-El Gouna¦canonical_name=El Gouna】", "2026-11-23", "Egypt Premier League", 52.0, 1676, 1500)
+    add_match("Al Ahly", "Pyramids FC", "2026-11-23", "Egypt Premier League", 67.0, 1732, 1755)
+    add_match("Zamalek", "El Gouna", "2026-11-23", "Egypt Premier League", 52.0, 1676, 1500)
     add_match("Wadi Degla", "Al-Ittihad Alexandria", "2026-11-23", "Egypt Premier League", 52.0, 1500, 1500)
-    add_match("【entity-Brentford¦canonical_name=Brentford FC】", "【entity-Everton¦canonical_name=Everton】", "2026-11-23", "England Premier League", 52.0, 1500, 1500)
+    add_match("Brentford FC", "Everton", "2026-11-23", "England Premier League", 52.0, 1500, 1500)
 for m in matches:
     try:
         conf = float(m.get("conf", m.get("confidence", m.get("prob", 0))) or 0)
@@ -112,11 +119,13 @@ for m in matches:
         m["prob"] = conf
     m.pop("_is_new", None)
 d["matches"] = matches
+import datetime as _dt
+d["generated_utc"] = _dt.datetime.now(_dt.timezone.utc).isoformat()
 d["risk"] = 13
 d["cap"] = 86
 json.dump(d, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 print("saved", p, "matches", len(matches), "added", added, "cap 86 risk 13")
 for m in matches:
     h = str(m.get("home", "")).lower()
-    if "ahly" in h or "【entity-juventus¦canonical_name=Juventus】" in h:
+    if "ahly" in h or "Juventus" in h:
         print("CHECK:", m.get("home"), "vs", m.get("away"), m.get("date"), "conf", m.get("conf"))
