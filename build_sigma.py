@@ -1,10 +1,9 @@
 import json, os
-p = "sigma_site.json"
-if os.path.exists(p):
-    d = json.load(open(p, encoding="utf-8"))
-else:
-    d = {"matches": [], "stats": {}}
-matches = d.get("matches", d if isinstance(d, list) else [])
+p = "data/sigma_site.json"
+d = json.load(open(p, encoding="utf-8"))
+matches = d.get("matches", [])
+if not matches and isinstance(d, list):
+    matches = d
 for m in matches:
     try:
         conf = float(m.get("conf", m.get("confidence", 0)) or 0)

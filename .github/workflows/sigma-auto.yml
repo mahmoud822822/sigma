@@ -1,4 +1,4 @@
-name: Sigma Auto Update - كل 3 ساعات
+name: Sigma Auto Update - every 3 hours
 on:
   schedule:
     - cron: '0 */3 * * *'
@@ -17,6 +17,6 @@ jobs:
         run: |
           git config user.name "sigma-bot"
           git config user.email "sigma-bot@github.com"
-          git add sigma_site.json build_sigma.py .github/workflows/sigma-auto.yml
+          git add data/sigma_site.json build_sigma.py .github/workflows/sigma-auto.yml
           git diff --cached --quiet || git commit -m "Auto update sigma_site.json cap 86 risk 13"
           git push
