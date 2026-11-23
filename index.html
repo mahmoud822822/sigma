@@ -1,4 +1,4 @@
-SIGMA TOP MARKER
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -87,11 +87,10 @@ SIGMA TOP MARKER
   body.light{background:#f1f5f9!important;--card:rgba(255,255,255,.95);--card2:#f8fafc;--tx:#0f172a;--mt:#475569;--bd:rgba(15,23,42,.1)}
 </style>
 </head>
-SIGMA AFTER HEAD
+
 
 <body>
-SIGMA AFTER BODY
-<div id='sigma-err' style='background:#7f1d1d;color:#fff;padding:12px;font:14px sans-serif;white-space:pre-wrap;display:none'></div><script>window.addEventListener('error',function(e){var d=document.getElementById('sigma-err'); if(d){d.style.display='block'; d.textContent='JS ERROR: '+(e.message||'')+' | '+(e.filename||'')+':'+(e.lineno||'')+':'+(e.colno||'');}});<script>window.addEventListener('unhandledrejection',function(e){var d=document.getElementById('sigma-err'); if(d){d.style.display='block'; d.textContent='PROMISE ERROR: '+((e.reason && e.reason.message) || e.reason);}});</script>
+
 <header>
   <div class="brand"><h1>SIGMA AI V800-OBSIDIAN LUXE 👑</h1><span>By Mahmoud Emad</span><button class=tbtn onclick="sigmaAdminLogin()">Admin</button></div>
   <div style="text-align:left"><div id="u" style="font-size:.68rem;color:var(--mt)">...</div><div class="top-tools"><button class="tbtn" style="background:rgba(16,185,129,.22);border-color:var(--ac);color:#6ee7b7" onclick="togAI()">🤖 AI</button><button class="tbtn" onclick="togLang()" id="lbtn">🌐 EN</button><button class="tbtn" onclick="togView()" id="vbtn">⚡ مضغوط</button><button class="tbtn" onclick="document.body.classList.toggle('light');localStorage.setItem('sigma_th',document.body.classList.contains('light')?'1':'0')">🌓 مظهر</button></div></div>
@@ -210,7 +209,6 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   ST=d.stats||{}; s1.textContent=(ST.upcoming||0).toLocaleString();
   s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc ?? 0)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
   A=(d.matches||[]).map(m=>({...m,elo_h:(m.elo_home??1500),elo_a:(m.elo_away??1500)})); R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
-}).catch(function(e){var d=document.getElementById('sigma-err'); if(d){d.style.display='block'; d.textContent='FETCH ERROR: '+(e && e.message || e);} try{rn();}catch(_){}});
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
 function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
 function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList.remove("on"));e.classList.add("on");pg=1;rn()}
@@ -624,5 +622,4 @@ e.style.setProperty("left","auto","important");
 }catch(e){}
 }
 setInterval(sigmaForceFab,400);
-</script><script>try{var el=document.getElementById('sigma-static'); if(el){el.textContent='ISOLATED FETCH - separate block runs';} fetch('data/sigma_site.json?t='+Date.now()).then(function(r){return r.text();}).then(function(tx){var e2=document.getElementById('sigma-static'); if(e2){e2.textContent='ISOLATED FETCH OK len '+tx.length;} try{var d=JSON.parse(tx); window.__sigmaData=d; if(typeof rn==='function'){rn();}}catch(err){}}).catch(function(e){var e3=document.getElementById('sigma-static'); if(e3){e3.textContent='ISOLATED FETCH FAIL: '+e.message;}});}catch(e){try{document.getElementById('sigma-static').textContent='ISOLATED BLOCK ERROR: '+e.message;}catch(_){}}</script></body>
 </html>
