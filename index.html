@@ -634,13 +634,7 @@ e.style.setProperty("left","auto","important");
 }catch(e){}
 }
 setInterval(sigmaForceFab,400);
-</html><script>
-(function(){
-  function setOn(sel,elm){try{document.querySelectorAll(sel).forEach(function(x){x.classList.remove('on')}); if(elm&&elm.classList) elm.classList.add('on');}catch(e){}}
-  function safeRn(){try{if(typeof rn==='function') rn();}catch(e){}}
-  function realSt(t,e){try{window.T=t;}catch(e){} setOn('.tab',e); try{var hide=(t==='res'||t==='trust'||t==='combo'); var fb=document.getElementById('fb'); var lb=document.getElementById('lb'); var gb=document.getElementById('gb'); var qp=document.getElementById('qp'); if(fb) fb.style.display=hide?'none':'grid'; if(lb) lb.style.display=hide?'none':'block'; if(gb) gb.style.display=hide?'none':'block'; if(qp) qp.style.display=hide?'none':'flex';}catch(e){} try{window.pg=1;}catch(e){} safeRn();}
-  function realSq(v,e){try{window.QF=v;}catch(e){} setOn('.qpill',e); try{window.pg=1;}catch(e){} safeRn();}
-  function realStB(t,e){setOn('.bitem',e); realSt(t,e);}
-  window.st=realSt; window.sq=realSq; window.stB=realStB;
-})();
+</html>
+<script>
+document.addEventListener('click',function(ev){try{var fb=document.getElementById('fb');var lb=document.getElementById('lb');var gb=document.getElementById('gb');var qp=document.getElementById('qp');if(fb) window.fb=fb;if(lb) window.lb=lb;if(gb) window.gb=gb;if(qp) window.qp=qp;}catch(e){}},true);
 </script>
