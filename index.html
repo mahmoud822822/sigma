@@ -173,7 +173,7 @@ function askAI(mode){
   else if(mode==="goals") list=list.filter(m=>m.over25>=62).sort((a,b)=>b.over25-a.over25).slice(0,3);
   else if(mode==="arab") list=list.filter(m=>/egy|ksa|sau|uae|qat|mar|tun|alg|caf|afc|ahly|zamalek|hilal|nassr/i.test(`${m.league} ${m.league_name} ${m.home} ${m.away}`)).sort((a,b)=>b.conf-a.conf).slice(0,3);
   if(!list.length){aians.innerHTML="لا توجد مباريات مطابقة حالياً في هذا التصنيف.";return;}
-  aians.innerHTML=list.map((m,idx)=>`<div style="margin-bottom:7px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.08)"><b style="color:var(--gd)">${idx+1}. ${m.home} vs ${m.away}</b><br>🎯 التوقع: <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,m.elo_h,m.elo_a)}%)</b> • أمان ${m.dc_pick}: ${Math.min(86,m.dc_prob)}% • +2.5: ${m.over25}%</div>`).join("");
+  aians.innerHTML=list.map((m,idx)=>`<div style="margin-bottom:7px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.08)"><b style="color:var(--gd)">${idx+1}. ${m.home} vs ${m.away}</b><br>🎯 التوقع: <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,86)}%)</b> • أمان ${m.dc_pick}: ${Math.min(86,m.dc_prob)}% • +2.5: ${m.over25}%</div>`).join("");
 }
 let LANG=localStorage.getItem("sigma_lang")||"ar";
 const DICT={
@@ -215,12 +215,12 @@ function sq(v,e){QF=v;document.querySelectorAll(".qpill").forEach(x=>x.classList
 function togAdv(id){const el=document.getElementById("adv_"+id);el.style.display=el.style.display==="block"?"none":"block"}
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V170-SUPREME\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,m.elo_h,m.elo_a)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⚽ +2.5 هدف: ${m.over25}% | BTTS: ${m.btts}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V170-SUPREME\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,86)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⚽ +2.5 هدف: ${m.over25}% | BTTS: ${m.btts}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function cpTxt(i){
   const m=window._cur[i]; if(!m) return;
-  const txt=`👑 SIGMA AI V800-OBSIDIAN LUXE\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,m.elo_h,m.elo_a)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
+  const txt=`👑 SIGMA AI V800-OBSIDIAN LUXE\n🏆 ${m.league_name||m.league} (${m.date})\n⚽ ${m.home} VS ${m.away}\n🎯 التوقع: ${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,86)}%)\n🛡️ الأمان: ${m.dc_pick} (${Math.min(86,m.dc_prob)}%) | ${m.dnb_pick||"DNB"} (${Math.min(86,Math.min(86,Math.round((Math.max(m.p1,m.p2)/(Math.max(m.p1,m.p2)+Math.min(m.p1,m.p2)))*100)))}%)\n⏱️ هدف شوط 1 (+0.5): ${m.fh_ov05||72}% | +2.5 هدف: ${m.over25}%\n💰 إدارة رأس المال: ${m.stake||2}%`;
   navigator.clipboard?.writeText(txt); alert("✅ تم نسخ تحليل المباراة جاهزاً للمشاركة!");
 }
 function mkCard(i){
@@ -231,9 +231,9 @@ function mkCard(i){
   ctx.fillStyle="#94a3b8";ctx.font="18px sans-serif";ctx.textAlign="right";ctx.fillText(((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,22)+" | "+m.date,760,62);
   ctx.fillStyle="#f8fafc";ctx.font="bold 28px sans-serif";ctx.textAlign="center";ctx.fillText(m.home+"   VS   "+m.away,400,148);
   ctx.fillStyle="#f59e0b";ctx.font="bold 26px sans-serif";
-  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+Math.min(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+Math.min(m.conf,86)+"%)",400,210);
   ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
-  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+Math.min(m.conf,m.elo_h,m.elo_a)+"%)",400,210);
+  ctx.fillText("PICK: "+(m.pick==="1"?m.home+" WIN":m.pick==="2"?m.away+" WIN":"DRAW")+" ("+Math.min(m.conf,86)+"%)",400,210);
   ctx.fillStyle="#38bdf8";ctx.font="20px sans-serif";
   ctx.fillText("Safe "+m.dc_pick+": "+m.dc_prob+"%  |  "+(m.dnb_pick||"DNB")+": "+(m.dnb_prob ?? 0)+"%  |  Over 2.5: "+m.over25+"%",400,270);
   ctx.fillStyle="#142038";ctx.fillRect(40,335,720,66);ctx.fillStyle="#f59e0b";ctx.font="bold 23px sans-serif";ctx.fillText("Mahmoud Emad",400,376);
@@ -334,8 +334,8 @@ function rn(){
   pi.textContent=`صفحة ${pg} من ${tp} (${w.length})`;b1.disabled=pg<=1;b2.disabled=pg>=tp;
   window._cur=w.slice((pg-1)*pp,pg*pp);
   try{ ls.innerHTML=window._cur.map((m,i)=>{
-    const valEdge=Math.max(0,Math.round((Math.min(m.conf,m.elo_h,m.elo_a)-42)*0.45));
-    if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,15):m.pick==="2"?m.away.slice(0,15):"تعادل"} (${Math.min(m.conf,m.elo_h,m.elo_a)}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${Math.min(86,m.dc_prob)}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
+    const valEdge=Math.max(0,Math.round((Math.min(m.conf,86)-42)*0.45));
+    if(CMP){return `<div class="cmp-row" onclick="togView()"><div><b style="color:var(--tx)">${m.home}</b> <span style="color:var(--gd)">vs</span> <b style="color:var(--tx)">${m.away}</b><div style="font-size:.63rem;color:var(--mt)">${m.date} • ${String(m.league_name||m.league||"").slice(0,18)}</div></div><div style="text-align:left"><span style="background:rgba(16,185,129,.16);color:var(--ac);padding:3px 7px;border-radius:7px;font-weight:800">${m.pick==="1"?m.home.slice(0,15):m.pick==="2"?m.away.slice(0,15):"تعادل"} (${Math.min(m.conf,86)}%)</span><div style="font-size:.63rem;color:var(--bl);margin-top:2px">🛡️ ${m.dc_pick} ${Math.min(86,m.dc_prob)}%</div></div></div>`;} return `<div class="card ${m.golden?"gold":""}">
       <div class="top"><span>🏆 ${((m.league_name&&m.league_name!=="regular-season")?m.league_name:(m.league!=="regular-season"?m.league:"League Match")).slice(0,25)} • ${String(m.date||"").slice(0,10)} ${m.kickoff?`⏰ ${m.kickoff}`:""}</span><div style="display:flex;gap:5px;align-items:center"><button class="fav-btn" onclick="togFav(window._cur[${i}].key)">${FAV.includes(m.key)?"❤️":"🤍"}</button><button class="share-btn" onclick="cpTxt(${i})">📋 نسخ</button><button class="share-btn" onclick="mkCard(${i})">📸 بطاقة</button><span style="color:var(--gd);font-weight:800">${m.over25>=62?"⚡ إيقاع هجومي مفتوح • ":(m.over25<=44?"🛡️ صراع تكتيكي مغلق • ":"")}${m.goal_fest?"🔥 مهرجان أهداف • ":""}${m.golden?"⭐ ذهبي":"🧠 "+(m.consensus||"3/3")}</span></div></div>
       <div class="teams" dir="ltr">
         <div class="tm-box">${m.h_logo?`<img src="${m.h_logo}" style="width:26px;height:26px;object-fit:contain;margin-bottom:2px" onerror="this.style.display='none'">`:""}<span class="tm-name">${m.home}</span><span class="tm-elo">Elo ${m.elo_home ?? 0}</span></div>
@@ -344,7 +344,7 @@ function rn(){
       </div>
       ${m.trap?`<div class="trap">⚠️ رادار المفاجآت: تذبذب في الزخم — يُنصح بخيار الأمان ${m.dc_pick} (${Math.min(86,m.dc_prob)}%)</div>`:""}
       <div class="pick-banner">
-        <span>🎯 <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,m.elo_h,m.elo_a)}%)</b></span>
+        <span>🎯 <b style="color:var(--ac)">${m.pick==="1"?"فوز "+m.home:m.pick==="2"?"فوز "+m.away:"تعادل"} (${Math.min(m.conf,86)}%)</b></span>
         <span style="font-size:.68rem;color:var(--gd);font-weight:700">${m.risk||"🟢 منخفضة"} • 💎 +${valEdge}%</span>
       </div>
       <div class="probs" dir="ltr">
