@@ -203,7 +203,7 @@ fetch("data/sigma_site.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   u.textContent=(d.generated_utc||"").slice(0,16).replace("T"," ")+" UTC";
   ST=d.stats||{}; s1.textContent=(ST.upcoming||0).toLocaleString();
   s2.textContent=(ST.gold_acc||ST.hit_pct||0)+"%"; s3.textContent=(ST.dc_acc ?? 0)+"%"; s4.textContent=(ST.hit_pct||0)+"%";
-  A=d.matches||[]; R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
+  A=(d.matches||[]).map(m=>({...m,elo_h:(m.elo_home??1500),elo_a:(m.elo_away??1500)})); R=d.recent_results||[]; LG=d.top_leagues||[]; W=d.weights||{}; const lmap={}; A.forEach(m=>{const k=m.league_name||m.league||""; if(k)lmap[k]=(lmap[k]||0)+1}); lf.innerHTML="<option value=''>🌍 جميع البطولات والدوريات ("+Object.keys(lmap).length+" بطولة)</option>"+Object.entries(lmap).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${k}">${k} (${v})</option>`).join(""); rn();
 });
 function goPage(d){pg+=d;rn();window.scrollTo({top:0,behavior:'smooth'})}
 function st(t,e){T=t;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));e.classList.add("on");const hide=(t==="res"||t==="trust"||t==="combo");fb.style.display=hide?"none":"grid"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block"; lb.style.display=hide?"none":"block"; gb.style.display=hide?"none":"block";qp.style.display=hide?"none":"flex";pg=1;rn()}
