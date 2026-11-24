@@ -1,0 +1,9 @@
+{
+  "backtest": "Ahly vs Pyramids 2026-11-23",
+  "old_prediction": {"ahly_win_prob": 0.67, "brier": 0.4489, "method": "with full home advantage"},
+  "point_cairo_neutral": {"ahly_win_prob": 0.46, "brier": 0.2116, "method": "Point 1732 vs 1755, HA_effective 0"},
+  "verdict": "Cairo neutral improves Brier, less overconfident",
+  "cap": 86,
+  "risk": 13,
+  "note": "1 match only, need 20 matches to confirm"
+}
