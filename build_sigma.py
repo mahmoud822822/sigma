@@ -113,6 +113,14 @@ for m in matches:
         conf = min(conf, 75)
     else:
         conf = min(conf, 86)
+    # step5: Cairo neutral + Point, display only, no conf change
+    _cairo=['ahly','zamalek','pyramids','ceramica','enppi','modern','petrojet','national bank','el gaish','arab contractors']
+    _h=str(m.get("home","")).lower(); _a=str(m.get("away","")).lower()
+    _is_cairo=any(x in _h for x in _cairo) and any(x in _a for x in _cairo)
+    m["HA_effective"]=0 if _is_cairo else m.get("home_adv_pct",8)
+    m["cairo_neutral"]=_is_cairo
+    m["point_home"]=m.get("elo_home",1500)
+    m["point_away"]=m.get("elo_away",1500)
     m["conf"] = conf
     m["confidence"] = conf
     if "prob" in m:
