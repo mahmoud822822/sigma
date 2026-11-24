@@ -1,0 +1,10 @@
+{
+  "decision": "Point DISPLAY ONLY, not in prediction yet",
+  "reason": "1 Cairo match is not enough proof",
+  "baseline": {"matches": 62, "avg_brier_old": 0.2573},
+  "cairo_test": {"match": "Ahly vs Pyramids 2026-11-23", "old_brier": 0.4489, "cairo_neutral_brier": 0.2116},
+  "rule_to_activate": "Need 5 Cairo matches, if Cairo neutral Brier < old Brier in 4 of 5, then activate Point in prediction",
+  "cap": 86,
+  "risk": 13,
+  "next": "Fix filter row - All Dates, Today, Tomorrow, 3/3 Consensus, Over 2.5, Arab Leagues, Big Clashes, Men only"
+}
