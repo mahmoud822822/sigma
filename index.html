@@ -197,6 +197,7 @@ function applyLang(){
   if(qp.length>=7){qp[0].textContent=d.all;qp[1].textContent=d.today;qp[2].textContent=d.tom;qp[3].textContent=d.cons;qp[4].textContent=d.o25;qp[5].textContent=d.arab;qp[6].textContent=d.clash;if(qp.length>=8)qp[7].textContent=LANG==='ar'?'⚽ رجال فقط':'⚽ Men only';}
 }
 function togLang(){LANG=LANG==="ar"?"en":"ar";localStorage.setItem("sigma_lang",LANG);applyLang();rn();}
+function toggleQF(v){ if(v=='all'){ QF=''; render(); return; } var tm=['today','tom']; if(tm.includes(v)){ tm.forEach(x=>{ QF=QF.replace(x,''); }); } if(QF.includes(v)){ QF=QF.replace(v,'').trim(); } else { QF=(QF+' '+v).trim(); } render(); }
 function renderBrief(list){
   if(!list.length||T!=="all"){return "";}
   const best=[...list].sort((a,b)=>b.conf-a.conf);
