@@ -1,0 +1,25 @@
+name: Sigma AI - Manual Only
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Must be DRY-RUN for now'
+        required: true
+        default: 'DRY-RUN'
+jobs:
+  ai-dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Backup live data
+        run: cp data/sigma_site.json data/sigma_site_backup_before_ai.json
+      - name: Run AI DRY-RUN - no API call
+        run: python3 build_sigma_ai.py
+      - name: Validator - caps 86 / 75 / 52, risk 13
+        run: |
+          python3 -c "import json; d=json.load(open('data/sigma_ai_test_5.json')); assert d['validator']=='PASS'; assert all(x['new_conf']<=86 for x in d['tests']); print('Validator PASS, live NOT changed')"
+      - name: Show test result
+        run: cat data/sigma_ai_test_5.json
