@@ -1,0 +1,9 @@
+{
+  "total_recent": 62,
+  "avg_brier_old": 0.2573,
+  "ahly_pyramids": {
+    "old": 0.4489,
+    "cairo_neutral": 0.2116
+  },
+  "note": "baseline from recent_results, Ahly test is separate 1-match proof"
+}
