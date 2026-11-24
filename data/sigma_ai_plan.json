@@ -1,0 +1,17 @@
+{
+  "status": "PLAN ONLY - NOT BUILT - WAITING APPROVAL",
+  "model": "Groq llama-3.3-70b-versatile",
+  "ai_role": "Adjust confidence only, never change pick",
+  "delta_limit": {"min": -3, "max": 3},
+  "validator_caps": {"gold_max": 86, "normal_max": 75, "x1_max": 52},
+  "risk": 13,
+  "cap": 86,
+  "rules": [
+    "No API key in repo",
+    "Backup data/sigma_site.json before any AI run",
+    "If Validator fails, restore backup and stop",
+    "Cairo neutral HA_effective stays 0 for Cairo vs Cairo",
+    "Point stays display-only until 5 Cairo matches prove it"
+  ],
+  "next_if_approved": "Build build_sigma_ai.py + sigma-ai.yml, test on 5 matches only, not full 545"
+}
