@@ -1,0 +1,13 @@
+{
+  "mode": "DRY-RUN",
+  "model": "Groq llama-3.3-70b-versatile (not called)",
+  "tests": [],
+  "validator": "PASS",
+  "caps": {
+    "gold": 86,
+    "normal": 75,
+    "x1": 52
+  },
+  "risk": 13,
+  "note": "Live data NOT changed"
+}
