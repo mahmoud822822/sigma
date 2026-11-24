@@ -1,6 +1,6 @@
 {
   "version": "V90-APEX",
-  "generated_utc": "2026-11-24T02:00:02.591942+00:00",
+  "generated_utc": "2026-11-24T10:20:33.002512+00:00",
   "stats": {
     "upcoming": 545,
     "history_count": 61628,
@@ -198,7 +198,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 66.6
+      "confidence": 66.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1787,
+      "point_away": 1446
     },
     {
       "key": "2026-11-22|hull city|brighton",
@@ -259,7 +263,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 66.0
+      "confidence": 66.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1354,
+      "point_away": 1705
     },
     {
       "key": "2026-11-22|inter de san carlos|sporting san jos",
@@ -320,7 +328,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 63.5
+      "confidence": 63.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1818,
+      "point_away": 1487
     },
     {
       "key": "2026-11-22|indiana|missouri state",
@@ -381,7 +393,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 61.8
+      "confidence": 61.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1374,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|ipswich town|southampton",
@@ -442,7 +458,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 61.6
+      "confidence": 61.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1339,
+      "point_away": 1519
     },
     {
       "key": "2026-11-22|getafe|atl tico madrid",
@@ -503,7 +523,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 60.8
+      "confidence": 60.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1755
     },
     {
       "key": "2026-11-22|marseille|le mans",
@@ -564,7 +588,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 59.8
+      "confidence": 59.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1713,
+      "point_away": 1414
     },
     {
       "key": "2026-11-22|burnley|blackburn rovers",
@@ -625,7 +653,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 59.4
+      "confidence": 59.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1667,
+      "point_away": 1456
     },
     {
       "key": "2026-11-22|milan|frosinone",
@@ -686,7 +718,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 58.5
+      "confidence": 58.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1696,
+      "point_away": 1455
     },
     {
       "key": "2026-11-22|atl tico goianiense|vila nova",
@@ -747,7 +783,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 57.4
+      "confidence": 57.4,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1755,
+      "point_away": 1554
     },
     {
       "key": "2026-11-22|paris fc|angers",
@@ -808,7 +848,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 56.8
+      "confidence": 56.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1600,
+      "point_away": 1429
     },
     {
       "key": "2026-11-22|municipal|antigua gfc",
@@ -869,7 +913,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 56.5
+      "confidence": 56.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1295
     },
     {
       "key": "2026-11-22|rosario central|gimnasia mendoza",
@@ -930,7 +978,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 56.3
+      "confidence": 56.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1347,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|werder bremen|hamburg sv",
@@ -991,7 +1043,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 54.6
+      "confidence": 54.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1490
     },
     {
       "key": "2026-11-22|sassuolo|genoa",
@@ -1052,7 +1108,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 54.1
+      "confidence": 54.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1625,
+      "point_away": 1536
     },
     {
       "key": "2026-11-22|fuerte san francisco|inca aruba",
@@ -1113,7 +1173,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 54.0
+      "confidence": 54.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1313
     },
     {
       "key": "2026-11-22|akron|wake forest",
@@ -1174,7 +1238,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 52.7
+      "confidence": 52.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1542
     },
     {
       "key": "2026-11-22|sunderland|burnley",
@@ -1235,7 +1303,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.9
+      "confidence": 51.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1526,
+      "point_away": 1667
     },
     {
       "key": "2026-11-22|argentina u17|mozambique u17",
@@ -1296,7 +1368,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.9
+      "confidence": 51.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1522
     },
     {
       "key": "2026-11-22|newcastle|nottm forest",
@@ -1357,7 +1433,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.7
+      "confidence": 51.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1701,
+      "point_away": 1630
     },
     {
       "key": "2026-11-22|denmark u17|australia u17",
@@ -1418,7 +1498,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.7
+      "confidence": 51.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1520
     },
     {
       "key": "2026-11-22|south korea u17|new caledonia u17",
@@ -1479,7 +1563,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.4
+      "confidence": 51.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|ecuador u17|uganda u17",
@@ -1540,7 +1628,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.3
+      "confidence": 51.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1478
     },
     {
       "key": "2026-11-22|france u17|saudi arabia u17",
@@ -1601,7 +1693,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.1
+      "confidence": 51.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|louisville|oregon state",
@@ -1662,7 +1758,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.9
+      "confidence": 50.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1522
     },
     {
       "key": "2026-11-22|c rdoba|real oviedo",
@@ -1723,7 +1823,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.7
+      "confidence": 50.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1427,
+      "point_away": 1546
     },
     {
       "key": "2026-11-22|uruguay u17|haiti u17",
@@ -1784,7 +1888,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.7
+      "confidence": 50.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1481
     },
     {
       "key": "2026-11-22|qatar u17|egypt u17",
@@ -1845,7 +1953,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.4
+      "confidence": 50.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|greece u17|panama u17",
@@ -1906,7 +2018,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.0
+      "confidence": 50.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1481
     },
     {
       "key": "2026-11-22|leicester city|wolverhampton",
@@ -1967,7 +2083,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 49.9
+      "confidence": 49.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1587,
+      "point_away": 1485
     },
     {
       "key": "2026-11-22|north carolina|unc wilmington",
@@ -2028,7 +2148,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 49.7
+      "confidence": 49.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1499
     },
     {
       "key": "2026-11-22|paris fc|fc fleury 91",
@@ -2089,7 +2213,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 49.5
+      "confidence": 49.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1600,
+      "point_away": 1565
     },
     {
       "key": "2026-11-22|arezzo|padova",
@@ -2150,7 +2278,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.5
+      "confidence": 47.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1562,
+      "point_away": 1419
     },
     {
       "key": "2026-11-22|bologna|udinese",
@@ -2211,7 +2343,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.2
+      "confidence": 47.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|osasuna|m laga",
@@ -2272,7 +2408,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.7
+      "confidence": 46.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1605,
+      "point_away": 1431
     },
     {
       "key": "2026-11-22|ol lyonnes|strasbourg",
@@ -2333,7 +2473,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.4
+      "confidence": 46.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|kaiserslautern|dynamo dresden",
@@ -2394,7 +2538,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.3
+      "confidence": 46.3,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1392
     },
     {
       "key": "2026-11-22|athletico pr|remo",
@@ -2455,7 +2603,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.5
+      "confidence": 45.5,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1519
     },
     {
       "key": "2026-11-22|lorient|stade rennais",
@@ -2516,7 +2668,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.9
+      "confidence": 44.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1591,
+      "point_away": 1711
     },
     {
       "key": "2026-11-22|s nderjyske fodbold|odense boldklub",
@@ -2577,7 +2733,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.9
+      "confidence": 44.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1484
     },
     {
       "key": "2026-11-22|sporting gij n|las palmas",
@@ -2638,7 +2798,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.8
+      "confidence": 44.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1453,
+      "point_away": 1453
     },
     {
       "key": "2026-11-22|red bull bragantino|vasco da gama",
@@ -2699,7 +2863,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.7
+      "confidence": 44.7,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|fc augsburg|mainz",
@@ -2760,7 +2928,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.2
+      "confidence": 44.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1554,
+      "point_away": 1485
     },
     {
       "key": "2026-11-22|kv kortrijk|union st gilloise",
@@ -2821,7 +2993,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.9
+      "confidence": 43.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1490
     },
     {
       "key": "2026-11-22|sc farense|fatima",
@@ -2882,7 +3058,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.6
+      "confidence": 43.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1476
     },
     {
       "key": "2026-11-22|lommel sk|standard liege",
@@ -2943,7 +3123,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.6
+      "confidence": 43.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1481
     },
     {
       "key": "2026-11-22|churchill brothers|mohun bagan super giant",
@@ -3004,7 +3188,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.6
+      "confidence": 43.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1581,
+      "point_away": 1491
     },
     {
       "key": "2026-11-22|energie cottbus|hertha berlin",
@@ -3065,7 +3253,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.5
+      "confidence": 43.5,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1468,
+      "point_away": 1488
     },
     {
       "key": "2026-11-22|austria vienna|rb salzburg",
@@ -3126,7 +3318,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.3
+      "confidence": 43.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1479,
+      "point_away": 1533
     },
     {
       "key": "2026-11-22|uniao leiria|leca",
@@ -3187,7 +3383,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.1
+      "confidence": 43.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1510
     },
     {
       "key": "2026-11-22|michigan state|marshall",
@@ -3248,7 +3448,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.1
+      "confidence": 43.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1522
     },
     {
       "key": "2026-11-22|karlsruher sc|vfl osnabruck",
@@ -3309,7 +3513,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1443,
+      "point_away": 1493
     },
     {
       "key": "2026-11-22|liverpool|man united",
@@ -3370,7 +3578,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.7
+      "confidence": 42.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1506,
+      "point_away": 1618
     },
     {
       "key": "2026-11-22|fc twente|willem ii",
@@ -3431,7 +3643,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1476,
+      "point_away": 1583
     },
     {
       "key": "2026-11-22|clemson|vermont",
@@ -3492,7 +3708,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|sheffield united|durham",
@@ -3553,7 +3773,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.5
+      "confidence": 42.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1593,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|go ahead eagles|fortuna sittard",
@@ -3614,7 +3838,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1528,
+      "point_away": 1503
     },
     {
       "key": "2026-11-22|trabzonspor|eyupspor",
@@ -3675,7 +3903,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1523
     },
     {
       "key": "2026-11-22|fc motagua|club deportivo olimpia",
@@ -3736,7 +3968,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1559,
+      "point_away": 1453
     },
     {
       "key": "2026-11-22|kansas city|stanford",
@@ -3797,7 +4033,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1532
     },
     {
       "key": "2026-11-22|aalesund|rosenborg",
@@ -3858,7 +4098,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1479
     },
     {
       "key": "2026-11-22|manta f c|delf n",
@@ -3919,7 +4163,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1540,
+      "point_away": 1484
     },
     {
       "key": "2026-11-22|pittsburgh|grand canyon",
@@ -3980,7 +4228,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1485,
+      "point_away": 1517
     },
     {
       "key": "2026-11-22|rutgers|cornell",
@@ -4041,7 +4293,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1522
     },
     {
       "key": "2026-11-22|fluminense|mirassol",
@@ -4102,7 +4358,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1515
     },
     {
       "key": "2026-11-22|maryland|nc state",
@@ -4163,7 +4423,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1496,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|viborg ff|randers fc",
@@ -4224,7 +4488,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.4
+      "confidence": 41.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1542,
+      "point_away": 1491
     },
     {
       "key": "2026-11-22|ik sirius|djurg rden",
@@ -4285,7 +4553,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.3
+      "confidence": 41.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1545,
+      "point_away": 1498
     },
     {
       "key": "2026-11-22|kfum oslo|sk brann",
@@ -4346,7 +4618,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.3
+      "confidence": 41.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1577,
+      "point_away": 1524
     },
     {
       "key": "2026-11-22|kasimpasa|alanyaspor",
@@ -4407,7 +4683,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1510,
+      "point_away": 1480
     },
     {
       "key": "2026-11-22|ac horsens|silkeborg if",
@@ -4468,7 +4748,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1480
     },
     {
       "key": "2026-11-22|lye town|peterborough united",
@@ -4529,7 +4813,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1530,
+      "point_away": 1495
     },
     {
       "key": "2026-11-22|colo colo|universidad cat lica",
@@ -4590,7 +4878,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.7
+      "confidence": 40.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1583,
+      "point_away": 1517
     },
     {
       "key": "2026-11-22|estrela|portimonense",
@@ -4651,7 +4943,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.4
+      "confidence": 40.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1537
     },
     {
       "key": "2026-11-22|anderlecht|oh leuven",
@@ -4712,7 +5008,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.4
+      "confidence": 40.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1494
     },
     {
       "key": "2026-11-22|olympiacos|iraklis",
@@ -4773,7 +5073,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.4
+      "confidence": 40.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1507
     },
     {
       "key": "2026-11-22|barcelona|villarreal",
@@ -4834,7 +5138,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1575,
+      "point_away": 1708
     },
     {
       "key": "2026-11-22|deportes limache|la serena",
@@ -4895,7 +5203,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1529,
+      "point_away": 1492
     },
     {
       "key": "2026-11-22|heerenveen|ado den haag",
@@ -4956,7 +5268,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.2
+      "confidence": 40.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1554
     },
     {
       "key": "2026-11-22|ajax amsterdam|ado den haag",
@@ -5017,7 +5333,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1537,
+      "point_away": 1554
     },
     {
       "key": "2026-11-22|cob n imperial|deportivo san pedro",
@@ -5078,7 +5398,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1453
     },
     {
       "key": "2026-11-22|guadalajara|cruz azul",
@@ -5139,7 +5463,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.9
+      "confidence": 39.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1540
     },
     {
       "key": "2026-11-22|de graafschap|ajax amsterdam",
@@ -5200,7 +5528,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.7
+      "confidence": 39.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1537
     },
     {
       "key": "2026-11-22|san antonio bulo bulo|always ready",
@@ -5261,7 +5593,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.6
+      "confidence": 39.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1519
     },
     {
       "key": "2026-11-22|georgetown|syracuse",
@@ -5322,7 +5658,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.6
+      "confidence": 39.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1576,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|chicago fire fc|charlotte fc",
@@ -5383,7 +5723,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1577,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|dynamo makhachkala|spartak moscow",
@@ -5444,7 +5788,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1392,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|odds bk|bryne",
@@ -5505,7 +5853,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1508,
+      "point_away": 1494
     },
     {
       "key": "2026-11-22|sport huancayo|universitario",
@@ -5566,7 +5918,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1519
     },
     {
       "key": "2026-11-22|dinamo moscow|krasnodar",
@@ -5627,7 +5983,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.2
+      "confidence": 39.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1559
     },
     {
       "key": "2026-11-22|racing santander|sociedad",
@@ -5688,7 +6048,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1463,
+      "point_away": 1536
     },
     {
       "key": "2026-11-22|psv eindhoven|pec zwolle",
@@ -5749,7 +6113,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1520
     },
     {
       "key": "2026-11-22|fc utrecht|az alkmaar",
@@ -5810,7 +6178,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1509
     },
     {
       "key": "2026-11-22|fc nordsj lland|f c k benhavn",
@@ -5871,7 +6243,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1494,
+      "point_away": 1485
     },
     {
       "key": "2026-11-22|liga de quito|aucas",
@@ -5932,7 +6308,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1566
     },
     {
       "key": "2026-11-22|gil vicente|olhanense",
@@ -5993,7 +6373,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1547,
+      "point_away": 1537
     },
     {
       "key": "2026-11-22|rc celta fortuna|real valladolid",
@@ -6054,7 +6438,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1503,
+      "point_away": 1523
     },
     {
       "key": "2026-11-22|real potos|bol var",
@@ -6115,7 +6503,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|the strongest|blooming",
@@ -6176,7 +6568,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1535
     },
     {
       "key": "2026-11-22|bk h cken|if elfsborg",
@@ -6237,7 +6633,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1495,
+      "point_away": 1507
     },
     {
       "key": "2026-11-22|girona|eibar",
@@ -6298,7 +6698,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1546,
+      "point_away": 1509
     },
     {
       "key": "2026-11-22|metropolitanos|deportivo la guaira",
@@ -6359,7 +6763,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1498,
+      "point_away": 1453
     },
     {
       "key": "2026-11-22|vianense|rio ave",
@@ -6420,7 +6828,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.4
+      "confidence": 38.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1512,
+      "point_away": 1510
     },
     {
       "key": "2026-11-22|club olimpia|sportivo trinidense",
@@ -6481,7 +6893,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1550,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|wisconsin|charlotte",
@@ -6542,7 +6958,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1516
     },
     {
       "key": "2026-11-22|west virginia|washington",
@@ -6603,7 +7023,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1521
     },
     {
       "key": "2026-11-22|panetolikos|volos nfc",
@@ -6664,7 +7088,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1560,
+      "point_away": 1567
     },
     {
       "key": "2026-11-22|panathinaikos|ofi crete",
@@ -6725,7 +7153,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1581
     },
     {
       "key": "2026-11-22|sarpsborg fk|lillestrom",
@@ -6786,7 +7218,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.9
+      "confidence": 37.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1491
     },
     {
       "key": "2026-11-22|orense|mushuc runa",
@@ -6847,7 +7283,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.9
+      "confidence": 37.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1548,
+      "point_away": 1554
     },
     {
       "key": "2026-11-22|us avellino|mantova",
@@ -6908,7 +7348,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.8
+      "confidence": 37.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1429,
+      "point_away": 1453
     },
     {
       "key": "2026-11-22|levadiakos|atromitos",
@@ -6969,7 +7413,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.8
+      "confidence": 37.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1471,
+      "point_away": 1550
     },
     {
       "key": "2026-11-22|wolfsberger|sv josko ried",
@@ -7030,7 +7478,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.6
+      "confidence": 37.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1501,
+      "point_away": 1578
     },
     {
       "key": "2026-11-22|paok|kifisia",
@@ -7091,7 +7543,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.6
+      "confidence": 37.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1502,
+      "point_away": 1522
     },
     {
       "key": "2026-11-22|if brommapojkarna|halmstads bk",
@@ -7152,7 +7608,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.6
+      "confidence": 37.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1507,
+      "point_away": 1520
     },
     {
       "key": "2026-11-22|river plate|lan s",
@@ -7213,7 +7673,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1540
     },
     {
       "key": "2026-11-22|nashville sc|fc cincinnati",
@@ -7274,7 +7738,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1520
     },
     {
       "key": "2026-11-22|kristiansund bk|sandefjord",
@@ -7335,7 +7803,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1512,
+      "point_away": 1532
     },
     {
       "key": "2026-11-22|sporting cristal|cienciano del cusco",
@@ -7396,7 +7868,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1487,
+      "point_away": 1492
     },
     {
       "key": "2026-11-22|rubio|libertad",
@@ -7457,7 +7933,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1551
     },
     {
       "key": "2026-11-22|bristol city|watford",
@@ -7518,7 +7998,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1425,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|sc rheindorf altach|sk sturm graz",
@@ -7579,7 +8063,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1476,
+      "point_away": 1544
     },
     {
       "key": "2026-11-22|sanjoanense|acad mica de coimbra",
@@ -7640,7 +8128,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1507
     },
     {
       "key": "2026-11-22|vitoria sernache|lusitania",
@@ -7701,7 +8193,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1482,
+      "point_away": 1507
     },
     {
       "key": "2026-11-22|torreense|benfica",
@@ -7762,7 +8258,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1486,
+      "point_away": 1523
     },
     {
       "key": "2026-11-22|rodina moscow|lokomotiv moscow",
@@ -7823,7 +8323,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1483
     },
     {
       "key": "2026-11-22|burgos|albacete",
@@ -7884,7 +8388,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1451,
+      "point_away": 1454
     },
     {
       "key": "2026-11-22|atalanta|inter",
@@ -7945,7 +8453,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1770,
+      "point_away": 1818
     },
     {
       "key": "2026-11-22|konyaspor|besiktas",
@@ -8006,7 +8518,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1570
     },
     {
       "key": "2026-11-22|sparta rotterdam|az alkmaar",
@@ -8067,7 +8583,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1509
     },
     {
       "key": "2026-11-22|huachipato|deportes concepcion",
@@ -8128,7 +8648,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1494,
+      "point_away": 1552
     },
     {
       "key": "2026-11-22|feyenoord rotterdam|fc twente",
@@ -8189,7 +8713,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1476
     },
     {
       "key": "2026-11-22|crici ma|fortaleza",
@@ -8250,7 +8778,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1574
     },
     {
       "key": "2026-11-22|waasland beveren|kaa gent",
@@ -8311,7 +8843,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1559
     },
     {
       "key": "2026-11-22|platense|cd choloma",
@@ -8372,7 +8908,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.6
+      "confidence": 35.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1522
     },
     {
       "key": "2026-11-23|al-ahly|pyramids-fc",
@@ -8439,7 +8979,11 @@
       "prob": 67.0,
       "elo": 1732,
       "status": "upcoming",
-      "market": "DC"
+      "market": "DC",
+      "HA_effective": 0,
+      "cairo_neutral": true,
+      "point_home": 1732,
+      "point_away": 1755
     },
     {
       "key": "2026-11-23|monza|fiorentina",
@@ -8500,7 +9044,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 66.1
+      "confidence": 66.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1391,
+      "point_away": 1672
     },
     {
       "key": "2026-11-23|spain u17|fiji u17",
@@ -8561,7 +9109,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 53.6
+      "confidence": 53.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1477
     },
     {
       "key": "2026-11-23|morocco u17|china u17",
@@ -8622,7 +9174,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 53.5
+      "confidence": 53.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1478
     },
     {
       "key": "2026-11-23|zamalek|el-gouna",
@@ -8689,7 +9245,11 @@
       "prob": 52.0,
       "elo": 1676,
       "status": "upcoming",
-      "market": "DC"
+      "market": "DC",
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1676,
+      "point_away": 1500
     },
     {
       "key": "2026-11-23|wadi-degla|al-ittihad-alexandria",
@@ -8756,7 +9316,11 @@
       "prob": 52.0,
       "elo": 1500,
       "status": "upcoming",
-      "market": "DC"
+      "market": "DC",
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-22|juventus|venezia",
@@ -8823,7 +9387,11 @@
       "prob": 52.0,
       "elo": 1500,
       "status": "upcoming",
-      "market": "DC"
+      "market": "DC",
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-23|smu|bryant",
@@ -8884,7 +9452,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 48.4
+      "confidence": 48.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1579,
+      "point_away": 1494
     },
     {
       "key": "2026-11-23|ittihad|pakhtakor",
@@ -8945,7 +9517,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 48.4
+      "confidence": 48.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1695,
+      "point_away": 1508
     },
     {
       "key": "2026-11-23|nantes|grenoble",
@@ -9006,7 +9582,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 48.4
+      "confidence": 48.4,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1540,
+      "point_away": 1463
     },
     {
       "key": "2026-11-23|neftchi fergana|hilal",
@@ -9067,7 +9647,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.3
+      "confidence": 46.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1491,
+      "point_away": 1745
     },
     {
       "key": "2026-11-23|instituto c rdoba|hurac n",
@@ -9128,7 +9712,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.1
+      "confidence": 45.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1427,
+      "point_away": 1580
     },
     {
       "key": "2026-11-23|real oruro|guabir",
@@ -9189,7 +9777,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.1
+      "confidence": 45.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1570,
+      "point_away": 1481
     },
     {
       "key": "2026-11-23|asteras tripoli|aris",
@@ -9250,7 +9842,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.7
+      "confidence": 44.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1555,
+      "point_away": 1600
     },
     {
       "key": "2026-11-23|italy u17|ivory coast u17",
@@ -9311,7 +9907,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.6
+      "confidence": 44.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|uzbekistan u17|jamaica u17",
@@ -9372,7 +9972,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.4
+      "confidence": 44.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1478
     },
     {
       "key": "2026-11-23|istanbul basaksehir|orum fk",
@@ -9433,7 +10037,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.8
+      "confidence": 43.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1566,
+      "point_away": 1472
     },
     {
       "key": "2026-11-23|al ain|esteghlal fc",
@@ -9494,7 +10102,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.8
+      "confidence": 43.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1675,
+      "point_away": 1581
     },
     {
       "key": "2026-11-23|vitesse|de graafschap",
@@ -9555,7 +10167,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.3
+      "confidence": 43.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1522
     },
     {
       "key": "2026-11-23|levante|elche",
@@ -9616,7 +10232,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.0
+      "confidence": 43.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1545
     },
     {
       "key": "2026-11-23|vancouver whitecaps|real salt lake",
@@ -9677,7 +10297,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1575,
+      "point_away": 1500
     },
     {
       "key": "2026-11-23|senegal u17|cuba u17",
@@ -9738,7 +10362,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1480
     },
     {
       "key": "2026-11-23|tajikistan u17|croatia u17",
@@ -9799,7 +10427,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1500
     },
     {
       "key": "2026-11-23|ucla|omaha",
@@ -9860,7 +10492,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1520
     },
     {
       "key": "2026-11-23|nacional asunci n|cerro porte o",
@@ -9921,7 +10557,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1478
     },
     {
       "key": "2026-11-23|mali u17|belgium u17",
@@ -9982,7 +10622,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.4
+      "confidence": 41.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|vietnam u17|new zealand u17",
@@ -10043,7 +10687,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.2
+      "confidence": 41.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1478
     },
     {
       "key": "2026-11-23|juticalpa fc|olancho fc",
@@ -10104,7 +10752,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1565,
+      "point_away": 1528
     },
     {
       "key": "2026-11-23|br ndby if|fc midtjylland",
@@ -10165,7 +10817,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1543,
+      "point_away": 1513
     },
     {
       "key": "2026-11-23|south carolina|portland",
@@ -10226,7 +10882,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.1
+      "confidence": 40.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|brentford|everton",
@@ -10287,7 +10947,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1491,
+      "point_away": 1518
     },
     {
       "key": "2026-11-23|ceuta|almer a",
@@ -10348,7 +11012,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.7
+      "confidence": 39.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1576,
+      "point_away": 1492
     },
     {
       "key": "2026-11-23|quer taro|necaxa",
@@ -10409,7 +11077,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.6
+      "confidence": 39.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1537,
+      "point_away": 1501
     },
     {
       "key": "2026-11-23|al shamal|al ahli",
@@ -10470,7 +11142,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1519
     },
     {
       "key": "2026-11-23|jong psv|jong fc utrecht",
@@ -10531,7 +11207,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.3
+      "confidence": 39.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|albion fc|danubio",
@@ -10592,7 +11272,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.3
+      "confidence": 39.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1465,
+      "point_away": 1584
     },
     {
       "key": "2026-11-23|rgryte is|kalmar ff",
@@ -10653,7 +11337,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.2
+      "confidence": 39.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1531,
+      "point_away": 1518
     },
     {
       "key": "2026-11-23|internacional|vit ria",
@@ -10714,7 +11402,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|al quwa al jawiya|al gharafa",
@@ -10775,7 +11467,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.8
+      "confidence": 38.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1509,
+      "point_away": 1610
     },
     {
       "key": "2026-11-23|tractor|al wasl",
@@ -10836,7 +11532,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1555,
+      "point_away": 1650
     },
     {
       "key": "2026-11-23|botafogo|s o paulo",
@@ -10897,7 +11597,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1483
     },
     {
       "key": "2026-11-23|marquense|aurora fc",
@@ -10958,7 +11662,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.8
+      "confidence": 37.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1527,
+      "point_away": 1517
     },
     {
       "key": "2026-11-23|universitario de vinto|gv san jos",
@@ -11019,7 +11727,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.6
+      "confidence": 37.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1556
     },
     {
       "key": "2026-11-23|hammarby if|ifk g teborg",
@@ -11080,7 +11792,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.3
+      "confidence": 37.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1489,
+      "point_away": 1562
     },
     {
       "key": "2026-11-23|real kashmir|dempo sports club",
@@ -11141,7 +11857,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1524,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|jong ajax|jong az",
@@ -11202,7 +11922,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1523
     },
     {
       "key": "2026-11-23|gimnasia la plata|newell s old boys",
@@ -11263,7 +11987,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1515
     },
     {
       "key": "2026-11-23|2 de mayo|sportivo san lorenzo",
@@ -11324,7 +12052,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1493,
+      "point_away": 1516
     },
     {
       "key": "2026-11-23|gimnasia y tiro salta|trist n su rez",
@@ -11385,7 +12117,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1558
     },
     {
       "key": "2026-11-23|juventud|defensor sporting",
@@ -11446,7 +12182,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1487
     },
     {
       "key": "2026-11-23|sochaux|dunkerque",
@@ -11507,7 +12247,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.8
+      "confidence": 35.8,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1454,
+      "point_away": 1471
     },
     {
       "key": "2026-11-23|douanes|cr belouizdad",
@@ -11568,7 +12312,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.3
+      "confidence": 35.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|man city|napoli",
@@ -11629,7 +12377,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 63.8
+      "confidence": 63.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1843,
+      "point_away": 1513
     },
     {
       "key": "2026-11-24|arsenal|dortmund",
@@ -11690,7 +12442,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 61.3
+      "confidence": 61.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1488,
+      "point_away": 1777
     },
     {
       "key": "2026-11-24|real madrid|psv eindhoven",
@@ -11751,7 +12507,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 61.2
+      "confidence": 61.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1812,
+      "point_away": 1523
     },
     {
       "key": "2026-11-24|leipzig|lens",
@@ -11812,7 +12572,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 56.8
+      "confidence": 56.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1717,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|galatasaray|aston villa",
@@ -11873,7 +12637,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 49.9
+      "confidence": 49.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1729
     },
     {
       "key": "2026-11-24|nassr|al sadd",
@@ -11934,7 +12702,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.0
+      "confidence": 47.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1670
     },
     {
       "key": "2026-11-24|hamilton academical|cove rangers",
@@ -11995,7 +12767,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.4
+      "confidence": 46.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1569,
+      "point_away": 1429
     },
     {
       "key": "2026-11-24|clydebank|queen s park",
@@ -12056,7 +12832,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.6
+      "confidence": 45.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1563,
+      "point_away": 1477
     },
     {
       "key": "2026-11-24|bristol city|wrexham",
@@ -12117,7 +12897,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.3
+      "confidence": 45.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1425,
+      "point_away": 1517
     },
     {
       "key": "2026-11-24|charlton athletic|lincoln city",
@@ -12178,7 +12962,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.0
+      "confidence": 45.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1376,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|oxford united|tottenham",
@@ -12239,7 +13027,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.7
+      "confidence": 44.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1596
     },
     {
       "key": "2026-11-24|slovan bratislava|betis",
@@ -12300,7 +13092,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.4
+      "confidence": 44.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1535,
+      "point_away": 1649
     },
     {
       "key": "2026-11-24|woking|worthing",
@@ -12361,7 +13157,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.0
+      "confidence": 44.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|virtus entella|verona",
@@ -12422,7 +13222,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.9
+      "confidence": 43.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1292,
+      "point_away": 1463
     },
     {
       "key": "2026-11-24|portsmouth|west ham",
@@ -12483,7 +13287,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.8
+      "confidence": 43.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1492,
+      "point_away": 1611
     },
     {
       "key": "2026-11-24|stevenage|sheffield wednesday",
@@ -12544,7 +13352,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.7
+      "confidence": 43.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1450
     },
     {
       "key": "2026-11-24|wolves|derby county",
@@ -12605,7 +13417,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.6
+      "confidence": 43.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1614,
+      "point_away": 1484
     },
     {
       "key": "2026-11-24|shanghai port fc|buriram united",
@@ -12666,7 +13482,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.3
+      "confidence": 43.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1521,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|al seeb club|al shorta sc",
@@ -12727,7 +13547,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.1
+      "confidence": 43.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1581,
+      "point_away": 1537
     },
     {
       "key": "2026-11-24|altrincham|wealdstone",
@@ -12788,7 +13612,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.0
+      "confidence": 43.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1522
     },
     {
       "key": "2026-11-24|tampa bay sun fc|dallas trinity fc",
@@ -12849,7 +13677,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.9
+      "confidence": 42.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1480
     },
     {
       "key": "2026-11-24|blackpool|leicester city",
@@ -12910,7 +13742,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.9
+      "confidence": 42.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1482,
+      "point_away": 1587
     },
     {
       "key": "2026-11-24|norwich city|queens park rangers",
@@ -12971,7 +13807,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1439,
+      "point_away": 1429
     },
     {
       "key": "2026-11-24|mexico u17|cameroon u17",
@@ -13032,7 +13872,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|afc hornchurch|sutton united",
@@ -13093,7 +13937,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|juve stabia|catanzaro",
@@ -13154,7 +14002,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1462,
+      "point_away": 1519
     },
     {
       "key": "2026-11-24|venezuela u17|romania u17",
@@ -13215,7 +14067,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1484
     },
     {
       "key": "2026-11-24|ross county|stenhousemuir",
@@ -13276,7 +14132,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1484
     },
     {
       "key": "2026-11-24|fleetwood town|leeds united u21",
@@ -13337,7 +14197,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.3
+      "confidence": 42.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1568
     },
     {
       "key": "2026-11-24|carlisle united|tamworth",
@@ -13398,7 +14262,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.1
+      "confidence": 42.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1521,
+      "point_away": 1480
     },
     {
       "key": "2026-11-24|cardiff city|preston north end",
@@ -13459,7 +14327,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1497,
+      "point_away": 1459
     },
     {
       "key": "2026-11-24|japan u17|serbia u17",
@@ -13520,7 +14392,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1519
     },
     {
       "key": "2026-11-24|honduras u17|colombia u17",
@@ -13581,7 +14457,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1517
     },
     {
       "key": "2026-11-24|afc fylde|fc halifax town",
@@ -13642,7 +14522,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1521
     },
     {
       "key": "2026-11-24|hibernian|dundee",
@@ -13703,7 +14587,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.4
+      "confidence": 41.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1477
     },
     {
       "key": "2026-11-24|bromley|wycombe wanderers",
@@ -13764,7 +14652,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.1
+      "confidence": 41.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1484
     },
     {
       "key": "2026-11-24|brazil u17|tanzania u17",
@@ -13825,7 +14717,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.0
+      "confidence": 41.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|sheffield united|southampton",
@@ -13886,7 +14782,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1593,
+      "point_away": 1519
     },
     {
       "key": "2026-11-24|east kilbride|partick thistle",
@@ -13947,7 +14847,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1520
     },
     {
       "key": "2026-11-24|costa rica u17|republic of ireland u17",
@@ -14008,7 +14912,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1484
     },
     {
       "key": "2026-11-24|palermo|sudtirol",
@@ -14069,7 +14977,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.7
+      "confidence": 40.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|livingston|peterhead",
@@ -14130,7 +15042,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.7
+      "confidence": 40.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1513
     },
     {
       "key": "2026-11-24|orlando pirates|golden arrows",
@@ -14191,7 +15107,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.6
+      "confidence": 40.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1564
     },
     {
       "key": "2026-11-24|middlesbrough|swansea city",
@@ -14252,7 +15172,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.5
+      "confidence": 40.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1475
     },
     {
       "key": "2026-11-24|kyoto sanga|pohang steelers",
@@ -14313,7 +15237,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.5
+      "confidence": 40.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1491
     },
     {
       "key": "2026-11-24|tranmere rovers|everton u21",
@@ -14374,7 +15302,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1525
     },
     {
       "key": "2026-11-24|dominican republic u17|chile u17",
@@ -14435,7 +15367,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1519
     },
     {
       "key": "2026-11-24|port vale|northampton town",
@@ -14496,7 +15432,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.9
+      "confidence": 39.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|algeria u17|montenegro u17",
@@ -14557,7 +15497,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.8
+      "confidence": 39.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|east bengal fc|al hussein sc",
@@ -14618,7 +15562,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1507
     },
     {
       "key": "2026-11-24|bradford city|barnsley",
@@ -14679,7 +15627,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1479
     },
     {
       "key": "2026-11-24|sreenidi deccan fc|chanmari fc",
@@ -14740,7 +15692,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1523
     },
     {
       "key": "2026-11-24|cesena|ascoli",
@@ -14801,7 +15757,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.3
+      "confidence": 39.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|salford city|sunderland u21",
@@ -14862,7 +15822,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1497
     },
     {
       "key": "2026-11-24|durban city|polokwane city fc",
@@ -14923,7 +15887,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.4
+      "confidence": 38.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1580,
+      "point_away": 1580
     },
     {
       "key": "2026-11-24|newcastle jets|kashiwa reysol",
@@ -14984,7 +15952,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|ratchaburi fc|johor darul ta zim",
@@ -15045,7 +16017,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1505
     },
     {
       "key": "2026-11-24|samaleswari sc|bengaluru united fc",
@@ -15106,7 +16082,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|alajuelense|cartagin s",
@@ -15167,7 +16147,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1550
     },
     {
       "key": "2026-11-24|cong an ha noi|vissel kobe",
@@ -15228,7 +16212,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|shabab al ahli|al qadsiah",
@@ -15289,7 +16277,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1625
     },
     {
       "key": "2026-11-24|eastleigh|yeovil town",
@@ -15350,7 +16342,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.8
+      "confidence": 37.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|bodo glimt|lask linz",
@@ -15411,7 +16407,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.7
+      "confidence": 37.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|coquimbo unido|uni n la calera",
@@ -15472,7 +16472,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1517
     },
     {
       "key": "2026-11-24|crawley town|barnet",
@@ -15533,7 +16537,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|vicenza|carrarese",
@@ -15594,7 +16602,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1508
     },
     {
       "key": "2026-11-24|chapecoense|palmeiras",
@@ -15655,7 +16667,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1465,
+      "point_away": 1485
     },
     {
       "key": "2026-11-24|feyenoord rotterdam|fc porto",
@@ -15716,7 +16732,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|benevento|empoli",
@@ -15777,7 +16797,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1479,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|forest green rovers|southend united",
@@ -15838,7 +16862,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.9
+      "confidence": 36.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|dunfermline athletic|kelty hearts",
@@ -15899,7 +16927,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1519
     },
     {
       "key": "2026-11-24|boston united|barrow",
@@ -15960,7 +16992,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1481
     },
     {
       "key": "2026-11-24|rangers|aberdeen",
@@ -16021,7 +17057,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1520
     },
     {
       "key": "2026-11-24|scunthorpe united|gateshead",
@@ -16082,7 +17122,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1482,
+      "point_away": 1483
     },
     {
       "key": "2026-11-24|arbroath|airdrieonians",
@@ -16143,7 +17187,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1576
     },
     {
       "key": "2026-11-24|northeast united fc|sporting club delhi",
@@ -16204,7 +17252,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.0
+      "confidence": 36.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|st louis city sc|lafc",
@@ -16265,7 +17317,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1508,
+      "point_away": 1554
     },
     {
       "key": "2026-11-24|santos|gr mio",
@@ -16326,7 +17382,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1499,
+      "point_away": 1500
     },
     {
       "key": "2026-11-24|millonarios|atl tico bucaramanga",
@@ -16387,7 +17447,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1499
     },
     {
       "key": "2026-11-24|daejeon hana citizen fc|beijing guoan",
@@ -16448,7 +17512,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.8
+      "confidence": 35.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1504,
+      "point_away": 1516
     },
     {
       "key": "2026-11-24|como|aek athens",
@@ -16509,7 +17577,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.5
+      "confidence": 35.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1517
     },
     {
       "key": "2026-11-24|ayr united|inverness caledonian thistle",
@@ -16570,7 +17642,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.3
+      "confidence": 35.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|bolton wanderers|west bromwich albion",
@@ -16631,7 +17707,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 67.5
+      "confidence": 67.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1264,
+      "point_away": 1561
     },
     {
       "key": "2026-11-25|burnley|birmingham city",
@@ -16692,7 +17772,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 64.5
+      "confidence": 64.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1667,
+      "point_away": 1408
     },
     {
       "key": "2026-11-25|atl tico madrid|viking fk",
@@ -16753,7 +17837,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 61.5
+      "confidence": 61.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1755,
+      "point_away": 1484
     },
     {
       "key": "2026-11-25|inter|stuttgart",
@@ -16814,7 +17902,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 52.6
+      "confidence": 52.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1818,
+      "point_away": 1642
     },
     {
       "key": "2026-11-25|slavia prague|villarreal",
@@ -16875,7 +17967,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.7
+      "confidence": 50.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1552,
+      "point_away": 1708
     },
     {
       "key": "2026-11-25|kuwait sc|al wahda fc",
@@ -16936,7 +18032,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.3
+      "confidence": 46.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1451,
+      "point_away": 1472
     },
     {
       "key": "2026-11-25|sabah fk|barcelona",
@@ -16997,7 +18097,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.5
+      "confidence": 45.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1575
     },
     {
       "key": "2026-11-25|lille|bayern",
@@ -17058,7 +18162,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.1
+      "confidence": 45.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1491,
+      "point_away": 1551
     },
     {
       "key": "2026-11-25|al taawoun|al nahda club",
@@ -17119,7 +18227,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.6
+      "confidence": 44.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1605,
+      "point_away": 1538
     },
     {
       "key": "2026-11-25|atl tico mg|corinthians",
@@ -17180,7 +18292,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.6
+      "confidence": 42.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1522
     },
     {
       "key": "2026-11-25|mantova|arezzo",
@@ -17241,7 +18357,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1453,
+      "point_away": 1562
     },
     {
       "key": "2026-11-25|san jose earthquakes|houston dynamo fc",
@@ -17302,7 +18422,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.3
+      "confidence": 42.3,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1392
     },
     {
       "key": "2026-11-25|real potos|always ready",
@@ -17363,7 +18487,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1519
     },
     {
       "key": "2026-11-25|libertad|2 de mayo",
@@ -17424,7 +18552,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1551,
+      "point_away": 1493
     },
     {
       "key": "2026-11-25|club brugge|liverpool",
@@ -17485,7 +18617,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1506
     },
     {
       "key": "2026-11-25|cremonese|us avellino",
@@ -17546,7 +18682,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1429
     },
     {
       "key": "2026-11-25|al muharraq sc|arkadag fk",
@@ -17607,7 +18747,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1499,
+      "point_away": 1491
     },
     {
       "key": "2026-11-25|psg|roma",
@@ -17668,7 +18812,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.6
+      "confidence": 40.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1827,
+      "point_away": 1750
     },
     {
       "key": "2026-11-25|fc tokyo|sanfrecce hiroshima",
@@ -17729,7 +18877,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.6
+      "confidence": 40.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|shillong lajong fc|nagaland united sc",
@@ -17790,7 +18942,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.8
+      "confidence": 39.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1520
     },
     {
       "key": "2026-11-25|persib bandung|fc seoul",
@@ -17851,7 +19007,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|ecuador u17|south korea u17",
@@ -17912,7 +19072,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1522
     },
     {
       "key": "2026-11-25|uganda u17|new caledonia u17",
@@ -17973,7 +19137,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1483
     },
     {
       "key": "2026-11-25|gamba osaka|port fc",
@@ -18034,7 +19202,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1520
     },
     {
       "key": "2026-11-25|al faisaly sc|al rayyan sc",
@@ -18095,7 +19267,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1559,
+      "point_away": 1572
     },
     {
       "key": "2026-11-25|australia u17|mozambique u17",
@@ -18156,7 +19332,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1522
     },
     {
       "key": "2026-11-25|denmark u17|argentina u17",
@@ -18217,7 +19397,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1480
     },
     {
       "key": "2026-11-25|al jazira club|gol gohar sirjan fc",
@@ -18278,7 +19462,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.2
+      "confidence": 39.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1518,
+      "point_away": 1535
     },
     {
       "key": "2026-11-25|nacional asunci n|rubio",
@@ -18339,7 +19527,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1477
     },
     {
       "key": "2026-11-25|watford|blackburn rovers",
@@ -18400,7 +19592,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1456
     },
     {
       "key": "2026-11-25|cerro porte o|guaran",
@@ -18461,7 +19657,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|sportivo luque o|club olimpia",
@@ -18522,7 +19722,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1550
     },
     {
       "key": "2026-11-25|sportivo trinidense|deportivo recoleta",
@@ -18583,7 +19787,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|padova|sampdoria",
@@ -18644,7 +19852,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.7
+      "confidence": 38.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1419,
+      "point_away": 1478
     },
     {
       "key": "2026-11-25|haiti u17|saudi arabia u17",
@@ -18705,7 +19917,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.7
+      "confidence": 38.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1483
     },
     {
       "key": "2026-11-25|uruguay u17|france u17",
@@ -18766,7 +19982,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.7
+      "confidence": 38.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1519
     },
     {
       "key": "2026-11-25|fagiano okayama|shimizu s pulse",
@@ -18827,7 +20047,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|urawa red diamonds|cerezo osaka",
@@ -18888,7 +20112,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1477
     },
     {
       "key": "2026-11-25|greece u17|qatar u17",
@@ -18949,7 +20177,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1519
     },
     {
       "key": "2026-11-25|panama u17|egypt u17",
@@ -19010,7 +20242,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1483
     },
     {
       "key": "2026-11-25|jef united ichihara chiba|nagoya grampus",
@@ -19071,7 +20307,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|shakhtar donetsk|fenerbahce",
@@ -19132,7 +20372,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.1
+      "confidence": 38.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1508,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|sporting de huelva|fc badalona",
@@ -19193,7 +20437,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.1
+      "confidence": 38.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1487,
+      "point_away": 1515
     },
     {
       "key": "2026-11-25|fc nasaf|al khaldiya sc",
@@ -19254,7 +20502,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1526,
+      "point_away": 1562
     },
     {
       "key": "2026-11-25|mito hollyhock|tokyo verdy 1969",
@@ -19315,7 +20567,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.8
+      "confidence": 37.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|melbourne victory|the cong viettel fc",
@@ -19376,7 +20632,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.7
+      "confidence": 37.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1511
     },
     {
       "key": "2026-11-25|mohammedan sc|rajasthan united fc",
@@ -19437,7 +20697,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.7
+      "confidence": 37.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1477
     },
     {
       "key": "2026-11-25|kashima antlers|jeonbuk hyundai motors",
@@ -19498,7 +20762,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.6
+      "confidence": 37.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1570
     },
     {
       "key": "2026-11-25|harrogate town|kidderminster harriers",
@@ -19559,7 +20827,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1498
     },
     {
       "key": "2026-11-25|v varen nagasaki|kawasaki frontale",
@@ -19620,7 +20892,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1516
     },
     {
       "key": "2026-11-25|sporting lisbon|man united",
@@ -19681,7 +20957,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1618
     },
     {
       "key": "2026-11-25|am rica de cali|deportivo cali",
@@ -19742,7 +21022,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|boreham wood|aldershot town",
@@ -19803,7 +21087,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1519
     },
     {
       "key": "2026-11-25|stoke city|millwall",
@@ -19864,7 +21152,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1436,
+      "point_away": 1478
     },
     {
       "key": "2026-11-25|avispa fukuoka|yokohama f marinos",
@@ -19925,7 +21217,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1500
     },
     {
       "key": "2026-11-25|pisa|modena",
@@ -19986,7 +21282,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1518
     },
     {
       "key": "2026-11-25|sportivo san lorenzo|sportivo ameliano",
@@ -20047,7 +21347,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1516
     },
     {
       "key": "2026-11-25|hartlepool united|solihull moors",
@@ -20108,7 +21412,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1516
     },
     {
       "key": "2026-11-25|independiente santa fe|once caldas",
@@ -20169,7 +21477,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|inter d escaldes|f c k benhavn",
@@ -20230,7 +21542,11 @@
       "or_decision": "CANDIDATE-ON-CAP",
       "value_rating": "A",
       "TOP_PICK": true,
-      "confidence": 64.0
+      "confidence": 64.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1818,
+      "point_away": 1485
     },
     {
       "key": "2026-11-26|nec nijmegen|stade rennais",
@@ -20291,7 +21607,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 60.6
+      "confidence": 60.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1711
     },
     {
       "key": "2026-11-26|sc freiburg|fc twente",
@@ -20352,7 +21672,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 58.9
+      "confidence": 58.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1695,
+      "point_away": 1476
     },
     {
       "key": "2026-11-26|juventus|omonia nicosia",
@@ -20413,7 +21737,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 58.4
+      "confidence": 58.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1787,
+      "point_away": 1577
     },
     {
       "key": "2026-11-26|rb salzburg|ararat armenia",
@@ -20474,7 +21802,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 57.3
+      "confidence": 57.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1533,
+      "point_away": 1372
     },
     {
       "key": "2026-11-26|borac banja luka|atalanta",
@@ -20535,7 +21867,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 57.3
+      "confidence": 57.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1489,
+      "point_away": 1770
     },
     {
       "key": "2026-11-26|lyon|lillestrom",
@@ -20596,7 +21932,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 55.9
+      "confidence": 55.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1684,
+      "point_away": 1491
     },
     {
       "key": "2026-11-26|marseille|levski sofia",
@@ -20657,7 +21997,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 53.4
+      "confidence": 53.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1713,
+      "point_away": 1536
     },
     {
       "key": "2026-11-26|brighton|csu craiova",
@@ -20718,7 +22062,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.2
+      "confidence": 51.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1705,
+      "point_away": 1552
     },
     {
       "key": "2026-11-26|doncaster rovers|huddersfield town",
@@ -20779,7 +22127,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.2
+      "confidence": 51.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1363
     },
     {
       "key": "2026-11-26|kaa gent|red star belgrade",
@@ -20840,7 +22192,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 50.5
+      "confidence": 50.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1559,
+      "point_away": 1381
     },
     {
       "key": "2026-11-26|olympiacos|milan",
@@ -20901,7 +22257,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 49.4
+      "confidence": 49.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1696
     },
     {
       "key": "2026-11-26|celta|afc bournemouth",
@@ -20962,7 +22322,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.8
+      "confidence": 47.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1511,
+      "point_away": 1681
     },
     {
       "key": "2026-11-26|dinamo zagreb|leverkusen",
@@ -21023,7 +22387,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.6
+      "confidence": 47.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1582,
+      "point_away": 1681
     },
     {
       "key": "2026-11-26|crystal palace|sociedad",
@@ -21084,7 +22452,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.4
+      "confidence": 47.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1640,
+      "point_away": 1536
     },
     {
       "key": "2026-11-26|jamaica u17|ivory coast u17",
@@ -21145,7 +22517,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.3
+      "confidence": 47.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1516
     },
     {
       "key": "2026-11-26|uzbekistan u17|italy u17",
@@ -21206,7 +22582,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.3
+      "confidence": 47.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1522
     },
     {
       "key": "2026-11-26|heart of midlothian|monaco",
@@ -21267,7 +22647,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 46.4
+      "confidence": 46.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1699
     },
     {
       "key": "2026-11-26|ajax amsterdam|fc thun",
@@ -21328,7 +22712,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.5
+      "confidence": 45.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1537,
+      "point_away": 1485
     },
     {
       "key": "2026-11-26|gangwon fc|kitchee sc",
@@ -21389,7 +22777,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.1
+      "confidence": 44.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1529,
+      "point_away": 1470
     },
     {
       "key": "2026-11-26|new zealand u17|belgium u17",
@@ -21450,7 +22842,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.1
+      "confidence": 44.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1516
     },
     {
       "key": "2026-11-26|vietnam u17|mali u17",
@@ -21511,7 +22907,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.1
+      "confidence": 44.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1522
     },
     {
       "key": "2026-11-26|bg pathum united|lion city sailors fc",
@@ -21572,7 +22972,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.3
+      "confidence": 43.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1506
     },
     {
       "key": "2026-11-26|kuching city|phnom penh crown fc",
@@ -21633,7 +23037,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.8
+      "confidence": 42.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1514,
+      "point_away": 1480
     },
     {
       "key": "2026-11-26|ofi crete|anderlecht",
@@ -21694,7 +23102,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.7
+      "confidence": 42.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1581,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|tai po fc|adelaide united fc",
@@ -21755,7 +23167,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1470,
+      "point_away": 1481
     },
     {
       "key": "2026-11-26|hajduk split|sint truidense",
@@ -21816,7 +23232,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1557,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|croatia u17|cuba u17",
@@ -21877,7 +23297,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1480
     },
     {
       "key": "2026-11-26|tajikistan u17|senegal u17",
@@ -21938,7 +23362,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|besiktas|hapoel be er",
@@ -21999,7 +23427,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1570,
+      "point_away": 1517
     },
     {
       "key": "2026-11-26|sunderland|jagiellonia bialystok",
@@ -22060,7 +23492,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.1
+      "confidence": 41.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1526,
+      "point_away": 1477
     },
     {
       "key": "2026-11-26|boca juniors|independiente rivadavia",
@@ -22121,7 +23557,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.7
+      "confidence": 40.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1483
     },
     {
       "key": "2026-11-26|al fateh|al riyadh",
@@ -22182,7 +23622,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.7
+      "confidence": 40.7,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1560,
+      "point_away": 1530
     },
     {
       "key": "2026-11-26|braga|kups kuopio",
@@ -22243,7 +23687,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.6
+      "confidence": 40.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|egnatia|lincoln red imps",
@@ -22304,7 +23752,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.7
+      "confidence": 39.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1509,
+      "point_away": 1483
     },
     {
       "key": "2026-11-26|pkr svay rieng|machida zelvia",
@@ -22365,7 +23817,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.7
+      "confidence": 39.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1513,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|torreense|celtic",
@@ -22426,7 +23882,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.6
+      "confidence": 39.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1486,
+      "point_away": 1522
     },
     {
       "key": "2026-11-26|barcelona sc|independiente del valle",
@@ -22487,7 +23947,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1483
     },
     {
       "key": "2026-11-26|china u17|fiji u17",
@@ -22548,7 +24012,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1477
     },
     {
       "key": "2026-11-26|morocco u17|spain u17",
@@ -22609,7 +24077,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1522
     },
     {
       "key": "2026-11-26|tampines rovers fc|shanghai shenhua fc",
@@ -22670,7 +24142,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1534,
+      "point_away": 1521
     },
     {
       "key": "2026-11-26|s o paulo|remo",
@@ -22731,7 +24207,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1519
     },
     {
       "key": "2026-11-26|cska sofia|trabzonspor",
@@ -22792,7 +24272,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1520
     },
     {
       "key": "2026-11-26|abha|al shabab",
@@ -22853,7 +24337,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1510,
+      "point_away": 1615
     },
     {
       "key": "2026-11-26|ferencvaros|nk celje",
@@ -22914,7 +24402,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1537,
+      "point_away": 1539
     },
     {
       "key": "2026-11-26|union st gilloise|lech poznan",
@@ -22975,7 +24467,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.1
+      "confidence": 38.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1490,
+      "point_away": 1578
     },
     {
       "key": "2026-11-26|municipal|aurora fc",
@@ -23036,7 +24532,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1517
     },
     {
       "key": "2026-11-26|jablonec|fc lugano",
@@ -23097,7 +24597,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1501,
+      "point_away": 1574
     },
     {
       "key": "2026-11-26|kairat almaty|mj llby aif",
@@ -23158,7 +24662,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1502,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|iberia 1999|getafe",
@@ -23219,7 +24727,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.4
+      "confidence": 37.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1519
     },
     {
       "key": "2026-11-26|viktoria plzen|benfica",
@@ -23280,7 +24792,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1499,
+      "point_away": 1523
     },
     {
       "key": "2026-11-26|pafos|fc midtjylland",
@@ -23341,7 +24857,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1491,
+      "point_away": 1513
     },
     {
       "key": "2026-11-26|sparta prague|az alkmaar",
@@ -23402,7 +24922,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1509
     },
     {
       "key": "2026-11-26|sk brann|agf",
@@ -23463,7 +24987,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1524,
+      "point_away": 1516
     },
     {
       "key": "2026-11-26|kauno zalgiris|riga fc",
@@ -23524,7 +25052,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1514,
+      "point_away": 1541
     },
     {
       "key": "2026-11-26|fc nordsj lland|panathinaikos",
@@ -23585,7 +25117,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1494,
+      "point_away": 1500
     },
     {
       "key": "2026-11-26|atl tico nacional|independiente medell n",
@@ -23646,7 +25182,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1516
     },
     {
       "key": "2026-11-26|tsg hoffenheim|sk sturm graz",
@@ -23707,7 +25247,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1511,
+      "point_away": 1544
     },
     {
       "key": "2026-11-26|fc ilves|sjk j",
@@ -23768,7 +25312,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.0
+      "confidence": 36.0,
+      "HA_effective": 3,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1511
     },
     {
       "key": "2026-11-26|al faisaly|al diriyah",
@@ -23829,7 +25377,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.8
+      "confidence": 35.8,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1530,
+      "point_away": 1584
     },
     {
       "key": "2026-11-27|vila nova|atl tico goianiense",
@@ -23890,7 +25442,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "B",
       "TOP_PICK": false,
-      "confidence": 54.7
+      "confidence": 54.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1554,
+      "point_away": 1755
     },
     {
       "key": "2026-11-27|oh leuven|kv kortrijk",
@@ -23951,7 +25507,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.2
+      "confidence": 41.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1494,
+      "point_away": 1582
     },
     {
       "key": "2026-11-27|abb|real tomayapo",
@@ -24012,7 +25572,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.6
+      "confidence": 40.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1477
     },
     {
       "key": "2026-11-27|independiente petrolero|real oruro",
@@ -24073,7 +25637,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1570
     },
     {
       "key": "2026-11-27|azam fc|al ahli tripoli",
@@ -24134,7 +25702,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1473,
+      "point_away": 1519
     },
     {
       "key": "2026-11-27|macarthur fc|melbourne city fc",
@@ -24195,7 +25767,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.3
+      "confidence": 38.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1518,
+      "point_away": 1500
     },
     {
       "key": "2026-11-27|fluminense|cruzeiro",
@@ -24256,7 +25832,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.3
+      "confidence": 37.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1532
     },
     {
       "key": "2026-11-27|grazer ak|sc rheindorf altach",
@@ -24317,7 +25897,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1476
     },
     {
       "key": "2026-11-27|maritimo|c d nacional",
@@ -24378,7 +25962,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-28|gv san jos|real potos",
@@ -24439,7 +26027,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.6
+      "confidence": 44.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1556,
+      "point_away": 1481
     },
     {
       "key": "2026-11-28|cercle brugge ksv|kv mechelen",
@@ -24500,7 +26092,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.3
+      "confidence": 44.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1477
     },
     {
       "key": "2026-11-28|colo colo|la serena",
@@ -24561,7 +26157,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.6
+      "confidence": 43.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1583,
+      "point_away": 1492
     },
     {
       "key": "2026-11-28|zamalek|club africain",
@@ -24622,7 +26222,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1670,
+      "point_away": 1610
     },
     {
       "key": "2026-11-28|nacional potos|oriente petrolero",
@@ -24683,7 +26287,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1500
     },
     {
       "key": "2026-11-28|lommel sk|zulte waregem",
@@ -24744,7 +26352,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.6
+      "confidence": 41.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1500
     },
     {
       "key": "2026-11-28|guabir|universitario de vinto",
@@ -24805,7 +26417,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.5
+      "confidence": 41.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1519
     },
     {
       "key": "2026-11-28|moreirense|santa clara",
@@ -24866,7 +26482,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.4
+      "confidence": 41.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1485
     },
     {
       "key": "2026-11-28|fortaleza|crici ma",
@@ -24927,7 +26547,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.2
+      "confidence": 40.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1574,
+      "point_away": 1544
     },
     {
       "key": "2026-11-28|raja casablanca|asko kara",
@@ -24988,7 +26612,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1583,
+      "point_away": 1573
     },
     {
       "key": "2026-11-28|atlanta|ciudad de bol var",
@@ -25049,7 +26677,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1483
     },
     {
       "key": "2026-11-28|pyramids fc|maghreb as de f s",
@@ -25110,7 +26742,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.3
+      "confidence": 39.3,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1536,
+      "point_away": 1529
     },
     {
       "key": "2026-11-28|rsb berkane|colombe sportiv du dja et lobo",
@@ -25171,7 +26807,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.2
+      "confidence": 39.2,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1511
     },
     {
       "key": "2026-11-28|deportivo madryn|gimnasia y esgrima jujuy",
@@ -25232,7 +26872,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1516
     },
     {
       "key": "2026-11-28|acad mico de viseu|alverca",
@@ -25293,7 +26937,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1509
     },
     {
       "key": "2026-11-28|austria vienna|wolfsberger",
@@ -25354,7 +27002,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.8
+      "confidence": 38.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1479,
+      "point_away": 1501
     },
     {
       "key": "2026-11-28|kvc westerlo|raal la louvi re",
@@ -25415,7 +27067,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.8
+      "confidence": 38.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1478
     },
     {
       "key": "2026-11-28|young africans|mc alger",
@@ -25476,7 +27132,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.8
+      "confidence": 38.8,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1630
     },
     {
       "key": "2026-11-28|trist n su rez|gimnasia y tiro salta",
@@ -25537,7 +27197,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1558,
+      "point_away": 1516
     },
     {
       "key": "2026-11-28|coquimbo unido|deportes limache",
@@ -25598,7 +27262,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.2
+      "confidence": 38.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1529
     },
     {
       "key": "2026-11-28|tbd home|tbd away",
@@ -25659,7 +27327,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.1
+      "confidence": 38.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1491
     },
     {
       "key": "2026-11-28|herediano|escorpiones bel n",
@@ -25720,7 +27392,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.7
+      "confidence": 37.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1500
     },
     {
       "key": "2026-11-28|royal charleroi sc|waasland beveren",
@@ -25781,7 +27457,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1520
     },
     {
       "key": "2026-11-28|arouca|rio ave",
@@ -25842,7 +27522,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.9
+      "confidence": 36.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1510
     },
     {
       "key": "2026-11-28|austria lustenau|rapid vienna",
@@ -25903,7 +27587,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1523
     },
     {
       "key": "2026-11-28|central coast mariners fc|auckland fc",
@@ -25964,7 +27652,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-28|as far|durban city",
@@ -26025,7 +27717,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1580
     },
     {
       "key": "2026-11-28|vit ria de guimaraes|estrela",
@@ -26086,7 +27782,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1484
     },
     {
       "key": "2026-11-28|esperance sportive de tunis|wiliete sc",
@@ -26147,7 +27847,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1495,
+      "point_away": 1557
     },
     {
       "key": "2026-11-28|deportivo mor n|col n santa fe",
@@ -26208,7 +27912,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.3
+      "confidence": 35.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-29|hilal|horoya",
@@ -26269,7 +27977,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 47.6
+      "confidence": 47.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1745,
+      "point_away": 1584
     },
     {
       "key": "2026-11-29|simba sc|orlando pirates",
@@ -26330,7 +28042,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.1
+      "confidence": 45.1,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1568,
+      "point_away": 1480
     },
     {
       "key": "2026-11-29|sv josko ried|tsv hartberg",
@@ -26391,7 +28107,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.6
+      "confidence": 44.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1578,
+      "point_away": 1484
     },
     {
       "key": "2026-11-29|gil vicente|estoril",
@@ -26452,7 +28172,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1547,
+      "point_away": 1483
     },
     {
       "key": "2026-11-29|corinthians|gr mio",
@@ -26513,7 +28237,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.9
+      "confidence": 41.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1522,
+      "point_away": 1500
     },
     {
       "key": "2026-11-29|sk sturm graz|wsg swarovski tirol",
@@ -26574,7 +28302,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1483
     },
     {
       "key": "2026-11-29|mirassol|athletico pr",
@@ -26635,7 +28367,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.0
+      "confidence": 41.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1484
     },
     {
       "key": "2026-11-29|standard liege|club brugge",
@@ -26696,7 +28432,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1523
     },
     {
       "key": "2026-11-29|petro de luanda|fc nouadhibou",
@@ -26757,7 +28497,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1562,
+      "point_away": 1529
     },
     {
       "key": "2026-11-29|uni n la calera|universidad de concepci n",
@@ -26818,7 +28562,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1483
     },
     {
       "key": "2026-11-29|fc porto|sporting lisbon",
@@ -26879,7 +28627,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1522
     },
     {
       "key": "2026-11-29|sint truidense|racing genk",
@@ -26940,7 +28692,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.9
+      "confidence": 39.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1522
     },
     {
       "key": "2026-11-29|ik start|sarpsborg fk",
@@ -27001,7 +28757,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.9
+      "confidence": 39.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1484
     },
     {
       "key": "2026-11-29|bol var|always ready",
@@ -27062,7 +28822,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.8
+      "confidence": 39.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1519
     },
     {
       "key": "2026-11-29|atl tico mg|vasco da gama",
@@ -27123,7 +28887,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.8
+      "confidence": 39.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1516
     },
     {
       "key": "2026-11-29|vit ria|santos",
@@ -27184,7 +28952,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.6
+      "confidence": 39.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1499
     },
     {
       "key": "2026-11-29|blooming|san antonio bulo bulo",
@@ -27245,7 +29017,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1535,
+      "point_away": 1517
     },
     {
       "key": "2026-11-29|universidad cat lica|huachipato",
@@ -27306,7 +29082,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1494
     },
     {
       "key": "2026-11-29|sk brann|kristiansund bk",
@@ -27367,7 +29147,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1524,
+      "point_away": 1512
     },
     {
       "key": "2026-11-29|deportes concepcion|universidad de chile",
@@ -27428,7 +29212,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1552,
+      "point_away": 1517
     },
     {
       "key": "2026-11-29|sandefjord|tromso",
@@ -27489,7 +29277,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.7
+      "confidence": 37.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1532,
+      "point_away": 1516
     },
     {
       "key": "2026-11-29|rb salzburg|lask linz",
@@ -27550,7 +29342,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1533,
+      "point_away": 1516
     },
     {
       "key": "2026-11-29|botafogo|bahia",
@@ -27611,7 +29407,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1478,
+      "point_away": 1482
     },
     {
       "key": "2026-11-29|union st gilloise|kaa gent",
@@ -27672,7 +29472,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1490,
+      "point_away": 1559
     },
     {
       "key": "2026-11-29|antwerp|anderlecht",
@@ -27733,7 +29537,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-11-29|internacional|red bull bragantino",
@@ -27794,7 +29602,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1484
     },
     {
       "key": "2026-11-29|ublense|cobresal",
@@ -27855,7 +29667,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.7
+      "confidence": 36.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1516
     },
     {
       "key": "2026-11-29|aurora|the strongest",
@@ -27916,7 +29732,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.6
+      "confidence": 36.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1541
     },
     {
       "key": "2026-11-29|viking fk|v lerenga",
@@ -27977,7 +29797,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1483
     },
     {
       "key": "2026-11-29|fredrikstad|aalesund",
@@ -28038,7 +29862,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1541
     },
     {
       "key": "2026-11-29|audax italiano|palestino",
@@ -28099,7 +29927,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.2
+      "confidence": 36.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1483
     },
     {
       "key": "2026-11-29|coritiba|flamengo",
@@ -28160,7 +29992,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1501,
+      "point_away": 1515
     },
     {
       "key": "2026-11-29|everton cd|o higgins",
@@ -28221,7 +30057,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1483
     },
     {
       "key": "2026-11-30|benfica|fc famalicao",
@@ -28282,7 +30122,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 51.2
+      "confidence": 51.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1703
     },
     {
       "key": "2026-11-30|casa pia|braga",
@@ -28343,7 +30187,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.3
+      "confidence": 40.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1520
     },
     {
       "key": "2026-12-01|real oruro|abb",
@@ -28404,7 +30252,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.4
+      "confidence": 43.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1570,
+      "point_away": 1483
     },
     {
       "key": "2026-12-01|real potos|universitario de vinto",
@@ -28465,7 +30317,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1519
     },
     {
       "key": "2026-12-01|pohang steelers|shanghai port fc",
@@ -28526,7 +30382,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.2
+      "confidence": 41.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1491,
+      "point_away": 1521
     },
     {
       "key": "2026-12-01|johor darul ta zim|daejeon hana citizen fc",
@@ -28587,7 +30447,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.5
+      "confidence": 38.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1505,
+      "point_away": 1504
     },
     {
       "key": "2026-12-01|beijing guoan|ratchaburi fc",
@@ -28648,7 +30512,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1515
     },
     {
       "key": "2026-12-01|kashiwa reysol|cong an ha noi",
@@ -28709,7 +30577,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1477
     },
     {
       "key": "2026-12-01|buriram united|kyoto sanga",
@@ -28770,7 +30642,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1516
     },
     {
       "key": "2026-12-01|vissel kobe|newcastle jets",
@@ -28831,7 +30707,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.6
+      "confidence": 36.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1500
     },
     {
       "key": "2026-12-01|real tomayapo|guabir",
@@ -28892,7 +30772,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1477,
+      "point_away": 1481
     },
     {
       "key": "2026-12-02|jeonbuk hyundai motors|gamba osaka",
@@ -28953,7 +30837,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.1
+      "confidence": 43.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1570,
+      "point_away": 1483
     },
     {
       "key": "2026-12-02|port fc|kashima antlers",
@@ -29014,7 +30902,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.7
+      "confidence": 39.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1500
     },
     {
       "key": "2026-12-02|always ready|blooming",
@@ -29075,7 +30967,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.1
+      "confidence": 39.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1535
     },
     {
       "key": "2026-12-02|boca juniors|platense",
@@ -29136,7 +31032,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.0
+      "confidence": 39.0,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1500
     },
     {
       "key": "2026-12-02|the cong viettel fc|persib bandung",
@@ -29197,7 +31097,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.4
+      "confidence": 37.4,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1511,
+      "point_away": 1500
     },
     {
       "key": "2026-12-02|fc seoul|melbourne victory",
@@ -29258,7 +31162,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.3
+      "confidence": 37.3,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1500
     },
     {
       "key": "2026-12-02|the strongest|nacional potos",
@@ -29319,7 +31227,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1541,
+      "point_away": 1523
     },
     {
       "key": "2026-12-03|flamengo|chapecoense",
@@ -29380,7 +31292,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.1
+      "confidence": 44.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1515,
+      "point_away": 1465
     },
     {
       "key": "2026-12-03|cruzeiro|internacional",
@@ -29441,7 +31357,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.5
+      "confidence": 43.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1532,
+      "point_away": 1484
     },
     {
       "key": "2026-12-03|adelaide united fc|bg pathum united",
@@ -29502,7 +31422,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.9
+      "confidence": 42.9,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1519
     },
     {
       "key": "2026-12-03|shanghai shenhua fc|pkr svay rieng",
@@ -29563,7 +31487,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.0
+      "confidence": 42.0,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1521,
+      "point_away": 1513
     },
     {
       "key": "2026-12-03|santos|botafogo",
@@ -29624,7 +31552,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.8
+      "confidence": 41.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1499,
+      "point_away": 1478
     },
     {
       "key": "2026-12-03|lion city sailors fc|tai po fc",
@@ -29685,7 +31617,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.1
+      "confidence": 40.1,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1506,
+      "point_away": 1470
     },
     {
       "key": "2026-12-03|oriente petrolero|bol var",
@@ -29746,7 +31682,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1483
     },
     {
       "key": "2026-12-03|red bull bragantino|fluminense",
@@ -29807,7 +31747,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.4
+      "confidence": 38.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1517
     },
     {
       "key": "2026-12-03|kitchee sc|kuching city",
@@ -29868,7 +31812,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1470,
+      "point_away": 1514
     },
     {
       "key": "2026-12-03|palmeiras|coritiba",
@@ -29929,7 +31877,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1485,
+      "point_away": 1501
     },
     {
       "key": "2026-12-03|vasco da gama|vit ria",
@@ -29990,7 +31942,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1516
     },
     {
       "key": "2026-12-03|remo|corinthians",
@@ -30051,7 +32007,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1522
     },
     {
       "key": "2026-12-03|gr mio|mirassol",
@@ -30112,7 +32072,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1515
     },
     {
       "key": "2026-12-03|bahia|atl tico mg",
@@ -30173,7 +32137,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.5
+      "confidence": 36.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1482,
+      "point_away": 1480
     },
     {
       "key": "2026-12-03|phnom penh crown fc|gangwon fc",
@@ -30234,7 +32202,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1529
     },
     {
       "key": "2026-12-03|san antonio bulo bulo|gv san jos",
@@ -30295,7 +32267,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1556
     },
     {
       "key": "2026-12-03|athletico pr|s o paulo",
@@ -30356,7 +32332,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1483
     },
     {
       "key": "2026-12-03|machida zelvia|tampines rovers fc",
@@ -30417,7 +32397,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.6
+      "confidence": 35.6,
+      "HA_effective": 5,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1534
     },
     {
       "key": "2026-12-04|durban city|azam fc",
@@ -30478,7 +32462,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.0
+      "confidence": 45.0,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1580,
+      "point_away": 1473
     },
     {
       "key": "2026-12-04|marumo gallants|chippa united",
@@ -30539,7 +32527,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.5
+      "confidence": 40.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1506,
+      "point_away": 1470
     },
     {
       "key": "2026-12-04|aurora|independiente petrolero",
@@ -30600,7 +32592,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1500
     },
     {
       "key": "2026-12-04|singida black stars|tbd away",
@@ -30661,7 +32657,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.9
+      "confidence": 38.9,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1490,
+      "point_away": 1491
     },
     {
       "key": "2026-12-04|molde|viking fk",
@@ -30722,7 +32722,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.3
+      "confidence": 37.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1484
     },
     {
       "key": "2026-12-04|mc alger|zamalek",
@@ -30783,7 +32787,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.6
+      "confidence": 36.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1630,
+      "point_away": 1670
     },
     {
       "key": "2026-12-04|sc rheindorf altach|rb salzburg",
@@ -30844,7 +32852,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.4
+      "confidence": 36.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1476,
+      "point_away": 1533
     },
     {
       "key": "2026-12-05|maghreb as de f s|hilal",
@@ -30905,7 +32917,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 44.3
+      "confidence": 44.3,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1529,
+      "point_away": 1745
     },
     {
       "key": "2026-12-05|braga|arouca",
@@ -30966,7 +32982,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.7
+      "confidence": 42.7,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1520,
+      "point_away": 1484
     },
     {
       "key": "2026-12-05|club africain|young africans",
@@ -31027,7 +33047,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1610,
+      "point_away": 1515
     },
     {
       "key": "2026-12-05|red arrows|as maniema union",
@@ -31088,7 +33112,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.4
+      "confidence": 42.4,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1540,
+      "point_away": 1479
     },
     {
       "key": "2026-12-05|zenit st petersburg|fc baltika kaliningrad",
@@ -31149,7 +33177,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1520
     },
     {
       "key": "2026-12-05|western sydney wanderers fc|perth glory fc",
@@ -31210,7 +33242,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1500
     },
     {
       "key": "2026-12-05|al ahli tripoli|as far",
@@ -31271,7 +33307,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.8
+      "confidence": 40.8,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1519,
+      "point_away": 1515
     },
     {
       "key": "2026-12-05|akhmat grozny|lokomotiv moscow",
@@ -31332,7 +33372,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.0
+      "confidence": 40.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1483
     },
     {
       "key": "2026-12-05|golden arrows|kruger united",
@@ -31393,7 +33437,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.5
+      "confidence": 39.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1564,
+      "point_away": 1545
     },
     {
       "key": "2026-12-05|tsv hartberg|grazer ak",
@@ -31454,7 +33502,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.4
+      "confidence": 38.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1477
     },
     {
       "key": "2026-12-05|rapid vienna|lask linz",
@@ -31515,7 +33567,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.4
+      "confidence": 38.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1523,
+      "point_away": 1516
     },
     {
       "key": "2026-12-05|cd primeiro de agosto|raja casablanca",
@@ -31576,7 +33632,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.9
+      "confidence": 37.9,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1565,
+      "point_away": 1583
     },
     {
       "key": "2026-12-05|santa clara|fc porto",
@@ -31637,7 +33697,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1485,
+      "point_away": 1500
     },
     {
       "key": "2026-12-05|sekhukhune united fc|amazulu",
@@ -31698,7 +33762,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1496,
+      "point_away": 1511
     },
     {
       "key": "2026-12-05|orlando pirates|rsb berkane",
@@ -31759,7 +33827,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.2
+      "confidence": 37.2,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1515
     },
     {
       "key": "2026-12-05|rodina moscow|cska moscow",
@@ -31820,7 +33892,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1483
     },
     {
       "key": "2026-12-05|c d nacional|benfica",
@@ -31881,7 +33957,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.0
+      "confidence": 37.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1523
     },
     {
       "key": "2026-12-05|akron tolyatti|gazovik orenburg",
@@ -31942,7 +34022,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.8
+      "confidence": 36.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1480,
+      "point_away": 1480
     },
     {
       "key": "2026-12-05|mamelodi sundowns|polokwane city fc",
@@ -32003,7 +34087,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.6
+      "confidence": 36.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1549,
+      "point_away": 1580
     },
     {
       "key": "2026-12-05|milford fc|kaizer chiefs",
@@ -32064,7 +34152,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1564,
+      "point_away": 1600
     },
     {
       "key": "2026-12-06|sk sturm graz|austria vienna",
@@ -32125,7 +34217,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 45.2
+      "confidence": 45.2,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1544,
+      "point_away": 1479
     },
     {
       "key": "2026-12-06|sv josko ried|wsg swarovski tirol",
@@ -32186,7 +34282,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 43.5
+      "confidence": 43.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1578,
+      "point_away": 1483
     },
     {
       "key": "2026-12-06|kfum oslo|fredrikstad",
@@ -32247,7 +34347,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 42.1
+      "confidence": 42.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1577,
+      "point_away": 1500
     },
     {
       "key": "2026-12-06|horoya|pyramids fc",
@@ -32308,7 +34412,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.7
+      "confidence": 41.7,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1584,
+      "point_away": 1536
     },
     {
       "key": "2026-12-06|wellington phoenix|adelaide united fc",
@@ -32369,7 +34477,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 41.1
+      "confidence": 41.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1502,
+      "point_away": 1481
     },
     {
       "key": "2026-12-06|fc nouadhibou|esperance sportive de tunis",
@@ -32430,7 +34542,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 40.9
+      "confidence": 40.9,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1529,
+      "point_away": 1495
     },
     {
       "key": "2026-12-06|la serena|audax italiano",
@@ -32491,7 +34607,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.9
+      "confidence": 39.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1492,
+      "point_away": 1484
     },
     {
       "key": "2026-12-06|kristiansund bk|lillestrom",
@@ -32552,7 +34672,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 39.4
+      "confidence": 39.4,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1512,
+      "point_away": 1491
     },
     {
       "key": "2026-12-06|wiliete sc|petro de luanda",
@@ -32613,7 +34737,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1557,
+      "point_away": 1562
     },
     {
       "key": "2026-12-06|o higgins|coquimbo unido",
@@ -32674,7 +34802,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.6
+      "confidence": 38.6,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1516
     },
     {
       "key": "2026-12-06|tromso|ik start",
@@ -32735,7 +34867,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 38.0
+      "confidence": 38.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1517
     },
     {
       "key": "2026-12-06|universidad de concepci n|universidad cat lica",
@@ -32796,7 +34932,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.9
+      "confidence": 37.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1517
     },
     {
       "key": "2026-12-06|palestino|everton cd",
@@ -32857,7 +34997,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.5
+      "confidence": 37.5,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1483,
+      "point_away": 1484
     },
     {
       "key": "2026-12-06|deportes limache|deportes concepcion",
@@ -32918,7 +35062,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 37.1
+      "confidence": 37.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1529,
+      "point_away": 1552
     },
     {
       "key": "2026-12-06|cobresal|colo colo",
@@ -32979,7 +35127,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.9
+      "confidence": 36.9,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1516,
+      "point_away": 1583
     },
     {
       "key": "2026-12-06|sydney fc|melbourne victory",
@@ -33040,7 +35192,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1481,
+      "point_away": 1500
     },
     {
       "key": "2026-12-06|universidad de chile|uni n la calera",
@@ -33101,7 +35257,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.3
+      "confidence": 36.3,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1517,
+      "point_away": 1517
     },
     {
       "key": "2026-12-06|huachipato|ublense",
@@ -33162,7 +35322,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1494,
+      "point_away": 1517
     },
     {
       "key": "2026-12-06|sarpsborg fk|sk brann",
@@ -33223,7 +35387,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.1
+      "confidence": 36.1,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1484,
+      "point_away": 1524
     },
     {
       "key": "2026-12-06|wolfsberger|austria lustenau",
@@ -33284,7 +35452,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 36.0
+      "confidence": 36.0,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1501,
+      "point_away": 1517
     },
     {
       "key": "2026-12-06|colombe sportiv du dja et lobo|simba sc",
@@ -33345,7 +35517,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.9
+      "confidence": 35.9,
+      "HA_effective": 12,
+      "cairo_neutral": false,
+      "point_home": 1511,
+      "point_away": 1568
     },
     {
       "key": "2026-12-06|hamarkameratene|sandefjord",
@@ -33406,7 +35582,11 @@
       "or_decision": "ABSTAIN",
       "value_rating": "C",
       "TOP_PICK": false,
-      "confidence": 35.8
+      "confidence": 35.8,
+      "HA_effective": 8,
+      "cairo_neutral": false,
+      "point_home": 1500,
+      "point_away": 1532
     }
   ],
   "recent_results": [
